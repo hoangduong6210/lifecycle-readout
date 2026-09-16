@@ -1,29 +1,64 @@
 ---
 title: Lifecycle Readout Research Wiki
 status: canonical home
-last_updated: 2026-08-19
+last_updated: 2026-09-16
 paper_source: false
 ---
 
 # Lifecycle Readout Research Wiki
 
-This wiki owns current scientific interpretation, claim status, limitations,
-and publication eligibility for the lifecycle-readout study. Executable code is
-in `src/` and `experiments/`; protocols/configuration are in `protocols/` and
-`configs/`; local raw corpus copies are in ignored `resources/corpora/`; mutable
-and frozen evidence belong under `results/`; working and immutable paper states
-belong under `paper/`. None replaces this wiki.
+This wiki is the project's scientific source of truth. It owns method
+interpretation, claim status, limitations, decisions, and publication-ready
+language. A paper is a versioned snapshot of admitted wiki content, not an
+independent source of new claims.
 
-| Reader or task | Begin with | Continue with |
+Executable code lives under `src/` and `experiments/`; protocol and configuration
+live under `protocols/` and `configs/`. The dataset registry identifies local
+corpora, and the evidence ledger explains what checked artifacts establish.
+Both release pointers are `UNRELEASED`.
+
+## Choose an entry route
+
+| Reader | Begin here | Then read |
 |---|---|---|
-| New contributor | [Start Here](START-HERE.md) | [System Map](architecture/Research-System-Map.md) and [Workflow](operations/Research-Workflow.md) |
-| Scientific reviewer | [Claim Registry](claims/Current-Claim-Language.md) | [Evidence Ledger](evidence/Evidence-Ledger.md), [Results](results/Lifecycle-Faithfulness-and-Invariance.md), and [Limitations](LIMITATIONS.md) |
-| Dataset/provenance reviewer | [Dataset Registry](datasets/Dataset-Registry.md) | [Data Contract](datasets/Data-and-Target-Contract.md), [Source Map](references/Technical-Source-Map.md), and [License](governance/License-and-Assets.md) |
-| Publication auditor | [Numeric Evidence and Publication Hygiene](governance/Numeric-Evidence-and-Publication-Hygiene.md) | Numeric closure, execution identity, and export exclusions |
-| Compute operator | [Research Workflow](operations/Research-Workflow.md) | [Live Execution](status/Live-Execution.md), protocol, and configuration |
-| Paper editor | [Paper Export Contract](manuscript/Paper-Export-Contract.md) | admitted claims, evidence ledger, and limitations |
+| New contributor | [Start Here](START-HERE.md) | [Research System Map](architecture/Research-System-Map.md) and [Research Workflow](operations/Research-Workflow.md) |
+| Returning owner | [Project Status](status/Project-Status.md) | [Live Execution](status/Live-Execution.md), claims, evidence, and reproducibility |
+| Research reader | [Claim Registry](claims/Current-Claim-Language.md) | [Research Questions](questions/Research-Questions.md), [Methods](methods/Hierarchical-Lifecycle-Readout.md), [Results](results/Lifecycle-Faithfulness-and-Invariance.md), and [Limitations](LIMITATIONS.md) |
+| Dataset reviewer | [Dataset Registry](datasets/Dataset-Registry.md) | [Data and Target Contract](datasets/Data-and-Target-Contract.md), [Source Map](references/Technical-Source-Map.md), and [License and Assets](governance/License-and-Assets.md) |
+| Compute operator | [Research Workflow](operations/Research-Workflow.md) | [Live Execution](status/Live-Execution.md) and the [Reproducibility Contract](REPRODUCIBILITY.md) |
+| Paper editor | [Paper Export Contract](manuscript/Paper-Export-Contract.md) | [Claim Registry](claims/Current-Claim-Language.md), [Evidence Ledger](evidence/Evidence-Ledger.md), and [Limitations](LIMITATIONS.md) |
 
-The [Index](INDEX.md) enumerates every maintained page and identifier. A legacy
-result becomes publishable only after an immutable release, evidence-ledger
-closure, and claim admission. `paper/working/` is quarantined editorial history,
-not a source of permitted claim language.
+## Canonical index
+
+The [Exhaustive Index](INDEX.md) lists every maintained wiki page by semantic
+owner and links the current identifiers to their registries. A page absent from
+that index is outside the maintained research record.
+
+## Authority rules
+
+1. `paper_source: true` identifies prose that may be considered for a future
+   paper only after its linked claim is admitted.
+2. `paper_source: false` identifies operational, historical, or editorial
+   material; it does not itself permit a scientific claim.
+3. A completed computation does not become a claim automatically. The
+   [Claim Registry](claims/Current-Claim-Language.md) owns exact wording,
+   population, evidence, qualifiers, and paper eligibility.
+4. A frozen release must pin source, data, configuration, attempts, failures,
+   and hashes before its evidence can support a claim.
+5. `paper/working/` and `results/historical/` remain local quarantine inputs,
+   outside the source repository and public-release surface.
+
+## Admission path
+
+```text
+research question
+    -> frozen protocol and immutable inputs
+    -> complete scheduler attempts and numerical gates
+    -> checksum-locked evidence release
+    -> scoped claim reviewed in the registry
+    -> manuscript-source page
+    -> versioned paper snapshot
+```
+
+The [Project Status](status/Project-Status.md) and [Evidence Ledger](evidence/Evidence-Ledger.md)
+currently stop this path before a scientific release or paper snapshot.
