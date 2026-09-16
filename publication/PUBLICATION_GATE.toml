@@ -1,0 +1,21 @@
+schema_version = 1
+status = "BLOCKED"
+scope = "lifecycle-readout public release"
+
+always_excluded = [
+  "paper/working/",
+  "paper/figs/",
+  "figures/generated/",
+  "results/historical/",
+  "results/audit/",
+  "resources/corpora/",
+  "docs/PERPAIR_GLOBALIZATION_DESIGN.md",
+]
+
+blocking_reasons = [
+  "No frozen evidence release or admitted scientific claim exists",
+  "Dataset identity, license, and redistribution permission remain unresolved",
+  "Code license selection is pending owner review",
+]
+
+required_release_builder = "per-project allowlist-only immutable builder"

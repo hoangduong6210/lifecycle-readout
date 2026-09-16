@@ -1,0 +1,7 @@
+protocol_id = "LCR-P-READOUT-001"
+status = "migration-draft"
+dataset = "coedit"
+seeds = [1, 7, 42]
+states = ["IDLE", "BIRTH", "REINFORCE", "DECAY", "DEATH"]
+required_gates = ["gradient-ancestry", "score-invariance", "intervention-direction", "reversibility"]
+heavy_compute = "scheduler-only"

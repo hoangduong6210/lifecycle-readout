@@ -1,0 +1,14 @@
+manifest_version = 1
+status = "legacy-import"
+
+[[dataset]]
+id = "LCR-D-COEDIT-001"
+path = "corpora/coedit.npz"
+sha256 = "09bc8c8ff6ef96e956bfcf84c504c8213447cf5cb3b5136631bcaf063ffc47cd"
+state = "CURRENT"
+
+[[dataset]]
+id = "LCR-D-COEDIT-PREIDFIX-001"
+path = "corpora/pre_idfix/coedit.npz"
+sha256 = "09bc8c8ff6ef96e956bfcf84c504c8213447cf5cb3b5136631bcaf063ffc47cd"
+state = "HISTORICAL-BIT-IDENTICAL"

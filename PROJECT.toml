@@ -1,0 +1,18 @@
+[project]
+id = "temporal-lifecycle-readout"
+name = "Faithful Lifecycle Readout for Temporal Graphs"
+stage = "split-migration-audit"
+implementation_version = "0.1.0"
+last_updated = "2026-08-19"
+
+[pointers]
+evidence_release = "UNRELEASED"
+paper_snapshot = "UNRELEASED"
+status = "wiki/status/Project-Status.md"
+claims = "wiki/claims/Current-Claim-Language.md"
+evidence = "wiki/evidence/Evidence-Ledger.md"
+
+[canonical]
+implementation = "src/lifecycle_readout"
+experiments = "experiments"
+wiki = "wiki"

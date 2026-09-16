@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "temporal-lifecycle-readout"
+version = "0.1.0"
+description = "Research code for a faithful temporal lifecycle readout"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=2.0,<3",
+  "pandas>=2.3,<3",
+  "torch>=2.8,<3",
+  "scikit-learn>=1.6,<2",
+  "tqdm>=4.67,<5",
+  "scipy>=1.13,<2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=6.2,<9", "matplotlib>=3.9,<4"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra -p no:cacheprovider"

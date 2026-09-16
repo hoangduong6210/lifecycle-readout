@@ -1,0 +1,17 @@
+[study]
+datasets = ["coedit"]
+seeds = [1, 7, 42]
+states = ["IDLE", "BIRTH", "REINFORCE", "DECAY", "DEATH"]
+
+[training]
+epochs = 20
+hidden = 128
+batch_size = 500
+learning_rate = 0.001
+
+[readout]
+decoder = "hierarchical"
+lambda_edge_transition = 0.5
+
+[evidence]
+status = "legacy-import-not-frozen"
