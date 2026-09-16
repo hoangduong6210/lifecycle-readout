@@ -128,6 +128,7 @@ and failure, and pass evidence and claim review before appearing here.
 
 ## License
 
-No project code license has been selected. Do not infer a grant from this
-repository. Dataset and third-party terms require separate review; see
-[License and Assets](wiki/governance/License-and-Assets.md).
+This public source repository grants no reuse license; rights remain with their
+respective holders. A code license requires an ownership review, especially for
+the copied backbone. Dataset and third-party terms require separate review;
+see [License and Assets](wiki/governance/License-and-Assets.md).

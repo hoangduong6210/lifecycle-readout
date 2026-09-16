@@ -14,8 +14,9 @@ named/blind paper working tree, and canonical wiki are separated. Evidence and
 paper pointers remain `UNRELEASED`. The original mixed tree remains a read-only
 migration source because it contains dirty changes and pre-ID-fix provenance.
 No scientific conclusion changed during the split.
-The standalone source repository excludes local corpora, historical results,
-legacy figures, and working manuscripts under the blocked publication gate.
+The public source repository excludes local corpora, historical results, legacy
+figures, and working manuscripts. The scientific evidence and paper publication
+gate remains blocked.
 
 ## Verification state
 

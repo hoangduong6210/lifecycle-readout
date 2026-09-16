@@ -1,6 +1,6 @@
-schema_version = 1
+schema_version = 2
 status = "BLOCKED"
-scope = "lifecycle-readout public release"
+scope = "scientific evidence and manuscript release"
 
 always_excluded = [
   "paper/working/",
@@ -15,7 +15,15 @@ always_excluded = [
 blocking_reasons = [
   "No frozen evidence release or admitted scientific claim exists",
   "Dataset identity, license, and redistribution permission remain unresolved",
-  "Code license selection is pending owner review",
+  "Code ownership review is required before granting a reuse license",
 ]
 
 required_release_builder = "per-project allowlist-only immutable builder"
+
+[source_repository]
+visibility = "public"
+scope = "tracked source code, documentation, manifests, and structural tests"
+code_license = "NONE"
+dataset_redistribution = "BLOCKED"
+scientific_evidence_release = "UNRELEASED"
+paper_snapshot = "UNRELEASED"

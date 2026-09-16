@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Please cite the archived paper snapshot associated with the evidence release you use."
+message: "Please cite this software repository. No scientific evidence release or paper snapshot is currently admitted."
 title: "Faithful Lifecycle Readout for Temporal Graphs"
 type: software
 authors:
@@ -10,4 +10,4 @@ authors:
   - family-names: Shih
     given-names: Lun-Min
 version: 0.1.0
-date-released: 2026-08-19
+date-released: 2026-09-16
