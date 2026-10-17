@@ -1,0 +1,167 @@
+{
+  "attempt": "lcr-reddit-bf7053e7a2",
+  "scope": "training clock and recorded validation only",
+  "causal_attribution": false,
+  "test_metrics_used": false,
+  "per_seed": [
+    {
+      "seed": 1,
+      "train_candidate_count": 74412,
+      "train_elapsed_quantiles_seconds": {
+        "min": 0.007000000216066837,
+        "median": 90015.328125,
+        "q90": 617458.4250000002,
+        "q99": 1368874.7249999999,
+        "max": 1851537.625
+      },
+      "reference_scalar_initial_rate": 0.1,
+      "reference_clock_seconds": 1000.0,
+      "median_initial_scalar_multiplier": 0.0001232208451256156,
+      "validation": {
+        "base": {
+          "selected_epoch": 5,
+          "last_recorded_epoch": 10,
+          "ap": 0.5363913474137362,
+          "brier": 0.2528134286403656
+        },
+        "base_stats": {
+          "selected_epoch": 5,
+          "last_recorded_epoch": 10,
+          "ap": 0.5418304126144031,
+          "brier": 0.25271865725517273
+        },
+        "scalar_decay": {
+          "selected_epoch": 10,
+          "last_recorded_epoch": 10,
+          "ap": 0.515672252348162,
+          "brier": 0.42657962441444397
+        },
+        "mlp_gate": {
+          "selected_epoch": 5,
+          "last_recorded_epoch": 10,
+          "ap": 0.5469534079014042,
+          "brier": 0.2515328824520111
+        },
+        "ordered_gate": {
+          "selected_epoch": 5,
+          "last_recorded_epoch": 10,
+          "ap": 0.5517252003779197,
+          "brier": 0.2491369992494583
+        }
+      }
+    },
+    {
+      "seed": 42,
+      "train_candidate_count": 74412,
+      "train_elapsed_quantiles_seconds": {
+        "min": 0.007000000216066837,
+        "median": 90025.1171875,
+        "q90": 619271.8812500007,
+        "q99": 1365147.1987499997,
+        "max": 1847440.875
+      },
+      "reference_scalar_initial_rate": 0.1,
+      "reference_clock_seconds": 1000.0,
+      "median_initial_scalar_multiplier": 0.00012310025340411812,
+      "validation": {
+        "base": {
+          "selected_epoch": 5,
+          "last_recorded_epoch": 10,
+          "ap": 0.5424472854849839,
+          "brier": 0.2522231936454773
+        },
+        "base_stats": {
+          "selected_epoch": 5,
+          "last_recorded_epoch": 10,
+          "ap": 0.5503440484265778,
+          "brier": 0.2507098913192749
+        },
+        "scalar_decay": {
+          "selected_epoch": 8,
+          "last_recorded_epoch": 10,
+          "ap": 0.512844483926341,
+          "brier": 0.4311666488647461
+        },
+        "mlp_gate": {
+          "selected_epoch": 5,
+          "last_recorded_epoch": 10,
+          "ap": 0.5513189640132576,
+          "brier": 0.2503930926322937
+        },
+        "ordered_gate": {
+          "selected_epoch": 6,
+          "last_recorded_epoch": 10,
+          "ap": 0.5543968107837056,
+          "brier": 0.24808740615844727
+        }
+      }
+    },
+    {
+      "seed": 7,
+      "train_candidate_count": 74412,
+      "train_elapsed_quantiles_seconds": {
+        "min": 0.007000000216066837,
+        "median": 90004.3671875,
+        "q90": 619710.6562500006,
+        "q99": 1370206.1199999999,
+        "max": 1853990.5
+      },
+      "reference_scalar_initial_rate": 0.1,
+      "reference_clock_seconds": 1000.0,
+      "median_initial_scalar_multiplier": 0.0001233559160027653,
+      "validation": {
+        "base": {
+          "selected_epoch": 4,
+          "last_recorded_epoch": 10,
+          "ap": 0.5423280923562162,
+          "brier": 0.2493303120136261
+        },
+        "base_stats": {
+          "selected_epoch": 4,
+          "last_recorded_epoch": 10,
+          "ap": 0.549139727525825,
+          "brier": 0.24905644357204437
+        },
+        "scalar_decay": {
+          "selected_epoch": 9,
+          "last_recorded_epoch": 10,
+          "ap": 0.5124220844704213,
+          "brier": 0.4307965338230133
+        },
+        "mlp_gate": {
+          "selected_epoch": 4,
+          "last_recorded_epoch": 10,
+          "ap": 0.5520206458716153,
+          "brier": 0.24839425086975098
+        },
+        "ordered_gate": {
+          "selected_epoch": 4,
+          "last_recorded_epoch": 10,
+          "ap": 0.5547544580659984,
+          "brier": 0.24785833060741425
+        }
+      }
+    }
+  ],
+  "input_sha256": {
+    "artifacts/source_manifest.json": "3d5db7195a55e697c4194a87ea24caf26efceed2a0568f0376bbbd8c5e02cb68",
+    "artifacts/seed1/candidate_identity.npz": "29f9540c2a126d6a4319d6ba9df1f79839b8ae2bec304a2b98634360b7319552",
+    "artifacts/seed1/base_seed1.json": "dae13bd5eabb69c4d9ed8224de5abc896b0b6886bf7e08eb148abbb0253d0a4d",
+    "artifacts/seed1/base_stats_seed1.json": "e343e4f037270f3cf3294a2e7528e43d96418f474b2741a6e67ec4cb1508a357",
+    "artifacts/seed1/scalar_decay_seed1.json": "21d0ef969c2cc59e480e9a3fd3bac5a8a002e7a42f1bc18a8f1608360e4244e9",
+    "artifacts/seed1/mlp_gate_seed1.json": "c388b726fb790c4bb03dcaa22c14d0ddaad6bbe6d8611eaad3405c532e3eab9c",
+    "artifacts/seed1/ordered_gate_seed1.json": "ac21da9472ed6f02a21eed46302be1a3389cbb113ac776a80200f2c0fdb95b81",
+    "artifacts/seed42/candidate_identity.npz": "ec3828461109380a53625cd091bafcad6a2ac701260e695d40bcb0a8593b109f",
+    "artifacts/seed42/base_seed42.json": "3b09f18ae6b85b532bce5a6a8a4df2c866be5a6d4b0983bb3ffdbd10038c07ea",
+    "artifacts/seed42/base_stats_seed42.json": "a16b1d05eb68157db0aceb7d6547cace12b219e093963d2a50e95d0e54690713",
+    "artifacts/seed42/scalar_decay_seed42.json": "13cfa712926c27de656502776157904acbeb7f6fead3f9d6f7844aacbb979f07",
+    "artifacts/seed42/mlp_gate_seed42.json": "c2a535cd704b11e4e3c0c3a834d3d855ebed4a428cb4f34e28bf57be0516b117",
+    "artifacts/seed42/ordered_gate_seed42.json": "9c8a21e0467f8b9a826cbee2c2622e8016167df2af2f787c097ba22642c186e2",
+    "artifacts/seed7/candidate_identity.npz": "714624ca4553b0ae2869d8a6fa3c34ee253a0df64cc63c90c922420ac0e0d4a2",
+    "artifacts/seed7/base_seed7.json": "a7b8b8719f38786f1f7b2aa7739e8ac7b377cca9a39ef768352f5492d1b3ebfc",
+    "artifacts/seed7/base_stats_seed7.json": "1a85e21524ec4ba6371892c4faf7d7dcac4195ff5ffece411e46bbc24a7a8455",
+    "artifacts/seed7/scalar_decay_seed7.json": "052c00c91e6a30e7e0ca385d41b7ee67fba3e803900a3208dced325a643d2ff2",
+    "artifacts/seed7/mlp_gate_seed7.json": "abca90f1a7e55b32cd9fd54ce06edd287829f99677cf7bc7fe8a4b2ae3157882",
+    "artifacts/seed7/ordered_gate_seed7.json": "b12beeae545f8353af26928c06d3190abd704f1e373ee290262a969355b4bc30"
+  }
+}

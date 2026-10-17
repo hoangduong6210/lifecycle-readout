@@ -2,6 +2,7 @@ protocol_id = "LCR-P-TKDE-002"
 status = "implementation-and-exploratory-audit"
 supersedes = "LCR-P-TKDE-001"
 amendment_date = "2026-10-14"
+authorization = "User requested implementation of the Q1 remediation direction and Colab execution workflow."
 amendment_reason = "Remove synthetic negative-history signals, future history, epoch contamination, and test-trained ablations; preserve prior audit outputs."
 datasets = ["wikipedia", "reddit", "mooc", "lastfm"]
 seeds = [1, 7, 42]

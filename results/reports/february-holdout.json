@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "primary_cohort": "gap_1d_to_7d__dose_1_to_9",
+  "primary_queries": 4328,
+  "primary_users": 57,
+  "primary": {
+    "treatment": "phase_competition",
+    "control": "dose_mlp",
+    "values": [
+      -0.00030378772115480235,
+      0.00048755145095091823,
+      8.579444969847305e-05
+    ],
+    "mean": 8.985272649819631e-05,
+    "std_ddof1": 0.00039568519499114346
+  },
+  "conditional_bootstrap_interval": [
+    -0.0013744952460227231,
+    0.001248376068114544
+  ],
+  "bootstrap_replicates": 2000,
+  "support_gate_passed": true,
+  "every_seed_positive": false,
+  "bootstrap_lower_positive": false,
+  "local_confirmation_screen": "NOT_ESTABLISHED",
+  "model_fit": false,
+  "test_scored": true,
+  "february_consumed": true,
+  "publication_eligible": false,
+  "attempt": "results/audit/lcr-lastfm-february-21515f0648",
+  "runtime_cleanup_verified": true,
+  "cpu_replayed_checkpoints": 18,
+  "maximum_probability_replay_error": 7.152557373046875e-07,
+  "independent_weighted_bootstrap_comparisons": 6000,
+  "resource_snapshot": {
+    "assignment_count": 0,
+    "usage": [
+      "Current balance: 173.01 compute units",
+      "Usage rate: 0.00/hr",
+      "Active assignments: 0"
+    ],
+    "exit_code": 0
+  }
+}

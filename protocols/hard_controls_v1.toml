@@ -1,6 +1,7 @@
 protocol_id = "LCR-P-HARD-001"
 status = "prospective-exploratory-controls"
 amendment_date = "2026-10-15"
+authorization = "User authorized proposition corrections and Base plus history statistics, scalar decay and MLP gate controls on shared hard negatives."
 amends = "LCR-P-TKDE-002"
 amendment_reason = "Separate lifecycle utility from recurrence information and easy negative discrimination; preserve all earlier outputs."
 datasets = ["wikipedia", "reddit"]

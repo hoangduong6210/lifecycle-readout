@@ -1,0 +1,25 @@
+{
+  "status": "ALL_DECLARED_ARMS_AND_CHECKPOINT_INFERENCE_AUDITED",
+  "protocol_id": "LCR-P-CADENCE-DEV-001",
+  "fit_count": 60,
+  "datasets": [
+    "wikipedia",
+    "reddit"
+  ],
+  "seeds": [
+    101,
+    202,
+    303
+  ],
+  "training_source_and_sealed_settings_unchanged": true,
+  "all_owned_runtimes_released": true,
+  "final_sessions": 0,
+  "final_assignments": 0,
+  "inference_scope": "Every retained validation query; independently reconstructed history and cadence; archived source per fresh CPU process",
+  "full_training_reproduction": false,
+  "fresh_dependency_environment": false,
+  "test_scored": false,
+  "publication_eligible": false,
+  "scientific_evidence_pointer": "UNRELEASED",
+  "paper_pointer": "UNRELEASED"
+}

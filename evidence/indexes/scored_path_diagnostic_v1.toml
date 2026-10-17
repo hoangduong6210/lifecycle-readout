@@ -1,0 +1,412 @@
+schema_version = 1
+evidence_id = "LCR-E-SCORED-PATH-001"
+local_only = true
+publication_eligible = false
+
+[[artifact]]
+path = "evidence/jobs/LCR-JOB-SCORED-PATH-001.toml"
+sha256 = "0034d6de686d4d9d54806b84da7509457275cd70a34ad7bcd46619b8fa75fabe"
+
+[[artifact]]
+path = "protocols/scored_path_diagnostic_v1.toml"
+sha256 = "a21caa96e7bb4a7cfb3931562720d2f729ab3b25505c195af48c056e5fd9bfcd"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/audit_scored_silence_native.py"
+sha256 = "a2ead697269ca28488403c4200732113cc028deeecd6cd602b0d247ecdc352f7"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/checksums.sha256"
+sha256 = "d521304d3aca2e2bd0a897d303e20cfee5091f97ba6cce9f7aabdcdcc05c240e"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/corrected_script_preanalysis.json"
+sha256 = "d8630cc0d1a2b899be98c011f98a0ecc6560b4e4fcb3a0e53721a9200c530704"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/diagnose_scored_silence.py"
+sha256 = "fcbadc7001f0538d2c63395bcd852284df72a06f11b8d1e398703467aa297e58"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/diagnose_scored_silence_corrected.py"
+sha256 = "c17c5a3aa9c57f7c0de42c9232af6e6114a59f0ef5f1cf5ce03f74460cf3f929"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/initial_reddit_failure.json"
+sha256 = "14b876b6f8785ec7d39dfe39279564101565bb4351002149bbc6566992a62973"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/preanalysis.json"
+sha256 = "9ecb9b36ce770ff5f5b5eb18ca823175dd3489713dc4d4c1f47270a9d4a2b820"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/reddit/sealed_source/src/lifecycle_readout/__init__.py"
+sha256 = "310ab7033974cfc77f935c4d3f0881a68fc0cdb830c0a73ac0a00ed0b78d7d86"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/reddit/sealed_source/src/lifecycle_readout/benchmark.py"
+sha256 = "9e7c0ad7841c11b2e1b4c1bd446712e48d8ae10b29f84da74bf99a8b6a38c2c9"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/reddit/sealed_source/src/lifecycle_readout/causal_stream.py"
+sha256 = "a977ea9be15212670cfce693514eea5a0c7d0dcd3d207662b0c82a2c397536b3"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/reddit/sealed_source/src/lifecycle_readout/colab_workflow.py"
+sha256 = "3b314fd265c8e9450f8b3dd1e6d2ec640fa5ac803b7bd95445a09fa9d24f10e7"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/reddit/sealed_source/src/lifecycle_readout/datasets.py"
+sha256 = "b6f595349d611fb509ab1e13fee9974e2efc8f6b4fcc3ab536f13efa25be7a30"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/reddit/sealed_source/src/lifecycle_readout/hard_controls.py"
+sha256 = "bd9c878727b1934191213d69f14940d389330d2583b4f2418afe33194fa08cbc"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/reddit/sealed_source/src/lifecycle_readout/metrics.py"
+sha256 = "a2e1a291b1abf69a5a9b01a751e16c9186c6d4bc8e8bf1fc9d036a89709caf69"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/reddit/sealed_source/src/lifecycle_readout/modeling/__init__.py"
+sha256 = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/reddit/sealed_source/src/lifecycle_readout/modeling/fsm_head.py"
+sha256 = "db564ccb3a282be488153d6c1809c2db6f019865e9ebc6b0e0dcd38268f986b6"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/reddit/sealed_source/src/lifecycle_readout/modeling/latent_lifecycle.py"
+sha256 = "8e189213d14d681838c55da566266c431ad3c39803940ed5ededbdaf98b8bde5"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/reddit/sealed_source/src/lifecycle_readout/modeling/sr_gnn.py"
+sha256 = "611e34d967dbb78f4b7549d3eaf81c3c60ee4dd25adb713b389467c8f07e9214"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/reddit/sealed_source/src/lifecycle_readout/modeling/sr_gnn_v2.py"
+sha256 = "44227727a92a6f36edee7c548c5d828d799bfd9b19113a589b5ab15f8ab26583"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/reddit/sealed_source/src/lifecycle_readout/modeling/sr_gnn_v3.py"
+sha256 = "30228145709b492016d168be8a234b5141038f6f737b25171db9e7da9f9cfaa9"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/reddit/sealed_source/src/lifecycle_readout/modeling/sr_gnn_v3_3.py"
+sha256 = "a9427e089a0a58071c92cda800d374b6ff454f301b774ae33f18b6833b2a7755"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/reddit/sealed_source/src/lifecycle_readout/modeling/temporal_mixer.py"
+sha256 = "36f9b409390411d887f927e78b5168fb87b3c15b0edc37ea462380b542740f9e"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/reddit/sealed_source/src/lifecycle_readout/training.py"
+sha256 = "8d85c66082b82c6d4d2dbe973a33c2defb136bb27ad1d4a547433a91554cfe20"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/reddit_corrected_precision/native_seed1.npz"
+sha256 = "92310b2e6d50c6e3ffca1055e2beac943d07caa2baa27319fac73a7abf163516"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/reddit_corrected_precision/native_seed42.npz"
+sha256 = "c6f37efc72b0aa25c1ebab614dcbeacb4c0f5782fb9ef04ba02aa052d805c5b3"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/reddit_corrected_precision/native_seed7.npz"
+sha256 = "016b48f162e68c2a112ebfe879517c649f429d5936bf196449d798b084e6d368"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/reddit_corrected_precision/report.json"
+sha256 = "397162a5b4f85432b663049bf0a923699ff8878f583b219511c444dc58a14737"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/reddit_corrected_precision/sealed_source/src/lifecycle_readout/__init__.py"
+sha256 = "310ab7033974cfc77f935c4d3f0881a68fc0cdb830c0a73ac0a00ed0b78d7d86"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/reddit_corrected_precision/sealed_source/src/lifecycle_readout/benchmark.py"
+sha256 = "9e7c0ad7841c11b2e1b4c1bd446712e48d8ae10b29f84da74bf99a8b6a38c2c9"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/reddit_corrected_precision/sealed_source/src/lifecycle_readout/causal_stream.py"
+sha256 = "a977ea9be15212670cfce693514eea5a0c7d0dcd3d207662b0c82a2c397536b3"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/reddit_corrected_precision/sealed_source/src/lifecycle_readout/colab_workflow.py"
+sha256 = "3b314fd265c8e9450f8b3dd1e6d2ec640fa5ac803b7bd95445a09fa9d24f10e7"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/reddit_corrected_precision/sealed_source/src/lifecycle_readout/datasets.py"
+sha256 = "b6f595349d611fb509ab1e13fee9974e2efc8f6b4fcc3ab536f13efa25be7a30"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/reddit_corrected_precision/sealed_source/src/lifecycle_readout/hard_controls.py"
+sha256 = "bd9c878727b1934191213d69f14940d389330d2583b4f2418afe33194fa08cbc"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/reddit_corrected_precision/sealed_source/src/lifecycle_readout/metrics.py"
+sha256 = "a2e1a291b1abf69a5a9b01a751e16c9186c6d4bc8e8bf1fc9d036a89709caf69"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/reddit_corrected_precision/sealed_source/src/lifecycle_readout/modeling/__init__.py"
+sha256 = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/reddit_corrected_precision/sealed_source/src/lifecycle_readout/modeling/fsm_head.py"
+sha256 = "db564ccb3a282be488153d6c1809c2db6f019865e9ebc6b0e0dcd38268f986b6"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/reddit_corrected_precision/sealed_source/src/lifecycle_readout/modeling/latent_lifecycle.py"
+sha256 = "8e189213d14d681838c55da566266c431ad3c39803940ed5ededbdaf98b8bde5"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/reddit_corrected_precision/sealed_source/src/lifecycle_readout/modeling/sr_gnn.py"
+sha256 = "611e34d967dbb78f4b7549d3eaf81c3c60ee4dd25adb713b389467c8f07e9214"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/reddit_corrected_precision/sealed_source/src/lifecycle_readout/modeling/sr_gnn_v2.py"
+sha256 = "44227727a92a6f36edee7c548c5d828d799bfd9b19113a589b5ab15f8ab26583"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/reddit_corrected_precision/sealed_source/src/lifecycle_readout/modeling/sr_gnn_v3.py"
+sha256 = "30228145709b492016d168be8a234b5141038f6f737b25171db9e7da9f9cfaa9"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/reddit_corrected_precision/sealed_source/src/lifecycle_readout/modeling/sr_gnn_v3_3.py"
+sha256 = "a9427e089a0a58071c92cda800d374b6ff454f301b774ae33f18b6833b2a7755"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/reddit_corrected_precision/sealed_source/src/lifecycle_readout/modeling/temporal_mixer.py"
+sha256 = "36f9b409390411d887f927e78b5168fb87b3c15b0edc37ea462380b542740f9e"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/reddit_corrected_precision/sealed_source/src/lifecycle_readout/training.py"
+sha256 = "8d85c66082b82c6d4d2dbe973a33c2defb136bb27ad1d4a547433a91554cfe20"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/reddit_corrected_precision/seed1.npz"
+sha256 = "37d58336bd8530d8ee8603af9fd584a28f15ff64a3e1ef8e88ebcd72e42fb0e8"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/reddit_corrected_precision/seed42.npz"
+sha256 = "fd01eae1b3d69d2426f3e603f07e6f707843dc74475f791742721872f4219a87"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/reddit_corrected_precision/seed7.npz"
+sha256 = "d9e2b902a88fa8e24181dc650bedccd809c969f0b9edf965a654ffc03c7d32f7"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/reddit_native_audit.json"
+sha256 = "637a44bb2cea23b73ac77c42d602104631d40838783972cae9653941c307f183"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/scored_path.py"
+sha256 = "a9c0ce1508081fcc4348d8bcec6e72b12701851a66533b52ae1fae3d2999f54a"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/scored_path_diagnostic_v1.toml"
+sha256 = "a21caa96e7bb4a7cfb3931562720d2f729ab3b25505c195af48c056e5fd9bfcd"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/summary.json"
+sha256 = "a65a0c2016858ad36b279295020139cdbc55cd662948bd24a2db0a1b39374643"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/table.md"
+sha256 = "98f8c5c223da0bd9a9df4c10215e3896696caa377ae79153ed70498470d2ea81"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/test_scored_path.py"
+sha256 = "8112ce267e2a329b217479ce3f2f6a8d603c4c21398aab9e7dedc4d290e32322"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia/report.json"
+sha256 = "65c01803c14d16e70602ee8b6ff52060b192f19ee1c29e9323ee880f3de942fc"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia/sealed_source/src/lifecycle_readout/__init__.py"
+sha256 = "310ab7033974cfc77f935c4d3f0881a68fc0cdb830c0a73ac0a00ed0b78d7d86"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia/sealed_source/src/lifecycle_readout/benchmark.py"
+sha256 = "9e7c0ad7841c11b2e1b4c1bd446712e48d8ae10b29f84da74bf99a8b6a38c2c9"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia/sealed_source/src/lifecycle_readout/causal_stream.py"
+sha256 = "a977ea9be15212670cfce693514eea5a0c7d0dcd3d207662b0c82a2c397536b3"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia/sealed_source/src/lifecycle_readout/colab_workflow.py"
+sha256 = "3b314fd265c8e9450f8b3dd1e6d2ec640fa5ac803b7bd95445a09fa9d24f10e7"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia/sealed_source/src/lifecycle_readout/datasets.py"
+sha256 = "b6f595349d611fb509ab1e13fee9974e2efc8f6b4fcc3ab536f13efa25be7a30"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia/sealed_source/src/lifecycle_readout/hard_controls.py"
+sha256 = "bd9c878727b1934191213d69f14940d389330d2583b4f2418afe33194fa08cbc"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia/sealed_source/src/lifecycle_readout/metrics.py"
+sha256 = "a2e1a291b1abf69a5a9b01a751e16c9186c6d4bc8e8bf1fc9d036a89709caf69"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia/sealed_source/src/lifecycle_readout/modeling/__init__.py"
+sha256 = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia/sealed_source/src/lifecycle_readout/modeling/fsm_head.py"
+sha256 = "db564ccb3a282be488153d6c1809c2db6f019865e9ebc6b0e0dcd38268f986b6"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia/sealed_source/src/lifecycle_readout/modeling/latent_lifecycle.py"
+sha256 = "8e189213d14d681838c55da566266c431ad3c39803940ed5ededbdaf98b8bde5"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia/sealed_source/src/lifecycle_readout/modeling/sr_gnn.py"
+sha256 = "611e34d967dbb78f4b7549d3eaf81c3c60ee4dd25adb713b389467c8f07e9214"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia/sealed_source/src/lifecycle_readout/modeling/sr_gnn_v2.py"
+sha256 = "44227727a92a6f36edee7c548c5d828d799bfd9b19113a589b5ab15f8ab26583"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia/sealed_source/src/lifecycle_readout/modeling/sr_gnn_v3.py"
+sha256 = "30228145709b492016d168be8a234b5141038f6f737b25171db9e7da9f9cfaa9"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia/sealed_source/src/lifecycle_readout/modeling/sr_gnn_v3_3.py"
+sha256 = "a9427e089a0a58071c92cda800d374b6ff454f301b774ae33f18b6833b2a7755"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia/sealed_source/src/lifecycle_readout/modeling/temporal_mixer.py"
+sha256 = "36f9b409390411d887f927e78b5168fb87b3c15b0edc37ea462380b542740f9e"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia/sealed_source/src/lifecycle_readout/training.py"
+sha256 = "8d85c66082b82c6d4d2dbe973a33c2defb136bb27ad1d4a547433a91554cfe20"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia/seed1.npz"
+sha256 = "77ae60fce174d3011f78b8a27193edb84cc4ee13105d527042c9d501bdee8979"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia/seed42.npz"
+sha256 = "61fa8685bd51e5b709c9c68b60bb94f1a0c29c2e94c31f539956f69bf461eae1"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia/seed7.npz"
+sha256 = "b21d5967d1912e6c6abe0f364c610883fae0ce21a94eb174e8e14e47ec5b7cb6"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia_corrected_precision/native_seed1.npz"
+sha256 = "964323a92829eb50f0c4a9d71a71f31210c5dcc22a941075c43c81839ad2c972"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia_corrected_precision/native_seed42.npz"
+sha256 = "b2184d27aa89e5f216b9fbb6f51f057558a023f4795ef448efac85bae8bd3d70"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia_corrected_precision/native_seed7.npz"
+sha256 = "e801a3e6b8edbdd090e76f2015867d07a22b5a669fb6eaae2fea87344b3affb6"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia_corrected_precision/report.json"
+sha256 = "e7601223dadf77364fe7e18efc695f78ef923d60cd748565ffa1e1566eecc545"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia_corrected_precision/sealed_source/src/lifecycle_readout/__init__.py"
+sha256 = "310ab7033974cfc77f935c4d3f0881a68fc0cdb830c0a73ac0a00ed0b78d7d86"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia_corrected_precision/sealed_source/src/lifecycle_readout/benchmark.py"
+sha256 = "9e7c0ad7841c11b2e1b4c1bd446712e48d8ae10b29f84da74bf99a8b6a38c2c9"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia_corrected_precision/sealed_source/src/lifecycle_readout/causal_stream.py"
+sha256 = "a977ea9be15212670cfce693514eea5a0c7d0dcd3d207662b0c82a2c397536b3"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia_corrected_precision/sealed_source/src/lifecycle_readout/colab_workflow.py"
+sha256 = "3b314fd265c8e9450f8b3dd1e6d2ec640fa5ac803b7bd95445a09fa9d24f10e7"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia_corrected_precision/sealed_source/src/lifecycle_readout/datasets.py"
+sha256 = "b6f595349d611fb509ab1e13fee9974e2efc8f6b4fcc3ab536f13efa25be7a30"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia_corrected_precision/sealed_source/src/lifecycle_readout/hard_controls.py"
+sha256 = "bd9c878727b1934191213d69f14940d389330d2583b4f2418afe33194fa08cbc"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia_corrected_precision/sealed_source/src/lifecycle_readout/metrics.py"
+sha256 = "a2e1a291b1abf69a5a9b01a751e16c9186c6d4bc8e8bf1fc9d036a89709caf69"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia_corrected_precision/sealed_source/src/lifecycle_readout/modeling/__init__.py"
+sha256 = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia_corrected_precision/sealed_source/src/lifecycle_readout/modeling/fsm_head.py"
+sha256 = "db564ccb3a282be488153d6c1809c2db6f019865e9ebc6b0e0dcd38268f986b6"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia_corrected_precision/sealed_source/src/lifecycle_readout/modeling/latent_lifecycle.py"
+sha256 = "8e189213d14d681838c55da566266c431ad3c39803940ed5ededbdaf98b8bde5"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia_corrected_precision/sealed_source/src/lifecycle_readout/modeling/sr_gnn.py"
+sha256 = "611e34d967dbb78f4b7549d3eaf81c3c60ee4dd25adb713b389467c8f07e9214"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia_corrected_precision/sealed_source/src/lifecycle_readout/modeling/sr_gnn_v2.py"
+sha256 = "44227727a92a6f36edee7c548c5d828d799bfd9b19113a589b5ab15f8ab26583"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia_corrected_precision/sealed_source/src/lifecycle_readout/modeling/sr_gnn_v3.py"
+sha256 = "30228145709b492016d168be8a234b5141038f6f737b25171db9e7da9f9cfaa9"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia_corrected_precision/sealed_source/src/lifecycle_readout/modeling/sr_gnn_v3_3.py"
+sha256 = "a9427e089a0a58071c92cda800d374b6ff454f301b774ae33f18b6833b2a7755"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia_corrected_precision/sealed_source/src/lifecycle_readout/modeling/temporal_mixer.py"
+sha256 = "36f9b409390411d887f927e78b5168fb87b3c15b0edc37ea462380b542740f9e"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia_corrected_precision/sealed_source/src/lifecycle_readout/training.py"
+sha256 = "8d85c66082b82c6d4d2dbe973a33c2defb136bb27ad1d4a547433a91554cfe20"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia_corrected_precision/seed1.npz"
+sha256 = "a80333034ec823212ca26515d26678dcdc7724aaeae48f79f7225d35872a3e1d"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia_corrected_precision/seed42.npz"
+sha256 = "7c99cc8e765fc0a81d01fbd91ddebb438905ca15b23eaccbb6668ea04ce7d1bf"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia_corrected_precision/seed7.npz"
+sha256 = "7997fc85030d41f391501d5e666cdab4b9bd15ceba496cae6f2a8096ff83848e"
+
+[[artifact]]
+path = "results/audit/scored_path_diagnostic_v1/wikipedia_native_audit.json"
+sha256 = "4263fb21eab8fd204dc293b4b0ef46d8bbfc32ee2985eba7bb1b5a9cab69d332"
+
+[[artifact]]
+path = "scripts/audit_scored_silence_native.py"
+sha256 = "a2ead697269ca28488403c4200732113cc028deeecd6cd602b0d247ecdc352f7"
+
+[[artifact]]
+path = "scripts/diagnose_scored_silence.py"
+sha256 = "c17c5a3aa9c57f7c0de42c9232af6e6114a59f0ef5f1cf5ce03f74460cf3f929"
+
+[[artifact]]
+path = "src/lifecycle_readout/scored_path.py"
+sha256 = "a9c0ce1508081fcc4348d8bcec6e72b12701851a66533b52ae1fae3d2999f54a"
+
+[[artifact]]
+path = "tests/test_scored_path.py"
+sha256 = "8112ce267e2a329b217479ce3f2f6a8d603c4c21398aab9e7dedc4d290e32322"

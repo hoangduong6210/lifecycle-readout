@@ -1,0 +1,6 @@
+{
+  "result_sha256": "cda2bb6b3dffae15e0973ce07f2bdeb4cd36fc60dadfe5e20c44ed5f322844ed",
+  "png_sha256": "fd71d4405a6a5c4282d184a392d65bb6d3fa4d6bc92baeac7075d9bc2592d7b1",
+  "synthetic_example": "c=(1,4,4), gaps=(1,2), rates=(10,1); same x metric; not empirical AP",
+  "real_panel": "All three retained Reddit seeds; fixed/raw exactly equal; original dynamic model not preserved"
+}

@@ -1,0 +1,29 @@
+{
+  "scored_paths_source": "results/reports/scored-paths.json",
+  "repair_source": "results/reports/rate-repair.json",
+  "january_source": "results/reports/january-cohorts.json",
+  "february_source": "results/reports/february-holdout.json",
+  "changed_configurations": {
+    "wikipedia": {
+      "specified": 0,
+      "all_rate": 0
+    },
+    "reddit": {
+      "specified": 0,
+      "all_rate": 46619
+    }
+  },
+  "january_subgroup_mean_delta_ap": 0.0010300663706362216,
+  "february_subgroup_mean_delta_ap": 8.985272649819631e-05,
+  "february_conditional_interval": [
+    -0.0013744952460227231,
+    0.001248376068114544
+  ],
+  "interpretation": "January is exploratory; the February local-confirmation screen failed. A parameter-distance certificate is not an AP guarantee.",
+  "source_sha256": {
+    "results/reports/scored-paths.json": "099cb14e84ff5b949151eba73636de1ab4162457afece6abba72897ebaad2892",
+    "results/reports/rate-repair.json": "af5a73319370df9cb0cbb439e358f72ab40ceecb954022a1c8024a38fdd6fe37",
+    "results/reports/january-cohorts.json": "44a32cb0af736450ebe884b6252641a4568e79d0a30803ebba891f9da668a98f",
+    "results/reports/february-holdout.json": "236ad97ef50f7ab8c10c96d244ce2d749e451e8c5efd4d3957c22a22fb8e7f3e"
+  }
+}

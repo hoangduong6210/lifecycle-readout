@@ -1,0 +1,72 @@
+schema_version = 1
+evidence_id = "LCR-E-ML20M-SCREEN-001"
+local_only = true
+publication_eligible = false
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-ba89635570/job.json"
+sha256 = "b29c7a07fdceb45e1a5750b8bbff8f38d7efec11da5ff6d6e9f37cbe62d7d4c1"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-ba89635570/source.zip"
+sha256 = "3907c6100f635742cb11454b5d801eb391d7fc99b61a3c8b2901d5777cfd0e40"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-ba89635570/artifacts.tar.gz"
+sha256 = "d09015fda3aa7f15d6f90da1e71efb2e8e6ca937d53dbd5904c8562c4ea1da90"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-ba89635570/independent_audit.json"
+sha256 = "215c2ce2964594953eb93b790af5fef6eeb5f906756767cb82c134c47d2e82c2"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-ba89635570/resource_after.json"
+sha256 = "024d4050bd4c82d23a56dd26f5157bc3882e6b5708948a98d08266c0211d64ba"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-ba89635570/artifacts/checksums.sha256"
+sha256 = "fcfbb590e0725b2850c8a8595b1297d097f256dc5ececd0ebc389ab3a5d5e4f4"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-ba89635570/artifacts/edge_memory_predictions.npz"
+sha256 = "4a355f2f90dd2244e4211f556fa9baa84acc8e5ae6239f603992279aa999be7d"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-ba89635570/artifacts/environment.txt"
+sha256 = "3b1e22e429be06096de176772f74128eb46fa98894453011a791e66137f1e7e9"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-ba89635570/artifacts/pooled_transition_predictions.npz"
+sha256 = "ebbace97ce6651174c31ef742b6703cc2d7f72bc52a9201736265f9e6f623f6c"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-ba89635570/artifacts/popularity_predictions.npz"
+sha256 = "d747536efdf1aca49235f0d85359d1b71f0bfcaaba401a9c6821c3b2bb235652"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-ba89635570/artifacts/results.json"
+sha256 = "0a99b9682c5f236d027bee63e55d15786aef11517794b3fda99a5d4a1276f9ce"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-ba89635570/artifacts/source_manifest.json"
+sha256 = "5c1302f25d24775038368f3ae6f7743e1f85c97deaa9832da27909cb535f2bea"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-ba89635570/artifacts/training.txt"
+sha256 = "e8c16e389100c63345e5a020af3efecaa156fee1639a86597fe19ea2bc160478"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-ba89635570/artifacts/validation_candidates.npz"
+sha256 = "74daa5b8af80e90e6aa98167c41d689bfcb0c4ac6fe8c1e023ef00f2376cbb25"
+
+[[artifact]]
+path = "evidence/jobs/LCR-JOB-ML20M-SCREEN-001.toml"
+sha256 = "69b7fd0b9d9ea0bd639cbadb195325e3e4fc6f58595b814366882614d1fb98da"
+
+[[artifact]]
+path = "scripts/audit_stream_screen.py"
+sha256 = "4d36e5f1e7e267ce79301ff3e6752f5d760cf4ab83337b6f853a814f4874a625"
+
+[[artifact]]
+path = "resources/tgbseq_ml20m_development_v1.toml"
+sha256 = "f13a4431967a4a56e9559162cd7d7ab47bdff7357e8ba6b193512338a128ce8d"

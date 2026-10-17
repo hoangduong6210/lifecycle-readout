@@ -1,0 +1,19 @@
+{
+  "status": "PASS_SCOPED_CLOSURE",
+  "preallocation_tests": {
+    "passed": 39,
+    "skipped": 1,
+    "exit_code": 0
+  },
+  "postclosure_tests": {
+    "passed": 22,
+    "skipped": 1,
+    "exit_code": 0,
+    "elapsed_seconds": 6.13
+  },
+  "numpy_lifecycle_replays": "PASS_BOTH_DATASETS_ALL_VARIANTS",
+  "source_guard": "PASS",
+  "normalized_job_pins": "PASS",
+  "runtime_assignments": 0,
+  "publication_eligible": false
+}

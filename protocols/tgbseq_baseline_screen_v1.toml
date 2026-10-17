@@ -1,6 +1,7 @@
 protocol_id = "LCR-P-TGBSEQ-SCREEN-001"
 status = "prospective-validation-only-baseline-screen"
 date = "2026-10-15"
+authorization = "Q1 research program: compare explicit simple controls on fresh low-recurrence development data, before proposing another efficacy claim."
 amends = "LCR-P-Q1-DEV-001"
 amendment_reason = "Official ML-20M train/validation pair recurrence is zero; previous hard recurrent-support study is inapplicable."
 dataset_id = "LCR-D-TGBSEQ-ML20M-001"

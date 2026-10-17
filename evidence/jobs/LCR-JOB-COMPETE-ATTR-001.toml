@@ -1,0 +1,23 @@
+schema_version = 1
+job_id = "LCR-JOB-COMPETE-ATTR-001"
+execution_kind = "local-posthoc-input-anatomy"
+date = "2026-10-16"
+source_state = "DIRTY_WORKTREE_EXACT_SOURCE_HASHES_NOT_A_FROZEN_RELEASE"
+command = "OPENBLAS_NUM_THREADS=1 python3 scripts/audit_competition_attribution.py --output results/audit/competition_attribution_execution_v1"
+exit_code = 0
+result_pointer = "results/audit/competition_attribution_execution_v1/results.json"
+result_sha256 = "65cd7a07efe9d55c73b6dcebe12fdaa797b17924962012ad583eb298d780799b"
+source_pointer = "src/lifecycle_readout/competition_attribution.py"
+source_sha256 = "58cbf930659dd6ae57b447a615023ef67cc7cc54b4860d221c359d5bd5868aff"
+test_pointer = "tests/test_competition_attribution.py"
+test_sha256 = "a553603a50ce60362e49545a5e320f519c58abb05094a28ae97ce1c6e815b8f1"
+protocol_pointer = "protocols/competition_attribution_v1.toml"
+protocol_sha256 = "998e75ab56bd2cbccf6996d96d697f729d61dfd747bc985cd51312788dcce74c"
+model_fit = false
+gpu_allocated = false
+predictor_scored = false
+test_scored = false
+publication_eligible = false
+supported_evidence_ids = ["LCR-E-COMPETE-ATTR-001"]
+supported_scientific_claim_ids = []
+limitations = "Posthoc input anatomy only; independent exact-ID raw-history checks cover declared real anchors, with all synthetic validation slots replayed. Not causal AP decomposition, semantic labels or novelty clearance."

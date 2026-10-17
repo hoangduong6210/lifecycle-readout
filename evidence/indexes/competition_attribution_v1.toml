@@ -1,0 +1,224 @@
+schema_version = 1
+evidence_ids = ["LCR-E-COMPETE-ATTR-001", "LCR-E-COMPETE-ATTR-FULL-001"]
+local_only = true
+publication_eligible = false
+
+[[artifact]]
+path = "evidence/jobs/LCR-JOB-COMPETE-ATTR-001.toml"
+sha256 = "950d22e90a0d10e44a383cd4eacac52b19b00a051eee51dcbde1683ba7d2e8d1"
+
+[[artifact]]
+path = "evidence/jobs/LCR-JOB-COMPETE-ATTR-FULL-001.toml"
+sha256 = "3b43e36655fe694ad9cadf7bea37aa75cdeca769222509c0c0c5d3a45d4162c6"
+
+[[artifact]]
+path = "protocols/competition_attribution_full_validation_v1.toml"
+sha256 = "255c0a262c659a7e68376b6de7b11c26aafb7344563a2657e502d0e3c94589a0"
+
+[[artifact]]
+path = "protocols/competition_attribution_v1.toml"
+sha256 = "998e75ab56bd2cbccf6996d96d697f729d61dfd747bc985cd51312788dcce74c"
+
+[[artifact]]
+path = "results/audit/competition_attribution_closure_v1/LCR-JOB-COMPETE-ATTR-001.toml"
+sha256 = "950d22e90a0d10e44a383cd4eacac52b19b00a051eee51dcbde1683ba7d2e8d1"
+
+[[artifact]]
+path = "results/audit/competition_attribution_closure_v1/LCR-JOB-COMPETE-ATTR-FULL-001.toml"
+sha256 = "3b43e36655fe694ad9cadf7bea37aa75cdeca769222509c0c0c5d3a45d4162c6"
+
+[[artifact]]
+path = "results/audit/competition_attribution_closure_v1/audit_competition_attribution.py"
+sha256 = "7b8c1b00bd46d1010ffc1429f2c0ff9f6dabad8ab6986d9a04491bb2ab8e28c4"
+
+[[artifact]]
+path = "results/audit/competition_attribution_closure_v1/audit_competition_exact_overlap.py"
+sha256 = "6a5800d014bf082db80e02645b88768d6558e6b427d7bade4c3ac905802ffcf2"
+
+[[artifact]]
+path = "results/audit/competition_attribution_closure_v1/claims__Current-Claim-Language.md"
+sha256 = "4ccdebba5e440ffbb22a74cf29ab86b7249299e470416656e3dc83d50e3b9934"
+
+[[artifact]]
+path = "results/audit/competition_attribution_closure_v1/close_competition_anatomy.py"
+sha256 = "8dc4ad78dfede8e4bd6d0bf720f7336885317be010e9cccb22bed251804afb12"
+
+[[artifact]]
+path = "results/audit/competition_attribution_closure_v1/competition_attribution.py"
+sha256 = "58cbf930659dd6ae57b447a615023ef67cc7cc54b4860d221c359d5bd5868aff"
+
+[[artifact]]
+path = "results/audit/competition_attribution_closure_v1/competition_attribution_full_validation_v1.toml"
+sha256 = "255c0a262c659a7e68376b6de7b11c26aafb7344563a2657e502d0e3c94589a0"
+
+[[artifact]]
+path = "results/audit/competition_attribution_closure_v1/competition_attribution_v1.toml"
+sha256 = "998e75ab56bd2cbccf6996d96d697f729d61dfd747bc985cd51312788dcce74c"
+
+[[artifact]]
+path = "results/audit/competition_attribution_closure_v1/competition_exact_overlap.py"
+sha256 = "f38059219539f9922576ea0c63ba99b5403daadc4359f52bba8d6ea6ed0b7855"
+
+[[artifact]]
+path = "results/audit/competition_attribution_closure_v1/dataset_source_review.json"
+sha256 = "4ebff27d950f3dcbce120bed072f275d16f3f7399498266da6e9b753762588c3"
+
+[[artifact]]
+path = "results/audit/competition_attribution_closure_v1/datasets__Competition-Dataset-Proposal.md"
+sha256 = "0e8b8bebd102fb4f320293df6487e4c3b7466f509cabd7cbc62a7053236d36fc"
+
+[[artifact]]
+path = "results/audit/competition_attribution_closure_v1/datasets__Dataset-Registry.md"
+sha256 = "1e94c703e64121515a17a4a3b22b3ac0bd7b7962dbb3e431dc9c16983593f5f9"
+
+[[artifact]]
+path = "results/audit/competition_attribution_closure_v1/develop_competition_attribution.py"
+sha256 = "ed83d797fd09d7de428b93b81bd5c2f7224337839d4ecf0ca6221f5761801d82"
+
+[[artifact]]
+path = "results/audit/competition_attribution_closure_v1/develop_exact_overlap.py"
+sha256 = "c190a6e4ecb8d199e09fe545dcd0b29b1a85f57fa0aa9c1f6ec0b25aa23a92f6"
+
+[[artifact]]
+path = "results/audit/competition_attribution_closure_v1/evidence__Evidence-Ledger.md"
+sha256 = "a8e726b7ae94532a0c4f75470c5a63b3691c41b091e722ddaf8ec9d9c7ec9bdc"
+
+[[artifact]]
+path = "results/audit/competition_attribution_closure_v1/goal_progress_audit.json"
+sha256 = "e2c628bc7777874a0c42bf2958d16ff504e0efa7875cccd9a92ff90b8cdd21cf"
+
+[[artifact]]
+path = "results/audit/competition_attribution_closure_v1/index_competition_anatomy.py"
+sha256 = "453242fd7fe975cc28a3dd53bd10c73645b0b85853f5f870aac5e97a17088191"
+
+[[artifact]]
+path = "results/audit/competition_attribution_closure_v1/manuscript__Journal-Narrative.md"
+sha256 = "e0e5c3acaa516883b85257a068b8a6118fdad407637457e9e4917551ff67d147"
+
+[[artifact]]
+path = "results/audit/competition_attribution_closure_v1/methods__Competition-Signal-Anatomy.md"
+sha256 = "80bbcd5bbfd7b3977c3da6bda53bbc5b0526fdc27f07ec2e55a4ad13da2b3d80"
+
+[[artifact]]
+path = "results/audit/competition_attribution_closure_v1/prepare_competition_attribution_audit.py"
+sha256 = "67e36289f54db220fe5ce7a824984dbc946c91da260757e6d7451ffd1f7a546b"
+
+[[artifact]]
+path = "results/audit/competition_attribution_closure_v1/prepare_full_overlap_audit.py"
+sha256 = "a1befc78f7f41d1c2904089c511fd222ca4afdd2a61e68ef412bba4d8cd9c738"
+
+[[artifact]]
+path = "results/audit/competition_attribution_closure_v1/results__Competition-Signal-Anatomy.md"
+sha256 = "3e43e21f67e8d1d2d4d68e07096b7ea565e04b4584da7500dab90599df25d589"
+
+[[artifact]]
+path = "results/audit/competition_attribution_closure_v1/status__Live-Execution.md"
+sha256 = "c357236ec84ddc076666194c748f9f8829b002230bd4f97373b1b809ee1775ae"
+
+[[artifact]]
+path = "results/audit/competition_attribution_closure_v1/status__Project-Status.md"
+sha256 = "da4b90636cfe408c6e17e7a906010f40005008fe333396d11a0a501f8ec2923c"
+
+[[artifact]]
+path = "results/audit/competition_attribution_closure_v1/summary.json"
+sha256 = "5be66c8e7aa016c1d1c456ba65a265f81f65eaa98ef7402f500d349ca88e9274"
+
+[[artifact]]
+path = "results/audit/competition_attribution_closure_v1/table.md"
+sha256 = "84c98c0762ce26e5bdedd0fbeedabf0ec29a75566b66839a354b234c69a6768f"
+
+[[artifact]]
+path = "results/audit/competition_attribution_closure_v1/test_competition_attribution.py"
+sha256 = "a553603a50ce60362e49545a5e320f519c58abb05094a28ae97ce1c6e815b8f1"
+
+[[artifact]]
+path = "results/audit/competition_attribution_closure_v1/test_competition_exact_overlap.py"
+sha256 = "23a952c9553524d99b47facd2c7c34f7a92cae7a0795ae3a088726a0ba0ca2d3"
+
+[[artifact]]
+path = "results/audit/competition_attribution_closure_v1/verification.json"
+sha256 = "b549772b065a2095f9176c21e2b6cd62773ff22e4101494b7b4646227060df36"
+
+[[artifact]]
+path = "results/audit/competition_attribution_closure_v1/wiki__INDEX.md"
+sha256 = "6d489b909b2fa760d178fe506c0445bf7038fc80a08083139f882191966dce61"
+
+[[artifact]]
+path = "results/audit/competition_attribution_closure_v1/wiki__START-HERE.md"
+sha256 = "3f3ca4465c80a2a9dc48a726bae40a7200d9c2d274aa789c6589c4353fda3a34"
+
+[[artifact]]
+path = "results/audit/competition_attribution_execution_v1/preanalysis.json"
+sha256 = "6022744f2614b30e25e36856128dc51656f183c679d26a027949ba45b930abe0"
+
+[[artifact]]
+path = "results/audit/competition_attribution_execution_v1/results.json"
+sha256 = "65cd7a07efe9d55c73b6dcebe12fdaa797b17924962012ad583eb298d780799b"
+
+[[artifact]]
+path = "results/audit/competition_attribution_execution_v1/seed101_anatomy.npz"
+sha256 = "88bfc2445150701a863e28c05ae24f525774f487139f2261b55d6ab62e3c494f"
+
+[[artifact]]
+path = "results/audit/competition_attribution_execution_v1/seed101_audit.json"
+sha256 = "6b8ab527bdc8e0bf4827b27e1fbb75cc0c216f22112c80151fbd3cbbb74043b7"
+
+[[artifact]]
+path = "results/audit/competition_attribution_execution_v1/seed202_anatomy.npz"
+sha256 = "2acdb20c950766bfd0e5f7ecfa79dfa1e0dd7a7f79a23ec3bb7fb949fd15a906"
+
+[[artifact]]
+path = "results/audit/competition_attribution_execution_v1/seed202_audit.json"
+sha256 = "a677eefa874212e63460795c41c7713e3bf30749af589c4f197af9783a4dd331"
+
+[[artifact]]
+path = "results/audit/competition_attribution_execution_v1/seed303_anatomy.npz"
+sha256 = "d127997327d3f8956efd3dba98929a415144455b37fbde14cea0e9dbda18e014"
+
+[[artifact]]
+path = "results/audit/competition_attribution_execution_v1/seed303_audit.json"
+sha256 = "565e2a3e4ec498bf537fdeb6b1e375d6bb2b344d2f529c684e4494f34e5e8cbf"
+
+[[artifact]]
+path = "results/audit/competition_attribution_full_execution_v1/preanalysis.json"
+sha256 = "aaac2b905ef88ad9a73af9f5c4a4a7256364b0d1d1e3f24edded03ffc9ba4083"
+
+[[artifact]]
+path = "results/audit/competition_attribution_full_execution_v1/results.json"
+sha256 = "6289dc84b74cca78e3cdfd599e53cfe7287ea95fa19cfae25cb56251baf4b2c3"
+
+[[artifact]]
+path = "results/audit/competition_attribution_full_execution_v1/seed101_exact_overlap.npz"
+sha256 = "4075883d2a53e324f6e3b268d95556333c2263ff57021b0bab0e176bd069f07e"
+
+[[artifact]]
+path = "results/audit/competition_attribution_full_execution_v1/seed202_exact_overlap.npz"
+sha256 = "7be6cc959eabffa382fa9dcd52e59b09a1f60821aa8018c66ffa7f6e8f54731e"
+
+[[artifact]]
+path = "results/audit/competition_attribution_full_execution_v1/seed303_exact_overlap.npz"
+sha256 = "ecd58766a69f9a6b257821923270bbab06208ceefd802fcb2ac9d91a29e80b5e"
+
+[[artifact]]
+path = "scripts/audit_competition_attribution.py"
+sha256 = "7b8c1b00bd46d1010ffc1429f2c0ff9f6dabad8ab6986d9a04491bb2ab8e28c4"
+
+[[artifact]]
+path = "scripts/audit_competition_exact_overlap.py"
+sha256 = "6a5800d014bf082db80e02645b88768d6558e6b427d7bade4c3ac905802ffcf2"
+
+[[artifact]]
+path = "src/lifecycle_readout/competition_attribution.py"
+sha256 = "58cbf930659dd6ae57b447a615023ef67cc7cc54b4860d221c359d5bd5868aff"
+
+[[artifact]]
+path = "src/lifecycle_readout/competition_exact_overlap.py"
+sha256 = "f38059219539f9922576ea0c63ba99b5403daadc4359f52bba8d6ea6ed0b7855"
+
+[[artifact]]
+path = "tests/test_competition_attribution.py"
+sha256 = "a553603a50ce60362e49545a5e320f519c58abb05094a28ae97ce1c6e815b8f1"
+
+[[artifact]]
+path = "tests/test_competition_exact_overlap.py"
+sha256 = "23a952c9553524d99b47facd2c7c34f7a92cae7a0795ae3a088726a0ba0ca2d3"

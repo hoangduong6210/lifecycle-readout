@@ -1,6 +1,7 @@
 protocol_id = "LCR-P-COMPETE-ATTR-FULL-001"
 status = "posthoc-coverage-expansion-after-anchor-anatomy"
 date = "2026-10-16"
+authorization = "Active contribution-strengthening goal; improve scope of the selected competition input diagnosis without fitting."
 relationship = "Separate full-validation expansion after LCR-P-COMPETE-ATTR-001 outcomes; not independent confirmation, not a new model or changed prior endpoint."
 datasets = ["wikipedia"]
 seeds = [101, 202, 303]

@@ -120,7 +120,7 @@ def build(out):
 if __name__=='__main__':
  import argparse
  parser=argparse.ArgumentParser(description=__doc__)
- parser.add_argument('--output',type=Path,default=Path(__file__).resolve().parents[1]/'generated/sncs')
+ parser.add_argument('--output',type=Path,default=Path(__file__).resolve().parents[1]/'generated/article')
  destination=parser.parse_args().output
  destination.mkdir(parents=True,exist_ok=True)
  build(destination)

@@ -1,0 +1,17 @@
+{
+  "status": "LEGACY_BOUNDARY_GRADIENT_LIMITATION_CONFIRMED",
+  "module": "modeling/readout_aware_tilt.py",
+  "state": [
+    0,
+    1
+  ],
+  "elapsed": 0,
+  "rate": 1,
+  "tilt": [
+    1,
+    4
+  ],
+  "observed_autograd": -0.0,
+  "analytic_right_derivative": -0.17328679513998632,
+  "scope": "Forward values correct; emerging zero-mass coordinate is masked out of autograd at this boundary. Existing module remains unchanged and untrained. New OrderedRateTilt uses direct positive normalization and checks this derivative."
+}

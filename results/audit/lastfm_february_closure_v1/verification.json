@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "preallocation_tests": {
+    "passed": 33,
+    "skipped": 1,
+    "seconds": 8.42
+  },
+  "post_documentation_checks": {
+    "passed": 5,
+    "seconds": 0.3
+  },
+  "final_narrative_checks": {
+    "passed": 3,
+    "seconds": 0.24
+  },
+  "source_and_input_guards": true,
+  "complete_old_prefix_preservation": true,
+  "three_seed_support_passed": true,
+  "fixed_direct_anchors": 96,
+  "cpu_replayed_checkpoints": 18,
+  "candidate_probability_replays": 1483884,
+  "independent_arm_cohort_vectors": 288,
+  "independent_bootstrap_seed_replicates": 6000,
+  "figure_visually_inspected": true,
+  "local_confirmation_screen": "NOT_ESTABLISHED",
+  "model_fit": false,
+  "test_scored": true,
+  "runtime_released_before_local_audit": true,
+  "scientific_admission": false,
+  "goal_complete": false
+}

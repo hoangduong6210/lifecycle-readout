@@ -1,0 +1,2536 @@
+{
+  "protocol_id": "LCR-P-HARD-001",
+  "dataset": "reddit",
+  "settings": {
+    "schema_version": 1,
+    "protocol": "protocols/hard_controls_v1.toml",
+    "entry_script": "scripts/train_hard_controls.py",
+    "config_path": "configs/hard_controls_v1.toml",
+    "datasets": [
+      "wikipedia",
+      "reddit"
+    ],
+    "seeds": [
+      1,
+      7,
+      42
+    ],
+    "models": [
+      "base",
+      "base_stats",
+      "scalar_decay",
+      "mlp_gate",
+      "ordered_gate"
+    ],
+    "split_seed": 42,
+    "epochs": 10,
+    "batch_size": 256,
+    "learning_rate": 0.001,
+    "weight_decay": 1e-05,
+    "hidden_dim": 128,
+    "time_dim": 32,
+    "max_neighbors": 20,
+    "history_decay": 0.01,
+    "latent_phases": 5,
+    "hard_time_unit": 1000.0,
+    "decay_time_unit": 1000.0,
+    "compute": {
+      "accelerator": "L4",
+      "timeout_seconds": 10800,
+      "wall_timeout_seconds": 11400,
+      "ephemeral": true,
+      "require_cuda": true
+    }
+  },
+  "data": {
+    "dataset": "reddit",
+    "source_url": "https://snap.stanford.edu/jodie/reddit.csv",
+    "raw_sha256": "6b86be2f57c826b36ad2393eb482dc155fb4c1bf62d1074371e6a9e95b42314c",
+    "raw_bytes": 2368348656,
+    "total_events": 672447,
+    "feature_dim": 172,
+    "preprocessing": "bipartite-disjoint-ID-shift; native-time-units; no-current-event-features",
+    "license_review": "PENDING",
+    "derived_sha256": "fb791dc7a20b16fbb9cc16fa43d55cded2fdeb9b7d4acc8e978d85a39e495f91"
+  },
+  "smoke": false,
+  "publication_eligible": false,
+  "per_seed_runs": [
+    {
+      "seed": 1,
+      "candidate_sha256": "76182c1dc076fa441f68d4d905cd3a978ed810bbebb4f48ad5db4e4f3632ac98",
+      "coverage": {
+        "train": 37206,
+        "validation": 10139,
+        "test": 11002,
+        "skipped_no_hard_support": 538695,
+        "excluded_train": 75405,
+        "total_events": 672447
+      },
+      "models": {
+        "base": {
+          "kind": "base",
+          "seed": 1,
+          "selected_epoch": 5,
+          "validation_history": [
+            {
+              "epoch": 1,
+              "loss": 2.072902894999883,
+              "validation": {
+                "ap": 0.5349219234400276,
+                "auc": 0.5434300388034665,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2485867291688919
+              }
+            },
+            {
+              "epoch": 2,
+              "loss": 2.0650880059150802,
+              "validation": {
+                "ap": 0.5330087220184969,
+                "auc": 0.539365342695211,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.24873203039169312
+              }
+            },
+            {
+              "epoch": 3,
+              "loss": 2.0525931495509737,
+              "validation": {
+                "ap": 0.5311241099084693,
+                "auc": 0.5340301518139404,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.24978061020374298
+              }
+            },
+            {
+              "epoch": 4,
+              "loss": 2.034193571299723,
+              "validation": {
+                "ap": 0.5317684660300066,
+                "auc": 0.5374456704825901,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2510000765323639
+              }
+            },
+            {
+              "epoch": 5,
+              "loss": 2.0049812409975756,
+              "validation": {
+                "ap": 0.5363913474137362,
+                "auc": 0.5376429383225205,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2528134286403656
+              }
+            },
+            {
+              "epoch": 6,
+              "loss": 1.9566723688008034,
+              "validation": {
+                "ap": 0.5322605305074497,
+                "auc": 0.5312060718766809,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2560841739177704
+              }
+            },
+            {
+              "epoch": 7,
+              "loss": 1.889599033414501,
+              "validation": {
+                "ap": 0.5279449076981145,
+                "auc": 0.5290855374424117,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2622678577899933
+              }
+            },
+            {
+              "epoch": 8,
+              "loss": 1.796412274445573,
+              "validation": {
+                "ap": 0.5259978071168271,
+                "auc": 0.5258140469624308,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.27900439500808716
+              }
+            },
+            {
+              "epoch": 9,
+              "loss": 1.6780896668564784,
+              "validation": {
+                "ap": 0.5247047655489276,
+                "auc": 0.5282461836494037,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2804521918296814
+              }
+            },
+            {
+              "epoch": 10,
+              "loss": 1.549129548138135,
+              "validation": {
+                "ap": 0.5236726245818242,
+                "auc": 0.5253638299809393,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2945760488510132
+              }
+            }
+          ],
+          "parameter_count": 167881,
+          "checkpoint_sha256": "e381b8f5fa3e6dc41b746b26fe72bfa1f89aece8817dd2050cdae26f49c5f33d",
+          "predictions_sha256": "50eeced21df0e7717ee9165e43935842d8f2b36dc5553baf01030abb7a964cf9",
+          "elapsed_seconds": 77.57110271900001,
+          "all_test": {
+            "ap": 0.5382421883749724,
+            "auc": 0.5366823580951602,
+            "positive_count": 11002,
+            "negative_count": 11002,
+            "brier": 0.25307491421699524
+          },
+          "strata": {
+            "both_silence_ge_1000": {
+              "ap": 0.5423373467425442,
+              "auc": 0.5407403423542427,
+              "positive_count": 10136,
+              "negative_count": 10136,
+              "brier": 0.2524149715900421
+            },
+            "transductive": {
+              "ap": 0.5383194860888452,
+              "auc": 0.5360572556247234,
+              "positive_count": 8903,
+              "negative_count": 8903,
+              "brier": 0.253387987613678
+            },
+            "inductive": {
+              "ap": 0.5393234637719377,
+              "auc": 0.5400425484491923,
+              "positive_count": 2099,
+              "negative_count": 2099,
+              "brier": 0.2517468333244324
+            }
+          }
+        },
+        "base_stats": {
+          "kind": "base_stats",
+          "seed": 1,
+          "selected_epoch": 5,
+          "validation_history": [
+            {
+              "epoch": 1,
+              "loss": 2.0712979019504703,
+              "validation": {
+                "ap": 0.5356952545723423,
+                "auc": 0.5420850201919135,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.24856603145599365
+              }
+            },
+            {
+              "epoch": 2,
+              "loss": 2.0565097299340653,
+              "validation": {
+                "ap": 0.5347691936342963,
+                "auc": 0.5426369742267072,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.24890732765197754
+              }
+            },
+            {
+              "epoch": 3,
+              "loss": 2.037384473297694,
+              "validation": {
+                "ap": 0.5397049965113953,
+                "auc": 0.5421530799799738,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.24919483065605164
+              }
+            },
+            {
+              "epoch": 4,
+              "loss": 2.0130159895714015,
+              "validation": {
+                "ap": 0.5412554603603557,
+                "auc": 0.5444623705248014,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.24937400221824646
+              }
+            },
+            {
+              "epoch": 5,
+              "loss": 1.979166518335473,
+              "validation": {
+                "ap": 0.5418304126144031,
+                "auc": 0.5417007034511444,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.25271865725517273
+              }
+            },
+            {
+              "epoch": 6,
+              "loss": 1.9230388468259,
+              "validation": {
+                "ap": 0.5375072951880411,
+                "auc": 0.5380873624641938,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.25556305050849915
+              }
+            },
+            {
+              "epoch": 7,
+              "loss": 1.8405896229286716,
+              "validation": {
+                "ap": 0.535830216708617,
+                "auc": 0.5357137086537761,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.26476073265075684
+              }
+            },
+            {
+              "epoch": 8,
+              "loss": 1.7258906789021948,
+              "validation": {
+                "ap": 0.5304365596195785,
+                "auc": 0.5296170584628667,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.27886292338371277
+              }
+            },
+            {
+              "epoch": 9,
+              "loss": 1.5896840136345118,
+              "validation": {
+                "ap": 0.5202236726764247,
+                "auc": 0.5273498547719007,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2901613712310791
+              }
+            },
+            {
+              "epoch": 10,
+              "loss": 1.436090991921621,
+              "validation": {
+                "ap": 0.5203923120201774,
+                "auc": 0.5250023246748876,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.30426323413848877
+              }
+            }
+          ],
+          "parameter_count": 176586,
+          "checkpoint_sha256": "5d760ebfc76df1f0b621172546471372f87b8a72ed5032c7946f01c4aa07d80f",
+          "predictions_sha256": "87d8688b7c0592f14f47edd9115990cc83f306ea523562ad57bcf65feeb03212",
+          "elapsed_seconds": 77.52233482700012,
+          "all_test": {
+            "ap": 0.5467676220359374,
+            "auc": 0.5436664710793936,
+            "positive_count": 11002,
+            "negative_count": 11002,
+            "brier": 0.25216707587242126
+          },
+          "strata": {
+            "both_silence_ge_1000": {
+              "ap": 0.5448915097123159,
+              "auc": 0.5432826902585766,
+              "positive_count": 10136,
+              "negative_count": 10136,
+              "brier": 0.2526155412197113
+            },
+            "transductive": {
+              "ap": 0.5466078229428959,
+              "auc": 0.541815827023034,
+              "positive_count": 8903,
+              "negative_count": 8903,
+              "brier": 0.25247079133987427
+            },
+            "inductive": {
+              "ap": 0.548106391077579,
+              "auc": 0.552254743235112,
+              "positive_count": 2099,
+              "negative_count": 2099,
+              "brier": 0.2508786618709564
+            }
+          }
+        },
+        "scalar_decay": {
+          "kind": "scalar_decay",
+          "seed": 1,
+          "selected_epoch": 10,
+          "validation_history": [
+            {
+              "epoch": 1,
+              "loss": 9.439753911266589,
+              "validation": {
+                "ap": 0.5038469839309527,
+                "auc": 0.49990157522538503,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.4502943158149719
+              }
+            },
+            {
+              "epoch": 2,
+              "loss": 9.059900708394508,
+              "validation": {
+                "ap": 0.5034434716439685,
+                "auc": 0.5015408516171036,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.4478452205657959
+              }
+            },
+            {
+              "epoch": 3,
+              "loss": 8.630923075218723,
+              "validation": {
+                "ap": 0.5084168499155938,
+                "auc": 0.5025109407094236,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.44455447793006897
+              }
+            },
+            {
+              "epoch": 4,
+              "loss": 8.209389536348107,
+              "validation": {
+                "ap": 0.5112744478238554,
+                "auc": 0.5036647761515857,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.4409020245075226
+              }
+            },
+            {
+              "epoch": 5,
+              "loss": 7.806357501304313,
+              "validation": {
+                "ap": 0.5100920494461545,
+                "auc": 0.5037750687088682,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.4382286071777344
+              }
+            },
+            {
+              "epoch": 6,
+              "loss": 7.365894614833675,
+              "validation": {
+                "ap": 0.5132219305098678,
+                "auc": 0.5047369962686816,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.43508508801460266
+              }
+            },
+            {
+              "epoch": 7,
+              "loss": 6.925440605372598,
+              "validation": {
+                "ap": 0.5123346410433451,
+                "auc": 0.5066170767801083,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.4337172210216522
+              }
+            },
+            {
+              "epoch": 8,
+              "loss": 6.454338998010714,
+              "validation": {
+                "ap": 0.5103946680674727,
+                "auc": 0.5068864608551257,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.4301530122756958
+              }
+            },
+            {
+              "epoch": 9,
+              "loss": 5.992726819155967,
+              "validation": {
+                "ap": 0.514984369087325,
+                "auc": 0.5105037610121957,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.4284400939941406
+              }
+            },
+            {
+              "epoch": 10,
+              "loss": 5.531837215162303,
+              "validation": {
+                "ap": 0.515672252348162,
+                "auc": 0.5109112685676201,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.42657962441444397
+              }
+            }
+          ],
+          "parameter_count": 176587,
+          "checkpoint_sha256": "f64bec0ec16d24c2b57955cb593cd27cf3006363ad94505899c9341720591946",
+          "predictions_sha256": "ee92a5f2571294087374de081e0ecfae4f50ec84dfca9c4cb7002158d3397aac",
+          "elapsed_seconds": 78.81450027099982,
+          "all_test": {
+            "ap": 0.5167970865226824,
+            "auc": 0.5108177312112048,
+            "positive_count": 11002,
+            "negative_count": 11002,
+            "brier": 0.42829254269599915
+          },
+          "strata": {
+            "both_silence_ge_1000": {
+              "ap": 0.511368457002777,
+              "auc": 0.5086071826474858,
+              "positive_count": 10136,
+              "negative_count": 10136,
+              "brier": 0.4355503022670746
+            },
+            "transductive": {
+              "ap": 0.5187150540816103,
+              "auc": 0.5103400107355968,
+              "positive_count": 8903,
+              "negative_count": 8903,
+              "brier": 0.43152862787246704
+            },
+            "inductive": {
+              "ap": 0.5090679969897158,
+              "auc": 0.5114023533972597,
+              "positive_count": 2099,
+              "negative_count": 2099,
+              "brier": 0.41456666588783264
+            }
+          }
+        },
+        "mlp_gate": {
+          "kind": "mlp_gate",
+          "seed": 1,
+          "selected_epoch": 5,
+          "validation_history": [
+            {
+              "epoch": 1,
+              "loss": 2.077011126361481,
+              "validation": {
+                "ap": 0.5325811134844891,
+                "auc": 0.5419673345896905,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2487320601940155
+              }
+            },
+            {
+              "epoch": 2,
+              "loss": 2.060010766329831,
+              "validation": {
+                "ap": 0.5387696777191802,
+                "auc": 0.5450720924508831,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2483089566230774
+              }
+            },
+            {
+              "epoch": 3,
+              "loss": 2.0417642348433196,
+              "validation": {
+                "ap": 0.5422255526282249,
+                "auc": 0.544995486886533,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.24871042370796204
+              }
+            },
+            {
+              "epoch": 4,
+              "loss": 2.0181528027743507,
+              "validation": {
+                "ap": 0.5389616977684678,
+                "auc": 0.5400983193264477,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.24965375661849976
+              }
+            },
+            {
+              "epoch": 5,
+              "loss": 1.9830154858223379,
+              "validation": {
+                "ap": 0.5469534079014042,
+                "auc": 0.5462135591343059,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2515328824520111
+              }
+            },
+            {
+              "epoch": 6,
+              "loss": 1.9296963467989883,
+              "validation": {
+                "ap": 0.5387222197476307,
+                "auc": 0.5383812360005763,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2548394799232483
+              }
+            },
+            {
+              "epoch": 7,
+              "loss": 1.851925833584511,
+              "validation": {
+                "ap": 0.5371288829103696,
+                "auc": 0.5372560680629398,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.26179417967796326
+              }
+            },
+            {
+              "epoch": 8,
+              "loss": 1.7392939900698727,
+              "validation": {
+                "ap": 0.537809570010743,
+                "auc": 0.5369040958937852,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.27708375453948975
+              }
+            },
+            {
+              "epoch": 9,
+              "loss": 1.6074957725119918,
+              "validation": {
+                "ap": 0.5253626813104197,
+                "auc": 0.5311456726450557,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2928001582622528
+              }
+            },
+            {
+              "epoch": 10,
+              "loss": 1.4570275177694347,
+              "validation": {
+                "ap": 0.5286582023302898,
+                "auc": 0.5332562118771194,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.30181995034217834
+              }
+            }
+          ],
+          "parameter_count": 185291,
+          "checkpoint_sha256": "9f2353bd303719119c4202ba5fdf9da3e88a1af15332341a076fff4abddef153",
+          "predictions_sha256": "2d1bce9ea4e7ecccc21287b6930ff6895fd7bbcbe99cdc4a1b6fdca38265a214",
+          "elapsed_seconds": 79.27341620400011,
+          "all_test": {
+            "ap": 0.5446109676941551,
+            "auc": 0.5416298315776137,
+            "positive_count": 11002,
+            "negative_count": 11002,
+            "brier": 0.2520078122615814
+          },
+          "strata": {
+            "both_silence_ge_1000": {
+              "ap": 0.5445568325839171,
+              "auc": 0.5421767562180393,
+              "positive_count": 10136,
+              "negative_count": 10136,
+              "brier": 0.2520723044872284
+            },
+            "transductive": {
+              "ap": 0.5454181811221568,
+              "auc": 0.541890924726692,
+              "positive_count": 8903,
+              "negative_count": 8903,
+              "brier": 0.25206539034843445
+            },
+            "inductive": {
+              "ap": 0.5421669740275255,
+              "auc": 0.5411214669023862,
+              "positive_count": 2099,
+              "negative_count": 2099,
+              "brier": 0.25176361203193665
+            }
+          }
+        },
+        "ordered_gate": {
+          "kind": "ordered_gate",
+          "seed": 1,
+          "selected_epoch": 5,
+          "validation_history": [
+            {
+              "epoch": 1,
+              "loss": 2.824212085710813,
+              "validation": {
+                "ap": 0.5104850938914686,
+                "auc": 0.516372316311311,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.3486170768737793
+              }
+            },
+            {
+              "epoch": 2,
+              "loss": 2.125168645218627,
+              "validation": {
+                "ap": 0.5363053915074941,
+                "auc": 0.5412747911048945,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2487218976020813
+              }
+            },
+            {
+              "epoch": 3,
+              "loss": 1.906230869358533,
+              "validation": {
+                "ap": 0.5414387218009635,
+                "auc": 0.5447410542721386,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.24853593111038208
+              }
+            },
+            {
+              "epoch": 4,
+              "loss": 1.8830593995852014,
+              "validation": {
+                "ap": 0.5488316022393233,
+                "auc": 0.5513485200938244,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.24807599186897278
+              }
+            },
+            {
+              "epoch": 5,
+              "loss": 1.8568297853208569,
+              "validation": {
+                "ap": 0.5517252003779197,
+                "auc": 0.5487239405015136,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2491369992494583
+              }
+            },
+            {
+              "epoch": 6,
+              "loss": 1.8193598626411125,
+              "validation": {
+                "ap": 0.545270167967751,
+                "auc": 0.5420957401070772,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.25145548582077026
+              }
+            },
+            {
+              "epoch": 7,
+              "loss": 1.7623028020336204,
+              "validation": {
+                "ap": 0.5393062179267194,
+                "auc": 0.5384437558687766,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2575295865535736
+              }
+            },
+            {
+              "epoch": 8,
+              "loss": 1.682715362065459,
+              "validation": {
+                "ap": 0.5404737236007899,
+                "auc": 0.5365130184079717,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.26699724793434143
+              }
+            },
+            {
+              "epoch": 9,
+              "loss": 1.5820559973586095,
+              "validation": {
+                "ap": 0.5329947716431852,
+                "auc": 0.5334722492962769,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.27636513113975525
+              }
+            },
+            {
+              "epoch": 10,
+              "loss": 1.461014167086719,
+              "validation": {
+                "ap": 0.5355781290860814,
+                "auc": 0.5351289917566673,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.28100982308387756
+              }
+            }
+          ],
+          "parameter_count": 186374,
+          "checkpoint_sha256": "3483b4dc32939a7c6c06128dd439f395d6026ac0660427802d44ea997baf4a0c",
+          "predictions_sha256": "7541297490b8b632a101a9171f12c056ae168c7d111bbba1c6439d5de6bf5808",
+          "elapsed_seconds": 91.17892506199996,
+          "all_test": {
+            "ap": 0.5495920562872236,
+            "auc": 0.5437315713713502,
+            "positive_count": 11002,
+            "negative_count": 11002,
+            "brier": 0.24961717426776886
+          },
+          "strata": {
+            "both_silence_ge_1000": {
+              "ap": 0.5498555446298041,
+              "auc": 0.544546398654697,
+              "positive_count": 10136,
+              "negative_count": 10136,
+              "brier": 0.24958007037639618
+            },
+            "transductive": {
+              "ap": 0.5507324880608563,
+              "auc": 0.5441368097100139,
+              "positive_count": 8903,
+              "negative_count": 8903,
+              "brier": 0.2493935078382492
+            },
+            "inductive": {
+              "ap": 0.5447453408598834,
+              "auc": 0.5421342225851781,
+              "positive_count": 2099,
+              "negative_count": 2099,
+              "brier": 0.25056585669517517
+            }
+          }
+        }
+      },
+      "recurrence_only_test": {
+        "ap": 0.5062284306526823,
+        "auc": 0.5064415169213998,
+        "positive_count": 11002,
+        "negative_count": 11002
+      }
+    },
+    {
+      "seed": 7,
+      "candidate_sha256": "c921d257dc7e92fd46490f4fdfde90fe895e59024d7e854d27d38b1b651785a3",
+      "coverage": {
+        "train": 37206,
+        "validation": 10139,
+        "test": 11002,
+        "skipped_no_hard_support": 538695,
+        "excluded_train": 75405,
+        "total_events": 672447
+      },
+      "models": {
+        "base": {
+          "kind": "base",
+          "seed": 7,
+          "selected_epoch": 4,
+          "validation_history": [
+            {
+              "epoch": 1,
+              "loss": 2.072295041933452,
+              "validation": {
+                "ap": 0.535999387170513,
+                "auc": 0.5436797145771031,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.24858227372169495
+              }
+            },
+            {
+              "epoch": 2,
+              "loss": 2.064795010710416,
+              "validation": {
+                "ap": 0.53466029735545,
+                "auc": 0.5415220592750802,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2485775351524353
+              }
+            },
+            {
+              "epoch": 3,
+              "loss": 2.0530512104295706,
+              "validation": {
+                "ap": 0.5398894617737913,
+                "auc": 0.5468217197660284,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.24823613464832306
+              }
+            },
+            {
+              "epoch": 4,
+              "loss": 2.0345242897125138,
+              "validation": {
+                "ap": 0.5423280923562162,
+                "auc": 0.5463405054980859,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2493303120136261
+              }
+            },
+            {
+              "epoch": 5,
+              "loss": 2.004604021163836,
+              "validation": {
+                "ap": 0.5413033677875705,
+                "auc": 0.543030863015136,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2534126937389374
+              }
+            },
+            {
+              "epoch": 6,
+              "loss": 1.951320713513518,
+              "validation": {
+                "ap": 0.5327140592544699,
+                "auc": 0.537631138633688,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2608790397644043
+              }
+            },
+            {
+              "epoch": 7,
+              "loss": 1.8791989618784761,
+              "validation": {
+                "ap": 0.5374112307450535,
+                "auc": 0.539327847311365,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.26133993268013
+              }
+            },
+            {
+              "epoch": 8,
+              "loss": 1.7668922690496052,
+              "validation": {
+                "ap": 0.5339866993948111,
+                "auc": 0.5381889876490527,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2748967707157135
+              }
+            },
+            {
+              "epoch": 9,
+              "loss": 1.6377912645470607,
+              "validation": {
+                "ap": 0.5275815764931349,
+                "auc": 0.5296490625653062,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.29200878739356995
+              }
+            },
+            {
+              "epoch": 10,
+              "loss": 1.4875452338832698,
+              "validation": {
+                "ap": 0.5246815082280972,
+                "auc": 0.5275110474708291,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.29701659083366394
+              }
+            }
+          ],
+          "parameter_count": 167881,
+          "checkpoint_sha256": "b10fa684aa6b34b94959b25007d63dc381318415b80f6488bcbd089fbf5e2c49",
+          "predictions_sha256": "96a70e792114d386248c4fa83a0b7a893fcdc1e5b7c53c0f39e7d09626d679c1",
+          "elapsed_seconds": 76.56485740100015,
+          "all_test": {
+            "ap": 0.5392534723871438,
+            "auc": 0.5423719955595652,
+            "positive_count": 11002,
+            "negative_count": 11002,
+            "brier": 0.2502247989177704
+          },
+          "strata": {
+            "both_silence_ge_1000": {
+              "ap": 0.5404958897511367,
+              "auc": 0.5441130313996421,
+              "positive_count": 10136,
+              "negative_count": 10136,
+              "brier": 0.2501663267612457
+            },
+            "transductive": {
+              "ap": 0.5395513641147875,
+              "auc": 0.5422797169876961,
+              "positive_count": 8903,
+              "negative_count": 8903,
+              "brier": 0.25026682019233704
+            },
+            "inductive": {
+              "ap": 0.5384029256408037,
+              "auc": 0.5435800436742376,
+              "positive_count": 2099,
+              "negative_count": 2099,
+              "brier": 0.2500467002391815
+            }
+          }
+        },
+        "base_stats": {
+          "kind": "base_stats",
+          "seed": 7,
+          "selected_epoch": 4,
+          "validation_history": [
+            {
+              "epoch": 1,
+              "loss": 2.0702046090609407,
+              "validation": {
+                "ap": 0.5373328267886509,
+                "auc": 0.5425174695463213,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2485170215368271
+              }
+            },
+            {
+              "epoch": 2,
+              "loss": 2.0551181623380477,
+              "validation": {
+                "ap": 0.5376255666412693,
+                "auc": 0.5423668070725876,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.24832233786582947
+              }
+            },
+            {
+              "epoch": 3,
+              "loss": 2.037674986336329,
+              "validation": {
+                "ap": 0.5489112591087703,
+                "auc": 0.5540535233690892,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.24718204140663147
+              }
+            },
+            {
+              "epoch": 4,
+              "loss": 2.0138010366322243,
+              "validation": {
+                "ap": 0.549139727525825,
+                "auc": 0.5495821562868105,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.24905644357204437
+              }
+            },
+            {
+              "epoch": 5,
+              "loss": 1.978456828692188,
+              "validation": {
+                "ap": 0.5450039247647556,
+                "auc": 0.5467719334449689,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.25281035900115967
+              }
+            },
+            {
+              "epoch": 6,
+              "loss": 1.924446113305549,
+              "validation": {
+                "ap": 0.5424063709878586,
+                "auc": 0.5435269606498665,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2575196921825409
+              }
+            },
+            {
+              "epoch": 7,
+              "loss": 1.8445397256171867,
+              "validation": {
+                "ap": 0.5391975226455641,
+                "auc": 0.5415431586362326,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.26033249497413635
+              }
+            },
+            {
+              "epoch": 8,
+              "loss": 1.7346495455258513,
+              "validation": {
+                "ap": 0.5386802305426429,
+                "auc": 0.5410635153903399,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.26945188641548157
+              }
+            },
+            {
+              "epoch": 9,
+              "loss": 1.5903817349917269,
+              "validation": {
+                "ap": 0.5337938397874047,
+                "auc": 0.5388522507848081,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.28685009479522705
+              }
+            },
+            {
+              "epoch": 10,
+              "loss": 1.4490379609473765,
+              "validation": {
+                "ap": 0.531111217928514,
+                "auc": 0.5328713406579796,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.3047431707382202
+              }
+            }
+          ],
+          "parameter_count": 176586,
+          "checkpoint_sha256": "f27f76dc68f817e5c87109ede743a9fc92025f34ab40958f25d5eee691c8c720",
+          "predictions_sha256": "430abe300db7cc82c2509ee6708e2a74303ec86e6c51910bec33c53bce344334",
+          "elapsed_seconds": 77.78132830000004,
+          "all_test": {
+            "ap": 0.5490454453838742,
+            "auc": 0.548806833091873,
+            "positive_count": 11002,
+            "negative_count": 11002,
+            "brier": 0.24916686117649078
+          },
+          "strata": {
+            "both_silence_ge_1000": {
+              "ap": 0.5460444913853411,
+              "auc": 0.547552331309191,
+              "positive_count": 10136,
+              "negative_count": 10136,
+              "brier": 0.24953316152095795
+            },
+            "transductive": {
+              "ap": 0.5516424186107074,
+              "auc": 0.5513084227805544,
+              "positive_count": 8903,
+              "negative_count": 8903,
+              "brier": 0.24872137606143951
+            },
+            "inductive": {
+              "ap": 0.5374659574833951,
+              "auc": 0.5381736487871331,
+              "positive_count": 2099,
+              "negative_count": 2099,
+              "brier": 0.25105637311935425
+            }
+          }
+        },
+        "scalar_decay": {
+          "kind": "scalar_decay",
+          "seed": 7,
+          "selected_epoch": 9,
+          "validation_history": [
+            {
+              "epoch": 1,
+              "loss": 9.436277304610162,
+              "validation": {
+                "ap": 0.5036270810501079,
+                "auc": 0.49979765916936364,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.45103690028190613
+              }
+            },
+            {
+              "epoch": 2,
+              "loss": 9.05635989202212,
+              "validation": {
+                "ap": 0.5063902575860598,
+                "auc": 0.5019699789651334,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.4473743140697479
+              }
+            },
+            {
+              "epoch": 3,
+              "loss": 8.63237863370817,
+              "validation": {
+                "ap": 0.5077764191201553,
+                "auc": 0.5025982515974011,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.4448827803134918
+              }
+            },
+            {
+              "epoch": 4,
+              "loss": 8.203830826772402,
+              "validation": {
+                "ap": 0.5096990667720452,
+                "auc": 0.5032128130496115,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.4415152668952942
+              }
+            },
+            {
+              "epoch": 5,
+              "loss": 7.796633628949727,
+              "validation": {
+                "ap": 0.5097175324955728,
+                "auc": 0.5031571366118265,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.43822622299194336
+              }
+            },
+            {
+              "epoch": 6,
+              "loss": 7.349089171788464,
+              "validation": {
+                "ap": 0.5105157624797625,
+                "auc": 0.5046518449280419,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.43552812933921814
+              }
+            },
+            {
+              "epoch": 7,
+              "loss": 6.901815682241361,
+              "validation": {
+                "ap": 0.5110229683780785,
+                "auc": 0.5062648954656033,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.43299806118011475
+              }
+            },
+            {
+              "epoch": 8,
+              "loss": 6.429167322916527,
+              "validation": {
+                "ap": 0.511370597953636,
+                "auc": 0.5085651538496057,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.43165916204452515
+              }
+            },
+            {
+              "epoch": 9,
+              "loss": 5.9602164993547415,
+              "validation": {
+                "ap": 0.5124220844704213,
+                "auc": 0.5080556563209206,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.4307965338230133
+              }
+            },
+            {
+              "epoch": 10,
+              "loss": 5.507097381435028,
+              "validation": {
+                "ap": 0.5116592423050061,
+                "auc": 0.5092342925105507,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.42980486154556274
+              }
+            }
+          ],
+          "parameter_count": 176587,
+          "checkpoint_sha256": "3649377fd2693a6deb63a3773e88aee2965ab886579ed8ebb5e5eb428ac07ad9",
+          "predictions_sha256": "4b5dcde9e6086ad8063695530dc9ed83f21286cb93cdaba6e60edbfbaf970300",
+          "elapsed_seconds": 78.76706760700017,
+          "all_test": {
+            "ap": 0.5114974324470564,
+            "auc": 0.5069497205330386,
+            "positive_count": 11002,
+            "negative_count": 11002,
+            "brier": 0.43420061469078064
+          },
+          "strata": {
+            "both_silence_ge_1000": {
+              "ap": 0.504884314777317,
+              "auc": 0.504950685670929,
+              "positive_count": 10136,
+              "negative_count": 10136,
+              "brier": 0.4430665671825409
+            },
+            "transductive": {
+              "ap": 0.5124386730648189,
+              "auc": 0.5066087303915985,
+              "positive_count": 8903,
+              "negative_count": 8903,
+              "brier": 0.4376900792121887
+            },
+            "inductive": {
+              "ap": 0.5072042201316094,
+              "auc": 0.5082619482813682,
+              "positive_count": 2099,
+              "negative_count": 2099,
+              "brier": 0.4193999767303467
+            }
+          }
+        },
+        "mlp_gate": {
+          "kind": "mlp_gate",
+          "seed": 7,
+          "selected_epoch": 4,
+          "validation_history": [
+            {
+              "epoch": 1,
+              "loss": 2.0767700231238586,
+              "validation": {
+                "ap": 0.5353867398932276,
+                "auc": 0.5431891665899233,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.24865825474262238
+              }
+            },
+            {
+              "epoch": 2,
+              "loss": 2.0603214420684397,
+              "validation": {
+                "ap": 0.5406170194193536,
+                "auc": 0.5444690242652479,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2482670098543167
+              }
+            },
+            {
+              "epoch": 3,
+              "loss": 2.04498339189242,
+              "validation": {
+                "ap": 0.546448678455502,
+                "auc": 0.5501389303923515,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2473173439502716
+              }
+            },
+            {
+              "epoch": 4,
+              "loss": 2.023496767429456,
+              "validation": {
+                "ap": 0.5520206458716153,
+                "auc": 0.5528034032442686,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.24839425086975098
+              }
+            },
+            {
+              "epoch": 5,
+              "loss": 1.9950333392783388,
+              "validation": {
+                "ap": 0.5478920814350565,
+                "auc": 0.5473385276542828,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2509172856807709
+              }
+            },
+            {
+              "epoch": 6,
+              "loss": 1.9552048559058202,
+              "validation": {
+                "ap": 0.5487863922537579,
+                "auc": 0.5468027702245233,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.25289878249168396
+              }
+            },
+            {
+              "epoch": 7,
+              "loss": 1.892992226228322,
+              "validation": {
+                "ap": 0.5464806995619425,
+                "auc": 0.5485168282385833,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2567037045955658
+              }
+            },
+            {
+              "epoch": 8,
+              "loss": 1.8030308925942198,
+              "validation": {
+                "ap": 0.5438290780521792,
+                "auc": 0.5448022414467115,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.26240676641464233
+              }
+            },
+            {
+              "epoch": 9,
+              "loss": 1.6852921198492181,
+              "validation": {
+                "ap": 0.5381220674349216,
+                "auc": 0.5416503042855701,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2760531008243561
+              }
+            },
+            {
+              "epoch": 10,
+              "loss": 1.5476013201556793,
+              "validation": {
+                "ap": 0.5317046096000003,
+                "auc": 0.5336520705229172,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.29279008507728577
+              }
+            }
+          ],
+          "parameter_count": 185291,
+          "checkpoint_sha256": "eff8cbc2c8beb42142bf302afdfc80a3cf115ff8c695d31c4bf602130c024549",
+          "predictions_sha256": "554ae0b74129c9873ac8bf4b8f9b6183752354c43e192ba4f8b558d128296ccd",
+          "elapsed_seconds": 79.44573317200002,
+          "all_test": {
+            "ap": 0.548199021293672,
+            "auc": 0.5513521760235228,
+            "positive_count": 11002,
+            "negative_count": 11002,
+            "brier": 0.24861644208431244
+          },
+          "strata": {
+            "both_silence_ge_1000": {
+              "ap": 0.5438349135367618,
+              "auc": 0.549393929223959,
+              "positive_count": 10136,
+              "negative_count": 10136,
+              "brier": 0.2491936832666397
+            },
+            "transductive": {
+              "ap": 0.5483996890878291,
+              "auc": 0.5516586285104139,
+              "positive_count": 8903,
+              "negative_count": 8903,
+              "brier": 0.2483973652124405
+            },
+            "inductive": {
+              "ap": 0.5485495115596732,
+              "auc": 0.5504294224818598,
+              "positive_count": 2099,
+              "negative_count": 2099,
+              "brier": 0.24954567849636078
+            }
+          }
+        },
+        "ordered_gate": {
+          "kind": "ordered_gate",
+          "seed": 7,
+          "selected_epoch": 4,
+          "validation_history": [
+            {
+              "epoch": 1,
+              "loss": 2.821912700182771,
+              "validation": {
+                "ap": 0.5100267732541098,
+                "auc": 0.5134225351546826,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.34728607535362244
+              }
+            },
+            {
+              "epoch": 2,
+              "loss": 2.080728583139916,
+              "validation": {
+                "ap": 0.5415480752353933,
+                "auc": 0.546444771750973,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2482261210680008
+              }
+            },
+            {
+              "epoch": 3,
+              "loss": 1.905570779761223,
+              "validation": {
+                "ap": 0.5480286347601323,
+                "auc": 0.5513844006810122,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2474091798067093
+              }
+            },
+            {
+              "epoch": 4,
+              "loss": 1.8825052086621115,
+              "validation": {
+                "ap": 0.5547544580659984,
+                "auc": 0.5538036676331743,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.24785833060741425
+              }
+            },
+            {
+              "epoch": 5,
+              "loss": 1.8532430521429402,
+              "validation": {
+                "ap": 0.5505454454519938,
+                "auc": 0.5503973124491747,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.25048622488975525
+              }
+            },
+            {
+              "epoch": 6,
+              "loss": 1.8153561990555018,
+              "validation": {
+                "ap": 0.550029768979914,
+                "auc": 0.5481882317102075,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.25217485427856445
+              }
+            },
+            {
+              "epoch": 7,
+              "loss": 1.7615172430260542,
+              "validation": {
+                "ap": 0.5501550936143249,
+                "auc": 0.5490981988100875,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.25397369265556335
+              }
+            },
+            {
+              "epoch": 8,
+              "loss": 1.67970775169869,
+              "validation": {
+                "ap": 0.5486369212418126,
+                "auc": 0.546874229840487,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2602714002132416
+              }
+            },
+            {
+              "epoch": 9,
+              "loss": 1.5690962117012233,
+              "validation": {
+                "ap": 0.5463666650386092,
+                "auc": 0.5457182834894405,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2666696310043335
+              }
+            },
+            {
+              "epoch": 10,
+              "loss": 1.4505661285086855,
+              "validation": {
+                "ap": 0.5340315731269148,
+                "auc": 0.5354794609976071,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2845528721809387
+              }
+            }
+          ],
+          "parameter_count": 186374,
+          "checkpoint_sha256": "0075a04f8208050aa338436710aca51599e75214d46d998a247354b2963fdbaf",
+          "predictions_sha256": "72b3aa2d1ac888c6b37c020661d95b4973ab14c2d8d30cc50f5f914d9893bfaa",
+          "elapsed_seconds": 90.93502580799986,
+          "all_test": {
+            "ap": 0.5498167146161347,
+            "auc": 0.5513885718783724,
+            "positive_count": 11002,
+            "negative_count": 11002,
+            "brier": 0.24831028282642365
+          },
+          "strata": {
+            "both_silence_ge_1000": {
+              "ap": 0.5467241007409449,
+              "auc": 0.5492666643669769,
+              "positive_count": 10136,
+              "negative_count": 10136,
+              "brier": 0.24883349239826202
+            },
+            "transductive": {
+              "ap": 0.5509355705602018,
+              "auc": 0.552105101863585,
+              "positive_count": 8903,
+              "negative_count": 8903,
+              "brier": 0.24806426465511322
+            },
+            "inductive": {
+              "ap": 0.5450866001198346,
+              "auc": 0.5485842415488127,
+              "positive_count": 2099,
+              "negative_count": 2099,
+              "brier": 0.24935364723205566
+            }
+          }
+        }
+      },
+      "recurrence_only_test": {
+        "ap": 0.5064026603947636,
+        "auc": 0.5065215911066524,
+        "positive_count": 11002,
+        "negative_count": 11002
+      }
+    },
+    {
+      "seed": 42,
+      "candidate_sha256": "5e70809e254d6fa07961b3e725331ab809da001e9898fb8bdc27de1aec14ff5b",
+      "coverage": {
+        "train": 37206,
+        "validation": 10139,
+        "test": 11002,
+        "skipped_no_hard_support": 538695,
+        "excluded_train": 75405,
+        "total_events": 672447
+      },
+      "models": {
+        "base": {
+          "kind": "base",
+          "seed": 42,
+          "selected_epoch": 5,
+          "validation_history": [
+            {
+              "epoch": 1,
+              "loss": 2.0736315413697124,
+              "validation": {
+                "ap": 0.5351356941516927,
+                "auc": 0.5430491218906008,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.24855774641036987
+              }
+            },
+            {
+              "epoch": 2,
+              "loss": 2.066161684793969,
+              "validation": {
+                "ap": 0.5395845841858368,
+                "auc": 0.5452387180650736,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.24836638569831848
+              }
+            },
+            {
+              "epoch": 3,
+              "loss": 2.05484052226968,
+              "validation": {
+                "ap": 0.5415850748460327,
+                "auc": 0.5446011652158675,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2483336329460144
+              }
+            },
+            {
+              "epoch": 4,
+              "loss": 2.0370087296995396,
+              "validation": {
+                "ap": 0.5409574465412932,
+                "auc": 0.5428445145080287,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.24854370951652527
+              }
+            },
+            {
+              "epoch": 5,
+              "loss": 2.007315215182631,
+              "validation": {
+                "ap": 0.5424472854849839,
+                "auc": 0.5443635128679498,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2522231936454773
+              }
+            },
+            {
+              "epoch": 6,
+              "loss": 1.9567896993192908,
+              "validation": {
+                "ap": 0.5361720759264044,
+                "auc": 0.5367219205659929,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2534064054489136
+              }
+            },
+            {
+              "epoch": 7,
+              "loss": 1.883591351443774,
+              "validation": {
+                "ap": 0.5336960940782387,
+                "auc": 0.5310563432612556,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.26264381408691406
+              }
+            },
+            {
+              "epoch": 8,
+              "loss": 1.779778781819017,
+              "validation": {
+                "ap": 0.5354545814878537,
+                "auc": 0.5347741936933611,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2681728005409241
+              }
+            },
+            {
+              "epoch": 9,
+              "loss": 1.6604746816909477,
+              "validation": {
+                "ap": 0.5326411952570884,
+                "auc": 0.5313504016237617,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.28622835874557495
+              }
+            },
+            {
+              "epoch": 10,
+              "loss": 1.525470588305225,
+              "validation": {
+                "ap": 0.534002869387701,
+                "auc": 0.5343710052326124,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.29957956075668335
+              }
+            }
+          ],
+          "parameter_count": 167881,
+          "checkpoint_sha256": "7253dfd272969a739f488bcb44c01f79f80fcfb18cbdbdbf4acf4c600cafbdde",
+          "predictions_sha256": "f7aad45f3a79150f273ad5ec7652edaaa2d81c707adee5fcc123ecd3c3579f86",
+          "elapsed_seconds": 76.36217279099992,
+          "all_test": {
+            "ap": 0.5383053394730097,
+            "auc": 0.5392854816666507,
+            "positive_count": 11002,
+            "negative_count": 11002,
+            "brier": 0.2526991367340088
+          },
+          "strata": {
+            "both_silence_ge_1000": {
+              "ap": 0.5410812648037189,
+              "auc": 0.5421881540878308,
+              "positive_count": 10136,
+              "negative_count": 10136,
+              "brier": 0.25222375988960266
+            },
+            "transductive": {
+              "ap": 0.5394263873275471,
+              "auc": 0.5405957937034982,
+              "positive_count": 8903,
+              "negative_count": 8903,
+              "brier": 0.25251123309135437
+            },
+            "inductive": {
+              "ap": 0.5350687812091557,
+              "auc": 0.5334310378521409,
+              "positive_count": 2099,
+              "negative_count": 2099,
+              "brier": 0.2534962594509125
+            }
+          }
+        },
+        "base_stats": {
+          "kind": "base_stats",
+          "seed": 42,
+          "selected_epoch": 5,
+          "validation_history": [
+            {
+              "epoch": 1,
+              "loss": 2.0716145887766797,
+              "validation": {
+                "ap": 0.5334095725402784,
+                "auc": 0.5441516243088804,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2484661191701889
+              }
+            },
+            {
+              "epoch": 2,
+              "loss": 2.0546852284914827,
+              "validation": {
+                "ap": 0.5378216346319352,
+                "auc": 0.5441042747743441,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.248459130525589
+              }
+            },
+            {
+              "epoch": 3,
+              "loss": 2.034031035965436,
+              "validation": {
+                "ap": 0.5448462024435194,
+                "auc": 0.5464107734719376,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.24788595736026764
+              }
+            },
+            {
+              "epoch": 4,
+              "loss": 2.0106318674675405,
+              "validation": {
+                "ap": 0.5473843322888949,
+                "auc": 0.5496966901172431,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2471858710050583
+              }
+            },
+            {
+              "epoch": 5,
+              "loss": 1.9775132259277448,
+              "validation": {
+                "ap": 0.5503440484265778,
+                "auc": 0.5516786341419512,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2507098913192749
+              }
+            },
+            {
+              "epoch": 6,
+              "loss": 1.9222866468233606,
+              "validation": {
+                "ap": 0.544137702092841,
+                "auc": 0.5454274984948587,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.25152841210365295
+              }
+            },
+            {
+              "epoch": 7,
+              "loss": 1.8387110706878036,
+              "validation": {
+                "ap": 0.538953421178148,
+                "auc": 0.5381808504357728,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2648068070411682
+              }
+            },
+            {
+              "epoch": 8,
+              "loss": 1.7268569967518115,
+              "validation": {
+                "ap": 0.5401217438315914,
+                "auc": 0.5404387106798108,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.27825304865837097
+              }
+            },
+            {
+              "epoch": 9,
+              "loss": 1.5905431019116754,
+              "validation": {
+                "ap": 0.5394221688419492,
+                "auc": 0.5412737551058338,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.28518715500831604
+              }
+            },
+            {
+              "epoch": 10,
+              "loss": 1.4421069720020032,
+              "validation": {
+                "ap": 0.5370001199761587,
+                "auc": 0.5367378691149137,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.3072856068611145
+              }
+            }
+          ],
+          "parameter_count": 176586,
+          "checkpoint_sha256": "fbe28764de730bd2dee959217ef26cb07db9092109e25613c518cda95e3fdcd5",
+          "predictions_sha256": "adbf262e43c3ca57559350ce2bfaef2277b0d0b80f9d718a442d2bdedbcc1871",
+          "elapsed_seconds": 77.71447675300033,
+          "all_test": {
+            "ap": 0.5470998658726965,
+            "auc": 0.5483707520118055,
+            "positive_count": 11002,
+            "negative_count": 11002,
+            "brier": 0.2507689893245697
+          },
+          "strata": {
+            "both_silence_ge_1000": {
+              "ap": 0.5446440722946961,
+              "auc": 0.5470259414737784,
+              "positive_count": 10136,
+              "negative_count": 10136,
+              "brier": 0.25131475925445557
+            },
+            "transductive": {
+              "ap": 0.5489783344902815,
+              "auc": 0.5484772298905287,
+              "positive_count": 8903,
+              "negative_count": 8903,
+              "brier": 0.25065165758132935
+            },
+            "inductive": {
+              "ap": 0.538297907696331,
+              "auc": 0.5480282700013006,
+              "positive_count": 2099,
+              "negative_count": 2099,
+              "brier": 0.2512665092945099
+            }
+          }
+        },
+        "scalar_decay": {
+          "kind": "scalar_decay",
+          "seed": 42,
+          "selected_epoch": 8,
+          "validation_history": [
+            {
+              "epoch": 1,
+              "loss": 9.4358554474295,
+              "validation": {
+                "ap": 0.5058163418350503,
+                "auc": 0.499740168517261,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.4502672553062439
+              }
+            },
+            {
+              "epoch": 2,
+              "loss": 9.0669305553175,
+              "validation": {
+                "ap": 0.5067692314957638,
+                "auc": 0.501396059804714,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.44774577021598816
+              }
+            },
+            {
+              "epoch": 3,
+              "loss": 8.64261498843154,
+              "validation": {
+                "ap": 0.5098750513460695,
+                "auc": 0.5029504426395969,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.44412529468536377
+              }
+            },
+            {
+              "epoch": 4,
+              "loss": 8.207456102109935,
+              "validation": {
+                "ap": 0.5107343207008349,
+                "auc": 0.5033621574212539,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.4414243996143341
+              }
+            },
+            {
+              "epoch": 5,
+              "loss": 7.8036454279128815,
+              "validation": {
+                "ap": 0.5104601432596495,
+                "auc": 0.5030003602844809,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.4386655390262604
+              }
+            },
+            {
+              "epoch": 6,
+              "loss": 7.362855653240256,
+              "validation": {
+                "ap": 0.5119470415320604,
+                "auc": 0.5037875298806692,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.43532755970954895
+              }
+            },
+            {
+              "epoch": 7,
+              "loss": 6.916040345414044,
+              "validation": {
+                "ap": 0.5111726819118756,
+                "auc": 0.5054761256642931,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.43413615226745605
+              }
+            },
+            {
+              "epoch": 8,
+              "loss": 6.445216596943059,
+              "validation": {
+                "ap": 0.512844483926341,
+                "auc": 0.5060143296082666,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.4311666488647461
+              }
+            },
+            {
+              "epoch": 9,
+              "loss": 5.978474381851823,
+              "validation": {
+                "ap": 0.5106569143684019,
+                "auc": 0.5067878074797789,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.4311465620994568
+              }
+            },
+            {
+              "epoch": 10,
+              "loss": 5.510744202626895,
+              "validation": {
+                "ap": 0.5115763760476519,
+                "auc": 0.5069936648706074,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.42789801955223083
+              }
+            }
+          ],
+          "parameter_count": 176587,
+          "checkpoint_sha256": "831eccb631fc95431b7fc6f51e7e534e55a51169b148b315bb1c6adaa6327d7a",
+          "predictions_sha256": "1b5713c68d880ba501cdeafa3c4226d42a01eb50232b00c09a2a59fce04faf3d",
+          "elapsed_seconds": 78.92767399200011,
+          "all_test": {
+            "ap": 0.5101293187196916,
+            "auc": 0.5054713242962451,
+            "positive_count": 11002,
+            "negative_count": 11002,
+            "brier": 0.4336649477481842
+          },
+          "strata": {
+            "both_silence_ge_1000": {
+              "ap": 0.5059235286480159,
+              "auc": 0.5049690818911734,
+              "positive_count": 10136,
+              "negative_count": 10136,
+              "brier": 0.44396090507507324
+            },
+            "transductive": {
+              "ap": 0.5113173517791488,
+              "auc": 0.5054271069769407,
+              "positive_count": 8903,
+              "negative_count": 8903,
+              "brier": 0.4372153878211975
+            },
+            "inductive": {
+              "ap": 0.5043533498590066,
+              "auc": 0.5053299048232092,
+              "positive_count": 2099,
+              "negative_count": 2099,
+              "brier": 0.41860565543174744
+            }
+          }
+        },
+        "mlp_gate": {
+          "kind": "mlp_gate",
+          "seed": 42,
+          "selected_epoch": 5,
+          "validation_history": [
+            {
+              "epoch": 1,
+              "loss": 2.0775900181025673,
+              "validation": {
+                "ap": 0.5306395611397666,
+                "auc": 0.5424656452740578,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.24874570965766907
+              }
+            },
+            {
+              "epoch": 2,
+              "loss": 2.061422432938667,
+              "validation": {
+                "ap": 0.5364887960086024,
+                "auc": 0.5442436579906982,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.24868305027484894
+              }
+            },
+            {
+              "epoch": 3,
+              "loss": 2.044008439534331,
+              "validation": {
+                "ap": 0.5453678266734735,
+                "auc": 0.54440544407876,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.24797290563583374
+              }
+            },
+            {
+              "epoch": 4,
+              "loss": 2.021991199010039,
+              "validation": {
+                "ap": 0.5449171011822656,
+                "auc": 0.5469976547802295,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.24800148606300354
+              }
+            },
+            {
+              "epoch": 5,
+              "loss": 1.993009625232383,
+              "validation": {
+                "ap": 0.5513189640132576,
+                "auc": 0.5487857842952094,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2503930926322937
+              }
+            },
+            {
+              "epoch": 6,
+              "loss": 1.9410459668668982,
+              "validation": {
+                "ap": 0.5442903373041379,
+                "auc": 0.541021710639509,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2518753409385681
+              }
+            },
+            {
+              "epoch": 7,
+              "loss": 1.8652531259680447,
+              "validation": {
+                "ap": 0.5347970680605684,
+                "auc": 0.5335572644492468,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2645602226257324
+              }
+            },
+            {
+              "epoch": 8,
+              "loss": 1.7577064037322998,
+              "validation": {
+                "ap": 0.5303194970110646,
+                "auc": 0.5294359483172073,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.27149760723114014
+              }
+            },
+            {
+              "epoch": 9,
+              "loss": 1.6322642466793322,
+              "validation": {
+                "ap": 0.5348426162509665,
+                "auc": 0.5346616345841428,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.28426334261894226
+              }
+            },
+            {
+              "epoch": 10,
+              "loss": 1.4890101943930534,
+              "validation": {
+                "ap": 0.5340346518106682,
+                "auc": 0.5337279562381545,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.29534950852394104
+              }
+            }
+          ],
+          "parameter_count": 185291,
+          "checkpoint_sha256": "ec8ea5103b7ebfee6893508c5cc69b30a6c3a24f8cfd1ab2a5c9283bc3971e72",
+          "predictions_sha256": "7decb43c01948295e552f5d9b2452e59a1fe1bab59855b047b7e599949144275",
+          "elapsed_seconds": 79.40254365300007,
+          "all_test": {
+            "ap": 0.5514273690615616,
+            "auc": 0.548668941090217,
+            "positive_count": 11002,
+            "negative_count": 11002,
+            "brier": 0.24994973838329315
+          },
+          "strata": {
+            "both_silence_ge_1000": {
+              "ap": 0.5500384635190102,
+              "auc": 0.5476033929871817,
+              "positive_count": 10136,
+              "negative_count": 10136,
+              "brier": 0.2504477798938751
+            },
+            "transductive": {
+              "ap": 0.5524755616939867,
+              "auc": 0.5475746633607445,
+              "positive_count": 8903,
+              "negative_count": 8903,
+              "brier": 0.2500284016132355
+            },
+            "inductive": {
+              "ap": 0.5477505469135584,
+              "auc": 0.5532970054707418,
+              "positive_count": 2099,
+              "negative_count": 2099,
+              "brier": 0.24961599707603455
+            }
+          }
+        },
+        "ordered_gate": {
+          "kind": "ordered_gate",
+          "seed": 42,
+          "selected_epoch": 6,
+          "validation_history": [
+            {
+              "epoch": 1,
+              "loss": 2.8371209951296246,
+              "validation": {
+                "ap": 0.5125311134141038,
+                "auc": 0.518500890681953,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.3579989969730377
+              }
+            },
+            {
+              "epoch": 2,
+              "loss": 2.2563859567250293,
+              "validation": {
+                "ap": 0.5383248878366181,
+                "auc": 0.5364926243043959,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.24909040331840515
+              }
+            },
+            {
+              "epoch": 3,
+              "loss": 1.9022472876391998,
+              "validation": {
+                "ap": 0.5480031105072546,
+                "auc": 0.5495881582719793,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.24766097962856293
+              }
+            },
+            {
+              "epoch": 4,
+              "loss": 1.8790296601922545,
+              "validation": {
+                "ap": 0.5495103744609413,
+                "auc": 0.5499170904056847,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.24709860980510712
+              }
+            },
+            {
+              "epoch": 5,
+              "loss": 1.8533843943517503,
+              "validation": {
+                "ap": 0.5541478218499877,
+                "auc": 0.554900425850089,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.24899767339229584
+              }
+            },
+            {
+              "epoch": 6,
+              "loss": 1.8167078878781566,
+              "validation": {
+                "ap": 0.5543968107837056,
+                "auc": 0.5529413613539335,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.24808740615844727
+              }
+            },
+            {
+              "epoch": 7,
+              "loss": 1.7678108362302387,
+              "validation": {
+                "ap": 0.5438672103742418,
+                "auc": 0.5397113031515063,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.2532861530780792
+              }
+            },
+            {
+              "epoch": 8,
+              "loss": 1.693987384234389,
+              "validation": {
+                "ap": 0.545688524268267,
+                "auc": 0.5394469239733597,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.26408782601356506
+              }
+            },
+            {
+              "epoch": 9,
+              "loss": 1.6058259132790238,
+              "validation": {
+                "ap": 0.5406398744517082,
+                "auc": 0.5373633061253391,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.26830175518989563
+              }
+            },
+            {
+              "epoch": 10,
+              "loss": 1.489968626466516,
+              "validation": {
+                "ap": 0.5376717614283413,
+                "auc": 0.5325547286445598,
+                "positive_count": 10139,
+                "negative_count": 10139,
+                "brier": 0.28741592168807983
+              }
+            }
+          ],
+          "parameter_count": 186374,
+          "checkpoint_sha256": "24a6680901aeea5738fdd291ba89d80f5782db347d6f4cc60300ee6153aa9c1b",
+          "predictions_sha256": "5701a27ebc59e037e9de2ed3738bfe569cdf87093c662356ff9e69b8a281b4c7",
+          "elapsed_seconds": 91.0844715330004,
+          "all_test": {
+            "ap": 0.5499734324505501,
+            "auc": 0.5511987855259646,
+            "positive_count": 11002,
+            "negative_count": 11002,
+            "brier": 0.24788370728492737
+          },
+          "strata": {
+            "both_silence_ge_1000": {
+              "ap": 0.5462248803293293,
+              "auc": 0.5480598625854909,
+              "positive_count": 10136,
+              "negative_count": 10136,
+              "brier": 0.2486383616924286
+            },
+            "transductive": {
+              "ap": 0.5513883251829794,
+              "auc": 0.551949115637961,
+              "positive_count": 8903,
+              "negative_count": 8903,
+              "brier": 0.24751907587051392
+            },
+            "inductive": {
+              "ap": 0.5446587969515971,
+              "auc": 0.5479775414277677,
+              "positive_count": 2099,
+              "negative_count": 2099,
+              "brier": 0.24943026900291443
+            }
+          }
+        }
+      },
+      "recurrence_only_test": {
+        "ap": 0.5065234212152536,
+        "auc": 0.506675055957336,
+        "positive_count": 11002,
+        "negative_count": 11002
+      }
+    }
+  ],
+  "environment": {
+    "python": "3.13.15",
+    "torch": "2.11.0+cu130",
+    "numpy": "2.1.3",
+    "device": "cuda",
+    "gpu": "NVIDIA L4"
+  },
+  "source_files_sha256": {
+    "src/lifecycle_readout/__init__.py": "310ab7033974cfc77f935c4d3f0881a68fc0cdb830c0a73ac0a00ed0b78d7d86",
+    "src/lifecycle_readout/benchmark.py": "9e7c0ad7841c11b2e1b4c1bd446712e48d8ae10b29f84da74bf99a8b6a38c2c9",
+    "src/lifecycle_readout/causal_stream.py": "a977ea9be15212670cfce693514eea5a0c7d0dcd3d207662b0c82a2c397536b3",
+    "src/lifecycle_readout/colab_workflow.py": "3b314fd265c8e9450f8b3dd1e6d2ec640fa5ac803b7bd95445a09fa9d24f10e7",
+    "src/lifecycle_readout/datasets.py": "b6f595349d611fb509ab1e13fee9974e2efc8f6b4fcc3ab536f13efa25be7a30",
+    "src/lifecycle_readout/hard_controls.py": "bd9c878727b1934191213d69f14940d389330d2583b4f2418afe33194fa08cbc",
+    "src/lifecycle_readout/metrics.py": "a2e1a291b1abf69a5a9b01a751e16c9186c6d4bc8e8bf1fc9d036a89709caf69",
+    "src/lifecycle_readout/modeling/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/lifecycle_readout/modeling/fsm_head.py": "db564ccb3a282be488153d6c1809c2db6f019865e9ebc6b0e0dcd38268f986b6",
+    "src/lifecycle_readout/modeling/latent_lifecycle.py": "8e189213d14d681838c55da566266c431ad3c39803940ed5ededbdaf98b8bde5",
+    "src/lifecycle_readout/modeling/sr_gnn.py": "611e34d967dbb78f4b7549d3eaf81c3c60ee4dd25adb713b389467c8f07e9214",
+    "src/lifecycle_readout/modeling/sr_gnn_v2.py": "44227727a92a6f36edee7c548c5d828d799bfd9b19113a589b5ab15f8ab26583",
+    "src/lifecycle_readout/modeling/sr_gnn_v3.py": "30228145709b492016d168be8a234b5141038f6f737b25171db9e7da9f9cfaa9",
+    "src/lifecycle_readout/modeling/sr_gnn_v3_3.py": "a9427e089a0a58071c92cda800d374b6ff454f301b774ae33f18b6833b2a7755",
+    "src/lifecycle_readout/modeling/temporal_mixer.py": "36f9b409390411d887f927e78b5168fb87b3c15b0edc37ea462380b542740f9e",
+    "src/lifecycle_readout/training.py": "8d85c66082b82c6d4d2dbe973a33c2defb136bb27ad1d4a547433a91554cfe20"
+  },
+  "complete_declared_seeds": true,
+  "aggregate": {
+    "base": {
+      "ap": {
+        "mean": 0.5386003334117087,
+        "std_ddof1": 0.0005665155833869114,
+        "seed_count": 3
+      },
+      "auc": {
+        "mean": 0.5394466117737919,
+        "std_ddof1": 0.0028482390704891196,
+        "seed_count": 3
+      },
+      "brier": {
+        "mean": 0.2519996166229248,
+        "std_ddof1": 0.0015484784771113568,
+        "seed_count": 3
+      }
+    },
+    "base_stats": {
+      "ap": {
+        "mean": 0.5476376444308361,
+        "std_ddof1": 0.0012304568803080725,
+        "seed_count": 3
+      },
+      "auc": {
+        "mean": 0.5469480187276906,
+        "std_ddof1": 0.002850255761003098,
+        "seed_count": 3
+      },
+      "brier": {
+        "mean": 0.25070097545782727,
+        "std_ddof1": 0.0015012632913554013,
+        "seed_count": 3
+      }
+    },
+    "scalar_decay": {
+      "ap": {
+        "mean": 0.5128079458964768,
+        "std_ddof1": 0.003521770292691469,
+        "seed_count": 3
+      },
+      "auc": {
+        "mean": 0.5077462586801628,
+        "std_ddof1": 0.0027607737121956044,
+        "seed_count": 3
+      },
+      "brier": {
+        "mean": 0.43205270171165466,
+        "std_ddof1": 0.003267389116038868,
+        "seed_count": 3
+      }
+    },
+    "mlp_gate": {
+      "ap": {
+        "mean": 0.5480791193497963,
+        "std_ddof1": 0.0034097821422349635,
+        "seed_count": 3
+      },
+      "auc": {
+        "mean": 0.5472169828971178,
+        "std_ddof1": 0.005021168422499482,
+        "seed_count": 3
+      },
+      "brier": {
+        "mean": 0.250191330909729,
+        "std_ddof1": 0.0017085441555428425,
+        "seed_count": 3
+      }
+    },
+    "ordered_gate": {
+      "ap": {
+        "mean": 0.5497940677846361,
+        "std_ddof1": 0.00019169403673848087,
+        "seed_count": 3
+      },
+      "auc": {
+        "mean": 0.5487729762585624,
+        "std_ddof1": 0.004367015816606962,
+        "seed_count": 3
+      },
+      "brier": {
+        "mean": 0.24860372145970663,
+        "std_ddof1": 0.0009032201386027846,
+        "seed_count": 3
+      }
+    }
+  },
+  "paired_ap_differences": {
+    "base": {
+      "values": [
+        0.011349867912251232,
+        0.010563242228990855,
+        0.011668092977540345
+      ],
+      "mean": 0.011193734372927477,
+      "std_ddof1": 0.0005687328509229218
+    },
+    "base_stats": {
+      "values": [
+        0.002824434251286201,
+        0.000771269232260452,
+        0.002873566577853537
+      ],
+      "mean": 0.0021564233538000632,
+      "std_ddof1": 0.001199830176188326
+    },
+    "scalar_decay": {
+      "values": [
+        0.032794969764541215,
+        0.03831928216907832,
+        0.0398441137308585
+      ],
+      "mean": 0.03698612188815934,
+      "std_ddof1": 0.0037088535850626145
+    },
+    "mlp_gate": {
+      "values": [
+        0.004981088593068561,
+        0.0016176933224626433,
+        -0.0014539366110115637
+      ],
+      "mean": 0.0017149484348398802,
+      "std_ddof1": 0.003218614804842177
+    }
+  }
+}

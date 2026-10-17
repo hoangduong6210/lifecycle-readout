@@ -1,0 +1,55 @@
+{
+  "scope": "finite algebra example; not a novel estimator or graph result",
+  "positive_distribution": [
+    0.4,
+    0.35,
+    0.2,
+    0.05
+  ],
+  "positive_conditioned_negative_kernel": [
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ]
+  ],
+  "effective_negative_marginal": [
+    0.35,
+    0.4,
+    0.05,
+    0.2
+  ],
+  "balanced_sampled_class_posterior": [
+    0.5333333333333333,
+    0.4666666666666666,
+    0.8,
+    0.2
+  ],
+  "restored_using_known_effective_negative_marginal": [
+    0.4,
+    0.3499999999999999,
+    0.2,
+    0.05
+  ],
+  "all_checks_pass": true,
+  "effective_marginal_requires_positive_distribution": true
+}

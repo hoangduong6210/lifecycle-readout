@@ -1,0 +1,33 @@
+{
+  "dataset_id": "LCR-D-TGBSEQ-ML20M-001",
+  "upstream_benchmark_revision": "60e27d0ac9a13517d69b9940c34fd29e798d0c63",
+  "source_catalogue": "https://tgb-seq.github.io/datasets/",
+  "original_source": "https://grouplens.org/datasets/movielens/20m/",
+  "original_terms_url": "https://files.grouplens.org/datasets/movielens/ml-20m-README.html",
+  "original_terms_sha256": "45d31051622f284197488632b7f7441c076c680d2323ef8df367a273b709e473",
+  "checked_at_utc": "2026-10-15T13:40:32.144219+00:00",
+  "files": [
+    {
+      "path": "resources/staging/tgbseq/ML-20M/ML-20M.csv",
+      "url": "https://huggingface.co/datasets/TGB-Seq/ML-20M/resolve/60e27d0ac9a13517d69b9940c34fd29e798d0c63/ML-20M.csv",
+      "sha256": "f4bcc2f231dbc3bfd14417430ac760447ff930364ed6bc95d373b6a65edab455",
+      "size_bytes": 337248530,
+      "upstream_lfs_sha256_verified": true
+    },
+    {
+      "path": "resources/staging/tgbseq/ML-20M/ML-20M_test_ns.npy",
+      "url": "https://huggingface.co/datasets/TGB-Seq/ML-20M/resolve/60e27d0ac9a13517d69b9940c34fd29e798d0c63/ML-20M_test_ns.npy",
+      "sha256": "f1c5ea381bfdb415fa9e5948eb409fef3ed9076432b8de1c1a5d7f2603e2091f",
+      "size_bytes": 103432928,
+      "upstream_lfs_sha256_verified": true
+    }
+  ],
+  "local_research_only": true,
+  "redistribution_permission_obtained": false,
+  "research_use_conditions": "Research use with acknowledgement and no endorsement; no redistribution or commercial use without separate permission, per original README.",
+  "benchmark_transformation_to_original_bytes_verified": false,
+  "test_array_opened": false,
+  "test_scored": false,
+  "model_trained": false,
+  "scientific_admission": false
+}

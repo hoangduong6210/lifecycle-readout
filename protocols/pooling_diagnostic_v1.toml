@@ -1,6 +1,7 @@
 protocol_id = "LCR-P-POOL-DIAG-001"
 status = "authorized-posthoc-diagnostic"
 date = "2026-10-16"
+authorization = "User supplied three research directions and requested trying useful ideas."
 purpose = "Check pooled versus within-query/within-bin behavior using all existing HARD-001 predictions; test the proposed inevitable pooling explanation."
 parent = "LCR-P-HARD-001"
 datasets = ["wikipedia", "reddit"]

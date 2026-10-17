@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "all_four_tables_reproduced_exactly": true,
+  "numerical_summary_unchanged": true,
+  "prior_summary_source_retained": "summarize_pair_cadence_before_details.py",
+  "current_source_sha256": "4b4a952ffb81261549012b6b77ec89678b7b0ab71b25feaee9f503df598ba03f"
+}

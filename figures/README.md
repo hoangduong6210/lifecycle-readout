@@ -1,3 +1,7 @@
-# Figures
+# Figures and their evidence
 
-The [wiki figure-to-file map](../wiki/Figures.md) links all eight PNG previews, vector PDF/EPS files and numeric CSV inputs. Rebuild them with [the Matplotlib generator](source/sncs_all_figures.py).
+The [complete figure map](../wiki/Figures.md) links previews, vector artwork and
+aggregate inputs. [Article figures](source/article_figures.py) rebuild from the
+distributed CSVs; [pipeline diagrams](source/article_pipeline_diagrams.py) explain
+the tensors, certificate and reference/repair boundaries. The README overview has
+its own evidence-driven generator and provenance record.

@@ -1,0 +1,351 @@
+{
+  "status": "PASS",
+  "model_fit": false,
+  "test_scored": false,
+  "publication_eligible": false,
+  "protocol_id": "LCR-P-LASTFM-READOUT-001",
+  "per_seed": [
+    {
+      "seed": 101,
+      "query_count": 40600,
+      "candidate_count": 81200,
+      "amplitude": 0.002851890167221427,
+      "readout_gaps": [
+        0.5872585773468018,
+        0.9050268530845642,
+        1.3354613780975342,
+        1.802635908126831
+      ],
+      "clock_rates": [
+        0.14286571741104126,
+        0.3926905691623688,
+        0.8258407115936279,
+        2.6382298469543457
+      ],
+      "event_rates": [
+        0.14312782883644104,
+        0.3987998366355896,
+        0.8427978754043579,
+        2.639230489730835
+      ],
+      "time_unit": 702960.5,
+      "exposure_unit": 11.0,
+      "physical_time_half_life_seconds": [
+        3410580.91087115,
+        1240811.7914808907,
+        590010.9812699249,
+        184690.15851007515
+      ],
+      "dose_half_life_events": [
+        53.27139416662578,
+        19.118912009802372,
+        9.046794265471132,
+        2.888955328390816
+      ],
+      "global_logit_magnitude_bound": 0.0026410685880205037,
+      "global_probability_change_bound": 0.0006602671470051259,
+      "actual_probability_drop": {
+        "mean": 0.0004197650996502489,
+        "median": 0.00044786930084228516,
+        "maximum": 0.0006603002548217773
+      },
+      "mean_absolute_residual": 0.0019709367770701647,
+      "max_absolute_residual": 0.0026410685386508703,
+      "max_probability_replay_error": 3.5762786865234375e-07,
+      "max_component_sum_error": 3.785556295515802e-10,
+      "max_component_permutation_error": 4.336808689942018e-19,
+      "native_full_metrics": {
+        "ap": 0.7211611485220292,
+        "auc": 0.6962413095440316,
+        "pair_accuracy": 0.6358620689655172
+      },
+      "fixed_base_without_residual_metrics": {
+        "ap": 0.7211623707783262,
+        "auc": 0.6962417290519062,
+        "pair_accuracy": 0.6358374384236454
+      },
+      "full_minus_fixed_base_ap": -1.2222562970620743e-06,
+      "fixed_examples": [
+        {
+          "validation_index": 0,
+          "event_id": 1762318,
+          "gap_seconds": 827851.0,
+          "same_artist_dose": 0,
+          "base_logit": -0.05431854724884033,
+          "residual": -0.0016988924471661448,
+          "final_logit": -0.0560174398124218,
+          "base_probability": 0.48642367124557495,
+          "final_probability": 0.48599928617477417,
+          "component_terms": [
+            -5.1870331422543804e-05,
+            -0.0001911339399511929,
+            -0.0004737025247886187,
+            -0.0009821857337565503
+          ]
+        },
+        {
+          "validation_index": 20300,
+          "event_id": 1794095,
+          "gap_seconds": 5375792.0,
+          "same_artist_dose": 12,
+          "base_logit": 0.18343597650527954,
+          "residual": -0.0025278422981500626,
+          "final_logit": 0.18090812861919403,
+          "base_probability": 0.5457308292388916,
+          "final_probability": 0.5451040863990784,
+          "component_terms": [
+            -0.00023886564030968247,
+            -0.0004996239368399205,
+            -0.0007611686610552333,
+            -0.0010281839241935362
+          ]
+        },
+        {
+          "validation_index": 40599,
+          "event_id": 1825979,
+          "gap_seconds": 446237.0,
+          "same_artist_dose": 20,
+          "base_logit": 0.007189437747001648,
+          "residual": -0.00211141025647521,
+          "final_logit": 0.005078027490526438,
+          "base_probability": 0.5017973780632019,
+          "final_probability": 0.501269519329071,
+          "component_terms": [
+            -9.913529385307462e-05,
+            -0.00032137510750744895,
+            -0.000664303310260708,
+            -0.001026596348146692
+          ]
+        }
+      ]
+    },
+    {
+      "seed": 202,
+      "query_count": 40600,
+      "candidate_count": 81200,
+      "amplitude": 0.006223675329238176,
+      "readout_gaps": [
+        0.578541100025177,
+        0.916252076625824,
+        1.3616424798965454,
+        1.834250569343567
+      ],
+      "clock_rates": [
+        0.1275181919336319,
+        0.3648149371147156,
+        0.8607701063156128,
+        2.7541232109069824
+      ],
+      "event_rates": [
+        0.12783071398735046,
+        0.3691841661930084,
+        0.8692634701728821,
+        2.7551112174987793
+      ],
+      "time_unit": 704262.5,
+      "exposure_unit": 11.0,
+      "physical_time_half_life_seconds": [
+        3828140.5879967688,
+        1338096.4335229453,
+        567117.2391645638,
+        177246.08845235335
+      ],
+      "dose_half_life_events": [
+        59.64622075813404,
+        20.652616456398267,
+        8.771355576052205,
+        2.7674450808854787
+      ],
+      "global_logit_magnitude_bound": 0.00583866162825517,
+      "global_probability_change_bound": 0.0014596654070637926,
+      "actual_probability_drop": {
+        "mean": 0.0008741955971345305,
+        "median": 0.0009131431579589844,
+        "maximum": 0.001459747552871704
+      },
+      "mean_absolute_residual": 0.004352328833192587,
+      "max_absolute_residual": 0.0058386619202792645,
+      "max_probability_replay_error": 3.5762786865234375e-07,
+      "max_component_sum_error": 8.649204512323205e-10,
+      "max_component_permutation_error": 1.734723475976807e-18,
+      "native_full_metrics": {
+        "ap": 0.7205542270809948,
+        "auc": 0.6982914181368147,
+        "pair_accuracy": 0.6376847290640394
+      },
+      "fixed_base_without_residual_metrics": {
+        "ap": 0.7205655468715115,
+        "auc": 0.6983089203814701,
+        "pair_accuracy": 0.6379064039408867
+      },
+      "full_minus_fixed_base_ap": -1.1319790516717276e-05,
+      "fixed_examples": [
+        {
+          "validation_index": 0,
+          "event_id": 1762318,
+          "gap_seconds": 827851.0,
+          "same_artist_dose": 0,
+          "base_logit": -0.29219990968704224,
+          "residual": -0.003770178882405162,
+          "final_logit": -0.29597008228302,
+          "base_probability": 0.42746537923812866,
+          "final_probability": 0.42654290795326233,
+          "component_terms": [
+            -0.00010024389428934522,
+            -0.00039772644756557205,
+            -0.001078699846351272,
+            -0.0021935090187826427
+          ]
+        },
+        {
+          "validation_index": 20300,
+          "event_id": 1794095,
+          "gap_seconds": 5375792.0,
+          "same_artist_dose": 12,
+          "base_logit": -0.022179074585437775,
+          "residual": -0.005554010160267353,
+          "final_logit": -0.027733083814382553,
+          "base_probability": 0.4944554567337036,
+          "final_probability": 0.4930671751499176,
+          "component_terms": [
+            -0.0004834747858047034,
+            -0.0010934155040980174,
+            -0.0016939641284197254,
+            -0.002283156003129149
+          ]
+        },
+        {
+          "validation_index": 40599,
+          "event_id": 1825979,
+          "gap_seconds": 446237.0,
+          "same_artist_dose": 20,
+          "base_logit": -0.21642351150512695,
+          "residual": -0.004644695203751326,
+          "final_logit": -0.22106820344924927,
+          "base_probability": 0.4461043179035187,
+          "final_probability": 0.4449569582939148,
+          "component_terms": [
+            -0.00019364987920118527,
+            -0.0006779131550303547,
+            -0.0014926377653517865,
+            -0.002280494358500908
+          ]
+        }
+      ]
+    },
+    {
+      "seed": 303,
+      "query_count": 40600,
+      "candidate_count": 81200,
+      "amplitude": 0.005033224821090698,
+      "readout_gaps": [
+        0.5953641533851624,
+        0.9236129522323608,
+        1.3391010761260986,
+        1.7985804080963135
+      ],
+      "clock_rates": [
+        0.142548069357872,
+        0.3872694671154022,
+        0.8208248615264893,
+        2.6388373374938965
+      ],
+      "event_rates": [
+        0.14322514832019806,
+        0.39777201414108276,
+        0.8405577540397644,
+        2.6396677494049072
+      ],
+      "time_unit": 703192.0,
+      "exposure_unit": 11.0,
+      "physical_time_half_life_seconds": [
+        3419306.584704665,
+        1258595.3543480989,
+        593811.8775859951,
+        184708.44915935877
+      ],
+      "dose_half_life_events": [
+        53.23519699985642,
+        19.168314298388726,
+        9.07090434835094,
+        2.8884767743509805
+      ],
+      "global_logit_magnitude_bound": 0.004687601919545514,
+      "global_probability_change_bound": 0.0011719004798863785,
+      "actual_probability_drop": {
+        "mean": 0.0006844913004897535,
+        "median": 0.0007107630372047424,
+        "maximum": 0.0011719465255737305
+      },
+      "mean_absolute_residual": 0.0034887492656707764,
+      "max_absolute_residual": 0.004687602166086435,
+      "max_probability_replay_error": 5.960464477539062e-07,
+      "max_component_sum_error": 6.920263355414402e-10,
+      "max_component_permutation_error": 8.673617379884035e-19,
+      "native_full_metrics": {
+        "ap": 0.7192633801344742,
+        "auc": 0.695088869543061,
+        "pair_accuracy": 0.6342610837438424
+      },
+      "fixed_base_without_residual_metrics": {
+        "ap": 0.7192645588269299,
+        "auc": 0.6950939248707807,
+        "pair_accuracy": 0.6344334975369458
+      },
+      "full_minus_fixed_base_ap": -1.1786924556389522e-06,
+      "fixed_examples": [
+        {
+          "validation_index": 0,
+          "event_id": 1762318,
+          "gap_seconds": 827851.0,
+          "same_artist_dose": 0,
+          "base_logit": -0.5864094495773315,
+          "residual": -0.002997636329382658,
+          "final_logit": -0.5894070863723755,
+          "base_probability": 0.3574591279029846,
+          "final_probability": 0.35677090287208557,
+          "component_terms": [
+            -9.259058049538434e-05,
+            -0.0003404163357037627,
+            -0.00083512059634271,
+            -0.0017295086457765328
+          ]
+        },
+        {
+          "validation_index": 20300,
+          "event_id": 1794095,
+          "gap_seconds": 5375792.0,
+          "same_artist_dose": 12,
+          "base_logit": 0.6833059787750244,
+          "residual": -0.004482992924749851,
+          "final_logit": 0.6788229942321777,
+          "base_probability": 0.6644761562347412,
+          "final_probability": 0.6634759902954102,
+          "component_terms": [
+            -0.00042692450904717645,
+            -0.000898551859601155,
+            -0.001346984923616268,
+            -0.00181053191037538
+          ]
+        },
+        {
+          "validation_index": 40599,
+          "event_id": 1825979,
+          "gap_seconds": 446237.0,
+          "same_artist_dose": 20,
+          "base_logit": -0.16066405177116394,
+          "residual": -0.003736349754035473,
+          "final_logit": -0.1644003987312317,
+          "base_probability": 0.45992016792297363,
+          "final_probability": 0.45899221301078796,
+          "component_terms": [
+            -0.00017735312663671237,
+            -0.000576937483675691,
+            -0.0011743211006870536,
+            -0.0018077381016871747
+          ]
+        }
+      ]
+    }
+  ]
+}

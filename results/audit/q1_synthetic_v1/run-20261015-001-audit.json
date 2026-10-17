@@ -1,0 +1,11 @@
+{
+  "protocol_id": "LCR-P-Q1-SYNTH-001",
+  "all_checks_pass": true,
+  "results_sha256": "d6a0fc6e6bbbf078b08b2e0e1fff4b19b0be37713f79d2a502e88e4fa0acb352",
+  "saved_endpoint_arrays_verified": 144,
+  "scenario_seed_runs": 12,
+  "trained_models_verified": 36,
+  "publication_eligible": false,
+  "graph_data_evaluated": false,
+  "model_training_in_audit": false
+}

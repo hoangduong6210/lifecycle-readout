@@ -1,0 +1,2988 @@
+{
+  "status": "COMPLETED_WITH_RECOVERED_INITIALIZATION_AUDIT",
+  "protocol_id": "LCR-P-LASTFM-MODEL-001",
+  "models": [
+    "history_only",
+    "dose_mlp",
+    "scalar_clock",
+    "phase_competition",
+    "shuffled_phase",
+    "activity_mlp"
+  ],
+  "seeds": [
+    101,
+    202,
+    303
+  ],
+  "coverage": {
+    "101": {
+      "train": 67697,
+      "validation": 40600
+    },
+    "202": {
+      "train": 67697,
+      "validation": 40600
+    },
+    "303": {
+      "train": 67697,
+      "validation": 40600
+    }
+  },
+  "primary": {
+    "treatment": "phase_competition",
+    "control": "dose_mlp",
+    "values": [
+      0.00028747711893362116,
+      -0.0006886638079394158,
+      0.0001650492580869134
+    ],
+    "mean": -7.871247697296042e-05,
+    "std_ddof1": 0.0005317683846268862
+  },
+  "comparisons": {
+    "primary_shape": {
+      "treatment": "phase_competition",
+      "control": "dose_mlp",
+      "values": [
+        0.00028747711893362116,
+        -0.0006886638079394158,
+        0.0001650492580869134
+      ],
+      "mean": -7.871247697296042e-05,
+      "std_ddof1": 0.0005317683846268862
+    },
+    "phase_specific_rates": {
+      "treatment": "phase_competition",
+      "control": "scalar_clock",
+      "values": [
+        3.095752391024664e-05,
+        -0.00010442363488005757,
+        -0.0002771875281277758
+      ],
+      "mean": -0.00011688454636586225,
+      "std_ddof1": 0.00015444998870240063
+    },
+    "profile_alignment": {
+      "treatment": "phase_competition",
+      "control": "shuffled_phase",
+      "values": [
+        0.0003428498014321768,
+        0.0003875992990508559,
+        -0.0008922850413324301
+      ],
+      "mean": -5.394531361646582e-05,
+      "std_ddof1": 0.0007263681942957297
+    },
+    "profile_information": {
+      "treatment": "dose_mlp",
+      "control": "activity_mlp",
+      "values": [
+        0.0003494082831456691,
+        0.0008049131391705266,
+        -0.0006696830798944564
+      ],
+      "mean": 0.00016154611414057976,
+      "std_ddof1": 0.0007550348655708943
+    },
+    "residual_vs_history": {
+      "treatment": "phase_competition",
+      "control": "history_only",
+      "values": [
+        -0.0004315885184116297,
+        -0.000596538726706064,
+        -6.558286887048403e-05
+      ],
+      "mean": -0.00036457003799605925,
+      "std_ddof1": 0.0002717482994986138
+    }
+  },
+  "arms": {
+    "history_only": {
+      "metrics": {
+        "ap": {
+          "mean": 0.7206908186069118,
+          "sample_sd": 0.0011999315252413103
+        },
+        "auc": {
+          "mean": 0.697308991462221,
+          "sample_sd": 0.0018060087935484453
+        },
+        "brier": {
+          "mean": 0.2140927016735077,
+          "sample_sd": 0.0014866412502016308
+        },
+        "pair_accuracy": {
+          "mean": 0.6373357963875206,
+          "sample_sd": 0.0009029985737325851
+        }
+      },
+      "branch_parameter_count": 0,
+      "parameter_count": 1054378,
+      "selected_epochs": [
+        4,
+        2,
+        3
+      ],
+      "amplitudes": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "dose_mlp": {
+      "metrics": {
+        "ap": {
+          "mean": 0.7204049610458886,
+          "sample_sd": 0.001146544930627977
+        },
+        "auc": {
+          "mean": 0.6966435473238046,
+          "sample_sd": 0.0021731495137974357
+        },
+        "brier": {
+          "mean": 0.21464880804220834,
+          "sample_sd": 0.0013759883924935633
+        },
+        "pair_accuracy": {
+          "mean": 0.6356650246305419,
+          "sample_sd": 0.002543394167473944
+        }
+      },
+      "branch_parameter_count": 13,
+      "parameter_count": 1054391,
+      "selected_epochs": [
+        3,
+        2,
+        3
+      ],
+      "amplitudes": [
+        0.009828574024140835,
+        0.011033648625016212,
+        -0.05688627436757088
+      ]
+    },
+    "scalar_clock": {
+      "metrics": {
+        "ap": {
+          "mean": 0.7204431331152815,
+          "sample_sd": 0.0008164325892031491
+        },
+        "auc": {
+          "mean": 0.6970676762559959,
+          "sample_sd": 0.0013339774143263181
+        },
+        "brier": {
+          "mean": 0.21466504534085593,
+          "sample_sd": 0.001701305615371034
+        },
+        "pair_accuracy": {
+          "mean": 0.6362233169129721,
+          "sample_sd": 0.0002151944568486382
+        }
+      },
+      "branch_parameter_count": 10,
+      "parameter_count": 1054388,
+      "selected_epochs": [
+        4,
+        2,
+        3
+      ],
+      "amplitudes": [
+        0.0,
+        0.005974708124995232,
+        0.004489423707127571
+      ]
+    },
+    "phase_competition": {
+      "metrics": {
+        "ap": {
+          "mean": 0.7203262485689157,
+          "sample_sd": 0.0009692069757560027
+        },
+        "auc": {
+          "mean": 0.6965405299813148,
+          "sample_sd": 0.0016221133280666091
+        },
+        "brier": {
+          "mean": 0.21451313296953836,
+          "sample_sd": 0.0013901367013721116
+        },
+        "pair_accuracy": {
+          "mean": 0.635935960591133,
+          "sample_sd": 0.0017130183299891538
+        }
+      },
+      "branch_parameter_count": 13,
+      "parameter_count": 1054391,
+      "selected_epochs": [
+        3,
+        2,
+        3
+      ],
+      "amplitudes": [
+        0.002851890167221427,
+        0.006223675329238176,
+        0.005033224821090698
+      ]
+    },
+    "shuffled_phase": {
+      "metrics": {
+        "ap": {
+          "mean": 0.7203801938825322,
+          "sample_sd": 0.00037943811346936667
+        },
+        "auc": {
+          "mean": 0.6974631562077863,
+          "sample_sd": 0.0006540558339876586
+        },
+        "brier": {
+          "mean": 0.2138288418451945,
+          "sample_sd": 0.0006953138125755604
+        },
+        "pair_accuracy": {
+          "mean": 0.6384154351395731,
+          "sample_sd": 0.0008983678532542043
+        }
+      },
+      "branch_parameter_count": 13,
+      "parameter_count": 1054391,
+      "selected_epochs": [
+        4,
+        2,
+        2
+      ],
+      "amplitudes": [
+        0.0,
+        0.00041571108158677816,
+        0.00018285959959030151
+      ]
+    },
+    "activity_mlp": {
+      "metrics": {
+        "ap": {
+          "mean": 0.720243414931748,
+          "sample_sd": 0.00041397013896798674
+        },
+        "auc": {
+          "mean": 0.6968878867480405,
+          "sample_sd": 0.0013409248036502619
+        },
+        "brier": {
+          "mean": 0.2143691082795461,
+          "sample_sd": 0.0008494072060778637
+        },
+        "pair_accuracy": {
+          "mean": 0.6405008210180624,
+          "sample_sd": 0.0019029916466564976
+        }
+      },
+      "branch_parameter_count": 13,
+      "parameter_count": 1054391,
+      "selected_epochs": [
+        2,
+        2,
+        3
+      ],
+      "amplitudes": [
+        0.013238492421805859,
+        -0.0007503553060814738,
+        -0.006588343530893326
+      ]
+    }
+  },
+  "per_seed": [
+    {
+      "seed": 101,
+      "candidate_digest": "dab7c29f657933a2af6cf600213892a6d443aa3c0a664fcd9a1c7452c2486307",
+      "coverage": {
+        "train": 67697,
+        "validation": 40600
+      },
+      "models": {
+        "history_only": {
+          "kind": "history_only",
+          "seed": 101,
+          "selected_epoch": 4,
+          "validation_history": [
+            {
+              "epoch": 1,
+              "loss": 1.937120028904506,
+              "validation": {
+                "ap": 0.7149259793101773,
+                "auc": 0.6826422568492319,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21978674829006195
+              }
+            },
+            {
+              "epoch": 2,
+              "loss": 1.8341997082072092,
+              "validation": {
+                "ap": 0.7213586504196883,
+                "auc": 0.6968203884466986,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21352048218250275
+              }
+            },
+            {
+              "epoch": 3,
+              "loss": 1.783745819464662,
+              "validation": {
+                "ap": 0.7215214551486128,
+                "auc": 0.6974459571938169,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2136937379837036
+              }
+            },
+            {
+              "epoch": 4,
+              "loss": 1.7493368324480558,
+              "validation": {
+                "ap": 0.7215927236974937,
+                "auc": 0.6975798793952777,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21330755949020386
+              }
+            },
+            {
+              "epoch": 5,
+              "loss": 1.7070397524009073,
+              "validation": {
+                "ap": 0.7182683657408893,
+                "auc": 0.6949653755854304,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21878120303153992
+              }
+            },
+            {
+              "epoch": 6,
+              "loss": 1.6578648108288758,
+              "validation": {
+                "ap": 0.710136349931326,
+                "auc": 0.6882812534883156,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.22373831272125244
+              }
+            },
+            {
+              "epoch": 7,
+              "loss": 1.588608850213818,
+              "validation": {
+                "ap": 0.7006929153747434,
+                "auc": 0.6800683364070955,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.22834932804107666
+              }
+            },
+            {
+              "epoch": 8,
+              "loss": 1.504446370261056,
+              "validation": {
+                "ap": 0.6933716265887775,
+                "auc": 0.675797967373632,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.23551905155181885
+              }
+            },
+            {
+              "epoch": 9,
+              "loss": 1.4072493825639998,
+              "validation": {
+                "ap": 0.6681549018145886,
+                "auc": 0.6585396397024922,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.24828533828258514
+              }
+            },
+            {
+              "epoch": 10,
+              "loss": 1.3092964116792034,
+              "validation": {
+                "ap": 0.6602054299679161,
+                "auc": 0.6620839601179355,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2589319050312042
+              }
+            }
+          ],
+          "all_validation": {
+            "ap": 0.7215927236974937,
+            "auc": 0.6975798793952777,
+            "positive_count": 40600,
+            "negative_count": 40600,
+            "brier": 0.21330755949020386,
+            "pair_accuracy": 0.6362931034482758
+          },
+          "evaluation_split": "validation",
+          "test_scored": false,
+          "parameter_count": 1054378,
+          "branch_parameter_count": 0,
+          "elapsed_seconds": 30.65794470000003,
+          "initial_common_sha256": "f7b6454be78bc343486cb0a076061bfad79cda41f287185bd5177390f0c787e1",
+          "time_unit": 702960.5,
+          "exposure_unit": 11.0,
+          "amplitude": 0.0,
+          "checkpoint_sha256": "af9c47b5849ad9a5737042a423e96bc7074919e3bccb9e71465fc8da1964e93e",
+          "predictions_sha256": "031f3aa037090ecd7a45da8889b055c9255b7e9c43fddd0394cc881cc51c0738"
+        },
+        "dose_mlp": {
+          "kind": "dose_mlp",
+          "seed": 101,
+          "selected_epoch": 3,
+          "validation_history": [
+            {
+              "epoch": 1,
+              "loss": 1.9371586303065593,
+              "validation": {
+                "ap": 0.7146659454846636,
+                "auc": 0.6820391179718023,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21986109018325806
+              }
+            },
+            {
+              "epoch": 2,
+              "loss": 1.8366052826544397,
+              "validation": {
+                "ap": 0.7206576343553572,
+                "auc": 0.6956280384746051,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21426481008529663
+              }
+            },
+            {
+              "epoch": 3,
+              "loss": 1.7866550029668593,
+              "validation": {
+                "ap": 0.7208736580601485,
+                "auc": 0.6958322751098062,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2149096131324768
+              }
+            },
+            {
+              "epoch": 4,
+              "loss": 1.7503824789721267,
+              "validation": {
+                "ap": 0.7202900196799682,
+                "auc": 0.696291537042879,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2144269496202469
+              }
+            },
+            {
+              "epoch": 5,
+              "loss": 1.7091172584017416,
+              "validation": {
+                "ap": 0.7182214928221031,
+                "auc": 0.6946255287073212,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21959152817726135
+              }
+            },
+            {
+              "epoch": 6,
+              "loss": 1.6581861910067106,
+              "validation": {
+                "ap": 0.7108355780338613,
+                "auc": 0.6890632052464268,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.22426512837409973
+              }
+            },
+            {
+              "epoch": 7,
+              "loss": 1.5893649024174625,
+              "validation": {
+                "ap": 0.7007571699935657,
+                "auc": 0.6788743899997574,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2275073081254959
+              }
+            },
+            {
+              "epoch": 8,
+              "loss": 1.5111743633012127,
+              "validation": {
+                "ap": 0.6906010344114655,
+                "auc": 0.6747251213327186,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.23490720987319946
+              }
+            },
+            {
+              "epoch": 9,
+              "loss": 1.4155035951083763,
+              "validation": {
+                "ap": 0.6679225333764676,
+                "auc": 0.6568539651532432,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.248627707362175
+              }
+            },
+            {
+              "epoch": 10,
+              "loss": 1.320400777615999,
+              "validation": {
+                "ap": 0.6513411833589191,
+                "auc": 0.6574067130359873,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.26022666692733765
+              }
+            }
+          ],
+          "all_validation": {
+            "ap": 0.7208736580601485,
+            "auc": 0.6958322751098062,
+            "positive_count": 40600,
+            "negative_count": 40600,
+            "brier": 0.2149096131324768,
+            "pair_accuracy": 0.6340394088669951
+          },
+          "evaluation_split": "validation",
+          "test_scored": false,
+          "parameter_count": 1054391,
+          "branch_parameter_count": 13,
+          "elapsed_seconds": 30.784216361000063,
+          "initial_common_sha256": "f7b6454be78bc343486cb0a076061bfad79cda41f287185bd5177390f0c787e1",
+          "time_unit": 702960.5,
+          "exposure_unit": 11.0,
+          "amplitude": 0.009828574024140835,
+          "checkpoint_sha256": "ce2fb64fb78c8b5a1eb65ab2c6a4a4814dd905a67a3296098f28dc319ee85efe",
+          "predictions_sha256": "260006c3508ed06c9d5b82e17e661c1f0abdaffcaa30cf1b88d18c03cfc34b63"
+        },
+        "scalar_clock": {
+          "kind": "scalar_clock",
+          "seed": 101,
+          "selected_epoch": 4,
+          "validation_history": [
+            {
+              "epoch": 1,
+              "loss": 1.937204783124135,
+              "validation": {
+                "ap": 0.7148670217235763,
+                "auc": 0.6824284000461064,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2196064591407776
+              }
+            },
+            {
+              "epoch": 2,
+              "loss": 1.8364352444957073,
+              "validation": {
+                "ap": 0.7201732051829084,
+                "auc": 0.6950113339925744,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21445725858211517
+              }
+            },
+            {
+              "epoch": 3,
+              "loss": 1.7877097264268345,
+              "validation": {
+                "ap": 0.7210522704411472,
+                "auc": 0.6960944135383047,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21424365043640137
+              }
+            },
+            {
+              "epoch": 4,
+              "loss": 1.7512475001184564,
+              "validation": {
+                "ap": 0.7211301776551718,
+                "auc": 0.697257623941372,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.213959738612175
+              }
+            },
+            {
+              "epoch": 5,
+              "loss": 1.7098299829583419,
+              "validation": {
+                "ap": 0.7179758776084306,
+                "auc": 0.6942380199106991,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21836057305335999
+              }
+            },
+            {
+              "epoch": 6,
+              "loss": 1.6601591755573015,
+              "validation": {
+                "ap": 0.7094857561654297,
+                "auc": 0.6878809331699386,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.22439876198768616
+              }
+            },
+            {
+              "epoch": 7,
+              "loss": 1.5931522729701566,
+              "validation": {
+                "ap": 0.7015615430443407,
+                "auc": 0.6791562298284355,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.22804519534111023
+              }
+            },
+            {
+              "epoch": 8,
+              "loss": 1.5112207186849493,
+              "validation": {
+                "ap": 0.6875789289774055,
+                "auc": 0.675278798624087,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.23578009009361267
+              }
+            },
+            {
+              "epoch": 9,
+              "loss": 1.4204848771704768,
+              "validation": {
+                "ap": 0.6699158445227769,
+                "auc": 0.6591861604867869,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.24753090739250183
+              }
+            },
+            {
+              "epoch": 10,
+              "loss": 1.3218492054401483,
+              "validation": {
+                "ap": 0.6596494269742885,
+                "auc": 0.6622231921424931,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2600484788417816
+              }
+            }
+          ],
+          "all_validation": {
+            "ap": 0.7211301776551718,
+            "auc": 0.697257623941372,
+            "positive_count": 40600,
+            "negative_count": 40600,
+            "brier": 0.213959738612175,
+            "pair_accuracy": 0.6362807881773399
+          },
+          "evaluation_split": "validation",
+          "test_scored": false,
+          "parameter_count": 1054388,
+          "branch_parameter_count": 10,
+          "elapsed_seconds": 36.97276436899983,
+          "initial_common_sha256": "f7b6454be78bc343486cb0a076061bfad79cda41f287185bd5177390f0c787e1",
+          "time_unit": 702960.5,
+          "exposure_unit": 11.0,
+          "amplitude": 0.0,
+          "checkpoint_sha256": "f1596cbf88a8a094dafc49049156d8f1bdf200500a560b36d5ae698c36ba0536",
+          "predictions_sha256": "eb5661d5ac319a68b2b64b7d00344b18104f6647c3f42c17f1fc270ef6f37ea2",
+          "state_parameters": {
+            "clock_rates": [
+              0.1588597446680069,
+              0.4128738343715668,
+              0.8218236565589905,
+              2.5268428325653076
+            ],
+            "event_rates": [
+              0.14192885160446167,
+              0.36887070536613464,
+              0.7342356443405151,
+              2.257537841796875
+            ],
+            "readout_gaps": [
+              0.6039007306098938,
+              0.881981372833252,
+              1.2923179864883423,
+              1.7474873065948486
+            ]
+          }
+        },
+        "phase_competition": {
+          "kind": "phase_competition",
+          "seed": 101,
+          "selected_epoch": 3,
+          "validation_history": [
+            {
+              "epoch": 1,
+              "loss": 1.9371773031421173,
+              "validation": {
+                "ap": 0.7150699073186426,
+                "auc": 0.6827369245795821,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2195834219455719
+              }
+            },
+            {
+              "epoch": 2,
+              "loss": 1.8360743603311984,
+              "validation": {
+                "ap": 0.7206183859817638,
+                "auc": 0.6958878391249483,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.214189350605011
+              }
+            },
+            {
+              "epoch": 3,
+              "loss": 1.7867711639045774,
+              "validation": {
+                "ap": 0.7211611351790821,
+                "auc": 0.6962412937707781,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21445485949516296
+              }
+            },
+            {
+              "epoch": 4,
+              "loss": 1.7511410740085114,
+              "validation": {
+                "ap": 0.7208722704897756,
+                "auc": 0.6964599504962508,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21399454772472382
+              }
+            },
+            {
+              "epoch": 5,
+              "loss": 1.708703693590666,
+              "validation": {
+                "ap": 0.7187074940178231,
+                "auc": 0.6949641880414472,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2192840278148651
+              }
+            },
+            {
+              "epoch": 6,
+              "loss": 1.6588199120715148,
+              "validation": {
+                "ap": 0.7102247608237519,
+                "auc": 0.6881225466524303,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2238362580537796
+              }
+            },
+            {
+              "epoch": 7,
+              "loss": 1.590975318636213,
+              "validation": {
+                "ap": 0.6978443941169885,
+                "auc": 0.6760888649930841,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.22844764590263367
+              }
+            },
+            {
+              "epoch": 8,
+              "loss": 1.5069359012116166,
+              "validation": {
+                "ap": 0.6852732747097041,
+                "auc": 0.6721017038147007,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.23698922991752625
+              }
+            },
+            {
+              "epoch": 9,
+              "loss": 1.4165186810314208,
+              "validation": {
+                "ap": 0.665737742237566,
+                "auc": 0.6563324495255891,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.249274343252182
+              }
+            },
+            {
+              "epoch": 10,
+              "loss": 1.3172741698143178,
+              "validation": {
+                "ap": 0.66413209970445,
+                "auc": 0.6644790121696716,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2578689455986023
+              }
+            }
+          ],
+          "all_validation": {
+            "ap": 0.7211611351790821,
+            "auc": 0.6962412937707781,
+            "positive_count": 40600,
+            "negative_count": 40600,
+            "brier": 0.21445485949516296,
+            "pair_accuracy": 0.6358620689655172
+          },
+          "evaluation_split": "validation",
+          "test_scored": false,
+          "parameter_count": 1054391,
+          "branch_parameter_count": 13,
+          "elapsed_seconds": 36.456355083999824,
+          "initial_common_sha256": "f7b6454be78bc343486cb0a076061bfad79cda41f287185bd5177390f0c787e1",
+          "time_unit": 702960.5,
+          "exposure_unit": 11.0,
+          "amplitude": 0.002851890167221427,
+          "checkpoint_sha256": "c8fd688fd2a1e794c49a488d4925a127a84c1d8b06bd4918299be6d79904964d",
+          "predictions_sha256": "075357e6614c9a4fcb6010737db385f7bacb4caba85abb94837db70dd7a627ac",
+          "state_parameters": {
+            "clock_rates": [
+              0.14286571741104126,
+              0.39269059896469116,
+              0.8258407115936279,
+              2.6382298469543457
+            ],
+            "event_rates": [
+              0.14312784373760223,
+              0.3987998366355896,
+              0.8427978754043579,
+              2.639230489730835
+            ],
+            "readout_gaps": [
+              0.5872586369514465,
+              0.9050268530845642,
+              1.3354613780975342,
+              1.802635908126831
+            ]
+          }
+        },
+        "shuffled_phase": {
+          "kind": "shuffled_phase",
+          "seed": 101,
+          "selected_epoch": 4,
+          "validation_history": [
+            {
+              "epoch": 1,
+              "loss": 1.936843040294217,
+              "validation": {
+                "ap": 0.7150018751899938,
+                "auc": 0.6827380372006115,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21973659098148346
+              }
+            },
+            {
+              "epoch": 2,
+              "loss": 1.8366506296889227,
+              "validation": {
+                "ap": 0.7203514947076548,
+                "auc": 0.6953763580164527,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21493946015834808
+              }
+            },
+            {
+              "epoch": 3,
+              "loss": 1.789247841763317,
+              "validation": {
+                "ap": 0.72037267009271,
+                "auc": 0.69616475921522,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2147274762392044
+              }
+            },
+            {
+              "epoch": 4,
+              "loss": 1.751969121452561,
+              "validation": {
+                "ap": 0.7208182853776499,
+                "auc": 0.6967385995777621,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2145986258983612
+              }
+            },
+            {
+              "epoch": 5,
+              "loss": 1.7108715575440485,
+              "validation": {
+                "ap": 0.7181340096896569,
+                "auc": 0.6949675726176321,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2208380103111267
+              }
+            },
+            {
+              "epoch": 6,
+              "loss": 1.6598890508924211,
+              "validation": {
+                "ap": 0.7080140297448274,
+                "auc": 0.6872712338324154,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.22718843817710876
+              }
+            },
+            {
+              "epoch": 7,
+              "loss": 1.5938135923299575,
+              "validation": {
+                "ap": 0.7025487960040768,
+                "auc": 0.6811256209201872,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.22752107679843903
+              }
+            },
+            {
+              "epoch": 8,
+              "loss": 1.5165479353496008,
+              "validation": {
+                "ap": 0.6914332262396734,
+                "auc": 0.6768359047780825,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.23580965399742126
+              }
+            },
+            {
+              "epoch": 9,
+              "loss": 1.4232734674797918,
+              "validation": {
+                "ap": 0.669240341721828,
+                "auc": 0.6582444114149821,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2462264448404312
+              }
+            },
+            {
+              "epoch": 10,
+              "loss": 1.3316313234486974,
+              "validation": {
+                "ap": 0.6716222885069902,
+                "auc": 0.6660255802737267,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.25693804025650024
+              }
+            }
+          ],
+          "all_validation": {
+            "ap": 0.7208182853776499,
+            "auc": 0.6967385995777621,
+            "positive_count": 40600,
+            "negative_count": 40600,
+            "brier": 0.2145986258983612,
+            "pair_accuracy": 0.6376600985221675
+          },
+          "evaluation_split": "validation",
+          "test_scored": false,
+          "parameter_count": 1054391,
+          "branch_parameter_count": 13,
+          "elapsed_seconds": 36.098228413000015,
+          "initial_common_sha256": "f7b6454be78bc343486cb0a076061bfad79cda41f287185bd5177390f0c787e1",
+          "time_unit": 702960.5,
+          "exposure_unit": 3.0,
+          "amplitude": 0.0,
+          "checkpoint_sha256": "9b0500d805a31d3708408c07b46b9007c5da06259092aae17a0bdbb58049e1f2",
+          "predictions_sha256": "39e143a64045cf219c5524346f1b3c97a1d1e5e14d4fc33a922f17ed8d39854b",
+          "state_parameters": {
+            "clock_rates": [
+              0.16028980910778046,
+              0.4429777264595032,
+              0.7677708864212036,
+              2.522566080093384
+            ],
+            "event_rates": [
+              0.16031888127326965,
+              0.4431169033050537,
+              0.7683174014091492,
+              2.5225706100463867
+            ],
+            "readout_gaps": [
+              0.6542326211929321,
+              0.7656844258308411,
+              1.1492691040039062,
+              1.5860202312469482
+            ]
+          }
+        },
+        "activity_mlp": {
+          "kind": "activity_mlp",
+          "seed": 101,
+          "selected_epoch": 2,
+          "validation_history": [
+            {
+              "epoch": 1,
+              "loss": 1.9363929517287062,
+              "validation": {
+                "ap": 0.7149783984219026,
+                "auc": 0.6829610567473126,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21980507671833038
+              }
+            },
+            {
+              "epoch": 2,
+              "loss": 1.836526854593951,
+              "validation": {
+                "ap": 0.7205242497770028,
+                "auc": 0.6956542830449659,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2146763652563095
+              }
+            },
+            {
+              "epoch": 3,
+              "loss": 1.7903378269726173,
+              "validation": {
+                "ap": 0.7204103330621783,
+                "auc": 0.6957388267732776,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21570779383182526
+              }
+            },
+            {
+              "epoch": 4,
+              "loss": 1.7542200178132021,
+              "validation": {
+                "ap": 0.7198916494581542,
+                "auc": 0.6961276253366983,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21514427661895752
+              }
+            },
+            {
+              "epoch": 5,
+              "loss": 1.7124919550759452,
+              "validation": {
+                "ap": 0.7184333770533154,
+                "auc": 0.6954426357106458,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21881335973739624
+              }
+            },
+            {
+              "epoch": 6,
+              "loss": 1.661880930563561,
+              "validation": {
+                "ap": 0.7080867932895576,
+                "auc": 0.6871894619500594,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.22648851573467255
+              }
+            },
+            {
+              "epoch": 7,
+              "loss": 1.5953713243168997,
+              "validation": {
+                "ap": 0.7024462521305767,
+                "auc": 0.6804685915091364,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.22755484282970428
+              }
+            },
+            {
+              "epoch": 8,
+              "loss": 1.5170834172040897,
+              "validation": {
+                "ap": 0.6962563603987871,
+                "auc": 0.6792245859520978,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.23566220700740814
+              }
+            },
+            {
+              "epoch": 9,
+              "loss": 1.4211785452706474,
+              "validation": {
+                "ap": 0.6654992142526408,
+                "auc": 0.6568288450338519,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2494613081216812
+              }
+            },
+            {
+              "epoch": 10,
+              "loss": 1.3299360678608256,
+              "validation": {
+                "ap": 0.6619466765839768,
+                "auc": 0.6606962362590696,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.25830399990081787
+              }
+            }
+          ],
+          "all_validation": {
+            "ap": 0.7205242497770028,
+            "auc": 0.6956542830449659,
+            "positive_count": 40600,
+            "negative_count": 40600,
+            "brier": 0.2146763652563095,
+            "pair_accuracy": 0.640320197044335
+          },
+          "evaluation_split": "validation",
+          "test_scored": false,
+          "parameter_count": 1054391,
+          "branch_parameter_count": 13,
+          "elapsed_seconds": 30.13620303400012,
+          "initial_common_sha256": "f7b6454be78bc343486cb0a076061bfad79cda41f287185bd5177390f0c787e1",
+          "time_unit": 702960.5,
+          "exposure_unit": 1.0,
+          "amplitude": 0.013238492421805859,
+          "checkpoint_sha256": "6c6bf826e29b66d8ad50974ae5b76eb7e26758890039b5942c7e0090e16828fd",
+          "predictions_sha256": "3a5debca7a6fe8dc7257f856573969169d338f5ab230e0d963bfd8aa09faeda6"
+        }
+      }
+    },
+    {
+      "seed": 202,
+      "candidate_digest": "b532b38dc22440de0880b1496ddfdafb284ff36191cb9f4a70663e8f5cbf8dc0",
+      "coverage": {
+        "train": 67697,
+        "validation": 40600
+      },
+      "models": {
+        "history_only": {
+          "kind": "history_only",
+          "seed": 202,
+          "selected_epoch": 2,
+          "validation_history": [
+            {
+              "epoch": 1,
+              "loss": 1.9381232028617,
+              "validation": {
+                "ap": 0.7137906267158473,
+                "auc": 0.6904594575820816,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21651309728622437
+              }
+            },
+            {
+              "epoch": 2,
+              "loss": 1.8134101019766098,
+              "validation": {
+                "ap": 0.7211507782807476,
+                "auc": 0.6989642547744425,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21316324174404144
+              }
+            },
+            {
+              "epoch": 3,
+              "loss": 1.7785619479372985,
+              "validation": {
+                "ap": 0.7164411149274345,
+                "auc": 0.6934083134145452,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21445557475090027
+              }
+            },
+            {
+              "epoch": 4,
+              "loss": 1.7453464081412868,
+              "validation": {
+                "ap": 0.7172536226588195,
+                "auc": 0.6956235033609162,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2166522741317749
+              }
+            },
+            {
+              "epoch": 5,
+              "loss": 1.7002973368293361,
+              "validation": {
+                "ap": 0.7098123640114467,
+                "auc": 0.6879596914508966,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2201090157032013
+              }
+            },
+            {
+              "epoch": 6,
+              "loss": 1.641820187855484,
+              "validation": {
+                "ap": 0.7037688272204714,
+                "auc": 0.6845976397752919,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2249603569507599
+              }
+            },
+            {
+              "epoch": 7,
+              "loss": 1.5635359798158919,
+              "validation": {
+                "ap": 0.6975831034182718,
+                "auc": 0.6795012375937295,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.23228123784065247
+              }
+            },
+            {
+              "epoch": 8,
+              "loss": 1.4723207143912638,
+              "validation": {
+                "ap": 0.6849679115219381,
+                "auc": 0.6709141176684705,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2428496927022934
+              }
+            },
+            {
+              "epoch": 9,
+              "loss": 1.36799773237759,
+              "validation": {
+                "ap": 0.6707681637708922,
+                "auc": 0.666535500133466,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.25631600618362427
+              }
+            },
+            {
+              "epoch": 10,
+              "loss": 1.2480393065545792,
+              "validation": {
+                "ap": 0.6555618179708962,
+                "auc": 0.6624596083379845,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.26807668805122375
+              }
+            }
+          ],
+          "all_validation": {
+            "ap": 0.7211507782807476,
+            "auc": 0.6989642547744425,
+            "positive_count": 40600,
+            "negative_count": 40600,
+            "brier": 0.21316324174404144,
+            "pair_accuracy": 0.6378571428571429
+          },
+          "evaluation_split": "validation",
+          "test_scored": false,
+          "parameter_count": 1054378,
+          "branch_parameter_count": 0,
+          "elapsed_seconds": 28.429372160999947,
+          "initial_common_sha256": "441904ed98846c57a8fe871355902eee68ff072b7e04a8b4e5d93131007bcb70",
+          "time_unit": 704262.5,
+          "exposure_unit": 11.0,
+          "amplitude": 0.0,
+          "checkpoint_sha256": "67a03dafc460dccb44c1cd4a4c7473ca7392accbc78dc17d0f2fe984d3fd7f80",
+          "predictions_sha256": "380de6d1a053aa1757b27bb1a5e035289a513a939104006403e23e6d0ba63146"
+        },
+        "dose_mlp": {
+          "kind": "dose_mlp",
+          "seed": 202,
+          "selected_epoch": 2,
+          "validation_history": [
+            {
+              "epoch": 1,
+              "loss": 1.9379371386721618,
+              "validation": {
+                "ap": 0.7137492777984922,
+                "auc": 0.690446708243345,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21642659604549408
+              }
+            },
+            {
+              "epoch": 2,
+              "loss": 1.8131906986236572,
+              "validation": {
+                "ap": 0.7212429033619809,
+                "auc": 0.6991056261981605,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21316108107566833
+              }
+            },
+            {
+              "epoch": 3,
+              "loss": 1.778259004865374,
+              "validation": {
+                "ap": 0.7171318044161896,
+                "auc": 0.6935877183988934,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2142249494791031
+              }
+            },
+            {
+              "epoch": 4,
+              "loss": 1.7445312837012728,
+              "validation": {
+                "ap": 0.716299056485131,
+                "auc": 0.6940184125433764,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21690699458122253
+              }
+            },
+            {
+              "epoch": 5,
+              "loss": 1.700178767505445,
+              "validation": {
+                "ap": 0.7093364911587857,
+                "auc": 0.6886795718168361,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.22170506417751312
+              }
+            },
+            {
+              "epoch": 6,
+              "loss": 1.6411057334197194,
+              "validation": {
+                "ap": 0.7034133167008365,
+                "auc": 0.6831142253512582,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.22567950189113617
+              }
+            },
+            {
+              "epoch": 7,
+              "loss": 1.564188013399454,
+              "validation": {
+                "ap": 0.6988406347937977,
+                "auc": 0.6795092033900361,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.230734184384346
+              }
+            },
+            {
+              "epoch": 8,
+              "loss": 1.4695801546699123,
+              "validation": {
+                "ap": 0.6850108305461143,
+                "auc": 0.6711332403115824,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.24085596203804016
+              }
+            },
+            {
+              "epoch": 9,
+              "loss": 1.3662271374150325,
+              "validation": {
+                "ap": 0.6695837022425185,
+                "auc": 0.6669096632410396,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2542720139026642
+              }
+            },
+            {
+              "epoch": 10,
+              "loss": 1.2469328561223538,
+              "validation": {
+                "ap": 0.6584579227078958,
+                "auc": 0.6615667323885559,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.26880455017089844
+              }
+            }
+          ],
+          "all_validation": {
+            "ap": 0.7212429033619809,
+            "auc": 0.6991056261981605,
+            "positive_count": 40600,
+            "negative_count": 40600,
+            "brier": 0.21316108107566833,
+            "pair_accuracy": 0.6385960591133005
+          },
+          "evaluation_split": "validation",
+          "test_scored": false,
+          "parameter_count": 1054391,
+          "branch_parameter_count": 13,
+          "elapsed_seconds": 30.078184605999922,
+          "initial_common_sha256": "441904ed98846c57a8fe871355902eee68ff072b7e04a8b4e5d93131007bcb70",
+          "time_unit": 704262.5,
+          "exposure_unit": 11.0,
+          "amplitude": 0.011033648625016212,
+          "checkpoint_sha256": "b4ea3797c6a8698861f95177172b60beb98ff20cd2b3004660e23d7a5bf86c6b",
+          "predictions_sha256": "86bb8ddced87d4acbe5ba923f22541645b6aa446f92fefaef47805beb956f92a"
+        },
+        "scalar_clock": {
+          "kind": "scalar_clock",
+          "seed": 202,
+          "selected_epoch": 2,
+          "validation_history": [
+            {
+              "epoch": 1,
+              "loss": 1.9373767133942223,
+              "validation": {
+                "ap": 0.7141050949574426,
+                "auc": 0.6907514326360746,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21628282964229584
+              }
+            },
+            {
+              "epoch": 2,
+              "loss": 1.8129314327598514,
+              "validation": {
+                "ap": 0.7206586631889216,
+                "auc": 0.6982964983377417,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21342982351779938
+              }
+            },
+            {
+              "epoch": 3,
+              "loss": 1.7780452491645526,
+              "validation": {
+                "ap": 0.7173444732653282,
+                "auc": 0.6938510122182049,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21421432495117188
+              }
+            },
+            {
+              "epoch": 4,
+              "loss": 1.7438518767966364,
+              "validation": {
+                "ap": 0.715124381069929,
+                "auc": 0.6932699443689485,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21777652204036713
+              }
+            },
+            {
+              "epoch": 5,
+              "loss": 1.6978065653851158,
+              "validation": {
+                "ap": 0.708691036093409,
+                "auc": 0.6870913832536582,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.22152750194072723
+              }
+            },
+            {
+              "epoch": 6,
+              "loss": 1.6388051724971686,
+              "validation": {
+                "ap": 0.7007487766907937,
+                "auc": 0.6816607418889078,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2265661507844925
+              }
+            },
+            {
+              "epoch": 7,
+              "loss": 1.5598663073733336,
+              "validation": {
+                "ap": 0.6946027605635016,
+                "auc": 0.6749624526802398,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.23385120928287506
+              }
+            },
+            {
+              "epoch": 8,
+              "loss": 1.4651635302636856,
+              "validation": {
+                "ap": 0.683110515655063,
+                "auc": 0.6695319365915213,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.24061471223831177
+              }
+            },
+            {
+              "epoch": 9,
+              "loss": 1.3576677024812627,
+              "validation": {
+                "ap": 0.6700248200246812,
+                "auc": 0.6646172177194303,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2538053095340729
+              }
+            },
+            {
+              "epoch": 10,
+              "loss": 1.2447564521230252,
+              "validation": {
+                "ap": 0.6512886610703699,
+                "auc": 0.6577711980392633,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2695450782775879
+              }
+            }
+          ],
+          "all_validation": {
+            "ap": 0.7206586631889216,
+            "auc": 0.6982964983377417,
+            "positive_count": 40600,
+            "negative_count": 40600,
+            "brier": 0.21342982351779938,
+            "pair_accuracy": 0.6359852216748768
+          },
+          "evaluation_split": "validation",
+          "test_scored": false,
+          "parameter_count": 1054388,
+          "branch_parameter_count": 10,
+          "elapsed_seconds": 36.668923161000066,
+          "initial_common_sha256": "441904ed98846c57a8fe871355902eee68ff072b7e04a8b4e5d93131007bcb70",
+          "time_unit": 704262.5,
+          "exposure_unit": 11.0,
+          "amplitude": 0.005974708124995232,
+          "checkpoint_sha256": "4a893e65d22cf779f59b36f88e89104164645e53d4c17cee0fccb99095da7008",
+          "predictions_sha256": "6d700421363779a16a64bccb7e7e72326f51c8837ff24591b9b889e450333fff",
+          "state_parameters": {
+            "clock_rates": [
+              0.12753336131572723,
+              0.3616294860839844,
+              0.87172532081604,
+              2.755206823348999
+            ],
+            "event_rates": [
+              0.11671625077724457,
+              0.3309568464756012,
+              0.7977874279022217,
+              2.5215160846710205
+            ],
+            "readout_gaps": [
+              0.5786633491516113,
+              0.9150458574295044,
+              1.3609298467636108,
+              1.8336559534072876
+            ]
+          }
+        },
+        "phase_competition": {
+          "kind": "phase_competition",
+          "seed": 202,
+          "selected_epoch": 2,
+          "validation_history": [
+            {
+              "epoch": 1,
+              "loss": 1.9375576533769305,
+              "validation": {
+                "ap": 0.7140958971782232,
+                "auc": 0.6907064382173798,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21622322499752045
+              }
+            },
+            {
+              "epoch": 2,
+              "loss": 1.812747811912594,
+              "validation": {
+                "ap": 0.7205542395540415,
+                "auc": 0.6982914272367686,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21315304934978485
+              }
+            },
+            {
+              "epoch": 3,
+              "loss": 1.7782412202734696,
+              "validation": {
+                "ap": 0.7170281599703047,
+                "auc": 0.6934706578053337,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21418218314647675
+              }
+            },
+            {
+              "epoch": 4,
+              "loss": 1.7446242454356717,
+              "validation": {
+                "ap": 0.716132719412504,
+                "auc": 0.6944181883811789,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2170102745294571
+              }
+            },
+            {
+              "epoch": 5,
+              "loss": 1.6992760134818858,
+              "validation": {
+                "ap": 0.70658406648227,
+                "auc": 0.6857169583707443,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.22272489964962006
+              }
+            },
+            {
+              "epoch": 6,
+              "loss": 1.6391067011912066,
+              "validation": {
+                "ap": 0.7032644905606418,
+                "auc": 0.6833540048897087,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.22474606335163116
+              }
+            },
+            {
+              "epoch": 7,
+              "loss": 1.559980214986586,
+              "validation": {
+                "ap": 0.694627115096277,
+                "auc": 0.6774903355456332,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.23279179632663727
+              }
+            },
+            {
+              "epoch": 8,
+              "loss": 1.4635636779598724,
+              "validation": {
+                "ap": 0.6815166149195748,
+                "auc": 0.6686478463442452,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.24164563417434692
+              }
+            },
+            {
+              "epoch": 9,
+              "loss": 1.3572365144141634,
+              "validation": {
+                "ap": 0.6732488049948844,
+                "auc": 0.6673508444757213,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.25232425332069397
+              }
+            },
+            {
+              "epoch": 10,
+              "loss": 1.2441097722017675,
+              "validation": {
+                "ap": 0.6542634941352558,
+                "auc": 0.6623142708510277,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.27095475792884827
+              }
+            }
+          ],
+          "all_validation": {
+            "ap": 0.7205542395540415,
+            "auc": 0.6982914272367686,
+            "positive_count": 40600,
+            "negative_count": 40600,
+            "brier": 0.21315304934978485,
+            "pair_accuracy": 0.6376847290640394
+          },
+          "evaluation_split": "validation",
+          "test_scored": false,
+          "parameter_count": 1054391,
+          "branch_parameter_count": 13,
+          "elapsed_seconds": 36.27093876399999,
+          "initial_common_sha256": "441904ed98846c57a8fe871355902eee68ff072b7e04a8b4e5d93131007bcb70",
+          "time_unit": 704262.5,
+          "exposure_unit": 11.0,
+          "amplitude": 0.006223675329238176,
+          "checkpoint_sha256": "d39b2ef2a2876897dcd9b97c7fd345b7354abe9afbf78abe8276dc1a496b8eea",
+          "predictions_sha256": "88d3ef76b76e237860f08a75d4f75ce0b44ff2fd3dfe72e473576cab765d075b",
+          "state_parameters": {
+            "clock_rates": [
+              0.1275181770324707,
+              0.36481496691703796,
+              0.8607701063156128,
+              2.7541232109069824
+            ],
+            "event_rates": [
+              0.12783072888851166,
+              0.3691841661930084,
+              0.8692635297775269,
+              2.7551112174987793
+            ],
+            "readout_gaps": [
+              0.5785410404205322,
+              0.916252076625824,
+              1.3616424798965454,
+              1.834250569343567
+            ]
+          }
+        },
+        "shuffled_phase": {
+          "kind": "shuffled_phase",
+          "seed": 202,
+          "selected_epoch": 2,
+          "validation_history": [
+            {
+              "epoch": 1,
+              "loss": 1.937716026951496,
+              "validation": {
+                "ap": 0.7140474502538021,
+                "auc": 0.690760275061273,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21643249690532684
+              }
+            },
+            {
+              "epoch": 2,
+              "loss": 1.8136283230960817,
+              "validation": {
+                "ap": 0.7201666402549907,
+                "auc": 0.6980099671794997,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21324637532234192
+              }
+            },
+            {
+              "epoch": 3,
+              "loss": 1.7791188453373157,
+              "validation": {
+                "ap": 0.7174084631476416,
+                "auc": 0.6950594321022107,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2142486274242401
+              }
+            },
+            {
+              "epoch": 4,
+              "loss": 1.7453228620658243,
+              "validation": {
+                "ap": 0.714330930187309,
+                "auc": 0.6915801290373462,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2176804542541504
+              }
+            },
+            {
+              "epoch": 5,
+              "loss": 1.6998601918830012,
+              "validation": {
+                "ap": 0.7092529039140391,
+                "auc": 0.6875408469630421,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.22193118929862976
+              }
+            },
+            {
+              "epoch": 6,
+              "loss": 1.6389243934387552,
+              "validation": {
+                "ap": 0.703627509443524,
+                "auc": 0.6841052603800142,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.226389080286026
+              }
+            },
+            {
+              "epoch": 7,
+              "loss": 1.5638480544986582,
+              "validation": {
+                "ap": 0.6942436735013418,
+                "auc": 0.6770182190176903,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2340528815984726
+              }
+            },
+            {
+              "epoch": 8,
+              "loss": 1.4657369574209802,
+              "validation": {
+                "ap": 0.6873835646739064,
+                "auc": 0.6707751095027785,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.23974351584911346
+              }
+            },
+            {
+              "epoch": 9,
+              "loss": 1.358388856837624,
+              "validation": {
+                "ap": 0.6761140034882709,
+                "auc": 0.6680216433303404,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.25676125288009644
+              }
+            },
+            {
+              "epoch": 10,
+              "loss": 1.246425918170384,
+              "validation": {
+                "ap": 0.6667426488172187,
+                "auc": 0.6654848713266519,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2680368721485138
+              }
+            }
+          ],
+          "all_validation": {
+            "ap": 0.7201666402549907,
+            "auc": 0.6980099671794997,
+            "positive_count": 40600,
+            "negative_count": 40600,
+            "brier": 0.21324637532234192,
+            "pair_accuracy": 0.6381773399014778
+          },
+          "evaluation_split": "validation",
+          "test_scored": false,
+          "parameter_count": 1054391,
+          "branch_parameter_count": 13,
+          "elapsed_seconds": 36.39734892999991,
+          "initial_common_sha256": "441904ed98846c57a8fe871355902eee68ff072b7e04a8b4e5d93131007bcb70",
+          "time_unit": 704262.5,
+          "exposure_unit": 3.0,
+          "amplitude": 0.00041571108158677816,
+          "checkpoint_sha256": "bed8bd65079729f88df85817b2b36972c003e1d4d4ae63c2cdba0ddef536a296",
+          "predictions_sha256": "c523d06cd913c3e989481ead719f5c6b9db395ef54dea46326aa96fb3d4f69c0",
+          "state_parameters": {
+            "clock_rates": [
+              0.12774528563022614,
+              0.37116050720214844,
+              0.8575597405433655,
+              2.7539267539978027
+            ],
+            "event_rates": [
+              0.1277545690536499,
+              0.3712817430496216,
+              0.8580792546272278,
+              2.753957509994507
+            ],
+            "readout_gaps": [
+              0.5942052006721497,
+              0.8574196100234985,
+              1.308924674987793,
+              1.7812758684158325
+            ]
+          }
+        },
+        "activity_mlp": {
+          "kind": "activity_mlp",
+          "seed": 202,
+          "selected_epoch": 2,
+          "validation_history": [
+            {
+              "epoch": 1,
+              "loss": 1.9376037452453958,
+              "validation": {
+                "ap": 0.7145207080629811,
+                "auc": 0.691234500351865,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21642005443572998
+              }
+            },
+            {
+              "epoch": 2,
+              "loss": 1.8137612002236503,
+              "validation": {
+                "ap": 0.7204379902228104,
+                "auc": 0.6983150871168919,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21340882778167725
+              }
+            },
+            {
+              "epoch": 3,
+              "loss": 1.7797418483217855,
+              "validation": {
+                "ap": 0.7170138653643476,
+                "auc": 0.6942518154408017,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21444253623485565
+              }
+            },
+            {
+              "epoch": 4,
+              "loss": 1.746209690445348,
+              "validation": {
+                "ap": 0.7154625947838874,
+                "auc": 0.6936989738285326,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2169475257396698
+              }
+            },
+            {
+              "epoch": 5,
+              "loss": 1.7017175254965187,
+              "validation": {
+                "ap": 0.7082326296120474,
+                "auc": 0.6874383302191269,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.22263287007808685
+              }
+            },
+            {
+              "epoch": 6,
+              "loss": 1.6414773921321208,
+              "validation": {
+                "ap": 0.7003426842654387,
+                "auc": 0.6834830443592419,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2283143252134323
+              }
+            },
+            {
+              "epoch": 7,
+              "loss": 1.565157625908242,
+              "validation": {
+                "ap": 0.6974833091877359,
+                "auc": 0.6796347845737581,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.23332183063030243
+              }
+            },
+            {
+              "epoch": 8,
+              "loss": 1.4684854494897943,
+              "validation": {
+                "ap": 0.6878673213569945,
+                "auc": 0.6729100970055085,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.24079576134681702
+              }
+            },
+            {
+              "epoch": 9,
+              "loss": 1.358931434781928,
+              "validation": {
+                "ap": 0.6726621773943707,
+                "auc": 0.6657948506394235,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2560970187187195
+              }
+            },
+            {
+              "epoch": 10,
+              "loss": 1.24524001878007,
+              "validation": {
+                "ap": 0.6509764611907586,
+                "auc": 0.6559132546895096,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2706521451473236
+              }
+            }
+          ],
+          "all_validation": {
+            "ap": 0.7204379902228104,
+            "auc": 0.6983150871168919,
+            "positive_count": 40600,
+            "negative_count": 40600,
+            "brier": 0.21340882778167725,
+            "pair_accuracy": 0.642487684729064
+          },
+          "evaluation_split": "validation",
+          "test_scored": false,
+          "parameter_count": 1054391,
+          "branch_parameter_count": 13,
+          "elapsed_seconds": 30.196748321000086,
+          "initial_common_sha256": "441904ed98846c57a8fe871355902eee68ff072b7e04a8b4e5d93131007bcb70",
+          "time_unit": 704262.5,
+          "exposure_unit": 1.0,
+          "amplitude": -0.0007503553060814738,
+          "checkpoint_sha256": "43f9404e110c415691defe59e9e6a31f78f6091b1da8ef8745d0d512e2ed429c",
+          "predictions_sha256": "4bd6f23d3148e11ca680e2392a3d6fa6e70894ad7832baa11bf53d63c7a5c107"
+        }
+      }
+    },
+    {
+      "seed": 303,
+      "candidate_digest": "e52840b3529f840d36fc3acb79f0f5fb253053d85969b4a4a17a67b3eff2b07e",
+      "coverage": {
+        "train": 67697,
+        "validation": 40600
+      },
+      "models": {
+        "history_only": {
+          "kind": "history_only",
+          "seed": 303,
+          "selected_epoch": 3,
+          "validation_history": [
+            {
+              "epoch": 1,
+              "loss": 1.9328193530104214,
+              "validation": {
+                "ap": 0.7118948648385577,
+                "auc": 0.6840560796791962,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21917875111103058
+              }
+            },
+            {
+              "epoch": 2,
+              "loss": 1.8300081849994516,
+              "validation": {
+                "ap": 0.718544780598227,
+                "auc": 0.6946231426994104,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2148338109254837
+              }
+            },
+            {
+              "epoch": 3,
+              "loss": 1.7850938721706993,
+              "validation": {
+                "ap": 0.7193289538424938,
+                "auc": 0.6953828402169429,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21580730378627777
+              }
+            },
+            {
+              "epoch": 4,
+              "loss": 1.7532787726337749,
+              "validation": {
+                "ap": 0.7184502688435203,
+                "auc": 0.6938922186294256,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21579430997371674
+              }
+            },
+            {
+              "epoch": 5,
+              "loss": 1.7116736774157761,
+              "validation": {
+                "ap": 0.7155902738196178,
+                "auc": 0.6920523241282244,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2189870923757553
+              }
+            },
+            {
+              "epoch": 6,
+              "loss": 1.6604952462633749,
+              "validation": {
+                "ap": 0.7074757959151893,
+                "auc": 0.686175789875998,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.22606438398361206
+              }
+            },
+            {
+              "epoch": 7,
+              "loss": 1.5920350524715912,
+              "validation": {
+                "ap": 0.7018124960578479,
+                "auc": 0.6803761035210755,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.23149515688419342
+              }
+            },
+            {
+              "epoch": 8,
+              "loss": 1.5105323190975906,
+              "validation": {
+                "ap": 0.6938471436852057,
+                "auc": 0.6769228784974156,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.24115219712257385
+              }
+            },
+            {
+              "epoch": 9,
+              "loss": 1.4093340456037593,
+              "validation": {
+                "ap": 0.6752371304314715,
+                "auc": 0.6656387018005776,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.24739347398281097
+              }
+            },
+            {
+              "epoch": 10,
+              "loss": 1.3076337029163103,
+              "validation": {
+                "ap": 0.6658162532676025,
+                "auc": 0.6621985922371327,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.26377540826797485
+              }
+            }
+          ],
+          "all_validation": {
+            "ap": 0.7193289538424938,
+            "auc": 0.6953828402169429,
+            "positive_count": 40600,
+            "negative_count": 40600,
+            "brier": 0.21580730378627777,
+            "pair_accuracy": 0.6378571428571429
+          },
+          "evaluation_split": "validation",
+          "test_scored": false,
+          "parameter_count": 1054378,
+          "branch_parameter_count": 0,
+          "elapsed_seconds": 28.79914080200001,
+          "initial_common_sha256": "dee3468e8ae76e7fcbd2f87485365c03073165b19e75d45f8b83a357d2bc401a",
+          "time_unit": 703192.0,
+          "exposure_unit": 11.0,
+          "amplitude": 0.0,
+          "checkpoint_sha256": "747044a82e7b9d15e9cb4c29925e617b43cb06e0f9d3dde2398c5404fa0749cc",
+          "predictions_sha256": "969b7eed6863f8f37fdc4ce9c40512067943b4877e584c701528678689d95aba"
+        },
+        "dose_mlp": {
+          "kind": "dose_mlp",
+          "seed": 303,
+          "selected_epoch": 3,
+          "validation_history": [
+            {
+              "epoch": 1,
+              "loss": 1.9326873999789245,
+              "validation": {
+                "ap": 0.7118509133131555,
+                "auc": 0.684210278094591,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21906518936157227
+              }
+            },
+            {
+              "epoch": 2,
+              "loss": 1.8298462709986179,
+              "validation": {
+                "ap": 0.7185170593198674,
+                "auc": 0.6945032929699824,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21493181586265564
+              }
+            },
+            {
+              "epoch": 3,
+              "loss": 1.785487921614396,
+              "validation": {
+                "ap": 0.7190983217155364,
+                "auc": 0.6949927406634472,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21587572991847992
+              }
+            },
+            {
+              "epoch": 4,
+              "loss": 1.7541906618534173,
+              "validation": {
+                "ap": 0.7183411511869936,
+                "auc": 0.6933308985901139,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21575221419334412
+              }
+            },
+            {
+              "epoch": 5,
+              "loss": 1.7122267601185275,
+              "validation": {
+                "ap": 0.713783173743765,
+                "auc": 0.6900353242010241,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.22010251879692078
+              }
+            },
+            {
+              "epoch": 6,
+              "loss": 1.6617849267515026,
+              "validation": {
+                "ap": 0.7095048562880162,
+                "auc": 0.6860346353345144,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.22403430938720703
+              }
+            },
+            {
+              "epoch": 7,
+              "loss": 1.59474077529477,
+              "validation": {
+                "ap": 0.7008531196839155,
+                "auc": 0.6791206541653523,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.23028093576431274
+              }
+            },
+            {
+              "epoch": 8,
+              "loss": 1.513725978091247,
+              "validation": {
+                "ap": 0.6899016665767983,
+                "auc": 0.6737768172607925,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.24000398814678192
+              }
+            },
+            {
+              "epoch": 9,
+              "loss": 1.413190922342745,
+              "validation": {
+                "ap": 0.676168605055206,
+                "auc": 0.6628957160450387,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.24663588404655457
+              }
+            },
+            {
+              "epoch": 10,
+              "loss": 1.3124577506144244,
+              "validation": {
+                "ap": 0.667731089273352,
+                "auc": 0.6619722751704724,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.26073193550109863
+              }
+            }
+          ],
+          "all_validation": {
+            "ap": 0.7190983217155364,
+            "auc": 0.6949927406634472,
+            "positive_count": 40600,
+            "negative_count": 40600,
+            "brier": 0.21587572991847992,
+            "pair_accuracy": 0.63435960591133
+          },
+          "evaluation_split": "validation",
+          "test_scored": false,
+          "parameter_count": 1054391,
+          "branch_parameter_count": 13,
+          "elapsed_seconds": 30.22070788799988,
+          "initial_common_sha256": "dee3468e8ae76e7fcbd2f87485365c03073165b19e75d45f8b83a357d2bc401a",
+          "time_unit": 703192.0,
+          "exposure_unit": 11.0,
+          "amplitude": -0.05688627436757088,
+          "checkpoint_sha256": "79e8f30578e27c70c3dd7910b5e8605ce581a7265fe2362dcf5665ec4be23593",
+          "predictions_sha256": "b9e8aaf918d9723655c814b37ce03a81067cc7648788675f00ecd5cc049df03a"
+        },
+        "scalar_clock": {
+          "kind": "scalar_clock",
+          "seed": 303,
+          "selected_epoch": 3,
+          "validation_history": [
+            {
+              "epoch": 1,
+              "loss": 1.9327615069267445,
+              "validation": {
+                "ap": 0.7114959731589446,
+                "auc": 0.6838627296221699,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2191198468208313
+              }
+            },
+            {
+              "epoch": 2,
+              "loss": 1.8298947802163605,
+              "validation": {
+                "ap": 0.7188420239302269,
+                "auc": 0.6950071273872211,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2149205058813095
+              }
+            },
+            {
+              "epoch": 3,
+              "loss": 1.7854206355890834,
+              "validation": {
+                "ap": 0.7195405585017511,
+                "auc": 0.6956489064888738,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21660557389259338
+              }
+            },
+            {
+              "epoch": 4,
+              "loss": 1.7541387206629704,
+              "validation": {
+                "ap": 0.7182445635374628,
+                "auc": 0.6932464865078017,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21611112356185913
+              }
+            },
+            {
+              "epoch": 5,
+              "loss": 1.7118785793619944,
+              "validation": {
+                "ap": 0.716224474078112,
+                "auc": 0.693046468307894,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21830010414123535
+              }
+            },
+            {
+              "epoch": 6,
+              "loss": 1.6603417154541589,
+              "validation": {
+                "ap": 0.7083421403433575,
+                "auc": 0.686075541143925,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.22585424780845642
+              }
+            },
+            {
+              "epoch": 7,
+              "loss": 1.5916027404311905,
+              "validation": {
+                "ap": 0.7009331249243089,
+                "auc": 0.6803027952025043,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.23030519485473633
+              }
+            },
+            {
+              "epoch": 8,
+              "loss": 1.512994448941453,
+              "validation": {
+                "ap": 0.690974018760179,
+                "auc": 0.6741667766749981,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.23901872336864471
+              }
+            },
+            {
+              "epoch": 9,
+              "loss": 1.41180882328435,
+              "validation": {
+                "ap": 0.6753904738131278,
+                "auc": 0.6651070194011017,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.24941599369049072
+              }
+            },
+            {
+              "epoch": 10,
+              "loss": 1.309322896756624,
+              "validation": {
+                "ap": 0.6667734734396413,
+                "auc": 0.6634574152490961,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2634291648864746
+              }
+            }
+          ],
+          "all_validation": {
+            "ap": 0.7195405585017511,
+            "auc": 0.6956489064888738,
+            "positive_count": 40600,
+            "negative_count": 40600,
+            "brier": 0.21660557389259338,
+            "pair_accuracy": 0.6364039408866995
+          },
+          "evaluation_split": "validation",
+          "test_scored": false,
+          "parameter_count": 1054388,
+          "branch_parameter_count": 10,
+          "elapsed_seconds": 36.4577647619999,
+          "initial_common_sha256": "dee3468e8ae76e7fcbd2f87485365c03073165b19e75d45f8b83a357d2bc401a",
+          "time_unit": 703192.0,
+          "exposure_unit": 11.0,
+          "amplitude": 0.004489423707127571,
+          "checkpoint_sha256": "9e45645f35d93ad9880402ee5debd56457400dcbf6b71eaf473030ab208c074d",
+          "predictions_sha256": "dc99bd0f028d0d65710f7c155bb2055df64fc6214d458d4818e99637fe477135",
+          "state_parameters": {
+            "clock_rates": [
+              0.14219890534877777,
+              0.3782096803188324,
+              0.8377701044082642,
+              2.642012596130371
+            ],
+            "event_rates": [
+              0.13196444511413574,
+              0.35098886489868164,
+              0.7774733901023865,
+              2.451859474182129
+            ],
+            "readout_gaps": [
+              0.5955905914306641,
+              0.922144889831543,
+              1.3375927209854126,
+              1.7968374490737915
+            ]
+          }
+        },
+        "phase_competition": {
+          "kind": "phase_competition",
+          "seed": 303,
+          "selected_epoch": 3,
+          "validation_history": [
+            {
+              "epoch": 1,
+              "loss": 1.932698531258375,
+              "validation": {
+                "ap": 0.7117247350810885,
+                "auc": 0.6839477668713145,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21907396614551544
+              }
+            },
+            {
+              "epoch": 2,
+              "loss": 1.8298909135330887,
+              "validation": {
+                "ap": 0.7186417812044192,
+                "auc": 0.6944254474143998,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21499770879745483
+              }
+            },
+            {
+              "epoch": 3,
+              "loss": 1.7863874883580029,
+              "validation": {
+                "ap": 0.7192633709736234,
+                "auc": 0.6950888689363974,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2159314900636673
+              }
+            },
+            {
+              "epoch": 4,
+              "loss": 1.754655903443358,
+              "validation": {
+                "ap": 0.7184412263214166,
+                "auc": 0.693824585648766,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21607650816440582
+              }
+            },
+            {
+              "epoch": 5,
+              "loss": 1.712244076836378,
+              "validation": {
+                "ap": 0.7157795556025071,
+                "auc": 0.6929930157853867,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21886776387691498
+              }
+            },
+            {
+              "epoch": 6,
+              "loss": 1.6610475688948667,
+              "validation": {
+                "ap": 0.70837318336581,
+                "auc": 0.6861767195879542,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.22603724896907806
+              }
+            },
+            {
+              "epoch": 7,
+              "loss": 1.5930016802665883,
+              "validation": {
+                "ap": 0.7023679740894728,
+                "auc": 0.6817800947608532,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.23055510222911835
+              }
+            },
+            {
+              "epoch": 8,
+              "loss": 1.5115149146632145,
+              "validation": {
+                "ap": 0.6911396013441785,
+                "auc": 0.6765696201072582,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.23936155438423157
+              }
+            },
+            {
+              "epoch": 9,
+              "loss": 1.4110292214200013,
+              "validation": {
+                "ap": 0.6751820542771596,
+                "auc": 0.6658056146715523,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.247007817029953
+              }
+            },
+            {
+              "epoch": 10,
+              "loss": 1.313442854056681,
+              "validation": {
+                "ap": 0.6668786752689735,
+                "auc": 0.6646752108155985,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.26089537143707275
+              }
+            }
+          ],
+          "all_validation": {
+            "ap": 0.7192633709736234,
+            "auc": 0.6950888689363974,
+            "positive_count": 40600,
+            "negative_count": 40600,
+            "brier": 0.2159314900636673,
+            "pair_accuracy": 0.6342610837438424
+          },
+          "evaluation_split": "validation",
+          "test_scored": false,
+          "parameter_count": 1054391,
+          "branch_parameter_count": 13,
+          "elapsed_seconds": 36.054752390999965,
+          "initial_common_sha256": "dee3468e8ae76e7fcbd2f87485365c03073165b19e75d45f8b83a357d2bc401a",
+          "time_unit": 703192.0,
+          "exposure_unit": 11.0,
+          "amplitude": 0.005033224821090698,
+          "checkpoint_sha256": "caa6d9ba8450c1db624c3e3b7c36b4ee21cdff49bde7ef6ee7128c7acf9bdfba",
+          "predictions_sha256": "d719d25023aac76ca5bbd32bcc1a026d835956245fef5580b1f5484e67b6d5bb",
+          "state_parameters": {
+            "clock_rates": [
+              0.1425480842590332,
+              0.3872694671154022,
+              0.8208248615264893,
+              2.6388375759124756
+            ],
+            "event_rates": [
+              0.14322514832019806,
+              0.39777201414108276,
+              0.8405578136444092,
+              2.6396679878234863
+            ],
+            "readout_gaps": [
+              0.5953642129898071,
+              0.9236129522323608,
+              1.3391010761260986,
+              1.7985804080963135
+            ]
+          }
+        },
+        "shuffled_phase": {
+          "kind": "shuffled_phase",
+          "seed": 303,
+          "selected_epoch": 2,
+          "validation_history": [
+            {
+              "epoch": 1,
+              "loss": 1.9329172650674231,
+              "validation": {
+                "ap": 0.7120577737973097,
+                "auc": 0.6839098491834308,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2190222144126892
+              }
+            },
+            {
+              "epoch": 2,
+              "loss": 1.8280925419097556,
+              "validation": {
+                "ap": 0.7201556560149558,
+                "auc": 0.6976409018660972,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21364152431488037
+              }
+            },
+            {
+              "epoch": 3,
+              "loss": 1.7827782559215575,
+              "validation": {
+                "ap": 0.7200823607607099,
+                "auc": 0.69790133223325,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21418803930282593
+              }
+            },
+            {
+              "epoch": 4,
+              "loss": 1.7517773370097454,
+              "validation": {
+                "ap": 0.7187864874336433,
+                "auc": 0.6960558667402752,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21466229856014252
+              }
+            },
+            {
+              "epoch": 5,
+              "loss": 1.7116373472643973,
+              "validation": {
+                "ap": 0.7153701673152665,
+                "auc": 0.6926490563347814,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21834003925323486
+              }
+            },
+            {
+              "epoch": 6,
+              "loss": 1.6613092476263978,
+              "validation": {
+                "ap": 0.7084648340683337,
+                "auc": 0.6865497312480284,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2230127453804016
+              }
+            },
+            {
+              "epoch": 7,
+              "loss": 1.5906274139432979,
+              "validation": {
+                "ap": 0.6992850643123774,
+                "auc": 0.6791687179984955,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2292434275150299
+              }
+            },
+            {
+              "epoch": 8,
+              "loss": 1.5090855001506949,
+              "validation": {
+                "ap": 0.6923347235746398,
+                "auc": 0.6759362102332015,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.23998983204364777
+              }
+            },
+            {
+              "epoch": 9,
+              "loss": 1.4027077273318642,
+              "validation": {
+                "ap": 0.6748198742647142,
+                "auc": 0.6640327109975976,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.24734656512737274
+              }
+            },
+            {
+              "epoch": 10,
+              "loss": 1.2945154699167811,
+              "validation": {
+                "ap": 0.6633187733135016,
+                "auc": 0.6617840438375112,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.2624647915363312
+              }
+            }
+          ],
+          "all_validation": {
+            "ap": 0.7201556560149558,
+            "auc": 0.6976409018660972,
+            "positive_count": 40600,
+            "negative_count": 40600,
+            "brier": 0.21364152431488037,
+            "pair_accuracy": 0.6394088669950739
+          },
+          "evaluation_split": "validation",
+          "test_scored": false,
+          "parameter_count": 1054391,
+          "branch_parameter_count": 13,
+          "elapsed_seconds": 35.90411091199985,
+          "initial_common_sha256": "dee3468e8ae76e7fcbd2f87485365c03073165b19e75d45f8b83a357d2bc401a",
+          "time_unit": 703192.0,
+          "exposure_unit": 3.0,
+          "amplitude": 0.00018285959959030151,
+          "checkpoint_sha256": "29a094d22d444fd5da18eddae69c6ac48602ad0690479c1e58b7ee82dc653424",
+          "predictions_sha256": "5fdaa2c8e738a5348699cb0f5ff8b41aee0eabb9162dd5025fcb5ea844e562a2",
+          "state_parameters": {
+            "clock_rates": [
+              0.12777045369148254,
+              0.37140703201293945,
+              0.8597533702850342,
+              2.7542426586151123
+            ],
+            "event_rates": [
+              0.12776070833206177,
+              0.37127363681793213,
+              0.8579715490341187,
+              2.7539494037628174
+            ],
+            "readout_gaps": [
+              0.5946605205535889,
+              0.8620054721832275,
+              1.313187599182129,
+              1.7859275341033936
+            ]
+          }
+        },
+        "activity_mlp": {
+          "kind": "activity_mlp",
+          "seed": 303,
+          "selected_epoch": 3,
+          "validation_history": [
+            {
+              "epoch": 1,
+              "loss": 1.9333948434743666,
+              "validation": {
+                "ap": 0.7120531149187201,
+                "auc": 0.6831342394865199,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21931780874729156
+              }
+            },
+            {
+              "epoch": 2,
+              "loss": 1.83127296508703,
+              "validation": {
+                "ap": 0.7187146332851155,
+                "auc": 0.6949882513528598,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21466097235679626
+              }
+            },
+            {
+              "epoch": 3,
+              "loss": 1.7857013591250082,
+              "validation": {
+                "ap": 0.7197680047954309,
+                "auc": 0.6966942900822636,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21502213180065155
+              }
+            },
+            {
+              "epoch": 4,
+              "loss": 1.7546180809350838,
+              "validation": {
+                "ap": 0.7180736157511072,
+                "auc": 0.6943324404256352,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21539054811000824
+              }
+            },
+            {
+              "epoch": 5,
+              "loss": 1.7131737354106473,
+              "validation": {
+                "ap": 0.715860993000633,
+                "auc": 0.6933820363876823,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.21929404139518738
+              }
+            },
+            {
+              "epoch": 6,
+              "loss": 1.6647092471445413,
+              "validation": {
+                "ap": 0.7088492727386413,
+                "auc": 0.687700578150404,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.225518137216568
+              }
+            },
+            {
+              "epoch": 7,
+              "loss": 1.5949430609107913,
+              "validation": {
+                "ap": 0.7000139176431062,
+                "auc": 0.6799745823121163,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.22870415449142456
+              }
+            },
+            {
+              "epoch": 8,
+              "loss": 1.5132714599595034,
+              "validation": {
+                "ap": 0.694177768406183,
+                "auc": 0.675863959025941,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.23927900195121765
+              }
+            },
+            {
+              "epoch": 9,
+              "loss": 1.4111004440408004,
+              "validation": {
+                "ap": 0.670457642538863,
+                "auc": 0.6610434507631828,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.248067706823349
+              }
+            },
+            {
+              "epoch": 10,
+              "loss": 1.3138234848366643,
+              "validation": {
+                "ap": 0.6645588567186642,
+                "auc": 0.6616675262078672,
+                "positive_count": 40600,
+                "negative_count": 40600,
+                "brier": 0.26011109352111816
+              }
+            }
+          ],
+          "all_validation": {
+            "ap": 0.7197680047954309,
+            "auc": 0.6966942900822636,
+            "positive_count": 40600,
+            "negative_count": 40600,
+            "brier": 0.21502213180065155,
+            "pair_accuracy": 0.6386945812807882
+          },
+          "evaluation_split": "validation",
+          "test_scored": false,
+          "parameter_count": 1054391,
+          "branch_parameter_count": 13,
+          "elapsed_seconds": 29.897935971999914,
+          "initial_common_sha256": "dee3468e8ae76e7fcbd2f87485365c03073165b19e75d45f8b83a357d2bc401a",
+          "time_unit": 703192.0,
+          "exposure_unit": 1.0,
+          "amplitude": -0.006588343530893326,
+          "checkpoint_sha256": "7218cc287b6e93f457137d01d8ed4d9540e2a4c468db4c50af81db1ef2e42d9f",
+          "predictions_sha256": "7cc3ac5b1e3a608c1f95c058726bed07a07f0794c6a100b300e98296c330b116"
+        }
+      }
+    }
+  ],
+  "checkpoint_audit": {
+    "status": "PASS",
+    "records": 18,
+    "max_probability_abs_error": 6.556510925292969e-07,
+    "initialization": "Exact all-arm common initialization independently reconstructed on Linux CPU; local macOS initialization hash mismatch retained",
+    "scope": "Complete retained validation checkpoint inference replay and saved-score metrics, units, identities/capacity and declared selection history; no optimizer replay or independent raw-history reconstruction"
+  },
+  "environment": {
+    "python": "3.13.15",
+    "torch": "2.11.0+cu130",
+    "numpy": "2.1.3",
+    "device": "cuda"
+  },
+  "local_environment": {
+    "torch": "2.8.0",
+    "numpy": "2.2.6"
+  },
+  "resource_after": {
+    "backend_assignment_count": 0,
+    "usage": [
+      "Current balance: 173.02 compute units",
+      "Usage rate: 0.00/hr"
+    ],
+    "exit_code": 0
+  },
+  "test_scored": false,
+  "publication_eligible": false,
+  "limitations": [
+    "January development validation selected checkpoints; no untouched test",
+    "Same fixed sampled users; seed variation includes candidate draws and fitting, not population uncertainty",
+    "Original Colab uses bounded package ranges and preinstalled torch; dependencies.lock was not enforced",
+    "Inference and initialization replay, not optimizer or fresh-environment reproduction",
+    "No measured edge death, semantic substitution, causal displacement, equivalence or novelty clearance"
+  ],
+  "scientific_disposition": "No mean primary advantage; phase below history-only at every seed; no automatic tuning or new allocation"
+}

@@ -1,0 +1,48 @@
+schema_version = 1
+evidence_ids = []
+local_only = true
+publication_eligible = false
+
+[[artifact]]
+path = "results/audit/journal_venue_review_v3/ans_publishing.html"
+sha256 = "fb520f8f6e5cf0700cda2e6da18848cf835217c4a24d14d4d1745700d8fa6055"
+
+[[artifact]]
+path = "results/audit/journal_venue_review_v3/ans_scope.html"
+sha256 = "87ecf9a8283b9672ded953d66bae0b0409d8ee9b3086bc756e978f81ecad9d92"
+
+[[artifact]]
+path = "results/audit/journal_venue_review_v3/canonical_snapshots/wiki/questions/Journal-Paper-Strategy.md"
+sha256 = "e5b4e9de9db8aa42b6a6d7f0033d0c96981c16a3185204fc2272d4a8f352a3b9"
+
+[[artifact]]
+path = "results/audit/journal_venue_review_v3/canonical_snapshots/wiki/status/Project-Status.md"
+sha256 = "480c4226eca9a4816a53fff65b782a68cdc49ffe253fcbb395fd6d3d99de3510"
+
+[[artifact]]
+path = "results/audit/journal_venue_review_v3/snam_publishing.html"
+sha256 = "608e6cbe3d2b6309ada2803e2bca40c905f1aa29deacdd03994281c3d0b00a40"
+
+[[artifact]]
+path = "results/audit/journal_venue_review_v3/snam_scope.html"
+sha256 = "ba0433aaf3289ebbef670888fee9e357a21241174861149e7cace464bfd32d9a"
+
+[[artifact]]
+path = "results/audit/journal_venue_review_v3/sncs_home.html"
+sha256 = "0fb0b62327fe1c08328a5b383e97e3d2a93eb926f4a9593653da2c3c46444e29"
+
+[[artifact]]
+path = "results/audit/journal_venue_review_v3/sncs_publishing.html"
+sha256 = "b13c0abe597188b8316586904d7d229b6ebcc62b2dafa22f812b8726a29e6405"
+
+[[artifact]]
+path = "results/audit/journal_venue_review_v3/sncs_scope.html"
+sha256 = "d1afd4840b4dbb9e472a61d7ffbdaa1ab72d7c01e8b01cfb0321e9960201d173"
+
+[[artifact]]
+path = "results/audit/journal_venue_review_v3/source_access.json"
+sha256 = "823c4f8381501cd397b53435ea7f85745cdac150fe3c4a89f4e87dd4d8fab013"
+
+[[artifact]]
+path = "results/audit/journal_venue_review_v3/update_journal_options_v3.py"
+sha256 = "c7fccc3269ef906947edfeccde9114215cbf7e86593c965c2984b835536d728c"

@@ -1,6 +1,7 @@
 protocol_id = "LCR-P-CRAFT-FIT-001"
 status = "prospective-full-support-validation-development"
 date = "2026-10-15"
+authorization = "Q1 program: establish a strong learned comparator under shared candidates before claiming new lifecycle utility."
 amends = "LCR-P-TGBSEQ-SCREEN-001"
 amendment_reason = "Audited feasibility adapter now supports the pinned author architecture; add a development fit without changing count-control outcomes or examining new tests."
 dataset_id = "LCR-D-TGBSEQ-ML20M-001"

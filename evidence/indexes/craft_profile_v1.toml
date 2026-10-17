@@ -1,0 +1,132 @@
+schema_version = 1
+evidence_id = "LCR-E-CRAFT-PROFILE-001"
+local_only = true
+publication_eligible = false
+
+[[artifact]]
+path = "evidence/jobs/LCR-JOB-CRAFT-PROFILE-001.toml"
+sha256 = "c26b7a2123bf5f36bae60cae51b2c0bf2cbd48279618e4e6a0c42675ac2d8ca6"
+
+[[artifact]]
+path = "evidence/jobs/LCR-JOB-CRAFT-PROFILE-002.toml"
+sha256 = "38900348e4dd96585daf65dd82f703dc82cf86effd520ca4ca36126e252692a3"
+
+[[artifact]]
+path = "evidence/jobs/LCR-JOB-CRAFT-PROFILE-003.toml"
+sha256 = "777e3330e5a41c359cd45146a2de13ee1ac89753957128ae3ef1fdb2f666ea1f"
+
+[[artifact]]
+path = "scripts/audit_craft_profile.py"
+sha256 = "40da2c4e30df2f389361fa3824c0ba5f75db0631e3a8a39bf51db1d2bdfe1ab1"
+
+[[artifact]]
+path = "src/lifecycle_readout/craft_adapter.py"
+sha256 = "2f76ae3a2c642e00e3776cfde9856e0f7bb5c203a9c5833f0387ebdb0b4d2995"
+
+[[artifact]]
+path = "scripts/profile_craft.py"
+sha256 = "dfa8ae44f4681cd8283d77c04a8117779ecbc792502fb04be0631f3419b1c31c"
+
+[[artifact]]
+path = "protocols/craft_profile_v1.toml"
+sha256 = "8a66b11b048492191fe6ce600cd0d5620031a64ecfef8eb64376766212bbc354"
+
+[[artifact]]
+path = "protocols/craft_profile_v2.toml"
+sha256 = "ca66a286de0b73882e7632d659492351f126dc0b73a06a56900072ce458a91e6"
+
+[[artifact]]
+path = "configs/craft_profile_v1.toml"
+sha256 = "3729363855405589832306d16a5ceb8e8d4d1c75826f4950c9d2d01ccdf34eb4"
+
+[[artifact]]
+path = "configs/craft_profile_v2.toml"
+sha256 = "0aa8655283607797d2d14ae812e529d5ec892b3aebd7ff41a9ceddb4e9ec715a"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-02894597d7/job.json"
+sha256 = "255f267f82ab1225f1a1edb999f1ecaf3b90117debaf8d5feb6a617bca5e5563"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-02894597d7/source.zip"
+sha256 = "9779a693934a915add74b65adb9cbfd8f9497f0d1b989791aa6b0977de0fcfde"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-aa2d5bab6e/job.json"
+sha256 = "f4ff37dfbf2d62f1bdb48e9aa099723b486e5a5c5fc65fe1f24fe1c4143771c9"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-aa2d5bab6e/source.zip"
+sha256 = "56392d8f849297c0b309b436c1cc53931c78be90fd6e1cdf731b2d3a54041ca7"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-aa2d5bab6e/artifacts.tar.gz"
+sha256 = "3b6e29a683f11ed0cb9e349f66069dc3b0cc6581c100c81bba9dd28a66597f8b"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-aa2d5bab6e/artifacts/checksums.sha256"
+sha256 = "dde4a4f9196a3377b3340f5deb1e363832319ab845895b5f922e4442fa585454"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-aa2d5bab6e/artifacts/environment.txt"
+sha256 = "3b1e22e429be06096de176772f74128eb46fa98894453011a791e66137f1e7e9"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-aa2d5bab6e/artifacts/failure.json"
+sha256 = "5f226ff7f578387813785f0162266ffa987c4c17f7fcb01bec04be447eb35162"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-aa2d5bab6e/artifacts/source_manifest.json"
+sha256 = "9347f6eed820c17c55e5b0219702171f1efcc0cb9b14b0a5e2d55809e1c969a0"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-aa2d5bab6e/artifacts/training.txt"
+sha256 = "4aca90e5afdc831b450257e3df357b6dfc070011882c5935964cecfb3f185563"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-d2e1452fb8/job.json"
+sha256 = "7629efa46a7dbba427da19cf5c4be7431814ac11cc2343e8bc3d1f6d33eb938a"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-d2e1452fb8/source.zip"
+sha256 = "dbfac2ef4cc215929bac6527cef1d145716bb4dd76340be79e730f3d8c9dc40e"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-d2e1452fb8/artifacts.tar.gz"
+sha256 = "3180405a16fa219f2bf361e73b4025ebe25a981aba78c0fedc088a36aaf14c16"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-d2e1452fb8/independent_audit.json"
+sha256 = "35521247a5c9c4cc940ac07b18265ed06e78b3e6bd16830c84120c3ed636bd85"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-d2e1452fb8/resource_after.json"
+sha256 = "3e7a63367a76a8e9e2e243dbcab1763fa1ef542e2000436acc38bc50b55d4890"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-d2e1452fb8/artifacts/checksums.sha256"
+sha256 = "70d4508c7b76822c1a8fb545997a0520dac15d1ba65b679513d94f3b1aed0125"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-d2e1452fb8/artifacts/environment.txt"
+sha256 = "3b1e22e429be06096de176772f74128eb46fa98894453011a791e66137f1e7e9"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-d2e1452fb8/artifacts/results.json"
+sha256 = "3b8f1bb4ec8b62332e028618dde0b7aa0768274c59d2d68f527d06615e46bb4b"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-d2e1452fb8/artifacts/roundtrip.npz"
+sha256 = "025a3033c2cad900b02f3aac058bae92750020517c2b168b06fad7167928a408"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-d2e1452fb8/artifacts/roundtrip_state.pt"
+sha256 = "58fb5a47cf6eda6de34a1d5e7bb3b89671dc724839c00e60b1d4d918e426a80c"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-d2e1452fb8/artifacts/source_manifest.json"
+sha256 = "3763bbb04183b3695ab8f47fe52ddfe3e9feadcec40321b390a6c33a4202d3e0"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-d2e1452fb8/artifacts/training.txt"
+sha256 = "a6782862e2bdf15160f3fdf802f692489d8d40c277072b922ab574e2b30b586a"

@@ -2,6 +2,7 @@ protocol_id = "LCR-P-Q1-SYNTH-001"
 status = "prospective-small-oracle-diagnostic"
 date = "2026-10-15"
 amends = "LCR-P-Q1-DEV-001"
+authorization = "Q1 research program: controlled mechanism checks before another large GPU study."
 question = "Can a nested monotone residual learn a known time response and stay neutral under a null, and where is its sign restriction misspecified?"
 seeds = [11, 29, 47]
 scenarios = ["null", "homogeneous_decay", "contextual_decay", "increasing"]

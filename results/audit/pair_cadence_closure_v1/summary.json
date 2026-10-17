@@ -1,0 +1,1854 @@
+{
+  "status": "COMPLETE_DEVELOPMENT_SUMMARY",
+  "datasets": {
+    "wikipedia": {
+      "dataset": "wikipedia",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "arms": {
+        "original": {
+          "models": {
+            "base_stats": {
+              "metrics": {
+                "ap": {
+                  "values": [
+                    0.6129600372431163,
+                    0.5811947290032411,
+                    0.5983673559981227
+                  ],
+                  "mean": 0.5975073740814935,
+                  "std_ddof1": 0.015900106243867312,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                },
+                "auc": {
+                  "values": [
+                    0.6046008988349951,
+                    0.5923698839090108,
+                    0.5975173266313138
+                  ],
+                  "mean": 0.5981627031251066,
+                  "std_ddof1": 0.006140994597291877,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                },
+                "brier": {
+                  "values": [
+                    0.2416464167044532,
+                    0.24408118383550542,
+                    0.24272499581031995
+                  ],
+                  "mean": 0.24281753211675952,
+                  "std_ddof1": 0.0012200184308526591,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                }
+              },
+              "selected_epochs": [
+                3,
+                2,
+                3
+              ],
+              "parameter_counts": [
+                176778,
+                176778,
+                176778
+              ],
+              "fit_elapsed_seconds": [
+                5.674287947000039,
+                5.05026177700006,
+                5.006356713000059
+              ]
+            },
+            "residual_scalar": {
+              "metrics": {
+                "ap": {
+                  "values": [
+                    0.6123434060343668,
+                    0.5805215758795069,
+                    0.5985671214764131
+                  ],
+                  "mean": 0.597144034463429,
+                  "std_ddof1": 0.015958574531770686,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                },
+                "auc": {
+                  "values": [
+                    0.604371839233431,
+                    0.5924159517618394,
+                    0.5967668045289818
+                  ],
+                  "mean": 0.5978515318414174,
+                  "std_ddof1": 0.006051304513499385,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                },
+                "brier": {
+                  "values": [
+                    0.24170254673432226,
+                    0.24422547358152846,
+                    0.24296313541618902
+                  ],
+                  "mean": 0.24296371857734655,
+                  "std_ddof1": 0.0012614635246990535,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                }
+              },
+              "selected_epochs": [
+                3,
+                2,
+                3
+              ],
+              "parameter_counts": [
+                176780,
+                176780,
+                176780
+              ],
+              "fit_elapsed_seconds": [
+                5.390604918000008,
+                5.341230767999946,
+                5.236094376999972
+              ]
+            },
+            "residual_mixture": {
+              "metrics": {
+                "ap": {
+                  "values": [
+                    0.6118202533556341,
+                    0.5803998870956963,
+                    0.5985690538772112
+                  ],
+                  "mean": 0.5969297314428471,
+                  "std_ddof1": 0.015774200059274476,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                },
+                "auc": {
+                  "values": [
+                    0.6040500040949203,
+                    0.5923775618844822,
+                    0.5967693638541389
+                  ],
+                  "mean": 0.5977323099445138,
+                  "std_ddof1": 0.005895500459564925,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                },
+                "brier": {
+                  "values": [
+                    0.24177361589844695,
+                    0.24421442039493577,
+                    0.24296314829091692
+                  ],
+                  "mean": 0.24298372819476655,
+                  "std_ddof1": 0.001220532382549454,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                }
+              },
+              "selected_epochs": [
+                3,
+                2,
+                3
+              ],
+              "parameter_counts": [
+                185878,
+                185878,
+                185878
+              ],
+              "fit_elapsed_seconds": [
+                5.462016668000047,
+                5.409219159000031,
+                5.4103817029999846
+              ]
+            },
+            "mlp_residual": {
+              "metrics": {
+                "ap": {
+                  "values": [
+                    0.6152251020646886,
+                    0.5858085069028398,
+                    0.6052139381730605
+                  ],
+                  "mean": 0.6020825157135296,
+                  "std_ddof1": 0.014956215186138076,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                },
+                "auc": {
+                  "values": [
+                    0.6043104154296595,
+                    0.5972006101431175,
+                    0.6015463442599456
+                  ],
+                  "mean": 0.6010191232775742,
+                  "std_ddof1": 0.003584104389708029,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                },
+                "brier": {
+                  "values": [
+                    0.24174818537695633,
+                    0.24341394919731518,
+                    0.24215318649862078
+                  ],
+                  "mean": 0.24243844035763074,
+                  "std_ddof1": 0.0008687459924305815,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                }
+              },
+              "selected_epochs": [
+                3,
+                2,
+                3
+              ],
+              "parameter_counts": [
+                185675,
+                185675,
+                185675
+              ],
+              "fit_elapsed_seconds": [
+                5.142301207999935,
+                5.06519344000003,
+                5.045587538000063
+              ]
+            }
+          },
+          "coverage": [
+            {
+              "train": 2805,
+              "validation": 884,
+              "test": 977,
+              "skipped_no_hard_support": 138000,
+              "excluded_train": 14808,
+              "total_events": 157474
+            },
+            {
+              "train": 2805,
+              "validation": 884,
+              "test": 977,
+              "skipped_no_hard_support": 138000,
+              "excluded_train": 14808,
+              "total_events": 157474
+            },
+            {
+              "train": 2805,
+              "validation": 884,
+              "test": 977,
+              "skipped_no_hard_support": 138000,
+              "excluded_train": 14808,
+              "total_events": 157474
+            }
+          ],
+          "pair_clock": [
+            {
+              "seed": 101,
+              "definition": "strict-past-arithmetic-mean-interval",
+              "fallback_rule": "median-positive-available-training-candidate-cadence",
+              "fallback_seconds": 30190.670454545456,
+              "tau0_seconds": 1.0,
+              "feature_names": [
+                "log1p_effective_cadence_over_train_median",
+                "cadence_available",
+                "log1p_silence_over_smoothed_cadence"
+              ],
+              "train_candidate_slots": 5610,
+              "train_available_slots": 4242,
+              "validation_candidate_slots": 1768,
+              "validation_available_slots": 1434,
+              "test_clocks_constructed": false,
+              "sampling_or_support_changed": false,
+              "features_masked_for_capacity_control": true
+            },
+            {
+              "seed": 202,
+              "definition": "strict-past-arithmetic-mean-interval",
+              "fallback_rule": "median-positive-available-training-candidate-cadence",
+              "fallback_seconds": 29880.568965517243,
+              "tau0_seconds": 1.0,
+              "feature_names": [
+                "log1p_effective_cadence_over_train_median",
+                "cadence_available",
+                "log1p_silence_over_smoothed_cadence"
+              ],
+              "train_candidate_slots": 5610,
+              "train_available_slots": 4242,
+              "validation_candidate_slots": 1768,
+              "validation_available_slots": 1434,
+              "test_clocks_constructed": false,
+              "sampling_or_support_changed": false,
+              "features_masked_for_capacity_control": true
+            },
+            {
+              "seed": 303,
+              "definition": "strict-past-arithmetic-mean-interval",
+              "fallback_rule": "median-positive-available-training-candidate-cadence",
+              "fallback_seconds": 30087.16346153846,
+              "tau0_seconds": 1.0,
+              "feature_names": [
+                "log1p_effective_cadence_over_train_median",
+                "cadence_available",
+                "log1p_silence_over_smoothed_cadence"
+              ],
+              "train_candidate_slots": 5610,
+              "train_available_slots": 4242,
+              "validation_candidate_slots": 1768,
+              "validation_available_slots": 1434,
+              "test_clocks_constructed": false,
+              "sampling_or_support_changed": false,
+              "features_masked_for_capacity_control": true
+            }
+          ],
+          "attempt": "results/audit/lcr-wikipedia-9d9dafb06e"
+        },
+        "features": {
+          "models": {
+            "base_stats": {
+              "metrics": {
+                "ap": {
+                  "values": [
+                    0.6146418103344218,
+                    0.5802020805751199,
+                    0.5994342795832366
+                  ],
+                  "mean": 0.5980927234975928,
+                  "std_ddof1": 0.01725901434096489,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                },
+                "auc": {
+                  "values": [
+                    0.6053111115661022,
+                    0.5923730830654573,
+                    0.5967744825044532
+                  ],
+                  "mean": 0.5981528923786709,
+                  "std_ddof1": 0.006578233479200951,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                },
+                "brier": {
+                  "values": [
+                    0.24128925077136074,
+                    0.24414275619864606,
+                    0.2429170541612781
+                  ],
+                  "mean": 0.24278302037709495,
+                  "std_ddof1": 0.0014314667643237611,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                }
+              },
+              "selected_epochs": [
+                3,
+                2,
+                3
+              ],
+              "parameter_counts": [
+                176778,
+                176778,
+                176778
+              ],
+              "fit_elapsed_seconds": [
+                5.716844858999821,
+                5.079608557000029,
+                5.026311111000041
+              ]
+            },
+            "residual_scalar": {
+              "metrics": {
+                "ap": {
+                  "values": [
+                    0.6152334750045981,
+                    0.5806050761425321,
+                    0.5993579370969895
+                  ],
+                  "mean": 0.5983988294147066,
+                  "std_ddof1": 0.01733411138758617,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                },
+                "auc": {
+                  "values": [
+                    0.6065728588685735,
+                    0.5932176603673144,
+                    0.5976459327204602
+                  ],
+                  "mean": 0.5991454839854493,
+                  "std_ddof1": 0.006802706979523394,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                },
+                "brier": {
+                  "values": [
+                    0.24120879312687313,
+                    0.24404056128110113,
+                    0.24280888984130883
+                  ],
+                  "mean": 0.2426860814164277,
+                  "std_ddof1": 0.0014198729350689476,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                }
+              },
+              "selected_epochs": [
+                3,
+                2,
+                3
+              ],
+              "parameter_counts": [
+                176780,
+                176780,
+                176780
+              ],
+              "fit_elapsed_seconds": [
+                5.423848705000182,
+                5.333919186000003,
+                5.27168444400013
+              ]
+            },
+            "residual_mixture": {
+              "metrics": {
+                "ap": {
+                  "values": [
+                    0.6151810519864603,
+                    0.5806059053866965,
+                    0.5994036211883437
+                  ],
+                  "mean": 0.5983968595205001,
+                  "std_ddof1": 0.017309545557023406,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                },
+                "auc": {
+                  "values": [
+                    0.6065498249421593,
+                    0.5932183001986036,
+                    0.5977393480886959
+                  ],
+                  "mean": 0.5991691577431529,
+                  "std_ddof1": 0.006779797543658168,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                },
+                "brier": {
+                  "values": [
+                    0.24120602568879332,
+                    0.24404056101140612,
+                    0.24279099024509043
+                  ],
+                  "mean": 0.2426791923150966,
+                  "std_ddof1": 0.0014205709087011756,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                }
+              },
+              "selected_epochs": [
+                3,
+                2,
+                3
+              ],
+              "parameter_counts": [
+                185878,
+                185878,
+                185878
+              ],
+              "fit_elapsed_seconds": [
+                5.469346896999923,
+                5.504825194999967,
+                5.344312054000056
+              ]
+            },
+            "mlp_residual": {
+              "metrics": {
+                "ap": {
+                  "values": [
+                    0.616972685871511,
+                    0.585563263733478,
+                    0.6051481784745404
+                  ],
+                  "mean": 0.6025613760265097,
+                  "std_ddof1": 0.01586368840907253,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                },
+                "auc": {
+                  "values": [
+                    0.6060085276714237,
+                    0.5964865584242747,
+                    0.6021912941995454
+                  ],
+                  "mean": 0.6015621267650814,
+                  "std_ddof1": 0.004792062534165788,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                },
+                "brier": {
+                  "values": [
+                    0.2412745718061794,
+                    0.24344233695306244,
+                    0.24196073893331765
+                  ],
+                  "mean": 0.2422258825641865,
+                  "std_ddof1": 0.0011079383068352486,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                }
+              },
+              "selected_epochs": [
+                3,
+                2,
+                3
+              ],
+              "parameter_counts": [
+                185675,
+                185675,
+                185675
+              ],
+              "fit_elapsed_seconds": [
+                5.143536959999892,
+                5.188610249000021,
+                5.054924773000039
+              ]
+            }
+          },
+          "coverage": [
+            {
+              "train": 2805,
+              "validation": 884,
+              "test": 977,
+              "skipped_no_hard_support": 138000,
+              "excluded_train": 14808,
+              "total_events": 157474
+            },
+            {
+              "train": 2805,
+              "validation": 884,
+              "test": 977,
+              "skipped_no_hard_support": 138000,
+              "excluded_train": 14808,
+              "total_events": 157474
+            },
+            {
+              "train": 2805,
+              "validation": 884,
+              "test": 977,
+              "skipped_no_hard_support": 138000,
+              "excluded_train": 14808,
+              "total_events": 157474
+            }
+          ],
+          "pair_clock": [
+            {
+              "seed": 101,
+              "definition": "strict-past-arithmetic-mean-interval",
+              "fallback_rule": "median-positive-available-training-candidate-cadence",
+              "fallback_seconds": 30190.670454545456,
+              "tau0_seconds": 1.0,
+              "feature_names": [
+                "log1p_effective_cadence_over_train_median",
+                "cadence_available",
+                "log1p_silence_over_smoothed_cadence"
+              ],
+              "train_candidate_slots": 5610,
+              "train_available_slots": 4242,
+              "validation_candidate_slots": 1768,
+              "validation_available_slots": 1434,
+              "test_clocks_constructed": false,
+              "sampling_or_support_changed": false,
+              "features_masked_for_capacity_control": false
+            },
+            {
+              "seed": 202,
+              "definition": "strict-past-arithmetic-mean-interval",
+              "fallback_rule": "median-positive-available-training-candidate-cadence",
+              "fallback_seconds": 29880.568965517243,
+              "tau0_seconds": 1.0,
+              "feature_names": [
+                "log1p_effective_cadence_over_train_median",
+                "cadence_available",
+                "log1p_silence_over_smoothed_cadence"
+              ],
+              "train_candidate_slots": 5610,
+              "train_available_slots": 4242,
+              "validation_candidate_slots": 1768,
+              "validation_available_slots": 1434,
+              "test_clocks_constructed": false,
+              "sampling_or_support_changed": false,
+              "features_masked_for_capacity_control": false
+            },
+            {
+              "seed": 303,
+              "definition": "strict-past-arithmetic-mean-interval",
+              "fallback_rule": "median-positive-available-training-candidate-cadence",
+              "fallback_seconds": 30087.16346153846,
+              "tau0_seconds": 1.0,
+              "feature_names": [
+                "log1p_effective_cadence_over_train_median",
+                "cadence_available",
+                "log1p_silence_over_smoothed_cadence"
+              ],
+              "train_candidate_slots": 5610,
+              "train_available_slots": 4242,
+              "validation_candidate_slots": 1768,
+              "validation_available_slots": 1434,
+              "test_clocks_constructed": false,
+              "sampling_or_support_changed": false,
+              "features_masked_for_capacity_control": false
+            }
+          ],
+          "attempt": "results/audit/lcr-wikipedia-3ba4f02a86"
+        },
+        "relative": {
+          "models": {
+            "residual_scalar": {
+              "metrics": {
+                "ap": {
+                  "values": [
+                    0.6144302335698305,
+                    0.5803457329771795,
+                    0.5993268828203555
+                  ],
+                  "mean": 0.5980342831224551,
+                  "std_ddof1": 0.017078975544419096,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                },
+                "auc": {
+                  "values": [
+                    0.6055068999406237,
+                    0.5921625785712823,
+                    0.5976344157572531
+                  ],
+                  "mean": 0.598434631423053,
+                  "std_ddof1": 0.0067080538933366515,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                },
+                "brier": {
+                  "values": [
+                    0.24148428947798237,
+                    0.24410733641598437,
+                    0.24277785955510087
+                  ],
+                  "mean": 0.24278982848302255,
+                  "std_ddof1": 0.0013115644289043188,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                }
+              },
+              "selected_epochs": [
+                3,
+                2,
+                3
+              ],
+              "parameter_counts": [
+                176780,
+                176780,
+                176780
+              ],
+              "fit_elapsed_seconds": [
+                6.2078952410001875,
+                5.462230821000048,
+                5.456833473000188
+              ]
+            },
+            "residual_mixture": {
+              "metrics": {
+                "ap": {
+                  "values": [
+                    0.6144300714407813,
+                    0.5806704510716056,
+                    0.5993021974753956
+                  ],
+                  "mean": 0.5981342399959275,
+                  "std_ddof1": 0.016910088272185316,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                },
+                "auc": {
+                  "values": [
+                    0.6055081796032022,
+                    0.5931645543703036,
+                    0.5976241784566245
+                  ],
+                  "mean": 0.5987656374767101,
+                  "std_ddof1": 0.006250477381245712,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                },
+                "brier": {
+                  "values": [
+                    0.2414843081187548,
+                    0.24403506659469223,
+                    0.2427800872299841
+                  ],
+                  "mean": 0.24276648731447703,
+                  "std_ddof1": 0.001275433619957552,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                }
+              },
+              "selected_epochs": [
+                3,
+                2,
+                3
+              ],
+              "parameter_counts": [
+                185878,
+                185878,
+                185878
+              ],
+              "fit_elapsed_seconds": [
+                5.620910494000327,
+                5.5837335569999595,
+                5.559167887000058
+              ]
+            }
+          },
+          "coverage": [
+            {
+              "train": 2805,
+              "validation": 884,
+              "test": 977,
+              "skipped_no_hard_support": 138000,
+              "excluded_train": 14808,
+              "total_events": 157474
+            },
+            {
+              "train": 2805,
+              "validation": 884,
+              "test": 977,
+              "skipped_no_hard_support": 138000,
+              "excluded_train": 14808,
+              "total_events": 157474
+            },
+            {
+              "train": 2805,
+              "validation": 884,
+              "test": 977,
+              "skipped_no_hard_support": 138000,
+              "excluded_train": 14808,
+              "total_events": 157474
+            }
+          ],
+          "pair_clock": [
+            {
+              "seed": 101,
+              "definition": "strict-past-arithmetic-mean-interval",
+              "fallback_rule": "median-positive-available-training-candidate-cadence",
+              "fallback_seconds": 30190.670454545456,
+              "tau0_seconds": 1.0,
+              "feature_names": [
+                "log1p_effective_cadence_over_train_median",
+                "cadence_available",
+                "log1p_silence_over_smoothed_cadence"
+              ],
+              "train_candidate_slots": 5610,
+              "train_available_slots": 4242,
+              "validation_candidate_slots": 1768,
+              "validation_available_slots": 1434,
+              "test_clocks_constructed": false,
+              "sampling_or_support_changed": false,
+              "features_masked_for_capacity_control": false
+            },
+            {
+              "seed": 202,
+              "definition": "strict-past-arithmetic-mean-interval",
+              "fallback_rule": "median-positive-available-training-candidate-cadence",
+              "fallback_seconds": 29880.568965517243,
+              "tau0_seconds": 1.0,
+              "feature_names": [
+                "log1p_effective_cadence_over_train_median",
+                "cadence_available",
+                "log1p_silence_over_smoothed_cadence"
+              ],
+              "train_candidate_slots": 5610,
+              "train_available_slots": 4242,
+              "validation_candidate_slots": 1768,
+              "validation_available_slots": 1434,
+              "test_clocks_constructed": false,
+              "sampling_or_support_changed": false,
+              "features_masked_for_capacity_control": false
+            },
+            {
+              "seed": 303,
+              "definition": "strict-past-arithmetic-mean-interval",
+              "fallback_rule": "median-positive-available-training-candidate-cadence",
+              "fallback_seconds": 30087.16346153846,
+              "tau0_seconds": 1.0,
+              "feature_names": [
+                "log1p_effective_cadence_over_train_median",
+                "cadence_available",
+                "log1p_silence_over_smoothed_cadence"
+              ],
+              "train_candidate_slots": 5610,
+              "train_available_slots": 4242,
+              "validation_candidate_slots": 1768,
+              "validation_available_slots": 1434,
+              "test_clocks_constructed": false,
+              "sampling_or_support_changed": false,
+              "features_masked_for_capacity_control": false
+            }
+          ],
+          "attempt": "results/audit/lcr-wikipedia-ec20ddbdde"
+        }
+      },
+      "paired_validation_ap": {
+        "feature_base_stats": {
+          "values": [
+            0.0016817730913054607,
+            -0.00099264842812119,
+            0.0010669235851138437
+          ],
+          "mean": 0.0005853494160993714,
+          "std_ddof1": 0.0014007383324838275,
+          "positive": 2,
+          "zero": 0,
+          "negative": 1
+        },
+        "feature_residual_scalar": {
+          "values": [
+            0.002890068970231363,
+            8.350026302517133e-05,
+            0.0007908156205763683
+          ],
+          "mean": 0.0012547949512776342,
+          "std_ddof1": 0.0014596796194904398,
+          "positive": 3,
+          "zero": 0,
+          "negative": 0
+        },
+        "feature_residual_mixture": {
+          "values": [
+            0.0033607986308262783,
+            0.00020601829100019842,
+            0.0008345673111325169
+          ],
+          "mean": 0.0014671280776529978,
+          "std_ddof1": 0.0016698082496634226,
+          "positive": 3,
+          "zero": 0,
+          "negative": 0
+        },
+        "feature_mlp_residual": {
+          "values": [
+            0.0017475838068223837,
+            -0.00024524316936180846,
+            -6.575969852007368e-05
+          ],
+          "mean": 0.0004788603129801672,
+          "std_ddof1": 0.001102405577338372,
+          "positive": 1,
+          "zero": 0,
+          "negative": 2
+        },
+        "clock_residual_scalar": {
+          "values": [
+            -0.0008032414347676209,
+            -0.00025934316535258795,
+            -3.1054276633968314e-05
+          ],
+          "mean": -0.0003645462922513924,
+          "std_ddof1": 0.0003966976496383563,
+          "positive": 0,
+          "zero": 0,
+          "negative": 3
+        },
+        "clock_residual_mixture": {
+          "values": [
+            -0.0007509805456790142,
+            6.454568490910084e-05,
+            -0.00010142371294807884
+          ],
+          "mean": -0.0002626195245726641,
+          "std_ddof1": 0.0004309974773224275,
+          "positive": 1,
+          "zero": 0,
+          "negative": 2
+        }
+      },
+      "primary_comparison": "clock_residual_scalar",
+      "result_sha256": {
+        "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/results.json": "74e4be670548dd7a38a8cf67f1b7fe2c7adc654dd13d7c98ef692087e58d462e",
+        "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed101/pair_clock.json": "6dff35dc81ab4794d375aea3d424126a8b491599012689fb920cf25955b8272a",
+        "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed202/pair_clock.json": "cdccecbf47203f18be6052d65fc2389eaca1fb3b71bfc34ba99487a7aa400a64",
+        "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed303/pair_clock.json": "2f025eb1575a0d0d2707d207d77db921cb04537b5d0ef8504c4ff55fefef40e6",
+        "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/results.json": "954fa2f789b841ebc5ba9a89afb0d1d086d2f6efbf5452c922ec80a459363ae7",
+        "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed101/pair_clock.json": "b9078d5deb20a9d155351b2dd40ebc0e9033dc7eea645e61d0b98d1b5a9883d1",
+        "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed202/pair_clock.json": "4128a1da7a29a76cf28157b93297d751027e7c8f2a618e009e05256e2b6e94e8",
+        "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed303/pair_clock.json": "dba1ce2b8dbbbc3f493a9ea47eb10a05e7a1ade9a4fbe9e88a83d3fb5bc78be6",
+        "results/audit/lcr-wikipedia-ec20ddbdde/artifacts/results.json": "0192548875a93d99dcadb804cda94fcfe8517b366d4dff678693405efb00630c",
+        "results/audit/lcr-wikipedia-ec20ddbdde/artifacts/seed101/pair_clock.json": "b9078d5deb20a9d155351b2dd40ebc0e9033dc7eea645e61d0b98d1b5a9883d1",
+        "results/audit/lcr-wikipedia-ec20ddbdde/artifacts/seed202/pair_clock.json": "4128a1da7a29a76cf28157b93297d751027e7c8f2a618e009e05256e2b6e94e8",
+        "results/audit/lcr-wikipedia-ec20ddbdde/artifacts/seed303/pair_clock.json": "dba1ce2b8dbbbc3f493a9ea47eb10a05e7a1ade9a4fbe9e88a83d3fb5bc78be6"
+      },
+      "fit_count": 30
+    },
+    "reddit": {
+      "dataset": "reddit",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "arms": {
+        "original": {
+          "models": {
+            "base_stats": {
+              "metrics": {
+                "ap": {
+                  "values": [
+                    0.553712927462644,
+                    0.5526812661076381,
+                    0.5524634700724986
+                  ],
+                  "mean": 0.5529525545475936,
+                  "std_ddof1": 0.0006674458822161691,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                },
+                "auc": {
+                  "values": [
+                    0.5563510044973935,
+                    0.5524358278592132,
+                    0.5548945065502914
+                  ],
+                  "mean": 0.5545604463022994,
+                  "std_ddof1": 0.0019788504779302,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                },
+                "brier": {
+                  "values": [
+                    0.246845447281564,
+                    0.2531234941497577,
+                    0.24709431199863224
+                  ],
+                  "mean": 0.2490210844766513,
+                  "std_ddof1": 0.0035549693748818793,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                }
+              },
+              "selected_epochs": [
+                3,
+                5,
+                3
+              ],
+              "parameter_counts": [
+                176778,
+                176778,
+                176778
+              ],
+              "fit_elapsed_seconds": [
+                76.27181168700008,
+                74.5134646859999,
+                74.66525071699994
+              ]
+            },
+            "residual_scalar": {
+              "metrics": {
+                "ap": {
+                  "values": [
+                    0.5567690624291373,
+                    0.5533761969867035,
+                    0.5537258136979568
+                  ],
+                  "mean": 0.5546236910379325,
+                  "std_ddof1": 0.0018661515924079499,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                },
+                "auc": {
+                  "values": [
+                    0.5567674177536639,
+                    0.551301267836195,
+                    0.5546042273956265
+                  ],
+                  "mean": 0.5542243043284952,
+                  "std_ddof1": 0.002752808544516868,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                },
+                "brier": {
+                  "values": [
+                    0.24705506708407793,
+                    0.252332493375518,
+                    0.24704138365594341
+                  ],
+                  "mean": 0.24880964803851313,
+                  "std_ddof1": 0.003050881226857933,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                }
+              },
+              "selected_epochs": [
+                4,
+                5,
+                4
+              ],
+              "parameter_counts": [
+                176780,
+                176780,
+                176780
+              ],
+              "fit_elapsed_seconds": [
+                77.24288467499991,
+                77.38499725099996,
+                77.44904626400012
+              ]
+            },
+            "residual_mixture": {
+              "metrics": {
+                "ap": {
+                  "values": [
+                    0.5535141276698096,
+                    0.5514277164586308,
+                    0.5510631468019915
+                  ],
+                  "mean": 0.5520016636434772,
+                  "std_ddof1": 0.0013224554177163961,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                },
+                "auc": {
+                  "values": [
+                    0.5546063188491294,
+                    0.552348536426617,
+                    0.5527613796203965
+                  ],
+                  "mean": 0.553238744965381,
+                  "std_ddof1": 0.0012022078111938773,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                },
+                "brier": {
+                  "values": [
+                    0.24770039151072257,
+                    0.2485730115358728,
+                    0.24721628228301495
+                  ],
+                  "mean": 0.2478298951098701,
+                  "std_ddof1": 0.0006875732346697171,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                }
+              },
+              "selected_epochs": [
+                4,
+                4,
+                4
+              ],
+              "parameter_counts": [
+                185878,
+                185878,
+                185878
+              ],
+              "fit_elapsed_seconds": [
+                78.65934571599996,
+                78.8399081120001,
+                78.67463817499993
+              ]
+            },
+            "mlp_residual": {
+              "metrics": {
+                "ap": {
+                  "values": [
+                    0.5539021559916755,
+                    0.5498574682532935,
+                    0.5531321106726977
+                  ],
+                  "mean": 0.5522972449725555,
+                  "std_ddof1": 0.002147702325325775,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                },
+                "auc": {
+                  "values": [
+                    0.5548970454775669,
+                    0.5495760083862811,
+                    0.5545373203389155
+                  ],
+                  "mean": 0.5530034580675879,
+                  "std_ddof1": 0.002973702915938597,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                },
+                "brier": {
+                  "values": [
+                    0.24729905045899617,
+                    0.249064674826274,
+                    0.24738921184275434
+                  ],
+                  "mean": 0.2479176457093415,
+                  "std_ddof1": 0.00099437875837053,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                }
+              },
+              "selected_epochs": [
+                4,
+                4,
+                4
+              ],
+              "parameter_counts": [
+                185675,
+                185675,
+                185675
+              ],
+              "fit_elapsed_seconds": [
+                75.21298771900001,
+                75.40805789600017,
+                75.40462699
+              ]
+            }
+          },
+          "coverage": [
+            {
+              "train": 37206,
+              "validation": 10139,
+              "test": 11002,
+              "skipped_no_hard_support": 538695,
+              "excluded_train": 75405,
+              "total_events": 672447
+            },
+            {
+              "train": 37206,
+              "validation": 10139,
+              "test": 11002,
+              "skipped_no_hard_support": 538695,
+              "excluded_train": 75405,
+              "total_events": 672447
+            },
+            {
+              "train": 37206,
+              "validation": 10139,
+              "test": 11002,
+              "skipped_no_hard_support": 538695,
+              "excluded_train": 75405,
+              "total_events": 672447
+            }
+          ],
+          "pair_clock": [
+            {
+              "seed": 101,
+              "definition": "strict-past-arithmetic-mean-interval",
+              "fallback_rule": "median-positive-available-training-candidate-cadence",
+              "fallback_seconds": 76813.49955555557,
+              "tau0_seconds": 1.0,
+              "feature_names": [
+                "log1p_effective_cadence_over_train_median",
+                "cadence_available",
+                "log1p_silence_over_smoothed_cadence"
+              ],
+              "train_candidate_slots": 74412,
+              "train_available_slots": 52034,
+              "validation_candidate_slots": 20278,
+              "validation_available_slots": 15202,
+              "test_clocks_constructed": false,
+              "sampling_or_support_changed": false,
+              "features_masked_for_capacity_control": true
+            },
+            {
+              "seed": 202,
+              "definition": "strict-past-arithmetic-mean-interval",
+              "fallback_rule": "median-positive-available-training-candidate-cadence",
+              "fallback_seconds": 76857.9237,
+              "tau0_seconds": 1.0,
+              "feature_names": [
+                "log1p_effective_cadence_over_train_median",
+                "cadence_available",
+                "log1p_silence_over_smoothed_cadence"
+              ],
+              "train_candidate_slots": 74412,
+              "train_available_slots": 52035,
+              "validation_candidate_slots": 20278,
+              "validation_available_slots": 15202,
+              "test_clocks_constructed": false,
+              "sampling_or_support_changed": false,
+              "features_masked_for_capacity_control": true
+            },
+            {
+              "seed": 303,
+              "definition": "strict-past-arithmetic-mean-interval",
+              "fallback_rule": "median-positive-available-training-candidate-cadence",
+              "fallback_seconds": 77010.76979473684,
+              "tau0_seconds": 1.0,
+              "feature_names": [
+                "log1p_effective_cadence_over_train_median",
+                "cadence_available",
+                "log1p_silence_over_smoothed_cadence"
+              ],
+              "train_candidate_slots": 74412,
+              "train_available_slots": 52034,
+              "validation_candidate_slots": 20278,
+              "validation_available_slots": 15202,
+              "test_clocks_constructed": false,
+              "sampling_or_support_changed": false,
+              "features_masked_for_capacity_control": true
+            }
+          ],
+          "attempt": "results/audit/lcr-reddit-91752ed8c3"
+        },
+        "features": {
+          "models": {
+            "base_stats": {
+              "metrics": {
+                "ap": {
+                  "values": [
+                    0.5627205695119066,
+                    0.5536572376101399,
+                    0.5561483765677553
+                  ],
+                  "mean": 0.5575087278966006,
+                  "std_ddof1": 0.004682297843347243,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                },
+                "auc": {
+                  "values": [
+                    0.5666549587423831,
+                    0.5546023013128657,
+                    0.5587091231857455
+                  ],
+                  "mean": 0.5599887944136648,
+                  "std_ddof1": 0.006127381709751632,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                },
+                "brier": {
+                  "values": [
+                    0.2454979817749646,
+                    0.24823509861933873,
+                    0.24654420839068572
+                  ],
+                  "mean": 0.246759096261663,
+                  "std_ddof1": 0.0013811534139113676,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                }
+              },
+              "selected_epochs": [
+                3,
+                4,
+                3
+              ],
+              "parameter_counts": [
+                176778,
+                176778,
+                176778
+              ],
+              "fit_elapsed_seconds": [
+                77.27616151400002,
+                75.40503932699994,
+                75.30008482999983
+              ]
+            },
+            "residual_scalar": {
+              "metrics": {
+                "ap": {
+                  "values": [
+                    0.5619114422011698,
+                    0.556903549067763,
+                    0.5582430871231893
+                  ],
+                  "mean": 0.5590193594640406,
+                  "std_ddof1": 0.002592623665186323,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                },
+                "auc": {
+                  "values": [
+                    0.5637602460428703,
+                    0.5586662532527817,
+                    0.5594687001872318
+                  ],
+                  "mean": 0.5606317331609613,
+                  "std_ddof1": 0.0027389185657582396,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                },
+                "brier": {
+                  "values": [
+                    0.2459665694604063,
+                    0.25044449670503727,
+                    0.24632376321297847
+                  ],
+                  "mean": 0.24757827645947403,
+                  "std_ddof1": 0.00248863631659523,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                }
+              },
+              "selected_epochs": [
+                4,
+                5,
+                3
+              ],
+              "parameter_counts": [
+                176780,
+                176780,
+                176780
+              ],
+              "fit_elapsed_seconds": [
+                78.68391064999992,
+                77.93114729099989,
+                78.40850510700011
+              ]
+            },
+            "residual_mixture": {
+              "metrics": {
+                "ap": {
+                  "values": [
+                    0.565273776106299,
+                    0.5582267337535726,
+                    0.5559052858493483
+                  ],
+                  "mean": 0.5598019319030733,
+                  "std_ddof1": 0.004878840982373595,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                },
+                "auc": {
+                  "values": [
+                    0.567568933650836,
+                    0.5590278461080497,
+                    0.558415045367858
+                  ],
+                  "mean": 0.5616706083755812,
+                  "std_ddof1": 0.00511728072088361,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                },
+                "brier": {
+                  "values": [
+                    0.24545594179827213,
+                    0.24779722037169846,
+                    0.24647848881074616
+                  ],
+                  "mean": 0.24657721699357227,
+                  "std_ddof1": 0.0011737575474344867,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                }
+              },
+              "selected_epochs": [
+                3,
+                4,
+                3
+              ],
+              "parameter_counts": [
+                185878,
+                185878,
+                185878
+              ],
+              "fit_elapsed_seconds": [
+                79.69798362499978,
+                79.36544786299964,
+                79.98199277699996
+              ]
+            },
+            "mlp_residual": {
+              "metrics": {
+                "ap": {
+                  "values": [
+                    0.5601001334448161,
+                    0.5583563163706706,
+                    0.5562680318445883
+                  ],
+                  "mean": 0.5582414938866916,
+                  "std_ddof1": 0.0019186294120380628,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                },
+                "auc": {
+                  "values": [
+                    0.5642379291590847,
+                    0.5569761739963244,
+                    0.5586947553865653
+                  ],
+                  "mean": 0.5599696195139915,
+                  "std_ddof1": 0.003795027130142472,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                },
+                "brier": {
+                  "values": [
+                    0.2463351767485001,
+                    0.24760554567628218,
+                    0.24650241854155733
+                  ],
+                  "mean": 0.2468143803221132,
+                  "std_ddof1": 0.0006902531546934324,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                }
+              },
+              "selected_epochs": [
+                3,
+                4,
+                3
+              ],
+              "parameter_counts": [
+                185675,
+                185675,
+                185675
+              ],
+              "fit_elapsed_seconds": [
+                76.20499057999996,
+                76.42551221700023,
+                75.92741856800012
+              ]
+            }
+          },
+          "coverage": [
+            {
+              "train": 37206,
+              "validation": 10139,
+              "test": 11002,
+              "skipped_no_hard_support": 538695,
+              "excluded_train": 75405,
+              "total_events": 672447
+            },
+            {
+              "train": 37206,
+              "validation": 10139,
+              "test": 11002,
+              "skipped_no_hard_support": 538695,
+              "excluded_train": 75405,
+              "total_events": 672447
+            },
+            {
+              "train": 37206,
+              "validation": 10139,
+              "test": 11002,
+              "skipped_no_hard_support": 538695,
+              "excluded_train": 75405,
+              "total_events": 672447
+            }
+          ],
+          "pair_clock": [
+            {
+              "seed": 101,
+              "definition": "strict-past-arithmetic-mean-interval",
+              "fallback_rule": "median-positive-available-training-candidate-cadence",
+              "fallback_seconds": 76813.49955555557,
+              "tau0_seconds": 1.0,
+              "feature_names": [
+                "log1p_effective_cadence_over_train_median",
+                "cadence_available",
+                "log1p_silence_over_smoothed_cadence"
+              ],
+              "train_candidate_slots": 74412,
+              "train_available_slots": 52034,
+              "validation_candidate_slots": 20278,
+              "validation_available_slots": 15202,
+              "test_clocks_constructed": false,
+              "sampling_or_support_changed": false,
+              "features_masked_for_capacity_control": false
+            },
+            {
+              "seed": 202,
+              "definition": "strict-past-arithmetic-mean-interval",
+              "fallback_rule": "median-positive-available-training-candidate-cadence",
+              "fallback_seconds": 76857.9237,
+              "tau0_seconds": 1.0,
+              "feature_names": [
+                "log1p_effective_cadence_over_train_median",
+                "cadence_available",
+                "log1p_silence_over_smoothed_cadence"
+              ],
+              "train_candidate_slots": 74412,
+              "train_available_slots": 52035,
+              "validation_candidate_slots": 20278,
+              "validation_available_slots": 15202,
+              "test_clocks_constructed": false,
+              "sampling_or_support_changed": false,
+              "features_masked_for_capacity_control": false
+            },
+            {
+              "seed": 303,
+              "definition": "strict-past-arithmetic-mean-interval",
+              "fallback_rule": "median-positive-available-training-candidate-cadence",
+              "fallback_seconds": 77010.76979473684,
+              "tau0_seconds": 1.0,
+              "feature_names": [
+                "log1p_effective_cadence_over_train_median",
+                "cadence_available",
+                "log1p_silence_over_smoothed_cadence"
+              ],
+              "train_candidate_slots": 74412,
+              "train_available_slots": 52034,
+              "validation_candidate_slots": 20278,
+              "validation_available_slots": 15202,
+              "test_clocks_constructed": false,
+              "sampling_or_support_changed": false,
+              "features_masked_for_capacity_control": false
+            }
+          ],
+          "attempt": "results/audit/lcr-reddit-3378d22194"
+        },
+        "relative": {
+          "models": {
+            "residual_scalar": {
+              "metrics": {
+                "ap": {
+                  "values": [
+                    0.5616856088646889,
+                    0.5568428558180598,
+                    0.5580796867953769
+                  ],
+                  "mean": 0.5588693838260418,
+                  "std_ddof1": 0.002516104194551485,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                },
+                "auc": {
+                  "values": [
+                    0.5654715316650778,
+                    0.5551235353003937,
+                    0.5593631304237896
+                  ],
+                  "mean": 0.5599860657964204,
+                  "std_ddof1": 0.0052020470537793816,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                },
+                "brier": {
+                  "values": [
+                    0.245738647311504,
+                    0.2475410970438487,
+                    0.2462858371401551
+                  ],
+                  "mean": 0.24652186049850258,
+                  "std_ddof1": 0.0009241139154193014,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                }
+              },
+              "selected_epochs": [
+                3,
+                4,
+                3
+              ],
+              "parameter_counts": [
+                176780,
+                176780,
+                176780
+              ],
+              "fit_elapsed_seconds": [
+                80.32488235099999,
+                78.19882934099996,
+                78.465520717
+              ]
+            },
+            "residual_mixture": {
+              "metrics": {
+                "ap": {
+                  "values": [
+                    0.5636518009812761,
+                    0.5582869227945333,
+                    0.5569863696375146
+                  ],
+                  "mean": 0.5596416978044413,
+                  "std_ddof1": 0.0035332075010113826,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                },
+                "auc": {
+                  "values": [
+                    0.5663802098459385,
+                    0.5602477617532123,
+                    0.5594130869794364
+                  ],
+                  "mean": 0.5620136861928624,
+                  "std_ddof1": 0.0038044798730114612,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                },
+                "brier": {
+                  "values": [
+                    0.24565121028750878,
+                    0.2472702542500694,
+                    0.24618996881468824
+                  ],
+                  "mean": 0.2463704777840888,
+                  "std_ddof1": 0.00082447768569049,
+                  "positive": 3,
+                  "zero": 0,
+                  "negative": 0
+                }
+              },
+              "selected_epochs": [
+                3,
+                4,
+                3
+              ],
+              "parameter_counts": [
+                185878,
+                185878,
+                185878
+              ],
+              "fit_elapsed_seconds": [
+                80.15724977700006,
+                79.966181516,
+                79.9981608039999
+              ]
+            }
+          },
+          "coverage": [
+            {
+              "train": 37206,
+              "validation": 10139,
+              "test": 11002,
+              "skipped_no_hard_support": 538695,
+              "excluded_train": 75405,
+              "total_events": 672447
+            },
+            {
+              "train": 37206,
+              "validation": 10139,
+              "test": 11002,
+              "skipped_no_hard_support": 538695,
+              "excluded_train": 75405,
+              "total_events": 672447
+            },
+            {
+              "train": 37206,
+              "validation": 10139,
+              "test": 11002,
+              "skipped_no_hard_support": 538695,
+              "excluded_train": 75405,
+              "total_events": 672447
+            }
+          ],
+          "pair_clock": [
+            {
+              "seed": 101,
+              "definition": "strict-past-arithmetic-mean-interval",
+              "fallback_rule": "median-positive-available-training-candidate-cadence",
+              "fallback_seconds": 76813.49955555557,
+              "tau0_seconds": 1.0,
+              "feature_names": [
+                "log1p_effective_cadence_over_train_median",
+                "cadence_available",
+                "log1p_silence_over_smoothed_cadence"
+              ],
+              "train_candidate_slots": 74412,
+              "train_available_slots": 52034,
+              "validation_candidate_slots": 20278,
+              "validation_available_slots": 15202,
+              "test_clocks_constructed": false,
+              "sampling_or_support_changed": false,
+              "features_masked_for_capacity_control": false
+            },
+            {
+              "seed": 202,
+              "definition": "strict-past-arithmetic-mean-interval",
+              "fallback_rule": "median-positive-available-training-candidate-cadence",
+              "fallback_seconds": 76857.9237,
+              "tau0_seconds": 1.0,
+              "feature_names": [
+                "log1p_effective_cadence_over_train_median",
+                "cadence_available",
+                "log1p_silence_over_smoothed_cadence"
+              ],
+              "train_candidate_slots": 74412,
+              "train_available_slots": 52035,
+              "validation_candidate_slots": 20278,
+              "validation_available_slots": 15202,
+              "test_clocks_constructed": false,
+              "sampling_or_support_changed": false,
+              "features_masked_for_capacity_control": false
+            },
+            {
+              "seed": 303,
+              "definition": "strict-past-arithmetic-mean-interval",
+              "fallback_rule": "median-positive-available-training-candidate-cadence",
+              "fallback_seconds": 77010.76979473684,
+              "tau0_seconds": 1.0,
+              "feature_names": [
+                "log1p_effective_cadence_over_train_median",
+                "cadence_available",
+                "log1p_silence_over_smoothed_cadence"
+              ],
+              "train_candidate_slots": 74412,
+              "train_available_slots": 52034,
+              "validation_candidate_slots": 20278,
+              "validation_available_slots": 15202,
+              "test_clocks_constructed": false,
+              "sampling_or_support_changed": false,
+              "features_masked_for_capacity_control": false
+            }
+          ],
+          "attempt": "results/audit/lcr-reddit-9cf2622b16"
+        }
+      },
+      "paired_validation_ap": {
+        "feature_base_stats": {
+          "values": [
+            0.009007642049262632,
+            0.0009759715025017268,
+            0.003684906495256657
+          ],
+          "mean": 0.004556173349007005,
+          "std_ddof1": 0.004086106018051866,
+          "positive": 3,
+          "zero": 0,
+          "negative": 0
+        },
+        "feature_residual_scalar": {
+          "values": [
+            0.005142379772032579,
+            0.003527352081059476,
+            0.004517273425232449
+          ],
+          "mean": 0.004395668426108168,
+          "std_ddof1": 0.0008143521612370723,
+          "positive": 3,
+          "zero": 0,
+          "negative": 0
+        },
+        "feature_residual_mixture": {
+          "values": [
+            0.011759648436489467,
+            0.0067990172949418115,
+            0.004842139047356753
+          ],
+          "mean": 0.0078002682595960104,
+          "std_ddof1": 0.0035657904674630753,
+          "positive": 3,
+          "zero": 0,
+          "negative": 0
+        },
+        "feature_mlp_residual": {
+          "values": [
+            0.006197977453140657,
+            0.008498848117377111,
+            0.0031359211718905433
+          ],
+          "mean": 0.005944248914136104,
+          "std_ddof1": 0.0026904516320286286,
+          "positive": 3,
+          "zero": 0,
+          "negative": 0
+        },
+        "clock_residual_scalar": {
+          "values": [
+            -0.00022583333648096282,
+            -6.06932497031476e-05,
+            -0.00016340032781236857
+          ],
+          "mean": -0.00014997563799882632,
+          "std_ddof1": 8.338452367009393e-05,
+          "positive": 0,
+          "zero": 0,
+          "negative": 3
+        },
+        "clock_residual_mixture": {
+          "values": [
+            -0.0016219751250229342,
+            6.0189040960723084e-05,
+            0.0010810837881662927
+          ],
+          "mean": -0.0001602340986319728,
+          "std_ddof1": 0.0013649438238967407,
+          "positive": 2,
+          "zero": 0,
+          "negative": 1
+        }
+      },
+      "primary_comparison": "clock_residual_scalar",
+      "result_sha256": {
+        "results/audit/lcr-reddit-91752ed8c3/artifacts/results.json": "f0971cd6d704d6c87a1f44c370c56aea82281734484e0f224496be7ba573cc0c",
+        "results/audit/lcr-reddit-91752ed8c3/artifacts/seed101/pair_clock.json": "8a04341144ba8a4ea22c4b09e8a0be9dfcfc24570fa2ce287a26ed0a1f2031ee",
+        "results/audit/lcr-reddit-91752ed8c3/artifacts/seed202/pair_clock.json": "b85d0c58786cdb72a8e665834b129e2166ea4aaeeb46baade2af7d9979111a38",
+        "results/audit/lcr-reddit-91752ed8c3/artifacts/seed303/pair_clock.json": "86e219e07d140e07fd251f6c74e717d42c600f9ee20b250b86391e8a98d2b5b5",
+        "results/audit/lcr-reddit-3378d22194/artifacts/results.json": "5fd32950bc7382730a59caced44242e3fc3c746d70fbb63df86608d2bc0e0ead",
+        "results/audit/lcr-reddit-3378d22194/artifacts/seed101/pair_clock.json": "aa962cf0c022ee233284748ac2eba81b07040839d0c82f85520f5407222420d2",
+        "results/audit/lcr-reddit-3378d22194/artifacts/seed202/pair_clock.json": "20cca080b5413a5152c22a6113a41d077354cd77f5a337dac23534d434f96359",
+        "results/audit/lcr-reddit-3378d22194/artifacts/seed303/pair_clock.json": "db54521f69ed833bece189e1efd44f6527a9b5f54fd50b4af1e87ebb552463e5",
+        "results/audit/lcr-reddit-9cf2622b16/artifacts/results.json": "7643434a1dadd6fd23cfc299ca645f222f9fc5883bf851317b7762359f75f24a",
+        "results/audit/lcr-reddit-9cf2622b16/artifacts/seed101/pair_clock.json": "aa962cf0c022ee233284748ac2eba81b07040839d0c82f85520f5407222420d2",
+        "results/audit/lcr-reddit-9cf2622b16/artifacts/seed202/pair_clock.json": "20cca080b5413a5152c22a6113a41d077354cd77f5a337dac23534d434f96359",
+        "results/audit/lcr-reddit-9cf2622b16/artifacts/seed303/pair_clock.json": "db54521f69ed833bece189e1efd44f6527a9b5f54fd50b4af1e87ebb552463e5"
+      },
+      "fit_count": 30
+    }
+  },
+  "audit_sha256": {
+    "wikipedia_comparison_audit.json": "d5507ae95a04ec0ffba4a4c182a8554987f71da4450e81088fc311f0a9e1c7ad",
+    "reddit_comparison_audit.json": "485fa927c4aecd74d0ddec9ff5bdef12dbc9c981cd48ede75cfb6a4733296d53"
+  },
+  "progress_sha256": "56f98ea9572f45b3a86d5b9b554329e353f412538f7ddc2f5151b41b1d395bfa",
+  "summarizer_sha256": "4b4a952ffb81261549012b6b77ec89678b7b0ab71b25feaee9f503df598ba03f",
+  "test_scored": false,
+  "publication_eligible": false,
+  "limitations": "Validation-selected development on inspected datasets; paired sample SD is descriptive, not a confidence interval or significance test. No novelty, causality, confirmation or lifecycle semantics admission."
+}

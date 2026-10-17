@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "symbolic_dimensions": [
+    {
+      "active_components": 1,
+      "quotient_flow_identity": "EXACT_ZERO",
+      "all_pair_coefficients": "EXACT_ZERO"
+    },
+    {
+      "active_components": 2,
+      "quotient_flow_identity": "EXACT_ZERO",
+      "all_pair_coefficients": "EXACT_ZERO"
+    },
+    {
+      "active_components": 3,
+      "quotient_flow_identity": "EXACT_ZERO",
+      "all_pair_coefficients": "EXACT_ZERO"
+    },
+    {
+      "active_components": 4,
+      "quotient_flow_identity": "EXACT_ZERO",
+      "all_pair_coefficients": "EXACT_ZERO"
+    }
+  ],
+  "exact_witnesses": {
+    "strict_separation_q1_derivative": "56/1369",
+    "strict_separation_readout_derivative": "-1416/1369",
+    "positive_failure_derivative": "3/16",
+    "zero_gap_failure_derivative": "1/12"
+  },
+  "independent_slice_lp": [
+    {
+      "active_components": 2,
+      "slice_lp_checks": 25,
+      "status": "PASS"
+    },
+    {
+      "active_components": 3,
+      "slice_lp_checks": 25,
+      "status": "PASS"
+    },
+    {
+      "active_components": 5,
+      "slice_lp_checks": 25,
+      "status": "PASS"
+    },
+    {
+      "active_components": 9,
+      "slice_lp_checks": 25,
+      "status": "PASS"
+    }
+  ],
+  "negative_witnesses": 24,
+  "scope": "Exact algebra for dimensions1-4, rational witnesses and supporting finite-dimensional LP checks. The arbitrary-dimension proof is written separately; no automated proof, priority clearance or empirical model gain.",
+  "model_fit": false,
+  "gpu_allocated": false
+}

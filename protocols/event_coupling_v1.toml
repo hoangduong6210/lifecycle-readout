@@ -1,6 +1,7 @@
 protocol_id = "LCR-P-EVENT-COUPLING-001"
 status = "prospective-exploratory-model-comparison"
 date = "2026-10-16"
+authorization = "User selected cross-edge competition and active goal to strengthen supported contributions; bounded model development."
 relationship = "New exact-state comparison after negative residual pilot and successful input audit; no earlier result or endpoint altered."
 datasets = ["wikipedia"]
 seeds = [101, 202, 303]

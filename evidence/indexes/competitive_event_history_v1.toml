@@ -1,0 +1,148 @@
+schema_version = 1
+evidence_id = "LCR-E-COMPETE-HISTORY-001"
+local_only = true
+publication_eligible = false
+
+[[artifact]]
+path = "src/lifecycle_readout/competitive_event_stream.py"
+sha256 = "1d9fe574cc796dc1603c832571f7673cffffb0170faaed0bf17a90dd5077a002"
+
+[[artifact]]
+path = "tests/test_competitive_event_stream.py"
+sha256 = "c1c38ca5085c0cd8421fb3a547baff617ac4bb5f25108f89d23eab2cba129307"
+
+[[artifact]]
+path = "scripts/audit_competitive_event_history.py"
+sha256 = "277373fee7c02b90bfe2bcf519d3f98b76996eeb6abc6856ce3a9a057899bb31"
+
+[[artifact]]
+path = "protocols/competitive_event_history_v1.toml"
+sha256 = "8109b3392d68ab066c089c0e772b8abb7619cdbf749b15b7274e0d7a7b5d4793"
+
+[[artifact]]
+path = "evidence/jobs/LCR-JOB-COMPETE-HISTORY-001.toml"
+sha256 = "807a6d7c3310b8a0feabe5f74626e067d7156f5018f311337bfc8f16b7cc297a"
+
+[[artifact]]
+path = "wiki/methods/Frozen-Reference-Competition-History.md"
+sha256 = "80c04346868ee2bc834a4425ac9f8225cfdacb5b410a7282c1c950d7894ada84"
+
+[[artifact]]
+path = "wiki/results/Competitive-Event-History-Audit.md"
+sha256 = "f36300157ea27e445f88db43568bebb0b2e42c35b4911a357c7d138ff7a98f79"
+
+[[artifact]]
+path = "results/audit/competitive_event_history_execution_v1/preanalysis.json"
+sha256 = "9be6435e25f644dc86f51355384fafed8744c16a36bafe8383a9bd383001e01b"
+
+[[artifact]]
+path = "results/audit/competitive_event_history_execution_v1/results.json"
+sha256 = "e3791a2e62bd0e9c15fe5621c659842bb3ea385baad5f7ab330172b55ee212a1"
+
+[[artifact]]
+path = "results/audit/competitive_event_history_execution_v1/seed101_audit.json"
+sha256 = "d77eef33886f0a0c68ee92674638dd31494e4af261d8918b27f90e56f1cc6e06"
+
+[[artifact]]
+path = "results/audit/competitive_event_history_execution_v1/seed101_features.npz"
+sha256 = "116b42ffe12d781c72a13375990b2cd98bbb8055ac33dbfd51378e3fdc219dc5"
+
+[[artifact]]
+path = "results/audit/competitive_event_history_execution_v1/seed202_audit.json"
+sha256 = "0461c8e4b9d2643c0a1dfa25a9458a7fdb3ba6cdde9eb88399a27623853f2954"
+
+[[artifact]]
+path = "results/audit/competitive_event_history_execution_v1/seed202_features.npz"
+sha256 = "c73fadb341da6f0c01166e707370ebac326b9a0cb7481edee9b7e8d4f6832a1f"
+
+[[artifact]]
+path = "results/audit/competitive_event_history_execution_v1/seed303_audit.json"
+sha256 = "e53f6a15ff767a14f2a7d4dd319d00827262085c419b3660e9ab85d6184860d6"
+
+[[artifact]]
+path = "results/audit/competitive_event_history_execution_v1/seed303_features.npz"
+sha256 = "35ea9d44d0dbc7f859fd72d3655435a80f2fad419aa5c96dd3f77c0eaef75ebc"
+
+[[artifact]]
+path = "results/audit/competitive_event_history_closure_v1/Competitive-Event-History-Audit.md"
+sha256 = "f36300157ea27e445f88db43568bebb0b2e42c35b4911a357c7d138ff7a98f79"
+
+[[artifact]]
+path = "results/audit/competitive_event_history_closure_v1/Current-Claim-Language.md"
+sha256 = "ece8500342b95ae994950195f4400cd7cd314f8f44970d55d8e01516930535fb"
+
+[[artifact]]
+path = "results/audit/competitive_event_history_closure_v1/Evidence-Ledger.md"
+sha256 = "5480632a63c02a47cc2efe5939aeb3e46bbcbce08c39703fd34021ce58c437f1"
+
+[[artifact]]
+path = "results/audit/competitive_event_history_closure_v1/Frozen-Reference-Competition-History.md"
+sha256 = "80c04346868ee2bc834a4425ac9f8225cfdacb5b410a7282c1c950d7894ada84"
+
+[[artifact]]
+path = "results/audit/competitive_event_history_closure_v1/INDEX.md"
+sha256 = "7693b463e6ced6b703c1c461aad2e8e9c4e9e53a5f04409840e9e5cddd40f309"
+
+[[artifact]]
+path = "results/audit/competitive_event_history_closure_v1/LCR-JOB-COMPETE-HISTORY-001.toml"
+sha256 = "807a6d7c3310b8a0feabe5f74626e067d7156f5018f311337bfc8f16b7cc297a"
+
+[[artifact]]
+path = "results/audit/competitive_event_history_closure_v1/Live-Execution.md"
+sha256 = "e297b675d7c3f7e890f764c1f9c451bf1fc712ea0f537103242e1895039a78a8"
+
+[[artifact]]
+path = "results/audit/competitive_event_history_closure_v1/Project-Status.md"
+sha256 = "b29de72cd8b20efeb9c460c462665cec59f0d184d8f80355304cb0269fb5170d"
+
+[[artifact]]
+path = "results/audit/competitive_event_history_closure_v1/START-HERE.md"
+sha256 = "73f0372e705a35e93fba9ba6009adfce477bb16aa877fb8425322b02e303691d"
+
+[[artifact]]
+path = "results/audit/competitive_event_history_closure_v1/audit_competitive_event_history.py"
+sha256 = "277373fee7c02b90bfe2bcf519d3f98b76996eeb6abc6856ce3a9a057899bb31"
+
+[[artifact]]
+path = "results/audit/competitive_event_history_closure_v1/close_competitive_history.py"
+sha256 = "5ce4b1e0b21901e29aa206935fadd369753ffac5c18c7730f3c486eccd0f3fe1"
+
+[[artifact]]
+path = "results/audit/competitive_event_history_closure_v1/closure_reconstruction.json"
+sha256 = "a12a3752684596e8346e2a27a6004496e06750fb50a775a810407e6d5754efa6"
+
+[[artifact]]
+path = "results/audit/competitive_event_history_closure_v1/competitive_event_history_v1.toml"
+sha256 = "8109b3392d68ab066c089c0e772b8abb7619cdbf749b15b7274e0d7a7b5d4793"
+
+[[artifact]]
+path = "results/audit/competitive_event_history_closure_v1/competitive_event_stream.py"
+sha256 = "1d9fe574cc796dc1603c832571f7673cffffb0170faaed0bf17a90dd5077a002"
+
+[[artifact]]
+path = "results/audit/competitive_event_history_closure_v1/develop_competitive_history.py"
+sha256 = "c39938908533c2e4fdfe3927fa8b7233c17cfec991d2f9ad66a08b3bbff126a0"
+
+[[artifact]]
+path = "results/audit/competitive_event_history_closure_v1/goal_progress_audit.json"
+sha256 = "af18215796039ffe9a0094411f101cf9bc649d2fe0ac1290b487ebf803a0a10c"
+
+[[artifact]]
+path = "results/audit/competitive_event_history_closure_v1/index_competitive_history.py"
+sha256 = "638deb10ae0d6ed65f270d281353db2d6ae5fdd3a944ac5f7171e2ce64441132"
+
+[[artifact]]
+path = "results/audit/competitive_event_history_closure_v1/prepare_competitive_history_audit.py"
+sha256 = "cd93046a33ac09a5a19106a713506e10e776b1b4dc9b13ea970d51616b2485a4"
+
+[[artifact]]
+path = "results/audit/competitive_event_history_closure_v1/repository_verification.json"
+sha256 = "20bbf6c8adc9cf1af434f5404c4954f1dbc1531846a876473630c092bc16294b"
+
+[[artifact]]
+path = "results/audit/competitive_event_history_closure_v1/table.md"
+sha256 = "e986d622650bbb3cc45bd3e457c1115f19941552ea7ec33919da6c2f12280c18"
+
+[[artifact]]
+path = "results/audit/competitive_event_history_closure_v1/test_competitive_event_stream.py"
+sha256 = "c1c38ca5085c0cd8421fb3a547baff617ac4bb5f25108f89d23eab2cba129307"

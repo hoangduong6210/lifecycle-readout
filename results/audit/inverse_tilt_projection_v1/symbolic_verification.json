@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "pair_factorization": "EXACT_ZERO",
+  "strict_squared_distance": "(1 - sqrt(2))**2/4",
+  "scope": "Exact factorization and rational/algebraic witness; projection optimality proof is written separately; no predictive result"
+}

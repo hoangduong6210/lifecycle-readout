@@ -1,0 +1,37 @@
+schema_version = 2
+status = "BLOCKED"
+scope = "scientific evidence and manuscript release"
+
+always_excluded = [
+  "paper/working/",
+  "paper/figs/",
+  "figures/generated/",
+  "results/historical/",
+  "results/audit/",
+  "resources/corpora/",
+  "docs/PERPAIR_GLOBALIZATION_DESIGN.md",
+]
+
+blocking_reasons = [
+  "No frozen evidence release or admitted scientific claim exists",
+  "Dataset identity, license, and redistribution permission remain unresolved",
+  "Code ownership review is required before granting a reuse license",
+]
+
+required_release_builder = "per-project allowlist-only immutable builder"
+
+[source_repository]
+visibility = "public"
+scope = "tracked source code, documentation, manifests, and structural tests"
+code_license = "NONE"
+dataset_redistribution = "BLOCKED"
+scientific_evidence_release = "UNRELEASED"
+paper_snapshot = "UNRELEASED"
+
+[local_version_control]
+review_package_authorization = "User requested committing the current repository and author-review manuscript package on 2026-10-16"
+review_package_paths = ["paper/working/article/", "paper/working/Article_Editable_Source.zip", "figures/generated/article/Fig[1-8].png"]
+review_package_status = "AUTHOR_REVIEW_DRAFT_NOT_ADMITTED"
+scientific_release_exclusions_unchanged = true
+remote_publication_authorized = true
+remote_publication_scope = "Explicit 2026-10-17 user authorization for complete source project, full wiki and distributed aggregate reports; venue-specific authoring labels generalized; raw corpora/checkpoints excluded"

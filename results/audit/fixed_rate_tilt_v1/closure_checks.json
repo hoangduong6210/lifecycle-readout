@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "final_tests": {
+    "passed": 38,
+    "skipped": 1,
+    "exit_code": 0,
+    "seconds": 7.09
+  },
+  "new_constructor_tests": {
+    "passed": 7,
+    "exit_code": 0,
+    "seconds": 1.01
+  },
+  "initial_boundary_test": {
+    "failed": 1,
+    "exit_code": 1,
+    "preserved": "initial_boundary_gradient_failure.txt"
+  },
+  "skip": "Optional unrelated local corpus absent",
+  "generic_pairwise_counterexample": {
+    "diagonal": "1",
+    "off_diagonal": "-3/4",
+    "binary_margin": "1/2",
+    "uniform_quadratic": "-1/6"
+  },
+  "prototype_trained": false,
+  "publication_admitted": false,
+  "final_wiki_contracts": {
+    "passed": 3,
+    "exit_code": 0,
+    "seconds": 0.33
+  }
+}

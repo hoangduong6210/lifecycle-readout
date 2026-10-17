@@ -1,0 +1,39 @@
+{
+  "status": "FIXED_BEFORE_REAL_RATE_REPAIR_OUTCOMES",
+  "parent_outcomes_already_known": true,
+  "source_input_hashes": {
+    "protocols/rate_repair_validation_v1.toml": "a907f66a196c0d8663544312e458ce993343de6a65520e63c86410faaf48fd29",
+    "protocols/inverse_tilt_projection_v1.toml": "e06985ed4bb0edccdd2a6252d206aaf00eda5b33f5fcd44c8c74210770b7770d",
+    "src/lifecycle_readout/modeling/inverse_tilt_projection.py": "a8ce02caa8134a5804b6539a79ad99b0243049d21744b460274b86af76b10241",
+    "tests/test_inverse_tilt_projection.py": "71a0689299bf941b9348c882fb091732fb2b8821abd4770137935c68ab24eec6",
+    "results/audit/lcr-wikipedia-52a921378f/artifacts/results.json": "03fdf584985cd8f620a020dc07ae9a5b15869c40ac5e3056d2f0ab51fa84e076",
+    "results/audit/readout_repair_execution_v1/wikipedia_independent_audit.json": "7619ef154a21b50853b885a441637a88c5c910350616a1f549a254c24803e445",
+    "results/audit/lcr-wikipedia-52a921378f/artifacts/seed1.npz": "38dfbe08a73d37fab464d0c414273c159fc178ee88194de150d115432b06e15b",
+    "results/audit/readout_repair_inputs_v1/wikipedia/seed1_anchors.npz": "8944b52ce49c1c572fe13d1b1bec7b74901a4f4a4088fa33ec785be06516b526",
+    "results/audit/lcr-wikipedia-256094e9e7/artifacts/seed1/ordered_gate_seed1.pt": "55ff4d6f55c6fe8b146985ae6f51013744974eb100090cabb8f4497b692c465c",
+    "results/audit/lcr-wikipedia-52a921378f/artifacts/seed7.npz": "4456ee4ea3b4ebff828fb129295155f5cc9f34c3cc936f43556952acd2823c49",
+    "results/audit/readout_repair_inputs_v1/wikipedia/seed7_anchors.npz": "21ab16091c1b2a82b4303eccf5e849b920cedaf97a095a0ec047378ba4fa2051",
+    "results/audit/lcr-wikipedia-256094e9e7/artifacts/seed7/ordered_gate_seed7.pt": "f7c8ecc77146c75c3cd83db4d8ea66316ef3b372fbb889a5c5297115498801bd",
+    "results/audit/lcr-wikipedia-52a921378f/artifacts/seed42.npz": "f4495e15515bc18d2a8efebd9a9e74298f7394cc351491be9de72353aa859371",
+    "results/audit/readout_repair_inputs_v1/wikipedia/seed42_anchors.npz": "892f34f6aa417427b0a59e9140cf073566e9b27766e2de70faeb919f5c896ad7",
+    "results/audit/lcr-wikipedia-256094e9e7/artifacts/seed42/ordered_gate_seed42.pt": "b576cc4ff823b9a1511c278f6dd352f35de9529fdcc14f3dedbf6f1b7eb9b9d5",
+    "results/audit/lcr-reddit-22c09d48fe/artifacts/results.json": "b084fd54cd62a261dde15a450d20e0a1911ae4db065112725502f11f174da376",
+    "results/audit/readout_repair_execution_v1/reddit_independent_audit.json": "1fc4daff9f0553cc9b6e05ce47e132fc6ac7f80c9019f97129598a0b9f2a9043",
+    "results/audit/lcr-reddit-22c09d48fe/artifacts/seed1.npz": "3af7aabde247d8a199434e17fc05adcab7c47b9e7e2312347e5c91ce5d02a616",
+    "results/audit/readout_repair_inputs_v1/reddit/seed1_anchors.npz": "374786c507c64b020c745c0153d93714ba73cacce6acf5b0410f79d2a1539ce9",
+    "results/audit/lcr-reddit-bf7053e7a2/artifacts/seed1/ordered_gate_seed1.pt": "3483b4dc32939a7c6c06128dd439f395d6026ac0660427802d44ea997baf4a0c",
+    "results/audit/lcr-reddit-22c09d48fe/artifacts/seed7.npz": "3c7e1205f00d97331fd2d1fa263f60f07f417afcb15d806fd3a860a924894342",
+    "results/audit/readout_repair_inputs_v1/reddit/seed7_anchors.npz": "18bac38e045e369e7ce010dcf7bd9b3312f51a6e73c63f3e73820f474bdde0b0",
+    "results/audit/lcr-reddit-bf7053e7a2/artifacts/seed7/ordered_gate_seed7.pt": "0075a04f8208050aa338436710aca51599e75214d46d998a247354b2963fdbaf",
+    "results/audit/lcr-reddit-22c09d48fe/artifacts/seed42.npz": "92dd884c436a6bd0c72dd78e72ed20f154b21a557243232c84ab2022cd9095cd",
+    "results/audit/readout_repair_inputs_v1/reddit/seed42_anchors.npz": "aa245841dcf315539045ca04396b786fa5ff9fbd2dba0e8b3c7cd14fe9d039c6",
+    "results/audit/lcr-reddit-bf7053e7a2/artifacts/seed42/ordered_gate_seed42.pt": "24a6680901aeea5738fdd291ba89d80f5782db347d6f4cc60300ee6153aa9c1b"
+  },
+  "geometry_tests": {
+    "passed": 5,
+    "exit_code": 0,
+    "seconds": 1.01
+  },
+  "model_fit": false,
+  "new_remote_allocation": false
+}

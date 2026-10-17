@@ -1,6 +1,7 @@
 protocol_id = "LCR-P-COMPETE-HISTORY-001"
 status = "prospective-exploratory-input-audit"
 date = "2026-10-16"
+authorization = "User-selected competition direction; verify new exact-state history inputs before any new model fit."
 relationship = "Separate from completed residual pilot and exact operator checks; no existing endpoint or outcome altered."
 datasets = ["wikipedia"]
 seeds = [101, 202, 303]

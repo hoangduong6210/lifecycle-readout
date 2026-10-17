@@ -1,0 +1,10 @@
+{
+  "repository_test_exit": 0,
+  "repository_command": "python3 -m pytest -q tests/test_repository_contract.py",
+  "preceding_combined_check": "tests/test_cadence_summary.py + tests/test_cadence_checkpoint_replay.py + tests/test_hard_checkpoint_replay.py + tests/test_repository_contract.py: 21 passed, 1 optional-corpus skip",
+  "indexed_artifacts_checked_before_verification_record": 509,
+  "all_six_normalized_jobs_verified": true,
+  "all_launch_guard_files_unchanged": true,
+  "all_four_tables_reconstructed_exactly": true,
+  "release_pointers_unchanged": true
+}

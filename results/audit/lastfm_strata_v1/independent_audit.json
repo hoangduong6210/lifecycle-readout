@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "records": [
+    {
+      "seed": 101,
+      "cohort_masks": 16,
+      "arm_cohort_metrics": 96,
+      "status": "PASS"
+    },
+    {
+      "seed": 202,
+      "cohort_masks": 16,
+      "arm_cohort_metrics": 96,
+      "status": "PASS"
+    },
+    {
+      "seed": 303,
+      "cohort_masks": 16,
+      "arm_cohort_metrics": 96,
+      "status": "PASS"
+    },
+    {
+      "seed": 101,
+      "readout_candidate_scores": 81200,
+      "component_terms": 324800,
+      "status": "PASS"
+    },
+    {
+      "seed": 202,
+      "readout_candidate_scores": 81200,
+      "component_terms": 324800,
+      "status": "PASS"
+    },
+    {
+      "seed": 303,
+      "readout_candidate_scores": 81200,
+      "component_terms": 324800,
+      "status": "PASS"
+    }
+  ],
+  "scope": "Independent threshold partitions, rank-based AP/AUC and paired accuracy; checkpoint-derived component formula and complete stored decomposition consistency. Parent complete native inference audit retained; no optimizer or new raw-history replay.",
+  "model_fit": false,
+  "test_scored": false
+}

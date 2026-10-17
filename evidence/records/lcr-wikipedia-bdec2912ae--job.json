@@ -1,0 +1,81 @@
+{
+  "schema_version": 2,
+  "session_name": "lcr-wikipedia-bdec2912ae",
+  "dataset": "wikipedia",
+  "smoke": false,
+  "requested_seeds": [
+    101,
+    202,
+    303
+  ],
+  "accelerator": "L4",
+  "source_bundle_sha256": "1d96587e3c9c7c0d370a12f2e2879cbc834816f7df992c56819c5e8c7f3690f4",
+  "config_sha256": "0be91014a3f0f53bbe33347813c6984abec91e99c7886d49b1147afcbc9755dc",
+  "protocol_sha256": "32e53bd1e812f18ba3a575814a3e1c1ddc6b20697fe1eff1d345c2ee9bb2fbcd",
+  "status": "failed",
+  "cleanup_verified": true,
+  "commands": [
+    {
+      "argv": [
+        "<LOCAL_PATH>",
+        "new",
+        "-s",
+        "lcr-wikipedia-bdec2912ae",
+        "--gpu",
+        "L4"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "<LOCAL_PATH>",
+        "upload",
+        "-s",
+        "lcr-wikipedia-bdec2912ae",
+        "<LOCAL_PATH> cu\u0309a to\u0302i/DYU/Topic Research/Projects/lifecycle-readout/results/audit/lcr-wikipedia-bdec2912ae/source.zip",
+        "/content/lifecycle-source.zip"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "<LOCAL_PATH>",
+        "exec",
+        "-s",
+        "lcr-wikipedia-bdec2912ae",
+        "--timeout",
+        "10800",
+        "-f",
+        "<LOCAL_PATH> cu\u0309a to\u0302i/DYU/Topic Research/Projects/lifecycle-readout/results/audit/lcr-wikipedia-bdec2912ae/remote_job.py"
+      ],
+      "exit_code": -15
+    },
+    {
+      "argv": [
+        "<LOCAL_PATH>",
+        "download",
+        "-s",
+        "lcr-wikipedia-bdec2912ae",
+        "/content/lifecycle-artifacts.tar.gz",
+        "<LOCAL_PATH> cu\u0309a to\u0302i/DYU/Topic Research/Projects/lifecycle-readout/results/audit/lcr-wikipedia-bdec2912ae/artifacts.tar.gz"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "<LOCAL_PATH>",
+        "stop",
+        "-s",
+        "lcr-wikipedia-bdec2912ae"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "baseline_assignments": [],
+  "endpoint": "gpu-l4-s-kkb-usw4c0-2mov6us4z1gxw",
+  "execution_exit_code": -15,
+  "archive_sha256": "f66cac5e9949aa79c5e403697113fc682efcb0b7f809a2a6924cc9558e8a2861",
+  "artifact_checksums_verified": true,
+  "remote_outcome_verified": true,
+  "ended_unix": 1792070545.620012
+}

@@ -1,12 +1,19 @@
-# Scientific article
+# Article and historical exports
 
-**Monotonicity of Temporal Graph Readouts: Exact Certificates and Predictive Limits**
+The current working article is **Monotonicity of Temporal Graph Readouts: Exact
+Certificates and Predictive Limits**. Its canonical mathematical and empirical
+narrative is maintained in the complete wiki.
 
-- [Compiled article](working/sncs/main.pdf)
-- [Editable source archive](working/SNCS_Editable_Source.zip)
-- [LaTeX source](working/sncs/main.tex)
-- [Build instructions](working/sncs/README.txt)
-- [Aggregate-data guide](working/sncs/Supplementary_Data_Guide.txt)
-- [Figure map](../wiki/Figures.md)
+- [Current article PDF](working/article/main.pdf)
+- [Editable LaTeX](working/article/main.tex) and [source archive](working/Article_Editable_Source.zip)
+- [Canonical article body](../wiki/manuscript/Article-Body.tex)
+- [Assembly and verification](../wiki/manuscript/Article-Assembly.md)
+- [Figure-to-file map](../wiki/Figures.md)
+- [Aggregate-data guide](working/article/Supplementary_Data_Guide.txt)
 
-This working article includes the exact restricted-domain proof, matched controls, negative outcomes and the failed February confirmation screen. It has not been accepted or designated a frozen evidence release. Source interaction records and trained checkpoints are not included.
+Historical exports are **QUARANTINED LEGACY WORKING** material. Working drafts are also excluded from scientific claim
+admission. The older [snapshot PDF](snapshots/Life_Cycle_readout.pdf) and
+[editable historical draft](working/legacy/Lifecycle_Manuscript.docx) remain for
+provenance; they do not override current results or their negative outcomes.
+`CURRENT` remains `UNRELEASED`; none of these files is an accepted or locked
+submission snapshot. The publisher formatting assets retain their original terms.

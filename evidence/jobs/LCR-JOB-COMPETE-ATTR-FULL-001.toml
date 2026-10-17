@@ -1,0 +1,23 @@
+schema_version = 1
+job_id = "LCR-JOB-COMPETE-ATTR-FULL-001"
+execution_kind = "local-posthoc-input-anatomy"
+date = "2026-10-16"
+source_state = "DIRTY_WORKTREE_EXACT_SOURCE_HASHES_NOT_A_FROZEN_RELEASE"
+command = "OPENBLAS_NUM_THREADS=1 python3 scripts/audit_competition_exact_overlap.py --output results/audit/competition_attribution_full_execution_v1"
+exit_code = 0
+result_pointer = "results/audit/competition_attribution_full_execution_v1/results.json"
+result_sha256 = "6289dc84b74cca78e3cdfd599e53cfe7287ea95fa19cfae25cb56251baf4b2c3"
+source_pointer = "src/lifecycle_readout/competition_exact_overlap.py"
+source_sha256 = "f38059219539f9922576ea0c63ba99b5403daadc4359f52bba8d6ea6ed0b7855"
+test_pointer = "tests/test_competition_exact_overlap.py"
+test_sha256 = "23a952c9553524d99b47facd2c7c34f7a92cae7a0795ae3a088726a0ba0ca2d3"
+protocol_pointer = "protocols/competition_attribution_full_validation_v1.toml"
+protocol_sha256 = "255c0a262c659a7e68376b6de7b11c26aafb7344563a2657e502d0e3c94589a0"
+model_fit = false
+gpu_allocated = false
+predictor_scored = false
+test_scored = false
+publication_eligible = false
+supported_evidence_ids = ["LCR-E-COMPETE-ATTR-FULL-001"]
+supported_scientific_claim_ids = []
+limitations = "Posthoc input anatomy only; independent exact-ID raw-history checks cover declared real anchors, with all synthetic validation slots replayed. Not causal AP decomposition, semantic labels or novelty clearance."

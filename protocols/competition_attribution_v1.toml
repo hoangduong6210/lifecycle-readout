@@ -1,6 +1,7 @@
 protocol_id = "LCR-P-COMPETE-ATTR-001"
 status = "posthoc-input-anatomy-fixed-before-attribution-outcomes"
 date = "2026-10-16"
+authorization = "Active contribution-strengthening goal and user-selected cross-edge competition; diagnose signal in completed pilot without retuning or fitting."
 relationship = "Posthoc after exact-state comparison; does not change any prior primary, candidate, feature, kernel or checkpoint."
 datasets = ["wikipedia"]
 seeds = [101, 202, 303]

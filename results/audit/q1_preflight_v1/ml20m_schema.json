@@ -1,0 +1,70 @@
+{
+  "csv_columns": [
+    "src",
+    "dst",
+    "time",
+    "split"
+  ],
+  "total_events": 14494325,
+  "official_split_counts": {
+    "0": 14000091,
+    "1": 364943,
+    "2": 129291
+  },
+  "official_split_time_ranges": {
+    "0": {
+      "min_time": 789652004.0,
+      "max_time": 1197076829.0
+    },
+    "1": {
+      "min_time": 1197076838.0,
+      "max_time": 1291672484.0
+    },
+    "2": {
+      "min_time": 1291678936.0,
+      "max_time": 1427784002.0
+    }
+  },
+  "timestamps_nondecreasing": true,
+  "splits_nondecreasing": true,
+  "source_id_range": [
+    9647,
+    110431
+  ],
+  "destination_id_range": [
+    1,
+    9646
+  ],
+  "development_pair_recurrence": {
+    "0": {
+      "events": 14000091,
+      "strictly_past_pair_events": 0,
+      "no_strictly_past_pair_events": 14000091
+    },
+    "1": {
+      "events": 364943,
+      "strictly_past_pair_events": 0,
+      "no_strictly_past_pair_events": 364943
+    }
+  },
+  "development_unique_pairs": 14365034,
+  "test_recurrence_computed": false,
+  "test_model_scored": false,
+  "prepared_scope": "supplied train and validation rows only; original zero-based event IDs preserved",
+  "dataset_id": "LCR-D-TGBSEQ-ML20M-001",
+  "source_manifest_sha256": "28bb7e465b6abafe9348df217fa260726cfaff158502a011e159c517ab75926a",
+  "negative_header": {
+    "shape": [
+      129291,
+      100
+    ],
+    "dtype": "int64",
+    "fortran_order": false,
+    "header_bytes": 128,
+    "array_values_loaded": false
+  },
+  "prepared_sha256": "87babea3ce4508c9ed0f141dee285c083b213572573ab47cfaa13b739e9826b5",
+  "prepared_path": "resources/corpora/tgbseq/ML-20M_development_v1_retry.npz",
+  "all_structural_checks_pass": true,
+  "scientific_admission": false
+}

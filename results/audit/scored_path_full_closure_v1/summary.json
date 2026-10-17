@@ -1,0 +1,346 @@
+{
+  "status": "COMPLETE_FULL_SUPPORTED_VALIDATION_DIAGNOSTIC",
+  "model_fit": false,
+  "test_scored": false,
+  "publication_eligible": false,
+  "datasets": {
+    "wikipedia": {
+      "attempt": "results/audit/lcr-wikipedia-b45c43f103",
+      "per_seed": [
+        {
+          "seed": 1,
+          "query_count": 884,
+          "candidate_trajectories": 1768,
+          "checkpoint_sha256": "55ff4d6f55c6fe8b146985ae6f51013744974eb100090cabb8f4497b692c465c",
+          "candidate_identity_sha256": "5c68df561ecb117dff39b481a16907f583da823256b562ef878f6e2e008243ef",
+          "path_results": [
+            {
+              "path": "ideal_flow",
+              "candidate_trajectories": 1768,
+              "violation_count": 0,
+              "violation_fraction": 0.0,
+              "clipped_violation_count": 0,
+              "positive_derivative_trajectories": 0,
+              "native_double_flag_disagreements": 0,
+              "maximum_adjacent_increase": 0.0
+            },
+            {
+              "path": "implemented_flow",
+              "candidate_trajectories": 1768,
+              "violation_count": 0,
+              "violation_fraction": 0.0,
+              "clipped_violation_count": 0,
+              "positive_derivative_trajectories": 0,
+              "native_double_flag_disagreements": 0,
+              "maximum_adjacent_increase": 0.0
+            },
+            {
+              "path": "fixed_transition",
+              "candidate_trajectories": 1768,
+              "violation_count": 0,
+              "violation_fraction": 0.0,
+              "clipped_violation_count": 0,
+              "positive_derivative_trajectories": 0,
+              "native_double_flag_disagreements": 0,
+              "maximum_adjacent_increase": 0.0
+            },
+            {
+              "path": "dynamic_transition",
+              "candidate_trajectories": 1768,
+              "violation_count": 0,
+              "violation_fraction": 0.0,
+              "clipped_violation_count": 0,
+              "positive_derivative_trajectories": 0,
+              "native_double_flag_disagreements": 0,
+              "maximum_adjacent_increase": 4.470348358154297e-08
+            }
+          ],
+          "anchor_max_error": 0.0,
+          "native_double_max_error": 1.5557496602092158e-07,
+          "certificate_max_error": 3.469446951953614e-17,
+          "nonsmooth_boundary_exclusions": 0
+        },
+        {
+          "seed": 7,
+          "query_count": 884,
+          "candidate_trajectories": 1768,
+          "checkpoint_sha256": "f7c8ecc77146c75c3cd83db4d8ea66316ef3b372fbb889a5c5297115498801bd",
+          "candidate_identity_sha256": "4d1750790f06541afe4045f826fb1f3dc1868ba388b83c6fd578973b2d648caa",
+          "path_results": [
+            {
+              "path": "ideal_flow",
+              "candidate_trajectories": 1768,
+              "violation_count": 0,
+              "violation_fraction": 0.0,
+              "clipped_violation_count": 0,
+              "positive_derivative_trajectories": 0,
+              "native_double_flag_disagreements": 0,
+              "maximum_adjacent_increase": 0.0
+            },
+            {
+              "path": "implemented_flow",
+              "candidate_trajectories": 1768,
+              "violation_count": 0,
+              "violation_fraction": 0.0,
+              "clipped_violation_count": 0,
+              "positive_derivative_trajectories": 0,
+              "native_double_flag_disagreements": 0,
+              "maximum_adjacent_increase": 0.0
+            },
+            {
+              "path": "fixed_transition",
+              "candidate_trajectories": 1768,
+              "violation_count": 0,
+              "violation_fraction": 0.0,
+              "clipped_violation_count": 0,
+              "positive_derivative_trajectories": 0,
+              "native_double_flag_disagreements": 0,
+              "maximum_adjacent_increase": 0.0
+            },
+            {
+              "path": "dynamic_transition",
+              "candidate_trajectories": 1768,
+              "violation_count": 0,
+              "violation_fraction": 0.0,
+              "clipped_violation_count": 0,
+              "positive_derivative_trajectories": 0,
+              "native_double_flag_disagreements": 0,
+              "maximum_adjacent_increase": 6.705522537231445e-08
+            }
+          ],
+          "anchor_max_error": 0.0,
+          "native_double_max_error": 1.5004299713794467e-07,
+          "certificate_max_error": 3.469446951953614e-17,
+          "nonsmooth_boundary_exclusions": 0
+        },
+        {
+          "seed": 42,
+          "query_count": 884,
+          "candidate_trajectories": 1768,
+          "checkpoint_sha256": "b576cc4ff823b9a1511c278f6dd352f35de9529fdcc14f3dedbf6f1b7eb9b9d5",
+          "candidate_identity_sha256": "94db1307f6c80eb5b9c2f943bd00e3d5f98d6f1f90650eb9723f30f3a442dad9",
+          "path_results": [
+            {
+              "path": "ideal_flow",
+              "candidate_trajectories": 1768,
+              "violation_count": 0,
+              "violation_fraction": 0.0,
+              "clipped_violation_count": 0,
+              "positive_derivative_trajectories": 0,
+              "native_double_flag_disagreements": 0,
+              "maximum_adjacent_increase": 0.0
+            },
+            {
+              "path": "implemented_flow",
+              "candidate_trajectories": 1768,
+              "violation_count": 0,
+              "violation_fraction": 0.0,
+              "clipped_violation_count": 0,
+              "positive_derivative_trajectories": 0,
+              "native_double_flag_disagreements": 0,
+              "maximum_adjacent_increase": 0.0
+            },
+            {
+              "path": "fixed_transition",
+              "candidate_trajectories": 1768,
+              "violation_count": 0,
+              "violation_fraction": 0.0,
+              "clipped_violation_count": 0,
+              "positive_derivative_trajectories": 0,
+              "native_double_flag_disagreements": 0,
+              "maximum_adjacent_increase": 0.0
+            },
+            {
+              "path": "dynamic_transition",
+              "candidate_trajectories": 1768,
+              "violation_count": 0,
+              "violation_fraction": 0.0,
+              "clipped_violation_count": 0,
+              "positive_derivative_trajectories": 0,
+              "native_double_flag_disagreements": 0,
+              "maximum_adjacent_increase": 5.21540641784668e-08
+            }
+          ],
+          "anchor_max_error": 0.0,
+          "native_double_max_error": 1.512618921228892e-07,
+          "certificate_max_error": 3.469446951953614e-17,
+          "nonsmooth_boundary_exclusions": 0
+        }
+      ],
+      "audit_sha256": "8c4c83ee7d9da84769de4ae9a1f4811ee2e6ada866b0f22d40b2be8e92d99334"
+    },
+    "reddit": {
+      "attempt": "results/audit/lcr-reddit-5b1e973c68",
+      "per_seed": [
+        {
+          "seed": 1,
+          "query_count": 10139,
+          "candidate_trajectories": 20278,
+          "checkpoint_sha256": "3483b4dc32939a7c6c06128dd439f395d6026ac0660427802d44ea997baf4a0c",
+          "candidate_identity_sha256": "29f9540c2a126d6a4319d6ba9df1f79839b8ae2bec304a2b98634360b7319552",
+          "path_results": [
+            {
+              "path": "ideal_flow",
+              "candidate_trajectories": 20278,
+              "violation_count": 0,
+              "violation_fraction": 0.0,
+              "clipped_violation_count": 0,
+              "positive_derivative_trajectories": 0,
+              "native_double_flag_disagreements": 0,
+              "maximum_adjacent_increase": 0.0
+            },
+            {
+              "path": "implemented_flow",
+              "candidate_trajectories": 20278,
+              "violation_count": 0,
+              "violation_fraction": 0.0,
+              "clipped_violation_count": 0,
+              "positive_derivative_trajectories": 0,
+              "native_double_flag_disagreements": 0,
+              "maximum_adjacent_increase": 0.0
+            },
+            {
+              "path": "fixed_transition",
+              "candidate_trajectories": 20278,
+              "violation_count": 18037,
+              "violation_fraction": 0.8894861426176152,
+              "clipped_violation_count": 18037,
+              "positive_derivative_trajectories": 18099,
+              "native_double_flag_disagreements": 0,
+              "maximum_adjacent_increase": 0.30861401557922363
+            },
+            {
+              "path": "dynamic_transition",
+              "candidate_trajectories": 20278,
+              "violation_count": 20075,
+              "violation_fraction": 0.9899891508038268,
+              "clipped_violation_count": 20075,
+              "positive_derivative_trajectories": 20108,
+              "native_double_flag_disagreements": 0,
+              "maximum_adjacent_increase": 0.32588401436805725
+            }
+          ],
+          "anchor_max_error": 0.0,
+          "native_double_max_error": 5.876402670579317e-07,
+          "certificate_max_error": 2.220446049250313e-16,
+          "nonsmooth_boundary_exclusions": 0
+        },
+        {
+          "seed": 7,
+          "query_count": 10139,
+          "candidate_trajectories": 20278,
+          "checkpoint_sha256": "0075a04f8208050aa338436710aca51599e75214d46d998a247354b2963fdbaf",
+          "candidate_identity_sha256": "714624ca4553b0ae2869d8a6fa3c34ee253a0df64cc63c90c922420ac0e0d4a2",
+          "path_results": [
+            {
+              "path": "ideal_flow",
+              "candidate_trajectories": 20278,
+              "violation_count": 0,
+              "violation_fraction": 0.0,
+              "clipped_violation_count": 0,
+              "positive_derivative_trajectories": 0,
+              "native_double_flag_disagreements": 0,
+              "maximum_adjacent_increase": 0.0
+            },
+            {
+              "path": "implemented_flow",
+              "candidate_trajectories": 20278,
+              "violation_count": 0,
+              "violation_fraction": 0.0,
+              "clipped_violation_count": 0,
+              "positive_derivative_trajectories": 0,
+              "native_double_flag_disagreements": 0,
+              "maximum_adjacent_increase": 0.0
+            },
+            {
+              "path": "fixed_transition",
+              "candidate_trajectories": 20278,
+              "violation_count": 14102,
+              "violation_fraction": 0.6954334747016471,
+              "clipped_violation_count": 14102,
+              "positive_derivative_trajectories": 16716,
+              "native_double_flag_disagreements": 1,
+              "maximum_adjacent_increase": 0.2798696756362915
+            },
+            {
+              "path": "dynamic_transition",
+              "candidate_trajectories": 20278,
+              "violation_count": 20270,
+              "violation_fraction": 0.9996054837755203,
+              "clipped_violation_count": 20270,
+              "positive_derivative_trajectories": 20278,
+              "native_double_flag_disagreements": 0,
+              "maximum_adjacent_increase": 0.318963885307312
+            }
+          ],
+          "anchor_max_error": 0.0,
+          "native_double_max_error": 5.070911170967918e-07,
+          "certificate_max_error": 3.885780586188048e-16,
+          "nonsmooth_boundary_exclusions": 0
+        },
+        {
+          "seed": 42,
+          "query_count": 10139,
+          "candidate_trajectories": 20278,
+          "checkpoint_sha256": "24a6680901aeea5738fdd291ba89d80f5782db347d6f4cc60300ee6153aa9c1b",
+          "candidate_identity_sha256": "ec3828461109380a53625cd091bafcad6a2ac701260e695d40bcb0a8593b109f",
+          "path_results": [
+            {
+              "path": "ideal_flow",
+              "candidate_trajectories": 20278,
+              "violation_count": 0,
+              "violation_fraction": 0.0,
+              "clipped_violation_count": 0,
+              "positive_derivative_trajectories": 0,
+              "native_double_flag_disagreements": 0,
+              "maximum_adjacent_increase": 2.2351741790771484e-08
+            },
+            {
+              "path": "implemented_flow",
+              "candidate_trajectories": 20278,
+              "violation_count": 0,
+              "violation_fraction": 0.0,
+              "clipped_violation_count": 0,
+              "positive_derivative_trajectories": 0,
+              "native_double_flag_disagreements": 0,
+              "maximum_adjacent_increase": 2.9802322387695312e-08
+            },
+            {
+              "path": "fixed_transition",
+              "candidate_trajectories": 20278,
+              "violation_count": 15042,
+              "violation_fraction": 0.7417891310780156,
+              "clipped_violation_count": 15042,
+              "positive_derivative_trajectories": 15753,
+              "native_double_flag_disagreements": 0,
+              "maximum_adjacent_increase": 0.4481891989707947
+            },
+            {
+              "path": "dynamic_transition",
+              "candidate_trajectories": 20278,
+              "violation_count": 20278,
+              "violation_fraction": 1.0,
+              "clipped_violation_count": 20278,
+              "positive_derivative_trajectories": 20278,
+              "native_double_flag_disagreements": 0,
+              "maximum_adjacent_increase": 0.3921835422515869
+            }
+          ],
+          "anchor_max_error": 0.0,
+          "native_double_max_error": 6.410917536281424e-07,
+          "certificate_max_error": 4.440892098500626e-16,
+          "nonsmooth_boundary_exclusions": 0
+        }
+      ],
+      "audit_sha256": "02880600d54313df42be7f59931d3bda32db9f71662289794738005b07d4fc36"
+    }
+  },
+  "resource_observation": {
+    "backend_assignment_count": 0,
+    "usage": [
+      "Current balance: 173.27 compute units",
+      "Usage rate: 0.00/hr"
+    ],
+    "usage_exit_code": 0
+  }
+}

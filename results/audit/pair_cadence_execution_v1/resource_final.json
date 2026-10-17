@@ -1,0 +1,11 @@
+{
+  "sessions": [],
+  "assignments": [],
+  "observed_at_utc": "2026-10-15T21:42:03.263892+00:00",
+  "owned_endpoint_absent": true,
+  "usage_lines": [
+    "Current balance: 173.34 compute units",
+    "Usage rate: 0.00/hr",
+    "Active assignments: 0"
+  ]
+}

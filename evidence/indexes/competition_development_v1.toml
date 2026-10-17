@@ -1,0 +1,420 @@
+schema_version = 1
+evidence_id = "LCR-E-COMPETE-DEV-001"
+local_only = true
+publication_eligible = false
+
+[[artifact]]
+path = "configs/competition_development_v1.toml"
+sha256 = "ad4c137640a5d4b1276dcfb3b29c8155262a33427c309f1bb4261347204db200"
+
+[[artifact]]
+path = "evidence/jobs/LCR-JOB-COMPETE-DEV-001.toml"
+sha256 = "b86442cdcfa91ca8d7ec1025b019ec31eb5b698860e1c0e599ae4c4d8cb07bfb"
+
+[[artifact]]
+path = "protocols/competition_development_v1.toml"
+sha256 = "45fa1167ed30bd8b96652ca188a68d4275242bd1489acb32605546440a453492"
+
+[[artifact]]
+path = "results/audit/competition_closure_v1/Competing-Destination-Development.md"
+sha256 = "931d18d78bab4aa90c641d1beecf76618100da4b6506dcd1e21b6e8d97c191a5"
+
+[[artifact]]
+path = "results/audit/competition_closure_v1/Competing-Destination-Pilot.md"
+sha256 = "f9a21438c09d0f39fa7b2f17bc0753c708465529ae16ebe2ed67f52d7cf856e2"
+
+[[artifact]]
+path = "results/audit/competition_closure_v1/Contribution-Gap-Review.md"
+sha256 = "70d00c6743f24cc3b68d6158261669443d0a56335970b131d2c37834e952ad0e"
+
+[[artifact]]
+path = "results/audit/competition_closure_v1/Evidence-Ledger.md"
+sha256 = "ce443c34795d0b9c081d6a4ea5f7a8b3fc934d0ac0e49e823096b702f14eec2a"
+
+[[artifact]]
+path = "results/audit/competition_closure_v1/INDEX.md"
+sha256 = "2bf54e2e273b166c9a799830d13fde3782ac1d7e86e8a79b4bb0976f10f45741"
+
+[[artifact]]
+path = "results/audit/competition_closure_v1/Project-Status.md"
+sha256 = "03808e5872e52d52347f687c266965b7e426838d9880cc0fadf8bb3128c02731"
+
+[[artifact]]
+path = "results/audit/competition_closure_v1/START-HERE.md"
+sha256 = "f0333bf9a2f567776ef098c3ebf6eebd329bcebe4d2122d79ae6d14108dd8830"
+
+[[artifact]]
+path = "results/audit/competition_closure_v1/audit_competition.py"
+sha256 = "f3466d28ab1b506e3bbb84200bf187a6d4093ae7f0c4ddbb8a14cd405f39e250"
+
+[[artifact]]
+path = "results/audit/competition_closure_v1/checksums.sha256"
+sha256 = "81f0cf7feed3e6f8a80d00849367d3091316955998b993af64e5de9fd734d1db"
+
+[[artifact]]
+path = "results/audit/competition_closure_v1/close_competition_pilot.py"
+sha256 = "1b4bd2cb80f85d33d3e717d69bc4b1e0da530173f7d8a837160d8502574e0abd"
+
+[[artifact]]
+path = "results/audit/competition_closure_v1/closure_failure_initial.json"
+sha256 = "f260cb16d6e0257e4930affda1c6e99c2eeaebb0eb75418b1c42cdaac6680f9f"
+
+[[artifact]]
+path = "results/audit/competition_closure_v1/contrasts.md"
+sha256 = "9b1a98afdab1cc8016527a4dc7c5e9f87c0a9a59cbbbca652c0a484d099c86dd"
+
+[[artifact]]
+path = "results/audit/competition_closure_v1/metrics.md"
+sha256 = "c144f697accfe3aea4d5773f9ecc26720e29f98388bc0012755728e62bf90966"
+
+[[artifact]]
+path = "results/audit/competition_closure_v1/postclosure_verification.json"
+sha256 = "0f8805cdb7d7cc28c87a8228413744c368073f0ee9a6656e58cddf815bb5ce24"
+
+[[artifact]]
+path = "results/audit/competition_closure_v1/summary.json"
+sha256 = "ccc1f84bd805a66803a5f60b905a3ee1f4dd5c6146dbce72afb1832b19e150e7"
+
+[[artifact]]
+path = "results/audit/competition_execution_v1/independent_audit.json"
+sha256 = "7987d1afea0ccb1f72fcacc9bd29784eb9c37dde30b5058eb3ade91986648d72"
+
+[[artifact]]
+path = "results/audit/competition_execution_v1/parent_candidate_comparison.json"
+sha256 = "19dddf00267cdec53b9b038117e334e6f3956f9f1c8c97ae8cbaf52e8b77d314"
+
+[[artifact]]
+path = "results/audit/competition_execution_v1/preallocation.json"
+sha256 = "facebb62f5c281a4f22bf6e91c1cba76e14e36caac2c74d1ffba8015e7c7102b"
+
+[[artifact]]
+path = "results/audit/competition_execution_v1/progress.json"
+sha256 = "807d65b5ad9262e7c11fddaa1ed9f5d99f1ffbf47b3abb3dff3e122052219e2a"
+
+[[artifact]]
+path = "results/audit/competition_execution_v1/resource_after.json"
+sha256 = "771e0bd7d4c80c1c425713cb4651ee4df92bd83cbc01f19bc838ebef6c1f9c0e"
+
+[[artifact]]
+path = "results/audit/competition_execution_v1/run_competition_pilot.py"
+sha256 = "e94fb3b5155848d8d70630c3272d57f90701c7ca3f797b776dc04ae779ea3d7a"
+
+[[artifact]]
+path = "results/audit/competition_literature_v1/review.json"
+sha256 = "6f42d3153fe5edbd8d9a52b69d31d8b469f1cecc544539eed43b822fc1ba5e70"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/checksums.sha256"
+sha256 = "75f6ae38ed7c54c25881f65bcfb2f177894374b0e2f9d5c95518b14de2355914"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/environment.txt"
+sha256 = "3b1e22e429be06096de176772f74128eb46fa98894453011a791e66137f1e7e9"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/partial_results.json"
+sha256 = "226f78aa52a48639f17ff2907373e7035be395e77f6e19e449e615557578762d"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/results.json"
+sha256 = "521c48a3207d9485707fa5559bee9f45c17e97843364c4824a83d48d31c13016"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed101/activity_displacement_seed101.json"
+sha256 = "4d4c41c580e56da8ea60142ea03fa9261a3209edcdb007381cac32e54f7f38ce"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed101/activity_displacement_seed101.pt"
+sha256 = "15b053f379b51b35af14af3ce9eac1a5b9aec2ff5ab0a9c33a6614f0736851f8"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed101/activity_displacement_seed101_predictions.npz"
+sha256 = "7f9d429de6bbbc52e37d46490b71cb7336142d4af07722d28863a94c4c425bbe"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed101/activity_mlp_seed101.json"
+sha256 = "8708d3e9b5b70035ac8c2fbd74a74148b1e92d057ef26c57bd315b27b487827e"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed101/activity_mlp_seed101.pt"
+sha256 = "4dc79f7377616bb69c3ec23e5e05dbd4ccb2caf91985e464a8b963a67e7b9159"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed101/activity_mlp_seed101_predictions.npz"
+sha256 = "5aa0d4c518dfd5bf4b1f048b2b740ef12a0244577e01265e8b327b1471ef38fd"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed101/candidate_identity.npz"
+sha256 = "2bf1ffcfd88e1a07fbb54a820f6d474c66cea5a876db50f21e240a1dd0e60fd0"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed101/competition_features.npz"
+sha256 = "d2b50885c9bffeb07033f71aff18c922b8d1530f2096ee04606e5bd3ad27208b"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed101/feature_anchor_audit.json"
+sha256 = "c8082e468428bf42dbb5032a91fd24bd1a558f2add4f07349819cc0eeb279a39"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed101/masked_mlp_seed101.json"
+sha256 = "2f32db8b756f0d8efad5479f2e9e2acb90025c9702deddb85f327fbc8719874d"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed101/masked_mlp_seed101.pt"
+sha256 = "c37331a148f6a312e693084c384bab804b82b478d1091b09453b7824ad83362d"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed101/masked_mlp_seed101_predictions.npz"
+sha256 = "43e434ab78097590c3f4d2dcb1ab9f3f964a4c2a94b2f6d9b639893bbca29329"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed101/profile_displacement_seed101.json"
+sha256 = "36e5ff43cb781578be6476769da9ecc601566bb63426c603b5099d95aa83926d"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed101/profile_displacement_seed101.pt"
+sha256 = "71ed40c90030c9fd6d5b1184144f3987accac38317d2e9007cc29875468ab18e"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed101/profile_displacement_seed101_predictions.npz"
+sha256 = "0489d280c5ffee40096ddeb81a09633bbce59e334e07e63b9aaa7c2c97fbca58"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed101/profile_mlp_seed101.json"
+sha256 = "aac7b8453819e13e14f988482e02a52bb65984a4b598b1b4019ad01f5e6fffa4"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed101/profile_mlp_seed101.pt"
+sha256 = "5c5453b723720bf2cae4d5b62ebaefa9bc9d318f9ad949732a419d2502419d0b"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed101/profile_mlp_seed101_predictions.npz"
+sha256 = "3e1fe6a85279c1782868a4619a6eaaf0debf71da2bbd2e429469f8828d6e44ee"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed101/shuffled_mlp_seed101.json"
+sha256 = "0977976af80c6c0f4018094fe3bdfd63a2873dfa4db49aaaa8a3eee541eff6cc"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed101/shuffled_mlp_seed101.pt"
+sha256 = "1751bbecd695873876bababf7b4aa6bbeb3b350b16fd1d67de9e0901d010c7fe"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed101/shuffled_mlp_seed101_predictions.npz"
+sha256 = "aa57a8b486b630474dc6359e2b0837877f3bc72b3c6da06abee595ca56046719"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed202/activity_displacement_seed202.json"
+sha256 = "92c1ef446ccf72657ee081fa35e6b36d0dfb33aa799287826d780d4a5feb5f70"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed202/activity_displacement_seed202.pt"
+sha256 = "e9ad410ca7a7a40f5d723700561c6428fc4d14f7c7416987e9a4df1967117f39"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed202/activity_displacement_seed202_predictions.npz"
+sha256 = "72ebd100c13df71b06101ed2a422aecfa783d6392e9cf043aa7fd825e108c6de"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed202/activity_mlp_seed202.json"
+sha256 = "bd1ef012c5c79bca71bf110fca2f667e6e52937ef2024010e8e738fbe2a209d9"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed202/activity_mlp_seed202.pt"
+sha256 = "46b7a28f8b0982ebfb35748f480a96e139feba41eba1880bd3a7469ce2fd7794"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed202/activity_mlp_seed202_predictions.npz"
+sha256 = "0c98cad7734efdbff8048554eec03113b12da149d16f948a300c3f10f61ad615"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed202/candidate_identity.npz"
+sha256 = "6c8be63a3d3a70ae10adc1d67247338ef7801af33d694ff4d9ddf453e9494571"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed202/competition_features.npz"
+sha256 = "725ac7d38d83697f9063855fa0062ee1af2fc149d206f68a8182b49aa1251065"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed202/feature_anchor_audit.json"
+sha256 = "c8082e468428bf42dbb5032a91fd24bd1a558f2add4f07349819cc0eeb279a39"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed202/masked_mlp_seed202.json"
+sha256 = "18d3d46aba81b6fc9f23adf9d06175e05dff2d9aa876fe07fefc172f9ccf8539"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed202/masked_mlp_seed202.pt"
+sha256 = "d30e44a733b7956cf508394648a1cd6ebfb1f455962b0e7f3aa4bd80cbbd0c8b"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed202/masked_mlp_seed202_predictions.npz"
+sha256 = "bd30c506526893e535e6f81e0faf25b7e15d3352ebcd59d4cf2eb504274f0f98"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed202/profile_displacement_seed202.json"
+sha256 = "cab3697326ce571f32a1dcf184feb837c0f6e7de12a5d947f205b7bffce2a016"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed202/profile_displacement_seed202.pt"
+sha256 = "82e967be3f55ea6c29bde81da32a09617966d0b3b2c96667016ed4b490a3f180"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed202/profile_displacement_seed202_predictions.npz"
+sha256 = "9f359a23e4029d1013c8ef33cf0e1284dd69e4247691e124de13a43eff227584"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed202/profile_mlp_seed202.json"
+sha256 = "fd8e8a74197387d0740a8299d49ce05c822005f76161ed3c1f968da290de1bea"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed202/profile_mlp_seed202.pt"
+sha256 = "5d5a3a13ec2291e5c2fbdce1fa3eea20f265de786fe657da40670dfaf51902a0"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed202/profile_mlp_seed202_predictions.npz"
+sha256 = "0bec56d56a0d1581d88c91b1a4098d64328ece48b4654f49aaa504ade55dd93f"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed202/shuffled_mlp_seed202.json"
+sha256 = "fa7883fb94ec4cfdbae86e1a3a9d02e4fec7ff5f4c7a6519e4e876904ca9e53c"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed202/shuffled_mlp_seed202.pt"
+sha256 = "db2a5ed21195aab8009aecec95317cf28d99d4973ca27efd676ae50a191798b9"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed202/shuffled_mlp_seed202_predictions.npz"
+sha256 = "02ff88255b2b6c2680ff16dfa3fd3fe68ede636c00866389e765b45e22fea94d"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed303/activity_displacement_seed303.json"
+sha256 = "84073b33f31d2f0420a026ea28fe2ffe7131a1d68130f060369f5e655105d963"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed303/activity_displacement_seed303.pt"
+sha256 = "64d8788a14902afae9e008ea494232ff77385d8595c09386c901786fb004aba1"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed303/activity_displacement_seed303_predictions.npz"
+sha256 = "b736ad2cd874f5c1e4d0657343e6ee47b19940ac55d457a9a0ef9dadc9cce9bb"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed303/activity_mlp_seed303.json"
+sha256 = "7831ccf62a8fdffd316b2c865875d43c4fb6655b54737b7286a668ee4149ae4b"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed303/activity_mlp_seed303.pt"
+sha256 = "105124cd0281f305db0f89517f4c2731158f57856886ca6e70e9d25df99656ae"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed303/activity_mlp_seed303_predictions.npz"
+sha256 = "77d8af27eaf28f1bf7284687340edd916668d805f2fdc95a52823c6765feb25a"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed303/candidate_identity.npz"
+sha256 = "9b4b1ed95663a8124aeabcfed09ef73785b2021cc733fe6f77da5b5f5770b6d8"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed303/competition_features.npz"
+sha256 = "9f2e2706b1f8fc2223a50e568611e180a1fa52a8ab421acc3695f48aa2a9abc3"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed303/feature_anchor_audit.json"
+sha256 = "7d7c86c88c381a439451f781f9dfd70ef6b2da7bc6f2834997f742df615df286"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed303/masked_mlp_seed303.json"
+sha256 = "f0a7e50af4530cf464cad3d2b24de61e1334c7e304d7612aa65ce533a5fa58b0"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed303/masked_mlp_seed303.pt"
+sha256 = "5ad9e2ca755236b4dd510eca914da41ca4c8b5df3266ea0cbfc028ef5bfe04f9"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed303/masked_mlp_seed303_predictions.npz"
+sha256 = "77fb5772cb83109231614a39ba53f31539b836dc169638560d95247bb90aafc8"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed303/profile_displacement_seed303.json"
+sha256 = "bf026677566eac797e18fc6f42dd23a8d44950d6b8b58652486934a4b7abe360"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed303/profile_displacement_seed303.pt"
+sha256 = "0a40022826dc23cba3422eeaa3c74dcd1abd428f35077a955018c809ee69a8f4"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed303/profile_displacement_seed303_predictions.npz"
+sha256 = "6665246dc622cc680c57af41564a4d4ef7554abfb457c13be537e20d19aff715"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed303/profile_mlp_seed303.json"
+sha256 = "1ebc25cbdb8392a49b79a824099b85e8a68eff3a0fa0e1f17d488c702f2ce2c8"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed303/profile_mlp_seed303.pt"
+sha256 = "a1d6e865ca29ad5ca8f2363e21a84a821e4fe1700f0be7a678a66385476c301f"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed303/profile_mlp_seed303_predictions.npz"
+sha256 = "f44a8d9c7cd7c7fe4bb9dd58d6f3183c8e1eba3cba98362dc8f79e19634c25de"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed303/shuffled_mlp_seed303.json"
+sha256 = "db085e831536e9e05d0ded94e7897374c59641fcbd3148918305db63c1695833"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed303/shuffled_mlp_seed303.pt"
+sha256 = "b699f1a570d8c57ec4fff4464de24b1501c31fcf1423222ebe0ed93e908ce715"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed303/shuffled_mlp_seed303_predictions.npz"
+sha256 = "5fe5ffe8e7696e2015d6d7148f61b941425296980c274661b6018baa68a8f93b"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/source_manifest.json"
+sha256 = "ac9a74b3a32195b622dbea49b14a86db223227a191e7341b3b0cc61a07f14c81"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/training.txt"
+sha256 = "5c8072d65cb5dd26d085949a53a7166416b92f13716fc7e9d85d8e560a02fc72"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts.tar.gz"
+sha256 = "dbaa9864694d5fb2e3d130e7e35951eaeb209c43a920e5b8b57568f829e3aa17"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/execution.txt"
+sha256 = "55480bf90b20d6aa8aa29a363277726b471a6c409089397ec2cdc6048da1fd50"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/job.json"
+sha256 = "4b127eff8ca62137e572da6d4de18253a583293d3676cd36ead355a816f22563"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/remote_job.py"
+sha256 = "e426f9efd4fd936d960dd841e801b5f8c6dd268d6e635ad765f29f82dd552eb9"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/source.zip"
+sha256 = "842ec8fa1b1dcc4de4cbb9b4e38a2860f4fdfff8dbc2157a976f1159bc51df23"
+
+[[artifact]]
+path = "scripts/audit_competition.py"
+sha256 = "f3466d28ab1b506e3bbb84200bf187a6d4093ae7f0c4ddbb8a14cd405f39e250"
+
+[[artifact]]
+path = "scripts/train_competition.py"
+sha256 = "da80840233769549ec46bbe56de6fd7c343deca9feb0f2e7958a617d91ff8059"
+
+[[artifact]]
+path = "src/lifecycle_readout/competing_edges.py"
+sha256 = "c92e33fcd6bb987aadd2ec7a884884fa60c97a4ca96175963b94dbd81a48f06a"
+
+[[artifact]]
+path = "src/lifecycle_readout/competition_study.py"
+sha256 = "5a1f3556328b0b657afaccca8c0dc58b363b0d63034943620955a9664801c4a5"
+
+[[artifact]]
+path = "tests/test_competing_edges.py"
+sha256 = "0fad2de33dab163987d4960a0bfd0549a6deb772fc86f4be4945265fb544e6f4"

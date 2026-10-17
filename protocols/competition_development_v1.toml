@@ -1,6 +1,7 @@
 protocol_id = "LCR-P-COMPETE-DEV-001"
 status = "prospective-exploratory-pilot"
 date = "2026-10-16"
+authorization = "User selected direction 2: develop cross-destination competitive displacement."
 relationship = "Separate development design; preserves all prior hard-control and cadence endpoints and outcomes."
 datasets = ["wikipedia"]
 seeds = [101, 202, 303]

@@ -1,0 +1,104 @@
+schema_version = 1
+evidence_id = "LCR-E-SESSION-DIAG-001"
+local_only = true
+publication_eligible = false
+
+[[artifact]]
+path = "evidence/jobs/LCR-JOB-SESSION-DIAG-001.toml"
+sha256 = "7335b2294dcd0a5cdc54a57ffc5f0edc2e77c91da55f7e19cae6b9e9985edf1e"
+
+[[artifact]]
+path = "protocols/source_session_diagnostic_v1.toml"
+sha256 = "7b6e5a82a28f9c278398ceec209d1f42a0dd092b3ffa35720caeef7b475f760d"
+
+[[artifact]]
+path = "results/audit/source_session_diagnostic_v1/analysis/diagnostic.json"
+sha256 = "c7bd9488334d4ddb0b71b3c1c7b4c03e3a0a2cf6ad294e82d2aa3215d82f2916"
+
+[[artifact]]
+path = "results/audit/source_session_diagnostic_v1/analysis/query_diagnostic.npz"
+sha256 = "bc9df77b9cbfd41d94d36c76ce36efe16cc947e5c32787aaeedec759ab6f69e9"
+
+[[artifact]]
+path = "results/audit/source_session_diagnostic_v1/analyze_source_session.py"
+sha256 = "07881373f6a42626c8cae10e6531f8a75b0f50f9d0779097a0b1d3732c6a5953"
+
+[[artifact]]
+path = "results/audit/source_session_diagnostic_v1/audit_source_session.py"
+sha256 = "ec472a41462ed279529cd539856e8d460f3f5676eb970bd56338225067a7e45b"
+
+[[artifact]]
+path = "results/audit/source_session_diagnostic_v1/checksums.sha256"
+sha256 = "97f0744f9278a50598e2effa560c39bb52f23d7151d3d878774457e2f1e1d23d"
+
+[[artifact]]
+path = "results/audit/source_session_diagnostic_v1/execution.txt"
+sha256 = "07fa2f0168dca039a276b4ce6a9440f961aacc0e18105c715f491a5f4a27c098"
+
+[[artifact]]
+path = "results/audit/source_session_diagnostic_v1/format_contract_failure.json"
+sha256 = "d0f9b67c80c669dd3203ec6228ec9077228c62d5145d2255ed3d2cc96dbb2aba"
+
+[[artifact]]
+path = "results/audit/source_session_diagnostic_v1/full_array_audit_execution.txt"
+sha256 = "22e6fd3ac558a14c0a64ed32887e7640bb74eef14efdd503dd1e359050c53289"
+
+[[artifact]]
+path = "results/audit/source_session_diagnostic_v1/independent_audit.json"
+sha256 = "22e6fd3ac558a14c0a64ed32887e7640bb74eef14efdd503dd1e359050c53289"
+
+[[artifact]]
+path = "results/audit/source_session_diagnostic_v1/independent_audit_full_array.json"
+sha256 = "22e6fd3ac558a14c0a64ed32887e7640bb74eef14efdd503dd1e359050c53289"
+
+[[artifact]]
+path = "results/audit/source_session_diagnostic_v1/independent_audit_initial.json"
+sha256 = "c5250d498d78006409769cf95459db57d98c47805ddf2fae8467862bd02194e2"
+
+[[artifact]]
+path = "results/audit/source_session_diagnostic_v1/initial_audit_failure.json"
+sha256 = "76ef45e2f1a62b9485067c2d2cbae3e0fa214844caae085663ebe260c8ff2dc5"
+
+[[artifact]]
+path = "results/audit/source_session_diagnostic_v1/initial_contract_failure.json"
+sha256 = "88f63aaae7ee4a45dfbcb350a53e56d8ef260280dd0c2e6422be6a5c081a1497"
+
+[[artifact]]
+path = "results/audit/source_session_diagnostic_v1/plan.json"
+sha256 = "07bacb2fad92f2f0f4cbc46cde021b4a4d471b4caa8b9b303ddc8cadacfa77c1"
+
+[[artifact]]
+path = "results/audit/source_session_diagnostic_v1/source_session_diagnostic_v1.toml"
+sha256 = "7b6e5a82a28f9c278398ceec209d1f42a0dd092b3ffa35720caeef7b475f760d"
+
+[[artifact]]
+path = "results/audit/source_session_diagnostic_v1/strata_table.md"
+sha256 = "072ee82cf066aed9cc49362ea0432d7ad3fa0985bf169f5d89b48fa49af0ecf0"
+
+[[artifact]]
+path = "results/audit/source_session_diagnostic_v1/test_source_session.py"
+sha256 = "e61a4fd4bc3bf33740cc2b380971fb5204121749c003e10a153330f59a1d575a"
+
+[[artifact]]
+path = "results/audit/source_session_diagnostic_v1/test_source_session_expanded.py"
+sha256 = "f461cccf9a52070ce042b4c68d62ba8159a7586c38c799075ca5429d31fb05a3"
+
+[[artifact]]
+path = "results/audit/source_session_diagnostic_v1/verification.json"
+sha256 = "06ddfb9dc878c3fef4c6dc868f578bd89b0de23c9fcb2aa4cf44b9340c751ac3"
+
+[[artifact]]
+path = "results/audit/source_session_diagnostic_v1/verification.txt"
+sha256 = "41cd4e3ce06c2b9ebb4368daa0dac579f8509eba42c3357c2fa522190df2046b"
+
+[[artifact]]
+path = "scripts/analyze_source_session.py"
+sha256 = "07881373f6a42626c8cae10e6531f8a75b0f50f9d0779097a0b1d3732c6a5953"
+
+[[artifact]]
+path = "scripts/audit_source_session.py"
+sha256 = "ec472a41462ed279529cd539856e8d460f3f5676eb970bd56338225067a7e45b"
+
+[[artifact]]
+path = "tests/test_source_session.py"
+sha256 = "f461cccf9a52070ce042b4c68d62ba8159a7586c38c799075ca5429d31fb05a3"

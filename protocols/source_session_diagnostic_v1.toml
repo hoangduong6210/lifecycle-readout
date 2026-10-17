@@ -1,6 +1,7 @@
 protocol_id = "LCR-P-SESSION-DIAG-001"
 status = "posthoc-descriptive-plan-before-session-stratification"
 date = "2026-10-16"
+authorization = "User requested trying useful ideas from the three-direction brainstorm; this CPU-only diagnostic screens source-session attenuation without fitting it."
 parent_protocol = "LCR-P-TGBSEQ-SCREEN-001"
 inputs = "Previously audited ML-20M train/validation input and all three retained count-screen reciprocal-rank vectors, bound to the original retrieval index."
 clock = "Current timestamp minus latest strictly earlier timestamp for the same source; simultaneous events cannot update one another. First source timestamp group is unavailable."

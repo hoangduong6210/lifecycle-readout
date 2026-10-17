@@ -1,3 +1,9 @@
-# Dataset interfaces
+# Corpus contract
 
-This directory contains dataset identity manifests and adapter metadata. Interaction records are not included. Obtain source datasets from their providers under their original terms. Historical migration manifests describe retained local copies, not an independently reproducible public data release. Scripts requiring `corpora/`, `staging/` or retained audit inputs must be supplied those files explicitly.
+`corpora/` contains a local, ignored CoEdit copy for migration verification.
+Tracked identity is owned by `manifest.toml` and `checksums.sha256`. Set
+`LIFECYCLE_DATA_DIR` to another complete checksum-verified directory when
+running elsewhere. Missing data never triggers an implicit build.
+
+CoEdit is bit-identical to its pre-ID-fix backup. The Wikipedia source identity
+used by the CoEdit builder must still be recorded before a frozen release.

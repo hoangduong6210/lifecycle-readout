@@ -1,0 +1,256 @@
+schema_version = 1
+evidence_ids = ["LCR-E-KUAIRAND-INTAKE-001"]
+local_only = true
+publication_eligible = false
+
+[[artifact]]
+path = "evidence/jobs/LCR-JOB-KUAIRAND-CPU-001.toml"
+sha256 = "a4578b5517e8fec1958300fb0e5bb42e72a9a72c84bf1131b56c53774ce5474f"
+
+[[artifact]]
+path = "evidence/jobs/LCR-JOB-KUAIRAND-LOCAL-001.toml"
+sha256 = "4dffced2c6040268a76a7d3374543c2b24528d3df5a6c327fe9064c55a5db15c"
+
+[[artifact]]
+path = "protocols/kuairand_intake_v1.toml"
+sha256 = "02c01098e2d051bb81333fc1c3a2ac1622b45c8f90e60114f022043575ea80d1"
+
+[[artifact]]
+path = "protocols/kuairand_local_intake_v1.toml"
+sha256 = "3682e9f2ecaacacf9196f131f2cb6975a4e01da7e060895b9ff9392e90b111bf"
+
+[[artifact]]
+path = "results/audit/kuairand_cpu_intake_execution_v1/access_LICENSE"
+sha256 = "187442db4df3afd21f2f0525739fd4beac28a62daaba3ee8d3533f60e7c33ec7"
+
+[[artifact]]
+path = "results/audit/kuairand_cpu_intake_execution_v1/access_README.md"
+sha256 = "65ecf78b1c273d1f20cf07b3b099ac0deb5aa3acff93e4e5ed1010c4c9f97957"
+
+[[artifact]]
+path = "results/audit/kuairand_cpu_intake_execution_v1/access_fetch_review.json"
+sha256 = "20c3a393d9258069e021e0a2f97aed89510eab2977ae2997d0f91ed555fae4c5"
+
+[[artifact]]
+path = "results/audit/kuairand_cpu_intake_execution_v1/access_fetch_review_certifi.json"
+sha256 = "4280d9e26819fdfa0b520de1f31d6a17dd03130790d1859addafa2641c3e2ba4"
+
+[[artifact]]
+path = "results/audit/kuairand_cpu_intake_execution_v1/access_github_commit.json"
+sha256 = "e8e5ab38ba25dfbff51221df1c8b70c3489f54a4834d2c050863a9deaa1efb5d"
+
+[[artifact]]
+path = "results/audit/kuairand_cpu_intake_execution_v1/access_head_0.json"
+sha256 = "ff54a50d2df15d77132cb5d61e59efc4d606c32dd633094b16ff429d9797dff3"
+
+[[artifact]]
+path = "results/audit/kuairand_cpu_intake_execution_v1/access_head_1.json"
+sha256 = "a92e0170e2fce038fe03f8241b9717d095d56ace279ee22ec85e1dce918e5c89"
+
+[[artifact]]
+path = "results/audit/kuairand_cpu_intake_execution_v1/access_hf_mirror_tree.json"
+sha256 = "ef5528965c64c75601e9f6eb1119c870356006a433012c709f366fbef7b21cdc"
+
+[[artifact]]
+path = "results/audit/kuairand_cpu_intake_execution_v1/artifacts/artifact_manifest.json"
+sha256 = "fb52eb5fc520498d01ab04ef625d2989f1b908482b7e85cfb3d67ac38b3d7cee"
+
+[[artifact]]
+path = "results/audit/kuairand_cpu_intake_execution_v1/artifacts/failure.json"
+sha256 = "c4fe2c870e2556de94e8bcf1944c5e3aa14b2faede45c1ca026bb4581f14939c"
+
+[[artifact]]
+path = "results/audit/kuairand_cpu_intake_execution_v1/artifacts/metadata_fetch_failure.json"
+sha256 = "edf6cf5cc6070a96bb1581326dcc400c3e8551b0768438148530486038b12537"
+
+[[artifact]]
+path = "results/audit/kuairand_cpu_intake_execution_v1/artifacts/source_identity.json"
+sha256 = "875889fdca58d93c14c5c3245a71e55114ab045158c6ceb691ceb9b56c3c6242"
+
+[[artifact]]
+path = "results/audit/kuairand_cpu_intake_execution_v1/artifacts.tar.gz"
+sha256 = "a3ee1f6399307a5a119e6eba30f22727e136a977f541a4e4f8d618ee84e96382"
+
+[[artifact]]
+path = "results/audit/kuairand_cpu_intake_execution_v1/execution.txt"
+sha256 = "412c8f49b76c3f8df3a76bf9a7d8194e28f3afe90b2adf5c15cde94cd2c9dd69"
+
+[[artifact]]
+path = "results/audit/kuairand_cpu_intake_execution_v1/job.json"
+sha256 = "cd6adf437c109693315ed9617fba85b9464517d183574a68c9bd64f2a022f7d4"
+
+[[artifact]]
+path = "results/audit/kuairand_cpu_intake_execution_v1/preallocation.json"
+sha256 = "a380678095bb7d53fe738345ff38564b6324e429d3d2a323a9b3b10c83ae1a7a"
+
+[[artifact]]
+path = "results/audit/kuairand_cpu_intake_execution_v1/remote_completion.json"
+sha256 = "f3a462d3937d548deb8a79fb157f7e8d06a574be122c9b9faad6ec8dfff93c42"
+
+[[artifact]]
+path = "results/audit/kuairand_cpu_intake_execution_v1/remote_job.py"
+sha256 = "5dcb3e93e9a4272054faae3e4d43b6a22f504c583e5c40ec4c01e08a23da90d7"
+
+[[artifact]]
+path = "results/audit/kuairand_cpu_intake_execution_v1/resource_after.json"
+sha256 = "969060d1234a09cc5d194b1c28d35310e3a0b90393b13107e2cb5dc90212134e"
+
+[[artifact]]
+path = "results/audit/kuairand_cpu_intake_execution_v1/run_kuairand_cpu_intake.py"
+sha256 = "c2f8609bf3d3fffa8d757e86a28146bb908199c81cc7b47d1726d21041838cc8"
+
+[[artifact]]
+path = "results/audit/kuairand_cpu_intake_execution_v1/run_kuairand_intake.py"
+sha256 = "a59c5ea59ba0e1fc3fd2a44532865c92024ee1f4cce05c3e13e7f5fc114c635f"
+
+[[artifact]]
+path = "results/audit/kuairand_cpu_intake_execution_v1/source.zip"
+sha256 = "3a2e4af309b50e6a1acb80561c74557d4390bc1d6531b0fae32fd9d150252408"
+
+[[artifact]]
+path = "results/audit/kuairand_intake_closure_v1/audit_local_intake.py"
+sha256 = "e388073e1bcc29f638a22b8e0508be6a34b3dc345c7d897d55cdb0d5d031d37b"
+
+[[artifact]]
+path = "results/audit/kuairand_intake_closure_v1/close_kuairand_intake.py"
+sha256 = "77fc128c6d903c339494734ed7cac19e4d250f0d64027d749f4f49f1ee213125"
+
+[[artifact]]
+path = "results/audit/kuairand_intake_closure_v1/evidence__jobs__LCR-JOB-KUAIRAND-CPU-001.toml"
+sha256 = "a4578b5517e8fec1958300fb0e5bb42e72a9a72c84bf1131b56c53774ce5474f"
+
+[[artifact]]
+path = "results/audit/kuairand_intake_closure_v1/evidence__jobs__LCR-JOB-KUAIRAND-LOCAL-001.toml"
+sha256 = "4dffced2c6040268a76a7d3374543c2b24528d3df5a6c327fe9064c55a5db15c"
+
+[[artifact]]
+path = "results/audit/kuairand_intake_closure_v1/lastfm_primary_source_review.json"
+sha256 = "b2dc6b486d8eefc1a9e0b30b54f03a313a95fe8614b272c16b63677bb004d097"
+
+[[artifact]]
+path = "results/audit/kuairand_intake_closure_v1/protocols__kuairand_intake_v1.toml"
+sha256 = "02c01098e2d051bb81333fc1c3a2ac1622b45c8f90e60114f022043575ea80d1"
+
+[[artifact]]
+path = "results/audit/kuairand_intake_closure_v1/protocols__kuairand_local_intake_v1.toml"
+sha256 = "3682e9f2ecaacacf9196f131f2cb6975a4e01da7e060895b9ff9392e90b111bf"
+
+[[artifact]]
+path = "results/audit/kuairand_intake_closure_v1/resource_final.json"
+sha256 = "969060d1234a09cc5d194b1c28d35310e3a0b90393b13107e2cb5dc90212134e"
+
+[[artifact]]
+path = "results/audit/kuairand_intake_closure_v1/scripts__run_kuairand_intake.py"
+sha256 = "a59c5ea59ba0e1fc3fd2a44532865c92024ee1f4cce05c3e13e7f5fc114c635f"
+
+[[artifact]]
+path = "results/audit/kuairand_intake_closure_v1/scripts__run_kuairand_local_intake.py"
+sha256 = "3d752d53800e1d64dc658718187ed8c9290de3d3f3ccc90e8de17b0c86274b48"
+
+[[artifact]]
+path = "results/audit/kuairand_intake_closure_v1/src__lifecycle_readout__intake_recurrence.py"
+sha256 = "c2840aa24c7b499999d5e6a33b34d99fe8e66139b503ace9897ec991c191d7ed"
+
+[[artifact]]
+path = "results/audit/kuairand_intake_closure_v1/summary.json"
+sha256 = "fbab84d0b9e8f7643343b103305dc57ce8304c86d72669ffae0ece4d3a9aae85"
+
+[[artifact]]
+path = "results/audit/kuairand_intake_closure_v1/tests__test_intake_recurrence.py"
+sha256 = "c61e5f2ce2f891b4320f4ec4be66a03ee0b7a23276c483fc5280237081a3ee39"
+
+[[artifact]]
+path = "results/audit/kuairand_intake_closure_v1/tests__test_kuairand_intake_pipeline.py"
+sha256 = "2452322e7fb52804918259c609c7f473535a47c1a4acb80b79310f462082fbcf"
+
+[[artifact]]
+path = "results/audit/kuairand_intake_closure_v1/tests__test_kuairand_local_intake.py"
+sha256 = "ea481fd6d32c377b7beffa5665df60afc9331c4377919f3dd6fef9f76536ba87"
+
+[[artifact]]
+path = "results/audit/kuairand_intake_closure_v1/verification.json"
+sha256 = "4eb2891a59079a4b570fe285f231bc1a25da760f82fb6f94910a1741418df0e4"
+
+[[artifact]]
+path = "results/audit/kuairand_intake_closure_v1/wiki__claims__Current-Claim-Language.md"
+sha256 = "a0ebf1be56a17535938a2bf3b768642c6dc30b0e5040988f74d68200272f4236"
+
+[[artifact]]
+path = "results/audit/kuairand_intake_closure_v1/wiki__datasets__Competition-Dataset-Proposal.md"
+sha256 = "218a1c2246a348e11351ef16fbf08e33870b01bcad70ea6750eb43cc1de10349"
+
+[[artifact]]
+path = "results/audit/kuairand_intake_closure_v1/wiki__datasets__KuaiRand-Intake-Preflight.md"
+sha256 = "68fd9445c3c19a03b1dfb04cf91a188528bf521c1c3dcd2485873fa46b601c20"
+
+[[artifact]]
+path = "results/audit/kuairand_intake_closure_v1/wiki__evidence__Evidence-Ledger.md"
+sha256 = "97ad2487beeb5b82a73c85a8cc292258fddda3103fd13d1b94ef54d40f020f7f"
+
+[[artifact]]
+path = "results/audit/kuairand_intake_closure_v1/wiki__status__Live-Execution.md"
+sha256 = "65f390cb9961be0f6e9e9d7c30627bc9b5e867c81fe01d724b74a06d6aa71b3c"
+
+[[artifact]]
+path = "results/audit/kuairand_intake_closure_v1/wiki__status__Project-Status.md"
+sha256 = "3ad8f289078863ed029f9c73f8eaf1327d5ecc237646d171f0b64c49d411b453"
+
+[[artifact]]
+path = "results/audit/kuairand_local_intake_execution_v1/artifacts/archive_identity.json"
+sha256 = "ca7cbedc1e20cf358f3b0f5f8230a58a9456f2c04a01d53646aa0135afb69a82"
+
+[[artifact]]
+path = "results/audit/kuairand_local_intake_execution_v1/artifacts/artifact_manifest.json"
+sha256 = "03d24247c57ca4c2c5820e85346effc876aaa007282e36e21ea5c58b3de20002"
+
+[[artifact]]
+path = "results/audit/kuairand_local_intake_execution_v1/artifacts/results.json"
+sha256 = "d8e8206d84cdd8714d6bc2068832ece290712d2c987bf2ddf0d8340ee49a990e"
+
+[[artifact]]
+path = "results/audit/kuairand_local_intake_execution_v1/artifacts/selected_members.json"
+sha256 = "85131a5e8c978b570435479df232d306716306d421ee3760b1b437b6c144b9db"
+
+[[artifact]]
+path = "results/audit/kuairand_local_intake_execution_v1/artifacts/selected_training_events.npz"
+sha256 = "f2d0bfda8bbeb81054aab50c19873b45af2cb6c17cf5903c0a30646fbb40254e"
+
+[[artifact]]
+path = "results/audit/kuairand_local_intake_execution_v1/artifacts/selected_video_metadata.csv"
+sha256 = "0d871a7b15f0f67d9c7f6c875d5689ad99d3f9800bcab689c9615d5f31c297ce"
+
+[[artifact]]
+path = "results/audit/kuairand_local_intake_execution_v1/artifacts/source_identity.json"
+sha256 = "a81b9639f1b20d2ed8e35f2e78c7671845f6f0ae8ee20ae13c5150332149f7bd"
+
+[[artifact]]
+path = "results/audit/kuairand_local_intake_execution_v1/completion.json"
+sha256 = "94aa4587108efd7003e12808f90c689892013714771129b102af0da31530f394"
+
+[[artifact]]
+path = "results/audit/kuairand_local_intake_execution_v1/execution.txt"
+sha256 = "68ea860429a5823ada68ad007ee1dc34bec052d28b74b40875a2141f05ebb59c"
+
+[[artifact]]
+path = "results/audit/kuairand_local_intake_execution_v1/independent_audit.json"
+sha256 = "d30cf5160275aa5812be8a4083a7ff3e6f40eced9f1c9b2032d187692d5bd3f0"
+
+[[artifact]]
+path = "results/audit/kuairand_local_intake_execution_v1/job.json"
+sha256 = "f12f062f867c1fb9d2b5a8b6f9da53902ab6dad1795ac495779a6665103021a3"
+
+[[artifact]]
+path = "results/audit/kuairand_local_intake_execution_v1/local_driver.py"
+sha256 = "9137fed5acdbbbc6e6e011f6a137b73cae7f1a0f42427e5577e50a0938258f35"
+
+[[artifact]]
+path = "results/audit/kuairand_local_intake_execution_v1/preanalysis.json"
+sha256 = "bcd5c24f3e39b9a61a8c4b7605f921655136327b078ab8f3459c7949a38c4ba7"
+
+[[artifact]]
+path = "results/audit/kuairand_local_intake_execution_v1/run_kuairand_local_intake.py"
+sha256 = "3d752d53800e1d64dc658718187ed8c9290de3d3f3ccc90e8de17b0c86274b48"
+
+[[artifact]]
+path = "results/audit/kuairand_local_intake_execution_v1/source.zip"
+sha256 = "a95eb7d35a9c57c4f2a04979c96f1b8c6fd0b63fb6d8d00981ba7cbbb7f3be10"

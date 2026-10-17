@@ -1,6 +1,7 @@
 protocol_id = "LCR-P-LASTFM-INTAKE-001"
 status = "prospective-fixed-training-intake-no-fit"
 date = "2026-10-16"
+authorization = "User permits suitable alternative dataset; active contribution-strengthening goal."
 institutional_archive = "https://mtg.upf.edu/static/datasets/last.fm/lastfm-dataset-1K.tar.gz"
 primary_record = "https://zenodo.org/records/6090214"
 archive_md5 = "a79a6808f54f73354789a9fb02cb1e41"

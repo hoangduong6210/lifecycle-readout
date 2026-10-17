@@ -1,0 +1,124 @@
+schema_version = 1
+evidence_ids = ["LCR-E-LASTFM-ARTIST-001"]
+local_only = true
+publication_eligible = false
+
+[[artifact]]
+path = "evidence/jobs/LCR-JOB-LASTFM-ARTIST-001.toml"
+sha256 = "d3c74c1e9c220f64899b8a9b1222b284aa13bd8944044ee6b615f31eb0ee9b1f"
+
+[[artifact]]
+path = "protocols/lastfm_artist_history_v1.toml"
+sha256 = "98030fd4746f852e1403013e8470733435be3133dcd9091ef47fcfd83dd0393f"
+
+[[artifact]]
+path = "results/audit/lastfm_artist_history_closure_v1/close_artist_audit.py"
+sha256 = "53c5750c9874c9e10e85075fc8fe612e36b3cc27b66a33c84dbfcb57ad70df6a"
+
+[[artifact]]
+path = "results/audit/lastfm_artist_history_closure_v1/evidence__jobs__LCR-JOB-LASTFM-ARTIST-001.toml"
+sha256 = "d3c74c1e9c220f64899b8a9b1222b284aa13bd8944044ee6b615f31eb0ee9b1f"
+
+[[artifact]]
+path = "results/audit/lastfm_artist_history_closure_v1/fixed_total_witnesses.json"
+sha256 = "a8931b6e621f3dcd5808a2c01cf571cbde9cd54b8655dddb57ea581cbe536891"
+
+[[artifact]]
+path = "results/audit/lastfm_artist_history_closure_v1/replay_artist_summary.py"
+sha256 = "96f758629f9245a7ed406c2300ec7a9c95a19e6dc0d3f8a63b17dd0d3ddea614"
+
+[[artifact]]
+path = "results/audit/lastfm_artist_history_closure_v1/resource_final.json"
+sha256 = "083d0c3a946628af2d996114c18bac2433ba4c03a253d94f9da7b906be58c1d8"
+
+[[artifact]]
+path = "results/audit/lastfm_artist_history_closure_v1/summary.json"
+sha256 = "11bfd9287a796d1666c7e63aa9480ac514d3e0f63ece135543fb858c056f50e6"
+
+[[artifact]]
+path = "results/audit/lastfm_artist_history_closure_v1/verification.json"
+sha256 = "4f9b1a66813277bfcb68d3f1964639d13ed5d91567fab41639fe44cf0832c9fd"
+
+[[artifact]]
+path = "results/audit/lastfm_artist_history_closure_v1/wiki__claims__Current-Claim-Language.md"
+sha256 = "4e6e56b3f7ddadb4f4c53d1faba0153087386ef0bb7ab838946b6dec36ee6b95"
+
+[[artifact]]
+path = "results/audit/lastfm_artist_history_closure_v1/wiki__datasets__LastFM-Intake-Preflight.md"
+sha256 = "2f35e51fbc7b201386808ff195da8a8641b413c8137d323aee39e8f75c580a27"
+
+[[artifact]]
+path = "results/audit/lastfm_artist_history_closure_v1/wiki__evidence__Evidence-Ledger.md"
+sha256 = "93928201c408051c45955407f54a71bffacc44222c1e5e78fd0c2e3a383d20d9"
+
+[[artifact]]
+path = "results/audit/lastfm_artist_history_closure_v1/wiki__results__LastFM-Recorded-Artist-Audit.md"
+sha256 = "decd2b71e653c3527ac978995800d35893e8a8113fcfc6f6b0d727beb1bc9610"
+
+[[artifact]]
+path = "results/audit/lastfm_artist_history_closure_v1/wiki__status__Live-Execution.md"
+sha256 = "9a7cbe8901737edec73caf49eb178a5857cdc80f437d3fb063bf8229a50c6a43"
+
+[[artifact]]
+path = "results/audit/lastfm_artist_history_closure_v1/wiki__status__Project-Status.md"
+sha256 = "2f6a800c477eb30181dcb5c1549e0cf0b76dc1a0f80d70f688ed02d29f1707ae"
+
+[[artifact]]
+path = "results/audit/lastfm_artist_history_execution_v1/artifacts/artifact_manifest.json"
+sha256 = "9682259a9fe6ba7b9979175c9160b2d73a66f5285cc79dec866a63a9c16b5723"
+
+[[artifact]]
+path = "results/audit/lastfm_artist_history_execution_v1/artifacts/artist_history_features.npz"
+sha256 = "c5a4dd456cfbd3cd43ed3e15f3a72ed2142c38648393564887bd4cef7208502e"
+
+[[artifact]]
+path = "results/audit/lastfm_artist_history_execution_v1/artifacts/direct_history_anchors.json"
+sha256 = "2d0dacb3f81662afb39fb5d34cddaa47c3f51484b66d19c62c8f64ebf35aaf23"
+
+[[artifact]]
+path = "results/audit/lastfm_artist_history_execution_v1/artifacts/preanalysis.json"
+sha256 = "f9dd7f90ef0648432e031ffde75b34243b5ec92ef4df00dbd2674dee8ff5a820"
+
+[[artifact]]
+path = "results/audit/lastfm_artist_history_execution_v1/artifacts/results.json"
+sha256 = "12fe85b9896e77d9b2aa20728467b0d8f19a04edeb3077660c20da2055b8d488"
+
+[[artifact]]
+path = "results/audit/lastfm_artist_history_execution_v1/execution.txt"
+sha256 = "9698b168160ea50264e3f0bf1f453df930a9804d748dfbc8cd16a4f57d036bac"
+
+[[artifact]]
+path = "results/audit/lastfm_artist_history_execution_v1/job.json"
+sha256 = "8389b98ad92b461a536760c49f37f6e6275b4241d2e676909ca7a174049f2865"
+
+[[artifact]]
+path = "results/audit/lastfm_artist_history_execution_v1/local_driver.py"
+sha256 = "893c44c997cc6682fd0df37fd048b75f7f672cde29ca9fd4a3cfec7b7d6f6d96"
+
+[[artifact]]
+path = "results/audit/lastfm_artist_history_execution_v1/preanalysis.json"
+sha256 = "3a2bb357e79c16d4940c5d9e6000b84fc8b9568b5b92cfa202948a25b6a2b20a"
+
+[[artifact]]
+path = "results/audit/lastfm_artist_history_execution_v1/protocols__lastfm_artist_history_v1.toml"
+sha256 = "98030fd4746f852e1403013e8470733435be3133dcd9091ef47fcfd83dd0393f"
+
+[[artifact]]
+path = "results/audit/lastfm_artist_history_execution_v1/scripts__audit_lastfm_artist_history.py"
+sha256 = "fc3e60f6d13cefae818814ef7e68a54699b1eb5d76e07e45167506d252e6752e"
+
+[[artifact]]
+path = "results/audit/lastfm_artist_history_execution_v1/src__lifecycle_readout__lastfm_artist_history.py"
+sha256 = "821f69c19f00d991cfc8ae520e87a0d4605e2cedf4a92ddc9716afd14f1f9d2a"
+
+[[artifact]]
+path = "results/audit/lastfm_artist_history_execution_v1/summary_replay.json"
+sha256 = "7957acb212021f83b1167bd044b45d12fb13f2aa0bd424f522a44f013d8aaa16"
+
+[[artifact]]
+path = "results/audit/lastfm_artist_history_execution_v1/tests__test_lastfm_artist_audit_pipeline.py"
+sha256 = "2cb5dc0c23674d8f6a4301c2014c097cc70e25eef5a7301f62e6a0ccb562ec0b"
+
+[[artifact]]
+path = "results/audit/lastfm_artist_history_execution_v1/tests__test_lastfm_artist_history.py"
+sha256 = "558c41d9bebffaa8071ddd931eecc6f702f93ac7ffbd592c52d84b308c2aa0fa"

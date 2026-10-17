@@ -1,6 +1,7 @@
 protocol_id = "LCR-P-KUAIRAND-INTAKE-001"
 status = "prospective-dataset-intake-preflight"
 date = "2026-10-16"
+authorization = "User permits another suitable dataset; active contribution-strengthening goal. Intake only, no model fit."
 source_commit = "f8dbf6678b3c9594050e3e813aeff0c942260ec4"
 archive_url = "https://zenodo.org/records/10439422/files/KuaiRand-1K.tar.gz?download=1"
 expected_archive_md5 = "6b0b9c8222d67fcd4c676218edca3f1f"

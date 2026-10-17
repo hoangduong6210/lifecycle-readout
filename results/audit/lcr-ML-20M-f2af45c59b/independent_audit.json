@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "attempt": "results/audit/lcr-ML-20M-f2af45c59b",
+  "seeds": [
+    {
+      "seed": 42,
+      "completed_epochs": 27,
+      "selected_epoch": 26,
+      "stop_reason": "runtime_cap_partial_epoch",
+      "validation_mrr": 0.4170766671924886
+    }
+  ],
+  "full_candidate_identity_and_mrr_checks": true,
+  "raw_history_score_anchor_count": 20,
+  "archived_configuration_and_protocol_binding": true,
+  "first_stopping_opportunity_checked": true,
+  "selected_epoch_per_query_ranks_equal": true,
+  "full_training_negative_replay": false,
+  "full_training_reproduction": false,
+  "test_scored": false,
+  "publication_eligible": false,
+  "auditor_sha256": "4191eb31af99f133a21ade4978cce75491b757de3ab12d1a902c3df695b9f063",
+  "limitations": "Single-seed validation development; complete epoch counts and trace identities recorded, not independently replayed. CPU/GPU scores checked at 20 raw-history anchors only."
+}

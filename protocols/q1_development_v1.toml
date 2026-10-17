@@ -1,6 +1,7 @@
 protocol_id = "LCR-P-Q1-DEV-001"
 status = "prospective-validation-only-development"
 amendment_date = "2026-10-15"
+authorization = "User requested a Q1-oriented research program; development comparison retains all prior negative outcomes."
 amends = "LCR-P-HARD-001"
 amendment_reason = "Investigate clock saturation and multiplicative attenuation using nested logit residuals; no test scoring, no confirmatory claim."
 datasets = ["wikipedia", "reddit"]

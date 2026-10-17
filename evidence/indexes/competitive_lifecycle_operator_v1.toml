@@ -1,0 +1,88 @@
+schema_version = 1
+evidence_id = "LCR-E-COMPETE-FLOW-001"
+local_only = true
+publication_eligible = false
+
+[[artifact]]
+path = "src/lifecycle_readout/competitive_lifecycle.py"
+sha256 = "a9654595f9f164a8844336d627222445e9a11ff1ff3f647e001cd554322306ad"
+
+[[artifact]]
+path = "tests/test_competitive_lifecycle.py"
+sha256 = "0ad8747bb00ad7ab3399c26113d448f4be31155fdc5771b9e08dfe704be01e9c"
+
+[[artifact]]
+path = "wiki/methods/Event-Driven-Competitive-Lifecycle.md"
+sha256 = "6fb6971b2c087fe2988578caa6939938fc00d6cc8f891d308e94298bcb0ee71d"
+
+[[artifact]]
+path = "evidence/jobs/LCR-JOB-COMPETE-FLOW-001.toml"
+sha256 = "ccf7b3bbf2624065cd80129c3a69e543f64e182642797c981dfc6e6a701bde37"
+
+[[artifact]]
+path = "results/audit/competitive_lifecycle_operator_v1/Current-Claim-Language.md"
+sha256 = "707ef2c5ae9f41b08e09d631c904e8f50fa826bbd3a265d2908740c463f622e5"
+
+[[artifact]]
+path = "results/audit/competitive_lifecycle_operator_v1/Event-Driven-Competitive-Lifecycle.md"
+sha256 = "6fb6971b2c087fe2988578caa6939938fc00d6cc8f891d308e94298bcb0ee71d"
+
+[[artifact]]
+path = "results/audit/competitive_lifecycle_operator_v1/Evidence-Ledger.md"
+sha256 = "e937cda0a15cb7eed94e92468ce8bbed69519bd53ba31809b9bdb3e8ad6b6d83"
+
+[[artifact]]
+path = "results/audit/competitive_lifecycle_operator_v1/INDEX.md"
+sha256 = "f00b92ec8dd3d5a5e081592947291974ea9bc434a53d396410b29e51e19c51e4"
+
+[[artifact]]
+path = "results/audit/competitive_lifecycle_operator_v1/Project-Status.md"
+sha256 = "d9faf9da597c73ec2a197358b1465e653e03d88ee5056b4e3a343788a50e5914"
+
+[[artifact]]
+path = "results/audit/competitive_lifecycle_operator_v1/START-HERE.md"
+sha256 = "49740a334f0e1533af6a1ceddc720333dcf3af1e08331d7ae7401ddca208b364"
+
+[[artifact]]
+path = "results/audit/competitive_lifecycle_operator_v1/close_competitive_flow.py"
+sha256 = "bfe0218056f553b6294f440dc0cf43d0abd0a7a546b8820cea225ca22b3192ba"
+
+[[artifact]]
+path = "results/audit/competitive_lifecycle_operator_v1/competitive_lifecycle.py"
+sha256 = "a9654595f9f164a8844336d627222445e9a11ff1ff3f647e001cd554322306ad"
+
+[[artifact]]
+path = "results/audit/competitive_lifecycle_operator_v1/develop_competitive_flow.py"
+sha256 = "e2e08f5a7de50d53d673080129905aee657b21c0936b9182a7587f278f6ebf37"
+
+[[artifact]]
+path = "results/audit/competitive_lifecycle_operator_v1/document_competitive_flow.py"
+sha256 = "b8a62bbe49b260a34868e8e33c1d9252308029bcebe188b29c3490d306c0cf8e"
+
+[[artifact]]
+path = "results/audit/competitive_lifecycle_operator_v1/goal_progress_audit.json"
+sha256 = "f700f8fe99a1ef54ebc282752a19b239c8feb545d99a8c3fd852e62ecc24ba10"
+
+[[artifact]]
+path = "results/audit/competitive_lifecycle_operator_v1/initial_repository_verification_failure.json"
+sha256 = "404dcff23cd8555c6d0531cc6b9576fc0535dc5fc81df195235d260743e0a8e6"
+
+[[artifact]]
+path = "results/audit/competitive_lifecycle_operator_v1/literature_access.json"
+sha256 = "5d2983cbf6d6f4e75679de9a2adef5e1cc6fdca68e1755502b3bcec326c61a47"
+
+[[artifact]]
+path = "results/audit/competitive_lifecycle_operator_v1/record_competitive_flow.py"
+sha256 = "8e3e23b8950ff46e76c539bde095c75f444a729e0f5d63737afe4f9194629f09"
+
+[[artifact]]
+path = "results/audit/competitive_lifecycle_operator_v1/repository_verification.json"
+sha256 = "9854c9659b7a234af4f51ea1200553f5c504c4c1580bb65a42df80dd64986bb2"
+
+[[artifact]]
+path = "results/audit/competitive_lifecycle_operator_v1/test_competitive_lifecycle.py"
+sha256 = "0ad8747bb00ad7ab3399c26113d448f4be31155fdc5771b9e08dfe704be01e9c"
+
+[[artifact]]
+path = "results/audit/competitive_lifecycle_operator_v1/verification.json"
+sha256 = "c9a7e39f297c650abaf442c836d789264651d440e6d60006c3ff23038f1d0ae8"

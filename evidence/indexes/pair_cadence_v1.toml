@@ -1,0 +1,2052 @@
+schema_version = 1
+evidence_id = "LCR-E-CADENCE-DEV-001"
+local_only = true
+publication_eligible = false
+
+[[artifact]]
+path = "configs/pair_cadence_features_v1.toml"
+sha256 = "48dfea1ccdba48193ff405fda932650ea436b103c988085d718472f44cca4dd5"
+
+[[artifact]]
+path = "configs/pair_cadence_original_v1.toml"
+sha256 = "ee4b3f710e61198cfb4e54d3507fc75fa55c0fdd6593ff7cb1c5ccdc132bc8e3"
+
+[[artifact]]
+path = "configs/pair_cadence_relative_v1.toml"
+sha256 = "ac2909f7e771ff745dac0748b33572e312bcf4c0648fb2dbb10b6dbba7f7edb1"
+
+[[artifact]]
+path = "evidence/jobs/LCR-JOB-CADENCE-REDDIT-FEATURES-001.toml"
+sha256 = "3822f089462594bb173f3cbb340d1a1cbc26370b8f545214822175074dc7529d"
+
+[[artifact]]
+path = "evidence/jobs/LCR-JOB-CADENCE-REDDIT-ORIGINAL-001.toml"
+sha256 = "f23cb6af6fa47ef46b79565b5f795855cf396c465edf02014a47fa4232a665cd"
+
+[[artifact]]
+path = "evidence/jobs/LCR-JOB-CADENCE-REDDIT-RELATIVE-001.toml"
+sha256 = "28869f14fc8e74b954a32dbc6435e8d3dfb958cab48e66a5308947d7962a96d0"
+
+[[artifact]]
+path = "evidence/jobs/LCR-JOB-CADENCE-WIKIPEDIA-FEATURES-001.toml"
+sha256 = "91dea4f4705e31e5ab7f51b4abf99952c5b936a1ea3521ca160cc38eddb409df"
+
+[[artifact]]
+path = "evidence/jobs/LCR-JOB-CADENCE-WIKIPEDIA-ORIGINAL-001.toml"
+sha256 = "a8defa02e4a128a0bebb97b52c8e035fa9ce0c83625deb58045350648a617192"
+
+[[artifact]]
+path = "evidence/jobs/LCR-JOB-CADENCE-WIKIPEDIA-RELATIVE-001.toml"
+sha256 = "77e15b8d6a4503823a383758467d4930288de8606da032a42996d7268c97444a"
+
+[[artifact]]
+path = "protocols/pair_cadence_development_v1.toml"
+sha256 = "3186c1b4dc809e8bc4f0e4593593514197d0b5f7772b8dea7b6fdd18a07a79dd"
+
+[[artifact]]
+path = "resources/benchmark_causal_v2.toml"
+sha256 = "19137414a50c8b9245d8b2bdd15de3e92aa5f31de8d83a342bbf7b955141ba9f"
+
+[[artifact]]
+path = "resources/corpora/reddit_causal_v2.npz"
+sha256 = "fb791dc7a20b16fbb9cc16fa43d55cded2fdeb9b7d4acc8e978d85a39e495f91"
+
+[[artifact]]
+path = "resources/corpora/wikipedia_causal_v2.npz"
+sha256 = "64ad05c6114e592b594e0f0b48f842993d04996d860805821c18c190cbfb3f83"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/audit_cadence_checkpoint_replay.py"
+sha256 = "badbd0e57fb8f8373a30eff419ada7e212081525b5ed2d244ffb092bbaee84d5"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/audit_hard_checkpoint_replay.py"
+sha256 = "ecc569d8b82ea0711f4798ebfccc3aa7b61d6762b6944b91125bee3b173fa9c6"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/checksums.sha256"
+sha256 = "be5fe211d28701a46927fe849e4bb202da2ad34a4d3a624813e3a427803323ef"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/initial_plan.json"
+sha256 = "678f32d93513d8b926138e15b29847b52117a020afadab2cc582d5d738376cda"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/initial_progress.json"
+sha256 = "483edb53921a824dcd9966981c00a9448737dde3bd83016d4dbfd1af8defdec2"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/partial_summary.json"
+sha256 = "940808dbafb2f076740bbed0795dcdf9035a546586058a63eee10576c2033de0"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_features/report.json"
+sha256 = "684d348d6d6abc48504b36d0d63beb66d6c03f8593a0fb8265a333e3438a5b5e"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_features/sealed_source/src/lifecycle_readout/__init__.py"
+sha256 = "310ab7033974cfc77f935c4d3f0881a68fc0cdb830c0a73ac0a00ed0b78d7d86"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_features/sealed_source/src/lifecycle_readout/benchmark.py"
+sha256 = "9e7c0ad7841c11b2e1b4c1bd446712e48d8ae10b29f84da74bf99a8b6a38c2c9"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_features/sealed_source/src/lifecycle_readout/causal_stream.py"
+sha256 = "a977ea9be15212670cfce693514eea5a0c7d0dcd3d207662b0c82a2c397536b3"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_features/sealed_source/src/lifecycle_readout/colab_workflow.py"
+sha256 = "c5950a05d39fe6de6019c346e28f682a09e4db4bd589a50268a59971c5cb263f"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_features/sealed_source/src/lifecycle_readout/craft_adapter.py"
+sha256 = "2f76ae3a2c642e00e3776cfde9856e0f7bb5c203a9c5833f0387ebdb0b4d2995"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_features/sealed_source/src/lifecycle_readout/craft_training.py"
+sha256 = "7f3cf11a5acb458e5731da86b5579163083dd6bdd7ba16fed611233fa1220d83"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_features/sealed_source/src/lifecycle_readout/datasets.py"
+sha256 = "b6f595349d611fb509ab1e13fee9974e2efc8f6b4fcc3ab536f13efa25be7a30"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_features/sealed_source/src/lifecycle_readout/hard_controls.py"
+sha256 = "4060b4fda6727d10bb0bbc05d232ee6558a100c464e9dda9e34af3f14dd70ab9"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_features/sealed_source/src/lifecycle_readout/metrics.py"
+sha256 = "a2e1a291b1abf69a5a9b01a751e16c9186c6d4bc8e8bf1fc9d036a89709caf69"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_features/sealed_source/src/lifecycle_readout/modeling/__init__.py"
+sha256 = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_features/sealed_source/src/lifecycle_readout/modeling/fsm_head.py"
+sha256 = "db564ccb3a282be488153d6c1809c2db6f019865e9ebc6b0e0dcd38268f986b6"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_features/sealed_source/src/lifecycle_readout/modeling/latent_lifecycle.py"
+sha256 = "d92ade6938c7d18acb181b7144f244b6b98566c64b245e8f471399f3421bc308"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_features/sealed_source/src/lifecycle_readout/modeling/monotone_residual.py"
+sha256 = "9ce498faca93ec0def73e6b3c8340c7661eded2d871e86900c01f697a5c079bb"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_features/sealed_source/src/lifecycle_readout/modeling/sr_gnn.py"
+sha256 = "611e34d967dbb78f4b7549d3eaf81c3c60ee4dd25adb713b389467c8f07e9214"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_features/sealed_source/src/lifecycle_readout/modeling/sr_gnn_v2.py"
+sha256 = "44227727a92a6f36edee7c548c5d828d799bfd9b19113a589b5ab15f8ab26583"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_features/sealed_source/src/lifecycle_readout/modeling/sr_gnn_v3.py"
+sha256 = "30228145709b492016d168be8a234b5141038f6f737b25171db9e7da9f9cfaa9"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_features/sealed_source/src/lifecycle_readout/modeling/sr_gnn_v3_3.py"
+sha256 = "a9427e089a0a58071c92cda800d374b6ff454f301b774ae33f18b6833b2a7755"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_features/sealed_source/src/lifecycle_readout/modeling/temporal_mixer.py"
+sha256 = "36f9b409390411d887f927e78b5168fb87b3c15b0edc37ea462380b542740f9e"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_features/sealed_source/src/lifecycle_readout/official_data.py"
+sha256 = "42df4b69d538fabb470a40ee6daa5aa5a0f4bb256d4114ce0da40b3226c9bc4f"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_features/sealed_source/src/lifecycle_readout/pair_clock.py"
+sha256 = "2c7c1fb0ec1b0d038e0dfc91a2a4aa09800ee261cb5139365e14b309596c0630"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_features/sealed_source/src/lifecycle_readout/ranking.py"
+sha256 = "d5f7353949506ad842e91b1aa0a8dc42237d63113ee12fb2abf1987075c03bd7"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_features/sealed_source/src/lifecycle_readout/stream_baselines.py"
+sha256 = "50f52c09030b89de8b93dcba8c4315ae3fe02e150f182f25e43a22306cf64440"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_features/sealed_source/src/lifecycle_readout/synthetic_response.py"
+sha256 = "49d636189f8795505089551bcd5e01695dedb7d7c7fc633972a0b6a9ee786da6"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_features/sealed_source/src/lifecycle_readout/training.py"
+sha256 = "8d85c66082b82c6d4d2dbe973a33c2defb136bb27ad1d4a547433a91554cfe20"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_features_execution.txt"
+sha256 = "58e112ddb6f6888bd195650051e017d855a500f3426288258f0a0cb458c25e71"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_original/report.json"
+sha256 = "26468a7d6bcea109e975d9e2efba2f2479b5c66e245a0b0730e365201468eff8"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_original/sealed_source/src/lifecycle_readout/__init__.py"
+sha256 = "310ab7033974cfc77f935c4d3f0881a68fc0cdb830c0a73ac0a00ed0b78d7d86"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_original/sealed_source/src/lifecycle_readout/benchmark.py"
+sha256 = "9e7c0ad7841c11b2e1b4c1bd446712e48d8ae10b29f84da74bf99a8b6a38c2c9"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_original/sealed_source/src/lifecycle_readout/causal_stream.py"
+sha256 = "a977ea9be15212670cfce693514eea5a0c7d0dcd3d207662b0c82a2c397536b3"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_original/sealed_source/src/lifecycle_readout/colab_workflow.py"
+sha256 = "c5950a05d39fe6de6019c346e28f682a09e4db4bd589a50268a59971c5cb263f"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_original/sealed_source/src/lifecycle_readout/craft_adapter.py"
+sha256 = "2f76ae3a2c642e00e3776cfde9856e0f7bb5c203a9c5833f0387ebdb0b4d2995"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_original/sealed_source/src/lifecycle_readout/craft_training.py"
+sha256 = "7f3cf11a5acb458e5731da86b5579163083dd6bdd7ba16fed611233fa1220d83"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_original/sealed_source/src/lifecycle_readout/datasets.py"
+sha256 = "b6f595349d611fb509ab1e13fee9974e2efc8f6b4fcc3ab536f13efa25be7a30"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_original/sealed_source/src/lifecycle_readout/hard_controls.py"
+sha256 = "4060b4fda6727d10bb0bbc05d232ee6558a100c464e9dda9e34af3f14dd70ab9"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_original/sealed_source/src/lifecycle_readout/metrics.py"
+sha256 = "a2e1a291b1abf69a5a9b01a751e16c9186c6d4bc8e8bf1fc9d036a89709caf69"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_original/sealed_source/src/lifecycle_readout/modeling/__init__.py"
+sha256 = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_original/sealed_source/src/lifecycle_readout/modeling/fsm_head.py"
+sha256 = "db564ccb3a282be488153d6c1809c2db6f019865e9ebc6b0e0dcd38268f986b6"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_original/sealed_source/src/lifecycle_readout/modeling/latent_lifecycle.py"
+sha256 = "d92ade6938c7d18acb181b7144f244b6b98566c64b245e8f471399f3421bc308"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_original/sealed_source/src/lifecycle_readout/modeling/monotone_residual.py"
+sha256 = "9ce498faca93ec0def73e6b3c8340c7661eded2d871e86900c01f697a5c079bb"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_original/sealed_source/src/lifecycle_readout/modeling/sr_gnn.py"
+sha256 = "611e34d967dbb78f4b7549d3eaf81c3c60ee4dd25adb713b389467c8f07e9214"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_original/sealed_source/src/lifecycle_readout/modeling/sr_gnn_v2.py"
+sha256 = "44227727a92a6f36edee7c548c5d828d799bfd9b19113a589b5ab15f8ab26583"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_original/sealed_source/src/lifecycle_readout/modeling/sr_gnn_v3.py"
+sha256 = "30228145709b492016d168be8a234b5141038f6f737b25171db9e7da9f9cfaa9"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_original/sealed_source/src/lifecycle_readout/modeling/sr_gnn_v3_3.py"
+sha256 = "a9427e089a0a58071c92cda800d374b6ff454f301b774ae33f18b6833b2a7755"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_original/sealed_source/src/lifecycle_readout/modeling/temporal_mixer.py"
+sha256 = "36f9b409390411d887f927e78b5168fb87b3c15b0edc37ea462380b542740f9e"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_original/sealed_source/src/lifecycle_readout/official_data.py"
+sha256 = "42df4b69d538fabb470a40ee6daa5aa5a0f4bb256d4114ce0da40b3226c9bc4f"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_original/sealed_source/src/lifecycle_readout/pair_clock.py"
+sha256 = "2c7c1fb0ec1b0d038e0dfc91a2a4aa09800ee261cb5139365e14b309596c0630"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_original/sealed_source/src/lifecycle_readout/ranking.py"
+sha256 = "d5f7353949506ad842e91b1aa0a8dc42237d63113ee12fb2abf1987075c03bd7"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_original/sealed_source/src/lifecycle_readout/stream_baselines.py"
+sha256 = "50f52c09030b89de8b93dcba8c4315ae3fe02e150f182f25e43a22306cf64440"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_original/sealed_source/src/lifecycle_readout/synthetic_response.py"
+sha256 = "49d636189f8795505089551bcd5e01695dedb7d7c7fc633972a0b6a9ee786da6"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_original/sealed_source/src/lifecycle_readout/training.py"
+sha256 = "8d85c66082b82c6d4d2dbe973a33c2defb136bb27ad1d4a547433a91554cfe20"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_original_execution.txt"
+sha256 = "58e112ddb6f6888bd195650051e017d855a500f3426288258f0a0cb458c25e71"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_relative/report.json"
+sha256 = "a6dc75fda7ac5a15b6bdaa6a91053ad2541768aa761028a8368ea0222eaca9f9"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_relative/sealed_source/src/lifecycle_readout/__init__.py"
+sha256 = "310ab7033974cfc77f935c4d3f0881a68fc0cdb830c0a73ac0a00ed0b78d7d86"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_relative/sealed_source/src/lifecycle_readout/benchmark.py"
+sha256 = "9e7c0ad7841c11b2e1b4c1bd446712e48d8ae10b29f84da74bf99a8b6a38c2c9"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_relative/sealed_source/src/lifecycle_readout/causal_stream.py"
+sha256 = "a977ea9be15212670cfce693514eea5a0c7d0dcd3d207662b0c82a2c397536b3"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_relative/sealed_source/src/lifecycle_readout/colab_workflow.py"
+sha256 = "c5950a05d39fe6de6019c346e28f682a09e4db4bd589a50268a59971c5cb263f"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_relative/sealed_source/src/lifecycle_readout/craft_adapter.py"
+sha256 = "2f76ae3a2c642e00e3776cfde9856e0f7bb5c203a9c5833f0387ebdb0b4d2995"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_relative/sealed_source/src/lifecycle_readout/craft_training.py"
+sha256 = "7f3cf11a5acb458e5731da86b5579163083dd6bdd7ba16fed611233fa1220d83"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_relative/sealed_source/src/lifecycle_readout/datasets.py"
+sha256 = "b6f595349d611fb509ab1e13fee9974e2efc8f6b4fcc3ab536f13efa25be7a30"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_relative/sealed_source/src/lifecycle_readout/hard_controls.py"
+sha256 = "4060b4fda6727d10bb0bbc05d232ee6558a100c464e9dda9e34af3f14dd70ab9"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_relative/sealed_source/src/lifecycle_readout/metrics.py"
+sha256 = "a2e1a291b1abf69a5a9b01a751e16c9186c6d4bc8e8bf1fc9d036a89709caf69"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_relative/sealed_source/src/lifecycle_readout/modeling/__init__.py"
+sha256 = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_relative/sealed_source/src/lifecycle_readout/modeling/fsm_head.py"
+sha256 = "db564ccb3a282be488153d6c1809c2db6f019865e9ebc6b0e0dcd38268f986b6"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_relative/sealed_source/src/lifecycle_readout/modeling/latent_lifecycle.py"
+sha256 = "d92ade6938c7d18acb181b7144f244b6b98566c64b245e8f471399f3421bc308"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_relative/sealed_source/src/lifecycle_readout/modeling/monotone_residual.py"
+sha256 = "9ce498faca93ec0def73e6b3c8340c7661eded2d871e86900c01f697a5c079bb"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_relative/sealed_source/src/lifecycle_readout/modeling/sr_gnn.py"
+sha256 = "611e34d967dbb78f4b7549d3eaf81c3c60ee4dd25adb713b389467c8f07e9214"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_relative/sealed_source/src/lifecycle_readout/modeling/sr_gnn_v2.py"
+sha256 = "44227727a92a6f36edee7c548c5d828d799bfd9b19113a589b5ab15f8ab26583"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_relative/sealed_source/src/lifecycle_readout/modeling/sr_gnn_v3.py"
+sha256 = "30228145709b492016d168be8a234b5141038f6f737b25171db9e7da9f9cfaa9"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_relative/sealed_source/src/lifecycle_readout/modeling/sr_gnn_v3_3.py"
+sha256 = "a9427e089a0a58071c92cda800d374b6ff454f301b774ae33f18b6833b2a7755"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_relative/sealed_source/src/lifecycle_readout/modeling/temporal_mixer.py"
+sha256 = "36f9b409390411d887f927e78b5168fb87b3c15b0edc37ea462380b542740f9e"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_relative/sealed_source/src/lifecycle_readout/official_data.py"
+sha256 = "42df4b69d538fabb470a40ee6daa5aa5a0f4bb256d4114ce0da40b3226c9bc4f"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_relative/sealed_source/src/lifecycle_readout/pair_clock.py"
+sha256 = "2c7c1fb0ec1b0d038e0dfc91a2a4aa09800ee261cb5139365e14b309596c0630"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_relative/sealed_source/src/lifecycle_readout/ranking.py"
+sha256 = "d5f7353949506ad842e91b1aa0a8dc42237d63113ee12fb2abf1987075c03bd7"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_relative/sealed_source/src/lifecycle_readout/stream_baselines.py"
+sha256 = "50f52c09030b89de8b93dcba8c4315ae3fe02e150f182f25e43a22306cf64440"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_relative/sealed_source/src/lifecycle_readout/synthetic_response.py"
+sha256 = "49d636189f8795505089551bcd5e01695dedb7d7c7fc633972a0b6a9ee786da6"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/reddit_relative/sealed_source/src/lifecycle_readout/training.py"
+sha256 = "8d85c66082b82c6d4d2dbe973a33c2defb136bb27ad1d4a547433a91554cfe20"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/summary.json"
+sha256 = "7eaa3712c8fe4aaa01e0bacb33eb02fe6e881e3e1532d72940446ead21d867af"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/test_cadence_checkpoint_replay.py"
+sha256 = "b62844a2b73755a8e85542ad0664c43c5a6afd902300855793d794a7dd23902a"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/verification.json"
+sha256 = "7b119800e94ca5d294131eeb44e17ce32a334f3d7f720bbeec2f2d3add0ccfeb"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/verification.txt"
+sha256 = "927fdbf9500808c7dfb4d1941e2fa0e330e629f40fb766474bac486979aee464"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_features/report.json"
+sha256 = "59b6e498694e8ea96169773d414f26876ccedd1173c44c942af4699d15421721"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_features/sealed_source/src/lifecycle_readout/__init__.py"
+sha256 = "310ab7033974cfc77f935c4d3f0881a68fc0cdb830c0a73ac0a00ed0b78d7d86"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_features/sealed_source/src/lifecycle_readout/benchmark.py"
+sha256 = "9e7c0ad7841c11b2e1b4c1bd446712e48d8ae10b29f84da74bf99a8b6a38c2c9"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_features/sealed_source/src/lifecycle_readout/causal_stream.py"
+sha256 = "a977ea9be15212670cfce693514eea5a0c7d0dcd3d207662b0c82a2c397536b3"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_features/sealed_source/src/lifecycle_readout/colab_workflow.py"
+sha256 = "c5950a05d39fe6de6019c346e28f682a09e4db4bd589a50268a59971c5cb263f"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_features/sealed_source/src/lifecycle_readout/craft_adapter.py"
+sha256 = "2f76ae3a2c642e00e3776cfde9856e0f7bb5c203a9c5833f0387ebdb0b4d2995"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_features/sealed_source/src/lifecycle_readout/craft_training.py"
+sha256 = "7f3cf11a5acb458e5731da86b5579163083dd6bdd7ba16fed611233fa1220d83"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_features/sealed_source/src/lifecycle_readout/datasets.py"
+sha256 = "b6f595349d611fb509ab1e13fee9974e2efc8f6b4fcc3ab536f13efa25be7a30"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_features/sealed_source/src/lifecycle_readout/hard_controls.py"
+sha256 = "4060b4fda6727d10bb0bbc05d232ee6558a100c464e9dda9e34af3f14dd70ab9"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_features/sealed_source/src/lifecycle_readout/metrics.py"
+sha256 = "a2e1a291b1abf69a5a9b01a751e16c9186c6d4bc8e8bf1fc9d036a89709caf69"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_features/sealed_source/src/lifecycle_readout/modeling/__init__.py"
+sha256 = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_features/sealed_source/src/lifecycle_readout/modeling/fsm_head.py"
+sha256 = "db564ccb3a282be488153d6c1809c2db6f019865e9ebc6b0e0dcd38268f986b6"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_features/sealed_source/src/lifecycle_readout/modeling/latent_lifecycle.py"
+sha256 = "d92ade6938c7d18acb181b7144f244b6b98566c64b245e8f471399f3421bc308"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_features/sealed_source/src/lifecycle_readout/modeling/monotone_residual.py"
+sha256 = "9ce498faca93ec0def73e6b3c8340c7661eded2d871e86900c01f697a5c079bb"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_features/sealed_source/src/lifecycle_readout/modeling/sr_gnn.py"
+sha256 = "611e34d967dbb78f4b7549d3eaf81c3c60ee4dd25adb713b389467c8f07e9214"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_features/sealed_source/src/lifecycle_readout/modeling/sr_gnn_v2.py"
+sha256 = "44227727a92a6f36edee7c548c5d828d799bfd9b19113a589b5ab15f8ab26583"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_features/sealed_source/src/lifecycle_readout/modeling/sr_gnn_v3.py"
+sha256 = "30228145709b492016d168be8a234b5141038f6f737b25171db9e7da9f9cfaa9"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_features/sealed_source/src/lifecycle_readout/modeling/sr_gnn_v3_3.py"
+sha256 = "a9427e089a0a58071c92cda800d374b6ff454f301b774ae33f18b6833b2a7755"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_features/sealed_source/src/lifecycle_readout/modeling/temporal_mixer.py"
+sha256 = "36f9b409390411d887f927e78b5168fb87b3c15b0edc37ea462380b542740f9e"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_features/sealed_source/src/lifecycle_readout/official_data.py"
+sha256 = "42df4b69d538fabb470a40ee6daa5aa5a0f4bb256d4114ce0da40b3226c9bc4f"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_features/sealed_source/src/lifecycle_readout/pair_clock.py"
+sha256 = "2c7c1fb0ec1b0d038e0dfc91a2a4aa09800ee261cb5139365e14b309596c0630"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_features/sealed_source/src/lifecycle_readout/ranking.py"
+sha256 = "d5f7353949506ad842e91b1aa0a8dc42237d63113ee12fb2abf1987075c03bd7"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_features/sealed_source/src/lifecycle_readout/stream_baselines.py"
+sha256 = "50f52c09030b89de8b93dcba8c4315ae3fe02e150f182f25e43a22306cf64440"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_features/sealed_source/src/lifecycle_readout/synthetic_response.py"
+sha256 = "49d636189f8795505089551bcd5e01695dedb7d7c7fc633972a0b6a9ee786da6"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_features/sealed_source/src/lifecycle_readout/training.py"
+sha256 = "8d85c66082b82c6d4d2dbe973a33c2defb136bb27ad1d4a547433a91554cfe20"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_features_execution.txt"
+sha256 = "86440da1748ee1f1f0ec069dec6079629806f374ed4a216f437e22a9fec88000"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_original/report.json"
+sha256 = "8eda98ff65684f833b16401e8e39aa94fee2dcf5699c78c0c902f9541b6260c9"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_original/sealed_source/src/lifecycle_readout/__init__.py"
+sha256 = "310ab7033974cfc77f935c4d3f0881a68fc0cdb830c0a73ac0a00ed0b78d7d86"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_original/sealed_source/src/lifecycle_readout/benchmark.py"
+sha256 = "9e7c0ad7841c11b2e1b4c1bd446712e48d8ae10b29f84da74bf99a8b6a38c2c9"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_original/sealed_source/src/lifecycle_readout/causal_stream.py"
+sha256 = "a977ea9be15212670cfce693514eea5a0c7d0dcd3d207662b0c82a2c397536b3"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_original/sealed_source/src/lifecycle_readout/colab_workflow.py"
+sha256 = "c5950a05d39fe6de6019c346e28f682a09e4db4bd589a50268a59971c5cb263f"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_original/sealed_source/src/lifecycle_readout/craft_adapter.py"
+sha256 = "2f76ae3a2c642e00e3776cfde9856e0f7bb5c203a9c5833f0387ebdb0b4d2995"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_original/sealed_source/src/lifecycle_readout/craft_training.py"
+sha256 = "7f3cf11a5acb458e5731da86b5579163083dd6bdd7ba16fed611233fa1220d83"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_original/sealed_source/src/lifecycle_readout/datasets.py"
+sha256 = "b6f595349d611fb509ab1e13fee9974e2efc8f6b4fcc3ab536f13efa25be7a30"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_original/sealed_source/src/lifecycle_readout/hard_controls.py"
+sha256 = "4060b4fda6727d10bb0bbc05d232ee6558a100c464e9dda9e34af3f14dd70ab9"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_original/sealed_source/src/lifecycle_readout/metrics.py"
+sha256 = "a2e1a291b1abf69a5a9b01a751e16c9186c6d4bc8e8bf1fc9d036a89709caf69"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_original/sealed_source/src/lifecycle_readout/modeling/__init__.py"
+sha256 = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_original/sealed_source/src/lifecycle_readout/modeling/fsm_head.py"
+sha256 = "db564ccb3a282be488153d6c1809c2db6f019865e9ebc6b0e0dcd38268f986b6"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_original/sealed_source/src/lifecycle_readout/modeling/latent_lifecycle.py"
+sha256 = "d92ade6938c7d18acb181b7144f244b6b98566c64b245e8f471399f3421bc308"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_original/sealed_source/src/lifecycle_readout/modeling/monotone_residual.py"
+sha256 = "9ce498faca93ec0def73e6b3c8340c7661eded2d871e86900c01f697a5c079bb"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_original/sealed_source/src/lifecycle_readout/modeling/sr_gnn.py"
+sha256 = "611e34d967dbb78f4b7549d3eaf81c3c60ee4dd25adb713b389467c8f07e9214"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_original/sealed_source/src/lifecycle_readout/modeling/sr_gnn_v2.py"
+sha256 = "44227727a92a6f36edee7c548c5d828d799bfd9b19113a589b5ab15f8ab26583"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_original/sealed_source/src/lifecycle_readout/modeling/sr_gnn_v3.py"
+sha256 = "30228145709b492016d168be8a234b5141038f6f737b25171db9e7da9f9cfaa9"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_original/sealed_source/src/lifecycle_readout/modeling/sr_gnn_v3_3.py"
+sha256 = "a9427e089a0a58071c92cda800d374b6ff454f301b774ae33f18b6833b2a7755"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_original/sealed_source/src/lifecycle_readout/modeling/temporal_mixer.py"
+sha256 = "36f9b409390411d887f927e78b5168fb87b3c15b0edc37ea462380b542740f9e"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_original/sealed_source/src/lifecycle_readout/official_data.py"
+sha256 = "42df4b69d538fabb470a40ee6daa5aa5a0f4bb256d4114ce0da40b3226c9bc4f"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_original/sealed_source/src/lifecycle_readout/pair_clock.py"
+sha256 = "2c7c1fb0ec1b0d038e0dfc91a2a4aa09800ee261cb5139365e14b309596c0630"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_original/sealed_source/src/lifecycle_readout/ranking.py"
+sha256 = "d5f7353949506ad842e91b1aa0a8dc42237d63113ee12fb2abf1987075c03bd7"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_original/sealed_source/src/lifecycle_readout/stream_baselines.py"
+sha256 = "50f52c09030b89de8b93dcba8c4315ae3fe02e150f182f25e43a22306cf64440"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_original/sealed_source/src/lifecycle_readout/synthetic_response.py"
+sha256 = "49d636189f8795505089551bcd5e01695dedb7d7c7fc633972a0b6a9ee786da6"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_original/sealed_source/src/lifecycle_readout/training.py"
+sha256 = "8d85c66082b82c6d4d2dbe973a33c2defb136bb27ad1d4a547433a91554cfe20"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_original_execution.txt"
+sha256 = "86440da1748ee1f1f0ec069dec6079629806f374ed4a216f437e22a9fec88000"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_relative/report.json"
+sha256 = "284b45c61ce8614b5c60c44ba3d0934226782c32bdc8bb0a33c222971599bc0c"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_relative/sealed_source/src/lifecycle_readout/__init__.py"
+sha256 = "310ab7033974cfc77f935c4d3f0881a68fc0cdb830c0a73ac0a00ed0b78d7d86"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_relative/sealed_source/src/lifecycle_readout/benchmark.py"
+sha256 = "9e7c0ad7841c11b2e1b4c1bd446712e48d8ae10b29f84da74bf99a8b6a38c2c9"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_relative/sealed_source/src/lifecycle_readout/causal_stream.py"
+sha256 = "a977ea9be15212670cfce693514eea5a0c7d0dcd3d207662b0c82a2c397536b3"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_relative/sealed_source/src/lifecycle_readout/colab_workflow.py"
+sha256 = "c5950a05d39fe6de6019c346e28f682a09e4db4bd589a50268a59971c5cb263f"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_relative/sealed_source/src/lifecycle_readout/craft_adapter.py"
+sha256 = "2f76ae3a2c642e00e3776cfde9856e0f7bb5c203a9c5833f0387ebdb0b4d2995"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_relative/sealed_source/src/lifecycle_readout/craft_training.py"
+sha256 = "7f3cf11a5acb458e5731da86b5579163083dd6bdd7ba16fed611233fa1220d83"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_relative/sealed_source/src/lifecycle_readout/datasets.py"
+sha256 = "b6f595349d611fb509ab1e13fee9974e2efc8f6b4fcc3ab536f13efa25be7a30"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_relative/sealed_source/src/lifecycle_readout/hard_controls.py"
+sha256 = "4060b4fda6727d10bb0bbc05d232ee6558a100c464e9dda9e34af3f14dd70ab9"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_relative/sealed_source/src/lifecycle_readout/metrics.py"
+sha256 = "a2e1a291b1abf69a5a9b01a751e16c9186c6d4bc8e8bf1fc9d036a89709caf69"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_relative/sealed_source/src/lifecycle_readout/modeling/__init__.py"
+sha256 = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_relative/sealed_source/src/lifecycle_readout/modeling/fsm_head.py"
+sha256 = "db564ccb3a282be488153d6c1809c2db6f019865e9ebc6b0e0dcd38268f986b6"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_relative/sealed_source/src/lifecycle_readout/modeling/latent_lifecycle.py"
+sha256 = "d92ade6938c7d18acb181b7144f244b6b98566c64b245e8f471399f3421bc308"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_relative/sealed_source/src/lifecycle_readout/modeling/monotone_residual.py"
+sha256 = "9ce498faca93ec0def73e6b3c8340c7661eded2d871e86900c01f697a5c079bb"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_relative/sealed_source/src/lifecycle_readout/modeling/sr_gnn.py"
+sha256 = "611e34d967dbb78f4b7549d3eaf81c3c60ee4dd25adb713b389467c8f07e9214"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_relative/sealed_source/src/lifecycle_readout/modeling/sr_gnn_v2.py"
+sha256 = "44227727a92a6f36edee7c548c5d828d799bfd9b19113a589b5ab15f8ab26583"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_relative/sealed_source/src/lifecycle_readout/modeling/sr_gnn_v3.py"
+sha256 = "30228145709b492016d168be8a234b5141038f6f737b25171db9e7da9f9cfaa9"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_relative/sealed_source/src/lifecycle_readout/modeling/sr_gnn_v3_3.py"
+sha256 = "a9427e089a0a58071c92cda800d374b6ff454f301b774ae33f18b6833b2a7755"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_relative/sealed_source/src/lifecycle_readout/modeling/temporal_mixer.py"
+sha256 = "36f9b409390411d887f927e78b5168fb87b3c15b0edc37ea462380b542740f9e"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_relative/sealed_source/src/lifecycle_readout/official_data.py"
+sha256 = "42df4b69d538fabb470a40ee6daa5aa5a0f4bb256d4114ce0da40b3226c9bc4f"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_relative/sealed_source/src/lifecycle_readout/pair_clock.py"
+sha256 = "2c7c1fb0ec1b0d038e0dfc91a2a4aa09800ee261cb5139365e14b309596c0630"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_relative/sealed_source/src/lifecycle_readout/ranking.py"
+sha256 = "d5f7353949506ad842e91b1aa0a8dc42237d63113ee12fb2abf1987075c03bd7"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_relative/sealed_source/src/lifecycle_readout/stream_baselines.py"
+sha256 = "50f52c09030b89de8b93dcba8c4315ae3fe02e150f182f25e43a22306cf64440"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_relative/sealed_source/src/lifecycle_readout/synthetic_response.py"
+sha256 = "49d636189f8795505089551bcd5e01695dedb7d7c7fc633972a0b6a9ee786da6"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_relative/sealed_source/src/lifecycle_readout/training.py"
+sha256 = "8d85c66082b82c6d4d2dbe973a33c2defb136bb27ad1d4a547433a91554cfe20"
+
+[[artifact]]
+path = "results/audit/cadence_checkpoint_replay_v1/wikipedia_relative_execution.txt"
+sha256 = "0222840ffc5ec457c9f390b9a3e9ccca9fb32e5312baa3fb41a855ed241488df"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/checksums.sha256"
+sha256 = "b3a37033b9df1c857dceec859420884ce3471f3a3973c5b0d28a76008c932b1b"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/environment.txt"
+sha256 = "3b1e22e429be06096de176772f74128eb46fa98894453011a791e66137f1e7e9"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/partial_results.json"
+sha256 = "8bc3e0fbce47590625203fe730271f0359925f3a994f4077be40cb67c2431981"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/results.json"
+sha256 = "5fd32950bc7382730a59caced44242e3fc3c746d70fbb63df86608d2bc0e0ead"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed101/base_stats_seed101.json"
+sha256 = "a418cfd740286a927c3a3e620877bce24e0d3d1bd5ed960ca92971877075a91a"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed101/base_stats_seed101.pt"
+sha256 = "10a46740b957d22eae29db6b4d121b16f4fd0c34ce1371a2f30bb7ce0a9b7a15"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed101/base_stats_seed101_predictions.npz"
+sha256 = "bf11fbab75e05fd0acdb9b817f3b1f6ef8b0a097eb79d778a0ad15dea0566f7e"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed101/candidate_identity.npz"
+sha256 = "69ea0f43cdc2bf0dbd5b2e10594c428e810face98e04a7b2ca28b451c8928bce"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed101/mlp_residual_seed101.json"
+sha256 = "07a782c258cfb942411e044d6140812b001daa2bc6ad18c4bdada41964355fe7"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed101/mlp_residual_seed101.pt"
+sha256 = "6b5bf0e6b368e27fe1bedf0608dd8a85c989665dd816684578e42f6f59a86507"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed101/mlp_residual_seed101_predictions.npz"
+sha256 = "09d072a7cd889263fa440cf4fc0cf1c7c942dfe9d4832d8cda113959e4adfaf2"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed101/pair_clock.json"
+sha256 = "aa962cf0c022ee233284748ac2eba81b07040839d0c82f85520f5407222420d2"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed101/pair_clock.npz"
+sha256 = "d9264d0f7eac2ccf1ec24aed32dd18a286b71aa4767a8f6b559cef4619b6eae4"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed101/residual_mixture_seed101.json"
+sha256 = "a0d3aac2eb6608883874c9a1bfa42ca70b904b5a47afb96dd3b6de628b800a80"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed101/residual_mixture_seed101.pt"
+sha256 = "ee735fbb0dbfa492c4f9faa7e464e82996c0c9f69617b9f7581ed30bf40de373"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed101/residual_mixture_seed101_predictions.npz"
+sha256 = "f74eb63cf231e63efbd79756e3c7ecf570d0cca5e2207d4c235c872590aaaf0c"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed101/residual_scalar_seed101.json"
+sha256 = "c4480736e45e2c68160e7ea7b16828409fbf7f9052cca9ead6ba9b2e1502e6ae"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed101/residual_scalar_seed101.pt"
+sha256 = "73d626756dda093f0de7237e95a0748292b460f36371752890b3fb33e5dc86f6"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed101/residual_scalar_seed101_predictions.npz"
+sha256 = "21c36d19e80adf274e1e9a2e35c2821bcae45986141a028f1bc808c9e37bffa9"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed202/base_stats_seed202.json"
+sha256 = "4af2458759f6e7792de872454680c70b9cb0159d89f81cff4fbd9654b4e5f29b"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed202/base_stats_seed202.pt"
+sha256 = "13f73248f10108eb61b29967ac0aef071f7edd4eeaa43dde0d52a6786b5e47a0"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed202/base_stats_seed202_predictions.npz"
+sha256 = "73c69acc9c4bf2fdc4ef9f330f7d8593c19e0486e6b4392f4481e0c709644cde"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed202/candidate_identity.npz"
+sha256 = "78e6a5bc9cc9a138ac85e3e1734b7a6dd1156a41326d3831904f37c23c28268b"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed202/mlp_residual_seed202.json"
+sha256 = "ebf94c3abbd4e5a1321c7d5a87897b4d78585ac0480c6f01f2e566052d1f03c3"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed202/mlp_residual_seed202.pt"
+sha256 = "dc5a4b6af2dbbc515496f05a52cf7a97c6f04ad1930ff954cf89d7ec4aa0d503"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed202/mlp_residual_seed202_predictions.npz"
+sha256 = "ee75ca123e0512a2ae7005416d6a361f3b0bbafd61e11fbe008b9fb86bbdb4dd"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed202/pair_clock.json"
+sha256 = "20cca080b5413a5152c22a6113a41d077354cd77f5a337dac23534d434f96359"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed202/pair_clock.npz"
+sha256 = "cf0c836b65bfd2789ca7759dbca5c54f07a728de5ce758d2b5dc9a3a2cf5c73b"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed202/residual_mixture_seed202.json"
+sha256 = "ce15c85d478a9adee66f5badf6c22dba306ef8a5fbd44343ddb44d5028430faa"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed202/residual_mixture_seed202.pt"
+sha256 = "2c1c8a8cd6df20ef74eb4ada72974e344910e9fdecc34e09279716ea54d98b64"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed202/residual_mixture_seed202_predictions.npz"
+sha256 = "d7a277f6c24dabb9c9ed383a75d54323e03eef3af2fb407b4d1287f715eec248"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed202/residual_scalar_seed202.json"
+sha256 = "fb4a9183136414a2cbccfe36b4a01876b3a7a3ecb8672e884e25c805ed92c2d8"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed202/residual_scalar_seed202.pt"
+sha256 = "498b8296064b00518842074200be55acf7c10bed83b0462ca50e94368c950a7c"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed202/residual_scalar_seed202_predictions.npz"
+sha256 = "6c473a3e7993092bb0e34a0feebd7874900fb21ebb0ace9baca2bc30fae17a89"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed303/base_stats_seed303.json"
+sha256 = "1fc6a1ba8ba986923b7cbd7ac22692b5fd11f4aa8f2c3b5a964846a867400bcd"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed303/base_stats_seed303.pt"
+sha256 = "88c5ac655f2a19f0963d8075c2e9c690ad6422b40d9fd9973d07928589b17f60"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed303/base_stats_seed303_predictions.npz"
+sha256 = "7cf7853443591f24fae13621e95c1c02ac5ef2d86348b3bf48a65c346024f8d1"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed303/candidate_identity.npz"
+sha256 = "a7bab461c7ec49fcd735b4468cf5f364e0c8f9917ce9ec7fa667e9f436af5238"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed303/mlp_residual_seed303.json"
+sha256 = "fdbc48a01dea05234bb82327e933ab5487cf90a2c02e256cd50dd9c352be8516"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed303/mlp_residual_seed303.pt"
+sha256 = "5bdd4442916f3bf52893e5ec012a47034c23a7a9a79988c6ad9993d21860e416"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed303/mlp_residual_seed303_predictions.npz"
+sha256 = "567b69849d2e9af1b0308183a3d35973bdb9f5ddd7e40fdd419b504a3aeb8283"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed303/pair_clock.json"
+sha256 = "db54521f69ed833bece189e1efd44f6527a9b5f54fd50b4af1e87ebb552463e5"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed303/pair_clock.npz"
+sha256 = "8ee19d44e5ad6cb17b576abc944fb8cd915b7839b307b99f5d7fbeb13c5dddc2"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed303/residual_mixture_seed303.json"
+sha256 = "ab99f55c0d4de71d02cee690cd6373a0ebfe990a0196780b762b6ac7ae333c49"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed303/residual_mixture_seed303.pt"
+sha256 = "5bacac0c07b5a8d563c06938510662140e800991b2164395090621838af2808a"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed303/residual_mixture_seed303_predictions.npz"
+sha256 = "cb648e14c0b4bc6c61695c0bf18d454d3645a04f13475f675da8f3051b34e6cb"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed303/residual_scalar_seed303.json"
+sha256 = "60467301b14a16af8264a59895a8cc4b1991db9a113d9f8476bdf0ee879ee5fa"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed303/residual_scalar_seed303.pt"
+sha256 = "7be6eb6ab340c3eae4456e951966ff70a55561db5c42ff5f9bd88dd9a252eede"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/seed303/residual_scalar_seed303_predictions.npz"
+sha256 = "732d0ff406a5c92e1f06ca22a6a684f45d878dcf53c59c7aa74b9cf9c57236c8"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/source_manifest.json"
+sha256 = "fa4826b3da7c466dda74e6e9f67610c7796fe90bdd259309bbd65b4c36612219"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts/training.txt"
+sha256 = "a0318b1772b2cc5d7d5e14c106b38364332dbcf78937131ed02a35edd45f70d1"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/artifacts.tar.gz"
+sha256 = "1479a7b206f086a847d1ebf5cd210fae158af9428d3a75bf0ae05393e7070de6"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/cadence_arm_audit.json"
+sha256 = "b67da3930eb208b78171da9ea85c29f99dd788f8071b3903f76f92bd1bdeee1b"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/job.json"
+sha256 = "66fd62b0d2b7c1bb1eac82aa04f250527ecf04991c23235c1cb5a3ca9607dbc4"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-3378d22194/source.zip"
+sha256 = "b4ea90f5cfa6205f2926071217c7823b3990504f584e4d27b91d5a9c38ce6df1"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/checksums.sha256"
+sha256 = "e6b20f0d19d87e804f5fd3e4e1c9fd764730b169b64da9228d0b0b97864ca5b6"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/environment.txt"
+sha256 = "3b1e22e429be06096de176772f74128eb46fa98894453011a791e66137f1e7e9"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/partial_results.json"
+sha256 = "01017c6d923dcaba8bac2ad0ffb6a8582051492f58d4e50607cc2e78865b16aa"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/results.json"
+sha256 = "f0971cd6d704d6c87a1f44c370c56aea82281734484e0f224496be7ba573cc0c"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed101/base_stats_seed101.json"
+sha256 = "62b8431bb33a5b2a705eaf0d2a1ac7a8f780018ec1f585980fc57f46f0d1ba8b"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed101/base_stats_seed101.pt"
+sha256 = "6f4dd72977022d83180b261dc3080f1fbee211085853e3f2dba7a1e6553373c7"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed101/base_stats_seed101_predictions.npz"
+sha256 = "ca0fd2ca6dac47f6b0e452f21cb97aa8c047a54598178c08dba8e40f8e327fc9"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed101/candidate_identity.npz"
+sha256 = "7860afdedf19427cd607f994e8c664826070bc48bac23f8d1aa52fe0c63a6d2a"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed101/mlp_residual_seed101.json"
+sha256 = "3e4c85b720eb54624d3cadf6199ae4e5295f6e034db2a31e1c7ea280a9e6625c"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed101/mlp_residual_seed101.pt"
+sha256 = "9b9b961b2d06518cdf5c9370c9dd9f427ed1645c91cb0ca5498e1af06a3c60cc"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed101/mlp_residual_seed101_predictions.npz"
+sha256 = "24aa7b0051bbdf180d574572f156cebe08c25bc5bf0d6e8711fa1fbbe298e63a"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed101/pair_clock.json"
+sha256 = "8a04341144ba8a4ea22c4b09e8a0be9dfcfc24570fa2ce287a26ed0a1f2031ee"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed101/pair_clock.npz"
+sha256 = "d9264d0f7eac2ccf1ec24aed32dd18a286b71aa4767a8f6b559cef4619b6eae4"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed101/residual_mixture_seed101.json"
+sha256 = "1d6c88281731aba4cf75858621b0e8c9934c96ffdc6e45568871b251079ebe3a"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed101/residual_mixture_seed101.pt"
+sha256 = "db8efdbf60c037c8b2b00a4d4b544c6e1a644a2b234a09161560704b609f80a8"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed101/residual_mixture_seed101_predictions.npz"
+sha256 = "e8e4d070613e79b4b212d2d2fe861c4e99f14778279f9a4e0f8ec8fda4483b07"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed101/residual_scalar_seed101.json"
+sha256 = "b46f4b4ca4f2af5f50541fa270081873794c380396055aa56df6d70b6add1920"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed101/residual_scalar_seed101.pt"
+sha256 = "e4aae4154fb87c998377df1b70ca084e2cf7c82cb1f531747622f599ad412708"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed101/residual_scalar_seed101_predictions.npz"
+sha256 = "0f38d6830b6d3d2a78242a32f824d6f5f6eebbe07013a23dd6a4cce8fde94f1b"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed202/base_stats_seed202.json"
+sha256 = "a23001cc6b4b0c6ad435407be9a15899f9ae5ede0caa57aa7ff4b373c8c9914f"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed202/base_stats_seed202.pt"
+sha256 = "2b31e878f680902239296fd2720550baecb5a09d8087280c12f5e6368f83c61f"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed202/base_stats_seed202_predictions.npz"
+sha256 = "6d45fad347baa5d37e9132ce37444953d29d3bbc38a0a914f2a6f15137183084"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed202/candidate_identity.npz"
+sha256 = "beb6c79b15158fb31cf79ae8262980bdc610eede90fedb94d6e47b4f8e69f791"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed202/mlp_residual_seed202.json"
+sha256 = "3e52fb3b4778609ed1e0e31f3ba3e790367d8e233420389d0e4789cd69540b78"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed202/mlp_residual_seed202.pt"
+sha256 = "c492861fd008038e436ca283bfd1f6bcd8071d334f575b263ef7cdebc3b0669b"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed202/mlp_residual_seed202_predictions.npz"
+sha256 = "d76e41fa870a8545f8443240be79d5a12baf094f4b1397bdcc77984a68aa2d45"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed202/pair_clock.json"
+sha256 = "b85d0c58786cdb72a8e665834b129e2166ea4aaeeb46baade2af7d9979111a38"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed202/pair_clock.npz"
+sha256 = "cf0c836b65bfd2789ca7759dbca5c54f07a728de5ce758d2b5dc9a3a2cf5c73b"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed202/residual_mixture_seed202.json"
+sha256 = "15c49b7e7c3209af35b0c6e15b54d40dd0ffa7464e7777d5094eea5392963389"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed202/residual_mixture_seed202.pt"
+sha256 = "22820dd98a6ac5d74ebbe7b31b6d915a7673d0a9895e46d5338a345d2f4fa63d"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed202/residual_mixture_seed202_predictions.npz"
+sha256 = "e97808a7eabff6aa5b5b9d7aca78734cac772b75c3af08e57be83fe5b33d9ebd"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed202/residual_scalar_seed202.json"
+sha256 = "2f18dab862d845ec6674fdcf14d934e4372c36fcfbd444194b3a69f769b43eed"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed202/residual_scalar_seed202.pt"
+sha256 = "6fac90825e96e1a856d4a4106a94589b7addaf835943759aae07b5a70779a581"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed202/residual_scalar_seed202_predictions.npz"
+sha256 = "01f8da561d4804e9eb71ab652a7b4bde7fa118c6c9636455eb04ef0c48957038"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed303/base_stats_seed303.json"
+sha256 = "8e16a6c8c700782d5d2c4a1a3d6a8929c669a34f641d346b088af6776285054f"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed303/base_stats_seed303.pt"
+sha256 = "af06bff5ea0cdddfb51d672c5d06f53fbf2275df612fd28102227465725d1bb1"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed303/base_stats_seed303_predictions.npz"
+sha256 = "839158c4e11d6f0f9dd07dced42290611abae3b2fd39e318fdd389d77ccc2d08"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed303/candidate_identity.npz"
+sha256 = "e4003313623b5c193b5f2c2c5ba0704a913f5e26443e7ccf00d6bff64baadcf6"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed303/mlp_residual_seed303.json"
+sha256 = "21932733ec17ce9259806e98d3c5b774656beb6480d76fd40a2826a4f23b98ab"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed303/mlp_residual_seed303.pt"
+sha256 = "1af5b1890b71f008c0469ac505af0d9e80dcad4f97d1f9bf60fd4bb855054dd1"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed303/mlp_residual_seed303_predictions.npz"
+sha256 = "09d7d3db5af309aeb2d0b26eca5ee1427036ca1bb90646e3fee60d14a3b359bc"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed303/pair_clock.json"
+sha256 = "86e219e07d140e07fd251f6c74e717d42c600f9ee20b250b86391e8a98d2b5b5"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed303/pair_clock.npz"
+sha256 = "8ee19d44e5ad6cb17b576abc944fb8cd915b7839b307b99f5d7fbeb13c5dddc2"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed303/residual_mixture_seed303.json"
+sha256 = "0ae86c9880a5ae7e393bc88308b39a675f73d45745d36cca672ec14e534364f7"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed303/residual_mixture_seed303.pt"
+sha256 = "7ac6ed961440257b21445646d3f4a53ba8132444c7f0c5c3de126e26094eb97d"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed303/residual_mixture_seed303_predictions.npz"
+sha256 = "c18e9d7bd93b27960da373a303d55972559c8aa4ca758bbfbd16d67a2ef1ec08"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed303/residual_scalar_seed303.json"
+sha256 = "f206605105ab0e72bb1c6dfb6a0758e4b8d2bc0714b779c76ef7486139dbb868"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed303/residual_scalar_seed303.pt"
+sha256 = "640bf0ea609bc7328966c6b3139d373c6a81ac2369eca33a54e815f32ead75d3"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/seed303/residual_scalar_seed303_predictions.npz"
+sha256 = "d5258b39a2d22446d4c278f0cd67c40d348dbd1eac8222ce8ad0a3cf1c860091"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/source_manifest.json"
+sha256 = "920f9f07e8cc3bc9c9a24f831edbad6fbceda61290e8c75394dcc0f1946208f5"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts/training.txt"
+sha256 = "0ecbc91f39905b72353042ec3770321bb702ae69b4c6db8cd5231d97037a57dc"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/artifacts.tar.gz"
+sha256 = "43b8d95799ce5d3975c6a97236a578431325eddc543f7b89ef9c44a7bfa666d5"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/cadence_arm_audit.json"
+sha256 = "4e448309bf7b174e2edc0426587379f8af17558f05970cadc0d06d759405aa36"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/job.json"
+sha256 = "3ff332241fe92312e5b0effafa196d08338cf9dbb80108f20fc393603b0290f3"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/remote_completion.json"
+sha256 = "1f178e1918c7ec498eccc3b494002a9eef51b4fffd39d20cfcc0428387d3674f"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-91752ed8c3/source.zip"
+sha256 = "ec90db5b6a18bcdfd9690288376d624f9102c48bc3112517a1658f397b5b4412"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-9cf2622b16/artifacts/checksums.sha256"
+sha256 = "141c93d9732422649f7b31b86c50bc44c44216d69e896ad44d28cb2531941f5b"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-9cf2622b16/artifacts/environment.txt"
+sha256 = "3b1e22e429be06096de176772f74128eb46fa98894453011a791e66137f1e7e9"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-9cf2622b16/artifacts/partial_results.json"
+sha256 = "389fcc6103486e2a3b714d4335721dc7df4a93e0720d892fc99373f7dd29c203"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-9cf2622b16/artifacts/results.json"
+sha256 = "7643434a1dadd6fd23cfc299ca645f222f9fc5883bf851317b7762359f75f24a"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-9cf2622b16/artifacts/seed101/candidate_identity.npz"
+sha256 = "69ea0f43cdc2bf0dbd5b2e10594c428e810face98e04a7b2ca28b451c8928bce"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-9cf2622b16/artifacts/seed101/pair_clock.json"
+sha256 = "aa962cf0c022ee233284748ac2eba81b07040839d0c82f85520f5407222420d2"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-9cf2622b16/artifacts/seed101/pair_clock.npz"
+sha256 = "d9264d0f7eac2ccf1ec24aed32dd18a286b71aa4767a8f6b559cef4619b6eae4"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-9cf2622b16/artifacts/seed101/residual_mixture_seed101.json"
+sha256 = "46d163b1cd4a7f38f65f3440a70b10487e3bd3738620ae8719c85a5603f2f1c1"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-9cf2622b16/artifacts/seed101/residual_mixture_seed101.pt"
+sha256 = "9eaffeb5bb525cf70cfd8a6864c40073bd75fdc27581821ca6926407eae4846b"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-9cf2622b16/artifacts/seed101/residual_mixture_seed101_predictions.npz"
+sha256 = "541ceba34b0d0d756d1cfcbb234fa3a130b6f564bc2b37256e9bb7ec3d01e94a"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-9cf2622b16/artifacts/seed101/residual_scalar_seed101.json"
+sha256 = "b95b23b611934f03d90f7b47aa998304b45f33a7f091fa8f8219dcc7f7ffe15e"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-9cf2622b16/artifacts/seed101/residual_scalar_seed101.pt"
+sha256 = "8037ee98d6c33c2eeb707a7d6289175faecfe0c313e7ff4c89784b95f8309960"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-9cf2622b16/artifacts/seed101/residual_scalar_seed101_predictions.npz"
+sha256 = "ce3697156216ed5ee323270e670991b66964c454803c9af46c437057252f012c"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-9cf2622b16/artifacts/seed202/candidate_identity.npz"
+sha256 = "78e6a5bc9cc9a138ac85e3e1734b7a6dd1156a41326d3831904f37c23c28268b"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-9cf2622b16/artifacts/seed202/pair_clock.json"
+sha256 = "20cca080b5413a5152c22a6113a41d077354cd77f5a337dac23534d434f96359"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-9cf2622b16/artifacts/seed202/pair_clock.npz"
+sha256 = "cf0c836b65bfd2789ca7759dbca5c54f07a728de5ce758d2b5dc9a3a2cf5c73b"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-9cf2622b16/artifacts/seed202/residual_mixture_seed202.json"
+sha256 = "502df039709db43cb930a1392e821c37541a957ad07cea5894bc6e4e3a86e9e6"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-9cf2622b16/artifacts/seed202/residual_mixture_seed202.pt"
+sha256 = "ba6bf6fd62abd01cd4a4157927278d3358a136ee5ce7db0c28eeecc74e4b28a0"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-9cf2622b16/artifacts/seed202/residual_mixture_seed202_predictions.npz"
+sha256 = "1b45dc775f966799181e6cac49ebbb9ddb1b3a93775e9e032dcc2d31a265e65a"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-9cf2622b16/artifacts/seed202/residual_scalar_seed202.json"
+sha256 = "ed4f6f8c9d0d921f22fb8350eec13cf1e161b03d7a49c9b0a227fb035cb353d8"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-9cf2622b16/artifacts/seed202/residual_scalar_seed202.pt"
+sha256 = "f9f3ebc1d09d1ebae3329acd337d35125807e6a921830a97f7160bd915ca4466"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-9cf2622b16/artifacts/seed202/residual_scalar_seed202_predictions.npz"
+sha256 = "61973e59abfc8539ffa25097e8e863ae1e234c018642a96ef0899e19de1a7472"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-9cf2622b16/artifacts/seed303/candidate_identity.npz"
+sha256 = "a7bab461c7ec49fcd735b4468cf5f364e0c8f9917ce9ec7fa667e9f436af5238"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-9cf2622b16/artifacts/seed303/pair_clock.json"
+sha256 = "db54521f69ed833bece189e1efd44f6527a9b5f54fd50b4af1e87ebb552463e5"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-9cf2622b16/artifacts/seed303/pair_clock.npz"
+sha256 = "8ee19d44e5ad6cb17b576abc944fb8cd915b7839b307b99f5d7fbeb13c5dddc2"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-9cf2622b16/artifacts/seed303/residual_mixture_seed303.json"
+sha256 = "188aeccf9e3074672e1b5bc6b61eeed96db8ec13bb54e2cef463ec4b5c50e1ad"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-9cf2622b16/artifacts/seed303/residual_mixture_seed303.pt"
+sha256 = "4f3ffc89cb052d20318f6b30a7dad1c93395db41aca26c155b173553a0fd8798"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-9cf2622b16/artifacts/seed303/residual_mixture_seed303_predictions.npz"
+sha256 = "4bcf5941e72f2915998bbcb53831861e23bbd7270363a12850d7daf7d85c3587"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-9cf2622b16/artifacts/seed303/residual_scalar_seed303.json"
+sha256 = "4aa707faec1b48cc9531c70d06091a836a38a6bd6eb7416be202bff6831c7d83"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-9cf2622b16/artifacts/seed303/residual_scalar_seed303.pt"
+sha256 = "1e4bb32eb5846311c82ca7f9c19b5a727cd9a39eeb679424493ad46b88ef9c1b"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-9cf2622b16/artifacts/seed303/residual_scalar_seed303_predictions.npz"
+sha256 = "ec6760f5d5d56c9a1551409283e32a41af778094200167ccd6077911a48fbf2e"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-9cf2622b16/artifacts/source_manifest.json"
+sha256 = "d8196bf8eda9f719b169d093f6b8c811b9b3eebe1b3e992198e129c2206de5a2"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-9cf2622b16/artifacts/training.txt"
+sha256 = "be8cf22e7f6409d816bd430ded7c7a13cecc3eb89a89893d01146ef46037b04e"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-9cf2622b16/artifacts.tar.gz"
+sha256 = "cca4eb387863e3c655658cdc0501fd1b0bf5966fdf0ede743e8d48ad1f556ed9"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-9cf2622b16/cadence_arm_audit.json"
+sha256 = "d33323325550ade800d2bead4315144338c684d36c5f0ee67eae33bf941ffba3"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-9cf2622b16/job.json"
+sha256 = "061a56f449a87e2979be5926e015df03e602844461b44abc3048a1a33795ec38"
+
+[[artifact]]
+path = "results/audit/lcr-reddit-9cf2622b16/source.zip"
+sha256 = "94fc8c20c7b2d7af355d6516b34d68808a2a68a86d82d958d2985a7eba1c434d"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/checksums.sha256"
+sha256 = "b0a2a0917ca268f22adbb381b05330d0b923bc94972b178e6d60df4d90000b89"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/environment.txt"
+sha256 = "3b1e22e429be06096de176772f74128eb46fa98894453011a791e66137f1e7e9"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/partial_results.json"
+sha256 = "2dec7de4641e7e27f3b6657c2ee0f0c8b3c3469b36a7565afc2c46078dd18486"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/results.json"
+sha256 = "954fa2f789b841ebc5ba9a89afb0d1d086d2f6efbf5452c922ec80a459363ae7"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed101/base_stats_seed101.json"
+sha256 = "0fc91188023bd3b11ba4cfa00a786a8ed591fe518e3f64710de8147b82d470de"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed101/base_stats_seed101.pt"
+sha256 = "33e673f6bf8734d8a69e98f1ef8a4c7fb73a211fd8118a0a6601a2f2b6b261de"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed101/base_stats_seed101_predictions.npz"
+sha256 = "1cf845b6a3758b3d45dc191ab2af75a9ce2baa7a98903878cbc011d0397d016d"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed101/candidate_identity.npz"
+sha256 = "a30826566066e369617de8add73bc60a7b4cbeaaed394ff13d252ed9054dd276"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed101/mlp_residual_seed101.json"
+sha256 = "24bb04f632872dd175cfabadad2cff6e01ca1d42cdcfcb2e1f1bb0c4209d2a81"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed101/mlp_residual_seed101.pt"
+sha256 = "9524be4df7592c12124dc2e6683c7eaa20ecd2a55166da52f6a2c34052c1a60f"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed101/mlp_residual_seed101_predictions.npz"
+sha256 = "ac8817f93f4e116395a4431c0cb7f1b75030411d59061122e6b1d274e4494697"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed101/pair_clock.json"
+sha256 = "b9078d5deb20a9d155351b2dd40ebc0e9033dc7eea645e61d0b98d1b5a9883d1"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed101/pair_clock.npz"
+sha256 = "bc8804052e92e2fa414e108f3a9fcc98e6bdfaaf97b530979cd38097aa792450"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed101/residual_mixture_seed101.json"
+sha256 = "83f8ac1990b80a00bfa2d634181be4aea6ae4c2aa12895bc67e48f913f22c93e"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed101/residual_mixture_seed101.pt"
+sha256 = "6755967ea06f0fb1c422ab12b75f5e840dc76c6520ca3f8f2e360704fc258a58"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed101/residual_mixture_seed101_predictions.npz"
+sha256 = "6288cdefef78b134db48e1d6c9fbf424ef1d86f6bf5f884decc4dad7cf3985f3"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed101/residual_scalar_seed101.json"
+sha256 = "57f953ba33b672d0d165cecb8e9ea22a4565d275833fa42816f4aa650d54cfa3"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed101/residual_scalar_seed101.pt"
+sha256 = "cdab14853874ad955c1bc94ed7f8117a84b5e2d6fe229a36c126a6327c7a4b24"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed101/residual_scalar_seed101_predictions.npz"
+sha256 = "d79623233715941a496b94ebc3e2187124c7ea3c967e93d84f286445501ec330"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed202/base_stats_seed202.json"
+sha256 = "256bc2b7d97b6e66e5b7cbb1d84da08e78426038a44684ee568729ddc5ffe4b6"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed202/base_stats_seed202.pt"
+sha256 = "b2b8f6068d69684111afa2a967763fef0eb73239d63cafa737b16a46356a2b41"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed202/base_stats_seed202_predictions.npz"
+sha256 = "1e59288dfd5874b40b0259d01dd337b1ac9f0406c932aba724c1702aee3e048a"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed202/candidate_identity.npz"
+sha256 = "7f8ca67239a26cb9c0da8d5a104feeeb1d0f3334b6c3f905b9690739893d492a"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed202/mlp_residual_seed202.json"
+sha256 = "47378039254d6a62de6bd1a800fe803d7671af0eb1a80698ff13fcedccc7f1b0"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed202/mlp_residual_seed202.pt"
+sha256 = "b4383cb075ddd80479421461ab33932e17b0869ec4caeccb7dc96614068af0d0"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed202/mlp_residual_seed202_predictions.npz"
+sha256 = "b03a6f9fab50e58c0a4276ea83263876ed3dc5bcf9177c0d30723d0420dc93be"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed202/pair_clock.json"
+sha256 = "4128a1da7a29a76cf28157b93297d751027e7c8f2a618e009e05256e2b6e94e8"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed202/pair_clock.npz"
+sha256 = "ad37f4a52b58fdcea3cfb037bd651b663cc096b5fd95bec9741fdfd2f6db15ef"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed202/residual_mixture_seed202.json"
+sha256 = "9ff1892ba50bd949c1116d23f7f3f6f537471cc6b0a833e800192e466dc0ac67"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed202/residual_mixture_seed202.pt"
+sha256 = "4e19f24643fadcdb16376c69026e908dfc394036ea55f78426d0aa249512f10a"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed202/residual_mixture_seed202_predictions.npz"
+sha256 = "dc263fc68f9e109ba0618e789eeabab39283a7d42bb3297ba36bde049e14a9e0"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed202/residual_scalar_seed202.json"
+sha256 = "823f278f6cbe6f418b9a2927d75478b3d4b00f3bb1543a89ce965efe893eaee8"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed202/residual_scalar_seed202.pt"
+sha256 = "18fa5b5b3dd94a3f95f89bc5f9149a4f07349b8146d10ea15dfe7c2e8b35d3aa"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed202/residual_scalar_seed202_predictions.npz"
+sha256 = "66afe536078ad49ffe3b985d5d2cb2a09831d3f072f8e675ad88a5bbcada3d9d"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed303/base_stats_seed303.json"
+sha256 = "fb795eefc6f25e94652748b73d9908ad8e37a1836a12959b17c3e45289705f2b"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed303/base_stats_seed303.pt"
+sha256 = "f5dbb5fe5987ed084af73a3ea88827037d6d9553337fa67e9403649314047d1f"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed303/base_stats_seed303_predictions.npz"
+sha256 = "898656914c7b6e0115fd25b8e59e6309b24c8cafbebe106277cf5738ec639a25"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed303/candidate_identity.npz"
+sha256 = "33eaad0f897304fe65204c999961bf036a9a266629a3645aeea83f308dc1a76a"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed303/mlp_residual_seed303.json"
+sha256 = "8eaedf990077e949c6f39fd460b12e4f33f927040bacd3967d9310cb26b63884"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed303/mlp_residual_seed303.pt"
+sha256 = "875f279e118bc2654af2052d01cdd03bccefc1eae8020a15982f988d8e7cb462"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed303/mlp_residual_seed303_predictions.npz"
+sha256 = "3c5e67f296390e7efb90200713dbb47eb03d64aec83722216d7eca33b9b7c3eb"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed303/pair_clock.json"
+sha256 = "dba1ce2b8dbbbc3f493a9ea47eb10a05e7a1ade9a4fbe9e88a83d3fb5bc78be6"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed303/pair_clock.npz"
+sha256 = "c9efb5b9be2f7fcf1f29103993292a2ce4233a18faf3b4c4b83e0e7a460f980a"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed303/residual_mixture_seed303.json"
+sha256 = "877ee006fff50d0282c21e81efc092676b131b5289517b9f4b0e82d78c96aba0"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed303/residual_mixture_seed303.pt"
+sha256 = "8da7605f19a3c894c0fe96b8de8db9596fc4c81f39906bdec610aa59beaeb69e"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed303/residual_mixture_seed303_predictions.npz"
+sha256 = "21c0ada6e162e5c6dc1e6f193133293dceda6693d86cd874a4d65386345058c9"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed303/residual_scalar_seed303.json"
+sha256 = "716bf4354db113ed065f639f1db7441f55d9c22d0c149a91389e26c461f59871"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed303/residual_scalar_seed303.pt"
+sha256 = "6ba36a7634b18b751fffc794633aaa3d666b85b4650d3e788bb729c026676b10"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/seed303/residual_scalar_seed303_predictions.npz"
+sha256 = "df7fb0fe22602e784347472ddda5d5fa89554dc4adfadcf54cb5f2665c859b8c"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/source_manifest.json"
+sha256 = "ed40bde9248aca3c625a9dc30875f27cfa84940329cb86e0f976af33f42f7dab"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts/training.txt"
+sha256 = "52f85e516a6e48b62c7861cde40224ab051fab688a09c3b57341297544da096b"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/artifacts.tar.gz"
+sha256 = "5be87648487db41fae76906e8be425d73b08af8c89b444ffc1f8bf57a8d9a32e"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/cadence_arm_audit.json"
+sha256 = "13d87c49523b7b9ed4e77b5bd547083354419e33f3342d28e3c5a9ca44d61d6f"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/job.json"
+sha256 = "6ed929b1be1e509241131c7b7ca5a694a24e22dbc571f1c11098684bcc5faa54"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-3ba4f02a86/source.zip"
+sha256 = "1b34d2775bcf3d4e7f2b2a6a27db23852ce1f41dbda43d1a7503e5158bcbbd2e"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/checksums.sha256"
+sha256 = "ea65b7933f075ee2de2d00dd686556735da529ecc3adb13c3bb3526b097ea7ac"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/environment.txt"
+sha256 = "3b1e22e429be06096de176772f74128eb46fa98894453011a791e66137f1e7e9"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/partial_results.json"
+sha256 = "270527ec12247c4c4ec1124ef64dec52c51d3d8e9631b562debab9dbfc66c824"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/results.json"
+sha256 = "74e4be670548dd7a38a8cf67f1b7fe2c7adc654dd13d7c98ef692087e58d462e"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed101/base_stats_seed101.json"
+sha256 = "71ffba95e28f8ec52ba69bd4d035764174e16cc3c0a45e618332dee56986b10d"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed101/base_stats_seed101.pt"
+sha256 = "5a520a398a4230bb0828cc084818f0335180a7020d382f47fe532c8d03a6926c"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed101/base_stats_seed101_predictions.npz"
+sha256 = "f067e489f30ab3b8676d244da9f4cea1c048a562af5c4be76426af7b4c99f936"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed101/candidate_identity.npz"
+sha256 = "d899b69ef3dcda97eea6d208edfdbb0f40cddc9704c8359de1a5fd6c3a2225d7"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed101/mlp_residual_seed101.json"
+sha256 = "bfa2dffe678888c5f64a30968ac5430f9167e50b78b37c93442904b8cc6165e8"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed101/mlp_residual_seed101.pt"
+sha256 = "6dfb41549c6fed9c78c8fe8aae2100d22a8c2c7a202f88928c81d8060ae9120d"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed101/mlp_residual_seed101_predictions.npz"
+sha256 = "d44a2ae4a1c425c0438728f862c53cd5eb4734428a67df899787dd9746058e1a"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed101/pair_clock.json"
+sha256 = "6dff35dc81ab4794d375aea3d424126a8b491599012689fb920cf25955b8272a"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed101/pair_clock.npz"
+sha256 = "bc8804052e92e2fa414e108f3a9fcc98e6bdfaaf97b530979cd38097aa792450"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed101/residual_mixture_seed101.json"
+sha256 = "856e67710a1e08c8a11711de13e41b156df2cf9c405ea80d4d00c36eaefb3066"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed101/residual_mixture_seed101.pt"
+sha256 = "71b4bf6485af699e8749f14f4358250733fac939ecda1c37f5a6d6c995b26082"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed101/residual_mixture_seed101_predictions.npz"
+sha256 = "06ee110f1934a20b908deb144cf46c0c860da2f281c25349f7ba130a912a3b00"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed101/residual_scalar_seed101.json"
+sha256 = "c31803d50f986893609108e1cbf0dcb40e08932a2080ea072533eab0083ce63b"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed101/residual_scalar_seed101.pt"
+sha256 = "5909c5fafed51effc4644dd5e8f5ff733dc799ffcf568ba4e053cff59f919700"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed101/residual_scalar_seed101_predictions.npz"
+sha256 = "6a9710c5d060aa44821f98df07f65443c97b149b1a6e61bccb56923bf13e0773"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed202/base_stats_seed202.json"
+sha256 = "c26f48d1c699be4fbc6d28ccd814e9d1f9403bf55532c763aba73f29358c4195"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed202/base_stats_seed202.pt"
+sha256 = "7b867fc58d8dbae9fa1e8e95216ece19d311517ab78add93e779494bfcb9f9b8"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed202/base_stats_seed202_predictions.npz"
+sha256 = "80431ff41d600de523b9b87a42e001ce3804675c6a800e9af4eb9bd82cc78831"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed202/candidate_identity.npz"
+sha256 = "5f219c19d9016154e70c5599ff216f05781dca2904b984fdfae41f97400d7c27"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed202/mlp_residual_seed202.json"
+sha256 = "c8bdadbeb2006b01c0173a8eae52c518f13091b03fa43d2a2b529542d58b0383"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed202/mlp_residual_seed202.pt"
+sha256 = "b306c539cd87a4ea6fcd9332d7a0fc29d4b4507e92a4ae97a8d1b8985fd2b7cb"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed202/mlp_residual_seed202_predictions.npz"
+sha256 = "2977f0837750775ab4bd1f014bee553d44ec8ebd1dc1cc90b90d02c1cf324ba8"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed202/pair_clock.json"
+sha256 = "cdccecbf47203f18be6052d65fc2389eaca1fb3b71bfc34ba99487a7aa400a64"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed202/pair_clock.npz"
+sha256 = "ad37f4a52b58fdcea3cfb037bd651b663cc096b5fd95bec9741fdfd2f6db15ef"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed202/residual_mixture_seed202.json"
+sha256 = "1210207634ffb51d6c0c897a611571d3d1302fdd937b707ae11cabe8fc81aec8"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed202/residual_mixture_seed202.pt"
+sha256 = "d5e1a2d172d58fc9df66bea9a91c02ce6ed941bad5e9496b66d2d7a4eccd2836"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed202/residual_mixture_seed202_predictions.npz"
+sha256 = "f2c7c7a1f3a2c81c310283872106f72d0aaa57d79b00976ae0b4a45499226cfc"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed202/residual_scalar_seed202.json"
+sha256 = "2e7a8aa5f69d7747bb472d1daf63a52846842e7225199d851f9fa4f21d24766b"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed202/residual_scalar_seed202.pt"
+sha256 = "8cd2256524bb7ffde09e25a6c0318bb6ac7e370c2473d1083aab420492f3dbf9"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed202/residual_scalar_seed202_predictions.npz"
+sha256 = "69f76dfa290ed61e95a5f69d9a6ce2336555b4da227293938e7fbd07701bcbe2"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed303/base_stats_seed303.json"
+sha256 = "36d1d8ec433048d4c4797c0f6f81d73c9c1bf4e68214e01feaecf9f2b9d5e18c"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed303/base_stats_seed303.pt"
+sha256 = "832db7c4ec794e56db1a3ffa7c4698deedb50046b0d4e5558d259a15ed14f4e7"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed303/base_stats_seed303_predictions.npz"
+sha256 = "30cc931ab1be51b885f9a86a0d3e039549a26711de5de3e5d1f29a5844a3961d"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed303/candidate_identity.npz"
+sha256 = "5fbb52db28e3b8fdb7cbe175503c4e3f8125713c0e56cc1a4f52ab10439d879e"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed303/mlp_residual_seed303.json"
+sha256 = "b6adc94ab68892a213f4a08fe5f4d35f4f7dcc03b502ed25f39ad6b3a15aa7b3"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed303/mlp_residual_seed303.pt"
+sha256 = "c60d87cfc3cca8dd05a793c437c3e5ac27102c7dafdf8ee0c219fa611c618ffa"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed303/mlp_residual_seed303_predictions.npz"
+sha256 = "348be07a3b371e4160ddfaa4a583fa87ae5a38136f8e9fcc6c4dd93aeac1f895"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed303/pair_clock.json"
+sha256 = "2f025eb1575a0d0d2707d207d77db921cb04537b5d0ef8504c4ff55fefef40e6"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed303/pair_clock.npz"
+sha256 = "c9efb5b9be2f7fcf1f29103993292a2ce4233a18faf3b4c4b83e0e7a460f980a"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed303/residual_mixture_seed303.json"
+sha256 = "4c3ffe0ae26a4c0a1ca8f33fb402e5c787742c29896745e79045ae9d8774dffb"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed303/residual_mixture_seed303.pt"
+sha256 = "f8132fa887761a95fb7a960bc149d7456116b1f0bbba844f047acb2dd3888d18"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed303/residual_mixture_seed303_predictions.npz"
+sha256 = "92118f96f6951be16afcd7fbe07e2d72c72beafe404c917a18141a1f1b31a3f9"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed303/residual_scalar_seed303.json"
+sha256 = "4402f84feb1d4c43d492e05e50a43aeab2613c25ad81d61392b925053e911dd8"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed303/residual_scalar_seed303.pt"
+sha256 = "0cd7ea91824ea2aa090ffcf57d24853dc3e4ed6400eb2683715d61640289305b"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/seed303/residual_scalar_seed303_predictions.npz"
+sha256 = "9ef34c98aa774617a8aa7bf3bed7a2386ecdb5fe6b58de0c5836aabb0dc572d0"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/source_manifest.json"
+sha256 = "197c2a0e6107a9e89124d31765e63a42f60c2b4f62833b8d3a1f7005879b205f"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts/training.txt"
+sha256 = "70f1f3784afbb3c274f420d6ebba0148ae365e45aaf0041293df29ce7e5c1ec4"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/artifacts.tar.gz"
+sha256 = "cc9598bbc08d7f13c4bae2bc7f6b387407094754fba635e8ae511224ee3f93e2"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/cadence_arm_audit.json"
+sha256 = "cd227158427efeb3b84725a053ca0c97bbb3e2c8fcc008cbf0b97fad5eb3ac05"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/job.json"
+sha256 = "19f5da02c419a5e4a1f10fc3c500f4b6ec410d4350a04cad563ac02f8a6d9a20"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-9d9dafb06e/source.zip"
+sha256 = "54708dcb9788cab2321548ea99a3f047c6261dc870de679a9f19f113957bf805"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-ec20ddbdde/artifacts/checksums.sha256"
+sha256 = "79a1f58e8d8b50dc6d4d66d1a3f0865fbf466d2ca2afc061b220bf8160250339"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-ec20ddbdde/artifacts/environment.txt"
+sha256 = "3b1e22e429be06096de176772f74128eb46fa98894453011a791e66137f1e7e9"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-ec20ddbdde/artifacts/partial_results.json"
+sha256 = "ab505762bc812afe04dcc508ef9e6cf154b77c4187f24d7cde4e2694356a5628"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-ec20ddbdde/artifacts/results.json"
+sha256 = "0192548875a93d99dcadb804cda94fcfe8517b366d4dff678693405efb00630c"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-ec20ddbdde/artifacts/seed101/candidate_identity.npz"
+sha256 = "a30826566066e369617de8add73bc60a7b4cbeaaed394ff13d252ed9054dd276"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-ec20ddbdde/artifacts/seed101/pair_clock.json"
+sha256 = "b9078d5deb20a9d155351b2dd40ebc0e9033dc7eea645e61d0b98d1b5a9883d1"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-ec20ddbdde/artifacts/seed101/pair_clock.npz"
+sha256 = "bc8804052e92e2fa414e108f3a9fcc98e6bdfaaf97b530979cd38097aa792450"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-ec20ddbdde/artifacts/seed101/residual_mixture_seed101.json"
+sha256 = "654e7696e3bf64cb48968c91cdb81feafe371f88cde79d2461452eb0507d676a"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-ec20ddbdde/artifacts/seed101/residual_mixture_seed101.pt"
+sha256 = "bfb387bfeec461a4825f003a832ae333a284420f3444175863546a2f94b71f6e"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-ec20ddbdde/artifacts/seed101/residual_mixture_seed101_predictions.npz"
+sha256 = "a80a378bbff357cbb85a9f21eca36f1fa8cbb2d8aab359e7687455fab786b04f"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-ec20ddbdde/artifacts/seed101/residual_scalar_seed101.json"
+sha256 = "8ee61b8b6b2cdbddf01c24edcf7262ea24fa651ed88cd359a99e80882a854a60"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-ec20ddbdde/artifacts/seed101/residual_scalar_seed101.pt"
+sha256 = "185a55e70859843f14501d1e632411b165c5b01f0ef86cf4121daa2c29e2c4bd"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-ec20ddbdde/artifacts/seed101/residual_scalar_seed101_predictions.npz"
+sha256 = "7470cfedfecbb01b9ea785cb9dde0978fdf0fc1de801c9717e2a70129eb3a908"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-ec20ddbdde/artifacts/seed202/candidate_identity.npz"
+sha256 = "7f8ca67239a26cb9c0da8d5a104feeeb1d0f3334b6c3f905b9690739893d492a"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-ec20ddbdde/artifacts/seed202/pair_clock.json"
+sha256 = "4128a1da7a29a76cf28157b93297d751027e7c8f2a618e009e05256e2b6e94e8"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-ec20ddbdde/artifacts/seed202/pair_clock.npz"
+sha256 = "ad37f4a52b58fdcea3cfb037bd651b663cc096b5fd95bec9741fdfd2f6db15ef"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-ec20ddbdde/artifacts/seed202/residual_mixture_seed202.json"
+sha256 = "730b6bd95676300dfde094f3892d195f2ecf6b7d5ac2b1c877640d3ff256f5d9"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-ec20ddbdde/artifacts/seed202/residual_mixture_seed202.pt"
+sha256 = "006a8c082cb33328f8574d4dff9ef4be2315d46d7734ef8cb835dde3e77f2d59"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-ec20ddbdde/artifacts/seed202/residual_mixture_seed202_predictions.npz"
+sha256 = "345025d85f8e03d1150f0c90e57ef8ac7f6df31715853c12915c3f47051b91d5"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-ec20ddbdde/artifacts/seed202/residual_scalar_seed202.json"
+sha256 = "9447cc554e24839ddec695853c6f5fc62464c6c265edcaa7b6f341d1717d7098"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-ec20ddbdde/artifacts/seed202/residual_scalar_seed202.pt"
+sha256 = "6f3e37c743da5b1a07943625bbe6a3a8a43c513ae37461e6d030e81999087c7a"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-ec20ddbdde/artifacts/seed202/residual_scalar_seed202_predictions.npz"
+sha256 = "b38f204a400f57a14950004b4eec9e16d2295fdc2047b854cf7dc47d1ed66fa5"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-ec20ddbdde/artifacts/seed303/candidate_identity.npz"
+sha256 = "33eaad0f897304fe65204c999961bf036a9a266629a3645aeea83f308dc1a76a"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-ec20ddbdde/artifacts/seed303/pair_clock.json"
+sha256 = "dba1ce2b8dbbbc3f493a9ea47eb10a05e7a1ade9a4fbe9e88a83d3fb5bc78be6"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-ec20ddbdde/artifacts/seed303/pair_clock.npz"
+sha256 = "c9efb5b9be2f7fcf1f29103993292a2ce4233a18faf3b4c4b83e0e7a460f980a"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-ec20ddbdde/artifacts/seed303/residual_mixture_seed303.json"
+sha256 = "c54de1fa2f5ba48d326a982d56dc6f9739416223e2fb76fa8cf46187370b79a1"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-ec20ddbdde/artifacts/seed303/residual_mixture_seed303.pt"
+sha256 = "63cf7726cd43e358366d571cc5edd6e537f06939593e26fc256ea72a9c851a61"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-ec20ddbdde/artifacts/seed303/residual_mixture_seed303_predictions.npz"
+sha256 = "46d7496333e676b157ca5cfd9619e1b091adf79ef7e5002f94252d35e6496e36"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-ec20ddbdde/artifacts/seed303/residual_scalar_seed303.json"
+sha256 = "9be3ad45834916c14945220683bc52995c6bc423c469238ef6a22a15b886ec3f"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-ec20ddbdde/artifacts/seed303/residual_scalar_seed303.pt"
+sha256 = "0c95760abe3d6be3a60e15dde8a9f8a89996d807612496f64244de3223568bad"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-ec20ddbdde/artifacts/seed303/residual_scalar_seed303_predictions.npz"
+sha256 = "dc7ecd9b4c68dfeced0a5c94e723a3f9fe95baed2a6706c47e1cde5c1a02afc2"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-ec20ddbdde/artifacts/source_manifest.json"
+sha256 = "0f631c687add35ad85bfafd3ef554c4b693d593a30748c0fb725c66ab2aa7330"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-ec20ddbdde/artifacts/training.txt"
+sha256 = "d95295d80a715d6a9a33dfd69d6ed5d12ed6b39b311350bc5fc2c33c72542bb5"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-ec20ddbdde/artifacts.tar.gz"
+sha256 = "17088965878e7a6558d2e9b714cc309cb5f8dce0fccb027bb0a0c1b297a4cba0"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-ec20ddbdde/cadence_arm_audit.json"
+sha256 = "94e8d9f69bf9329ac4ee35163df726eada8791796ef22963cb87354f00b62a14"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-ec20ddbdde/job.json"
+sha256 = "0c1b04be0d1077d49fcb03bf028c1cf5d3a0ad20d3e59dbbb47e56aaf52aecb9"
+
+[[artifact]]
+path = "results/audit/lcr-wikipedia-ec20ddbdde/source.zip"
+sha256 = "a35b29103d9c94bf2c107a3259a1e05415eaba5771d01f98db57fec55441fe33"
+
+[[artifact]]
+path = "results/audit/pair_cadence_closure_v1/audit_cadence_checkpoint_replay.py"
+sha256 = "badbd0e57fb8f8373a30eff419ada7e212081525b5ed2d244ffb092bbaee84d5"
+
+[[artifact]]
+path = "results/audit/pair_cadence_closure_v1/audit_hard_checkpoint_replay.py"
+sha256 = "ecc569d8b82ea0711f4798ebfccc3aa7b61d6762b6944b91125bee3b173fa9c6"
+
+[[artifact]]
+path = "results/audit/pair_cadence_closure_v1/audit_hard_controls.py"
+sha256 = "345ebeeff3b4fa2a23fa03429d8693578e186dfd1cbb0d67f469e85a1d079daf"
+
+[[artifact]]
+path = "results/audit/pair_cadence_closure_v1/audit_pair_cadence_results.py"
+sha256 = "367a4e85a4b94c62222115d5d072213d98767a371ce41dbfa0c2f072c256eb8e"
+
+[[artifact]]
+path = "results/audit/pair_cadence_closure_v1/checksums.sha256"
+sha256 = "7e51771ce0b629b9f267c28be1e461e12b61ab71e2871671bff1e61411114568"
+
+[[artifact]]
+path = "results/audit/pair_cadence_closure_v1/closure_scope.json"
+sha256 = "9afe882c22f03930aad19bdc44904afdbc9b3ba16fe672fbeed888bc6c3d88b4"
+
+[[artifact]]
+path = "results/audit/pair_cadence_closure_v1/detailed_metrics.md"
+sha256 = "217d983b06bdf3a5f30c133bee8a1de12c31d15f47fed0daabe4b1b5b35fd8c5"
+
+[[artifact]]
+path = "results/audit/pair_cadence_closure_v1/normalized_jobs.json"
+sha256 = "99296491ff2fbd38d404d63181e81a5296c018ca509e2d3d36425564cb266127"
+
+[[artifact]]
+path = "results/audit/pair_cadence_closure_v1/primary.md"
+sha256 = "a24709ae910ab43eee194928c5cb2f2e3f652fa194b8f7255d20c7a3d8733729"
+
+[[artifact]]
+path = "results/audit/pair_cadence_closure_v1/secondary.md"
+sha256 = "5ba75588646bbc4263bfc6d3830e2caa9a3b40d43706164ca7a56f574646cbe3"
+
+[[artifact]]
+path = "results/audit/pair_cadence_closure_v1/summarize_pair_cadence.py"
+sha256 = "4b4a952ffb81261549012b6b77ec89678b7b0ab71b25feaee9f503df598ba03f"
+
+[[artifact]]
+path = "results/audit/pair_cadence_closure_v1/summarize_pair_cadence_before_details.py"
+sha256 = "081fb29492b31e138fb5ad656e01dbdf1a0051c7a30afd644bd4779a709b5233"
+
+[[artifact]]
+path = "results/audit/pair_cadence_closure_v1/summary.json"
+sha256 = "a78b92789e622dcb18de5880e15bb15fea464c9be01921a92df94f03dd4520bc"
+
+[[artifact]]
+path = "results/audit/pair_cadence_closure_v1/summary_initial.json"
+sha256 = "5dad575a7d19b6b94a372ff2fe269945696437b9ac7f8bcc79269f524c95d785"
+
+[[artifact]]
+path = "results/audit/pair_cadence_closure_v1/support.md"
+sha256 = "2732bb2616f8518b2beab5494a05ef460984ae2745fa5e74bf6e619686a441ae"
+
+[[artifact]]
+path = "results/audit/pair_cadence_closure_v1/table_reconstruction.json"
+sha256 = "c80ef9da6ef770784a1adf2560017199254b5f4cf273f3e78d30a6056c713f8a"
+
+[[artifact]]
+path = "results/audit/pair_cadence_closure_v1/test_cadence_checkpoint_replay.py"
+sha256 = "b62844a2b73755a8e85542ad0664c43c5a6afd902300855793d794a7dd23902a"
+
+[[artifact]]
+path = "results/audit/pair_cadence_closure_v1/test_cadence_summary.py"
+sha256 = "7e66ada33bbdf914a12ac484fab7d7429682dea36ebe2cdcf10f1355f8b60b91"
+
+[[artifact]]
+path = "results/audit/pair_cadence_closure_v1/verification.json"
+sha256 = "230fcaab45960f86f9e363acf29b4bdbf2b97a33ea099e220688a3be85ca5dd9"
+
+[[artifact]]
+path = "results/audit/pair_cadence_closure_v1/verification.txt"
+sha256 = "1aec87db58f25c01d3400578bf816e01e01155cfc3fef530c259a67275033621"
+
+[[artifact]]
+path = "results/audit/pair_cadence_closure_v1/wiki_result_owner_at_closure.md"
+sha256 = "9aa78aff923223ad17e49a4afbced25463a474709ba2a6d22978a35d9622b85d"
+
+[[artifact]]
+path = "results/audit/pair_cadence_execution_v1/execution_session.json"
+sha256 = "df983f0fb388db98675686b99dc4bf20d5d4e414b813dd352bf763f887e0c3e4"
+
+[[artifact]]
+path = "results/audit/pair_cadence_execution_v1/orchestration_source.py"
+sha256 = "466f07d5db111c75fd48edf2265f55998a4cf157566533aa68f2a1de34f66ab9"
+
+[[artifact]]
+path = "results/audit/pair_cadence_execution_v1/plan.json"
+sha256 = "26f3c0c63f772c461a0eb01cc7d3379cf0d9b97ed5e5774b7a44b7988d3aec2c"
+
+[[artifact]]
+path = "results/audit/pair_cadence_execution_v1/preallocation_verification.json"
+sha256 = "a39c81a5c2c808a84fb33b9bf5b0a3b9cc2ebef8356b42687a6f09a74caeef54"
+
+[[artifact]]
+path = "results/audit/pair_cadence_execution_v1/preclosure_catalog.json"
+sha256 = "5f0e7db92365a0ca9902f99fd22744d32babfb4e1b5d5018560431155f70223e"
+
+[[artifact]]
+path = "results/audit/pair_cadence_execution_v1/progress.json"
+sha256 = "56f98ea9572f45b3a86d5b9b554329e353f412538f7ddc2f5151b41b1d395bfa"
+
+[[artifact]]
+path = "results/audit/pair_cadence_execution_v1/reddit_comparison_audit.json"
+sha256 = "485fa927c4aecd74d0ddec9ff5bdef12dbc9c981cd48ede75cfb6a4733296d53"
+
+[[artifact]]
+path = "results/audit/pair_cadence_execution_v1/resource_final.json"
+sha256 = "01ec7a03739ee158a073612fbd8fd23ab6497b51a22d65f96ee36115456b3cbb"
+
+[[artifact]]
+path = "results/audit/pair_cadence_execution_v1/usage_observation_20261015T212723Z.json"
+sha256 = "45ac24ee754c060a98077a5c5c5dfccc8a5c11d94d77c0b4cdf496d3070906de"
+
+[[artifact]]
+path = "results/audit/pair_cadence_execution_v1/wikipedia_comparison_audit.json"
+sha256 = "d5507ae95a04ec0ffba4a4c182a8554987f71da4450e81088fc311f0a9e1c7ad"
+
+[[artifact]]
+path = "scripts/audit_cadence_checkpoint_replay.py"
+sha256 = "badbd0e57fb8f8373a30eff419ada7e212081525b5ed2d244ffb092bbaee84d5"
+
+[[artifact]]
+path = "scripts/audit_hard_checkpoint_replay.py"
+sha256 = "ecc569d8b82ea0711f4798ebfccc3aa7b61d6762b6944b91125bee3b173fa9c6"
+
+[[artifact]]
+path = "scripts/audit_hard_controls.py"
+sha256 = "345ebeeff3b4fa2a23fa03429d8693578e186dfd1cbb0d67f469e85a1d079daf"
+
+[[artifact]]
+path = "scripts/audit_pair_cadence_results.py"
+sha256 = "367a4e85a4b94c62222115d5d072213d98767a371ce41dbfa0c2f072c256eb8e"
+
+[[artifact]]
+path = "scripts/audit_pair_clock_inputs.py"
+sha256 = "f9162b9e5f90e71253ee52d92a5698c1723c76eeff06e319dc4f7bb5d96f7fa5"
+
+[[artifact]]
+path = "scripts/summarize_pair_cadence.py"
+sha256 = "4b4a952ffb81261549012b6b77ec89678b7b0ab71b25feaee9f503df598ba03f"
+
+[[artifact]]
+path = "tests/test_cadence_checkpoint_replay.py"
+sha256 = "b62844a2b73755a8e85542ad0664c43c5a6afd902300855793d794a7dd23902a"
+
+[[artifact]]
+path = "tests/test_cadence_summary.py"
+sha256 = "7e66ada33bbdf914a12ac484fab7d7429682dea36ebe2cdcf10f1355f8b60b91"

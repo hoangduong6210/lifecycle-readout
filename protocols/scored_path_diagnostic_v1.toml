@@ -1,6 +1,7 @@
 protocol_id = "LCR-P-SCORED-PATH-001"
 status = "prospective-posthoc-diagnostic"
 date = "2026-10-16"
+authorization = "Active user goal requests stronger evidence and contributions; audit existing trained models without refitting."
 parents = ["LCR-P-HARD-001"]
 attempts = ["results/audit/lcr-wikipedia-256094e9e7", "results/audit/lcr-reddit-bf7053e7a2"]
 model = "ordered_gate"

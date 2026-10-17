@@ -1,0 +1,188 @@
+schema_version = 1
+evidence_ids = ["LCR-E-LASTFM-INTAKE-001"]
+local_only = true
+publication_eligible = false
+
+[[artifact]]
+path = "evidence/jobs/LCR-JOB-LASTFM-INTAKE-001.toml"
+sha256 = "d2b853cf117359ef1768d07583e6d0830784d76455638fb7810436d343423473"
+
+[[artifact]]
+path = "protocols/lastfm_intake_v1.toml"
+sha256 = "8bfa74502e9cf160199265952f043bfc938bc50cd7dcf41b2ce27d51880f93dd"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_closure_v1/audit_lastfm_local.py"
+sha256 = "2fa24d2037998cfdf0dfb034a42d0824f2985c48f0392775ebe10c8c68e2e5b4"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_closure_v1/close_lastfm_intake.py"
+sha256 = "c71632c9e259ab48081770906b81db31f998d205ed980f010a51b487ff115ce4"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_closure_v1/download_lastfm.py"
+sha256 = "ed75af99a3d80349d980f5668c9b5c1d4ba76a249a06fa6af3580548aecdc53f"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_closure_v1/download_lastfm_ranges.py"
+sha256 = "1de22392fae22ff082d98b132674fb2cc09bbb921eb5384c414dedaa91ca319b"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_closure_v1/evidence__jobs__LCR-JOB-LASTFM-INTAKE-001.toml"
+sha256 = "d2b853cf117359ef1768d07583e6d0830784d76455638fb7810436d343423473"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_closure_v1/lastfm_primary_source_review.json"
+sha256 = "b2dc6b486d8eefc1a9e0b30b54f03a313a95fe8614b272c16b63677bb004d097"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_closure_v1/resource_final.json"
+sha256 = "083d0c3a946628af2d996114c18bac2433ba4c03a253d94f9da7b906be58c1d8"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_closure_v1/summary.json"
+sha256 = "26442ae473ed3f3a8dc7310dec4e1755a5b77362a714d54cad3aaf2b8c28f753"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_closure_v1/verification.json"
+sha256 = "8cee12f8b52be680a4e6e5ca32b7f8b912432725e8895399205ae6a90268ca8e"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_closure_v1/wait_and_run_lastfm.py"
+sha256 = "8263af23a8cb6f4e4799e7e84166310d23c6e3c4c7e0e8d3ca3064dd556e44fb"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_closure_v1/wiki__START-HERE.md"
+sha256 = "9472ebddb5eb93ba018581113cca926cbde4f37df75c13f8f7d8fe0349d9dbb0"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_closure_v1/wiki__claims__Current-Claim-Language.md"
+sha256 = "4fa780175c895960f5b7e3e1bc2c1327d48d4d8d9ee1d3db05919ea87075d2ba"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_closure_v1/wiki__datasets__Competition-Dataset-Proposal.md"
+sha256 = "396e4555b850368016ba5fa3fd321a8e1f847a607faf353a30c0d21699811f4e"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_closure_v1/wiki__datasets__Dataset-Registry.md"
+sha256 = "cf4b2b5a4d821ddaa7f4ceb0edcb7ba2625514ec552229092376b604a69cb842"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_closure_v1/wiki__datasets__LastFM-Intake-Preflight.md"
+sha256 = "faccd12ee91028fc1a9bd6f289829fa57c1d551404eea5205e7bd26eb0488e26"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_closure_v1/wiki__evidence__Evidence-Ledger.md"
+sha256 = "d17d5071be0ef34a88459f9ac59b7475742e006ef6ec22d3469955b2596cecaa"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_closure_v1/wiki__status__Live-Execution.md"
+sha256 = "8047b10083c5f4cf884ff3f1458398f882fbe030934e5500c6f68ab4e195d044"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_closure_v1/wiki__status__Project-Status.md"
+sha256 = "ecd65112c1d05c54740fb2649f86188a5a601ccf3d183184dcf8190baaa8ccdb"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_execution_v1/access_download_stderr.txt"
+sha256 = "eca98c478781f457f0fd5fac089be8e92f259775cfad565254c7ad2cd69d5d26"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_execution_v1/access_download_stdout.txt"
+sha256 = "26ff60db8ad7d63fb8319f9b94dfa18777c0bebcfb3413a9949cfa6c5e566edd"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_execution_v1/access_github_releases.json"
+sha256 = "b378f001706add59523fef9cc52fea94dead0c5c6152b2bf3c096fbf17257c59"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_execution_v1/access_institutional_download.json"
+sha256 = "94615adf6315c7efe381d2a7b4e1c6c568a077603356b25d44bf47040c3e0a6d"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_execution_v1/access_institutional_head.json"
+sha256 = "7245aa215f3d8414cdbeb0267d6abb754c4d44b9a54c0a807ba7fc5f31110dd4"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_execution_v1/access_range_download.json"
+sha256 = "a1b1211f4ecc48e183497967243da412d754bc1e6cd888311f76433794436727"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_execution_v1/acquisition_observation.json"
+sha256 = "b367245f2e70ee46c611b34068652385d14f5421a0f978b7c42531bd0949118e"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_execution_v1/artifacts/archive_identity.json"
+sha256 = "cd61da484585e74dcf23f0e7ba959aa61b476db791cbc1d8e79f49b3c22bc657"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_execution_v1/artifacts/artifact_manifest.json"
+sha256 = "53db06342ca8837e7de23c77d337c1b0047c9ecf549653b61b8e948ad8cd43a6"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_execution_v1/artifacts/identity_maps.json"
+sha256 = "5bc72d25ddb72dfe222bc0852eb4cea63109dbf803f34e201f2fa2de7db2eaf0"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_execution_v1/artifacts/results.json"
+sha256 = "0d68e05e4c4dd0f3294746266c0fdce98ee50d9b18d13218dcc8ebbf52116a55"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_execution_v1/artifacts/selected_members.json"
+sha256 = "eb28375428ddbb5a22541a9049f366d336a5b27f1eef094767724e09aad3f6de"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_execution_v1/artifacts/selected_training_events.npz"
+sha256 = "7e0882065b441d5a8daf1c4c7914e3a39fc87cb90f40ac1eb242ae54eafdbd00"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_execution_v1/environment.json"
+sha256 = "96b71d5605ffa0f25f03bab771dda0927eec4a47e77d54734877f49cd6482007"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_execution_v1/execution.txt"
+sha256 = "2ec9a582cab39dc22fe726fe0226c0f61f11563b2382309dd6c18d33f39a426d"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_execution_v1/independent_audit.json"
+sha256 = "292246d6eae746fa32386fc008635718ef2fb7db64d62111295b9233e5feaba7"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_execution_v1/independent_audit_plan.json"
+sha256 = "fff935bf25fa40bf492a8452e9bef738994e92bdee73f25e9fd6ad75f4a1202d"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_execution_v1/job.json"
+sha256 = "30cf3fccf0201b79c341a122a52882f875d2abed61bc306dead3e56d24cf5ddc"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_execution_v1/local_driver.py"
+sha256 = "5f097a615a374def8fc8702ac0d7e3dae58a3b0c39f43b3ffed40a1194752016"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_execution_v1/preanalysis.json"
+sha256 = "9585116cc4e3a7a7d3b753d9809e7841b3142411af4c4207dcc0d8d3616b2292"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_execution_v1/preflight_verification.json"
+sha256 = "0a3eb7af95a6324c3753819735af6d81d4fb52d6983dbc6add3345f155673179"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_execution_v1/protocols__lastfm_intake_v1.toml"
+sha256 = "8bfa74502e9cf160199265952f043bfc938bc50cd7dcf41b2ce27d51880f93dd"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_execution_v1/scripts__run_lastfm_intake.py"
+sha256 = "79db9a5170059fd473113cde62740bbaaf7a1c024f1ba494bb86b76a099ecc11"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_execution_v1/src__lifecycle_readout__lastfm_intake.py"
+sha256 = "e6f5d5ee10f58db28b3dc4b61514ac0323eac3446f88ae1278d8ba2d3f9741db"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_execution_v1/tests__test_lastfm_intake.py"
+sha256 = "13d59bb20308fd47f636c08c2fe6278b64406ef74217eb126276a1cbaf22caee"
+
+[[artifact]]
+path = "results/audit/lastfm_intake_execution_v1/tests__test_lastfm_intake_pipeline.py"
+sha256 = "fcabf043fca19587ad79a8867a8081dc3e6cf502cd2ce7405823afc841cdd4f0"

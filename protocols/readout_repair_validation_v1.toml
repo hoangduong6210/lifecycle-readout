@@ -1,6 +1,7 @@
 protocol_id = "LCR-P-REPAIR-VAL-001"
 status = "prospective-posthoc-no-refit-repair-evaluation"
 date = "2026-10-16"
+authorization = "Active user goal requests stronger contributions; evaluate whether a proved restricted repair preserves ranking without retraining."
 parents = ["LCR-P-SCORED-FULL-001", "LCR-P-HARD-001"]
 known_results = "Full original scored-path outcomes have been seen. No repair AP or path outcomes inspected before this protocol. Exploratory validation analysis, not independent confirmation."
 datasets = ["wikipedia", "reddit"]

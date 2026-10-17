@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "related_unit_and_repository_tests": {
+    "passed": 25,
+    "skipped": 1,
+    "seconds": 6.93,
+    "exit_code": 0
+  },
+  "final_wiki_contracts": {
+    "passed": 3,
+    "seconds": 0.22,
+    "exit_code": 0
+  },
+  "skip": "Optional unrelated local corpus absent",
+  "independent_real_cohorts": 6,
+  "independent_candidate_trajectories": 66138,
+  "independent_actual_and_grid_scores": true,
+  "real_fixed_projection_exactly_equals_raw": true,
+  "minimum_pair_margin": 0.1730612788890315,
+  "figure_visually_inspected": true,
+  "scientific_admission": false,
+  "new_remote_allocation": false
+}

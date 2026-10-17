@@ -1,0 +1,22 @@
+{
+  "status": "PASS_SCOPED_CLOSURE",
+  "preallocation_tests": {
+    "passed": 37,
+    "skipped": 1,
+    "exit_code": 0
+  },
+  "postclosure_tests": {
+    "command": "python3 -m pytest -q tests/test_scored_path_cohort.py tests/test_scored_path.py tests/test_repository_contract.py",
+    "passed": 20,
+    "skipped": 1,
+    "exit_code": 0,
+    "elapsed_seconds": 5.84
+  },
+  "per_dataset_artifact_audits": "PASS",
+  "source_guard": "PASS",
+  "normalized_job_pins": "PASS",
+  "backend_assignment_count": 0,
+  "new_fits": 0,
+  "test_scored": false,
+  "publication_eligible": false
+}

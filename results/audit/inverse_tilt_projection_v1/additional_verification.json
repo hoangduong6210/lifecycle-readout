@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "budget_exhaustion_test": {
+    "status": "EXPECTED_REJECTION",
+    "type": "RuntimeError"
+  },
+  "nontrivial_synthetic_example": {
+    "raw": [
+      0.5,
+      0.5
+    ],
+    "fixed": [
+      0.5562066613094738,
+      0.5125681915476291
+    ],
+    "all_rate": [
+      0.7071067811865476,
+      0.5
+    ],
+    "fixed_squared_distance": 0.003317148214335798,
+    "all_rate_squared_distance": 0.0428932188134525
+  }
+}

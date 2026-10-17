@@ -1,0 +1,29 @@
+{
+  "source": "paper/working/revisions/20261015-journal-delivered-v1.docx",
+  "source_sha256": "a2411ecf585e61352ec1a8c58466f5ab2bd885f5b96e135c2753a189faebc9c1",
+  "revised": "paper/working/Monotone_Temporal_Gating_Journal_Manuscript_References.docx",
+  "revised_sha256": "840dcb799206eb4d62441ef5076f26a870a43724a18092515cac14c4d86f6829",
+  "changes": [
+    {
+      "reference": 11,
+      "before": "[11] Y. Tian, G. Qi, and F. Li, \u201cFreeDyG: Frequency enhanced continuous-time dynamic graph model for link prediction,\u201d in Proc. Int. Conf. Learn. Represent. (ICLR), 2024.",
+      "after": "[11] Y. Tian, Y. Qi, and F. Guo, \u201cFreeDyG: Frequency enhanced continuous-time dynamic graph model for link prediction,\u201d in Proc. Int. Conf. Learn. Represent. (ICLR), 2024."
+    },
+    {
+      "reference": 14,
+      "before": "[14] L. Yi, J. Peng, Y. Zheng, F. Mo, Z. Wei, Y. Ye, Y. Zixuan, and Z. Huang, \u201cTGB-Seq benchmark: Challenging temporal GNNs with complex sequential dynamics,\u201d in Proc. Int. Conf. Learn. Represent. (ICLR), 2025, arXiv:2502.02975.",
+      "after": "[14] L. Yi, J. Peng, Y. Zheng, F. Mo, Z. Wei, Y. Ye, Z. Yue, and Z. Huang, \u201cTGB-Seq benchmark: Challenging temporal GNNs with complex sequential dynamics,\u201d in Proc. Int. Conf. Learn. Represent. (ICLR), 2025, arXiv:2502.02975."
+    }
+  ],
+  "preserved_original_math_objects": 421,
+  "all_seven_tables_byte_identical": true,
+  "scientific_results_changed": false,
+  "full_reference_audit_complete": false,
+  "render_verified": true,
+  "package_boundary": "The re-saved live Word package contains empty equation elements and has different layout. Both it and the previously delivered package are preserved. This corrected export derives from the previously visually verified package; it does not overwrite the re-saved version.",
+  "render_pages": 19,
+  "render_review": "Final page 17 visually inspected; the other 18 PNGs are byte-identical to previously individually inspected final pages.",
+  "delivery_path": "<LOCAL_PATH>",
+  "delivery_sha256": "840dcb799206eb4d62441ef5076f26a870a43724a18092515cac14c4d86f6829",
+  "reviewed_at_utc": "2026-10-15T15:23:10.372981+00:00"
+}

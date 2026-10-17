@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "records": [
+    {
+      "dataset": "wikipedia",
+      "seed": 1,
+      "status": "PASS",
+      "candidate_count": 1768,
+      "minimum_fixed_rate_pair_margin": 0.5023794191559936,
+      "minimum_normalized_halfspace_slack": 1.2481404275805756,
+      "kkt": {
+        "primal": 0.0,
+        "complementarity": 0.0,
+        "stationarity": 0.0
+      },
+      "max_actual_score_reconstruction_error": 2.220446049250313e-16
+    },
+    {
+      "dataset": "wikipedia",
+      "seed": 7,
+      "status": "PASS",
+      "candidate_count": 1768,
+      "minimum_fixed_rate_pair_margin": 0.5403213674011205,
+      "minimum_normalized_halfspace_slack": 1.285386112509845,
+      "kkt": {
+        "primal": 0.0,
+        "complementarity": 0.0,
+        "stationarity": 0.0
+      },
+      "max_actual_score_reconstruction_error": 2.220446049250313e-16
+    },
+    {
+      "dataset": "wikipedia",
+      "seed": 42,
+      "status": "PASS",
+      "candidate_count": 1768,
+      "minimum_fixed_rate_pair_margin": 0.5139822259851513,
+      "minimum_normalized_halfspace_slack": 1.249626888564997,
+      "kkt": {
+        "primal": 0.0,
+        "complementarity": 0.0,
+        "stationarity": 0.0
+      },
+      "max_actual_score_reconstruction_error": 2.220446049250313e-16
+    },
+    {
+      "dataset": "reddit",
+      "seed": 1,
+      "status": "PASS",
+      "candidate_count": 20278,
+      "minimum_fixed_rate_pair_margin": 0.19978568219429765,
+      "minimum_normalized_halfspace_slack": 0.3362960458847065,
+      "kkt": {
+        "primal": 0.0,
+        "complementarity": 0.0,
+        "stationarity": 0.0
+      },
+      "max_actual_score_reconstruction_error": 7.771561172376096e-16
+    },
+    {
+      "dataset": "reddit",
+      "seed": 7,
+      "status": "PASS",
+      "candidate_count": 20278,
+      "minimum_fixed_rate_pair_margin": 0.28785141553157867,
+      "minimum_normalized_halfspace_slack": 0.4633651554348767,
+      "kkt": {
+        "primal": 0.0,
+        "complementarity": 0.0,
+        "stationarity": 0.0
+      },
+      "max_actual_score_reconstruction_error": 2.7755575615628914e-16
+    },
+    {
+      "dataset": "reddit",
+      "seed": 42,
+      "status": "PASS",
+      "candidate_count": 20278,
+      "minimum_fixed_rate_pair_margin": 0.1730612788890315,
+      "minimum_normalized_halfspace_slack": 0.2795260238223697,
+      "kkt": {
+        "primal": 0.0,
+        "complementarity": 0.0,
+        "stationarity": 0.0
+      },
+      "max_actual_score_reconstruction_error": 2.220446049250313e-16
+    }
+  ],
+  "scope": "Complete stored candidates, independent halfspaces/original pair margins and QP KKT; every actual/grid probability and derivative reconstructed with independent quotient equations; rank-based AP/AUC. No backbone/optimizer/raw-history reproduction or novel-optimizer claim.",
+  "model_fit": false,
+  "test_scored": false
+}

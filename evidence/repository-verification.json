@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "test_command": "PYTHONPATH=src python3 -m pytest -q",
+  "passed": 277,
+  "skipped": 4,
+  "skip_reasons": [
+    "Optional hash-pinned author cache absent",
+    "Optional local corpora absent"
+  ],
+  "evidence_command": "python3 scripts/verify_public_evidence.py",
+  "distributed_evidence_records": 71,
+  "wiki_pages": 72,
+  "markdown_links_checked": 866,
+  "figure_regeneration": "All article figures rebuilt; numeric CSV outputs matched included article inputs",
+  "secret_scan": "No credential patterns found in tracked text, source ZIP or DOCX XML",
+  "scope": "Repository implementation, structure and aggregate consistency; not checkpoint replay, raw-data redistribution or scientific admission"
+}

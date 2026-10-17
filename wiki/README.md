@@ -1,9 +1,67 @@
-# Scientific overview
+---
+title: Lifecycle Readout Research Wiki
+status: canonical home
+last_updated: 2026-10-17
+paper_source: false
+---
 
-The complete mathematical development and experimental limitations are in the [article](../paper/working/sncs/main.pdf), with [editable LaTeX](../paper/working/sncs/main.tex). The article derives the fixed-rate all-state certificate, its rate-cone extension and convex inverse-tilt repair, and compares structural behavior with predictive outcomes.
+# Lifecycle Readout Research Wiki
 
-The [figure map](Figures.md) connects every visual to its preview, vector files and numeric inputs. [Aggregate-data definitions](../paper/working/sncs/Supplementary_Data_Guide.txt) explain units, populations and the January/February selection boundary.
+[Research overview](../README.md) · [Complete index](INDEX.md) · [Distributed evidence](evidence/Repository-Evidence.md) · [Figure map](Figures.md)
 
-The exact guarantee assumes fixed candidate context and positive constant tilts along the absorbing flow. It establishes neither predictive superiority nor causal phase semantics. Reported controls include unfavorable and unconfirmed results.
+This wiki is the project's scientific source of truth. It owns method
+interpretation, claim status, limitations, decisions, and publication-ready
+language. A paper is a versioned snapshot of admitted wiki content, not an
+independent source of new claims.
 
-The public wiki is a reader-facing scientific overview. The authoring workspace also retains private planning and execution records.
+Executable code lives under `src/` and `experiments/`; protocol and configuration
+live under `protocols/` and `configs/`. The dataset registry identifies local
+corpora, and the evidence ledger explains what checked artifacts establish.
+Both release pointers are `UNRELEASED`.
+
+## Choose an entry route
+
+| Reader | Begin here | Then read |
+|---|---|---|
+| New contributor | [Start Here](START-HERE.md) | [Research System Map](architecture/Research-System-Map.md) and [Research Workflow](operations/Research-Workflow.md) |
+| Returning owner | [Project Status](status/Project-Status.md) | [Live Execution](status/Live-Execution.md), claims, evidence, and reproducibility |
+| Research reader | [Claim Registry](claims/Current-Claim-Language.md) | [Research Questions](questions/Research-Questions.md), [Methods](methods/Hierarchical-Lifecycle-Readout.md), [Results](results/Lifecycle-Faithfulness-and-Invariance.md), and [Limitations](LIMITATIONS.md) |
+| Dataset reviewer | [Dataset Registry](datasets/Dataset-Registry.md) | [Data and Target Contract](datasets/Data-and-Target-Contract.md), [Source Map](references/Technical-Source-Map.md), and [License and Assets](governance/License-and-Assets.md) |
+| Compute operator | [Research Workflow](operations/Research-Workflow.md) | [Live Execution](status/Live-Execution.md) and the [Reproducibility Contract](REPRODUCIBILITY.md) |
+| Paper editor | [Paper Export Contract](manuscript/Paper-Export-Contract.md) | [Claim Registry](claims/Current-Claim-Language.md), [Evidence Ledger](evidence/Evidence-Ledger.md), and [Limitations](LIMITATIONS.md) |
+
+## Canonical index
+
+The [Exhaustive Index](INDEX.md) lists every maintained wiki page by semantic
+owner and links the current identifiers to their registries. A page absent from
+that index is outside the maintained research record.
+
+## Authority rules
+
+1. `paper_source: true` identifies prose that may be considered for a future
+   paper only after its linked claim is admitted.
+2. `paper_source: false` identifies operational, historical, or editorial
+   material; it does not itself permit a scientific claim.
+3. A completed computation does not become a claim automatically. The
+   [Claim Registry](claims/Current-Claim-Language.md) owns exact wording,
+   population, evidence, qualifiers, and paper eligibility.
+4. A frozen release must pin source, data, configuration, attempts, failures,
+   and hashes before its evidence can support a claim.
+5. Working article exports are distributed as drafts. Raw corpora, trained
+   checkpoints and historical run payloads are not redistributed; public reports
+   are mapped in the evidence manifest.
+
+## Admission path
+
+```text
+research question
+    -> frozen protocol and immutable inputs
+    -> complete scheduler attempts and numerical gates
+    -> checksum-locked evidence release
+    -> scoped claim reviewed in the registry
+    -> manuscript-source page
+    -> versioned paper snapshot
+```
+
+The [Project Status](status/Project-Status.md) and [Evidence Ledger](evidence/Evidence-Ledger.md)
+currently stop this path before a scientific release or paper snapshot.

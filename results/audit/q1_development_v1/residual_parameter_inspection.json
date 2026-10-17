@@ -1,0 +1,62 @@
+{
+  "test_scored": false,
+  "records": [
+    {
+      "seed": 101,
+      "kind": "residual_scalar",
+      "checkpoint_sha256": "917ec323b634ba5451c8f835dc12f8f8b6315d04b60be2d7cee21e5353a18f00",
+      "amplitudes": [
+        0.0
+      ]
+    },
+    {
+      "seed": 101,
+      "kind": "residual_mixture",
+      "checkpoint_sha256": "24bec533de94710315a55962d3d0b9b80d06fda051700898c4e86e4ce55d590a",
+      "amplitudes": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "seed": 202,
+      "kind": "residual_scalar",
+      "checkpoint_sha256": "3fee78b986c94966dd3959250b277ec05b5d4f4fa5d0a75d34061df4ad02e036",
+      "amplitudes": [
+        0.00015179724141489714
+      ]
+    },
+    {
+      "seed": 202,
+      "kind": "residual_mixture",
+      "checkpoint_sha256": "18ad76208fead3cd764ff1ad33dacd80a1d361662b6be328ce08780bdfb1528e",
+      "amplitudes": [
+        4.815839929506183e-05,
+        0.00015959958545863628,
+        0.0001781561877578497,
+        0.00022076716413721442
+      ]
+    },
+    {
+      "seed": 303,
+      "kind": "residual_scalar",
+      "checkpoint_sha256": "c7417f1b6a0245be39a3cebe6b4202cbb57f1b87cc1a496cc2fa5f9b4d38eaf6",
+      "amplitudes": [
+        0.0009077501599676907
+      ]
+    },
+    {
+      "seed": 303,
+      "kind": "residual_mixture",
+      "checkpoint_sha256": "9f84aa0b326f65a17517b7074555a792966229419cc4c52bb4f80f9e7ab63a44",
+      "amplitudes": [
+        0.0009080200688913465,
+        0.0009262216626666486,
+        0.001001435797661543,
+        0.0007938159978948534
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "recorded_at_utc": "2026-10-15T13:24:19.381736+00:00",
+  "original_job_sha256": "4d8452912906a6d116eb2f7c6091d47b0872788cb2a0dc3ed61bb470b6b90a45",
+  "training_outcome": "completed",
+  "transport_outcome": "failed_client_interrupted",
+  "reason": "Remote partial-results file contains all seeds; downloaded closed archive and complete remote training log before terminating the stalled local colab exec client with SIGTERM. Finally retrieval verified artifacts and backend teardown. Original failed job is preserved.",
+  "remote_archive_sha256": "f66cac5e9949aa79c5e403697113fc682efcb0b7f809a2a6924cc9558e8a2861",
+  "publication_eligible": false
+}

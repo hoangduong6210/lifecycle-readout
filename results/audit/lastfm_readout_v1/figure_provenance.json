@@ -1,0 +1,8 @@
+{
+  "inputs": {
+    "results/audit/lastfm_strata_v1/results.json": "44a32cb0af736450ebe884b6252641a4568e79d0a30803ebba891f9da668a98f",
+    "results/audit/lastfm_readout_v1/results.json": "7ccd11a3b6713f8265d9c9b7c817c32d16f8eba1c55c484d47f10e39ce29afdc"
+  },
+  "png_sha256": "b6857db3111bb55096d0a01dc4a0377fe2d1ff5b3cbfba5ab3bd26332b5657f1",
+  "scope": "Complete nine joint cohorts and all three seed branch influence summaries; no model fit"
+}

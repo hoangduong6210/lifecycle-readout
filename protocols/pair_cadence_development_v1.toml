@@ -1,6 +1,7 @@
 protocol_id = "LCR-P-CADENCE-DEV-001"
 status = "prospective-implementation-validated-not-allocated"
 date = "2026-10-16"
+authorization = "User explicitly requested implementation of the pair-specific cadence clock; validation development design is recorded before any allocation."
 amends = "LCR-P-Q1-DEV-001"
 amendment_reason = "Separate added cadence information from changing the explicit attenuation clock, while preserving sampler, support, architecture family and objectives."
 datasets = ["wikipedia", "reddit"]

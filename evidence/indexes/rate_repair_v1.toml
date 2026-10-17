@@ -1,0 +1,264 @@
+schema_version = 1
+evidence_ids = ["LCR-E-INVERSE-TILT-001", "LCR-E-RATE-REPAIR-VAL-001"]
+local_only = true
+publication_eligible = false
+
+[[artifact]]
+path = "configs/rate_repair_validation_v1.toml"
+sha256 = "95ddb403626ab76dd4c8769456ab7f42ecda7910371e7852abd276365317cdbc"
+
+[[artifact]]
+path = "evidence/indexes/fixed_rate_tilt_v1.toml"
+sha256 = "811565be3689ea387ca1a293e4a29e94fd9de20c0e3f3caec9621ea1557bde52"
+
+[[artifact]]
+path = "evidence/indexes/readout_repair_validation_v1.toml"
+sha256 = "261ed147cf065163c2f33504131cb0f90e1660905ae731b512aab7fd1239e8eb"
+
+[[artifact]]
+path = "evidence/jobs/LCR-JOB-INVERSE-TILT-001.toml"
+sha256 = "44541d4bce1ee4b6b6ab5543dd9d43a518cc2bca5a03ff23c69fb6781df5e91d"
+
+[[artifact]]
+path = "evidence/jobs/LCR-JOB-RATE-REPAIR-VAL-001.toml"
+sha256 = "7e2caaa1693c3d0f5e9027cc422c3c03397a62ccf4c3814c8316e2321327d5a6"
+
+[[artifact]]
+path = "protocols/inverse_tilt_projection_v1.toml"
+sha256 = "e06985ed4bb0edccdd2a6252d206aaf00eda5b33f5fcd44c8c74210770b7770d"
+
+[[artifact]]
+path = "protocols/rate_repair_validation_v1.toml"
+sha256 = "a907f66a196c0d8663544312e458ce993343de6a65520e63c86410faaf48fd29"
+
+[[artifact]]
+path = "results/audit/inverse_tilt_projection_v1/additional_verification.json"
+sha256 = "9ab9e7e3e01a5b1e1ee61063351d97ff46f00a26b5edd8ae8d9af6a3d2697639"
+
+[[artifact]]
+path = "results/audit/inverse_tilt_projection_v1/close_inverse_tilt_repair.py"
+sha256 = "2fc3e272d75b86ddd61287c97846ba4312a8a7041aa33aa19818ae8ce9bc53bf"
+
+[[artifact]]
+path = "results/audit/inverse_tilt_projection_v1/hsieh2008_dual_coordinate.pdf"
+sha256 = "92ab9085135deb6e14388050ff46d17c9a49755c7a7ad3caab47d32438cde462"
+
+[[artifact]]
+path = "results/audit/inverse_tilt_projection_v1/initial_symbolic_check_failure.json"
+sha256 = "fb98aa1dee803c1c6ff230475217ae801ca089a73f776465359de219af3fd3d9"
+
+[[artifact]]
+path = "results/audit/inverse_tilt_projection_v1/inverse_tilt_projection.py"
+sha256 = "a8ce02caa8134a5804b6539a79ad99b0243049d21744b460274b86af76b10241"
+
+[[artifact]]
+path = "results/audit/inverse_tilt_projection_v1/inverse_tilt_projection_v1.toml"
+sha256 = "e06985ed4bb0edccdd2a6252d206aaf00eda5b33f5fcd44c8c74210770b7770d"
+
+[[artifact]]
+path = "results/audit/inverse_tilt_projection_v1/optimizer_positioning.json"
+sha256 = "49d48200bf340ea6a370b3590f29651ff5eb6fc912aed705fcf3fe5fd1c2a622"
+
+[[artifact]]
+path = "results/audit/inverse_tilt_projection_v1/prepare_inverse_tilt_projection.py"
+sha256 = "33ba0c0d104f0050bf234f759cd22667e7602d635302894383a94b45833472b3"
+
+[[artifact]]
+path = "results/audit/inverse_tilt_projection_v1/source_access.json"
+sha256 = "1be94f6c843bd01515ef7ec588c88222e7025f005d13afc6e771aed0a660fc4e"
+
+[[artifact]]
+path = "results/audit/inverse_tilt_projection_v1/symbolic_verification.json"
+sha256 = "8bb4b5620d993f9f5d4b330d615f6de84cea85a1a54bc14863fa071c1370f0ce"
+
+[[artifact]]
+path = "results/audit/inverse_tilt_projection_v1/test_inverse_tilt_projection.py"
+sha256 = "71a0689299bf941b9348c882fb091732fb2b8821abd4770137935c68ab24eec6"
+
+[[artifact]]
+path = "results/audit/rate_repair_closure_v1/close_inverse_tilt_repair.py"
+sha256 = "2fc3e272d75b86ddd61287c97846ba4312a8a7041aa33aa19818ae8ce9bc53bf"
+
+[[artifact]]
+path = "results/audit/rate_repair_closure_v1/configs__rate_repair_validation_v1.toml"
+sha256 = "95ddb403626ab76dd4c8769456ab7f42ecda7910371e7852abd276365317cdbc"
+
+[[artifact]]
+path = "results/audit/rate_repair_closure_v1/environment.json"
+sha256 = "2c48358496b2f285dd58660b412acb5e1d11071e794c09625137d0fd1440b480"
+
+[[artifact]]
+path = "results/audit/rate_repair_closure_v1/evidence__jobs__LCR-JOB-INVERSE-TILT-001.toml"
+sha256 = "44541d4bce1ee4b6b6ab5543dd9d43a518cc2bca5a03ff23c69fb6781df5e91d"
+
+[[artifact]]
+path = "results/audit/rate_repair_closure_v1/evidence__jobs__LCR-JOB-RATE-REPAIR-VAL-001.toml"
+sha256 = "7e2caaa1693c3d0f5e9027cc422c3c03397a62ccf4c3814c8316e2321327d5a6"
+
+[[artifact]]
+path = "results/audit/rate_repair_closure_v1/figure_provenance.json"
+sha256 = "032dd5b800b109b5b1b0107dbb048f43374a55a6b79a9c8b0b568d3dadfcf0e6"
+
+[[artifact]]
+path = "results/audit/rate_repair_closure_v1/fixed-rate-certification-and-repair.png"
+sha256 = "fd71d4405a6a5c4282d184a392d65bb6d3fa4d6bc92baeac7075d9bc2592d7b1"
+
+[[artifact]]
+path = "results/audit/rate_repair_closure_v1/index_rate_repair.py"
+sha256 = "a770e65b40a87c0e49dee2d499f14ff0f7244050f2faac9ba9f21a846a1c8d20"
+
+[[artifact]]
+path = "results/audit/rate_repair_closure_v1/plot_rate_repair.py"
+sha256 = "11e4e6365d6da19acb11a327a3ea6c8ce89e55c0da5df70775d30427dde6606b"
+
+[[artifact]]
+path = "results/audit/rate_repair_closure_v1/protocols__inverse_tilt_projection_v1.toml"
+sha256 = "e06985ed4bb0edccdd2a6252d206aaf00eda5b33f5fcd44c8c74210770b7770d"
+
+[[artifact]]
+path = "results/audit/rate_repair_closure_v1/protocols__rate_repair_validation_v1.toml"
+sha256 = "a907f66a196c0d8663544312e458ce993343de6a65520e63c86410faaf48fd29"
+
+[[artifact]]
+path = "results/audit/rate_repair_closure_v1/resource_final.json"
+sha256 = "a1d22685772d55999cc06b8e830c2d294ef592e346293a9ffe85aded938b62f1"
+
+[[artifact]]
+path = "results/audit/rate_repair_closure_v1/summary.json"
+sha256 = "af5a73319370df9cb0cbb439e358f72ab40ceecb954022a1c8024a38fdd6fe37"
+
+[[artifact]]
+path = "results/audit/rate_repair_closure_v1/tests__test_inverse_tilt_projection.py"
+sha256 = "71a0689299bf941b9348c882fb091732fb2b8821abd4770137935c68ab24eec6"
+
+[[artifact]]
+path = "results/audit/rate_repair_closure_v1/tests__test_rate_repair_validation.py"
+sha256 = "fa425a8ec623ad2fc831e3261e1627f7dade5c6a0e27d693aa5da147ebdb5ac2"
+
+[[artifact]]
+path = "results/audit/rate_repair_closure_v1/verification.json"
+sha256 = "da4d15f2ba013e491c4cd18f0642bbd6494afcb45039db3223f970435e179602"
+
+[[artifact]]
+path = "results/audit/rate_repair_closure_v1/wiki__INDEX.md"
+sha256 = "e8e3d0bb0d197eac75b6cc9aaf418647e142a610e6d82cb416a5e1cad2288434"
+
+[[artifact]]
+path = "results/audit/rate_repair_closure_v1/wiki__START-HERE.md"
+sha256 = "6d22fe566398e97fee74d0086f2fc7ed251c8c1682e5c69fb907597066b87721"
+
+[[artifact]]
+path = "results/audit/rate_repair_closure_v1/wiki__claims__Current-Claim-Language.md"
+sha256 = "7d4ada6059c1dd931ebf85970c5a78f9da1c846015351cee202333ab3e33e212"
+
+[[artifact]]
+path = "results/audit/rate_repair_closure_v1/wiki__evidence__Evidence-Ledger.md"
+sha256 = "62a4149c75e8c6f3ba9ea8fbb9ab81cb24c85f3b368f3a0e0ce44d08db0d0763"
+
+[[artifact]]
+path = "results/audit/rate_repair_closure_v1/wiki__manuscript__Journal-Narrative.md"
+sha256 = "824c2f622d87c4d829a65d07c733804ce1f28c32904962d9de81582cb1b0c1a7"
+
+[[artifact]]
+path = "results/audit/rate_repair_closure_v1/wiki__methods__Fixed-Rate-Readout-Certificate.md"
+sha256 = "b630f320670f01bf2e456ab8c66258e6b1ab7cf57a9af4a58267aa20000fac15"
+
+[[artifact]]
+path = "results/audit/rate_repair_closure_v1/wiki__methods__Inverse-Tilt-Projection.md"
+sha256 = "b9d55ad45ace3b78c60e09629d512713bd13fca6fab51ce2b952e517ec56ffe0"
+
+[[artifact]]
+path = "results/audit/rate_repair_closure_v1/wiki__results__Fixed-Rate-Repair-Validation.md"
+sha256 = "6ab611633cb5380e71c30ae9c12679a368fa2632380957a85d71ff8052703fe7"
+
+[[artifact]]
+path = "results/audit/rate_repair_closure_v1/wiki__results__Readout-Repair-Validation.md"
+sha256 = "e2f8176da87521268f5c7d17bfe14d42a9d84670c31043ad4715caee58d88cf3"
+
+[[artifact]]
+path = "results/audit/rate_repair_closure_v1/wiki__status__Live-Execution.md"
+sha256 = "7a86bde496107955bae409b0bc7891f5b6390287a6ed570f683ea63b20a98424"
+
+[[artifact]]
+path = "results/audit/rate_repair_closure_v1/wiki__status__Project-Status.md"
+sha256 = "522e5affc6f61b46674016b7396d38a225ca612ac65a94474b62f0473253ac4f"
+
+[[artifact]]
+path = "results/audit/rate_repair_validation_v1/close_inverse_tilt_repair.py"
+sha256 = "2fc3e272d75b86ddd61287c97846ba4312a8a7041aa33aa19818ae8ce9bc53bf"
+
+[[artifact]]
+path = "results/audit/rate_repair_validation_v1/configs__rate_repair_validation_v1.toml"
+sha256 = "95ddb403626ab76dd4c8769456ab7f42ecda7910371e7852abd276365317cdbc"
+
+[[artifact]]
+path = "results/audit/rate_repair_validation_v1/configuration_pin.json"
+sha256 = "67baf4fc9e230b3e54bed61d3726acbdcb731b4249e3d8dd87bdcff8d0e80c16"
+
+[[artifact]]
+path = "results/audit/rate_repair_validation_v1/execution_source_pins.json"
+sha256 = "4ef560eeb46df471ee32e5af3f1af0c96f2754d3ee8b4906585600fe541a60f4"
+
+[[artifact]]
+path = "results/audit/rate_repair_validation_v1/independent_audit.json"
+sha256 = "6cf211c244af30922e167b21ee7188dbf193037511d0a19c6ff7e81f7d355d53"
+
+[[artifact]]
+path = "results/audit/rate_repair_validation_v1/independent_audit_driver.py"
+sha256 = "8ac77eecc00df93d2a8a9452da927bec2c6825920d77b6a61aad422f5c475798"
+
+[[artifact]]
+path = "results/audit/rate_repair_validation_v1/partial_results.json"
+sha256 = "ad096a580f0200981b4607c9fef2fc1ce79f71252d5040af8e14b62346513495"
+
+[[artifact]]
+path = "results/audit/rate_repair_validation_v1/preanalysis.json"
+sha256 = "f798f995e749ac48ce4c957ffe7871532bde9ca2326aca6c27a260d756cb9c92"
+
+[[artifact]]
+path = "results/audit/rate_repair_validation_v1/progress.json"
+sha256 = "a5b3c7f67dee4345e6e8bc879dbe1159a1df4aa0f44bb0ebd32fe52aee90bedc"
+
+[[artifact]]
+path = "results/audit/rate_repair_validation_v1/reddit/seed1.npz"
+sha256 = "287c421aa717b84993e51d81d9708d70dc71ad0f5b3e828c4fc8409781131748"
+
+[[artifact]]
+path = "results/audit/rate_repair_validation_v1/reddit/seed42.npz"
+sha256 = "b92018b47e02429bea7c49186a26523600843b050700c3a495cff5ba9f0f75be"
+
+[[artifact]]
+path = "results/audit/rate_repair_validation_v1/reddit/seed7.npz"
+sha256 = "10c96d165738926c3210a9fe5a5322482ee910809b12932192b6026ef5fb8287"
+
+[[artifact]]
+path = "results/audit/rate_repair_validation_v1/results.json"
+sha256 = "cda2bb6b3dffae15e0973ce07f2bdeb4cd36fc60dadfe5e20c44ed5f322844ed"
+
+[[artifact]]
+path = "results/audit/rate_repair_validation_v1/scripts__run_rate_repair_validation.py"
+sha256 = "88f00e3aba5fda1a12ad7fe0a8ca1fd7ec752aa9cf5bb962fd43b1fab78a1200"
+
+[[artifact]]
+path = "results/audit/rate_repair_validation_v1/setup_failure.json"
+sha256 = "b02354c7fb6467b7413efd8a96f3f5a4cb8b88ca5ee1dc81e0b1c8112e59e010"
+
+[[artifact]]
+path = "results/audit/rate_repair_validation_v1/src__lifecycle_readout__modeling__inverse_tilt_projection.py"
+sha256 = "a8ce02caa8134a5804b6539a79ad99b0243049d21744b460274b86af76b10241"
+
+[[artifact]]
+path = "results/audit/rate_repair_validation_v1/src__lifecycle_readout__rate_repair_validation.py"
+sha256 = "3aed1c96dce137ee1ac673d1d96b43278fc6a3bada7f916f393c1cd294d7f0c1"
+
+[[artifact]]
+path = "results/audit/rate_repair_validation_v1/wikipedia/seed1.npz"
+sha256 = "282b16934b4b19253e2d812e85984d90499cb9a3ff29a850943d8ef339010732"
+
+[[artifact]]
+path = "results/audit/rate_repair_validation_v1/wikipedia/seed42.npz"
+sha256 = "671ee1981e521f4e3ea7e833bbc60aa647acba6c7d14193183bffd536fe84d3b"
+
+[[artifact]]
+path = "results/audit/rate_repair_validation_v1/wikipedia/seed7.npz"
+sha256 = "c1e8cc84c0d1c5de449dcc8b9a37bf84446c3d4eb961d6d2e8d48aa623977aea"

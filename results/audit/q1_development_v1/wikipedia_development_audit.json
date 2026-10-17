@@ -1,0 +1,134 @@
+{
+  "dataset": "wikipedia",
+  "protocol_id": "LCR-P-Q1-DEV-001",
+  "attempt": "results/audit/lcr-wikipedia-bdec2912ae",
+  "source_bundle_sha256": "1d96587e3c9c7c0d370a12f2e2879cbc834816f7df992c56819c5e8c7f3690f4",
+  "cleanup_verified": true,
+  "checksums_verified": true,
+  "per_seed": [
+    {
+      "seed": 101,
+      "replay": {
+        "matched_rows": 4666,
+        "unsupported_rows": 138000,
+        "excluded_training_rows": 14808
+      },
+      "models": {
+        "base_stats": {
+          "ap": 0.6038492119482244,
+          "auc": 0.6025739133105382,
+          "brier": 0.24334765640245162
+        },
+        "scalar_decay": {
+          "ap": 0.5426365067570216,
+          "auc": 0.5258287094858828,
+          "brier": 0.40531153220283117
+        },
+        "ordered_gate": {
+          "ap": 0.5417145027527794,
+          "auc": 0.5338061260006961,
+          "brier": 0.3202604656714071
+        },
+        "residual_scalar": {
+          "ap": 0.6039163816804767,
+          "auc": 0.6029795663479454,
+          "brier": 0.24320566694672469
+        },
+        "residual_mixture": {
+          "ap": 0.6039148118786211,
+          "auc": 0.6029782866853668,
+          "brier": 0.2432055979065045
+        },
+        "mlp_residual": {
+          "ap": 0.6091000397827658,
+          "auc": 0.6048197211359309,
+          "brier": 0.24326382505656893
+        }
+      }
+    },
+    {
+      "seed": 202,
+      "replay": {
+        "matched_rows": 4666,
+        "unsupported_rows": 138000,
+        "excluded_training_rows": 14808
+      },
+      "models": {
+        "base_stats": {
+          "ap": 0.5932344625246082,
+          "auc": 0.5889583034745399,
+          "brier": 0.24505627582495293
+        },
+        "scalar_decay": {
+          "ap": 0.5375476931948362,
+          "auc": 0.521010779877562,
+          "brier": 0.3546166548809581
+        },
+        "ordered_gate": {
+          "ap": 0.5519380360351274,
+          "auc": 0.5392024630945311,
+          "brier": 0.31425069348849466
+        },
+        "residual_scalar": {
+          "ap": 0.5925003578411727,
+          "auc": 0.5883683790258185,
+          "brier": 0.24506105118599025
+        },
+        "residual_mixture": {
+          "ap": 0.5925003578411727,
+          "auc": 0.5883690188571078,
+          "brier": 0.24506106609621772
+        },
+        "mlp_residual": {
+          "ap": 0.5960721832439069,
+          "auc": 0.6003959276018099,
+          "brier": 0.24272889940155953
+        }
+      }
+    },
+    {
+      "seed": 303,
+      "replay": {
+        "matched_rows": 4666,
+        "unsupported_rows": 138000,
+        "excluded_training_rows": 14808
+      },
+      "models": {
+        "base_stats": {
+          "ap": 0.6069223115423861,
+          "auc": 0.594966319280932,
+          "brier": 0.2472472088790952
+        },
+        "scalar_decay": {
+          "ap": 0.5304234386123313,
+          "auc": 0.5234798888229152,
+          "brier": 0.4155641313469995
+        },
+        "ordered_gate": {
+          "ap": 0.5397060210127758,
+          "auc": 0.5326326754161463,
+          "brier": 0.31576432961895606
+        },
+        "residual_scalar": {
+          "ap": 0.6085958919536675,
+          "auc": 0.5953898875944391,
+          "brier": 0.24728131261304603
+        },
+        "residual_mixture": {
+          "ap": 0.6085922676998893,
+          "auc": 0.595385408775414,
+          "brier": 0.24728131437296527
+        },
+        "mlp_residual": {
+          "ap": 0.6117030929636659,
+          "auc": 0.6043129747548166,
+          "brier": 0.24161252327838506
+        }
+      }
+    }
+  ],
+  "publication_eligible": false,
+  "evaluation_split": "validation",
+  "test_scored": false,
+  "all_checks_pass": true
+}

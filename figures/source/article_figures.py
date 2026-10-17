@@ -1,7 +1,7 @@
-"""Rebuild the eight SNCS figures from the committed aggregate CSV package.
+"""Rebuild the article figures from the committed aggregate CSV package.
 
 No source interactions, private audit records, model fits or remote compute are
-needed. Matplotlib and NumPy must be installed. Output defaults to figures/generated/sncs.
+needed. Matplotlib and NumPy must be installed. Output defaults to figures/generated/article.
 """
 from pathlib import Path
 import csv,json
@@ -128,7 +128,7 @@ def build(source, destination):
     fig.tight_layout();save(fig,8);table('Figure8_data.csv',['Month','Seed','AP_difference'],rows)
     table('Figure4_data.csv',['Point','x1','x2'],[['Raw',.1,.1],['Specified-rate projection',6/25,19/50],['All-rate projection',.1,float(np.sqrt(.5))]])
     table('Figure8_interval.csv',['Month','Mean_AP_difference','Lower_95','Upper_95','Queries','Users'],[['January',jan['mean'],'','',4210,58],['February',feb['primary']['mean'],*feb['conditional_bootstrap_interval'],4328,57]])
-    from sncs_pipeline_diagrams import build as build_detailed_diagrams
+    from article_pipeline_diagrams import build as build_detailed_diagrams
     build_detailed_diagrams(out)
     print('Eight explanatory figures generated in PDF EPS and PNG formats',flush=True)
 
@@ -136,7 +136,7 @@ if __name__=='__main__':
     import argparse
     root=Path(__file__).resolve().parents[2]
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--source',type=Path,default=root/'paper/working/sncs')
-    parser.add_argument('--output',type=Path,default=root/'figures/generated/sncs')
+    parser.add_argument('--source',type=Path,default=root/'paper/working/article')
+    parser.add_argument('--output',type=Path,default=root/'figures/generated/article')
     args=parser.parse_args()
     build(args.source,args.output)

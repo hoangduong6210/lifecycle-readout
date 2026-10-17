@@ -1,0 +1,3194 @@
+{
+  "status": "PASS",
+  "model_fit": false,
+  "test_scored": false,
+  "publication_eligible": false,
+  "protocol_id": "LCR-P-LASTFM-STRATA-001",
+  "per_seed": [
+    {
+      "seed": 101,
+      "cohorts": {
+        "all": {
+          "query_count": 40600,
+          "user_count": 68,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.7215927236974937,
+              "auc": 0.6975798793952777,
+              "pair_accuracy": 0.6362931034482758
+            },
+            "dose_mlp": {
+              "ap": 0.7208736580601485,
+              "auc": 0.6958322751098062,
+              "pair_accuracy": 0.6340394088669951
+            },
+            "scalar_clock": {
+              "ap": 0.7211301776551718,
+              "auc": 0.697257623941372,
+              "pair_accuracy": 0.6362807881773399
+            },
+            "phase_competition": {
+              "ap": 0.7211611351790821,
+              "auc": 0.6962412937707781,
+              "pair_accuracy": 0.6358620689655172
+            },
+            "shuffled_phase": {
+              "ap": 0.7208182853776499,
+              "auc": 0.6967385995777621,
+              "pair_accuracy": 0.6376600985221675
+            },
+            "activity_mlp": {
+              "ap": 0.7205242497770028,
+              "auc": 0.6956542830449659,
+              "pair_accuracy": 0.640320197044335
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": 0.00028747711893362116,
+            "phase_specific_rates": 3.095752391024664e-05,
+            "profile_alignment": 0.0003428498014321768,
+            "profile_information": 0.0003494082831456691,
+            "residual_vs_history": -0.0004315885184116297
+          }
+        },
+        "gap_1h_to_1d": {
+          "query_count": 6166,
+          "user_count": 55,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.5977428414153559,
+              "auc": 0.6078152254066302,
+              "pair_accuracy": 0.5890366526110931
+            },
+            "dose_mlp": {
+              "ap": 0.5960226594050644,
+              "auc": 0.604848594233978,
+              "pair_accuracy": 0.5913071683425235
+            },
+            "scalar_clock": {
+              "ap": 0.5957452664477404,
+              "auc": 0.6055474319584373,
+              "pair_accuracy": 0.5869283165747649
+            },
+            "phase_competition": {
+              "ap": 0.5951448617849486,
+              "auc": 0.6038582486339399,
+              "pair_accuracy": 0.59179370742783
+            },
+            "shuffled_phase": {
+              "ap": 0.5974678834597178,
+              "auc": 0.609269582211849,
+              "pair_accuracy": 0.6031462860849821
+            },
+            "activity_mlp": {
+              "ap": 0.5922578254560614,
+              "auc": 0.6078389368881636,
+              "pair_accuracy": 0.6144988647421343
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": -0.00087779762011575,
+            "phase_specific_rates": -0.0006004046627917647,
+            "profile_alignment": -0.0023230216747691657,
+            "profile_information": 0.0037648339490029548,
+            "residual_vs_history": -0.00259797963040731
+          }
+        },
+        "gap_1d_to_7d": {
+          "query_count": 10838,
+          "user_count": 60,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.64151128512587,
+              "auc": 0.6341403115029882,
+              "pair_accuracy": 0.5910223288429599
+            },
+            "dose_mlp": {
+              "ap": 0.6406708898308746,
+              "auc": 0.6341658558813162,
+              "pair_accuracy": 0.5869164052408193
+            },
+            "scalar_clock": {
+              "ap": 0.6419163674815862,
+              "auc": 0.6353674632676012,
+              "pair_accuracy": 0.5907916589776712
+            },
+            "phase_competition": {
+              "ap": 0.6423718953377106,
+              "auc": 0.6356577437768003,
+              "pair_accuracy": 0.5868241372947038
+            },
+            "shuffled_phase": {
+              "ap": 0.6376523898977111,
+              "auc": 0.6333461839874266,
+              "pair_accuracy": 0.5904225871932091
+            },
+            "activity_mlp": {
+              "ap": 0.6364593247204013,
+              "auc": 0.6337585547914444,
+              "pair_accuracy": 0.5864550655102417
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": 0.0017010055068359398,
+            "phase_specific_rates": 0.0004555278561243492,
+            "profile_alignment": 0.0047195054399994385,
+            "profile_information": 0.00421156511047327,
+            "residual_vs_history": 0.0008606102118405845
+          }
+        },
+        "gap_ge_7d": {
+          "query_count": 23596,
+          "user_count": 68,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.7685987289067878,
+              "auc": 0.7423568022596916,
+              "pair_accuracy": 0.6694354975419563
+            },
+            "dose_mlp": {
+              "ap": 0.7677578520408734,
+              "auc": 0.7402069452527158,
+              "pair_accuracy": 0.6668503136124767
+            },
+            "scalar_clock": {
+              "ap": 0.7682168173662003,
+              "auc": 0.7419207622974533,
+              "pair_accuracy": 0.6700711985082217
+            },
+            "phase_competition": {
+              "ap": 0.7677049113426916,
+              "auc": 0.740291092023694,
+              "pair_accuracy": 0.6699016782505509
+            },
+            "shuffled_phase": {
+              "ap": 0.7674958130503489,
+              "auc": 0.7407714571940084,
+              "pair_accuracy": 0.6683759959315139
+            },
+            "activity_mlp": {
+              "ap": 0.7667131971958026,
+              "auc": 0.7382492111445647,
+              "pair_accuracy": 0.6718087811493474
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": -5.294069818184699e-05,
+            "phase_specific_rates": -0.0005119060235087014,
+            "profile_alignment": 0.00020909829234272426,
+            "profile_information": 0.0010446548450708804,
+            "residual_vs_history": -0.0008938175640962331
+          }
+        },
+        "dose_zero": {
+          "query_count": 7337,
+          "user_count": 66,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.4922224951946297,
+              "auc": 0.49410699881327996,
+              "pair_accuracy": 0.4951615101540139
+            },
+            "dose_mlp": {
+              "ap": 0.4850057019231712,
+              "auc": 0.4888393184304176,
+              "pair_accuracy": 0.48425787106446777
+            },
+            "scalar_clock": {
+              "ap": 0.493268339390057,
+              "auc": 0.4962171082176706,
+              "pair_accuracy": 0.49775112443778113
+            },
+            "phase_competition": {
+              "ap": 0.4850484733111509,
+              "auc": 0.48791726653926804,
+              "pair_accuracy": 0.486438598882377
+            },
+            "shuffled_phase": {
+              "ap": 0.4977034001444104,
+              "auc": 0.5075713286380339,
+              "pair_accuracy": 0.5078369905956113
+            },
+            "activity_mlp": {
+              "ap": 0.4929388759181105,
+              "auc": 0.5030056805514994,
+              "pair_accuracy": 0.5045658988687475
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": 4.2771387979700926e-05,
+            "phase_specific_rates": -0.008219866078906068,
+            "profile_alignment": -0.012654926833259472,
+            "profile_information": -0.007933173994939258,
+            "residual_vs_history": -0.007174021883478765
+          }
+        },
+        "dose_1_to_9": {
+          "query_count": 13336,
+          "user_count": 67,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.6672688151729833,
+              "auc": 0.6371102747806767,
+              "pair_accuracy": 0.603254349130174
+            },
+            "dose_mlp": {
+              "ap": 0.6653693198630348,
+              "auc": 0.6343760716962786,
+              "pair_accuracy": 0.5958308338332333
+            },
+            "scalar_clock": {
+              "ap": 0.6671512037827216,
+              "auc": 0.6368032107435742,
+              "pair_accuracy": 0.6001049790041991
+            },
+            "phase_competition": {
+              "ap": 0.6659729557588414,
+              "auc": 0.6341387719381738,
+              "pair_accuracy": 0.5987552489502099
+            },
+            "shuffled_phase": {
+              "ap": 0.6653819976515392,
+              "auc": 0.637413937053621,
+              "pair_accuracy": 0.6020545890821836
+            },
+            "activity_mlp": {
+              "ap": 0.6634111045227585,
+              "auc": 0.6341526770005926,
+              "pair_accuracy": 0.5988302339532093
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": 0.0006036358958065868,
+            "phase_specific_rates": -0.001178248023880224,
+            "profile_alignment": 0.000590958107302253,
+            "profile_information": 0.0019582153402762925,
+            "residual_vs_history": -0.0012958594141418978
+          }
+        },
+        "dose_ge_10": {
+          "query_count": 19927,
+          "user_count": 64,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.8029741972956069,
+              "auc": 0.7908027949327738,
+              "pair_accuracy": 0.7103678426255834
+            },
+            "dose_mlp": {
+              "ap": 0.8034096394374415,
+              "auc": 0.7905959514812495,
+              "pair_accuracy": 0.7147588698750439
+            },
+            "scalar_clock": {
+              "ap": 0.8021090627924119,
+              "auc": 0.7900845248805453,
+              "pair_accuracy": 0.7114969639183018
+            },
+            "phase_competition": {
+              "ap": 0.8036231368379643,
+              "auc": 0.7911675087346277,
+              "pair_accuracy": 0.7157123500777839
+            },
+            "shuffled_phase": {
+              "ap": 0.8007950999546067,
+              "auc": 0.7861485635496748,
+              "pair_accuracy": 0.7092889045014302
+            },
+            "activity_mlp": {
+              "ap": 0.8017804751908486,
+              "auc": 0.7871325749735769,
+              "pair_accuracy": 0.7180709590003512
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": 0.00021349740052278854,
+            "phase_specific_rates": 0.0015140740455523716,
+            "profile_alignment": 0.002828036883357532,
+            "profile_information": 0.0016291642465928735,
+            "residual_vs_history": 0.0006489395423573407
+          }
+        },
+        "gap_1h_to_1d__dose_zero": {
+          "query_count": 1645,
+          "user_count": 44,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.5052896573574212,
+              "auc": 0.5192664517142304,
+              "pair_accuracy": 0.5197568389057751
+            },
+            "dose_mlp": {
+              "ap": 0.4928196915421398,
+              "auc": 0.5041300431444647,
+              "pair_accuracy": 0.4869300911854103
+            },
+            "scalar_clock": {
+              "ap": 0.4991383946393425,
+              "auc": 0.5085368760451215,
+              "pair_accuracy": 0.5063829787234042
+            },
+            "phase_competition": {
+              "ap": 0.4955587745288108,
+              "auc": 0.5047255660978742,
+              "pair_accuracy": 0.4990881458966565
+            },
+            "shuffled_phase": {
+              "ap": 0.48817958714118226,
+              "auc": 0.4985105459114384,
+              "pair_accuracy": 0.4948328267477204
+            },
+            "activity_mlp": {
+              "ap": 0.4819053910639144,
+              "auc": 0.4893228998253897,
+              "pair_accuracy": 0.48024316109422494
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": 0.0027390829866710265,
+            "phase_specific_rates": -0.0035796201105317005,
+            "profile_alignment": 0.00737918738762855,
+            "profile_information": 0.010914300478225392,
+            "residual_vs_history": -0.009730882828610343
+          }
+        },
+        "gap_1h_to_1d__dose_1_to_9": {
+          "query_count": 2224,
+          "user_count": 51,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.6294812899400013,
+              "auc": 0.6237496401260286,
+              "pair_accuracy": 0.6056654676258992
+            },
+            "dose_mlp": {
+              "ap": 0.6205984362111884,
+              "auc": 0.6215222628551835,
+              "pair_accuracy": 0.6092625899280576
+            },
+            "scalar_clock": {
+              "ap": 0.628514494774777,
+              "auc": 0.62254153511723,
+              "pair_accuracy": 0.6007194244604317
+            },
+            "phase_competition": {
+              "ap": 0.6196388178108267,
+              "auc": 0.6195060588220072,
+              "pair_accuracy": 0.6065647482014388
+            },
+            "shuffled_phase": {
+              "ap": 0.6252164490662504,
+              "auc": 0.6241093119209669,
+              "pair_accuracy": 0.6106115107913669
+            },
+            "activity_mlp": {
+              "ap": 0.6190113275181448,
+              "auc": 0.6241284175896693,
+              "pair_accuracy": 0.6097122302158273
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": -0.0009596184003616282,
+            "phase_specific_rates": -0.008875676963950307,
+            "profile_alignment": -0.005577631255423654,
+            "profile_information": 0.0015871086930435707,
+            "residual_vs_history": -0.009842472129174551
+          }
+        },
+        "gap_1h_to_1d__dose_ge_10": {
+          "query_count": 2297,
+          "user_count": 42,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.6084970561181557,
+              "auc": 0.6436742744648667,
+              "pair_accuracy": 0.6225511536787114
+            },
+            "dose_mlp": {
+              "ap": 0.619551338145781,
+              "auc": 0.6463499645294566,
+              "pair_accuracy": 0.6486721811057902
+            },
+            "scalar_clock": {
+              "ap": 0.6060303510722802,
+              "auc": 0.6427826304833641,
+              "pair_accuracy": 0.631258162821071
+            },
+            "phase_competition": {
+              "ap": 0.6159211583924282,
+              "auc": 0.6450930961984258,
+              "pair_accuracy": 0.6438833260774924
+            },
+            "shuffled_phase": {
+              "ap": 0.6201416602725556,
+              "auc": 0.6574042082108574,
+              "pair_accuracy": 0.673487157161515
+            },
+            "activity_mlp": {
+              "ap": 0.6159068093197915,
+              "auc": 0.6580598873168215,
+              "pair_accuracy": 0.7152808010448412
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": -0.00363017975335278,
+            "phase_specific_rates": 0.00989080732014802,
+            "profile_alignment": -0.0042205018801273475,
+            "profile_information": 0.0036445288259895348,
+            "residual_vs_history": 0.007424102274272482
+          }
+        },
+        "gap_1d_to_7d__dose_zero": {
+          "query_count": 2491,
+          "user_count": 55,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.48671471252834264,
+              "auc": 0.4905665212106014,
+              "pair_accuracy": 0.4941790445604175
+            },
+            "dose_mlp": {
+              "ap": 0.48586648949286326,
+              "auc": 0.49227665198891035,
+              "pair_accuracy": 0.4969891609795263
+            },
+            "scalar_clock": {
+              "ap": 0.48811548579236286,
+              "auc": 0.4919837468680909,
+              "pair_accuracy": 0.49377759935768767
+            },
+            "phase_competition": {
+              "ap": 0.48404930527246803,
+              "auc": 0.4904720824756357,
+              "pair_accuracy": 0.49458048976314734
+            },
+            "shuffled_phase": {
+              "ap": 0.48136428070781345,
+              "auc": 0.48704900064962886,
+              "pair_accuracy": 0.4901645925331192
+            },
+            "activity_mlp": {
+              "ap": 0.47692296726892086,
+              "auc": 0.4848521719539197,
+              "pair_accuracy": 0.4865515857085508
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": -0.0018171842203952293,
+            "phase_specific_rates": -0.004066180519894824,
+            "profile_alignment": 0.002685024564654581,
+            "profile_information": 0.008943522223942402,
+            "residual_vs_history": -0.002665407255874608
+          }
+        },
+        "gap_1d_to_7d__dose_1_to_9": {
+          "query_count": 4210,
+          "user_count": 58,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.6453870387599341,
+              "auc": 0.6250306080421573,
+              "pair_accuracy": 0.5983372921615202
+            },
+            "dose_mlp": {
+              "ap": 0.6446183326549002,
+              "auc": 0.6237758193645939,
+              "pair_accuracy": 0.5862232779097387
+            },
+            "scalar_clock": {
+              "ap": 0.6468944756401382,
+              "auc": 0.6261934597525403,
+              "pair_accuracy": 0.5950118764845606
+            },
+            "phase_competition": {
+              "ap": 0.6471201919088589,
+              "auc": 0.6252685326758481,
+              "pair_accuracy": 0.5850356294536817
+            },
+            "shuffled_phase": {
+              "ap": 0.6362010339770694,
+              "auc": 0.6190991362043772,
+              "pair_accuracy": 0.5847980997624703
+            },
+            "activity_mlp": {
+              "ap": 0.6341748922504413,
+              "auc": 0.617594461778031,
+              "pair_accuracy": 0.5750593824228029
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": 0.002501859253958738,
+            "phase_specific_rates": 0.00022571626872069928,
+            "profile_alignment": 0.010919157931789547,
+            "profile_information": 0.010443440404458881,
+            "residual_vs_history": 0.0017331531489248597
+          }
+        },
+        "gap_1d_to_7d__dose_ge_10": {
+          "query_count": 4137,
+          "user_count": 45,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.6942553355440682,
+              "auc": 0.7129339870143734,
+              "pair_accuracy": 0.6418902586415277
+            },
+            "dose_mlp": {
+              "ap": 0.6949147439288614,
+              "auc": 0.7133635867361109,
+              "pair_accuracy": 0.6417693981145758
+            },
+            "scalar_clock": {
+              "ap": 0.6943162936596408,
+              "auc": 0.7142323977612551,
+              "pair_accuracy": 0.6449117718153251
+            },
+            "phase_competition": {
+              "ap": 0.6970138255091384,
+              "auc": 0.7159007521515482,
+              "pair_accuracy": 0.6441866086536138
+            },
+            "shuffled_phase": {
+              "ap": 0.6968612781580917,
+              "auc": 0.7174873350613146,
+              "pair_accuracy": 0.6565143824027073
+            },
+            "activity_mlp": {
+              "ap": 0.6966444023830992,
+              "auc": 0.7198845044300627,
+              "pair_accuracy": 0.6582064297800339
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": 0.0020990815802769403,
+            "phase_specific_rates": 0.002697531849497614,
+            "profile_alignment": 0.00015254735104663908,
+            "profile_information": -0.0017296584542377813,
+            "residual_vs_history": 0.002758489965070221
+          }
+        },
+        "gap_ge_7d__dose_zero": {
+          "query_count": 3201,
+          "user_count": 65,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.4880986673001637,
+              "auc": 0.48546801945385504,
+              "pair_accuracy": 0.4832864729771946
+            },
+            "dose_mlp": {
+              "ap": 0.4808785844767778,
+              "auc": 0.4793633393813105,
+              "pair_accuracy": 0.47297719462667914
+            },
+            "scalar_clock": {
+              "ap": 0.4939507365541254,
+              "auc": 0.49491719092391556,
+              "pair_accuracy": 0.49640737269603247
+            },
+            "phase_competition": {
+              "ap": 0.4803123103928726,
+              "auc": 0.4780000314256684,
+              "pair_accuracy": 0.47360199937519526
+            },
+            "shuffled_phase": {
+              "ap": 0.5134254165623311,
+              "auc": 0.5256303164398894,
+              "pair_accuracy": 0.528272414870353
+            },
+            "activity_mlp": {
+              "ap": 0.5121455388034419,
+              "auc": 0.5221038587109756,
+              "pair_accuracy": 0.5310840362386754
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": -0.0005662740839051938,
+            "phase_specific_rates": -0.013638426161252826,
+            "profile_alignment": -0.033113106169458506,
+            "profile_information": -0.031266954326664154,
+            "residual_vs_history": -0.007786356907291125
+          }
+        },
+        "gap_ge_7d__dose_1_to_9": {
+          "query_count": 6902,
+          "user_count": 67,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.6858087605070828,
+              "auc": 0.6483013083529559,
+              "pair_accuracy": 0.6054766734279919
+            },
+            "dose_mlp": {
+              "ap": 0.6834396383944632,
+              "auc": 0.6440697983047174,
+              "pair_accuracy": 0.5973630831643002
+            },
+            "scalar_clock": {
+              "ap": 0.6852308670962306,
+              "auc": 0.647469308070154,
+              "pair_accuracy": 0.6030136192407998
+            },
+            "phase_competition": {
+              "ap": 0.6833895589296091,
+              "auc": 0.6430701363569838,
+              "pair_accuracy": 0.6046073601854535
+            },
+            "shuffled_phase": {
+              "ap": 0.6870240280616356,
+              "auc": 0.6516907840285165,
+              "pair_accuracy": 0.6098232396406839
+            },
+            "activity_mlp": {
+              "ap": 0.6827755948193968,
+              "auc": 0.6448104631794664,
+              "pair_accuracy": 0.6098232396406839
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": -5.0079464854135836e-05,
+            "phase_specific_rates": -0.0018413081666215358,
+            "profile_alignment": -0.0036344691320265854,
+            "profile_information": 0.000664043575066442,
+            "residual_vs_history": -0.002419201577473773
+          }
+        },
+        "gap_ge_7d__dose_ge_10": {
+          "query_count": 13493,
+          "user_count": 64,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.8415009041315022,
+              "auc": 0.8280597762566995,
+              "pair_accuracy": 0.7463129029867339
+            },
+            "dose_mlp": {
+              "ap": 0.8415664515577227,
+              "auc": 0.8274021452002069,
+              "pair_accuracy": 0.748388053064552
+            },
+            "scalar_clock": {
+              "ap": 0.8403047850838823,
+              "auc": 0.8265268426526533,
+              "pair_accuracy": 0.7455717779589417
+            },
+            "phase_competition": {
+              "ap": 0.8416243546044216,
+              "auc": 0.8278089977389947,
+              "pair_accuracy": 0.7498703031201364
+            },
+            "shuffled_phase": {
+              "ap": 0.83531881952907,
+              "auc": 0.8182905064992787,
+              "pair_accuracy": 0.7315645149336694
+            },
+            "activity_mlp": {
+              "ap": 0.8357987948201611,
+              "auc": 0.8177446923311971,
+              "pair_accuracy": 0.736900615133773
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": 5.79030466989483e-05,
+            "phase_specific_rates": 0.0013195695205393543,
+            "profile_alignment": 0.006305535075351698,
+            "profile_information": 0.005767656737561633,
+            "residual_vs_history": 0.00012345047291939526
+          }
+        }
+      }
+    },
+    {
+      "seed": 202,
+      "cohorts": {
+        "all": {
+          "query_count": 40600,
+          "user_count": 68,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.7211507782807476,
+              "auc": 0.6989642547744425,
+              "pair_accuracy": 0.6378571428571429
+            },
+            "dose_mlp": {
+              "ap": 0.7212429033619809,
+              "auc": 0.6991056261981605,
+              "pair_accuracy": 0.6385960591133005
+            },
+            "scalar_clock": {
+              "ap": 0.7206586631889216,
+              "auc": 0.6982964983377417,
+              "pair_accuracy": 0.6359852216748768
+            },
+            "phase_competition": {
+              "ap": 0.7205542395540415,
+              "auc": 0.6982914272367686,
+              "pair_accuracy": 0.6376847290640394
+            },
+            "shuffled_phase": {
+              "ap": 0.7201666402549907,
+              "auc": 0.6980099671794997,
+              "pair_accuracy": 0.6381773399014778
+            },
+            "activity_mlp": {
+              "ap": 0.7204379902228104,
+              "auc": 0.6983150871168919,
+              "pair_accuracy": 0.642487684729064
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": -0.0006886638079394158,
+            "phase_specific_rates": -0.00010442363488005757,
+            "profile_alignment": 0.0003875992990508559,
+            "profile_information": 0.0008049131391705266,
+            "residual_vs_history": -0.000596538726706064
+          }
+        },
+        "gap_1h_to_1d": {
+          "query_count": 6166,
+          "user_count": 55,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.5908682537641448,
+              "auc": 0.6082394413022603,
+              "pair_accuracy": 0.6059033409017192
+            },
+            "dose_mlp": {
+              "ap": 0.5906331743927898,
+              "auc": 0.6084676791070364,
+              "pair_accuracy": 0.6021732079143691
+            },
+            "scalar_clock": {
+              "ap": 0.587879006414769,
+              "auc": 0.6066433021995312,
+              "pair_accuracy": 0.6015244891339604
+            },
+            "phase_competition": {
+              "ap": 0.5882720345416772,
+              "auc": 0.6062236497448839,
+              "pair_accuracy": 0.6050924424262082
+            },
+            "shuffled_phase": {
+              "ap": 0.5873692853869718,
+              "auc": 0.6061637595136566,
+              "pair_accuracy": 0.6081738566331495
+            },
+            "activity_mlp": {
+              "ap": 0.587972744748417,
+              "auc": 0.6070985679054222,
+              "pair_accuracy": 0.6154719429127473
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": -0.002361139851112637,
+            "phase_specific_rates": 0.00039302812690822364,
+            "profile_alignment": 0.0009027491547054511,
+            "profile_information": 0.0026604296443728526,
+            "residual_vs_history": -0.002596219222467555
+          }
+        },
+        "gap_1d_to_7d": {
+          "query_count": 10838,
+          "user_count": 60,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.64481107656546,
+              "auc": 0.6402210739307858,
+              "pair_accuracy": 0.5926370178999816
+            },
+            "dose_mlp": {
+              "ap": 0.6448640665985216,
+              "auc": 0.640590784218289,
+              "pair_accuracy": 0.5957741280679092
+            },
+            "scalar_clock": {
+              "ap": 0.643794820896949,
+              "auc": 0.6396698116885967,
+              "pair_accuracy": 0.5941133050378299
+            },
+            "phase_competition": {
+              "ap": 0.6439834213244215,
+              "auc": 0.639431305262651,
+              "pair_accuracy": 0.5941133050378299
+            },
+            "shuffled_phase": {
+              "ap": 0.6432623222932141,
+              "auc": 0.6394658653039185,
+              "pair_accuracy": 0.5936519653072523
+            },
+            "activity_mlp": {
+              "ap": 0.6425088151990309,
+              "auc": 0.6397976612808454,
+              "pair_accuracy": 0.5990957741280679
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": -0.0008806452741000337,
+            "phase_specific_rates": 0.0001886004274725961,
+            "profile_alignment": 0.0007210990312074284,
+            "profile_information": 0.0023552513994906654,
+            "residual_vs_history": -0.0008276552410384497
+          }
+        },
+        "gap_ge_7d": {
+          "query_count": 23596,
+          "user_count": 68,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.7663865248667197,
+              "auc": 0.7418650464143247,
+              "pair_accuracy": 0.6669774538057298
+            },
+            "dose_mlp": {
+              "ap": 0.7664099816456815,
+              "auc": 0.7419844275857824,
+              "pair_accuracy": 0.667782675029666
+            },
+            "scalar_clock": {
+              "ap": 0.7659900594719302,
+              "auc": 0.7411780101793194,
+              "pair_accuracy": 0.6642227496185794
+            },
+            "phase_competition": {
+              "ap": 0.7660224277075592,
+              "auc": 0.7414638762503842,
+              "pair_accuracy": 0.6662146126462112
+            },
+            "shuffled_phase": {
+              "ap": 0.7654691082892362,
+              "auc": 0.7409703387037163,
+              "pair_accuracy": 0.6664688930327174
+            },
+            "activity_mlp": {
+              "ap": 0.765758519963869,
+              "auc": 0.7410545465410697,
+              "pair_accuracy": 0.669477877606374
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": -0.000387553938122287,
+            "phase_specific_rates": 3.2368235629021136e-05,
+            "profile_alignment": 0.0005533194183230394,
+            "profile_information": 0.0006514616818125152,
+            "residual_vs_history": -0.00036409715916041474
+          }
+        },
+        "dose_zero": {
+          "query_count": 7337,
+          "user_count": 66,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.49711436517485275,
+              "auc": 0.5069560484109241,
+              "pair_accuracy": 0.5190132206623961
+            },
+            "dose_mlp": {
+              "ap": 0.4955609106023679,
+              "auc": 0.5050227311784281,
+              "pair_accuracy": 0.5146517650265776
+            },
+            "scalar_clock": {
+              "ap": 0.49232223519272456,
+              "auc": 0.5027783325431217,
+              "pair_accuracy": 0.5121984462314297
+            },
+            "phase_competition": {
+              "ap": 0.4937719438951663,
+              "auc": 0.502696206012498,
+              "pair_accuracy": 0.513561401117623
+            },
+            "shuffled_phase": {
+              "ap": 0.5008609008669452,
+              "auc": 0.512984026157588,
+              "pair_accuracy": 0.5254191086275044
+            },
+            "activity_mlp": {
+              "ap": 0.5003710152241199,
+              "auc": 0.5124812263970979,
+              "pair_accuracy": 0.527736131934033
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": -0.001788966707201578,
+            "phase_specific_rates": 0.0014497087024417654,
+            "profile_alignment": -0.007088956971778915,
+            "profile_information": -0.004810104621751965,
+            "residual_vs_history": -0.003342421279686425
+          }
+        },
+        "dose_1_to_9": {
+          "query_count": 13336,
+          "user_count": 67,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.6682822336044321,
+              "auc": 0.6392339708423043,
+              "pair_accuracy": 0.5983053389322136
+            },
+            "dose_mlp": {
+              "ap": 0.6681651789312029,
+              "auc": 0.6391304644365068,
+              "pair_accuracy": 0.5981553689262148
+            },
+            "scalar_clock": {
+              "ap": 0.6671661968773925,
+              "auc": 0.6378070769694292,
+              "pair_accuracy": 0.5967306538692262
+            },
+            "phase_competition": {
+              "ap": 0.6674219625230359,
+              "auc": 0.6382855899201083,
+              "pair_accuracy": 0.5998800239952009
+            },
+            "shuffled_phase": {
+              "ap": 0.668554829675551,
+              "auc": 0.6403201934972933,
+              "pair_accuracy": 0.6008548290341932
+            },
+            "activity_mlp": {
+              "ap": 0.6687976897241406,
+              "auc": 0.6405745695491976,
+              "pair_accuracy": 0.6065536892621476
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": -0.0007432164081669912,
+            "phase_specific_rates": 0.0002557656456433355,
+            "profile_alignment": -0.001132867152515149,
+            "profile_information": -0.0006325107929376905,
+            "residual_vs_history": -0.0008602710813961911
+          }
+        },
+        "dose_ge_10": {
+          "query_count": 19927,
+          "user_count": 64,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.8001363713923714,
+              "auc": 0.788834121091389,
+              "pair_accuracy": 0.7080845084558639
+            },
+            "dose_mlp": {
+              "ap": 0.8005275021659155,
+              "auc": 0.7894657649263088,
+              "pair_accuracy": 0.7112962312440407
+            },
+            "scalar_clock": {
+              "ap": 0.8004241498668252,
+              "auc": 0.7891880840553542,
+              "pair_accuracy": 0.7078335926130376
+            },
+            "phase_competition": {
+              "ap": 0.800074281124111,
+              "auc": 0.7890077978680496,
+              "pair_accuracy": 0.7086867064786471
+            },
+            "shuffled_phase": {
+              "ap": 0.7979696459728846,
+              "auc": 0.7857436556161459,
+              "pair_accuracy": 0.7046720529934261
+            },
+            "activity_mlp": {
+              "ap": 0.7984954271818805,
+              "auc": 0.7862481328289013,
+              "pair_accuracy": 0.7087870728157776
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": -0.00045322104180445244,
+            "phase_specific_rates": -0.00034986874271414337,
+            "profile_alignment": 0.002104635151226497,
+            "profile_information": 0.002032074984035015,
+            "residual_vs_history": -6.20902682603175e-05
+          }
+        },
+        "gap_1h_to_1d__dose_zero": {
+          "query_count": 1645,
+          "user_count": 44,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.4871605828185312,
+              "auc": 0.5015981005349175,
+              "pair_accuracy": 0.5185410334346504
+            },
+            "dose_mlp": {
+              "ap": 0.48831038037837626,
+              "auc": 0.5010027623543759,
+              "pair_accuracy": 0.5106382978723404
+            },
+            "scalar_clock": {
+              "ap": 0.4838916833745763,
+              "auc": 0.4971949630916196,
+              "pair_accuracy": 0.5191489361702127
+            },
+            "phase_competition": {
+              "ap": 0.4867250467408966,
+              "auc": 0.498145619497233,
+              "pair_accuracy": 0.5209726443768997
+            },
+            "shuffled_phase": {
+              "ap": 0.47610784176174875,
+              "auc": 0.4880141536016851,
+              "pair_accuracy": 0.49240121580547114
+            },
+            "activity_mlp": {
+              "ap": 0.4748541361180888,
+              "auc": 0.4874143808723127,
+              "pair_accuracy": 0.4948328267477204
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": -0.0015853336374796467,
+            "phase_specific_rates": 0.0028333633663203406,
+            "profile_alignment": 0.010617204979147865,
+            "profile_information": 0.013456244260287464,
+            "residual_vs_history": -0.0004355360776345796
+          }
+        },
+        "gap_1h_to_1d__dose_1_to_9": {
+          "query_count": 2224,
+          "user_count": 51,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.6209875013241686,
+              "auc": 0.6263058572925831,
+              "pair_accuracy": 0.5980215827338129
+            },
+            "dose_mlp": {
+              "ap": 0.6216984080786938,
+              "auc": 0.6270055897727861,
+              "pair_accuracy": 0.5984712230215827
+            },
+            "scalar_clock": {
+              "ap": 0.618169272760345,
+              "auc": 0.6247940833484291,
+              "pair_accuracy": 0.5944244604316546
+            },
+            "phase_competition": {
+              "ap": 0.6174325287019353,
+              "auc": 0.6234817564114177,
+              "pair_accuracy": 0.5989208633093526
+            },
+            "shuffled_phase": {
+              "ap": 0.6166841922810109,
+              "auc": 0.6251725575474871,
+              "pair_accuracy": 0.5980215827338129
+            },
+            "activity_mlp": {
+              "ap": 0.6197884105979717,
+              "auc": 0.6282499854433001,
+              "pair_accuracy": 0.6088129496402878
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": -0.004265879376758486,
+            "phase_specific_rates": -0.0007367440584096219,
+            "profile_alignment": 0.0007483364209244225,
+            "profile_information": 0.0019099974807220699,
+            "residual_vs_history": -0.0035549726222332545
+          }
+        },
+        "gap_1h_to_1d__dose_ge_10": {
+          "query_count": 2297,
+          "user_count": 42,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.6053723399180431,
+              "auc": 0.6458101830310361,
+              "pair_accuracy": 0.6760992599042229
+            },
+            "dose_mlp": {
+              "ap": 0.6041314353835913,
+              "auc": 0.6463421937986157,
+              "pair_accuracy": 0.6713104048759251
+            },
+            "scalar_clock": {
+              "ap": 0.6014963216428808,
+              "auc": 0.644205811407395,
+              "pair_accuracy": 0.6673922507618633
+            },
+            "phase_competition": {
+              "ap": 0.602620131935446,
+              "auc": 0.6440761728733642,
+              "pair_accuracy": 0.6713104048759251
+            },
+            "shuffled_phase": {
+              "ap": 0.6072002158972274,
+              "auc": 0.6489124104067902,
+              "pair_accuracy": 0.7009142359599477
+            },
+            "activity_mlp": {
+              "ap": 0.6068162188943513,
+              "auc": 0.6491235468496415,
+              "pair_accuracy": 0.7083151937309534
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": -0.001511303448145318,
+            "phase_specific_rates": 0.0011238102925651416,
+            "profile_alignment": -0.004580083961781445,
+            "profile_information": -0.0026847835107600693,
+            "residual_vs_history": -0.0027522079825971213
+          }
+        },
+        "gap_1d_to_7d__dose_zero": {
+          "query_count": 2491,
+          "user_count": 55,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.5052713730857639,
+              "auc": 0.5183475445364856,
+              "pair_accuracy": 0.5319148936170213
+            },
+            "dose_mlp": {
+              "ap": 0.5051376563781007,
+              "auc": 0.5193970876447865,
+              "pair_accuracy": 0.5391409072661582
+            },
+            "scalar_clock": {
+              "ap": 0.4973942740232867,
+              "auc": 0.5107585219274333,
+              "pair_accuracy": 0.5222802087515054
+            },
+            "phase_competition": {
+              "ap": 0.5015378182769215,
+              "auc": 0.5127180450988471,
+              "pair_accuracy": 0.5299076676033722
+            },
+            "shuffled_phase": {
+              "ap": 0.5029132427405236,
+              "auc": 0.5188098269788904,
+              "pair_accuracy": 0.5367322360497792
+            },
+            "activity_mlp": {
+              "ap": 0.5021690545855759,
+              "auc": 0.5161576456455605,
+              "pair_accuracy": 0.5391409072661582
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": -0.0035998381011792535,
+            "phase_specific_rates": 0.004143544253634779,
+            "profile_alignment": -0.0013754244636021706,
+            "profile_information": 0.002968601792524783,
+            "residual_vs_history": -0.0037335548088424098
+          }
+        },
+        "gap_1d_to_7d__dose_1_to_9": {
+          "query_count": 4210,
+          "user_count": 58,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.646690855541728,
+              "auc": 0.6293426464531344,
+              "pair_accuracy": 0.5871733966745843
+            },
+            "dose_mlp": {
+              "ap": 0.6460673970328243,
+              "auc": 0.6290804892773116,
+              "pair_accuracy": 0.5890736342042755
+            },
+            "scalar_clock": {
+              "ap": 0.6455670790322625,
+              "auc": 0.6288988721571194,
+              "pair_accuracy": 0.5923990498812352
+            },
+            "phase_competition": {
+              "ap": 0.6464562920218461,
+              "auc": 0.6297034828284652,
+              "pair_accuracy": 0.5916864608076009
+            },
+            "shuffled_phase": {
+              "ap": 0.6445927713902149,
+              "auc": 0.6275583527513386,
+              "pair_accuracy": 0.584560570071259
+            },
+            "activity_mlp": {
+              "ap": 0.6446626962209999,
+              "auc": 0.6282727754864845,
+              "pair_accuracy": 0.5923990498812352
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": 0.00038889498902172637,
+            "phase_specific_rates": 0.0008892129895835543,
+            "profile_alignment": 0.0018635206316311992,
+            "profile_information": 0.001404700811824422,
+            "residual_vs_history": -0.00023456351988193624
+          }
+        },
+        "gap_1d_to_7d__dose_ge_10": {
+          "query_count": 4137,
+          "user_count": 45,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.6955972540964537,
+              "auc": 0.7112020910127388,
+              "pair_accuracy": 0.6347594875513657
+            },
+            "dose_mlp": {
+              "ap": 0.695861938876802,
+              "auc": 0.7120049648347577,
+              "pair_accuracy": 0.6366932559825961
+            },
+            "scalar_clock": {
+              "ap": 0.6964520232042172,
+              "auc": 0.7134998725369884,
+              "pair_accuracy": 0.6391104665216341
+            },
+            "phase_competition": {
+              "ap": 0.695817125525222,
+              "auc": 0.7115251745436939,
+              "pair_accuracy": 0.6352429296591733
+            },
+            "shuffled_phase": {
+              "ap": 0.6954499300479192,
+              "auc": 0.7112329999896579,
+              "pair_accuracy": 0.6371766980904037
+            },
+            "activity_mlp": {
+              "ap": 0.6938798916451474,
+              "auc": 0.7122252424207419,
+              "pair_accuracy": 0.6420111191684795
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": -4.4813351580019756e-05,
+            "phase_specific_rates": -0.000634897678995161,
+            "profile_alignment": 0.0003671954773027952,
+            "profile_information": 0.0019820472316546267,
+            "residual_vs_history": 0.00021987142876833676
+          }
+        },
+        "gap_ge_7d__dose_zero": {
+          "query_count": 3201,
+          "user_count": 65,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.4958293296275157,
+              "auc": 0.5008633763211101,
+              "pair_accuracy": 0.5092158700406123
+            },
+            "dose_mlp": {
+              "ap": 0.49137365957304746,
+              "auc": 0.49639639323114526,
+              "pair_accuracy": 0.49765698219306465
+            },
+            "scalar_clock": {
+              "ap": 0.49269198375839723,
+              "auc": 0.4990159471603737,
+              "pair_accuracy": 0.5007810059356451
+            },
+            "phase_competition": {
+              "ap": 0.49168463724124445,
+              "auc": 0.49736975939161465,
+              "pair_accuracy": 0.4970321774445486
+            },
+            "shuffled_phase": {
+              "ap": 0.5132311703705357,
+              "auc": 0.519408082896619,
+              "pair_accuracy": 0.5335832552327398
+            },
+            "activity_mlp": {
+              "ap": 0.5131821711490422,
+              "auc": 0.5205728821271001,
+              "pair_accuracy": 0.5357700718525461
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": 0.0003109776681969878,
+            "phase_specific_rates": -0.0010073465171527851,
+            "profile_alignment": -0.021546533129291223,
+            "profile_information": -0.021808511575994727,
+            "residual_vs_history": -0.004144692386271243
+          }
+        },
+        "gap_ge_7d__dose_1_to_9": {
+          "query_count": 6902,
+          "user_count": 67,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.6844698040268951,
+              "auc": 0.647980416899221,
+              "pair_accuracy": 0.6051869023471458
+            },
+            "dose_mlp": {
+              "ap": 0.6838797684853464,
+              "auc": 0.6476101107016214,
+              "pair_accuracy": 0.6035931614024921
+            },
+            "scalar_clock": {
+              "ap": 0.6828540029426144,
+              "auc": 0.6460623208505616,
+              "pair_accuracy": 0.6001159084323384
+            },
+            "phase_competition": {
+              "ap": 0.6835156738993979,
+              "auc": 0.647025215625874,
+              "pair_accuracy": 0.6051869023471458
+            },
+            "shuffled_phase": {
+              "ap": 0.6866839107343661,
+              "auc": 0.6511423832315328,
+              "pair_accuracy": 0.6117067516661837
+            },
+            "activity_mlp": {
+              "ap": 0.6862727713269003,
+              "auc": 0.6500708033090833,
+              "pair_accuracy": 0.6144595769342219
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": -0.0003640945859484379,
+            "phase_specific_rates": 0.0006616709567834889,
+            "profile_alignment": -0.003168236834968141,
+            "profile_information": -0.0023930028415539706,
+            "residual_vs_history": -0.0009541301274971214
+          }
+        },
+        "gap_ge_7d__dose_ge_10": {
+          "query_count": 13493,
+          "user_count": 64,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.8373822111933722,
+              "auc": 0.8247600204698371,
+              "pair_accuracy": 0.7360112651004225
+            },
+            "dose_mlp": {
+              "ap": 0.838054992833232,
+              "auc": 0.8256069177103336,
+              "pair_accuracy": 0.7409768027866301
+            },
+            "scalar_clock": {
+              "ap": 0.8375894126540585,
+              "auc": 0.824729286273639,
+              "pair_accuracy": 0.7357889275920848
+            },
+            "phase_competition": {
+              "ap": 0.8375221892803073,
+              "auc": 0.8249954744575816,
+              "pair_accuracy": 0.737567627658786
+            },
+            "shuffled_phase": {
+              "ap": 0.8334247735588931,
+              "auc": 0.8197755495740333,
+              "pair_accuracy": 0.7260060772252279
+            },
+            "activity_mlp": {
+              "ap": 0.8340023107592468,
+              "auc": 0.8201565234307752,
+              "pair_accuracy": 0.7293411398502927
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": -0.0005328035529247321,
+            "phase_specific_rates": -6.72233737512018e-05,
+            "profile_alignment": 0.004097415721414199,
+            "profile_information": 0.0040526820739852365,
+            "residual_vs_history": 0.00013997808693511082
+          }
+        }
+      }
+    },
+    {
+      "seed": 303,
+      "cohorts": {
+        "all": {
+          "query_count": 40600,
+          "user_count": 68,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.7193289538424938,
+              "auc": 0.6953828402169429,
+              "pair_accuracy": 0.6378571428571429
+            },
+            "dose_mlp": {
+              "ap": 0.7190983217155364,
+              "auc": 0.6949927406634472,
+              "pair_accuracy": 0.63435960591133
+            },
+            "scalar_clock": {
+              "ap": 0.7195405585017511,
+              "auc": 0.6956489064888738,
+              "pair_accuracy": 0.6364039408866995
+            },
+            "phase_competition": {
+              "ap": 0.7192633709736234,
+              "auc": 0.6950888689363974,
+              "pair_accuracy": 0.6342610837438424
+            },
+            "shuffled_phase": {
+              "ap": 0.7201556560149558,
+              "auc": 0.6976409018660972,
+              "pair_accuracy": 0.6394088669950739
+            },
+            "activity_mlp": {
+              "ap": 0.7197680047954309,
+              "auc": 0.6966942900822636,
+              "pair_accuracy": 0.6386945812807882
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": 0.0001650492580869134,
+            "phase_specific_rates": -0.0002771875281277758,
+            "profile_alignment": -0.0008922850413324301,
+            "profile_information": -0.0006696830798944564,
+            "residual_vs_history": -6.558286887048403e-05
+          }
+        },
+        "gap_1h_to_1d": {
+          "query_count": 6166,
+          "user_count": 55,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.5930852611321564,
+              "auc": 0.6076868309561532,
+              "pair_accuracy": 0.5934155043788518
+            },
+            "dose_mlp": {
+              "ap": 0.5932878420534942,
+              "auc": 0.607197950970285,
+              "pair_accuracy": 0.5849821602335388
+            },
+            "scalar_clock": {
+              "ap": 0.5930232621745215,
+              "auc": 0.6077358583566836,
+              "pair_accuracy": 0.5934155043788518
+            },
+            "phase_competition": {
+              "ap": 0.5929815082179699,
+              "auc": 0.6076482850036439,
+              "pair_accuracy": 0.5880635744404801
+            },
+            "shuffled_phase": {
+              "ap": 0.58731791334049,
+              "auc": 0.6069433583074983,
+              "pair_accuracy": 0.6073629581576386
+            },
+            "activity_mlp": {
+              "ap": 0.588498894371912,
+              "auc": 0.6077912509025618,
+              "pair_accuracy": 0.5984430749270191
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": -0.00030633383552425286,
+            "phase_specific_rates": -4.175395655159342e-05,
+            "profile_alignment": 0.005663594877479916,
+            "profile_information": 0.004788947681582112,
+            "residual_vs_history": -0.00010375291418651678
+          }
+        },
+        "gap_1d_to_7d": {
+          "query_count": 10838,
+          "user_count": 60,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.6438198287881816,
+              "auc": 0.636436347155091,
+              "pair_accuracy": 0.5956818601217937
+            },
+            "dose_mlp": {
+              "ap": 0.643265815737492,
+              "auc": 0.6355286427185913,
+              "pair_accuracy": 0.5869164052408193
+            },
+            "scalar_clock": {
+              "ap": 0.644267898980428,
+              "auc": 0.6373046900074546,
+              "pair_accuracy": 0.5905148551393246
+            },
+            "phase_competition": {
+              "ap": 0.6444191363581938,
+              "auc": 0.6372377408352594,
+              "pair_accuracy": 0.5899612474626315
+            },
+            "shuffled_phase": {
+              "ap": 0.6446555198765204,
+              "auc": 0.6407768184643228,
+              "pair_accuracy": 0.5955895921756782
+            },
+            "activity_mlp": {
+              "ap": 0.6433921218269181,
+              "auc": 0.6382932246722615,
+              "pair_accuracy": 0.5960509319062558
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": 0.0011533206207018365,
+            "phase_specific_rates": 0.00015123737776578938,
+            "profile_alignment": -0.00023638351832655502,
+            "profile_information": -0.0001263060894260981,
+            "residual_vs_history": 0.000599307570012253
+          }
+        },
+        "gap_ge_7d": {
+          "query_count": 23596,
+          "user_count": 68,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.7635518042188378,
+              "auc": 0.7369022997410124,
+              "pair_accuracy": 0.6688421766401085
+            },
+            "dose_mlp": {
+              "ap": 0.7635974078282187,
+              "auc": 0.7367164828434666,
+              "pair_accuracy": 0.669054076962197
+            },
+            "scalar_clock": {
+              "ap": 0.7636817770275721,
+              "auc": 0.7368653833211091,
+              "pair_accuracy": 0.6687150364468554
+            },
+            "phase_competition": {
+              "ap": 0.7631033000220121,
+              "auc": 0.7360168364019737,
+              "pair_accuracy": 0.6666807933548059
+            },
+            "shuffled_phase": {
+              "ap": 0.7640776048873728,
+              "auc": 0.7387827498611207,
+              "pair_accuracy": 0.6679098152229191
+            },
+            "activity_mlp": {
+              "ap": 0.7640746899039808,
+              "auc": 0.7382016907282074,
+              "pair_accuracy": 0.6687997965756908
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": -0.0004941078062066229,
+            "phase_specific_rates": -0.0005784770055600186,
+            "profile_alignment": -0.0009743048653606534,
+            "profile_information": -0.0004772820757620311,
+            "residual_vs_history": -0.0004485041968257386
+          }
+        },
+        "dose_zero": {
+          "query_count": 7337,
+          "user_count": 66,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.4979874725070981,
+              "auc": 0.5033248612909648,
+              "pair_accuracy": 0.5082458770614693
+            },
+            "dose_mlp": {
+              "ap": 0.497123099250853,
+              "auc": 0.5026071783269033,
+              "pair_accuracy": 0.5012948071418836
+            },
+            "scalar_clock": {
+              "ap": 0.49717030172085097,
+              "auc": 0.5037525285581033,
+              "pair_accuracy": 0.5053836718004634
+            },
+            "phase_competition": {
+              "ap": 0.49688334320878424,
+              "auc": 0.5026035466289307,
+              "pair_accuracy": 0.5047021943573667
+            },
+            "shuffled_phase": {
+              "ap": 0.4935949572939934,
+              "auc": 0.503180512906841,
+              "pair_accuracy": 0.5120621507428104
+            },
+            "activity_mlp": {
+              "ap": 0.49492258973286407,
+              "auc": 0.5089645074250019,
+              "pair_accuracy": 0.5157421289355323
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": -0.00023975604206877277,
+            "phase_specific_rates": -0.0002869585120667262,
+            "profile_alignment": 0.003288385914790859,
+            "profile_information": 0.0022005095179889467,
+            "residual_vs_history": -0.0011041292983138273
+          }
+        },
+        "dose_1_to_9": {
+          "query_count": 13336,
+          "user_count": 67,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.6662504542779444,
+              "auc": 0.6339144832251307,
+              "pair_accuracy": 0.6012297540491902
+            },
+            "dose_mlp": {
+              "ap": 0.6658269429554706,
+              "auc": 0.6339305614806853,
+              "pair_accuracy": 0.6001049790041991
+            },
+            "scalar_clock": {
+              "ap": 0.6670329967710094,
+              "auc": 0.6352805867290848,
+              "pair_accuracy": 0.6041541691661668
+            },
+            "phase_competition": {
+              "ap": 0.666281548527003,
+              "auc": 0.6342291745235236,
+              "pair_accuracy": 0.598005398920216
+            },
+            "shuffled_phase": {
+              "ap": 0.6673993365025097,
+              "auc": 0.6388477187960728,
+              "pair_accuracy": 0.5998050389922016
+            },
+            "activity_mlp": {
+              "ap": 0.6664034175738198,
+              "auc": 0.6357629596981024,
+              "pair_accuracy": 0.5988302339532093
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": 0.0004546055715324293,
+            "phase_specific_rates": -0.0007514482440063031,
+            "profile_alignment": -0.0011177879755066567,
+            "profile_information": -0.0005764746183491987,
+            "residual_vs_history": 3.1094249058671863e-05
+          }
+        },
+        "dose_ge_10": {
+          "query_count": 19927,
+          "user_count": 64,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.7983812598397961,
+              "auc": 0.7868598628079759,
+              "pair_accuracy": 0.7100918351984744
+            },
+            "dose_mlp": {
+              "ap": 0.7982372912851614,
+              "auc": 0.7862170664582775,
+              "pair_accuracy": 0.7062779143875144
+            },
+            "scalar_clock": {
+              "ap": 0.7984272694390188,
+              "auc": 0.7863539614680652,
+              "pair_accuracy": 0.7062277312189492
+            },
+            "phase_competition": {
+              "ap": 0.7983584970644595,
+              "auc": 0.7862400086304876,
+              "pair_accuracy": 0.7062277312189492
+            },
+            "shuffled_phase": {
+              "ap": 0.7991709733371428,
+              "auc": 0.7876525513739139,
+              "pair_accuracy": 0.7128017263009987
+            },
+            "activity_mlp": {
+              "ap": 0.7989545776502711,
+              "auc": 0.786616537273277,
+              "pair_accuracy": 0.7106438500526924
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": 0.00012120577929808363,
+            "phase_specific_rates": -6.877237455926721e-05,
+            "profile_alignment": -0.0008124762726833268,
+            "profile_information": -0.0007172863651097039,
+            "residual_vs_history": -2.276277533663773e-05
+          }
+        },
+        "gap_1h_to_1d__dose_zero": {
+          "query_count": 1645,
+          "user_count": 44,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.48727127090906375,
+              "auc": 0.49942406297059344,
+              "pair_accuracy": 0.503951367781155
+            },
+            "dose_mlp": {
+              "ap": 0.4842710705134704,
+              "auc": 0.4961600502582201,
+              "pair_accuracy": 0.4990881458966565
+            },
+            "scalar_clock": {
+              "ap": 0.48453685063292373,
+              "auc": 0.49509779104036367,
+              "pair_accuracy": 0.505775075987842
+            },
+            "phase_competition": {
+              "ap": 0.4845245568734011,
+              "auc": 0.49666466496059714,
+              "pair_accuracy": 0.503951367781155
+            },
+            "shuffled_phase": {
+              "ap": 0.4755664097988228,
+              "auc": 0.48404800399109393,
+              "pair_accuracy": 0.4838905775075988
+            },
+            "activity_mlp": {
+              "ap": 0.4738290934715319,
+              "auc": 0.48750769117062853,
+              "pair_accuracy": 0.4778115501519757
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": 0.00025348635993072133,
+            "phase_specific_rates": -1.2293759522608028e-05,
+            "profile_alignment": 0.008958147074578315,
+            "profile_information": 0.0104419770419385,
+            "residual_vs_history": -0.002746714035662623
+          }
+        },
+        "gap_1h_to_1d__dose_1_to_9": {
+          "query_count": 2224,
+          "user_count": 51,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.6318925220717957,
+              "auc": 0.6324124940155789,
+              "pair_accuracy": 0.6173561151079137
+            },
+            "dose_mlp": {
+              "ap": 0.632526464833592,
+              "auc": 0.6330936262680502,
+              "pair_accuracy": 0.6016187050359713
+            },
+            "scalar_clock": {
+              "ap": 0.6335933035457528,
+              "auc": 0.6353145338944671,
+              "pair_accuracy": 0.6178057553956835
+            },
+            "phase_competition": {
+              "ap": 0.6341512976911998,
+              "auc": 0.63433478711635,
+              "pair_accuracy": 0.6061151079136691
+            },
+            "shuffled_phase": {
+              "ap": 0.6291463568012841,
+              "auc": 0.6383784159722581,
+              "pair_accuracy": 0.6290467625899281
+            },
+            "activity_mlp": {
+              "ap": 0.6336110965867223,
+              "auc": 0.6374716548703484,
+              "pair_accuracy": 0.6178057553956835
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": 0.0016248328576078386,
+            "phase_specific_rates": 0.0005579941454469939,
+            "profile_alignment": 0.0050049408899157655,
+            "profile_information": -0.0010846317531303384,
+            "residual_vs_history": 0.0022587756194041297
+          }
+        },
+        "gap_1h_to_1d__dose_ge_10": {
+          "query_count": 2297,
+          "user_count": 42,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.6046603727181737,
+              "auc": 0.6418665371292153,
+              "pair_accuracy": 0.6343056160208969
+            },
+            "dose_mlp": {
+              "ap": 0.6062931324107774,
+              "auc": 0.6418310950153794,
+              "pair_accuracy": 0.630387461906835
+            },
+            "scalar_clock": {
+              "ap": 0.6053135128034959,
+              "auc": 0.640886666923164,
+              "pair_accuracy": 0.6325642141924249
+            },
+            "phase_competition": {
+              "ap": 0.6039147408151309,
+              "auc": 0.6414155504454051,
+              "pair_accuracy": 0.630822812363953
+            },
+            "shuffled_phase": {
+              "ap": 0.6044444305522148,
+              "auc": 0.6430989560876001,
+              "pair_accuracy": 0.674793208532869
+            },
+            "activity_mlp": {
+              "ap": 0.6052019635178593,
+              "auc": 0.6454281852746926,
+              "pair_accuracy": 0.6660861993905094
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": -0.0023783915956465673,
+            "phase_specific_rates": -0.0013987719883650218,
+            "profile_alignment": -0.0005296897370838938,
+            "profile_information": 0.0010911688929181595,
+            "residual_vs_history": -0.0007456319030428871
+          }
+        },
+        "gap_1d_to_7d__dose_zero": {
+          "query_count": 2491,
+          "user_count": 55,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.49931973678752883,
+              "auc": 0.5060284466874808,
+              "pair_accuracy": 0.5146527498996387
+            },
+            "dose_mlp": {
+              "ap": 0.498346891839855,
+              "auc": 0.5059567312658771,
+              "pair_accuracy": 0.5078281814532316
+            },
+            "scalar_clock": {
+              "ap": 0.5002419607885232,
+              "auc": 0.5086103630234642,
+              "pair_accuracy": 0.5078281814532316
+            },
+            "phase_competition": {
+              "ap": 0.49949983981704094,
+              "auc": 0.5084334918432168,
+              "pair_accuracy": 0.5158570855078282
+            },
+            "shuffled_phase": {
+              "ap": 0.4886166709388018,
+              "auc": 0.49856214608640886,
+              "pair_accuracy": 0.5074267362505018
+            },
+            "activity_mlp": {
+              "ap": 0.4908902873815047,
+              "auc": 0.5053772061960191,
+              "pair_accuracy": 0.5130469690887194
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": 0.0011529479771859585,
+            "phase_specific_rates": -0.0007421209714822963,
+            "profile_alignment": 0.010883168878239147,
+            "profile_information": 0.00745660445835028,
+            "residual_vs_history": 0.000180103029512102
+          }
+        },
+        "gap_1d_to_7d__dose_1_to_9": {
+          "query_count": 4210,
+          "user_count": 58,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.641192474771019,
+              "auc": 0.6196769370518108,
+              "pair_accuracy": 0.5919239904988124
+            },
+            "dose_mlp": {
+              "ap": 0.6416562825790814,
+              "auc": 0.6201907854277509,
+              "pair_accuracy": 0.5904988123515439
+            },
+            "scalar_clock": {
+              "ap": 0.6423649882807084,
+              "auc": 0.6213175845317958,
+              "pair_accuracy": 0.5895486935866984
+            },
+            "phase_competition": {
+              "ap": 0.6418557274480096,
+              "auc": 0.6202661066006172,
+              "pair_accuracy": 0.5836104513064133
+            },
+            "shuffled_phase": {
+              "ap": 0.638819241683157,
+              "auc": 0.6214977347227786,
+              "pair_accuracy": 0.5774346793349169
+            },
+            "activity_mlp": {
+              "ap": 0.6383698691545068,
+              "auc": 0.619561134274801,
+              "pair_accuracy": 0.58812351543943
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": 0.00019944486892820024,
+            "phase_specific_rates": -0.0005092608326988657,
+            "profile_alignment": 0.0030364857648526034,
+            "profile_information": 0.0032864134245745857,
+            "residual_vs_history": 0.0006632526769905223
+          }
+        },
+        "gap_1d_to_7d__dose_ge_10": {
+          "query_count": 4137,
+          "user_count": 45,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.7012708189573333,
+              "auc": 0.7165447281234121,
+              "pair_accuracy": 0.6482958665699783
+            },
+            "dose_mlp": {
+              "ap": 0.7000888638089252,
+              "auc": 0.7140892173303652,
+              "pair_accuracy": 0.630891950688905
+            },
+            "scalar_clock": {
+              "ap": 0.7010248346569434,
+              "auc": 0.71580469476392,
+              "pair_accuracy": 0.6412859560067682
+            },
+            "phase_competition": {
+              "ap": 0.7017286021776529,
+              "auc": 0.7167208625485977,
+              "pair_accuracy": 0.6410442349528644
+            },
+            "shuffled_phase": {
+              "ap": 0.7070770650861855,
+              "auc": 0.7268584811165141,
+              "pair_accuracy": 0.6671501087744742
+            },
+            "activity_mlp": {
+              "ap": 0.7061119006770645,
+              "auc": 0.7213630519932814,
+              "pair_accuracy": 0.6540971718636693
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": 0.0016397383687276612,
+            "phase_specific_rates": 0.0007037675207094418,
+            "profile_alignment": -0.005348462908532636,
+            "profile_information": -0.00602303686813932,
+            "residual_vs_history": 0.0004577832203195298
+          }
+        },
+        "gap_ge_7d__dose_zero": {
+          "query_count": 3201,
+          "user_count": 65,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.5018898261707152,
+              "auc": 0.5036120487574124,
+              "pair_accuracy": 0.5054670415495158
+            },
+            "dose_mlp": {
+              "ap": 0.5021450057223259,
+              "auc": 0.503485662917155,
+              "pair_accuracy": 0.49734457981880664
+            },
+            "scalar_clock": {
+              "ap": 0.5011329299376077,
+              "auc": 0.5047771407736239,
+              "pair_accuracy": 0.5032802249297095
+            },
+            "phase_competition": {
+              "ap": 0.500236142476153,
+              "auc": 0.5012979679401577,
+              "pair_accuracy": 0.49640737269603247
+            },
+            "shuffled_phase": {
+              "ap": 0.5091658088479436,
+              "auc": 0.5152041677853522,
+              "pair_accuracy": 0.5301468291159013
+            },
+            "activity_mlp": {
+              "ap": 0.5110170086461397,
+              "auc": 0.5226926508146617,
+              "pair_accuracy": 0.5373320837238363
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": -0.0019088632461728983,
+            "phase_specific_rates": -0.0008967874614547178,
+            "profile_alignment": -0.008929666371790601,
+            "profile_information": -0.008872002923813849,
+            "residual_vs_history": -0.0016536836945622024
+          }
+        },
+        "gap_ge_7d__dose_1_to_9": {
+          "query_count": 6902,
+          "user_count": 67,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.682459517595795,
+              "auc": 0.6414477940578203,
+              "pair_accuracy": 0.6017096493769922
+            },
+            "dose_mlp": {
+              "ap": 0.6816599151148434,
+              "auc": 0.6411384586008986,
+              "pair_accuracy": 0.6054766734279919
+            },
+            "scalar_clock": {
+              "ap": 0.6824295997924585,
+              "auc": 0.6420207657799079,
+              "pair_accuracy": 0.6086641553172993
+            },
+            "phase_competition": {
+              "ap": 0.6816320548664672,
+              "auc": 0.6411263253290405,
+              "pair_accuracy": 0.6041727035641843
+            },
+            "shuffled_phase": {
+              "ap": 0.6834250276495142,
+              "auc": 0.6468532611337884,
+              "pair_accuracy": 0.6040278180237613
+            },
+            "activity_mlp": {
+              "ap": 0.68179425822791,
+              "auc": 0.6433016131541796,
+              "pair_accuracy": 0.5992465951898001
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": -2.786024837619916e-05,
+            "phase_specific_rates": -0.000797544925991378,
+            "profile_alignment": -0.00179297278304702,
+            "profile_information": -0.00013434311306659286,
+            "residual_vs_history": -0.0008274627293278769
+          }
+        },
+        "gap_ge_7d__dose_ge_10": {
+          "query_count": 13493,
+          "user_count": 64,
+          "descriptive_support": true,
+          "models": {
+            "history_only": {
+              "ap": 0.8333117439803136,
+              "auc": 0.8198773505913393,
+              "pair_accuracy": 0.7419402653227599
+            },
+            "dose_mlp": {
+              "ap": 0.8335464050961361,
+              "auc": 0.8196815453919526,
+              "pair_accuracy": 0.742310827836656
+            },
+            "scalar_clock": {
+              "ap": 0.8335164166815517,
+              "auc": 0.8194269220101,
+              "pair_accuracy": 0.7386793152004744
+            },
+            "phase_competition": {
+              "ap": 0.8331660747571439,
+              "auc": 0.8190492821998405,
+              "pair_accuracy": 0.7390498777143704
+            },
+            "shuffled_phase": {
+              "ap": 0.8322061199064068,
+              "auc": 0.8183637951025977,
+              "pair_accuracy": 0.7332691024975914
+            },
+            "activity_mlp": {
+              "ap": 0.8324400715410507,
+              "auc": 0.8179078216779911,
+              "pair_accuracy": 0.7355665900837471
+            }
+          },
+          "ap_contrasts": {
+            "primary_shape": -0.00038033033899220747,
+            "phase_specific_rates": -0.00035034192440785983,
+            "profile_alignment": 0.000959954850737077,
+            "profile_information": 0.0011063335550853814,
+            "residual_vs_history": -0.00014566922316971986
+          }
+        }
+      }
+    }
+  ],
+  "aggregate": {
+    "all": {
+      "query_count": 40600,
+      "user_counts": [
+        68,
+        68,
+        68
+      ],
+      "descriptive_support_all_seeds": true,
+      "ap_contrasts": {
+        "primary_shape": {
+          "values": [
+            0.00028747711893362116,
+            -0.0006886638079394158,
+            0.0001650492580869134
+          ],
+          "mean": -7.871247697296042e-05,
+          "sample_sd": 0.0005317683846268862,
+          "positive_seeds": 2,
+          "negative_seeds": 1
+        },
+        "phase_specific_rates": {
+          "values": [
+            3.095752391024664e-05,
+            -0.00010442363488005757,
+            -0.0002771875281277758
+          ],
+          "mean": -0.00011688454636586225,
+          "sample_sd": 0.00015444998870240063,
+          "positive_seeds": 1,
+          "negative_seeds": 2
+        },
+        "profile_alignment": {
+          "values": [
+            0.0003428498014321768,
+            0.0003875992990508559,
+            -0.0008922850413324301
+          ],
+          "mean": -5.394531361646582e-05,
+          "sample_sd": 0.0007263681942957297,
+          "positive_seeds": 2,
+          "negative_seeds": 1
+        },
+        "profile_information": {
+          "values": [
+            0.0003494082831456691,
+            0.0008049131391705266,
+            -0.0006696830798944564
+          ],
+          "mean": 0.00016154611414057976,
+          "sample_sd": 0.0007550348655708943,
+          "positive_seeds": 2,
+          "negative_seeds": 1
+        },
+        "residual_vs_history": {
+          "values": [
+            -0.0004315885184116297,
+            -0.000596538726706064,
+            -6.558286887048403e-05
+          ],
+          "mean": -0.00036457003799605925,
+          "sample_sd": 0.0002717482994986138,
+          "positive_seeds": 0,
+          "negative_seeds": 3
+        }
+      }
+    },
+    "gap_1h_to_1d": {
+      "query_count": 6166,
+      "user_counts": [
+        55,
+        55,
+        55
+      ],
+      "descriptive_support_all_seeds": true,
+      "ap_contrasts": {
+        "primary_shape": {
+          "values": [
+            -0.00087779762011575,
+            -0.002361139851112637,
+            -0.00030633383552425286
+          ],
+          "mean": -0.00118175710225088,
+          "sample_sd": 0.001060589678202388,
+          "positive_seeds": 0,
+          "negative_seeds": 3
+        },
+        "phase_specific_rates": {
+          "values": [
+            -0.0006004046627917647,
+            0.00039302812690822364,
+            -4.175395655159342e-05
+          ],
+          "mean": -8.304349747837818e-05,
+          "sample_sd": 0.0004980018037670484,
+          "positive_seeds": 1,
+          "negative_seeds": 2
+        },
+        "profile_alignment": {
+          "values": [
+            -0.0023230216747691657,
+            0.0009027491547054511,
+            0.005663594877479916
+          ],
+          "mean": 0.0014144407858054004,
+          "sample_sd": 0.004017820582376476,
+          "positive_seeds": 2,
+          "negative_seeds": 1
+        },
+        "profile_information": {
+          "values": [
+            0.0037648339490029548,
+            0.0026604296443728526,
+            0.004788947681582112
+          ],
+          "mean": 0.003738070424985973,
+          "sample_sd": 0.0010645113777431622,
+          "positive_seeds": 3,
+          "negative_seeds": 0
+        },
+        "residual_vs_history": {
+          "values": [
+            -0.00259797963040731,
+            -0.002596219222467555,
+            -0.00010375291418651678
+          ],
+          "mean": -0.0017659839223537939,
+          "sample_sd": 0.001439534549131639,
+          "positive_seeds": 0,
+          "negative_seeds": 3
+        }
+      }
+    },
+    "gap_1d_to_7d": {
+      "query_count": 10838,
+      "user_counts": [
+        60,
+        60,
+        60
+      ],
+      "descriptive_support_all_seeds": true,
+      "ap_contrasts": {
+        "primary_shape": {
+          "values": [
+            0.0017010055068359398,
+            -0.0008806452741000337,
+            0.0011533206207018365
+          ],
+          "mean": 0.0006578936178125808,
+          "sample_sd": 0.0013602632557967239,
+          "positive_seeds": 2,
+          "negative_seeds": 1
+        },
+        "phase_specific_rates": {
+          "values": [
+            0.0004555278561243492,
+            0.0001886004274725961,
+            0.00015123737776578938
+          ],
+          "mean": 0.00026512188712091156,
+          "sample_sd": 0.00016595127039270254,
+          "positive_seeds": 3,
+          "negative_seeds": 0
+        },
+        "profile_alignment": {
+          "values": [
+            0.0047195054399994385,
+            0.0007210990312074284,
+            -0.00023638351832655502
+          ],
+          "mean": 0.0017347403176267706,
+          "sample_sd": 0.0026288420140747845,
+          "positive_seeds": 2,
+          "negative_seeds": 1
+        },
+        "profile_information": {
+          "values": [
+            0.00421156511047327,
+            0.0023552513994906654,
+            -0.0001263060894260981
+          ],
+          "mean": 0.0021468368068459456,
+          "sample_sd": 0.0021764326588593415,
+          "positive_seeds": 2,
+          "negative_seeds": 1
+        },
+        "residual_vs_history": {
+          "values": [
+            0.0008606102118405845,
+            -0.0008276552410384497,
+            0.000599307570012253
+          ],
+          "mean": 0.00021075418027146262,
+          "sample_sd": 0.0009087300822331714,
+          "positive_seeds": 2,
+          "negative_seeds": 1
+        }
+      }
+    },
+    "gap_ge_7d": {
+      "query_count": 23596,
+      "user_counts": [
+        68,
+        68,
+        68
+      ],
+      "descriptive_support_all_seeds": true,
+      "ap_contrasts": {
+        "primary_shape": {
+          "values": [
+            -5.294069818184699e-05,
+            -0.000387553938122287,
+            -0.0004941078062066229
+          ],
+          "mean": -0.0003115341475035856,
+          "sample_sd": 0.00023019852459348967,
+          "positive_seeds": 0,
+          "negative_seeds": 3
+        },
+        "phase_specific_rates": {
+          "values": [
+            -0.0005119060235087014,
+            3.2368235629021136e-05,
+            -0.0005784770055600186
+          ],
+          "mean": -0.00035267159781323293,
+          "sample_sd": 0.0003351114425318065,
+          "positive_seeds": 1,
+          "negative_seeds": 2
+        },
+        "profile_alignment": {
+          "values": [
+            0.00020909829234272426,
+            0.0005533194183230394,
+            -0.0009743048653606534
+          ],
+          "mean": -7.062905156496324e-05,
+          "sample_sd": 0.0008013080108312073,
+          "positive_seeds": 2,
+          "negative_seeds": 1
+        },
+        "profile_information": {
+          "values": [
+            0.0010446548450708804,
+            0.0006514616818125152,
+            -0.0004772820757620311
+          ],
+          "mean": 0.00040627815037378817,
+          "sample_sd": 0.0007900374806394724,
+          "positive_seeds": 2,
+          "negative_seeds": 1
+        },
+        "residual_vs_history": {
+          "values": [
+            -0.0008938175640962331,
+            -0.00036409715916041474,
+            -0.0004485041968257386
+          ],
+          "mean": -0.0005688063066941288,
+          "sample_sd": 0.00028461443231226263,
+          "positive_seeds": 0,
+          "negative_seeds": 3
+        }
+      }
+    },
+    "dose_zero": {
+      "query_count": 7337,
+      "user_counts": [
+        66,
+        66,
+        66
+      ],
+      "descriptive_support_all_seeds": true,
+      "ap_contrasts": {
+        "primary_shape": {
+          "values": [
+            4.2771387979700926e-05,
+            -0.001788966707201578,
+            -0.00023975604206877277
+          ],
+          "mean": -0.0006619837870968833,
+          "sample_sd": 0.0009861659666801665,
+          "positive_seeds": 1,
+          "negative_seeds": 2
+        },
+        "phase_specific_rates": {
+          "values": [
+            -0.008219866078906068,
+            0.0014497087024417654,
+            -0.0002869585120667262
+          ],
+          "mean": -0.0023523719628436766,
+          "sample_sd": 0.00515505758018349,
+          "positive_seeds": 1,
+          "negative_seeds": 2
+        },
+        "profile_alignment": {
+          "values": [
+            -0.012654926833259472,
+            -0.007088956971778915,
+            0.003288385914790859
+          ],
+          "mean": -0.005485165963415843,
+          "sample_sd": 0.00809174978261289,
+          "positive_seeds": 1,
+          "negative_seeds": 2
+        },
+        "profile_information": {
+          "values": [
+            -0.007933173994939258,
+            -0.004810104621751965,
+            0.0022005095179889467
+          ],
+          "mean": -0.003514256366234092,
+          "sample_sd": 0.005189634130749948,
+          "positive_seeds": 1,
+          "negative_seeds": 2
+        },
+        "residual_vs_history": {
+          "values": [
+            -0.007174021883478765,
+            -0.003342421279686425,
+            -0.0011041292983138273
+          ],
+          "mean": -0.003873524153826339,
+          "sample_sd": 0.003069601227529373,
+          "positive_seeds": 0,
+          "negative_seeds": 3
+        }
+      }
+    },
+    "dose_1_to_9": {
+      "query_count": 13336,
+      "user_counts": [
+        67,
+        67,
+        67
+      ],
+      "descriptive_support_all_seeds": true,
+      "ap_contrasts": {
+        "primary_shape": {
+          "values": [
+            0.0006036358958065868,
+            -0.0007432164081669912,
+            0.0004546055715324293
+          ],
+          "mean": 0.00010500835305734164,
+          "sample_sd": 0.00073835387420523,
+          "positive_seeds": 2,
+          "negative_seeds": 1
+        },
+        "phase_specific_rates": {
+          "values": [
+            -0.001178248023880224,
+            0.0002557656456433355,
+            -0.0007514482440063031
+          ],
+          "mean": -0.0005579768740810639,
+          "sample_sd": 0.0007363234203328505,
+          "positive_seeds": 1,
+          "negative_seeds": 2
+        },
+        "profile_alignment": {
+          "values": [
+            0.000590958107302253,
+            -0.001132867152515149,
+            -0.0011177879755066567
+          ],
+          "mean": -0.0005532323402398509,
+          "sample_sd": 0.0009909266777011119,
+          "positive_seeds": 1,
+          "negative_seeds": 2
+        },
+        "profile_information": {
+          "values": [
+            0.0019582153402762925,
+            -0.0006325107929376905,
+            -0.0005764746183491987
+          ],
+          "mean": 0.00024974330966313446,
+          "sample_sd": 0.0014798454388064363,
+          "positive_seeds": 1,
+          "negative_seeds": 2
+        },
+        "residual_vs_history": {
+          "values": [
+            -0.0012958594141418978,
+            -0.0008602710813961911,
+            3.1094249058671863e-05
+          ],
+          "mean": -0.000708345415493139,
+          "sample_sd": 0.0006763967489871733,
+          "positive_seeds": 1,
+          "negative_seeds": 2
+        }
+      }
+    },
+    "dose_ge_10": {
+      "query_count": 19927,
+      "user_counts": [
+        64,
+        64,
+        64
+      ],
+      "descriptive_support_all_seeds": true,
+      "ap_contrasts": {
+        "primary_shape": {
+          "values": [
+            0.00021349740052278854,
+            -0.00045322104180445244,
+            0.00012120577929808363
+          ],
+          "mean": -3.9505953994526756e-05,
+          "sample_sd": 0.0003612472370112358,
+          "positive_seeds": 2,
+          "negative_seeds": 1
+        },
+        "phase_specific_rates": {
+          "values": [
+            0.0015140740455523716,
+            -0.00034986874271414337,
+            -6.877237455926721e-05
+          ],
+          "mean": 0.0003651443094263203,
+          "sample_sd": 0.0010048798166763396,
+          "positive_seeds": 1,
+          "negative_seeds": 2
+        },
+        "profile_alignment": {
+          "values": [
+            0.002828036883357532,
+            0.002104635151226497,
+            -0.0008124762726833268
+          ],
+          "mean": 0.0013733985873002341,
+          "sample_sd": 0.001927268583810689,
+          "positive_seeds": 2,
+          "negative_seeds": 1
+        },
+        "profile_information": {
+          "values": [
+            0.0016291642465928735,
+            0.002032074984035015,
+            -0.0007172863651097039
+          ],
+          "mean": 0.0009813176218393949,
+          "sample_sd": 0.0014847645920973713,
+          "positive_seeds": 2,
+          "negative_seeds": 1
+        },
+        "residual_vs_history": {
+          "values": [
+            0.0006489395423573407,
+            -6.20902682603175e-05,
+            -2.276277533663773e-05
+          ],
+          "mean": 0.0001880288329201285,
+          "sample_sd": 0.00039964443506741243,
+          "positive_seeds": 1,
+          "negative_seeds": 2
+        }
+      }
+    },
+    "gap_1h_to_1d__dose_zero": {
+      "query_count": 1645,
+      "user_counts": [
+        44,
+        44,
+        44
+      ],
+      "descriptive_support_all_seeds": true,
+      "ap_contrasts": {
+        "primary_shape": {
+          "values": [
+            0.0027390829866710265,
+            -0.0015853336374796467,
+            0.00025348635993072133
+          ],
+          "mean": 0.000469078569707367,
+          "sample_sd": 0.0021702545439406316,
+          "positive_seeds": 2,
+          "negative_seeds": 1
+        },
+        "phase_specific_rates": {
+          "values": [
+            -0.0035796201105317005,
+            0.0028333633663203406,
+            -1.2293759522608028e-05
+          ],
+          "mean": -0.00025285016791132264,
+          "sample_sd": 0.003213252216650131,
+          "positive_seeds": 1,
+          "negative_seeds": 2
+        },
+        "profile_alignment": {
+          "values": [
+            0.00737918738762855,
+            0.010617204979147865,
+            0.008958147074578315
+          ],
+          "mean": 0.008984846480451577,
+          "sample_sd": 0.001619173901856322,
+          "positive_seeds": 3,
+          "negative_seeds": 0
+        },
+        "profile_information": {
+          "values": [
+            0.010914300478225392,
+            0.013456244260287464,
+            0.0104419770419385
+          ],
+          "mean": 0.011604173926817118,
+          "sample_sd": 0.0016212327862485335,
+          "positive_seeds": 3,
+          "negative_seeds": 0
+        },
+        "residual_vs_history": {
+          "values": [
+            -0.009730882828610343,
+            -0.0004355360776345796,
+            -0.002746714035662623
+          ],
+          "mean": -0.004304377647302515,
+          "sample_sd": 0.004839483934314608,
+          "positive_seeds": 0,
+          "negative_seeds": 3
+        }
+      }
+    },
+    "gap_1h_to_1d__dose_1_to_9": {
+      "query_count": 2224,
+      "user_counts": [
+        51,
+        51,
+        51
+      ],
+      "descriptive_support_all_seeds": true,
+      "ap_contrasts": {
+        "primary_shape": {
+          "values": [
+            -0.0009596184003616282,
+            -0.004265879376758486,
+            0.0016248328576078386
+          ],
+          "mean": -0.001200221639837425,
+          "sample_sd": 0.0029527174087885483,
+          "positive_seeds": 1,
+          "negative_seeds": 2
+        },
+        "phase_specific_rates": {
+          "values": [
+            -0.008875676963950307,
+            -0.0007367440584096219,
+            0.0005579941454469939
+          ],
+          "mean": -0.003018142292304312,
+          "sample_sd": 0.005113914457270739,
+          "positive_seeds": 1,
+          "negative_seeds": 2
+        },
+        "profile_alignment": {
+          "values": [
+            -0.005577631255423654,
+            0.0007483364209244225,
+            0.0050049408899157655
+          ],
+          "mean": 5.854868513884467e-05,
+          "sample_sd": 0.005324900341148047,
+          "positive_seeds": 2,
+          "negative_seeds": 1
+        },
+        "profile_information": {
+          "values": [
+            0.0015871086930435707,
+            0.0019099974807220699,
+            -0.0010846317531303384
+          ],
+          "mean": 0.0008041581402117673,
+          "sample_sd": 0.0016436878469452724,
+          "positive_seeds": 2,
+          "negative_seeds": 1
+        },
+        "residual_vs_history": {
+          "values": [
+            -0.009842472129174551,
+            -0.0035549726222332545,
+            0.0022587756194041297
+          ],
+          "mean": -0.0037128897106678918,
+          "sample_sd": 0.006052169249387768,
+          "positive_seeds": 1,
+          "negative_seeds": 2
+        }
+      }
+    },
+    "gap_1h_to_1d__dose_ge_10": {
+      "query_count": 2297,
+      "user_counts": [
+        42,
+        42,
+        42
+      ],
+      "descriptive_support_all_seeds": true,
+      "ap_contrasts": {
+        "primary_shape": {
+          "values": [
+            -0.00363017975335278,
+            -0.001511303448145318,
+            -0.0023783915956465673
+          ],
+          "mean": -0.002506624932381555,
+          "sample_sd": 0.0010652427144458901,
+          "positive_seeds": 0,
+          "negative_seeds": 3
+        },
+        "phase_specific_rates": {
+          "values": [
+            0.00989080732014802,
+            0.0011238102925651416,
+            -0.0013987719883650218
+          ],
+          "mean": 0.0032052818747827136,
+          "sample_sd": 0.005925625975497099,
+          "positive_seeds": 2,
+          "negative_seeds": 1
+        },
+        "profile_alignment": {
+          "values": [
+            -0.0042205018801273475,
+            -0.004580083961781445,
+            -0.0005296897370838938
+          ],
+          "mean": -0.003110091859664229,
+          "sample_sd": 0.0022419146179157886,
+          "positive_seeds": 0,
+          "negative_seeds": 3
+        },
+        "profile_information": {
+          "values": [
+            0.0036445288259895348,
+            -0.0026847835107600693,
+            0.0010911688929181595
+          ],
+          "mean": 0.0006836380693825417,
+          "sample_sd": 0.003184275379600734,
+          "positive_seeds": 2,
+          "negative_seeds": 1
+        },
+        "residual_vs_history": {
+          "values": [
+            0.007424102274272482,
+            -0.0027522079825971213,
+            -0.0007456319030428871
+          ],
+          "mean": 0.0013087541295441578,
+          "sample_sd": 0.005390241097500549,
+          "positive_seeds": 1,
+          "negative_seeds": 2
+        }
+      }
+    },
+    "gap_1d_to_7d__dose_zero": {
+      "query_count": 2491,
+      "user_counts": [
+        55,
+        55,
+        55
+      ],
+      "descriptive_support_all_seeds": true,
+      "ap_contrasts": {
+        "primary_shape": {
+          "values": [
+            -0.0018171842203952293,
+            -0.0035998381011792535,
+            0.0011529479771859585
+          ],
+          "mean": -0.0014213581147961747,
+          "sample_sd": 0.002400989922111467,
+          "positive_seeds": 1,
+          "negative_seeds": 2
+        },
+        "phase_specific_rates": {
+          "values": [
+            -0.004066180519894824,
+            0.004143544253634779,
+            -0.0007421209714822963
+          ],
+          "mean": -0.00022158574591411387,
+          "sample_sd": 0.004129541488479007,
+          "positive_seeds": 1,
+          "negative_seeds": 2
+        },
+        "profile_alignment": {
+          "values": [
+            0.002685024564654581,
+            -0.0013754244636021706,
+            0.010883168878239147
+          ],
+          "mean": 0.004064256326430519,
+          "sample_sd": 0.006244596693916889,
+          "positive_seeds": 2,
+          "negative_seeds": 1
+        },
+        "profile_information": {
+          "values": [
+            0.008943522223942402,
+            0.002968601792524783,
+            0.00745660445835028
+          ],
+          "mean": 0.006456242824939155,
+          "sample_sd": 0.0031105403210123566,
+          "positive_seeds": 3,
+          "negative_seeds": 0
+        },
+        "residual_vs_history": {
+          "values": [
+            -0.002665407255874608,
+            -0.0037335548088424098,
+            0.000180103029512102
+          ],
+          "mean": -0.0020729530117349717,
+          "sample_sd": 0.0020229757641844668,
+          "positive_seeds": 1,
+          "negative_seeds": 2
+        }
+      }
+    },
+    "gap_1d_to_7d__dose_1_to_9": {
+      "query_count": 4210,
+      "user_counts": [
+        58,
+        58,
+        58
+      ],
+      "descriptive_support_all_seeds": true,
+      "ap_contrasts": {
+        "primary_shape": {
+          "values": [
+            0.002501859253958738,
+            0.00038889498902172637,
+            0.00019944486892820024
+          ],
+          "mean": 0.0010300663706362216,
+          "sample_sd": 0.0012781250156185693,
+          "positive_seeds": 3,
+          "negative_seeds": 0
+        },
+        "phase_specific_rates": {
+          "values": [
+            0.00022571626872069928,
+            0.0008892129895835543,
+            -0.0005092608326988657
+          ],
+          "mean": 0.00020188947520179598,
+          "sample_sd": 0.0006995413104094316,
+          "positive_seeds": 2,
+          "negative_seeds": 1
+        },
+        "profile_alignment": {
+          "values": [
+            0.010919157931789547,
+            0.0018635206316311992,
+            0.0030364857648526034
+          ],
+          "mean": 0.005273054776091117,
+          "sample_sd": 0.004924715467367542,
+          "positive_seeds": 3,
+          "negative_seeds": 0
+        },
+        "profile_information": {
+          "values": [
+            0.010443440404458881,
+            0.001404700811824422,
+            0.0032864134245745857
+          ],
+          "mean": 0.005044851546952629,
+          "sample_sd": 0.004769044121051802,
+          "positive_seeds": 3,
+          "negative_seeds": 0
+        },
+        "residual_vs_history": {
+          "values": [
+            0.0017331531489248597,
+            -0.00023456351988193624,
+            0.0006632526769905223
+          ],
+          "mean": 0.0007206141020111486,
+          "sample_sd": 0.00098511165457796,
+          "positive_seeds": 2,
+          "negative_seeds": 1
+        }
+      }
+    },
+    "gap_1d_to_7d__dose_ge_10": {
+      "query_count": 4137,
+      "user_counts": [
+        45,
+        45,
+        45
+      ],
+      "descriptive_support_all_seeds": true,
+      "ap_contrasts": {
+        "primary_shape": {
+          "values": [
+            0.0020990815802769403,
+            -4.4813351580019756e-05,
+            0.0016397383687276612
+          ],
+          "mean": 0.0012313355324748605,
+          "sample_sd": 0.001128789629295463,
+          "positive_seeds": 2,
+          "negative_seeds": 1
+        },
+        "phase_specific_rates": {
+          "values": [
+            0.002697531849497614,
+            -0.000634897678995161,
+            0.0007037675207094418
+          ],
+          "mean": 0.0009221338970706316,
+          "sample_sd": 0.00167691220591195,
+          "positive_seeds": 2,
+          "negative_seeds": 1
+        },
+        "profile_alignment": {
+          "values": [
+            0.00015254735104663908,
+            0.0003671954773027952,
+            -0.005348462908532636
+          ],
+          "mean": -0.0016095733600610673,
+          "sample_sd": 0.003239751494525278,
+          "positive_seeds": 2,
+          "negative_seeds": 1
+        },
+        "profile_information": {
+          "values": [
+            -0.0017296584542377813,
+            0.0019820472316546267,
+            -0.00602303686813932
+          ],
+          "mean": -0.001923549363574158,
+          "sample_sd": 0.004006062671094391,
+          "positive_seeds": 1,
+          "negative_seeds": 2
+        },
+        "residual_vs_history": {
+          "values": [
+            0.002758489965070221,
+            0.00021987142876833676,
+            0.0004577832203195298
+          ],
+          "mean": 0.001145381538052696,
+          "sample_sd": 0.0014020483597672337,
+          "positive_seeds": 3,
+          "negative_seeds": 0
+        }
+      }
+    },
+    "gap_ge_7d__dose_zero": {
+      "query_count": 3201,
+      "user_counts": [
+        65,
+        65,
+        65
+      ],
+      "descriptive_support_all_seeds": true,
+      "ap_contrasts": {
+        "primary_shape": {
+          "values": [
+            -0.0005662740839051938,
+            0.0003109776681969878,
+            -0.0019088632461728983
+          ],
+          "mean": -0.0007213865539603681,
+          "sample_sd": 0.0011180198254291361,
+          "positive_seeds": 1,
+          "negative_seeds": 2
+        },
+        "phase_specific_rates": {
+          "values": [
+            -0.013638426161252826,
+            -0.0010073465171527851,
+            -0.0008967874614547178
+          ],
+          "mean": -0.005180853379953443,
+          "sample_sd": 0.007324681483821077,
+          "positive_seeds": 0,
+          "negative_seeds": 3
+        },
+        "profile_alignment": {
+          "values": [
+            -0.033113106169458506,
+            -0.021546533129291223,
+            -0.008929666371790601
+          ],
+          "mean": -0.021196435223513443,
+          "sample_sd": 0.012095520514619429,
+          "positive_seeds": 0,
+          "negative_seeds": 3
+        },
+        "profile_information": {
+          "values": [
+            -0.031266954326664154,
+            -0.021808511575994727,
+            -0.008872002923813849
+          ],
+          "mean": -0.02064915627549091,
+          "sample_sd": 0.01124239923764547,
+          "positive_seeds": 0,
+          "negative_seeds": 3
+        },
+        "residual_vs_history": {
+          "values": [
+            -0.007786356907291125,
+            -0.004144692386271243,
+            -0.0016536836945622024
+          ],
+          "mean": -0.004528244329374857,
+          "sample_sd": 0.003084275320610117,
+          "positive_seeds": 0,
+          "negative_seeds": 3
+        }
+      }
+    },
+    "gap_ge_7d__dose_1_to_9": {
+      "query_count": 6902,
+      "user_counts": [
+        67,
+        67,
+        67
+      ],
+      "descriptive_support_all_seeds": true,
+      "ap_contrasts": {
+        "primary_shape": {
+          "values": [
+            -5.0079464854135836e-05,
+            -0.0003640945859484379,
+            -2.786024837619916e-05
+          ],
+          "mean": -0.0001473447663929243,
+          "sample_sd": 0.00018803932196015315,
+          "positive_seeds": 0,
+          "negative_seeds": 3
+        },
+        "phase_specific_rates": {
+          "values": [
+            -0.0018413081666215358,
+            0.0006616709567834889,
+            -0.000797544925991378
+          ],
+          "mean": -0.0006590607119431416,
+          "sample_sd": 0.0012572229441136383,
+          "positive_seeds": 1,
+          "negative_seeds": 2
+        },
+        "profile_alignment": {
+          "values": [
+            -0.0036344691320265854,
+            -0.003168236834968141,
+            -0.00179297278304702
+          ],
+          "mean": -0.0028652262500139156,
+          "sample_sd": 0.0009574125347894679,
+          "positive_seeds": 0,
+          "negative_seeds": 3
+        },
+        "profile_information": {
+          "values": [
+            0.000664043575066442,
+            -0.0023930028415539706,
+            -0.00013434311306659286
+          ],
+          "mean": -0.0006211007931847071,
+          "sample_sd": 0.001585586004513285,
+          "positive_seeds": 1,
+          "negative_seeds": 2
+        },
+        "residual_vs_history": {
+          "values": [
+            -0.002419201577473773,
+            -0.0009541301274971214,
+            -0.0008274627293278769
+          ],
+          "mean": -0.0014002648114329237,
+          "sample_sd": 0.0008846950080858825,
+          "positive_seeds": 0,
+          "negative_seeds": 3
+        }
+      }
+    },
+    "gap_ge_7d__dose_ge_10": {
+      "query_count": 13493,
+      "user_counts": [
+        64,
+        64,
+        64
+      ],
+      "descriptive_support_all_seeds": true,
+      "ap_contrasts": {
+        "primary_shape": {
+          "values": [
+            5.79030466989483e-05,
+            -0.0005328035529247321,
+            -0.00038033033899220747
+          ],
+          "mean": -0.0002850769484059971,
+          "sample_sd": 0.0003066569386519236,
+          "positive_seeds": 1,
+          "negative_seeds": 2
+        },
+        "phase_specific_rates": {
+          "values": [
+            0.0013195695205393543,
+            -6.72233737512018e-05,
+            -0.00035034192440785983
+          ],
+          "mean": 0.0003006680741267642,
+          "sample_sd": 0.0008936773167971384,
+          "positive_seeds": 1,
+          "negative_seeds": 2
+        },
+        "profile_alignment": {
+          "values": [
+            0.006305535075351698,
+            0.004097415721414199,
+            0.000959954850737077
+          ],
+          "mean": 0.003787635215834325,
+          "sample_sd": 0.002686220384792677,
+          "positive_seeds": 3,
+          "negative_seeds": 0
+        },
+        "profile_information": {
+          "values": [
+            0.005767656737561633,
+            0.0040526820739852365,
+            0.0011063335550853814
+          ],
+          "mean": 0.00364222412221075,
+          "sample_sd": 0.0023576132529538876,
+          "positive_seeds": 3,
+          "negative_seeds": 0
+        },
+        "residual_vs_history": {
+          "values": [
+            0.00012345047291939526,
+            0.00013997808693511082,
+            -0.00014566922316971986
+          ],
+          "mean": 3.9253112228262076e-05,
+          "sample_sd": 0.0001603605097991582,
+          "positive_seeds": 2,
+          "negative_seeds": 1
+        }
+      }
+    }
+  }
+}

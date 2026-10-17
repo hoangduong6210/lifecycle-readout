@@ -1,5 +1,5 @@
 """
-Script to generate IEEE TKDE formatted Word document (.docx) from the LaTeX manuscript.
+Legacy Word exporter retained for historical reproduction; not the current article assembler.
 """
 from pathlib import Path
 import docx
@@ -33,7 +33,7 @@ def add_heading_styled(doc, text, level):
     run.bold = True
     if level == 1:
         run.font.size = Pt(12)
-        run.font.color.rgb = RGBColor(0, 51, 102) # Navy IEEE style
+        run.font.color.rgb = RGBColor(0, 51, 102) # Navy heading style
     elif level == 2:
         run.font.size = Pt(11)
         run.font.italic = True
@@ -77,11 +77,11 @@ def main():
     r_auth.font.size = Pt(11)
     r_auth.bold = True
 
-    # Target Journal
+    # Historical draft metadata
     p_sub = doc.add_paragraph()
     p_sub.alignment = WD_ALIGN_PARAGRAPH.CENTER
     p_sub.paragraph_format.space_after = Pt(14)
-    r_sub = p_sub.add_run("Submitted to IEEE Transactions on Knowledge and Data Engineering (TKDE)\nCanonical Evidence Protocol: LCR-P-TKDE-002")
+    r_sub = p_sub.add_run("Historical working draft; not a submitted or admitted article\nHistorical Evidence Protocol: LCR-P-TKDE-002")
     r_sub.font.name = 'Times New Roman'
     r_sub.font.size = Pt(9.5)
     r_sub.italic = True
@@ -479,7 +479,7 @@ def main():
         r.font.name = 'Times New Roman'
         r.font.size = Pt(8.5)
 
-    out_working = Path("paper/working/tkde/main.docx")
+    out_working = Path("paper/working/legacy/generated.docx")
     out_snapshot = Path("paper/snapshots/Life_Cycle_readout.docx")
     doc.save(str(out_working))
     doc.save(str(out_snapshot))

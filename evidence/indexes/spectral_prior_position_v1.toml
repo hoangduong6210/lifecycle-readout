@@ -1,0 +1,112 @@
+schema_version = 1
+evidence_ids = ["LCR-E-SPECTRAL-POSITION-001"]
+local_only = true
+publication_eligible = false
+
+[[artifact]]
+path = "evidence/indexes/fixed_rate_tilt_v1.toml"
+sha256 = "811565be3689ea387ca1a293e4a29e94fd9de20c0e3f3caec9621ea1557bde52"
+
+[[artifact]]
+path = "evidence/indexes/rate_repair_v1.toml"
+sha256 = "ad759196bde2b1e1eb561c564a0bd12808d4201490427e8f8227d46966ecc2e1"
+
+[[artifact]]
+path = "evidence/jobs/LCR-JOB-SPECTRAL-POSITION-001.toml"
+sha256 = "75bd7771591a72b86176b2c23463dca1faca3703a98d2ef278a6070d4e6e181a"
+
+[[artifact]]
+path = "protocols/spectral_prior_position_v1.toml"
+sha256 = "5eee944095f37e1786477d2e8ce264e97a8c21e0a588a143d617a0750b55f536"
+
+[[artifact]]
+path = "results/audit/spectral_prior_position_v1/canonical_snapshots/wiki/claims/Current-Claim-Language.md"
+sha256 = "51dc1c39baefe8ed4e9dd0bb83f99871b8c75520298e0d880c440c85ca051200"
+
+[[artifact]]
+path = "results/audit/spectral_prior_position_v1/canonical_snapshots/wiki/evidence/Evidence-Ledger.md"
+sha256 = "86f24e93cc5f98397f4a327d5ddf6860bbb9a24951a25cdbf7c506a9c9b64160"
+
+[[artifact]]
+path = "results/audit/spectral_prior_position_v1/canonical_snapshots/wiki/methods/Fixed-Rate-Readout-Certificate.md"
+sha256 = "7f7e12c16f4469f78dc5d6766ff8d09de47a8899f8a8fff1f52122e019db546a"
+
+[[artifact]]
+path = "results/audit/spectral_prior_position_v1/canonical_snapshots/wiki/questions/Contribution-Gap-Review.md"
+sha256 = "803cc5bea901061ad4a9cb39f465ae468584ee6011b7744d95367eae2d9ba422"
+
+[[artifact]]
+path = "results/audit/spectral_prior_position_v1/canonical_snapshots/wiki/questions/Spectral-Ratio-Prior-Position.md"
+sha256 = "bf4447325c0cd980f6eb9a1802b4cd6347fbe04995a67ea9162fc07d736208ad"
+
+[[artifact]]
+path = "results/audit/spectral_prior_position_v1/canonical_snapshots/wiki/references/Technical-Source-Map.md"
+sha256 = "1a17ae3a4d901a5da1ab7ebadd79a1bfd796d50ac514050550c01995a1bebdf1"
+
+[[artifact]]
+path = "results/audit/spectral_prior_position_v1/close_spectral_position.py"
+sha256 = "36bac7f05179ba7ff636783aeb55abc97c25fd296dbcd387de7e9aec3535d6f4"
+
+[[artifact]]
+path = "results/audit/spectral_prior_position_v1/exact_witnesses.json"
+sha256 = "f459251a12b9210c01e481174edd28b305fd1d8a34788a5282bcd74e49fdbf55"
+
+[[artifact]]
+path = "results/audit/spectral_prior_position_v1/fetch_spectral_priors.py"
+sha256 = "c4f19470bf85041c44a3b23a29bae657d57a8e0988d098c97ac82da7ccefa3f0"
+
+[[artifact]]
+path = "results/audit/spectral_prior_position_v1/independent_witness_audit.json"
+sha256 = "41301df574590c217c917e9e898bd7064d6fa2269f29e390044983f520a27f0f"
+
+[[artifact]]
+path = "results/audit/spectral_prior_position_v1/independent_witness_auditor.py"
+sha256 = "566abc8851dd8c755b3336ff6261ffbf000a0dd8f923b3ab3b0d4e5d2fbdb081"
+
+[[artifact]]
+path = "results/audit/spectral_prior_position_v1/index_spectral_and_venue.py"
+sha256 = "25d2a1f1618bb3a80e79f5ce2f40753585e9066c8213dd22733a44cfd9b55af1"
+
+[[artifact]]
+path = "results/audit/spectral_prior_position_v1/inspection_scope.json"
+sha256 = "0672b7d2db3f3e265a2dc71e8fd05c6e7aca3eb1588ba2c45f45a2297e830b56"
+
+[[artifact]]
+path = "results/audit/spectral_prior_position_v1/karp_2025_v2.html"
+sha256 = "30c6f027e0dfed29f2395706a543da5dc92d25651783c8daeaa394f1998189dd"
+
+[[artifact]]
+path = "results/audit/spectral_prior_position_v1/karp_publisher.html"
+sha256 = "0bf165ac339ed2369d1b4ca6627d51a29a8fde01b157fec3172b1214d1739835"
+
+[[artifact]]
+path = "results/audit/spectral_prior_position_v1/mao_tian_2023_v1.html"
+sha256 = "c58d483973f6168ff3235e8e4e3558a2083974d442409affefd578902bab9132"
+
+[[artifact]]
+path = "results/audit/spectral_prior_position_v1/source_access.json"
+sha256 = "53300f2eccd6a407b46bc42f168a2ed9aca0f0c225eb025c1defe107b6bc4d73"
+
+[[artifact]]
+path = "results/audit/spectral_prior_position_v1/sources/protocols/spectral_prior_position_v1.toml"
+sha256 = "5eee944095f37e1786477d2e8ce264e97a8c21e0a588a143d617a0750b55f536"
+
+[[artifact]]
+path = "results/audit/spectral_prior_position_v1/sources/scripts/verify_spectral_position.py"
+sha256 = "b9bae2901505ffe55d13f0f0e3bd295788e47024043afb6227122cdd221d7583"
+
+[[artifact]]
+path = "results/audit/spectral_prior_position_v1/sources/src/lifecycle_readout/modeling/fixed_rate_tilt.py"
+sha256 = "4efe525dde714a7ddc6628ad1dbe7ec68b276d164287a5319de45ffe778532df"
+
+[[artifact]]
+path = "results/audit/spectral_prior_position_v1/verification.json"
+sha256 = "1ae6e1bf1ab62fbc3d7bc120d3a6b03d2b0738d7edfe605133ff2e61fc9b2c9e"
+
+[[artifact]]
+path = "results/audit/spectral_prior_position_v1/yang_tian_2018_v1.html"
+sha256 = "5b80edc555adb0f876680742b38113ece641efd8a80a5456868e9edfa527c1b1"
+
+[[artifact]]
+path = "scripts/verify_spectral_position.py"
+sha256 = "b9bae2901505ffe55d13f0f0e3bd295788e47024043afb6227122cdd221d7583"

@@ -1,6 +1,7 @@
 protocol_id = "LCR-P-CRAFT-PROFILE-002"
 status = "prospective-feasibility-only"
 date = "2026-10-15"
+authorization = "Q1 program: build a common adapter and bound cost of a strong author comparator before a broad efficacy study."
 amends = "LCR-P-CRAFT-PROFILE-001"
 amendment_reason = "First runtime upload rejected 149MB source bundle before execution. Retain only the same declared 20 candidate anchors, without altering their candidates; no timing outcome was observed."
 scientific_use = "Technical interface, numerical finite-value, throughput and memory checks only. No model efficacy, hyperparameter selection or novelty claim."

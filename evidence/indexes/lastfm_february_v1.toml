@@ -1,0 +1,780 @@
+schema_version = 1
+evidence_ids = ["LCR-E-LASTFM-FEB-PREP-001", "LCR-E-LASTFM-FEB-001"]
+local_only = true
+publication_eligible = false
+
+[[artifact]]
+path = "configs/lastfm_february_evaluation_v1.toml"
+sha256 = "c2f3f09db0cb0bb3445a73ec3d2fe624ae1044a228eb6ea7b162b1ffa81a62a5"
+
+[[artifact]]
+path = "configs/lastfm_february_launch_v1.toml"
+sha256 = "f9bdef4556ee94d8842a78c9b755afe0505a06ab1502870da349ea34694e9064"
+
+[[artifact]]
+path = "configs/lastfm_february_preparation_v1.toml"
+sha256 = "b31dcc38320302f246bfdeb5ccab6f7f0f87d1d1db986a4fc5ac81ce6fce32f4"
+
+[[artifact]]
+path = "evidence/indexes/lastfm_diagnostics_v1.toml"
+sha256 = "dc2a8cd40a07345fe5c27f325efa9a12b2722b627ba20f1ea0e37088e5ea7b44"
+
+[[artifact]]
+path = "evidence/indexes/lastfm_model_preparation_v1.toml"
+sha256 = "f8dfe36e4f36dd4cf9f6c678104b14d18af1a2a737e0351499e146d1f3a4a940"
+
+[[artifact]]
+path = "evidence/indexes/lastfm_model_v1.toml"
+sha256 = "0368a5fc8725d22c6d93560a82450ea7d2f93a130d2da6b8ce02f4a53cd99b17"
+
+[[artifact]]
+path = "evidence/jobs/LCR-JOB-LASTFM-FEB-001.toml"
+sha256 = "a81069771775474a95678032b46cce003c13b0890a5b05b58c6237d432b33d5e"
+
+[[artifact]]
+path = "evidence/jobs/LCR-JOB-LASTFM-FEB-PREP-001.toml"
+sha256 = "0ba81d081ddfb3d586e2bfcefa2212a08fe00d5213db3e58324925c96c9e78c8"
+
+[[artifact]]
+path = "protocols/lastfm_february_v1.toml"
+sha256 = "ee647b1eafe6483834716536b4e3836d538151f2f647b9497060c94961f0ff0e"
+
+[[artifact]]
+path = "results/audit/lastfm_february_audit_v1/artifact_manifest.json"
+sha256 = "9b706b73d01a80164fa7658841cc16ae9d6c4d891d35f2bb1a91419b5d54618f"
+
+[[artifact]]
+path = "results/audit/lastfm_february_audit_v1/cohort_metrics_partial.json"
+sha256 = "cfde4fd33e38add20a1fe3aa6c3d7920904c6c114d437a013fc868d0246e4974"
+
+[[artifact]]
+path = "results/audit/lastfm_february_audit_v1/independent_auditor.py"
+sha256 = "748b36323f7336d2eff326ce31498d275df050b84e956f8ebd697af711b2b06e"
+
+[[artifact]]
+path = "results/audit/lastfm_february_audit_v1/preanalysis.json"
+sha256 = "e99cbc4bf722adf0e600f6fd1ae0db2a54770834462f152abc23cce8debccfd0"
+
+[[artifact]]
+path = "results/audit/lastfm_february_audit_v1/primary_bootstrap.npz"
+sha256 = "109f28e093de7bdef7c301469d3cf3e5b73d15ae2fad6abf36375d97fe145154"
+
+[[artifact]]
+path = "results/audit/lastfm_february_audit_v1/replay_progress.json"
+sha256 = "0232004aa2a22ea82f6cb682f3e2d93ec601046b1606ae3aab3067f91b69b303"
+
+[[artifact]]
+path = "results/audit/lastfm_february_audit_v1/results.json"
+sha256 = "20f228e8b189ed8137f27e133320876424f022f73a7775aad0176c6f4e78cfdb"
+
+[[artifact]]
+path = "results/audit/lastfm_february_closure_v1/audit_lastfm_february.py"
+sha256 = "748b36323f7336d2eff326ce31498d275df050b84e956f8ebd697af711b2b06e"
+
+[[artifact]]
+path = "results/audit/lastfm_february_closure_v1/canonical_snapshots/wiki/START-HERE.md"
+sha256 = "223dcf4a6bdd92e821ce4e3d58441e12b2788c117b6d71dfbb7c929f94e291c9"
+
+[[artifact]]
+path = "results/audit/lastfm_february_closure_v1/canonical_snapshots/wiki/claims/Current-Claim-Language.md"
+sha256 = "b6ac24293ec35bcc7db656c1b962f64437edae08017fbdcae620bfe2669dd5e8"
+
+[[artifact]]
+path = "results/audit/lastfm_february_closure_v1/canonical_snapshots/wiki/evidence/Evidence-Ledger.md"
+sha256 = "a6bab2b994b941effc0a1814186187d00ac8328a4b485f3d81cc5b4f81df1df7"
+
+[[artifact]]
+path = "results/audit/lastfm_february_closure_v1/canonical_snapshots/wiki/manuscript/Journal-Narrative.md"
+sha256 = "88a729b14b7323315ef5cca37a65c94afe7eac4e3476866f878d044273430fa5"
+
+[[artifact]]
+path = "results/audit/lastfm_february_closure_v1/canonical_snapshots/wiki/results/LastFM-February-Holdout.md"
+sha256 = "8758e9fad15cf275189ea3c3bf35b9a90a4eae7c33be6a29b832441f0ee248c8"
+
+[[artifact]]
+path = "results/audit/lastfm_february_closure_v1/canonical_snapshots/wiki/results/LastFM-History-Strata.md"
+sha256 = "8125ab97894206f6a1c6cf159a9b4cf95c5eaf682e29ca981b08ecf108125e89"
+
+[[artifact]]
+path = "results/audit/lastfm_february_closure_v1/canonical_snapshots/wiki/results/LastFM-Mechanistic-Readout.md"
+sha256 = "80d8af7ad6a895e54e587da9f2d01afaeb30e5c6cc983f9f47fbd0e9f54a6f6a"
+
+[[artifact]]
+path = "results/audit/lastfm_february_closure_v1/canonical_snapshots/wiki/status/Live-Execution.md"
+sha256 = "61c66f2fec9aa17c109f666e8e0ad3222b31c676c6a8723c80c29f5e87858825"
+
+[[artifact]]
+path = "results/audit/lastfm_february_closure_v1/canonical_snapshots/wiki/status/Project-Status.md"
+sha256 = "8faef0feff8f9c83cea9b035e7faba32d7fcd1986b97c5ba8c2b3cbce21cf592"
+
+[[artifact]]
+path = "results/audit/lastfm_february_closure_v1/close_lastfm_february.py"
+sha256 = "d3afb3ca60afd3f207a3be4fdadd03184d0224d22e83d9dfd827d869b3b43623"
+
+[[artifact]]
+path = "results/audit/lastfm_february_closure_v1/index_lastfm_february.py"
+sha256 = "aed6f5ea6b79d7b077c21d3efdd8a6000fb0dae86e422ff50eb7c3e052ffb90a"
+
+[[artifact]]
+path = "results/audit/lastfm_february_closure_v1/lastfm-february-holdout.png"
+sha256 = "f63ebb02d66292c6d5ca4ba47a04f6ab8d77d07cad410b32bf468ac68555988c"
+
+[[artifact]]
+path = "results/audit/lastfm_february_closure_v1/plot_lastfm_february.py"
+sha256 = "597f57cc0be681ecc9249b6c61718d358a58032e93490b7ae51a1068e8b73180"
+
+[[artifact]]
+path = "results/audit/lastfm_february_closure_v1/prepare_lastfm_february_launch.py"
+sha256 = "8462b552eb6a843fa07b34e2fb1435579d37bd76e8de253efad5170a5306231c"
+
+[[artifact]]
+path = "results/audit/lastfm_february_closure_v1/repair_lastfm_readout_math.py"
+sha256 = "af00c2cc5b5a1b503599682bc545d35ab037315f215585ee40873d8d9a1322d7"
+
+[[artifact]]
+path = "results/audit/lastfm_february_closure_v1/run_lastfm_february_inference.py"
+sha256 = "9aadf28618053385b10bda88d0e27b776126666276962e9b7a94bf8a34a0ade7"
+
+[[artifact]]
+path = "results/audit/lastfm_february_closure_v1/run_lastfm_february_preparation.py"
+sha256 = "b68aebc5272fd6fe6ef00398fb8c7b2e5a573d29ea78f3e9f73cb15fb5f8d60b"
+
+[[artifact]]
+path = "results/audit/lastfm_february_closure_v1/summary.json"
+sha256 = "236ad97ef50f7ab8c10c96d244ce2d749e451e8c5efd4d3957c22a22fb8e7f3e"
+
+[[artifact]]
+path = "results/audit/lastfm_february_closure_v1/verification.json"
+sha256 = "74ce627d928988da658d0bca334f95db3566dfabf7603e1841126a840aa684ed"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/local_driver.py"
+sha256 = "9aadf28618053385b10bda88d0e27b776126666276962e9b7a94bf8a34a0ade7"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/preallocation.json"
+sha256 = "694195e71acb70ffe528ecfc79243e03ce08633e2e362fc9ec211aaa1b0a0ada"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/progress.json"
+sha256 = "f1586e6d555e69d861b76472b4f711f5cca628d72c731ab30a414724c9ceda94"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/resource_after.json"
+sha256 = "8726783b68c6c619f18fc19519a9cdbefd42bf166d55e4ed2b31e88d80849ef8"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/configs/lastfm_february_evaluation_v1.toml"
+sha256 = "c2f3f09db0cb0bb3445a73ec3d2fe624ae1044a228eb6ea7b162b1ffa81a62a5"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/configs/lastfm_february_launch_v1.toml"
+sha256 = "f9bdef4556ee94d8842a78c9b755afe0505a06ab1502870da349ea34694e9064"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/protocols/lastfm_february_v1.toml"
+sha256 = "ee647b1eafe6483834716536b4e3836d538151f2f647b9497060c94961f0ff0e"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/pyproject.toml"
+sha256 = "f44b489ff6e720bf68996af4e9143583c2194421df29cf04822412ea2141c48f"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/scripts/score_lastfm_february.py"
+sha256 = "8d83f9acaa1712c1ed6f83a095710303e76bf9aa985790e2ff6ff2f05bf32e37"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/__init__.py"
+sha256 = "310ab7033974cfc77f935c4d3f0881a68fc0cdb830c0a73ac0a00ed0b78d7d86"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/benchmark.py"
+sha256 = "9e7c0ad7841c11b2e1b4c1bd446712e48d8ae10b29f84da74bf99a8b6a38c2c9"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/causal_stream.py"
+sha256 = "a977ea9be15212670cfce693514eea5a0c7d0dcd3d207662b0c82a2c397536b3"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/colab_workflow.py"
+sha256 = "c5950a05d39fe6de6019c346e28f682a09e4db4bd589a50268a59971c5cb263f"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/competing_edges.py"
+sha256 = "c92e33fcd6bb987aadd2ec7a884884fa60c97a4ca96175963b94dbd81a48f06a"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/competition_attribution.py"
+sha256 = "58cbf930659dd6ae57b447a615023ef67cc7cc54b4860d221c359d5bd5868aff"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/competition_exact_overlap.py"
+sha256 = "f38059219539f9922576ea0c63ba99b5403daadc4359f52bba8d6ea6ed0b7855"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/competition_study.py"
+sha256 = "5a1f3556328b0b657afaccca8c0dc58b363b0d63034943620955a9664801c4a5"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/competitive_event_stream.py"
+sha256 = "1d9fe574cc796dc1603c832571f7673cffffb0170faaed0bf17a90dd5077a002"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/competitive_lifecycle.py"
+sha256 = "a9654595f9f164a8844336d627222445e9a11ff1ff3f647e001cd554322306ad"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/craft_adapter.py"
+sha256 = "2f76ae3a2c642e00e3776cfde9856e0f7bb5c203a9c5833f0387ebdb0b4d2995"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/craft_training.py"
+sha256 = "7f3cf11a5acb458e5731da86b5579163083dd6bdd7ba16fed611233fa1220d83"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/datasets.py"
+sha256 = "b6f595349d611fb509ab1e13fee9974e2efc8f6b4fcc3ab536f13efa25be7a30"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/event_coupling_study.py"
+sha256 = "08bf53876dc21ac5a63e081bc67786b001f107f1f314a64c3cf503b64767a347"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/hard_controls.py"
+sha256 = "4060b4fda6727d10bb0bbc05d232ee6558a100c464e9dda9e34af3f14dd70ab9"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/intake_recurrence.py"
+sha256 = "c2840aa24c7b499999d5e6a33b34d99fe8e66139b503ace9897ec991c191d7ed"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/lastfm_artist_history.py"
+sha256 = "821f69c19f00d991cfc8ae520e87a0d4605e2cedf4a92ddc9716afd14f1f9d2a"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/lastfm_diagnostics.py"
+sha256 = "b2fbeb7f0c343e1d181664086add514f69161efa92268eeb228d399261a2ce83"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/lastfm_holdout_data.py"
+sha256 = "33352bb877288b454f1b551c0ef1c0e6edb3202bb4606bbaf79914d93e8fa09c"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/lastfm_holdout_evaluation.py"
+sha256 = "e41828cbca0e14d56a2959d9b2052f3c764e7dd2d3307c2f2f63634cad1f205b"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/lastfm_holdout_inference.py"
+sha256 = "bbaa9bc1f548089264ebe7070bef81ed50dfc5bc9a3237293fbed8c0d99dfef9"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/lastfm_intake.py"
+sha256 = "e6f5d5ee10f58db28b3dc4b61514ac0323eac3446f88ae1278d8ba2d3f9741db"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/lastfm_model.py"
+sha256 = "a278104633f22ac32e1c3a121bbc7621212d8af25a7a15119e572b10f0a2de0e"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/lastfm_model_data.py"
+sha256 = "eb6a2bc1aec8d506cf6fcc77d650d62b78c4089769d0916c51a0e179cf8e87fb"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/lastfm_model_stream.py"
+sha256 = "0d8ad4cee72bf73beaa851c6b7cd2ebe93813a81c3e4d78881ec0be84a640fa1"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/lastfm_model_training.py"
+sha256 = "bd11aae9141f0e0cfd6654017e026b60baa2d1f290d5aea42b2659db5281220c"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/metrics.py"
+sha256 = "a2e1a291b1abf69a5a9b01a751e16c9186c6d4bc8e8bf1fc9d036a89709caf69"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/modeling/__init__.py"
+sha256 = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/modeling/fixed_rate_tilt.py"
+sha256 = "4efe525dde714a7ddc6628ad1dbe7ec68b276d164287a5319de45ffe778532df"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/modeling/fsm_head.py"
+sha256 = "db564ccb3a282be488153d6c1809c2db6f019865e9ebc6b0e0dcd38268f986b6"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/modeling/inverse_tilt_projection.py"
+sha256 = "a8ce02caa8134a5804b6539a79ad99b0243049d21744b460274b86af76b10241"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/modeling/latent_lifecycle.py"
+sha256 = "d92ade6938c7d18acb181b7144f244b6b98566c64b245e8f471399f3421bc308"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/modeling/monotone_residual.py"
+sha256 = "9ce498faca93ec0def73e6b3c8340c7661eded2d871e86900c01f697a5c079bb"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/modeling/monotone_simplex.py"
+sha256 = "462ec52455108a205691627d6668afaf0b28beb07f65104d43eb736222167e74"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/modeling/readout_aware_tilt.py"
+sha256 = "36ee1a94a49fa424c2f5cd9fc8618191b9cd7f09918f8c588a818aba19ea8c77"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/modeling/sr_gnn.py"
+sha256 = "611e34d967dbb78f4b7549d3eaf81c3c60ee4dd25adb713b389467c8f07e9214"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/modeling/sr_gnn_v2.py"
+sha256 = "44227727a92a6f36edee7c548c5d828d799bfd9b19113a589b5ab15f8ab26583"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/modeling/sr_gnn_v3.py"
+sha256 = "30228145709b492016d168be8a234b5141038f6f737b25171db9e7da9f9cfaa9"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/modeling/sr_gnn_v3_3.py"
+sha256 = "a9427e089a0a58071c92cda800d374b6ff454f301b774ae33f18b6833b2a7755"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/modeling/temporal_mixer.py"
+sha256 = "36f9b409390411d887f927e78b5168fb87b3c15b0edc37ea462380b542740f9e"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/official_data.py"
+sha256 = "42df4b69d538fabb470a40ee6daa5aa5a0f4bb256d4114ce0da40b3226c9bc4f"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/pair_clock.py"
+sha256 = "2c7c1fb0ec1b0d038e0dfc91a2a4aa09800ee261cb5139365e14b309596c0630"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/ranking.py"
+sha256 = "d5f7353949506ad842e91b1aa0a8dc42237d63113ee12fb2abf1987075c03bd7"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/rate_repair_validation.py"
+sha256 = "3aed1c96dce137ee1ac673d1d96b43278fc6a3bada7f916f393c1cd294d7f0c1"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/readout_repair.py"
+sha256 = "858547f892f56a5e829901d8298702c3c5dae4f164b7b0a801b77867a550286c"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/scored_path.py"
+sha256 = "a9c0ce1508081fcc4348d8bcec6e72b12701851a66533b52ae1fae3d2999f54a"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/scored_path_cohort.py"
+sha256 = "d4bab03e28c5cab935be27f5c8488e6b673a27d65341cbb9e02bd5f9e850823b"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/stream_baselines.py"
+sha256 = "50f52c09030b89de8b93dcba8c4315ae3fe02e150f182f25e43a22306cf64440"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/synthetic_response.py"
+sha256 = "49d636189f8795505089551bcd5e01695dedb7d7c7fc633972a0b6a9ee786da6"
+
+[[artifact]]
+path = "results/audit/lastfm_february_execution_v1/sources/src/lifecycle_readout/training.py"
+sha256 = "8d85c66082b82c6d4d2dbe973a33c2defb136bb27ad1d4a547433a91554cfe20"
+
+[[artifact]]
+path = "results/audit/lastfm_february_plan_v1/protocol.toml"
+sha256 = "ee647b1eafe6483834716536b4e3836d538151f2f647b9497060c94961f0ff0e"
+
+[[artifact]]
+path = "results/audit/lastfm_february_plan_v1/specification.json"
+sha256 = "224b8be95f3c9695785b663ae5b826240435e27d47132e96a7cfa996e4f41ee6"
+
+[[artifact]]
+path = "results/audit/lastfm_february_plan_v1/specify_lastfm_february.py"
+sha256 = "9c8b0ea12ed65561ffb1001bcfff13b9547c17b6a0fa3c700879df8b7e9d62aa"
+
+[[artifact]]
+path = "results/audit/lastfm_february_preparation_closure_v1/independent_prefix_verifier.py"
+sha256 = "8462b552eb6a843fa07b34e2fb1435579d37bd76e8de253efad5170a5306231c"
+
+[[artifact]]
+path = "results/audit/lastfm_february_preparation_closure_v1/verification.json"
+sha256 = "8bd466c9c9ca55efaa31801046297083e8da294668aac0d650cd1e409d87c339"
+
+[[artifact]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/artifact_manifest.json"
+sha256 = "a66091ab177f49e9544cabdeeaeec57c24639a3ea7952d9f25d8a53b968726de"
+
+[[artifact]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/data.npz"
+sha256 = "f6bb028c0fc6efe57c2a6cc654a0e970b690d493f940d1b854dedbe0feb193a2"
+
+[[artifact]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/identity_maps.json"
+sha256 = "e9aee5b91421726213641345481a3c2d759890ea79677b6fe432d80d59b15497"
+
+[[artifact]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/partial_results.json"
+sha256 = "02d445d9adb1109e2c18a76c9143bbc4a9cf3faf875b80ed4c42ac809d5f7d8e"
+
+[[artifact]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/preanalysis.json"
+sha256 = "7dbf954acecb86693e2105ca4ac8f46a9591c0122a5a362d9ce9fe8acfdb7321"
+
+[[artifact]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/results.json"
+sha256 = "aea8070a3985a90336807b0ac5bc0fd147c1202d601c9c4f94782c9d4ae1b992"
+
+[[artifact]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/seed101/anchor_audit.json"
+sha256 = "a93624b5ac279ae8f9b7e7dba87f9c52b79f2e5201452859ea00295ac652aee5"
+
+[[artifact]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/seed101/artist_features.npz"
+sha256 = "cadf25955277cb77cdf2ec8fa77859f93801d743480cba5aabdfe0e50a32aab3"
+
+[[artifact]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/seed101/candidate_stream.npz"
+sha256 = "bdcc60428b001c0c73efa290908ce2ef56ec3caf9a4e0b14ef3abc63eb25da75"
+
+[[artifact]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/seed101/prefix_audit.json"
+sha256 = "e078faa6f61c2f516461b226a4b01b6928644bf7290fc55d2a80add6f3a9fd85"
+
+[[artifact]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/seed101/test_rows.npz"
+sha256 = "b1cf0545e7f1c7ca2998496ebfa9785b871cf6bab64f95626008c7829bde769e"
+
+[[artifact]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/seed202/anchor_audit.json"
+sha256 = "eac6ba9ef7c8753ed3c67e557cd8c04d65947114bb6b11846a68b499865781b7"
+
+[[artifact]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/seed202/artist_features.npz"
+sha256 = "a4519855d62daf77c507fe849cec65d4c5014fa12b65e5e1c5849927beca588e"
+
+[[artifact]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/seed202/candidate_stream.npz"
+sha256 = "7f4e499b70658f54c8fa5fec99d0970ddb0bc933e20d5dbf35c4cc37177cacb9"
+
+[[artifact]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/seed202/prefix_audit.json"
+sha256 = "e078faa6f61c2f516461b226a4b01b6928644bf7290fc55d2a80add6f3a9fd85"
+
+[[artifact]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/seed202/test_rows.npz"
+sha256 = "b1cf0545e7f1c7ca2998496ebfa9785b871cf6bab64f95626008c7829bde769e"
+
+[[artifact]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/seed303/anchor_audit.json"
+sha256 = "fac2015b7ffe239b97d91702c91bd649a1b0296fe467db5d5f4b9e5455a5a3ae"
+
+[[artifact]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/seed303/artist_features.npz"
+sha256 = "030774bf670577134ec60b8e5c38d9a32e8b053ac821a3ee828028b2ac8febe4"
+
+[[artifact]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/seed303/candidate_stream.npz"
+sha256 = "6e5da7eae231ca6513c6dc3a6e2b9b24a348b15574b1cd2338ffff3272a6792a"
+
+[[artifact]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/seed303/prefix_audit.json"
+sha256 = "e078faa6f61c2f516461b226a4b01b6928644bf7290fc55d2a80add6f3a9fd85"
+
+[[artifact]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/seed303/test_rows.npz"
+sha256 = "b1cf0545e7f1c7ca2998496ebfa9785b871cf6bab64f95626008c7829bde769e"
+
+[[artifact]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/sources/configs/lastfm_february_preparation_v1.toml"
+sha256 = "b31dcc38320302f246bfdeb5ccab6f7f0f87d1d1db986a4fc5ac81ce6fce32f4"
+
+[[artifact]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/sources/configs/lastfm_model_v1.toml"
+sha256 = "2ba7a83a2a72d254e788a599f6a5fe8e4828911511230f49a10c020c7f4397f3"
+
+[[artifact]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/sources/protocols/lastfm_february_v1.toml"
+sha256 = "ee647b1eafe6483834716536b4e3836d538151f2f647b9497060c94961f0ff0e"
+
+[[artifact]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/sources/results/audit/lastfm_february_plan_v1/specification.json"
+sha256 = "224b8be95f3c9695785b663ae5b826240435e27d47132e96a7cfa996e4f41ee6"
+
+[[artifact]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/sources/scripts/prepare_lastfm_holdout.py"
+sha256 = "9a2af1a691623c153b1c911841ab5b8be6712d81fb68ce3266915f8345f5bdf0"
+
+[[artifact]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/sources/scripts/prepare_lastfm_model.py"
+sha256 = "ae4f9427f922e99ca30c6cc19e88bb561e190dd1cd3abe27dd434ed52fe96acf"
+
+[[artifact]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/sources/src/lifecycle_readout/causal_stream.py"
+sha256 = "a977ea9be15212670cfce693514eea5a0c7d0dcd3d207662b0c82a2c397536b3"
+
+[[artifact]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/sources/src/lifecycle_readout/lastfm_holdout_data.py"
+sha256 = "33352bb877288b454f1b551c0ef1c0e6edb3202bb4606bbaf79914d93e8fa09c"
+
+[[artifact]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/sources/src/lifecycle_readout/lastfm_intake.py"
+sha256 = "e6f5d5ee10f58db28b3dc4b61514ac0323eac3446f88ae1278d8ba2d3f9741db"
+
+[[artifact]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/sources/src/lifecycle_readout/lastfm_model_stream.py"
+sha256 = "0d8ad4cee72bf73beaa851c6b7cd2ebe93813a81c3e4d78881ec0be84a640fa1"
+
+[[artifact]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/sources/tests/test_lastfm_holdout_data.py"
+sha256 = "05295cf6308b0a7bd5d4dc1d8599ab933e0827736c19da4f2ca3349e3997f871"
+
+[[artifact]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/window_report.json"
+sha256 = "46cb4cd7d47c6a06c795b734d9e9f9e11628c7e1aa8ddc4d3b24e5cf627c579f"
+
+[[artifact]]
+path = "results/audit/lastfm_february_preparation_v1/execution.txt"
+sha256 = "affb52cecacee58f379c8e659095279990287d6b7d44269203b7a6474d3d0f9f"
+
+[[artifact]]
+path = "results/audit/lastfm_february_preparation_v1/job.json"
+sha256 = "4b8636181e033a1d49aaed14766f567c9e2182d2457eb627f05674d49820e144"
+
+[[artifact]]
+path = "results/audit/lastfm_february_preparation_v1/local_driver.py"
+sha256 = "b68aebc5272fd6fe6ef00398fb8c7b2e5a573d29ea78f3e9f73cb15fb5f8d60b"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/checksums.sha256"
+sha256 = "8d041f9d54e77ea7b0249206c9d52e9cd021c2f52c96fbac3b0347a99f9358e0"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/environment.txt"
+sha256 = "3b1e22e429be06096de176772f74128eb46fa98894453011a791e66137f1e7e9"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/partial_results.json"
+sha256 = "fa9006324fd90f41f80fc1625dd72f5ac9d8559f695c7ef7e110ef5d4110da94"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/results.json"
+sha256 = "75d7e857a386e3f40ae3509b958d7783ab56fb57310636c29940d3059516187a"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/seed101/activity_mlp.json"
+sha256 = "fa18f5c9edc2fcababcf7f6fecd6bd27241265fea002cac1deaad1d9d5442746"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/seed101/activity_mlp_predictions.npz"
+sha256 = "b1a6465df04d8587e5e324bbf65a8f8e968685040257a959e6e88500a9b539ae"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/seed101/dose_mlp.json"
+sha256 = "fd9454a9f8ebd1991eedca7f0033a3f1829c83093fee65910037b70ae0fa0a02"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/seed101/dose_mlp_predictions.npz"
+sha256 = "f28ef7c5493eba155e498b8bf88e0309b33f0ed9758a7b48d68644cfa25b8d7a"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/seed101/history_only.json"
+sha256 = "a06de845977bce6f9148732181c7b154138bcbdee9978236a88494eda63c2908"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/seed101/history_only_predictions.npz"
+sha256 = "8a043050029e566b2b85200589fda2ea2408645a455ab7dd9e449cc2ed815922"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/seed101/phase_competition.json"
+sha256 = "c18d2168606c2428ddc706f9d63b49272cee212388846a08b4ba5b14fdb81d75"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/seed101/phase_competition_predictions.npz"
+sha256 = "26bc5e5ce8ba7e51a5102006167a77d4a8c92c0fb1647e118d08000b485fd467"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/seed101/scalar_clock.json"
+sha256 = "9563eec6b1bfaf5670c2acd1fb799daa8923c072f5432003f443ceeec2265086"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/seed101/scalar_clock_predictions.npz"
+sha256 = "c9ca68d1258acef76f1f2527572ee6c9bfb32423a6c9357baab59c3a793b8012"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/seed101/shuffled_phase.json"
+sha256 = "eb53e0098da247ad54d0a7471d683ea93897cec33273f8c5b24338057523063b"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/seed101/shuffled_phase_predictions.npz"
+sha256 = "4690d305ab6398195e06f08cf348bdf246767e00cee528ba7484b1b8881bfdbf"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/seed202/activity_mlp.json"
+sha256 = "69099d74c35caa4ca074c2dd55196098d50eca448107cd928cc16b50236e3168"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/seed202/activity_mlp_predictions.npz"
+sha256 = "fc9dcaa93616442ade93a8b818473efc65cd71b183f8cd7a60ca32eab2de32ff"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/seed202/dose_mlp.json"
+sha256 = "a66402815cbb6e3be4366e75eb23eaf1064634f7c2e801282bb678efa1fbc4bd"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/seed202/dose_mlp_predictions.npz"
+sha256 = "47fe1e5c0358e740f21a0f74d169acd32699f17f26a7919697871fee88f1b4eb"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/seed202/history_only.json"
+sha256 = "4e8f337880d757076477092756d8e8959f1f014899e8f0ee41e4e9f687865bdf"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/seed202/history_only_predictions.npz"
+sha256 = "04e63f45a06eb42d98e1e2dda4eca76c806b48cfb0d0e0f951ba9b5400b60038"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/seed202/phase_competition.json"
+sha256 = "efcaabd05f6555efb650d51e5c8bc517d2bf672a69bd2a4696d3e184a1180d5c"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/seed202/phase_competition_predictions.npz"
+sha256 = "ef42a49f4c2e06b6ba280c5eec0a7b09d9214af904353ad472bda11072b98a19"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/seed202/scalar_clock.json"
+sha256 = "92ae92fc5abd75627d1ba2a830d8aba1eb76b0d3ff94c23a06a75ebb7121d2a4"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/seed202/scalar_clock_predictions.npz"
+sha256 = "5833b97e0d5be516cc4647499859b8e5dda03510d3bb3e36b200b2b3eab8b350"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/seed202/shuffled_phase.json"
+sha256 = "fc25f9866fab1aa65bfe674e37ded1c26fa7522fefee4dff8347799a7d56af42"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/seed202/shuffled_phase_predictions.npz"
+sha256 = "78bd7752548c54f968a75c055bb0f7c414e5c36e1ce25ab0d606f48057008c3e"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/seed303/activity_mlp.json"
+sha256 = "c122ae69950956f3bae7c2d13dc39a86e6ed2ec27f76e57c2319466f6e4f8561"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/seed303/activity_mlp_predictions.npz"
+sha256 = "bd76482d18aa7731915546f925117ddf5eb222c4c776b01734a00d510d64fcb7"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/seed303/dose_mlp.json"
+sha256 = "4034f64d2687279c2a6ad8eb60edfbda0228c6d309d6026764b69a50b3671e79"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/seed303/dose_mlp_predictions.npz"
+sha256 = "254bb69f0c8ee506ef1b5d53b472053a915684961409f5bb1fcdb172dce8aae3"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/seed303/history_only.json"
+sha256 = "6de1f2faeb1568ffbecb12936d3e4ad64cc4970efde5acc21b88040ce1ea9458"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/seed303/history_only_predictions.npz"
+sha256 = "4c8b6265089f5892db771e41124ca0cf3d9bcaf9cd8d3c31f95bd3d7965459af"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/seed303/phase_competition.json"
+sha256 = "d4f1f062793dc151e9dec8f025635158802aa89c7daaa8947e778dc5da45334d"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/seed303/phase_competition_predictions.npz"
+sha256 = "f2173c94177563ee6180f0fa9ae66d2bc70019b857ca20c9bb3fcc2aa75c1ddc"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/seed303/scalar_clock.json"
+sha256 = "2f5426b011fa9a1a51fb00663d08192732673053a22ec983aa50db6d5b02fc62"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/seed303/scalar_clock_predictions.npz"
+sha256 = "72c932ba72b733836b3ba8734d8358d2b1f189a64fee0f7bf6c0386fea8fc523"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/seed303/shuffled_phase.json"
+sha256 = "f15605f532d8a7491ce965465c9e4b5e3b23fcdab1804c2c8c1c09651aabebe5"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/seed303/shuffled_phase_predictions.npz"
+sha256 = "c7e70e39b20e39fd76edc508e9e108a52829180fdcecaa1d6feddbe81def1d66"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/source_manifest.json"
+sha256 = "4e5524104a461d6d76f3d11b05445407c45152f3dedffddd1126827894b0ad15"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts/training.txt"
+sha256 = "ea195cbb34ee25144c163d1fe732ff1dab3da438aa7035482d7515ad9e10ebe4"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/artifacts.tar.gz"
+sha256 = "db89b760f2c41fcb7aeafbb00445bd09c2e88662ac1a54730d28dd0a03f08635"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/execution.txt"
+sha256 = "acf3748db872524781d2c48bde6bfbd9c86f4a8b33eec60cb86040299f60d00b"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/job.json"
+sha256 = "b80a3283dcd3a7a245c7e0590531ea1c19f74dcacf8626f4873354a35dad9667"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/remote_job.py"
+sha256 = "116ebb7ead6b4867bd9268348f22d7e14cfefc3820a361240101dffa32c5bab8"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/source.part-0000"
+sha256 = "71fc9204ac4551fb9b825a359da3c4fd9337573feba0f9434543ce6cd34e1ce2"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/source.part-0001"
+sha256 = "7d75a635a0c0dd9ad19bc578b4cc0eec327a4ae21a2d5ade96fda5a02c61bfd8"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/source.part-0002"
+sha256 = "b4e3dc73728c2b908d7923b0becc17de6bdf13fcce26e68de85f326c4b76b896"
+
+[[artifact]]
+path = "results/audit/lcr-lastfm-february-21515f0648/source.zip"
+sha256 = "5331f69da48462fb90e2459a30364955c7d8512c886db46267ebf8d12152a164"
+
+[[artifact]]
+path = "scripts/prepare_lastfm_holdout.py"
+sha256 = "9a2af1a691623c153b1c911841ab5b8be6712d81fb68ce3266915f8345f5bdf0"
+
+[[artifact]]
+path = "scripts/score_lastfm_february.py"
+sha256 = "8d83f9acaa1712c1ed6f83a095710303e76bf9aa985790e2ff6ff2f05bf32e37"
+
+[[artifact]]
+path = "src/lifecycle_readout/lastfm_holdout_data.py"
+sha256 = "33352bb877288b454f1b551c0ef1c0e6edb3202bb4606bbaf79914d93e8fa09c"
+
+[[artifact]]
+path = "src/lifecycle_readout/lastfm_holdout_evaluation.py"
+sha256 = "e41828cbca0e14d56a2959d9b2052f3c764e7dd2d3307c2f2f63634cad1f205b"
+
+[[artifact]]
+path = "src/lifecycle_readout/lastfm_holdout_inference.py"
+sha256 = "bbaa9bc1f548089264ebe7070bef81ed50dfc5bc9a3237293fbed8c0d99dfef9"
+
+[[artifact]]
+path = "tests/test_lastfm_holdout_data.py"
+sha256 = "05295cf6308b0a7bd5d4dc1d8599ab933e0827736c19da4f2ca3349e3997f871"
+
+[[artifact]]
+path = "tests/test_lastfm_holdout_evaluation.py"
+sha256 = "51efc8803fc748c7ca8dc06d074a43e352292f11bb52cbd3258ce2cfd0235c8e"
+
+[[artifact]]
+path = "tests/test_lastfm_holdout_inference.py"
+sha256 = "454fa52eec82673786785520ba566d19e113d93334647932f4a7408060e54458"

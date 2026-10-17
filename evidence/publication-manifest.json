@@ -1,0 +1,2483 @@
+{
+  "schema_version": 1,
+  "status": "WORKING_REPORTS_NOT_FROZEN_SCIENTIFIC_ADMISSION",
+  "source_commit": "fa97b3542423c61aa5353b8850d4ddc724516bff",
+  "base_public_commit": "ed1c77e26394ef7bc78849b96b9eca0f0fccdba4",
+  "source_tracked_files": 490,
+  "copied_source_files": 489,
+  "source_file_map": [
+    {
+      "source": ".gitattributes",
+      "public": ".gitattributes"
+    },
+    {
+      "source": ".github/workflows/ci.yml",
+      "public": ".github/workflows/ci.yml"
+    },
+    {
+      "source": ".gitignore",
+      "public": ".gitignore"
+    },
+    {
+      "source": "AGENTS.md",
+      "public": "AGENTS.md"
+    },
+    {
+      "source": "CITATION.cff",
+      "public": "CITATION.cff"
+    },
+    {
+      "source": "PROJECT.toml",
+      "public": "PROJECT.toml"
+    },
+    {
+      "source": "README.md",
+      "public": "README.md"
+    },
+    {
+      "source": "configs/competition_development_v1.toml",
+      "public": "configs/competition_development_v1.toml"
+    },
+    {
+      "source": "configs/craft_fit_v1.toml",
+      "public": "configs/craft_fit_v1.toml"
+    },
+    {
+      "source": "configs/craft_profile_v1.toml",
+      "public": "configs/craft_profile_v1.toml"
+    },
+    {
+      "source": "configs/craft_profile_v2.toml",
+      "public": "configs/craft_profile_v2.toml"
+    },
+    {
+      "source": "configs/default.toml",
+      "public": "configs/default.toml"
+    },
+    {
+      "source": "configs/dependencies.lock",
+      "public": "configs/dependencies.lock"
+    },
+    {
+      "source": "configs/event_coupling_v1.toml",
+      "public": "configs/event_coupling_v1.toml"
+    },
+    {
+      "source": "configs/hard_controls_v1.toml",
+      "public": "configs/hard_controls_v1.toml"
+    },
+    {
+      "source": "configs/lastfm_february_evaluation_v1.toml",
+      "public": "configs/lastfm_february_evaluation_v1.toml"
+    },
+    {
+      "source": "configs/lastfm_february_launch_v1.toml",
+      "public": "configs/lastfm_february_launch_v1.toml"
+    },
+    {
+      "source": "configs/lastfm_february_preparation_v1.toml",
+      "public": "configs/lastfm_february_preparation_v1.toml"
+    },
+    {
+      "source": "configs/lastfm_model_launch_v1.toml",
+      "public": "configs/lastfm_model_launch_v1.toml"
+    },
+    {
+      "source": "configs/lastfm_model_v1.toml",
+      "public": "configs/lastfm_model_v1.toml"
+    },
+    {
+      "source": "configs/pair_cadence_features_v1.toml",
+      "public": "configs/pair_cadence_features_v1.toml"
+    },
+    {
+      "source": "configs/pair_cadence_original_v1.toml",
+      "public": "configs/pair_cadence_original_v1.toml"
+    },
+    {
+      "source": "configs/pair_cadence_relative_v1.toml",
+      "public": "configs/pair_cadence_relative_v1.toml"
+    },
+    {
+      "source": "configs/q1_development_v1.toml",
+      "public": "configs/q1_development_v1.toml"
+    },
+    {
+      "source": "configs/q1_synthetic_v1.toml",
+      "public": "configs/q1_synthetic_v1.toml"
+    },
+    {
+      "source": "configs/rate_repair_validation_v1.toml",
+      "public": "configs/rate_repair_validation_v1.toml"
+    },
+    {
+      "source": "configs/readout_repair_reddit_v1.toml",
+      "public": "configs/readout_repair_reddit_v1.toml"
+    },
+    {
+      "source": "configs/readout_repair_wikipedia_v1.toml",
+      "public": "configs/readout_repair_wikipedia_v1.toml"
+    },
+    {
+      "source": "configs/scored_path_full_reddit_v1.toml",
+      "public": "configs/scored_path_full_reddit_v1.toml"
+    },
+    {
+      "source": "configs/scored_path_full_wikipedia_v1.toml",
+      "public": "configs/scored_path_full_wikipedia_v1.toml"
+    },
+    {
+      "source": "configs/shared-runtime.sha256",
+      "public": "configs/shared-runtime.sha256"
+    },
+    {
+      "source": "configs/tgbseq_baseline_screen_v1.toml",
+      "public": "configs/tgbseq_baseline_screen_v1.toml"
+    },
+    {
+      "source": "configs/tkde_causal_v2.toml",
+      "public": "configs/tkde_causal_v2.toml"
+    },
+    {
+      "source": "docs/MIGRATION.md",
+      "public": "docs/MIGRATION.md"
+    },
+    {
+      "source": "evidence/README.md",
+      "public": "evidence/README.md"
+    },
+    {
+      "source": "evidence/indexes/competition_attribution_v1.toml",
+      "public": "evidence/indexes/competition_attribution_v1.toml"
+    },
+    {
+      "source": "evidence/indexes/competition_development_v1.toml",
+      "public": "evidence/indexes/competition_development_v1.toml"
+    },
+    {
+      "source": "evidence/indexes/competitive_event_history_v1.toml",
+      "public": "evidence/indexes/competitive_event_history_v1.toml"
+    },
+    {
+      "source": "evidence/indexes/competitive_lifecycle_operator_v1.toml",
+      "public": "evidence/indexes/competitive_lifecycle_operator_v1.toml"
+    },
+    {
+      "source": "evidence/indexes/craft_fit_v1.toml",
+      "public": "evidence/indexes/craft_fit_v1.toml"
+    },
+    {
+      "source": "evidence/indexes/craft_profile_v1.toml",
+      "public": "evidence/indexes/craft_profile_v1.toml"
+    },
+    {
+      "source": "evidence/indexes/event_coupling_v1.toml",
+      "public": "evidence/indexes/event_coupling_v1.toml"
+    },
+    {
+      "source": "evidence/indexes/fixed_rate_tilt_v1.toml",
+      "public": "evidence/indexes/fixed_rate_tilt_v1.toml"
+    },
+    {
+      "source": "evidence/indexes/hard_controls_v1.toml",
+      "public": "evidence/indexes/hard_controls_v1.toml"
+    },
+    {
+      "source": "evidence/indexes/journal_venue_review_v3.toml",
+      "public": "evidence/indexes/journal_venue_review_v3.toml"
+    },
+    {
+      "source": "evidence/indexes/kuairand_intake_v1.toml",
+      "public": "evidence/indexes/kuairand_intake_v1.toml"
+    },
+    {
+      "source": "evidence/indexes/lastfm_artist_history_v1.toml",
+      "public": "evidence/indexes/lastfm_artist_history_v1.toml"
+    },
+    {
+      "source": "evidence/indexes/lastfm_diagnostics_v1.toml",
+      "public": "evidence/indexes/lastfm_diagnostics_v1.toml"
+    },
+    {
+      "source": "evidence/indexes/lastfm_february_v1.toml",
+      "public": "evidence/indexes/lastfm_february_v1.toml"
+    },
+    {
+      "source": "evidence/indexes/lastfm_intake_v1.toml",
+      "public": "evidence/indexes/lastfm_intake_v1.toml"
+    },
+    {
+      "source": "evidence/indexes/lastfm_model_preparation_v1.toml",
+      "public": "evidence/indexes/lastfm_model_preparation_v1.toml"
+    },
+    {
+      "source": "evidence/indexes/lastfm_model_v1.toml",
+      "public": "evidence/indexes/lastfm_model_v1.toml"
+    },
+    {
+      "source": "evidence/indexes/lastfm_prior_art_review_v1.toml",
+      "public": "evidence/indexes/lastfm_prior_art_review_v1.toml"
+    },
+    {
+      "source": "evidence/indexes/ml20m_screen_v1.toml",
+      "public": "evidence/indexes/ml20m_screen_v1.toml"
+    },
+    {
+      "source": "evidence/indexes/pair_cadence_v1.toml",
+      "public": "evidence/indexes/pair_cadence_v1.toml"
+    },
+    {
+      "source": "evidence/indexes/rate_repair_v1.toml",
+      "public": "evidence/indexes/rate_repair_v1.toml"
+    },
+    {
+      "source": "evidence/indexes/readout_aware_tilt_v1.toml",
+      "public": "evidence/indexes/readout_aware_tilt_v1.toml"
+    },
+    {
+      "source": "evidence/indexes/readout_repair_validation_v1.toml",
+      "public": "evidence/indexes/readout_repair_validation_v1.toml"
+    },
+    {
+      "source": "evidence/indexes/scored_path_diagnostic_v1.toml",
+      "public": "evidence/indexes/scored_path_diagnostic_v1.toml"
+    },
+    {
+      "source": "evidence/indexes/scored_path_full_validation_v1.toml",
+      "public": "evidence/indexes/scored_path_full_validation_v1.toml"
+    },
+    {
+      "source": "evidence/indexes/source_session_diagnostic_v1.toml",
+      "public": "evidence/indexes/source_session_diagnostic_v1.toml"
+    },
+    {
+      "source": "evidence/indexes/spectral_prior_position_v1.toml",
+      "public": "evidence/indexes/spectral_prior_position_v1.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-BASELINE-GRAPHMIXER-WIKI-001.toml",
+      "public": "evidence/jobs/LCR-JOB-BASELINE-GRAPHMIXER-WIKI-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-CADENCE-REDDIT-FEATURES-001.toml",
+      "public": "evidence/jobs/LCR-JOB-CADENCE-REDDIT-FEATURES-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-CADENCE-REDDIT-ORIGINAL-001.toml",
+      "public": "evidence/jobs/LCR-JOB-CADENCE-REDDIT-ORIGINAL-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-CADENCE-REDDIT-RELATIVE-001.toml",
+      "public": "evidence/jobs/LCR-JOB-CADENCE-REDDIT-RELATIVE-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-CADENCE-WIKIPEDIA-FEATURES-001.toml",
+      "public": "evidence/jobs/LCR-JOB-CADENCE-WIKIPEDIA-FEATURES-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-CADENCE-WIKIPEDIA-ORIGINAL-001.toml",
+      "public": "evidence/jobs/LCR-JOB-CADENCE-WIKIPEDIA-ORIGINAL-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-CADENCE-WIKIPEDIA-RELATIVE-001.toml",
+      "public": "evidence/jobs/LCR-JOB-CADENCE-WIKIPEDIA-RELATIVE-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-COLAB-LASTFM-001.toml",
+      "public": "evidence/jobs/LCR-JOB-COLAB-LASTFM-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-COLAB-MOOC-001.toml",
+      "public": "evidence/jobs/LCR-JOB-COLAB-MOOC-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-COLAB-REDDIT-001.toml",
+      "public": "evidence/jobs/LCR-JOB-COLAB-REDDIT-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-COLAB-SMOKE-20261014-001.toml",
+      "public": "evidence/jobs/LCR-JOB-COLAB-SMOKE-20261014-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-COLAB-SMOKE-20261014-002.toml",
+      "public": "evidence/jobs/LCR-JOB-COLAB-SMOKE-20261014-002.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-COLAB-WIKI-001.toml",
+      "public": "evidence/jobs/LCR-JOB-COLAB-WIKI-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-COMPETE-ATTR-001.toml",
+      "public": "evidence/jobs/LCR-JOB-COMPETE-ATTR-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-COMPETE-ATTR-FULL-001.toml",
+      "public": "evidence/jobs/LCR-JOB-COMPETE-ATTR-FULL-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-COMPETE-DEV-001.toml",
+      "public": "evidence/jobs/LCR-JOB-COMPETE-DEV-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-COMPETE-FLOW-001.toml",
+      "public": "evidence/jobs/LCR-JOB-COMPETE-FLOW-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-COMPETE-HISTORY-001.toml",
+      "public": "evidence/jobs/LCR-JOB-COMPETE-HISTORY-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-CRAFT-FIT-001.toml",
+      "public": "evidence/jobs/LCR-JOB-CRAFT-FIT-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-CRAFT-PROFILE-001.toml",
+      "public": "evidence/jobs/LCR-JOB-CRAFT-PROFILE-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-CRAFT-PROFILE-002.toml",
+      "public": "evidence/jobs/LCR-JOB-CRAFT-PROFILE-002.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-CRAFT-PROFILE-003.toml",
+      "public": "evidence/jobs/LCR-JOB-CRAFT-PROFILE-003.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-EVENT-COUPLING-001.toml",
+      "public": "evidence/jobs/LCR-JOB-EVENT-COUPLING-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-FIXED-RATE-TILT-001.toml",
+      "public": "evidence/jobs/LCR-JOB-FIXED-RATE-TILT-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-HARD-REDDIT-001.toml",
+      "public": "evidence/jobs/LCR-JOB-HARD-REDDIT-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-HARD-WIKIPEDIA-001.toml",
+      "public": "evidence/jobs/LCR-JOB-HARD-WIKIPEDIA-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-INVERSE-TILT-001.toml",
+      "public": "evidence/jobs/LCR-JOB-INVERSE-TILT-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-KUAIRAND-CPU-001.toml",
+      "public": "evidence/jobs/LCR-JOB-KUAIRAND-CPU-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-KUAIRAND-LOCAL-001.toml",
+      "public": "evidence/jobs/LCR-JOB-KUAIRAND-LOCAL-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-LASTFM-ARTIST-001.toml",
+      "public": "evidence/jobs/LCR-JOB-LASTFM-ARTIST-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-LASTFM-FEB-001.toml",
+      "public": "evidence/jobs/LCR-JOB-LASTFM-FEB-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-LASTFM-FEB-PREP-001.toml",
+      "public": "evidence/jobs/LCR-JOB-LASTFM-FEB-PREP-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-LASTFM-INTAKE-001.toml",
+      "public": "evidence/jobs/LCR-JOB-LASTFM-INTAKE-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-LASTFM-MODEL-001.toml",
+      "public": "evidence/jobs/LCR-JOB-LASTFM-MODEL-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-LASTFM-MODEL-PREP-001.toml",
+      "public": "evidence/jobs/LCR-JOB-LASTFM-MODEL-PREP-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-LASTFM-PRIOR-001.toml",
+      "public": "evidence/jobs/LCR-JOB-LASTFM-PRIOR-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-LASTFM-READOUT-001.toml",
+      "public": "evidence/jobs/LCR-JOB-LASTFM-READOUT-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-LASTFM-STRATA-001.toml",
+      "public": "evidence/jobs/LCR-JOB-LASTFM-STRATA-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-LOCAL-20260819-001.toml",
+      "public": "evidence/jobs/LCR-JOB-LOCAL-20260819-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-LOCAL-20261013-001.toml",
+      "public": "evidence/jobs/LCR-JOB-LOCAL-20261013-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-ML20M-SCHEMA-001.toml",
+      "public": "evidence/jobs/LCR-JOB-ML20M-SCHEMA-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-ML20M-SCREEN-001.toml",
+      "public": "evidence/jobs/LCR-JOB-ML20M-SCREEN-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-Q1-DEV-WIKIPEDIA-001.toml",
+      "public": "evidence/jobs/LCR-JOB-Q1-DEV-WIKIPEDIA-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-Q1-DIAGNOSTIC-001.toml",
+      "public": "evidence/jobs/LCR-JOB-Q1-DIAGNOSTIC-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-Q1-PREFLIGHT-001.toml",
+      "public": "evidence/jobs/LCR-JOB-Q1-PREFLIGHT-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-Q1-SYNTHETIC-001.toml",
+      "public": "evidence/jobs/LCR-JOB-Q1-SYNTHETIC-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-RATE-REPAIR-VAL-001.toml",
+      "public": "evidence/jobs/LCR-JOB-RATE-REPAIR-VAL-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-READOUT-TILT-001.toml",
+      "public": "evidence/jobs/LCR-JOB-READOUT-TILT-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-REPAIR-VAL-001.toml",
+      "public": "evidence/jobs/LCR-JOB-REPAIR-VAL-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-SCORED-FULL-001.toml",
+      "public": "evidence/jobs/LCR-JOB-SCORED-FULL-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-SCORED-PATH-001.toml",
+      "public": "evidence/jobs/LCR-JOB-SCORED-PATH-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-SESSION-DIAG-001.toml",
+      "public": "evidence/jobs/LCR-JOB-SESSION-DIAG-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-SIMPLEX-DEV-001.toml",
+      "public": "evidence/jobs/LCR-JOB-SIMPLEX-DEV-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-SOURCE-RECOVERY-001.toml",
+      "public": "evidence/jobs/LCR-JOB-SOURCE-RECOVERY-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-SPECTRAL-POSITION-001.toml",
+      "public": "evidence/jobs/LCR-JOB-SPECTRAL-POSITION-001.toml"
+    },
+    {
+      "source": "evidence/jobs/LCR-JOB-TGBSEQ-INTAKE-001.toml",
+      "public": "evidence/jobs/LCR-JOB-TGBSEQ-INTAKE-001.toml"
+    },
+    {
+      "source": "evidence/jobs/checksums.sha256",
+      "public": "evidence/jobs/checksums.sha256"
+    },
+    {
+      "source": "experiments/README.md",
+      "public": "experiments/README.md"
+    },
+    {
+      "source": "experiments/_battery_causal_ab.py",
+      "public": "experiments/_battery_causal_ab.py"
+    },
+    {
+      "source": "experiments/_battery_cbON_3seed.py",
+      "public": "experiments/_battery_cbON_3seed.py"
+    },
+    {
+      "source": "experiments/_battery_rate_dead_3seed.py",
+      "public": "experiments/_battery_rate_dead_3seed.py"
+    },
+    {
+      "source": "experiments/_battery_tmp.py",
+      "public": "experiments/_battery_tmp.py"
+    },
+    {
+      "source": "experiments/_lifecycle_analyze.py",
+      "public": "experiments/_lifecycle_analyze.py"
+    },
+    {
+      "source": "experiments/_probe_gg_vs_b.py",
+      "public": "experiments/_probe_gg_vs_b.py"
+    },
+    {
+      "source": "experiments/_probe_hier_causal_policy.py",
+      "public": "experiments/_probe_hier_causal_policy.py"
+    },
+    {
+      "source": "experiments/_probe_lfg_gradient_modes.py",
+      "public": "experiments/_probe_lfg_gradient_modes.py"
+    },
+    {
+      "source": "experiments/_probe_lfg_gradmode.py",
+      "public": "experiments/_probe_lfg_gradmode.py"
+    },
+    {
+      "source": "experiments/_probe_wc_conf.py",
+      "public": "experiments/_probe_wc_conf.py"
+    },
+    {
+      "source": "experiments/_probe_wc_conf_selfconsist.py",
+      "public": "experiments/_probe_wc_conf_selfconsist.py"
+    },
+    {
+      "source": "experiments/_probe_wc_fix.py",
+      "public": "experiments/_probe_wc_fix.py"
+    },
+    {
+      "source": "experiments/_probe_wc_fix_v2.py",
+      "public": "experiments/_probe_wc_fix_v2.py"
+    },
+    {
+      "source": "experiments/_probe_wc_fix_v3.py",
+      "public": "experiments/_probe_wc_fix_v3.py"
+    },
+    {
+      "source": "experiments/_probe_wc_grounded_init.py",
+      "public": "experiments/_probe_wc_grounded_init.py"
+    },
+    {
+      "source": "experiments/analyze_faithfulness.py",
+      "public": "experiments/analyze_faithfulness.py"
+    },
+    {
+      "source": "experiments/cf_demo_pair.py",
+      "public": "experiments/cf_demo_pair.py"
+    },
+    {
+      "source": "experiments/cf_demo_statemap.py",
+      "public": "experiments/cf_demo_statemap.py"
+    },
+    {
+      "source": "experiments/cf_trained_theta_battery.py",
+      "public": "experiments/cf_trained_theta_battery.py"
+    },
+    {
+      "source": "experiments/checks/_probe_detach_gradflow.py",
+      "public": "experiments/checks/_probe_detach_gradflow.py"
+    },
+    {
+      "source": "experiments/checks/_verify_causal_batch.py",
+      "public": "experiments/checks/_verify_causal_batch.py"
+    },
+    {
+      "source": "experiments/checks/run_v3_3_smoke.py",
+      "public": "experiments/checks/run_v3_3_smoke.py"
+    },
+    {
+      "source": "experiments/checks/verify_decoupling_invariants.py",
+      "public": "experiments/checks/verify_decoupling_invariants.py"
+    },
+    {
+      "source": "experiments/dataset_builders/README.md",
+      "public": "experiments/dataset_builders/README.md"
+    },
+    {
+      "source": "experiments/dataset_builders/build_coedit.py",
+      "public": "experiments/dataset_builders/build_coedit.py"
+    },
+    {
+      "source": "experiments/dataset_builders/download.py",
+      "public": "experiments/dataset_builders/download.py"
+    },
+    {
+      "source": "experiments/dump_cf_trajectory_3seed.py",
+      "public": "experiments/dump_cf_trajectory_3seed.py"
+    },
+    {
+      "source": "experiments/dump_cf_updir_dose_3seed.py",
+      "public": "experiments/dump_cf_updir_dose_3seed.py"
+    },
+    {
+      "source": "experiments/fig_intervenable_scm.py",
+      "public": "experiments/fig_intervenable_scm.py"
+    },
+    {
+      "source": "experiments/fig_reinforce_falsifiable.py",
+      "public": "experiments/fig_reinforce_falsifiable.py"
+    },
+    {
+      "source": "experiments/fsm_intervene.py",
+      "public": "experiments/fsm_intervene.py"
+    },
+    {
+      "source": "experiments/project_paths.py",
+      "public": "experiments/project_paths.py"
+    },
+    {
+      "source": "experiments/run_faithfulness_eval.py",
+      "public": "experiments/run_faithfulness_eval.py"
+    },
+    {
+      "source": "experiments/run_model.py",
+      "public": "experiments/run_model.py"
+    },
+    {
+      "source": "experiments/run_wc_conf_calibration.py",
+      "public": "experiments/run_wc_conf_calibration.py"
+    },
+    {
+      "source": "figures/README.md",
+      "public": "figures/README.md"
+    },
+    {
+      "source": "figures/generated/sncs/Fig1.png",
+      "public": "figures/generated/article/Fig1.png"
+    },
+    {
+      "source": "figures/generated/sncs/Fig2.png",
+      "public": "figures/generated/article/Fig2.png"
+    },
+    {
+      "source": "figures/generated/sncs/Fig3.png",
+      "public": "figures/generated/article/Fig3.png"
+    },
+    {
+      "source": "figures/generated/sncs/Fig4.png",
+      "public": "figures/generated/article/Fig4.png"
+    },
+    {
+      "source": "figures/generated/sncs/Fig5.png",
+      "public": "figures/generated/article/Fig5.png"
+    },
+    {
+      "source": "figures/generated/sncs/Fig6.png",
+      "public": "figures/generated/article/Fig6.png"
+    },
+    {
+      "source": "figures/generated/sncs/Fig7.png",
+      "public": "figures/generated/article/Fig7.png"
+    },
+    {
+      "source": "figures/generated/sncs/Fig8.png",
+      "public": "figures/generated/article/Fig8.png"
+    },
+    {
+      "source": "figures/source/.gitkeep",
+      "public": "figures/source/.gitkeep"
+    },
+    {
+      "source": "figures/source/sncs_all_figures.py",
+      "public": "figures/source/article_figures.py"
+    },
+    {
+      "source": "figures/source/sncs_pipeline_diagrams.py",
+      "public": "figures/source/article_pipeline_diagrams.py"
+    },
+    {
+      "source": "paper/CURRENT",
+      "public": "paper/CURRENT"
+    },
+    {
+      "source": "paper/README.md",
+      "public": "paper/README.md"
+    },
+    {
+      "source": "paper/snapshots/.gitkeep",
+      "public": "paper/snapshots/.gitkeep"
+    },
+    {
+      "source": "paper/snapshots/Life_Cycle_readout.pdf",
+      "public": "paper/snapshots/Life_Cycle_readout.pdf"
+    },
+    {
+      "source": "paper/working/sncs/Fig1.eps",
+      "public": "paper/working/article/Fig1.eps"
+    },
+    {
+      "source": "paper/working/sncs/Fig1.pdf",
+      "public": "paper/working/article/Fig1.pdf"
+    },
+    {
+      "source": "paper/working/sncs/Fig2.eps",
+      "public": "paper/working/article/Fig2.eps"
+    },
+    {
+      "source": "paper/working/sncs/Fig2.pdf",
+      "public": "paper/working/article/Fig2.pdf"
+    },
+    {
+      "source": "paper/working/sncs/Fig3.eps",
+      "public": "paper/working/article/Fig3.eps"
+    },
+    {
+      "source": "paper/working/sncs/Fig3.pdf",
+      "public": "paper/working/article/Fig3.pdf"
+    },
+    {
+      "source": "paper/working/sncs/Fig4.eps",
+      "public": "paper/working/article/Fig4.eps"
+    },
+    {
+      "source": "paper/working/sncs/Fig4.pdf",
+      "public": "paper/working/article/Fig4.pdf"
+    },
+    {
+      "source": "paper/working/sncs/Fig5.eps",
+      "public": "paper/working/article/Fig5.eps"
+    },
+    {
+      "source": "paper/working/sncs/Fig5.pdf",
+      "public": "paper/working/article/Fig5.pdf"
+    },
+    {
+      "source": "paper/working/sncs/Fig6.eps",
+      "public": "paper/working/article/Fig6.eps"
+    },
+    {
+      "source": "paper/working/sncs/Fig6.pdf",
+      "public": "paper/working/article/Fig6.pdf"
+    },
+    {
+      "source": "paper/working/sncs/Fig7.eps",
+      "public": "paper/working/article/Fig7.eps"
+    },
+    {
+      "source": "paper/working/sncs/Fig7.pdf",
+      "public": "paper/working/article/Fig7.pdf"
+    },
+    {
+      "source": "paper/working/sncs/Fig8.eps",
+      "public": "paper/working/article/Fig8.eps"
+    },
+    {
+      "source": "paper/working/sncs/Fig8.pdf",
+      "public": "paper/working/article/Fig8.pdf"
+    },
+    {
+      "source": "paper/working/sncs/Figure3_data.csv",
+      "public": "paper/working/article/Figure3_data.csv"
+    },
+    {
+      "source": "paper/working/sncs/Figure4_data.csv",
+      "public": "paper/working/article/Figure4_data.csv"
+    },
+    {
+      "source": "paper/working/sncs/Figure6_data.csv",
+      "public": "paper/working/article/Figure6_data.csv"
+    },
+    {
+      "source": "paper/working/sncs/Figure7_data.csv",
+      "public": "paper/working/article/Figure7_data.csv"
+    },
+    {
+      "source": "paper/working/sncs/Figure8_data.csv",
+      "public": "paper/working/article/Figure8_data.csv"
+    },
+    {
+      "source": "paper/working/sncs/Figure8_interval.csv",
+      "public": "paper/working/article/Figure8_interval.csv"
+    },
+    {
+      "source": "paper/working/sncs/LastFM_all_cohorts.csv",
+      "public": "paper/working/article/LastFM_all_cohorts.csv"
+    },
+    {
+      "source": "paper/working/sncs/LastFM_all_contrasts.csv",
+      "public": "paper/working/article/LastFM_all_contrasts.csv"
+    },
+    {
+      "source": "paper/working/sncs/README.txt",
+      "public": "paper/working/article/README.txt"
+    },
+    {
+      "source": "paper/working/sncs/Supplementary_Data_Guide.txt",
+      "public": "paper/working/article/Supplementary_Data_Guide.txt"
+    },
+    {
+      "source": "paper/working/sncs/Table1_coverage.csv",
+      "public": "paper/working/article/Table1_coverage.csv"
+    },
+    {
+      "source": "paper/working/sncs/Table2_paths.csv",
+      "public": "paper/working/article/Table2_paths.csv"
+    },
+    {
+      "source": "paper/working/sncs/Table3_repairs.csv",
+      "public": "paper/working/article/Table3_repairs.csv"
+    },
+    {
+      "source": "paper/working/sncs/Table4_prediction.csv",
+      "public": "paper/working/article/Table4_prediction.csv"
+    },
+    {
+      "source": "paper/working/sncs/main.pdf",
+      "public": "paper/working/article/main.pdf"
+    },
+    {
+      "source": "paper/working/sncs/main.tex",
+      "public": "paper/working/article/main.tex"
+    },
+    {
+      "source": "paper/working/sncs/references.bib",
+      "public": "paper/working/article/references.bib"
+    },
+    {
+      "source": "paper/working/sncs/sn-jnl.cls",
+      "public": "paper/working/article/sn-jnl.cls"
+    },
+    {
+      "source": "paper/working/sncs/sn-vancouver-num.bst",
+      "public": "paper/working/article/sn-vancouver-num.bst"
+    },
+    {
+      "source": "protocols/competition_attribution_full_validation_v1.toml",
+      "public": "protocols/competition_attribution_full_validation_v1.toml"
+    },
+    {
+      "source": "protocols/competition_attribution_v1.toml",
+      "public": "protocols/competition_attribution_v1.toml"
+    },
+    {
+      "source": "protocols/competition_development_v1.toml",
+      "public": "protocols/competition_development_v1.toml"
+    },
+    {
+      "source": "protocols/competitive_event_history_v1.toml",
+      "public": "protocols/competitive_event_history_v1.toml"
+    },
+    {
+      "source": "protocols/craft_fit_v1.toml",
+      "public": "protocols/craft_fit_v1.toml"
+    },
+    {
+      "source": "protocols/craft_profile_v1.toml",
+      "public": "protocols/craft_profile_v1.toml"
+    },
+    {
+      "source": "protocols/craft_profile_v2.toml",
+      "public": "protocols/craft_profile_v2.toml"
+    },
+    {
+      "source": "protocols/event_coupling_v1.toml",
+      "public": "protocols/event_coupling_v1.toml"
+    },
+    {
+      "source": "protocols/fixed_rate_tilt_v1.toml",
+      "public": "protocols/fixed_rate_tilt_v1.toml"
+    },
+    {
+      "source": "protocols/hard_controls_v1.toml",
+      "public": "protocols/hard_controls_v1.toml"
+    },
+    {
+      "source": "protocols/inverse_tilt_projection_v1.toml",
+      "public": "protocols/inverse_tilt_projection_v1.toml"
+    },
+    {
+      "source": "protocols/kuairand_intake_v1.toml",
+      "public": "protocols/kuairand_intake_v1.toml"
+    },
+    {
+      "source": "protocols/kuairand_local_intake_v1.toml",
+      "public": "protocols/kuairand_local_intake_v1.toml"
+    },
+    {
+      "source": "protocols/lastfm_artist_history_v1.toml",
+      "public": "protocols/lastfm_artist_history_v1.toml"
+    },
+    {
+      "source": "protocols/lastfm_february_v1.toml",
+      "public": "protocols/lastfm_february_v1.toml"
+    },
+    {
+      "source": "protocols/lastfm_intake_v1.toml",
+      "public": "protocols/lastfm_intake_v1.toml"
+    },
+    {
+      "source": "protocols/lastfm_model_v1.toml",
+      "public": "protocols/lastfm_model_v1.toml"
+    },
+    {
+      "source": "protocols/lastfm_readout_v1.toml",
+      "public": "protocols/lastfm_readout_v1.toml"
+    },
+    {
+      "source": "protocols/lastfm_strata_v1.toml",
+      "public": "protocols/lastfm_strata_v1.toml"
+    },
+    {
+      "source": "protocols/lifecycle_readout_v1.toml",
+      "public": "protocols/lifecycle_readout_v1.toml"
+    },
+    {
+      "source": "protocols/lifecycle_tkde_v1.toml",
+      "public": "protocols/lifecycle_tkde_v1.toml"
+    },
+    {
+      "source": "protocols/lifecycle_tkde_v2.toml",
+      "public": "protocols/lifecycle_tkde_v2.toml"
+    },
+    {
+      "source": "protocols/pair_cadence_development_v1.toml",
+      "public": "protocols/pair_cadence_development_v1.toml"
+    },
+    {
+      "source": "protocols/pooling_diagnostic_v1.toml",
+      "public": "protocols/pooling_diagnostic_v1.toml"
+    },
+    {
+      "source": "protocols/pooling_unclipped_diagnostic_v1.toml",
+      "public": "protocols/pooling_unclipped_diagnostic_v1.toml"
+    },
+    {
+      "source": "protocols/q1_development_v1.toml",
+      "public": "protocols/q1_development_v1.toml"
+    },
+    {
+      "source": "protocols/q1_synthetic_v1.toml",
+      "public": "protocols/q1_synthetic_v1.toml"
+    },
+    {
+      "source": "protocols/rate_repair_validation_v1.toml",
+      "public": "protocols/rate_repair_validation_v1.toml"
+    },
+    {
+      "source": "protocols/readout_repair_validation_v1.toml",
+      "public": "protocols/readout_repair_validation_v1.toml"
+    },
+    {
+      "source": "protocols/scored_path_diagnostic_v1.toml",
+      "public": "protocols/scored_path_diagnostic_v1.toml"
+    },
+    {
+      "source": "protocols/scored_path_full_validation_v1.toml",
+      "public": "protocols/scored_path_full_validation_v1.toml"
+    },
+    {
+      "source": "protocols/source_session_diagnostic_v1.toml",
+      "public": "protocols/source_session_diagnostic_v1.toml"
+    },
+    {
+      "source": "protocols/spectral_prior_position_v1.toml",
+      "public": "protocols/spectral_prior_position_v1.toml"
+    },
+    {
+      "source": "protocols/tgbseq_baseline_screen_v1.toml",
+      "public": "protocols/tgbseq_baseline_screen_v1.toml"
+    },
+    {
+      "source": "publication/PUBLICATION_GATE.toml",
+      "public": "publication/PUBLICATION_GATE.toml"
+    },
+    {
+      "source": "pyproject.toml",
+      "public": "pyproject.toml"
+    },
+    {
+      "source": "resources/README.md",
+      "public": "resources/README.md"
+    },
+    {
+      "source": "resources/benchmark_causal_v2.toml",
+      "public": "resources/benchmark_causal_v2.toml"
+    },
+    {
+      "source": "resources/checksums.sha256",
+      "public": "resources/checksums.sha256"
+    },
+    {
+      "source": "resources/craft_author_source_identity_v1.json",
+      "public": "resources/craft_author_source_identity_v1.json"
+    },
+    {
+      "source": "resources/craft_paper_hyperparameters_v1.json",
+      "public": "resources/craft_paper_hyperparameters_v1.json"
+    },
+    {
+      "source": "resources/manifest.toml",
+      "public": "resources/manifest.toml"
+    },
+    {
+      "source": "resources/tgbseq_ml20m_development_v1.toml",
+      "public": "resources/tgbseq_ml20m_development_v1.toml"
+    },
+    {
+      "source": "resources/tgbseq_ml20m_v1.toml",
+      "public": "resources/tgbseq_ml20m_v1.toml"
+    },
+    {
+      "source": "results/CURRENT",
+      "public": "results/CURRENT"
+    },
+    {
+      "source": "results/README.md",
+      "public": "results/README.md"
+    },
+    {
+      "source": "results/audit/.gitkeep",
+      "public": "results/audit/.gitkeep"
+    },
+    {
+      "source": "results/frozen/.gitkeep",
+      "public": "results/frozen/.gitkeep"
+    },
+    {
+      "source": "scripts/README.md",
+      "public": "scripts/README.md"
+    },
+    {
+      "source": "scripts/analyze_hard_pooling.py",
+      "public": "scripts/analyze_hard_pooling.py"
+    },
+    {
+      "source": "scripts/analyze_source_session.py",
+      "public": "scripts/analyze_source_session.py"
+    },
+    {
+      "source": "scripts/audit_cadence_checkpoint_replay.py",
+      "public": "scripts/audit_cadence_checkpoint_replay.py"
+    },
+    {
+      "source": "scripts/audit_competition.py",
+      "public": "scripts/audit_competition.py"
+    },
+    {
+      "source": "scripts/audit_competition_attribution.py",
+      "public": "scripts/audit_competition_attribution.py"
+    },
+    {
+      "source": "scripts/audit_competition_exact_overlap.py",
+      "public": "scripts/audit_competition_exact_overlap.py"
+    },
+    {
+      "source": "scripts/audit_competitive_event_history.py",
+      "public": "scripts/audit_competitive_event_history.py"
+    },
+    {
+      "source": "scripts/audit_craft_fit.py",
+      "public": "scripts/audit_craft_fit.py"
+    },
+    {
+      "source": "scripts/audit_craft_profile.py",
+      "public": "scripts/audit_craft_profile.py"
+    },
+    {
+      "source": "scripts/audit_event_coupling.py",
+      "public": "scripts/audit_event_coupling.py"
+    },
+    {
+      "source": "scripts/audit_hard_checkpoint_replay.py",
+      "public": "scripts/audit_hard_checkpoint_replay.py"
+    },
+    {
+      "source": "scripts/audit_hard_controls.py",
+      "public": "scripts/audit_hard_controls.py"
+    },
+    {
+      "source": "scripts/audit_lastfm_artist_history.py",
+      "public": "scripts/audit_lastfm_artist_history.py"
+    },
+    {
+      "source": "scripts/audit_lastfm_model.py",
+      "public": "scripts/audit_lastfm_model.py"
+    },
+    {
+      "source": "scripts/audit_official_data.py",
+      "public": "scripts/audit_official_data.py"
+    },
+    {
+      "source": "scripts/audit_pair_cadence_results.py",
+      "public": "scripts/audit_pair_cadence_results.py"
+    },
+    {
+      "source": "scripts/audit_pair_clock_inputs.py",
+      "public": "scripts/audit_pair_clock_inputs.py"
+    },
+    {
+      "source": "scripts/audit_readout_repair.py",
+      "public": "scripts/audit_readout_repair.py"
+    },
+    {
+      "source": "scripts/audit_scored_path_cohort.py",
+      "public": "scripts/audit_scored_path_cohort.py"
+    },
+    {
+      "source": "scripts/audit_scored_silence_native.py",
+      "public": "scripts/audit_scored_silence_native.py"
+    },
+    {
+      "source": "scripts/audit_source_session.py",
+      "public": "scripts/audit_source_session.py"
+    },
+    {
+      "source": "scripts/audit_stream_screen.py",
+      "public": "scripts/audit_stream_screen.py"
+    },
+    {
+      "source": "scripts/audit_synthetic_response.py",
+      "public": "scripts/audit_synthetic_response.py"
+    },
+    {
+      "source": "scripts/audit_tgbseq_preflight.py",
+      "public": "scripts/audit_tgbseq_preflight.py"
+    },
+    {
+      "source": "scripts/diagnose_hard_control_clock.py",
+      "public": "scripts/diagnose_hard_control_clock.py"
+    },
+    {
+      "source": "scripts/diagnose_scored_silence.py",
+      "public": "scripts/diagnose_scored_silence.py"
+    },
+    {
+      "source": "scripts/evaluate_stream_baselines.py",
+      "public": "scripts/evaluate_stream_baselines.py"
+    },
+    {
+      "source": "scripts/export_to_word.py",
+      "public": "scripts/export_to_word.py"
+    },
+    {
+      "source": "scripts/fetch_craft_assets.py",
+      "public": "scripts/fetch_craft_assets.py"
+    },
+    {
+      "source": "scripts/prepare_lastfm_holdout.py",
+      "public": "scripts/prepare_lastfm_holdout.py"
+    },
+    {
+      "source": "scripts/prepare_lastfm_model.py",
+      "public": "scripts/prepare_lastfm_model.py"
+    },
+    {
+      "source": "scripts/profile_craft.py",
+      "public": "scripts/profile_craft.py"
+    },
+    {
+      "source": "scripts/run_colab_benchmark.py",
+      "public": "scripts/run_colab_benchmark.py"
+    },
+    {
+      "source": "scripts/run_craft_fit_colab.py",
+      "public": "scripts/run_craft_fit_colab.py"
+    },
+    {
+      "source": "scripts/run_craft_profile_colab.py",
+      "public": "scripts/run_craft_profile_colab.py"
+    },
+    {
+      "source": "scripts/run_hard_controls_colab.py",
+      "public": "scripts/run_hard_controls_colab.py"
+    },
+    {
+      "source": "scripts/run_kuairand_intake.py",
+      "public": "scripts/run_kuairand_intake.py"
+    },
+    {
+      "source": "scripts/run_kuairand_local_intake.py",
+      "public": "scripts/run_kuairand_local_intake.py"
+    },
+    {
+      "source": "scripts/run_lastfm_intake.py",
+      "public": "scripts/run_lastfm_intake.py"
+    },
+    {
+      "source": "scripts/run_official_baselines.py",
+      "public": "scripts/run_official_baselines.py"
+    },
+    {
+      "source": "scripts/run_rate_repair_validation.py",
+      "public": "scripts/run_rate_repair_validation.py"
+    },
+    {
+      "source": "scripts/run_readout_repair.py",
+      "public": "scripts/run_readout_repair.py"
+    },
+    {
+      "source": "scripts/run_scored_path_cohort.py",
+      "public": "scripts/run_scored_path_cohort.py"
+    },
+    {
+      "source": "scripts/run_synthetic_response.py",
+      "public": "scripts/run_synthetic_response.py"
+    },
+    {
+      "source": "scripts/run_tgbseq_screen_colab.py",
+      "public": "scripts/run_tgbseq_screen_colab.py"
+    },
+    {
+      "source": "scripts/score_lastfm_february.py",
+      "public": "scripts/score_lastfm_february.py"
+    },
+    {
+      "source": "scripts/summarize_pair_cadence.py",
+      "public": "scripts/summarize_pair_cadence.py"
+    },
+    {
+      "source": "scripts/train_competition.py",
+      "public": "scripts/train_competition.py"
+    },
+    {
+      "source": "scripts/train_craft.py",
+      "public": "scripts/train_craft.py"
+    },
+    {
+      "source": "scripts/train_event_coupling.py",
+      "public": "scripts/train_event_coupling.py"
+    },
+    {
+      "source": "scripts/train_hard_controls.py",
+      "public": "scripts/train_hard_controls.py"
+    },
+    {
+      "source": "scripts/train_lastfm_model.py",
+      "public": "scripts/train_lastfm_model.py"
+    },
+    {
+      "source": "scripts/train_tkde.py",
+      "public": "scripts/train_tkde.py"
+    },
+    {
+      "source": "scripts/train_tkde_colab.ipynb",
+      "public": "scripts/train_tkde_colab.ipynb"
+    },
+    {
+      "source": "scripts/verify_readout_tilt_algebra.py",
+      "public": "scripts/verify_readout_tilt_algebra.py"
+    },
+    {
+      "source": "scripts/verify_spectral_position.py",
+      "public": "scripts/verify_spectral_position.py"
+    },
+    {
+      "source": "slurm/README.md",
+      "public": "slurm/README.md"
+    },
+    {
+      "source": "src/lifecycle_readout/__init__.py",
+      "public": "src/lifecycle_readout/__init__.py"
+    },
+    {
+      "source": "src/lifecycle_readout/benchmark.py",
+      "public": "src/lifecycle_readout/benchmark.py"
+    },
+    {
+      "source": "src/lifecycle_readout/causal_stream.py",
+      "public": "src/lifecycle_readout/causal_stream.py"
+    },
+    {
+      "source": "src/lifecycle_readout/colab_workflow.py",
+      "public": "src/lifecycle_readout/colab_workflow.py"
+    },
+    {
+      "source": "src/lifecycle_readout/competing_edges.py",
+      "public": "src/lifecycle_readout/competing_edges.py"
+    },
+    {
+      "source": "src/lifecycle_readout/competition_attribution.py",
+      "public": "src/lifecycle_readout/competition_attribution.py"
+    },
+    {
+      "source": "src/lifecycle_readout/competition_exact_overlap.py",
+      "public": "src/lifecycle_readout/competition_exact_overlap.py"
+    },
+    {
+      "source": "src/lifecycle_readout/competition_study.py",
+      "public": "src/lifecycle_readout/competition_study.py"
+    },
+    {
+      "source": "src/lifecycle_readout/competitive_event_stream.py",
+      "public": "src/lifecycle_readout/competitive_event_stream.py"
+    },
+    {
+      "source": "src/lifecycle_readout/competitive_lifecycle.py",
+      "public": "src/lifecycle_readout/competitive_lifecycle.py"
+    },
+    {
+      "source": "src/lifecycle_readout/craft_adapter.py",
+      "public": "src/lifecycle_readout/craft_adapter.py"
+    },
+    {
+      "source": "src/lifecycle_readout/craft_training.py",
+      "public": "src/lifecycle_readout/craft_training.py"
+    },
+    {
+      "source": "src/lifecycle_readout/datasets.py",
+      "public": "src/lifecycle_readout/datasets.py"
+    },
+    {
+      "source": "src/lifecycle_readout/event_coupling_study.py",
+      "public": "src/lifecycle_readout/event_coupling_study.py"
+    },
+    {
+      "source": "src/lifecycle_readout/hard_controls.py",
+      "public": "src/lifecycle_readout/hard_controls.py"
+    },
+    {
+      "source": "src/lifecycle_readout/intake_recurrence.py",
+      "public": "src/lifecycle_readout/intake_recurrence.py"
+    },
+    {
+      "source": "src/lifecycle_readout/lastfm_artist_history.py",
+      "public": "src/lifecycle_readout/lastfm_artist_history.py"
+    },
+    {
+      "source": "src/lifecycle_readout/lastfm_diagnostics.py",
+      "public": "src/lifecycle_readout/lastfm_diagnostics.py"
+    },
+    {
+      "source": "src/lifecycle_readout/lastfm_holdout_data.py",
+      "public": "src/lifecycle_readout/lastfm_holdout_data.py"
+    },
+    {
+      "source": "src/lifecycle_readout/lastfm_holdout_evaluation.py",
+      "public": "src/lifecycle_readout/lastfm_holdout_evaluation.py"
+    },
+    {
+      "source": "src/lifecycle_readout/lastfm_holdout_inference.py",
+      "public": "src/lifecycle_readout/lastfm_holdout_inference.py"
+    },
+    {
+      "source": "src/lifecycle_readout/lastfm_intake.py",
+      "public": "src/lifecycle_readout/lastfm_intake.py"
+    },
+    {
+      "source": "src/lifecycle_readout/lastfm_model.py",
+      "public": "src/lifecycle_readout/lastfm_model.py"
+    },
+    {
+      "source": "src/lifecycle_readout/lastfm_model_data.py",
+      "public": "src/lifecycle_readout/lastfm_model_data.py"
+    },
+    {
+      "source": "src/lifecycle_readout/lastfm_model_stream.py",
+      "public": "src/lifecycle_readout/lastfm_model_stream.py"
+    },
+    {
+      "source": "src/lifecycle_readout/lastfm_model_training.py",
+      "public": "src/lifecycle_readout/lastfm_model_training.py"
+    },
+    {
+      "source": "src/lifecycle_readout/metrics.py",
+      "public": "src/lifecycle_readout/metrics.py"
+    },
+    {
+      "source": "src/lifecycle_readout/modeling/__init__.py",
+      "public": "src/lifecycle_readout/modeling/__init__.py"
+    },
+    {
+      "source": "src/lifecycle_readout/modeling/fixed_rate_tilt.py",
+      "public": "src/lifecycle_readout/modeling/fixed_rate_tilt.py"
+    },
+    {
+      "source": "src/lifecycle_readout/modeling/fsm_head.py",
+      "public": "src/lifecycle_readout/modeling/fsm_head.py"
+    },
+    {
+      "source": "src/lifecycle_readout/modeling/inverse_tilt_projection.py",
+      "public": "src/lifecycle_readout/modeling/inverse_tilt_projection.py"
+    },
+    {
+      "source": "src/lifecycle_readout/modeling/latent_lifecycle.py",
+      "public": "src/lifecycle_readout/modeling/latent_lifecycle.py"
+    },
+    {
+      "source": "src/lifecycle_readout/modeling/monotone_residual.py",
+      "public": "src/lifecycle_readout/modeling/monotone_residual.py"
+    },
+    {
+      "source": "src/lifecycle_readout/modeling/monotone_simplex.py",
+      "public": "src/lifecycle_readout/modeling/monotone_simplex.py"
+    },
+    {
+      "source": "src/lifecycle_readout/modeling/readout_aware_tilt.py",
+      "public": "src/lifecycle_readout/modeling/readout_aware_tilt.py"
+    },
+    {
+      "source": "src/lifecycle_readout/modeling/sr_gnn.py",
+      "public": "src/lifecycle_readout/modeling/sr_gnn.py"
+    },
+    {
+      "source": "src/lifecycle_readout/modeling/sr_gnn_v2.py",
+      "public": "src/lifecycle_readout/modeling/sr_gnn_v2.py"
+    },
+    {
+      "source": "src/lifecycle_readout/modeling/sr_gnn_v3.py",
+      "public": "src/lifecycle_readout/modeling/sr_gnn_v3.py"
+    },
+    {
+      "source": "src/lifecycle_readout/modeling/sr_gnn_v3_3.py",
+      "public": "src/lifecycle_readout/modeling/sr_gnn_v3_3.py"
+    },
+    {
+      "source": "src/lifecycle_readout/modeling/temporal_mixer.py",
+      "public": "src/lifecycle_readout/modeling/temporal_mixer.py"
+    },
+    {
+      "source": "src/lifecycle_readout/official_data.py",
+      "public": "src/lifecycle_readout/official_data.py"
+    },
+    {
+      "source": "src/lifecycle_readout/pair_clock.py",
+      "public": "src/lifecycle_readout/pair_clock.py"
+    },
+    {
+      "source": "src/lifecycle_readout/ranking.py",
+      "public": "src/lifecycle_readout/ranking.py"
+    },
+    {
+      "source": "src/lifecycle_readout/rate_repair_validation.py",
+      "public": "src/lifecycle_readout/rate_repair_validation.py"
+    },
+    {
+      "source": "src/lifecycle_readout/readout_repair.py",
+      "public": "src/lifecycle_readout/readout_repair.py"
+    },
+    {
+      "source": "src/lifecycle_readout/scored_path.py",
+      "public": "src/lifecycle_readout/scored_path.py"
+    },
+    {
+      "source": "src/lifecycle_readout/scored_path_cohort.py",
+      "public": "src/lifecycle_readout/scored_path_cohort.py"
+    },
+    {
+      "source": "src/lifecycle_readout/stream_baselines.py",
+      "public": "src/lifecycle_readout/stream_baselines.py"
+    },
+    {
+      "source": "src/lifecycle_readout/synthetic_response.py",
+      "public": "src/lifecycle_readout/synthetic_response.py"
+    },
+    {
+      "source": "src/lifecycle_readout/training.py",
+      "public": "src/lifecycle_readout/training.py"
+    },
+    {
+      "source": "tests/test_benchmark.py",
+      "public": "tests/test_benchmark.py"
+    },
+    {
+      "source": "tests/test_cadence_checkpoint_replay.py",
+      "public": "tests/test_cadence_checkpoint_replay.py"
+    },
+    {
+      "source": "tests/test_cadence_summary.py",
+      "public": "tests/test_cadence_summary.py"
+    },
+    {
+      "source": "tests/test_causal_stream.py",
+      "public": "tests/test_causal_stream.py"
+    },
+    {
+      "source": "tests/test_colab_workflow.py",
+      "public": "tests/test_colab_workflow.py"
+    },
+    {
+      "source": "tests/test_competing_edges.py",
+      "public": "tests/test_competing_edges.py"
+    },
+    {
+      "source": "tests/test_competition_attribution.py",
+      "public": "tests/test_competition_attribution.py"
+    },
+    {
+      "source": "tests/test_competition_exact_overlap.py",
+      "public": "tests/test_competition_exact_overlap.py"
+    },
+    {
+      "source": "tests/test_competitive_event_stream.py",
+      "public": "tests/test_competitive_event_stream.py"
+    },
+    {
+      "source": "tests/test_competitive_lifecycle.py",
+      "public": "tests/test_competitive_lifecycle.py"
+    },
+    {
+      "source": "tests/test_craft_adapter.py",
+      "public": "tests/test_craft_adapter.py"
+    },
+    {
+      "source": "tests/test_craft_asset_fetch.py",
+      "public": "tests/test_craft_asset_fetch.py"
+    },
+    {
+      "source": "tests/test_craft_fit_audit.py",
+      "public": "tests/test_craft_fit_audit.py"
+    },
+    {
+      "source": "tests/test_craft_training.py",
+      "public": "tests/test_craft_training.py"
+    },
+    {
+      "source": "tests/test_event_coupling_study.py",
+      "public": "tests/test_event_coupling_study.py"
+    },
+    {
+      "source": "tests/test_fixed_rate_tilt.py",
+      "public": "tests/test_fixed_rate_tilt.py"
+    },
+    {
+      "source": "tests/test_hard_checkpoint_replay.py",
+      "public": "tests/test_hard_checkpoint_replay.py"
+    },
+    {
+      "source": "tests/test_hard_controls.py",
+      "public": "tests/test_hard_controls.py"
+    },
+    {
+      "source": "tests/test_hard_pooling.py",
+      "public": "tests/test_hard_pooling.py"
+    },
+    {
+      "source": "tests/test_intake_recurrence.py",
+      "public": "tests/test_intake_recurrence.py"
+    },
+    {
+      "source": "tests/test_inverse_tilt_projection.py",
+      "public": "tests/test_inverse_tilt_projection.py"
+    },
+    {
+      "source": "tests/test_kuairand_intake_pipeline.py",
+      "public": "tests/test_kuairand_intake_pipeline.py"
+    },
+    {
+      "source": "tests/test_kuairand_local_intake.py",
+      "public": "tests/test_kuairand_local_intake.py"
+    },
+    {
+      "source": "tests/test_lastfm_artist_audit_pipeline.py",
+      "public": "tests/test_lastfm_artist_audit_pipeline.py"
+    },
+    {
+      "source": "tests/test_lastfm_artist_history.py",
+      "public": "tests/test_lastfm_artist_history.py"
+    },
+    {
+      "source": "tests/test_lastfm_diagnostics.py",
+      "public": "tests/test_lastfm_diagnostics.py"
+    },
+    {
+      "source": "tests/test_lastfm_holdout_data.py",
+      "public": "tests/test_lastfm_holdout_data.py"
+    },
+    {
+      "source": "tests/test_lastfm_holdout_evaluation.py",
+      "public": "tests/test_lastfm_holdout_evaluation.py"
+    },
+    {
+      "source": "tests/test_lastfm_holdout_inference.py",
+      "public": "tests/test_lastfm_holdout_inference.py"
+    },
+    {
+      "source": "tests/test_lastfm_intake.py",
+      "public": "tests/test_lastfm_intake.py"
+    },
+    {
+      "source": "tests/test_lastfm_intake_pipeline.py",
+      "public": "tests/test_lastfm_intake_pipeline.py"
+    },
+    {
+      "source": "tests/test_lastfm_model.py",
+      "public": "tests/test_lastfm_model.py"
+    },
+    {
+      "source": "tests/test_lastfm_model_data.py",
+      "public": "tests/test_lastfm_model_data.py"
+    },
+    {
+      "source": "tests/test_lastfm_model_stream.py",
+      "public": "tests/test_lastfm_model_stream.py"
+    },
+    {
+      "source": "tests/test_lastfm_model_training.py",
+      "public": "tests/test_lastfm_model_training.py"
+    },
+    {
+      "source": "tests/test_monotone_residual.py",
+      "public": "tests/test_monotone_residual.py"
+    },
+    {
+      "source": "tests/test_monotone_simplex.py",
+      "public": "tests/test_monotone_simplex.py"
+    },
+    {
+      "source": "tests/test_official_data.py",
+      "public": "tests/test_official_data.py"
+    },
+    {
+      "source": "tests/test_pair_cadence_audit_integration.py",
+      "public": "tests/test_pair_cadence_audit_integration.py"
+    },
+    {
+      "source": "tests/test_pair_cadence_results.py",
+      "public": "tests/test_pair_cadence_results.py"
+    },
+    {
+      "source": "tests/test_pair_clock.py",
+      "public": "tests/test_pair_clock.py"
+    },
+    {
+      "source": "tests/test_ranking.py",
+      "public": "tests/test_ranking.py"
+    },
+    {
+      "source": "tests/test_rate_repair_validation.py",
+      "public": "tests/test_rate_repair_validation.py"
+    },
+    {
+      "source": "tests/test_readout_aware_tilt.py",
+      "public": "tests/test_readout_aware_tilt.py"
+    },
+    {
+      "source": "tests/test_readout_repair.py",
+      "public": "tests/test_readout_repair.py"
+    },
+    {
+      "source": "tests/test_repository_contract.py",
+      "public": "tests/test_repository_contract.py"
+    },
+    {
+      "source": "tests/test_scored_path.py",
+      "public": "tests/test_scored_path.py"
+    },
+    {
+      "source": "tests/test_scored_path_cohort.py",
+      "public": "tests/test_scored_path_cohort.py"
+    },
+    {
+      "source": "tests/test_silence_scope.py",
+      "public": "tests/test_silence_scope.py"
+    },
+    {
+      "source": "tests/test_softmax_silence_bound.py",
+      "public": "tests/test_softmax_silence_bound.py"
+    },
+    {
+      "source": "tests/test_source_session.py",
+      "public": "tests/test_source_session.py"
+    },
+    {
+      "source": "tests/test_stream_baselines.py",
+      "public": "tests/test_stream_baselines.py"
+    },
+    {
+      "source": "tests/test_stream_screen_audit.py",
+      "public": "tests/test_stream_screen_audit.py"
+    },
+    {
+      "source": "tests/test_synthetic_response.py",
+      "public": "tests/test_synthetic_response.py"
+    },
+    {
+      "source": "wiki/CONTRIBUTING.md",
+      "public": "wiki/CONTRIBUTING.md"
+    },
+    {
+      "source": "wiki/GLOSSARY.md",
+      "public": "wiki/GLOSSARY.md"
+    },
+    {
+      "source": "wiki/INDEX.md",
+      "public": "wiki/INDEX.md"
+    },
+    {
+      "source": "wiki/LIMITATIONS.md",
+      "public": "wiki/LIMITATIONS.md"
+    },
+    {
+      "source": "wiki/README.md",
+      "public": "wiki/README.md"
+    },
+    {
+      "source": "wiki/REPRODUCIBILITY.md",
+      "public": "wiki/REPRODUCIBILITY.md"
+    },
+    {
+      "source": "wiki/START-HERE.md",
+      "public": "wiki/START-HERE.md"
+    },
+    {
+      "source": "wiki/architecture/Research-System-Map.md",
+      "public": "wiki/architecture/Research-System-Map.md"
+    },
+    {
+      "source": "wiki/claims/Current-Claim-Language.md",
+      "public": "wiki/claims/Current-Claim-Language.md"
+    },
+    {
+      "source": "wiki/claims/Historical-Claim-Ledger.md",
+      "public": "wiki/claims/Historical-Claim-Ledger.md"
+    },
+    {
+      "source": "wiki/datasets/Competition-Dataset-Proposal.md",
+      "public": "wiki/datasets/Competition-Dataset-Proposal.md"
+    },
+    {
+      "source": "wiki/datasets/Data-and-Target-Contract.md",
+      "public": "wiki/datasets/Data-and-Target-Contract.md"
+    },
+    {
+      "source": "wiki/datasets/Dataset-Registry.md",
+      "public": "wiki/datasets/Dataset-Registry.md"
+    },
+    {
+      "source": "wiki/datasets/KuaiRand-Intake-Preflight.md",
+      "public": "wiki/datasets/KuaiRand-Intake-Preflight.md"
+    },
+    {
+      "source": "wiki/datasets/LastFM-Intake-Preflight.md",
+      "public": "wiki/datasets/LastFM-Intake-Preflight.md"
+    },
+    {
+      "source": "wiki/decisions/0001-separate-link-prediction-and-lifecycle-readout.md",
+      "public": "wiki/decisions/0001-separate-link-prediction-and-lifecycle-readout.md"
+    },
+    {
+      "source": "wiki/decisions/0002-differentiable-latent-lifecycle-discovery.md",
+      "public": "wiki/decisions/0002-differentiable-latent-lifecycle-discovery.md"
+    },
+    {
+      "source": "wiki/evidence/Evidence-Ledger.md",
+      "public": "wiki/evidence/Evidence-Ledger.md"
+    },
+    {
+      "source": "wiki/evidence/Hard-Control-Retrieval.md",
+      "public": "wiki/evidence/Hard-Control-Retrieval.md"
+    },
+    {
+      "source": "wiki/governance/License-and-Assets.md",
+      "public": "wiki/governance/License-and-Assets.md"
+    },
+    {
+      "source": "wiki/governance/Numeric-Evidence-and-Publication-Hygiene.md",
+      "public": "wiki/governance/Numeric-Evidence-and-Publication-Hygiene.md"
+    },
+    {
+      "source": "wiki/manuscript/Journal-Narrative.md",
+      "public": "wiki/manuscript/Article-Narrative.md"
+    },
+    {
+      "source": "wiki/manuscript/Paper-Export-Contract.md",
+      "public": "wiki/manuscript/Paper-Export-Contract.md"
+    },
+    {
+      "source": "wiki/manuscript/SNCS-Article-Body.tex",
+      "public": "wiki/manuscript/Article-Body.tex"
+    },
+    {
+      "source": "wiki/manuscript/SNCS-Front-Matter.tex",
+      "public": "wiki/manuscript/Article-Front-Matter.tex"
+    },
+    {
+      "source": "wiki/manuscript/SNCS-Preparation.md",
+      "public": "wiki/manuscript/Article-Assembly.md"
+    },
+    {
+      "source": "wiki/manuscript/SNCS-References.bib",
+      "public": "wiki/manuscript/Article-References.bib"
+    },
+    {
+      "source": "wiki/methods/Competing-Destination-Development.md",
+      "public": "wiki/methods/Competing-Destination-Development.md"
+    },
+    {
+      "source": "wiki/methods/Competition-Signal-Anatomy.md",
+      "public": "wiki/methods/Competition-Signal-Anatomy.md"
+    },
+    {
+      "source": "wiki/methods/Differentiable-Latent-Lifecycle.md",
+      "public": "wiki/methods/Differentiable-Latent-Lifecycle.md"
+    },
+    {
+      "source": "wiki/methods/Event-Driven-Competitive-Lifecycle.md",
+      "public": "wiki/methods/Event-Driven-Competitive-Lifecycle.md"
+    },
+    {
+      "source": "wiki/methods/Exact-State-Competition-Study.md",
+      "public": "wiki/methods/Exact-State-Competition-Study.md"
+    },
+    {
+      "source": "wiki/methods/Fixed-Rate-Readout-Certificate.md",
+      "public": "wiki/methods/Fixed-Rate-Readout-Certificate.md"
+    },
+    {
+      "source": "wiki/methods/Frozen-Reference-Competition-History.md",
+      "public": "wiki/methods/Frozen-Reference-Competition-History.md"
+    },
+    {
+      "source": "wiki/methods/Hierarchical-Lifecycle-Readout.md",
+      "public": "wiki/methods/Hierarchical-Lifecycle-Readout.md"
+    },
+    {
+      "source": "wiki/methods/Inverse-Tilt-Projection.md",
+      "public": "wiki/methods/Inverse-Tilt-Projection.md"
+    },
+    {
+      "source": "wiki/methods/LastFM-Recorded-Artist-Model.md",
+      "public": "wiki/methods/LastFM-Recorded-Artist-Model.md"
+    },
+    {
+      "source": "wiki/methods/Monotone-Simplex-Development.md",
+      "public": "wiki/methods/Monotone-Simplex-Development.md"
+    },
+    {
+      "source": "wiki/methods/Prediction-Target-and-Sampling.md",
+      "public": "wiki/methods/Prediction-Target-and-Sampling.md"
+    },
+    {
+      "source": "wiki/methods/Readout-Aware-Entropic-Preservation.md",
+      "public": "wiki/methods/Readout-Aware-Entropic-Preservation.md"
+    },
+    {
+      "source": "wiki/methods/Readout-Repair-Projection.md",
+      "public": "wiki/methods/Readout-Repair-Projection.md"
+    },
+    {
+      "source": "wiki/methods/Shortcut-Resistant-Gating.md",
+      "public": "wiki/methods/Shortcut-Resistant-Gating.md"
+    },
+    {
+      "source": "wiki/methods/Typed-Interventions.md",
+      "public": "wiki/methods/Typed-Interventions.md"
+    },
+    {
+      "source": "wiki/operations/Research-Workflow.md",
+      "public": "wiki/operations/Research-Workflow.md"
+    },
+    {
+      "source": "wiki/questions/Contribution-Gap-Review.md",
+      "public": "wiki/questions/Contribution-Gap-Review.md"
+    },
+    {
+      "source": "wiki/questions/Journal-Paper-Strategy.md",
+      "public": "wiki/questions/Research-Paper-Strategy.md"
+    },
+    {
+      "source": "wiki/questions/Q1-Research-Program.md",
+      "public": "wiki/questions/Research-Program.md"
+    },
+    {
+      "source": "wiki/questions/Research-Questions.md",
+      "public": "wiki/questions/Research-Questions.md"
+    },
+    {
+      "source": "wiki/questions/Spectral-Ratio-Prior-Position.md",
+      "public": "wiki/questions/Spectral-Ratio-Prior-Position.md"
+    },
+    {
+      "source": "wiki/references/Technical-Source-Map.md",
+      "public": "wiki/references/Technical-Source-Map.md"
+    },
+    {
+      "source": "wiki/results/Benchmark-and-Baseline-Results.md",
+      "public": "wiki/results/Benchmark-and-Baseline-Results.md"
+    },
+    {
+      "source": "wiki/results/CRAFT-Adapter-and-Feasibility.md",
+      "public": "wiki/results/CRAFT-Adapter-and-Feasibility.md"
+    },
+    {
+      "source": "wiki/results/Competing-Destination-Pilot.md",
+      "public": "wiki/results/Competing-Destination-Pilot.md"
+    },
+    {
+      "source": "wiki/results/Competition-Signal-Anatomy.md",
+      "public": "wiki/results/Competition-Signal-Anatomy.md"
+    },
+    {
+      "source": "wiki/results/Competitive-Event-History-Audit.md",
+      "public": "wiki/results/Competitive-Event-History-Audit.md"
+    },
+    {
+      "source": "wiki/results/Exact-State-Competition-Pilot.md",
+      "public": "wiki/results/Exact-State-Competition-Pilot.md"
+    },
+    {
+      "source": "wiki/results/Fixed-Rate-Repair-Validation.md",
+      "public": "wiki/results/Fixed-Rate-Repair-Validation.md"
+    },
+    {
+      "source": "wiki/results/Full-Validation-Scored-Paths.md",
+      "public": "wiki/results/Full-Validation-Scored-Paths.md"
+    },
+    {
+      "source": "wiki/results/Hard-Negative-Controls.md",
+      "public": "wiki/results/Hard-Negative-Controls.md"
+    },
+    {
+      "source": "wiki/results/LastFM-February-Holdout.md",
+      "public": "wiki/results/LastFM-February-Holdout.md"
+    },
+    {
+      "source": "wiki/results/LastFM-History-Strata.md",
+      "public": "wiki/results/LastFM-History-Strata.md"
+    },
+    {
+      "source": "wiki/results/LastFM-Mechanistic-Readout.md",
+      "public": "wiki/results/LastFM-Mechanistic-Readout.md"
+    },
+    {
+      "source": "wiki/results/LastFM-Recorded-Artist-Audit.md",
+      "public": "wiki/results/LastFM-Recorded-Artist-Audit.md"
+    },
+    {
+      "source": "wiki/results/LastFM-Recorded-Artist-Pilot.md",
+      "public": "wiki/results/LastFM-Recorded-Artist-Pilot.md"
+    },
+    {
+      "source": "wiki/results/Lifecycle-Faithfulness-and-Invariance.md",
+      "public": "wiki/results/Lifecycle-Faithfulness-and-Invariance.md"
+    },
+    {
+      "source": "wiki/results/ML20M-Development-Baselines.md",
+      "public": "wiki/results/ML20M-Development-Baselines.md"
+    },
+    {
+      "source": "wiki/results/Pair-Cadence-Development.md",
+      "public": "wiki/results/Pair-Cadence-Development.md"
+    },
+    {
+      "source": "wiki/results/Q1-Synthetic-Mechanisms.md",
+      "public": "wiki/results/Synthetic-Mechanisms.md"
+    },
+    {
+      "source": "wiki/results/Q1-Validation-Development.md",
+      "public": "wiki/results/Validation-Development.md"
+    },
+    {
+      "source": "wiki/results/Readout-Repair-Validation.md",
+      "public": "wiki/results/Readout-Repair-Validation.md"
+    },
+    {
+      "source": "wiki/results/Scored-Path-Silence-Diagnostic.md",
+      "public": "wiki/results/Scored-Path-Silence-Diagnostic.md"
+    },
+    {
+      "source": "wiki/status/Live-Execution.md",
+      "public": "wiki/status/Live-Execution.md"
+    },
+    {
+      "source": "wiki/status/Project-Status.md",
+      "public": "wiki/status/Project-Status.md"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "results/audit/event_coupling_closure_v1/summary.json",
+      "source_sha256": "721c82458b7f7b3a77bbc46f77bb2fbd81c2f5811b7a33884cf737ee680f5caa",
+      "public_sha256": "721c82458b7f7b3a77bbc46f77bb2fbd81c2f5811b7a33884cf737ee680f5caa",
+      "host_paths_redacted": false,
+      "size_bytes": 13494
+    },
+    {
+      "path": "results/audit/event_coupling_closure_v1/verification.json",
+      "source_sha256": "549a92b3cf9c86b3266cb3477f733588b73d601a0eec0a63719f0eb86285aff7",
+      "public_sha256": "549a92b3cf9c86b3266cb3477f733588b73d601a0eec0a63719f0eb86285aff7",
+      "host_paths_redacted": false,
+      "size_bytes": 536
+    },
+    {
+      "path": "results/audit/fixed_rate_tilt_v1/closure_checks.json",
+      "source_sha256": "c1c2d5a2e338d77cd8b9459dcbbca8855a416129a7295ea33524837d29c79d80",
+      "public_sha256": "c1c2d5a2e338d77cd8b9459dcbbca8855a416129a7295ea33524837d29c79d80",
+      "host_paths_redacted": false,
+      "size_bytes": 700
+    },
+    {
+      "path": "results/audit/fixed_rate_tilt_v1/legacy_boundary_probe.json",
+      "source_sha256": "b05e4ecfc67bcdc9b2a2a9b6393f1acfb017015c6f53c728acc2d229df1a96f5",
+      "public_sha256": "b05e4ecfc67bcdc9b2a2a9b6393f1acfb017015c6f53c728acc2d229df1a96f5",
+      "host_paths_redacted": false,
+      "size_bytes": 526
+    },
+    {
+      "path": "results/audit/fixed_rate_tilt_v1/review.json",
+      "source_sha256": "0fbe2c78cb4924d9791d5f48a963757cd620b28b8e9dc0f9c1766c3d8f87556a",
+      "public_sha256": "0fbe2c78cb4924d9791d5f48a963757cd620b28b8e9dc0f9c1766c3d8f87556a",
+      "host_paths_redacted": false,
+      "size_bytes": 3231
+    },
+    {
+      "path": "results/audit/fixed_rate_tilt_v1/verification.json",
+      "source_sha256": "ba494f7aabf6580cf102b78cf296c47c7c8e310d5545f1ee9dff6544cced2d50",
+      "public_sha256": "ba494f7aabf6580cf102b78cf296c47c7c8e310d5545f1ee9dff6544cced2d50",
+      "host_paths_redacted": false,
+      "size_bytes": 1523
+    },
+    {
+      "path": "results/audit/hard_controls_v1/checksums.sha256",
+      "source_sha256": "816c9384ee677cb0a7697d27d14e9547ce4f2443ed7bab967865ebf4023f51cf",
+      "public_sha256": "816c9384ee677cb0a7697d27d14e9547ce4f2443ed7bab967865ebf4023f51cf",
+      "host_paths_redacted": false,
+      "size_bytes": 348
+    },
+    {
+      "path": "results/audit/hard_controls_v1/manuscript_revision.json",
+      "source_sha256": "390a1e685bb9e92460f160dbe3f2e93286713b040fff4bc079e6792ddb39fb51",
+      "public_sha256": "390a1e685bb9e92460f160dbe3f2e93286713b040fff4bc079e6792ddb39fb51",
+      "host_paths_redacted": false,
+      "size_bytes": 3413
+    },
+    {
+      "path": "results/audit/hard_controls_v1/reddit_audit.json",
+      "source_sha256": "fcddae0a800bf18722a27ca6975b4ec7fc742e166fa340778e13084928e3d72e",
+      "public_sha256": "fcddae0a800bf18722a27ca6975b4ec7fc742e166fa340778e13084928e3d72e",
+      "host_paths_redacted": false,
+      "size_bytes": 3097
+    },
+    {
+      "path": "results/audit/hard_controls_v1/resource_final.json",
+      "source_sha256": "0384828a40c0ba5bf4b045aaadc16c976d4310fb9a621ade4d84856abca0286f",
+      "public_sha256": "0384828a40c0ba5bf4b045aaadc16c976d4310fb9a621ade4d84856abca0286f",
+      "host_paths_redacted": false,
+      "size_bytes": 216
+    },
+    {
+      "path": "results/audit/hard_controls_v1/wikipedia_audit.json",
+      "source_sha256": "646e582ca7f4d9dfb0c0a92bf2028de3c273bd0be0cc8eaf612147ad35435423",
+      "public_sha256": "646e582ca7f4d9dfb0c0a92bf2028de3c273bd0be0cc8eaf612147ad35435423",
+      "host_paths_redacted": false,
+      "size_bytes": 3103
+    },
+    {
+      "path": "results/audit/inverse_tilt_projection_v1/additional_verification.json",
+      "source_sha256": "9ab9e7e3e01a5b1e1ee61063351d97ff46f00a26b5edd8ae8d9af6a3d2697639",
+      "public_sha256": "9ab9e7e3e01a5b1e1ee61063351d97ff46f00a26b5edd8ae8d9af6a3d2697639",
+      "host_paths_redacted": false,
+      "size_bytes": 441
+    },
+    {
+      "path": "results/audit/inverse_tilt_projection_v1/symbolic_verification.json",
+      "source_sha256": "8bb4b5620d993f9f5d4b330d615f6de84cea85a1a54bc14863fa071c1370f0ce",
+      "public_sha256": "8bb4b5620d993f9f5d4b330d615f6de84cea85a1a54bc14863fa071c1370f0ce",
+      "host_paths_redacted": false,
+      "size_bytes": 250
+    },
+    {
+      "path": "evidence/records/journal_reference_v1--manuscript_revision.json",
+      "source_sha256": "cbdc5178a5f85242978f33018c15c65b9160d28180efddbc2385525048243ffd",
+      "public_sha256": "fc2f1a2017c094e4169cd33d86491a738866e962a356fc346699b69df374653e",
+      "host_paths_redacted": true,
+      "size_bytes": 2178,
+      "source_path": "results/audit/journal_reference_v1/manuscript_revision.json"
+    },
+    {
+      "path": "results/audit/journal_reference_v1/review.json",
+      "source_sha256": "8c6f59e84ee80641439703a2486ab91c58cd0e55c8a1232acdb1fac6b5e63bfa",
+      "public_sha256": "8c6f59e84ee80641439703a2486ab91c58cd0e55c8a1232acdb1fac6b5e63bfa",
+      "host_paths_redacted": false,
+      "size_bytes": 25212
+    },
+    {
+      "path": "evidence/records/journal_reframe_v1--revision.json",
+      "source_sha256": "b1455732d13efa1316d9de7f5d788c110149b259d223f39fbc34e42b7011817f",
+      "public_sha256": "a42a7fd4b4b9a083cc1df436cb528190c159f2a681ccede549da5e8e77a7d9da",
+      "host_paths_redacted": true,
+      "size_bytes": 2705,
+      "source_path": "results/audit/journal_reframe_v1/revision.json"
+    },
+    {
+      "path": "results/audit/lastfm_february_audit_v1/preanalysis.json",
+      "source_sha256": "e99cbc4bf722adf0e600f6fd1ae0db2a54770834462f152abc23cce8debccfd0",
+      "public_sha256": "e99cbc4bf722adf0e600f6fd1ae0db2a54770834462f152abc23cce8debccfd0",
+      "host_paths_redacted": false,
+      "size_bytes": 911
+    },
+    {
+      "path": "results/audit/lastfm_february_audit_v1/results.json",
+      "source_sha256": "20f228e8b189ed8137f27e133320876424f022f73a7775aad0176c6f4e78cfdb",
+      "public_sha256": "20f228e8b189ed8137f27e133320876424f022f73a7775aad0176c6f4e78cfdb",
+      "host_paths_redacted": false,
+      "size_bytes": 88545
+    },
+    {
+      "path": "results/audit/lastfm_february_closure_v1/summary.json",
+      "source_sha256": "236ad97ef50f7ab8c10c96d244ce2d749e451e8c5efd4d3957c22a22fb8e7f3e",
+      "public_sha256": "236ad97ef50f7ab8c10c96d244ce2d749e451e8c5efd4d3957c22a22fb8e7f3e",
+      "host_paths_redacted": false,
+      "size_bytes": 1229
+    },
+    {
+      "path": "results/audit/lastfm_february_closure_v1/verification.json",
+      "source_sha256": "74ce627d928988da658d0bca334f95db3566dfabf7603e1841126a840aa684ed",
+      "public_sha256": "74ce627d928988da658d0bca334f95db3566dfabf7603e1841126a840aa684ed",
+      "host_paths_redacted": false,
+      "size_bytes": 809
+    },
+    {
+      "path": "results/audit/lastfm_model_closure_v1/summary.json",
+      "source_sha256": "a5a66c51544bb0b289ab866f85dc05e87b52c1481788d96a0dff2b36f8dac4f7",
+      "public_sha256": "a5a66c51544bb0b289ab866f85dc05e87b52c1481788d96a0dff2b36f8dac4f7",
+      "host_paths_redacted": false,
+      "size_bytes": 97362
+    },
+    {
+      "path": "results/audit/lastfm_model_closure_v1/verification.json",
+      "source_sha256": "9d2ff0e7495e6a3a77191f25ab565d5f27e0bb230a6e417d768546873f94ca28",
+      "public_sha256": "9d2ff0e7495e6a3a77191f25ab565d5f27e0bb230a6e417d768546873f94ca28",
+      "host_paths_redacted": false,
+      "size_bytes": 821
+    },
+    {
+      "path": "results/audit/lastfm_readout_v1/figure_provenance.json",
+      "source_sha256": "327944a705c464d4e73578124c92b543be196621ba2d01ec7cfc99a44b84fd55",
+      "public_sha256": "327944a705c464d4e73578124c92b543be196621ba2d01ec7cfc99a44b84fd55",
+      "host_paths_redacted": false,
+      "size_bytes": 446
+    },
+    {
+      "path": "results/audit/lastfm_readout_v1/independent_audit.json",
+      "source_sha256": "14ef9929948a77d377b24b68daa604a21649585d062a749f167e862c2fe7c9a3",
+      "public_sha256": "14ef9929948a77d377b24b68daa604a21649585d062a749f167e862c2fe7c9a3",
+      "host_paths_redacted": false,
+      "size_bytes": 1074
+    },
+    {
+      "path": "results/audit/lastfm_readout_v1/results.json",
+      "source_sha256": "7ccd11a3b6713f8265d9c9b7c817c32d16f8eba1c55c484d47f10e39ce29afdc",
+      "public_sha256": "7ccd11a3b6713f8265d9c9b7c817c32d16f8eba1c55c484d47f10e39ce29afdc",
+      "host_paths_redacted": false,
+      "size_bytes": 11168
+    },
+    {
+      "path": "results/audit/lastfm_strata_v1/independent_audit.json",
+      "source_sha256": "14ef9929948a77d377b24b68daa604a21649585d062a749f167e862c2fe7c9a3",
+      "public_sha256": "14ef9929948a77d377b24b68daa604a21649585d062a749f167e862c2fe7c9a3",
+      "host_paths_redacted": false,
+      "size_bytes": 1074
+    },
+    {
+      "path": "results/audit/lastfm_strata_v1/preanalysis.json",
+      "source_sha256": "1f3920bd3f0e11d3b0908be33e44d1385821239462685f8fcd57214bbe411645",
+      "public_sha256": "1f3920bd3f0e11d3b0908be33e44d1385821239462685f8fcd57214bbe411645",
+      "host_paths_redacted": false,
+      "size_bytes": 517
+    },
+    {
+      "path": "results/audit/lastfm_strata_v1/results.json",
+      "source_sha256": "44a32cb0af736450ebe884b6252641a4568e79d0a30803ebba891f9da668a98f",
+      "public_sha256": "44a32cb0af736450ebe884b6252641a4568e79d0a30803ebba891f9da668a98f",
+      "host_paths_redacted": false,
+      "size_bytes": 104739
+    },
+    {
+      "path": "results/audit/lcr-ML-20M-ba89635570/independent_audit.json",
+      "source_sha256": "215c2ce2964594953eb93b790af5fef6eeb5f906756767cb82c134c47d2e82c2",
+      "public_sha256": "215c2ce2964594953eb93b790af5fef6eeb5f906756767cb82c134c47d2e82c2",
+      "host_paths_redacted": false,
+      "size_bytes": 1215
+    },
+    {
+      "path": "results/audit/lcr-ML-20M-f2af45c59b/independent_audit.json",
+      "source_sha256": "3db1cc6be720b5b79613b6fbb78d84896f795c46289634d1ca36c5effc670a1a",
+      "public_sha256": "3db1cc6be720b5b79613b6fbb78d84896f795c46289634d1ca36c5effc670a1a",
+      "host_paths_redacted": false,
+      "size_bytes": 931
+    },
+    {
+      "path": "results/audit/lcr-ML-20M-f2af45c59b/resource_after.json",
+      "source_sha256": "893f3eaa02dd1bcdf278adf747c316dadaae88bb69cadee190cc61da5baacd22",
+      "public_sha256": "893f3eaa02dd1bcdf278adf747c316dadaae88bb69cadee190cc61da5baacd22",
+      "host_paths_redacted": false,
+      "size_bytes": 256
+    },
+    {
+      "path": "results/audit/lcr-reddit-bf7053e7a2/artifacts/results.json",
+      "source_sha256": "86c8bc35393fe760b64153fcad4bfe6308c79def97988a0524ad39256562b114",
+      "public_sha256": "86c8bc35393fe760b64153fcad4bfe6308c79def97988a0524ad39256562b114",
+      "host_paths_redacted": false,
+      "size_bytes": 82985
+    },
+    {
+      "path": "results/audit/lcr-wikipedia-256094e9e7/artifacts/results.json",
+      "source_sha256": "d3d91176345c3c7c7322c1c29d41897e68468ece2f782cf3a9a969e0833de10d",
+      "public_sha256": "d3d91176345c3c7c7322c1c29d41897e68468ece2f782cf3a9a969e0833de10d",
+      "host_paths_redacted": false,
+      "size_bytes": 82194
+    },
+    {
+      "path": "results/audit/lcr-wikipedia-bdec2912ae/artifacts/results.json",
+      "source_sha256": "254da08e4b7b11e593e06ab148edadc2cf09b6ae0296a81c7968d70db0c45945",
+      "public_sha256": "254da08e4b7b11e593e06ab148edadc2cf09b6ae0296a81c7968d70db0c45945",
+      "host_paths_redacted": false,
+      "size_bytes": 99952
+    },
+    {
+      "path": "evidence/records/lcr-wikipedia-bdec2912ae--job.json",
+      "source_sha256": "4d8452912906a6d116eb2f7c6091d47b0872788cb2a0dc3ed61bb470b6b90a45",
+      "public_sha256": "de131a7822c5896a5dc5cd0b1a60a5a3756a79ec62ab7c19195e323683027612",
+      "host_paths_redacted": true,
+      "size_bytes": 2188,
+      "source_path": "results/audit/lcr-wikipedia-bdec2912ae/job.json"
+    },
+    {
+      "path": "results/audit/lcr-wikipedia-bdec2912ae/transport_reconciliation.json",
+      "source_sha256": "72984319f5e9bcee7ecbfb8a917639f915c8dbed4693b0518e1e92a781d2e7a6",
+      "public_sha256": "72984319f5e9bcee7ecbfb8a917639f915c8dbed4693b0518e1e92a781d2e7a6",
+      "host_paths_redacted": false,
+      "size_bytes": 652
+    },
+    {
+      "path": "results/audit/pair_cadence_closure_v1/closure_scope.json",
+      "source_sha256": "9afe882c22f03930aad19bdc44904afdbc9b3ba16fe672fbeed888bc6c3d88b4",
+      "public_sha256": "9afe882c22f03930aad19bdc44904afdbc9b3ba16fe672fbeed888bc6c3d88b4",
+      "host_paths_redacted": false,
+      "size_bytes": 731
+    },
+    {
+      "path": "results/audit/pair_cadence_closure_v1/detailed_metrics.md",
+      "source_sha256": "217d983b06bdf3a5f30c133bee8a1de12c31d15f47fed0daabe4b1b5b35fd8c5",
+      "public_sha256": "217d983b06bdf3a5f30c133bee8a1de12c31d15f47fed0daabe4b1b5b35fd8c5",
+      "host_paths_redacted": false,
+      "size_bytes": 3073
+    },
+    {
+      "path": "results/audit/pair_cadence_closure_v1/summary.json",
+      "source_sha256": "a78b92789e622dcb18de5880e15bb15fea464c9be01921a92df94f03dd4520bc",
+      "public_sha256": "a78b92789e622dcb18de5880e15bb15fea464c9be01921a92df94f03dd4520bc",
+      "host_paths_redacted": false,
+      "size_bytes": 64051
+    },
+    {
+      "path": "results/audit/pair_cadence_closure_v1/table_reconstruction.json",
+      "source_sha256": "c80ef9da6ef770784a1adf2560017199254b5f4cf273f3e78d30a6056c713f8a",
+      "public_sha256": "c80ef9da6ef770784a1adf2560017199254b5f4cf273f3e78d30a6056c713f8a",
+      "host_paths_redacted": false,
+      "size_bytes": 282
+    },
+    {
+      "path": "results/audit/pair_cadence_closure_v1/verification.json",
+      "source_sha256": "230fcaab45960f86f9e363acf29b4bdbf2b97a33ea099e220688a3be85ca5dd9",
+      "public_sha256": "230fcaab45960f86f9e363acf29b4bdbf2b97a33ea099e220688a3be85ca5dd9",
+      "host_paths_redacted": false,
+      "size_bytes": 567
+    },
+    {
+      "path": "results/audit/pair_cadence_execution_v1/resource_final.json",
+      "source_sha256": "01ec7a03739ee158a073612fbd8fd23ab6497b51a22d65f96ee36115456b3cbb",
+      "public_sha256": "01ec7a03739ee158a073612fbd8fd23ab6497b51a22d65f96ee36115456b3cbb",
+      "host_paths_redacted": false,
+      "size_bytes": 256
+    },
+    {
+      "path": "results/audit/q1_development_v1/checksums.sha256",
+      "source_sha256": "722a8f427548d921dce36116b199d3f4ef34adf2265875f97fe8aeb9c5e47adc",
+      "public_sha256": "722a8f427548d921dce36116b199d3f4ef34adf2265875f97fe8aeb9c5e47adc",
+      "host_paths_redacted": false,
+      "size_bytes": 467
+    },
+    {
+      "path": "results/audit/q1_development_v1/reddit_clock.json",
+      "source_sha256": "aeb8c1563a6bd1768c4140359a047e796eff19c92a2ec3339f33a291f316be63",
+      "public_sha256": "aeb8c1563a6bd1768c4140359a047e796eff19c92a2ec3339f33a291f316be63",
+      "host_paths_redacted": false,
+      "size_bytes": 6387
+    },
+    {
+      "path": "results/audit/q1_development_v1/residual_parameter_inspection.json",
+      "source_sha256": "f38cbd21267d2c3cd1a9385aa46dcf87905fb445bd5f8030a4afbe14d72d09ae",
+      "public_sha256": "f38cbd21267d2c3cd1a9385aa46dcf87905fb445bd5f8030a4afbe14d72d09ae",
+      "host_paths_redacted": false,
+      "size_bytes": 1560
+    },
+    {
+      "path": "results/audit/q1_development_v1/resource_after_wikipedia.json",
+      "source_sha256": "d3932548fe3e29d2cd6e96bde6b09db0df246e1dbb4ccde6e2494369f26be1b6",
+      "public_sha256": "d3932548fe3e29d2cd6e96bde6b09db0df246e1dbb4ccde6e2494369f26be1b6",
+      "host_paths_redacted": false,
+      "size_bytes": 220
+    },
+    {
+      "path": "results/audit/q1_development_v1/wikipedia_clock.json",
+      "source_sha256": "08c54580581cbe01f24db2b8ae96e58ff76ba26ea62ed07b521fc03ce9f2ab1d",
+      "public_sha256": "08c54580581cbe01f24db2b8ae96e58ff76ba26ea62ed07b521fc03ce9f2ab1d",
+      "host_paths_redacted": false,
+      "size_bytes": 6288
+    },
+    {
+      "path": "results/audit/q1_development_v1/wikipedia_development_audit.json",
+      "source_sha256": "f752a172b241784cb858563a6df6ff7abdf3a060080ce2bcd12658b158ab31cc",
+      "public_sha256": "f752a172b241784cb858563a6df6ff7abdf3a060080ce2bcd12658b158ab31cc",
+      "host_paths_redacted": false,
+      "size_bytes": 3672
+    },
+    {
+      "path": "results/audit/q1_preflight_v1/ml20m_intake.json",
+      "source_sha256": "7c359db828058aee0fb26033d91e098e104e70bfaa032c971167bc4a1905c673",
+      "public_sha256": "7c359db828058aee0fb26033d91e098e104e70bfaa032c971167bc4a1905c673",
+      "host_paths_redacted": false,
+      "size_bytes": 1665
+    },
+    {
+      "path": "results/audit/q1_preflight_v1/ml20m_schema.json",
+      "source_sha256": "7adce7e2552efa4a79ce3b63c8c29d32d0726935d8ddec48030d2a907d7ac1e1",
+      "public_sha256": "7adce7e2552efa4a79ce3b63c8c29d32d0726935d8ddec48030d2a907d7ac1e1",
+      "host_paths_redacted": false,
+      "size_bytes": 1696
+    },
+    {
+      "path": "results/audit/q1_preflight_v1/sampling_target_example.json",
+      "source_sha256": "efc3b6be68acf110194a8dec943a02be141b4995f83a398de00c32353cfdbc78",
+      "public_sha256": "efc3b6be68acf110194a8dec943a02be141b4995f83a398de00c32353cfdbc78",
+      "host_paths_redacted": false,
+      "size_bytes": 809
+    },
+    {
+      "path": "results/audit/q1_synthetic_v1/archived_replay_audit.json",
+      "source_sha256": "782cfcc1a80029aac806f44fd8f3e6cc8f3144ed732ce32025c7640d69b94717",
+      "public_sha256": "782cfcc1a80029aac806f44fd8f3e6cc8f3144ed732ce32025c7640d69b94717",
+      "host_paths_redacted": false,
+      "size_bytes": 564
+    },
+    {
+      "path": "results/audit/q1_synthetic_v1/run-20261015-001/checksums.sha256",
+      "source_sha256": "c789620bc1b501ce9f6d77b8d6c2f7f7474edc9dac6a009aadecb26d03ceb6b9",
+      "public_sha256": "c789620bc1b501ce9f6d77b8d6c2f7f7474edc9dac6a009aadecb26d03ceb6b9",
+      "host_paths_redacted": false,
+      "size_bytes": 26143
+    },
+    {
+      "path": "results/audit/q1_synthetic_v1/run-20261015-001/results.json",
+      "source_sha256": "d6a0fc6e6bbbf078b08b2e0e1fff4b19b0be37713f79d2a502e88e4fa0acb352",
+      "public_sha256": "d6a0fc6e6bbbf078b08b2e0e1fff4b19b0be37713f79d2a502e88e4fa0acb352",
+      "host_paths_redacted": false,
+      "size_bytes": 2390622
+    },
+    {
+      "path": "results/audit/q1_synthetic_v1/run-20261015-001/source_manifest.json",
+      "source_sha256": "c41edf8cf76644f42a9d31feafc07f4627c44d8b9ceed7100fb6de31820e1e32",
+      "public_sha256": "c41edf8cf76644f42a9d31feafc07f4627c44d8b9ceed7100fb6de31820e1e32",
+      "host_paths_redacted": false,
+      "size_bytes": 2562
+    },
+    {
+      "path": "results/audit/q1_synthetic_v1/run-20261015-001-audit.json",
+      "source_sha256": "af7fefdf914c4ee67447a1d061fc3e5df8e0fd2c244a9034667bfd646cf1fe6e",
+      "public_sha256": "af7fefdf914c4ee67447a1d061fc3e5df8e0fd2c244a9034667bfd646cf1fe6e",
+      "host_paths_redacted": false,
+      "size_bytes": 361
+    },
+    {
+      "path": "results/audit/rate_repair_closure_v1/figure_provenance.json",
+      "source_sha256": "032dd5b800b109b5b1b0107dbb048f43374a55a6b79a9c8b0b568d3dadfcf0e6",
+      "public_sha256": "032dd5b800b109b5b1b0107dbb048f43374a55a6b79a9c8b0b568d3dadfcf0e6",
+      "host_paths_redacted": false,
+      "size_bytes": 383
+    },
+    {
+      "path": "results/audit/rate_repair_closure_v1/summary.json",
+      "source_sha256": "af5a73319370df9cb0cbb439e358f72ab40ceecb954022a1c8024a38fdd6fe37",
+      "public_sha256": "af5a73319370df9cb0cbb439e358f72ab40ceecb954022a1c8024a38fdd6fe37",
+      "host_paths_redacted": false,
+      "size_bytes": 13818
+    },
+    {
+      "path": "results/audit/rate_repair_closure_v1/verification.json",
+      "source_sha256": "da4d15f2ba013e491c4cd18f0642bbd6494afcb45039db3223f970435e179602",
+      "public_sha256": "da4d15f2ba013e491c4cd18f0642bbd6494afcb45039db3223f970435e179602",
+      "host_paths_redacted": false,
+      "size_bytes": 614
+    },
+    {
+      "path": "results/audit/rate_repair_validation_v1/independent_audit.json",
+      "source_sha256": "6cf211c244af30922e167b21ee7188dbf193037511d0a19c6ff7e81f7d355d53",
+      "public_sha256": "6cf211c244af30922e167b21ee7188dbf193037511d0a19c6ff7e81f7d355d53",
+      "host_paths_redacted": false,
+      "size_bytes": 2862
+    },
+    {
+      "path": "results/audit/rate_repair_validation_v1/preanalysis.json",
+      "source_sha256": "f798f995e749ac48ce4c957ffe7871532bde9ca2326aca6c27a260d756cb9c92",
+      "public_sha256": "f798f995e749ac48ce4c957ffe7871532bde9ca2326aca6c27a260d756cb9c92",
+      "host_paths_redacted": false,
+      "size_bytes": 3865
+    },
+    {
+      "path": "results/audit/rate_repair_validation_v1/results.json",
+      "source_sha256": "cda2bb6b3dffae15e0973ce07f2bdeb4cd36fc60dadfe5e20c44ed5f322844ed",
+      "public_sha256": "cda2bb6b3dffae15e0973ce07f2bdeb4cd36fc60dadfe5e20c44ed5f322844ed",
+      "host_paths_redacted": false,
+      "size_bytes": 14656
+    },
+    {
+      "path": "results/audit/readout_repair_closure_v1/summary.json",
+      "source_sha256": "1b8ae9a11467f286961f5d4d135de6051f8bd3f5281954ef0c92e78decba27ce",
+      "public_sha256": "1b8ae9a11467f286961f5d4d135de6051f8bd3f5281954ef0c92e78decba27ce",
+      "host_paths_redacted": false,
+      "size_bytes": 36270
+    },
+    {
+      "path": "results/audit/readout_repair_closure_v1/verification.json",
+      "source_sha256": "e50e1d3b25d69ba5065280deae051dd0550fceded01a79f85edfe9266bb62bb8",
+      "public_sha256": "e50e1d3b25d69ba5065280deae051dd0550fceded01a79f85edfe9266bb62bb8",
+      "host_paths_redacted": false,
+      "size_bytes": 423
+    },
+    {
+      "path": "results/audit/scored_path_full_closure_v1/summary.json",
+      "source_sha256": "099cb14e84ff5b949151eba73636de1ab4162457afece6abba72897ebaad2892",
+      "public_sha256": "099cb14e84ff5b949151eba73636de1ab4162457afece6abba72897ebaad2892",
+      "host_paths_redacted": false,
+      "size_bytes": 13813
+    },
+    {
+      "path": "results/audit/scored_path_full_closure_v1/verification.json",
+      "source_sha256": "390f9a1fe6a5a67d5af51fd01b12a65ba9b7e63269d0e1f06f6857adad6a7746",
+      "public_sha256": "390f9a1fe6a5a67d5af51fd01b12a65ba9b7e63269d0e1f06f6857adad6a7746",
+      "host_paths_redacted": false,
+      "size_bytes": 578
+    },
+    {
+      "path": "results/reports/scored-paths.json",
+      "source_path": "results/audit/scored_path_full_closure_v1/summary.json",
+      "source_sha256": "099cb14e84ff5b949151eba73636de1ab4162457afece6abba72897ebaad2892",
+      "public_sha256": "099cb14e84ff5b949151eba73636de1ab4162457afece6abba72897ebaad2892",
+      "host_paths_redacted": false,
+      "size_bytes": 13813
+    },
+    {
+      "path": "results/reports/rate-repair.json",
+      "source_path": "results/audit/rate_repair_closure_v1/summary.json",
+      "source_sha256": "af5a73319370df9cb0cbb439e358f72ab40ceecb954022a1c8024a38fdd6fe37",
+      "public_sha256": "af5a73319370df9cb0cbb439e358f72ab40ceecb954022a1c8024a38fdd6fe37",
+      "host_paths_redacted": false,
+      "size_bytes": 13818
+    },
+    {
+      "path": "results/reports/february-holdout.json",
+      "source_path": "results/audit/lastfm_february_closure_v1/summary.json",
+      "source_sha256": "236ad97ef50f7ab8c10c96d244ce2d749e451e8c5efd4d3957c22a22fb8e7f3e",
+      "public_sha256": "236ad97ef50f7ab8c10c96d244ce2d749e451e8c5efd4d3957c22a22fb8e7f3e",
+      "host_paths_redacted": false,
+      "size_bytes": 1229
+    },
+    {
+      "path": "results/reports/january-model.json",
+      "source_path": "results/audit/lastfm_model_closure_v1/summary.json",
+      "source_sha256": "a5a66c51544bb0b289ab866f85dc05e87b52c1481788d96a0dff2b36f8dac4f7",
+      "public_sha256": "a5a66c51544bb0b289ab866f85dc05e87b52c1481788d96a0dff2b36f8dac4f7",
+      "host_paths_redacted": false,
+      "size_bytes": 97362
+    },
+    {
+      "path": "results/reports/january-cohorts.json",
+      "source_path": "results/audit/lastfm_strata_v1/results.json",
+      "source_sha256": "44a32cb0af736450ebe884b6252641a4568e79d0a30803ebba891f9da668a98f",
+      "public_sha256": "44a32cb0af736450ebe884b6252641a4568e79d0a30803ebba891f9da668a98f",
+      "host_paths_redacted": false,
+      "size_bytes": 104739
+    }
+  ],
+  "excluded_payloads": [
+    "credentials",
+    "runtime caches",
+    "raw third-party corpora",
+    "trained checkpoints",
+    "candidate-level prediction arrays",
+    "full transport archives",
+    "downloaded third-party texts"
+  ],
+  "redaction_policy": "Host-path-redacted derivatives live under evidence/records; original audit paths and source hashes are preserved as provenance and are never replaced in the authoring workspace."
+}

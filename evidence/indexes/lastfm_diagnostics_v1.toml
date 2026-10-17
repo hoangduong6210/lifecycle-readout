@@ -1,0 +1,204 @@
+schema_version = 1
+evidence_ids = ["LCR-E-LASTFM-STRATA-001", "LCR-E-LASTFM-READOUT-001"]
+local_only = true
+publication_eligible = false
+
+[[artifact]]
+path = "evidence/indexes/lastfm_model_preparation_v1.toml"
+sha256 = "f8dfe36e4f36dd4cf9f6c678104b14d18af1a2a737e0351499e146d1f3a4a940"
+
+[[artifact]]
+path = "evidence/indexes/lastfm_model_v1.toml"
+sha256 = "0368a5fc8725d22c6d93560a82450ea7d2f93a130d2da6b8ce02f4a53cd99b17"
+
+[[artifact]]
+path = "evidence/jobs/LCR-JOB-LASTFM-READOUT-001.toml"
+sha256 = "6cbd65cc7bf6b6f195b0a8a663efd48fcf0b2f60ff8b0d61ef4c8512a478da71"
+
+[[artifact]]
+path = "evidence/jobs/LCR-JOB-LASTFM-STRATA-001.toml"
+sha256 = "e04f6b554d7aecaec127685d023d3b65d3bf1ff38eaa31eb994b69ec9f11f588"
+
+[[artifact]]
+path = "protocols/lastfm_readout_v1.toml"
+sha256 = "9c361730958bdb64be57c4e56b3586272941daaa59a3ef24a86c545e87e516c5"
+
+[[artifact]]
+path = "protocols/lastfm_strata_v1.toml"
+sha256 = "4200d835f96605180a42db7c5a92a206c1135d966afeed0591602541be5d77d4"
+
+[[artifact]]
+path = "results/audit/lastfm_diagnostics_closure_v1/close_lastfm_diagnostics.py"
+sha256 = "478b695e1617d194def467deef3a1902016339e31176db123f6070bd842056df"
+
+[[artifact]]
+path = "results/audit/lastfm_diagnostics_closure_v1/evidence__jobs__LCR-JOB-LASTFM-READOUT-001.toml"
+sha256 = "6cbd65cc7bf6b6f195b0a8a663efd48fcf0b2f60ff8b0d61ef4c8512a478da71"
+
+[[artifact]]
+path = "results/audit/lastfm_diagnostics_closure_v1/evidence__jobs__LCR-JOB-LASTFM-STRATA-001.toml"
+sha256 = "e04f6b554d7aecaec127685d023d3b65d3bf1ff38eaa31eb994b69ec9f11f588"
+
+[[artifact]]
+path = "results/audit/lastfm_diagnostics_closure_v1/index_lastfm_diagnostics.py"
+sha256 = "d4ff512aa77104b7fc7c495f9a3d4ecc02af97aa406aba76f584ace2fb8be82c"
+
+[[artifact]]
+path = "results/audit/lastfm_diagnostics_closure_v1/resource_final.json"
+sha256 = "84805102e2bde911f66b5112d276899d4556c219329f106c932f86db92dd73a3"
+
+[[artifact]]
+path = "results/audit/lastfm_diagnostics_closure_v1/src__lifecycle_readout__lastfm_diagnostics.py"
+sha256 = "b2fbeb7f0c343e1d181664086add514f69161efa92268eeb228d399261a2ce83"
+
+[[artifact]]
+path = "results/audit/lastfm_diagnostics_closure_v1/tests__test_lastfm_diagnostics.py"
+sha256 = "fb9963c74c89eadb763332dc379fbaaeaf7026f77181eb7d7e87c6eeeaa01001"
+
+[[artifact]]
+path = "results/audit/lastfm_diagnostics_closure_v1/verification.json"
+sha256 = "7b1b7625ffc2adf8dbde062eeeeedb291a9ac8cae8a15c587125bd2e48e8bed7"
+
+[[artifact]]
+path = "results/audit/lastfm_diagnostics_closure_v1/wiki__INDEX.md"
+sha256 = "d070e6a269ee50bf491296b55a70e202bab781bba3a38a651b6ad80f11c87f4b"
+
+[[artifact]]
+path = "results/audit/lastfm_diagnostics_closure_v1/wiki__claims__Current-Claim-Language.md"
+sha256 = "61ebc20f8d64af00c34921b524ae63c89423d435dcbb5fedb5e029c3f165031e"
+
+[[artifact]]
+path = "results/audit/lastfm_diagnostics_closure_v1/wiki__evidence__Evidence-Ledger.md"
+sha256 = "beefcea4e06de7162aad6de20782790c379a3882f520b3cb835e52bce64f6b14"
+
+[[artifact]]
+path = "results/audit/lastfm_diagnostics_closure_v1/wiki__manuscript__Journal-Narrative.md"
+sha256 = "921d1c96b0428accffd58b49b43cce22dcaa053a1082df6b7348dcee4f5b2787"
+
+[[artifact]]
+path = "results/audit/lastfm_diagnostics_closure_v1/wiki__results__LastFM-History-Strata.md"
+sha256 = "4c2e22f56295081d0fc3819957c14b59562c68c350e827b972a27f825f68e1f5"
+
+[[artifact]]
+path = "results/audit/lastfm_diagnostics_closure_v1/wiki__results__LastFM-Mechanistic-Readout.md"
+sha256 = "86d63ce88efd43530c328823c62ee249be7a027137c44c759e1bbc47154f45dd"
+
+[[artifact]]
+path = "results/audit/lastfm_diagnostics_closure_v1/wiki__results__LastFM-Recorded-Artist-Pilot.md"
+sha256 = "3361ab6da9c72bbdba37809598f90576ed555531bdfb4a94606a6df5ef28ad93"
+
+[[artifact]]
+path = "results/audit/lastfm_diagnostics_closure_v1/wiki__status__Live-Execution.md"
+sha256 = "6ae50548ee07fe3f5e3a806abbf7f41863b2c0360dc7913c923009e159d33480"
+
+[[artifact]]
+path = "results/audit/lastfm_diagnostics_closure_v1/wiki__status__Project-Status.md"
+sha256 = "8f335dc1050277bf7bb524b8135381ea350aea5f3c34e86ed4c37cd8dce2f0fb"
+
+[[artifact]]
+path = "results/audit/lastfm_readout_v1/analysis_source.py"
+sha256 = "b2fbeb7f0c343e1d181664086add514f69161efa92268eeb228d399261a2ce83"
+
+[[artifact]]
+path = "results/audit/lastfm_readout_v1/execution_pins.json"
+sha256 = "4c09910456882ebf831e69ef1d7f2e7796e7b16d87879d0b6fc55caba6bad447"
+
+[[artifact]]
+path = "results/audit/lastfm_readout_v1/figure_provenance.json"
+sha256 = "327944a705c464d4e73578124c92b543be196621ba2d01ec7cfc99a44b84fd55"
+
+[[artifact]]
+path = "results/audit/lastfm_readout_v1/independent_audit.json"
+sha256 = "14ef9929948a77d377b24b68daa604a21649585d062a749f167e862c2fe7c9a3"
+
+[[artifact]]
+path = "results/audit/lastfm_readout_v1/independent_audit_driver.py"
+sha256 = "517d1b9242a8eda228de629955ca416d67fff4ed206b235191ce0be936986832"
+
+[[artifact]]
+path = "results/audit/lastfm_readout_v1/input_pins.json"
+sha256 = "26c0c33e21acc45ccb95aefad40b512431344f4781b20ffc39a9b8fa461f302e"
+
+[[artifact]]
+path = "results/audit/lastfm_readout_v1/local_driver.py"
+sha256 = "eb5b68ed0cdace3cdf683439616b3d46260607ae2918135c96ed4ad3756f0d17"
+
+[[artifact]]
+path = "results/audit/lastfm_readout_v1/plot_diagnostics.py"
+sha256 = "afa1882180f432fd94c5662a9d59e792d45a759d06e60567723f091d9226aa6c"
+
+[[artifact]]
+path = "results/audit/lastfm_readout_v1/protocol.toml"
+sha256 = "9c361730958bdb64be57c4e56b3586272941daaa59a3ef24a86c545e87e516c5"
+
+[[artifact]]
+path = "results/audit/lastfm_readout_v1/results.json"
+sha256 = "7ccd11a3b6713f8265d9c9b7c817c32d16f8eba1c55c484d47f10e39ce29afdc"
+
+[[artifact]]
+path = "results/audit/lastfm_readout_v1/seed101_decomposition.npz"
+sha256 = "fdfb82049ad99a08b535578faef23e0b186041a780b4c6286445c39682796190"
+
+[[artifact]]
+path = "results/audit/lastfm_readout_v1/seed202_decomposition.npz"
+sha256 = "afa8c488f095302625e3911579a51a8f9744e9bfb79725db58d0eb5c8cabf729"
+
+[[artifact]]
+path = "results/audit/lastfm_readout_v1/seed303_decomposition.npz"
+sha256 = "0d68bf618c17fd728b1a86fd12b9d9482c1be535ebe2931a512f7edde3b71d4e"
+
+[[artifact]]
+path = "results/audit/lastfm_readout_v1/utility-and-explanation.png"
+sha256 = "b6857db3111bb55096d0a01dc4a0377fe2d1ff5b3cbfba5ab3bd26332b5657f1"
+
+[[artifact]]
+path = "results/audit/lastfm_strata_v1/analysis_source.py"
+sha256 = "b2fbeb7f0c343e1d181664086add514f69161efa92268eeb228d399261a2ce83"
+
+[[artifact]]
+path = "results/audit/lastfm_strata_v1/execution_pins.json"
+sha256 = "359574cae0193f8f4e907a52c77f49158dcb810897617cd412087c115e69a91a"
+
+[[artifact]]
+path = "results/audit/lastfm_strata_v1/independent_audit.json"
+sha256 = "14ef9929948a77d377b24b68daa604a21649585d062a749f167e862c2fe7c9a3"
+
+[[artifact]]
+path = "results/audit/lastfm_strata_v1/independent_audit_driver.py"
+sha256 = "517d1b9242a8eda228de629955ca416d67fff4ed206b235191ce0be936986832"
+
+[[artifact]]
+path = "results/audit/lastfm_strata_v1/input_pins.json"
+sha256 = "26c0c33e21acc45ccb95aefad40b512431344f4781b20ffc39a9b8fa461f302e"
+
+[[artifact]]
+path = "results/audit/lastfm_strata_v1/local_driver.py"
+sha256 = "eb5b68ed0cdace3cdf683439616b3d46260607ae2918135c96ed4ad3756f0d17"
+
+[[artifact]]
+path = "results/audit/lastfm_strata_v1/preanalysis.json"
+sha256 = "1f3920bd3f0e11d3b0908be33e44d1385821239462685f8fcd57214bbe411645"
+
+[[artifact]]
+path = "results/audit/lastfm_strata_v1/protocol.toml"
+sha256 = "4200d835f96605180a42db7c5a92a206c1135d966afeed0591602541be5d77d4"
+
+[[artifact]]
+path = "results/audit/lastfm_strata_v1/results.json"
+sha256 = "44a32cb0af736450ebe884b6252641a4568e79d0a30803ebba891f9da668a98f"
+
+[[artifact]]
+path = "results/audit/lastfm_strata_v1/seed101_cohorts.npz"
+sha256 = "cbfafe913eeda3b0c93c9a9b9df5ae56786fe55c119aea112f2a5bce7cb5f664"
+
+[[artifact]]
+path = "results/audit/lastfm_strata_v1/seed202_cohorts.npz"
+sha256 = "cbfafe913eeda3b0c93c9a9b9df5ae56786fe55c119aea112f2a5bce7cb5f664"
+
+[[artifact]]
+path = "results/audit/lastfm_strata_v1/seed303_cohorts.npz"
+sha256 = "cbfafe913eeda3b0c93c9a9b9df5ae56786fe55c119aea112f2a5bce7cb5f664"
+
+[[artifact]]
+path = "results/audit/lastfm_strata_v1/setup_failure.json"
+sha256 = "63a37c86fcd5e78afee3a8ff17d22f52d0581f5d1dfd49769db43ba0941d4a58"

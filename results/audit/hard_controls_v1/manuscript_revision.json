@@ -1,0 +1,56 @@
+{
+  "revision_date_utc": "2026-10-15T12:42:17.792301+00:00",
+  "document": "paper/working/IEEE_TKDE_L3_GNN_Full_Manuscript.docx",
+  "document_sha256": "1e1a051e6a463a46bd9ac8715202577ed7ba00730101e06c0c9c072c36ff357b",
+  "original_backup": "paper/working/revisions/20261015-pre-hard-controls.docx",
+  "original_sha256": "f25c659ddb7fce88bda4e22d9bb66605794048fdb347fb984947ed1d7c44a585",
+  "canonical_sources": {
+    "wiki/methods/Shortcut-Resistant-Gating.md": "d3a2095eed37a71497d364202fd12d035187d37f9d121fae9f47b50ab4385c66",
+    "wiki/methods/Differentiable-Latent-Lifecycle.md": "c04bccf4b5ec864d3bb4a06a95daf980e03f54b24f710f298a21f5a2810b6af3",
+    "wiki/results/Hard-Negative-Controls.md": "2d25fd3314ba75eb6ead2cff2a4d36f6fcc6c4b5132f8dd9864207a699b56ee1",
+    "wiki/claims/Current-Claim-Language.md": "cab8ad26c3198844981468dc3a7534301e0356a15f4afb3c435664a0d21c6d1d",
+    "wiki/manuscript/Paper-Export-Contract.md": "d768f956384e316442d6e8fcc35af2f98434f91246500494d90006962eb3a654"
+  },
+  "protocol_id": "LCR-P-HARD-001",
+  "attempts": [
+    "lcr-wikipedia-256094e9e7",
+    "lcr-reddit-bf7053e7a2"
+  ],
+  "render_verification": {
+    "page_count": 19,
+    "visual_qa_completed": true,
+    "pdf_sha256": "5adf990cfb5b940e80fa7754bb5d8dcf50504f56cff27b4fae53e6c2bbae85cb",
+    "page_sha256": {
+      "page-1.png": "5bc445b3d5043a916ab39f1de44161a781ad32eb8c4bda4cf4f3d20e0f13a6a9",
+      "page-10.png": "a1f7345fa58280e5154ac7b136be2561b472bb61841ec2b607b2b106d72ce3b0",
+      "page-11.png": "dc08f7d45fa53173dba040b5181412093ab2b4bafc450bb79385abc6d806fe03",
+      "page-12.png": "031ae17e3b9a453bfaa60f1cba904e5c38a20a333e75e5c87d57711ba1fd48be",
+      "page-13.png": "2669f20d4c3dc53c198af1237f52497f505c95450af95a6dc7d5237a8e45f4c0",
+      "page-14.png": "18784d83ad690b0fbad15c024a5a8059659276882785145b3cb9824d1ca45fd6",
+      "page-15.png": "c7d05ec16e7e01531fc340dc4d0043c2ce9a653e4e02ac1ceefa2bc289d4a809",
+      "page-16.png": "81263619e0574b3c846557d8a00cdb9941351e9b12365ce980ef8a9219529a75",
+      "page-17.png": "400a9b4fecc17ebed6d7f8f02db2aeb9812ea823099643148e2a3b7aa9b49ec3",
+      "page-18.png": "d58ab8c70ca181df4514e4f7d7d73fd72f993979b8fe8d3b33fc1e00d0139c6c",
+      "page-19.png": "12de56f177186ba395703c3b6f2f76639c315d827e859e9a544fb8cdcfb85500",
+      "page-2.png": "74bb14e580c52aa3119a6a00f28c8ca9af550bbec95eb31da943bd8773e8d516",
+      "page-3.png": "d8c0804f2cf10e6fdf63b11c3a077c6eff361a44ab70c687e484ebae4290905a",
+      "page-4.png": "c34a708865123a40b354f74f640ff11f1772aa5e26c813ce3c6f6f86474aa3db",
+      "page-5.png": "3bbb52894d64d7a1743aafed740725de4f396576f724c64843f71616aac884d5",
+      "page-6.png": "8ce9c43218bfe7c1d57860ffdc9e592b9169b395154f9a5dfdc4e357430bfd4e",
+      "page-7.png": "a0d1ae337f19a48adc8b80bf7ab4af7201489fc198795ecc9c39cf06b088cb4a",
+      "page-8.png": "0b1a62ef5551375be5c55fc99a1be2883bfe40283f3d28c8ce0e19b3c98ff37b",
+      "page-9.png": "b546c6d2265189e4d6178dda76e2c46eaded5d918719034da0ea5d78290536d0"
+    },
+    "toolchain": "python-docx, latex2mathml 3.78.1, Microsoft MathML-to-OMML XSL, bundled DOCX render tool"
+  },
+  "working_draft_only": true,
+  "publication_eligible": false,
+  "latex_regenerated": false,
+  "immutable_snapshots_modified": false,
+  "verification": {
+    "tests_passed": 36,
+    "tests_skipped": 1,
+    "skip_reason": "Optional legacy corpus unavailable",
+    "independent_result_audits_passed": 2
+  }
+}

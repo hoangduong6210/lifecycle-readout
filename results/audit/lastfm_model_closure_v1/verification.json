@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "retained_checkpoint_count": 18,
+  "independent_initialization_records": 18,
+  "checkpoint_max_probability_abs_error": 6.556510925292969e-07,
+  "post_audit_tests": {
+    "passed": 14,
+    "skipped": 1,
+    "exit_code": 0,
+    "seconds": 8.88
+  },
+  "skip": "Optional unrelated local corpus absent",
+  "preallocation_tests": {
+    "passed": 40,
+    "skipped": 1,
+    "exit_code": 0
+  },
+  "original_audit_failure_preserved": true,
+  "optimizer_rerun": false,
+  "publication_admitted": false,
+  "final_repository_consistency": {
+    "passed": 11,
+    "skipped": 1,
+    "exit_code": 0,
+    "seconds": 4.8
+  },
+  "final_documentation_contracts": {
+    "passed": 3,
+    "exit_code": 0,
+    "seconds": 0.27
+  },
+  "latest_resource_pointer": "results/audit/lastfm_model_closure_v1/resource_final.json"
+}

@@ -1,0 +1,220 @@
+schema_version = 1
+evidence_id = "LCR-E-CRAFT-FIT-001"
+local_only = true
+publication_eligible = false
+
+[[artifact]]
+path = "configs/craft_fit_v1.toml"
+sha256 = "cbab94a8abfbf90d751cec184c5c8d9d598e5e4e16d35e617a4af3a4092ddd73"
+
+[[artifact]]
+path = "evidence/jobs/LCR-JOB-CRAFT-FIT-001.toml"
+sha256 = "aa51135af4769b1b0035d914fb0fcae8a2c288f503dc85f6b446cf041d8651c1"
+
+[[artifact]]
+path = "protocols/craft_fit_v1.toml"
+sha256 = "d629ed48de8302faeb99775913f0354cc3a561c0de09a91a2e950ff84e3045b0"
+
+[[artifact]]
+path = "results/audit/craft_fit_closure_v1/audit_craft_fit.py"
+sha256 = "4191eb31af99f133a21ade4978cce75491b757de3ab12d1a902c3df695b9f063"
+
+[[artifact]]
+path = "results/audit/craft_fit_closure_v1/checksums.sha256"
+sha256 = "7a07932cd852891460378639568b110171bfec6f6f0cd878c0b0d84ec01ed5d6"
+
+[[artifact]]
+path = "results/audit/craft_fit_closure_v1/craft_adapter.py"
+sha256 = "2f76ae3a2c642e00e3776cfde9856e0f7bb5c203a9c5833f0387ebdb0b4d2995"
+
+[[artifact]]
+path = "results/audit/craft_fit_closure_v1/generated_comparison_table.txt"
+sha256 = "43e3fed05a1c089096af71004b754ce240e6ebc5f2000d649b0c4e86f839857c"
+
+[[artifact]]
+path = "results/audit/craft_fit_closure_v1/summary.json"
+sha256 = "22ba2ba0fa1bec4b0ac2af8c1e0106413f6744d7fb3db28ad00244166d1f4f3a"
+
+[[artifact]]
+path = "results/audit/craft_fit_closure_v1/test_craft_fit_audit.py"
+sha256 = "b42f28d273e6161f5900694401ae75a529633f816e15cf84f2f488f495d99300"
+
+[[artifact]]
+path = "results/audit/craft_fit_closure_v1/verification.json"
+sha256 = "19ee2df0879d750e8f5f0498e1d7afcf6a7fc10d60928944d4eae826f9edade4"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/artifacts.tar.gz"
+sha256 = "44cfb89293e6258ce674209c1bb74bdb8abd51b94a10ccffcbb46fd819bbfb53"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/artifacts/CRAFT_seed42_validation_predictions.npz"
+sha256 = "b3b9ae2fb41b1b65e958e0295ac622801f4d2d2b76353f1f9918be25ec15fadf"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/artifacts/best_seed42.pt"
+sha256 = "04e922fcf02831df65eee48ca128d8132295861a84c5cc4149cde922d338421f"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/artifacts/checksums.sha256"
+sha256 = "e38d51f44602ad178bc7e14cfff176ff6e0f0fc98618c8cd0fd25f039c4fd4cd"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/artifacts/environment.txt"
+sha256 = "3b1e22e429be06096de176772f74128eb46fa98894453011a791e66137f1e7e9"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/artifacts/last_complete_seed42.pt"
+sha256 = "697aa1b4d8391bc6f434ccb2917565bff7a2060242ab656a7e1899072eda660d"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/artifacts/partial_seed42_epoch28.json"
+sha256 = "813dae74b119c493bc1ff1a96c30fd69a89c0ff7ff7f6bd87922c124bf11aaf3"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/artifacts/partial_seed42_epoch28.pt"
+sha256 = "e5ba8ee2a77380b328530fb054d6b058b97b00c2b558f5bd37e7e0744bb8469d"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/artifacts/progress.json"
+sha256 = "ec3f635e16b73b582c02d047f04a1ee56cbcffa404ea399945c2414a9052c910"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/artifacts/results.json"
+sha256 = "cce9d01eb2573419660f3ed188ffd479e28c2e2a01e31098e699385005e09f30"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/artifacts/seed42_epoch10_validation_rr.npz"
+sha256 = "73235a6f9702909718ab014fd186b63c8ea3348684966e04eb7c324a52ad42ca"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/artifacts/seed42_epoch11_validation_rr.npz"
+sha256 = "9645d291a238e9306270b42e1abf02ff7a27853b2fce425b4b464e33b4de7c08"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/artifacts/seed42_epoch12_validation_rr.npz"
+sha256 = "f7394b228cdf7a370abcc7c75845aec5909356d868d22609cf1f1223db0a28f6"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/artifacts/seed42_epoch13_validation_rr.npz"
+sha256 = "72344ebc86ced75894a56e9889183553dc3214ce09b6ec0a159b650040de0d19"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/artifacts/seed42_epoch14_validation_rr.npz"
+sha256 = "5ba0da383fac3cae12269b38a210d4eb77b1baac0ccb8b2d63ff25a1c75f508d"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/artifacts/seed42_epoch15_validation_rr.npz"
+sha256 = "33df2fcd352b14024aab131cc6131ed1752e84abd0f66a785765931dfd42d6a7"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/artifacts/seed42_epoch16_validation_rr.npz"
+sha256 = "89029aa9963d2aca469d696664d300269bdbda3cb2060721f877c55ae1336387"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/artifacts/seed42_epoch17_validation_rr.npz"
+sha256 = "88cc66beaab64a4dede710c6eaf385ed2942c7c7233afd68c8d82ed5264f8d1b"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/artifacts/seed42_epoch18_validation_rr.npz"
+sha256 = "6448b9ca5b68fba1f0ee9940e55e27378c5951f61a2e09821c9cbedb10df9205"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/artifacts/seed42_epoch19_validation_rr.npz"
+sha256 = "13a86fbcdf5eba58c70ea05f03d7e91ee6f4bf40805dfe0261f06ff73948fd72"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/artifacts/seed42_epoch1_validation_rr.npz"
+sha256 = "67ce0cebeb223bf654611c7662f742c1b150f5ebb33e830db2c5b27e48efbd27"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/artifacts/seed42_epoch20_validation_rr.npz"
+sha256 = "da06c13fb03244c7a9f6f1b1bc7c62cc5ee6e3d5edd0a503de9a99427f011f77"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/artifacts/seed42_epoch21_validation_rr.npz"
+sha256 = "6c7d7743db9e2ab19aba6170ec7cba070210ea04946a6f8e3a8d09a5f1ca20ca"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/artifacts/seed42_epoch22_validation_rr.npz"
+sha256 = "c9109fb19526ffdd3e344513857422965facca4c38ae8636204a021472a43222"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/artifacts/seed42_epoch23_validation_rr.npz"
+sha256 = "eaf1006b8aff195294baf3d0e14a7c43308ef14a5cf2b5381ff7d288ae72eb6c"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/artifacts/seed42_epoch24_validation_rr.npz"
+sha256 = "24e6cbfe07ed78765fe6a1df9ee69827be3124648235c7291c885b1716289e61"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/artifacts/seed42_epoch25_validation_rr.npz"
+sha256 = "8c65aab90f0cf02b1d95465b53ae0c20445182bb759f53d9bc6b40762e3376e3"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/artifacts/seed42_epoch26_validation_rr.npz"
+sha256 = "de2c48dca130ff09f0444479e5de7300cce6b61fb6ce84a199cb9ff0940e8ede"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/artifacts/seed42_epoch27_validation_rr.npz"
+sha256 = "b5806ec4fa1fb4b8a3ba127464e78ff2659b02a30f5b092f4a01cb614205939a"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/artifacts/seed42_epoch2_validation_rr.npz"
+sha256 = "12f4afd9fe44dfd9686080b240191ca2876077484a1d766b758f1cb8175cec44"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/artifacts/seed42_epoch3_validation_rr.npz"
+sha256 = "7caff13c5c72538b05395eeda769d510966251d573b9415426b374b264e4cd3c"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/artifacts/seed42_epoch4_validation_rr.npz"
+sha256 = "e317c0f745f882adf610b1421b273ce4ee26364e6b2350ae1fdfac3e5a1b26d5"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/artifacts/seed42_epoch5_validation_rr.npz"
+sha256 = "89105b8ef3a9494fd529a36f2ba5dff33848dd92222e08f553df77bc406affe3"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/artifacts/seed42_epoch6_validation_rr.npz"
+sha256 = "2899c4b0ddbdd976df7eb07c869448f1d7cb03a939aa05668c6e562b07afcd5a"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/artifacts/seed42_epoch7_validation_rr.npz"
+sha256 = "e39a3b0602b93127f57c150b8ba308ec9d98f3e090119ecdb05b7b8f62e6ad9e"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/artifacts/seed42_epoch8_validation_rr.npz"
+sha256 = "d6b88d4ec5f595c0bf25b2b95997625c1809294aa5ee81e9d4b12c84d7c5d5ed"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/artifacts/seed42_epoch9_validation_rr.npz"
+sha256 = "632c60be4d4aaf8af0971ed8eaa9f2706dd6d690aca62b56009d91cd99652613"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/artifacts/seed42_history.json"
+sha256 = "3f36bc915fc531abd924108c96eb21eca544b08335fc4a46084b85a657c8ac9f"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/artifacts/source_manifest.json"
+sha256 = "414ea964c74829e3d79ba570a20081ae7a0a57cfdc72dc7ee3c3f7b3a35d0f20"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/artifacts/training.txt"
+sha256 = "662831b42bc9b2bf0db6d25bd038c05098cfad2f8addcdc588609ba6062be232"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/independent_audit.json"
+sha256 = "3db1cc6be720b5b79613b6fbb78d84896f795c46289634d1ca36c5effc670a1a"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/job.json"
+sha256 = "71f2f34c311144ac4eb811e5a8881eefde54ba60e1ab55d85e2c4032fd5b15a5"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/resource_after.json"
+sha256 = "893f3eaa02dd1bcdf278adf747c316dadaae88bb69cadee190cc61da5baacd22"
+
+[[artifact]]
+path = "results/audit/lcr-ML-20M-f2af45c59b/source.zip"
+sha256 = "501e6ca3d2d52f255e8cdee04778c3dee330805834a7c0247dbddeb54c250796"

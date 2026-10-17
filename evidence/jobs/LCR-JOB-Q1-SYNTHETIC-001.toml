@@ -1,0 +1,25 @@
+schema_version = 1
+job_id = "LCR-JOB-Q1-SYNTHETIC-001"
+execution_kind = "local-small-synthetic-oracle"
+date = "2026-10-15"
+source_state = "COMPLETE_HASHED_LOCAL_SOURCE_SNAPSHOT"
+command = "python3 scripts/run_synthetic_response.py --output results/audit/q1_synthetic_v1/run-20261015-001"
+exit_code = 0
+protocol_id = "LCR-P-Q1-SYNTH-001"
+protocol_sha256 = "cd335172918ab2ba20eab46da1a69592d4b68a74806bde5032e919ee5fdada35"
+config_sha256 = "78d42e17ff4d020c7b052002adaaa07142253cf5ec912ffb2fc8571ac58181b4"
+result_pointer = "results/audit/q1_synthetic_v1/run-20261015-001/results.json"
+result_sha256 = "d6a0fc6e6bbbf078b08b2e0e1fff4b19b0be37713f79d2a502e88e4fa0acb352"
+audit_pointer = "results/audit/q1_synthetic_v1/run-20261015-001-audit.json"
+audit_sha256 = "af7fefdf914c4ee67447a1d061fc3e5df8e0fd2c244a9034667bfd646cf1fe6e"
+auditor_source_sha256 = "c5b65fefc6f7613cfe01a4edfcbe88e3687ce3e803a748641adf6d6531db3cb9"
+fits_completed = 36
+graph_data_evaluated = false
+colab_allocated = false
+publication_eligible = false
+supported_evidence_ids = ["LCR-E-Q1-SYNTHETIC-001"]
+supported_scientific_claim_ids = []
+limitations = "Oracle probability approximation with fixed known base, IID scalar context and time; no event-label noise, real graphs, latent phase identification or confirmatory claim."
+
+replay_audit_pointer = "results/audit/q1_synthetic_v1/archived_replay_audit.json"
+replay_audit_sha256 = "782cfcc1a80029aac806f44fd8f3e6cc8f3144ed732ce32025c7640d69b94717"

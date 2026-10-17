@@ -1,0 +1,10 @@
+{
+  "status": "FIXED_BEFORE_COHORT_SCORES",
+  "protocol_id": "LCR-P-LASTFM-STRATA-001",
+  "parent_aggregate_known": true,
+  "source_pins": {
+    "protocols/lastfm_strata_v1.toml": "4200d835f96605180a42db7c5a92a206c1135d966afeed0591602541be5d77d4",
+    "results/audit/lastfm_model_closure_v1/summary.json": "a5a66c51544bb0b289ab866f85dc05e87b52c1481788d96a0dff2b36f8dac4f7",
+    "results/audit/lastfm_model_execution_v1/independent_audit.json": "e819a3b20ef65e95803c91694f9995b015479798146008f23e88c730ee7c0454"
+  }
+}

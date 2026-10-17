@@ -1,0 +1,46 @@
+{
+  "status": "SCOPED_PRIMARY_REVIEW_COMPLETE",
+  "sources": [
+    {
+      "title": "Aggregation with generalized mixture operators using weighting functions",
+      "authors": "Ricardo Alberto Marques Pereira; Rita Almeida Ribeiro",
+      "year": 2003,
+      "doi": "10.1016/S0165-0114(02)00431-1",
+      "primary_url": "https://www.sciencedirect.com/science/article/pii/S0165011402004311",
+      "local_source": "2003-BJ-FSS.pdf",
+      "inspected": "Institution draft header/abstract, sections3-5 pages8-14, definitions and linear/quadratic constraint proofs",
+      "identity_resolution": "Actual draft header agrees with publisher title; DOI uses (02), not erroneous (00) in secondary citation. Crossref primary registration matches (02); (00) lookup failed.",
+      "overlap": "Normalized input-dependent weights can break monotonicity; sufficient generating-function conditions and exact parameter conditions for those sufficient restrictions.",
+      "distinction": "Its satisfaction values and their own weights vary together on a cube; current fixed readout varies normalized masses under a declared absorbing rate vector/cone. No theorem equivalence or non-equivalence over all transformations proved."
+    },
+    {
+      "title": "Weighted means and weighting functions",
+      "authors": "Radko Mesiar; Jana Spirkova",
+      "year": 2006,
+      "primary_url": "https://www.kybernetika.cz/content/2006/2/151/paper.pdf",
+      "local_source": "weighted-means-2006.pdf",
+      "inspected": "Definitions equations2-5; monotonicity section3 pp155-157 including derivative6 and sufficient C1-C3",
+      "overlap": "Standard derivative restrictions for normalized variable weighting; explicit warnings that conditions may be sufficient and non-exhaustive.",
+      "distinction": "Different varying quantities/domain; no generic normalized-monotonicity or derivative-principle novelty here."
+    },
+    {
+      "title": "Vacuum Stability Conditions From Copositivity Criteria",
+      "author": "Kristjan Kannike",
+      "primary_url": "https://arxiv.org/pdf/1205.3781",
+      "version": "v3, 2013",
+      "inspected": "Section2 p3 equations1-2 and adjacent scope for 2x2 versus higher-order copositivity",
+      "overlap": "The binary nonnegative-quadratic criterion is established; not invented here.",
+      "distinction": "Only the model-specific support-two reduction and resulting absorbing-readout parameter interpretation are candidate contributions, with priority open."
+    },
+    {
+      "title": "Extreme Points of Moment Sets",
+      "author": "Gerhard Winkler",
+      "year": 1988,
+      "primary_url": "https://pubsonline.informs.org/doi/abs/10.1287/moor.13.4.581",
+      "inspected": "Publisher abstract and metadata only; full theorem proof not inspected",
+      "overlap": "Finite-moment extreme-point methods are established; the elementary two-equality finite LP argument is stated and proved directly here, not claimed new."
+    }
+  ],
+  "exhaustive_priority_clearance": false,
+  "consequence": "Position exact fixed-rate/conic characterization and co-ordering corollary as working model-specific results. No first copositivity algorithm, first normalized monotonic readout or empirical predictor gain."
+}

@@ -1,0 +1,52 @@
+schema_version = 1
+evidence_id = "LCR-E-READOUT-TILT-001"
+local_only = true
+publication_eligible = false
+
+[[artifact]]
+path = "evidence/jobs/LCR-JOB-READOUT-TILT-001.toml"
+sha256 = "1792fa040870b23d79815dd9d094a753c04b3bde5bb5cb43c1192f6206dac3cc"
+
+[[artifact]]
+path = "results/audit/readout_aware_tilt_v1/checksums.sha256"
+sha256 = "79d85cca9480c2c0cdc73d75999e1098010bee9feaa43a55f559192d036c1cc4"
+
+[[artifact]]
+path = "results/audit/readout_aware_tilt_v1/derivation.md"
+sha256 = "c8c14cb35c4061964eba37cf3b6f4af6258318f20ca3304d7ca32f881ce74d09"
+
+[[artifact]]
+path = "results/audit/readout_aware_tilt_v1/readout_aware_tilt.py"
+sha256 = "36ee1a94a49fa424c2f5cd9fc8618191b9cd7f09918f8c588a818aba19ea8c77"
+
+[[artifact]]
+path = "results/audit/readout_aware_tilt_v1/symbolic_verification.json"
+sha256 = "7c55af0720a1e10ced7ce54002105214ec4570e6924e33edb3b5b7344b236292"
+
+[[artifact]]
+path = "results/audit/readout_aware_tilt_v1/symbolic_verification_replay.json"
+sha256 = "7c55af0720a1e10ced7ce54002105214ec4570e6924e33edb3b5b7344b236292"
+
+[[artifact]]
+path = "results/audit/readout_aware_tilt_v1/test_readout_aware_tilt.py"
+sha256 = "8f2f628b4143879eb11b0804ea28868ed3d1e12ccaab20ad41604394ca2ec61b"
+
+[[artifact]]
+path = "results/audit/readout_aware_tilt_v1/verify_readout_tilt_algebra.py"
+sha256 = "ea44cd90509637a1bbcb9c8e516eb28e7b18c0c98994e5d38ffb805acb42499e"
+
+[[artifact]]
+path = "scripts/verify_readout_tilt_algebra.py"
+sha256 = "ea44cd90509637a1bbcb9c8e516eb28e7b18c0c98994e5d38ffb805acb42499e"
+
+[[artifact]]
+path = "src/lifecycle_readout/modeling/readout_aware_tilt.py"
+sha256 = "36ee1a94a49fa424c2f5cd9fc8618191b9cd7f09918f8c588a818aba19ea8c77"
+
+[[artifact]]
+path = "tests/test_readout_aware_tilt.py"
+sha256 = "8f2f628b4143879eb11b0804ea28868ed3d1e12ccaab20ad41604394ca2ec61b"
+
+[[artifact]]
+path = "wiki/methods/Readout-Aware-Entropic-Preservation.md"
+sha256 = "c8c14cb35c4061964eba37cf3b6f4af6258318f20ca3304d7ca32f881ce74d09"

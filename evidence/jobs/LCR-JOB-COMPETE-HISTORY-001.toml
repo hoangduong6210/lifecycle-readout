@@ -1,0 +1,22 @@
+schema_version = 1
+job_id = "LCR-JOB-COMPETE-HISTORY-001"
+execution_kind = "local-prospective-real-history-input-audit"
+date = "2026-10-16"
+source_state = "DIRTY_WORKTREE_EXACT_SOURCE_HASHES_NOT_A_FROZEN_RELEASE"
+command = "OPENBLAS_NUM_THREADS=1 python3 scripts/audit_competitive_event_history.py --output results/audit/competitive_event_history_execution_v1"
+exit_code = 0
+result_pointer = "results/audit/competitive_event_history_execution_v1/results.json"
+result_sha256 = "e3791a2e62bd0e9c15fe5621c659842bb3ea385baad5f7ab330172b55ee212a1"
+source_pointer = "src/lifecycle_readout/competitive_event_stream.py"
+source_sha256 = "1d9fe574cc796dc1603c832571f7673cffffb0170faaed0bf17a90dd5077a002"
+test_pointer = "tests/test_competitive_event_stream.py"
+test_sha256 = "c1c38ca5085c0cd8421fb3a547baff617ac4bb5f25108f89d23eab2cba129307"
+protocol_pointer = "protocols/competitive_event_history_v1.toml"
+protocol_sha256 = "8109b3392d68ab066c089c0e772b8abb7619cdbf749b15b7274e0d7a7b5d4793"
+model_fit = false
+gpu_allocated = false
+test_scored = false
+publication_eligible = false
+supported_evidence_ids = ["LCR-E-COMPETE-HISTORY-001"]
+supported_scientific_claim_ids = []
+limitations = "All supported features extracted, fixed raw-history and sequential-state anchors independently replayed; no fitted model, every-row raw-history replay, semantics or priority clearance."

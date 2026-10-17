@@ -1,0 +1,133 @@
+schema_version = 1
+evidence_id = "LCR-E-HARD-CONTROLS-001"
+protocol_id = "LCR-P-HARD-001"
+created_date = "2026-10-15"
+scientific_status = "EXPLORATORY_NOT_ADMITTED"
+publication_eligible = false
+availability = "Local artifacts exist in the project directory; Git clone alone is insufficient."
+
+[[artifacts]]
+role = "protocol"
+path = "protocols/hard_controls_v1.toml"
+sha256 = "e04f9e4861029d874d11eb2ae94f3f3b57e9980ae454c88fd7f9dc9805ee30f3"
+local_only = false
+
+[[artifacts]]
+role = "configuration"
+path = "configs/hard_controls_v1.toml"
+sha256 = "e825acd73fce9e48c75bec86c3a0fa8a68f2be620842aa8464728f748fb395c4"
+local_only = false
+
+[[artifacts]]
+role = "normalized_job"
+path = "evidence/jobs/LCR-JOB-HARD-WIKIPEDIA-001.toml"
+sha256 = "52363bd877c6e2205054fc9a866647ff626f65c49127294840204b59c08c498e"
+local_only = false
+
+[[artifacts]]
+role = "execution_record"
+path = "results/audit/lcr-wikipedia-256094e9e7/job.json"
+sha256 = "dc7c55debeed3f028579938c2301c2df8e76f38fe4a262a069d0293f5808bbd0"
+local_only = true
+
+[[artifacts]]
+role = "uploaded_source"
+path = "results/audit/lcr-wikipedia-256094e9e7/source.zip"
+sha256 = "571c882aaaeb7e2da7d0d621cab458c4c95b403179945963c5fa1a86cc7c0bde"
+local_only = true
+
+[[artifacts]]
+role = "results"
+path = "results/audit/lcr-wikipedia-256094e9e7/artifacts/results.json"
+sha256 = "d3d91176345c3c7c7322c1c29d41897e68468ece2f782cf3a9a969e0833de10d"
+local_only = true
+
+[[artifacts]]
+role = "artifact_manifest"
+path = "results/audit/lcr-wikipedia-256094e9e7/artifacts/checksums.sha256"
+sha256 = "a73100e485b50fde94f556cbf6c6ff91230d742c0c43e1745f1f36c1cf694da9"
+local_only = true
+
+[[artifacts]]
+role = "source_manifest"
+path = "results/audit/lcr-wikipedia-256094e9e7/artifacts/source_manifest.json"
+sha256 = "ba6c8fd5a4a8ac3431b4f12ab5637e4abff80b6769415515f0944cdeda7d7631"
+local_only = true
+
+[[artifacts]]
+role = "independent_audit"
+path = "results/audit/hard_controls_v1/wikipedia_audit.json"
+sha256 = "646e582ca7f4d9dfb0c0a92bf2028de3c273bd0be0cc8eaf612147ad35435423"
+local_only = true
+
+[[artifacts]]
+role = "normalized_job"
+path = "evidence/jobs/LCR-JOB-HARD-REDDIT-001.toml"
+sha256 = "75d0629953ddd69d0b87b291026020031a2cd5c6b9bf8c16bef5957f05437511"
+local_only = false
+
+[[artifacts]]
+role = "execution_record"
+path = "results/audit/lcr-reddit-bf7053e7a2/job.json"
+sha256 = "2fc7566c85da2ead2e6d3650c813a078ca93fe9f4c0311a8ef410ccc58e51196"
+local_only = true
+
+[[artifacts]]
+role = "uploaded_source"
+path = "results/audit/lcr-reddit-bf7053e7a2/source.zip"
+sha256 = "14641d9df9e4a99c70aaec1ff6d60d9509f085ed5e96eb074f4b0973fc138451"
+local_only = true
+
+[[artifacts]]
+role = "results"
+path = "results/audit/lcr-reddit-bf7053e7a2/artifacts/results.json"
+sha256 = "86c8bc35393fe760b64153fcad4bfe6308c79def97988a0524ad39256562b114"
+local_only = true
+
+[[artifacts]]
+role = "artifact_manifest"
+path = "results/audit/lcr-reddit-bf7053e7a2/artifacts/checksums.sha256"
+sha256 = "ad3fa2a04e44c1acfe204924667c44420144d3365edcbe47ae9ee1845b5124f5"
+local_only = true
+
+[[artifacts]]
+role = "source_manifest"
+path = "results/audit/lcr-reddit-bf7053e7a2/artifacts/source_manifest.json"
+sha256 = "3d5db7195a55e697c4194a87ea24caf26efceed2a0568f0376bbbd8c5e02cb68"
+local_only = true
+
+[[artifacts]]
+role = "independent_audit"
+path = "results/audit/hard_controls_v1/reddit_audit.json"
+sha256 = "fcddae0a800bf18722a27ca6975b4ec7fc742e166fa340778e13084928e3d72e"
+local_only = true
+
+[[artifacts]]
+role = "resource_observation"
+path = "results/audit/hard_controls_v1/resource_final.json"
+sha256 = "0384828a40c0ba5bf4b045aaadc16c976d4310fb9a621ade4d84856abca0286f"
+local_only = true
+
+[[artifacts]]
+role = "editorial_revision"
+path = "results/audit/hard_controls_v1/manuscript_revision.json"
+sha256 = "390a1e685bb9e92460f160dbe3f2e93286713b040fff4bc079e6792ddb39fb51"
+local_only = true
+
+[[artifacts]]
+role = "audit_manifest"
+path = "results/audit/hard_controls_v1/checksums.sha256"
+sha256 = "816c9384ee677cb0a7697d27d14e9547ce4f2443ed7bab967865ebf4023f51cf"
+local_only = true
+
+[[artifacts]]
+role = "corrected_word"
+path = "paper/working/IEEE_TKDE_L3_GNN_Full_Manuscript.docx"
+sha256 = "1e1a051e6a463a46bd9ac8715202577ed7ba00730101e06c0c9c072c36ff357b"
+local_only = true
+
+[[artifacts]]
+role = "original_word"
+path = "paper/working/revisions/20261015-pre-hard-controls.docx"
+sha256 = "f25c659ddb7fce88bda4e22d9bb66605794048fdb347fb984947ed1d7c44a585"
+local_only = true

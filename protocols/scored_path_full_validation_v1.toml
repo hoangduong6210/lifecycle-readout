@@ -1,6 +1,7 @@
 protocol_id = "LCR-P-SCORED-FULL-001"
 status = "prospective-posthoc-coverage-expansion"
 date = "2026-10-16"
+authorization = "Active user goal requests stronger claims; expand the completed anchor diagnostic without fitting or test scoring."
 amends = "LCR-P-SCORED-PATH-001"
 amendment_reason = "Anchor outcomes have been seen. Include every supported validation query of both parent datasets and all retained ordered seeds; preserve paths, time grid and thresholds. This is expanded descriptive coverage, not independent confirmation."
 datasets = ["wikipedia", "reddit"]

@@ -1,0 +1,334 @@
+{
+  "scope": "First primary-source identity and positioning pass, not a completed bibliography audit",
+  "total_references": 46,
+  "primary_identities_reviewed": 20,
+  "remaining_identity_reviews": 26,
+  "venue_checks_open": [
+    38,
+    39,
+    40
+  ],
+  "corrections": [
+    11,
+    14
+  ],
+  "reference_records": [
+    {
+      "number": 1,
+      "reference_at_intake": "[1] E. Rossi, B. Chamberlain, F. Frasca, D. Eynard, F. Monti, and M. Bronstein, \u201cTemporal graph networks for deep learning on dynamic graphs,\u201d in Proc. ICML Workshop Graph Represent. Learn. Beyond (GRL+), 2020, arXiv:2006.10637.",
+      "review_status": "not_reviewed_in_this_pass"
+    },
+    {
+      "number": 2,
+      "reference_at_intake": "[2] S. Kumar, X. Zhang, and J. Leskovec, \u201cPredicting dynamic embedding trajectory in temporal interaction networks,\u201d in Proc. 25th ACM SIGKDD Int. Conf. Knowl. Discovery Data Mining (KDD), 2019, pp. 1269\u20131278, doi: 10.1145/3292500.3330895.",
+      "review_status": "not_reviewed_in_this_pass"
+    },
+    {
+      "number": 3,
+      "reference_at_intake": "[3] A. Pareja, G. Domeniconi, J. Chen, T. Ma, T. Suzumura, H. Kanezashi, T. Kaler, T. Schardl, and C. Leiserson, \u201cEvolveGCN: Evolving graph convolutional networks for dynamic graphs,\u201d in Proc. AAAI Conf. Artif. Intell., vol. 34, no. 04, 2020, pp. 5363\u20135370.",
+      "review_status": "not_reviewed_in_this_pass"
+    },
+    {
+      "number": 4,
+      "reference_at_intake": "[4] A. Sankar, Y. Wu, L. Gou, W. Zhang, and H. Yang, \u201cDySAT: Deep neural representation learning on dynamic graphs via self-attention networks,\u201d in Proc. 13th Int. Conf. Web Search Data Mining (WSDM), 2020, pp. 519\u2013527.",
+      "review_status": "not_reviewed_in_this_pass"
+    },
+    {
+      "number": 5,
+      "reference_at_intake": "[5] R. Trivedi, M. Farajtabar, P. Biswal, and H. Zha, \u201cDyRep: Learning representations over dynamic graphs,\u201d in Proc. Int. Conf. Learn. Represent. (ICLR), 2019.",
+      "review_status": "not_reviewed_in_this_pass"
+    },
+    {
+      "number": 6,
+      "reference_at_intake": "[6] D. Xu, C. Ruan, E. K\u00f6rpeo\u011flu, S. Kumar, and K. Achan, \u201cInductive representation learning on temporal graphs,\u201d in Proc. Int. Conf. Learn. Represent. (ICLR), 2020.",
+      "review_status": "not_reviewed_in_this_pass"
+    },
+    {
+      "number": 7,
+      "reference_at_intake": "[7] Y. Wang, Y.-Y. Chang, Y. Liu, J. Leskovec, and P. Li, \u201cInductive representation learning in temporal networks via causal anonymous walks,\u201d in Proc. Int. Conf. Learn. Represent. (ICLR), 2021.",
+      "review_status": "not_reviewed_in_this_pass"
+    },
+    {
+      "number": 8,
+      "reference_at_intake": "[8] A. H. Souza, D. Mesquita, S. Kaski, and V. Garg, \u201cProvably expressive temporal graph networks,\u201d in Adv. Neural Inf. Process. Syst. (NeurIPS), vol. 35, 2022, pp. 32257\u201332269.",
+      "review_status": "primary_title_author_identity_checked",
+      "primary_url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/d029c97ee0db162c60f2ebc9cb93387e-Abstract-Conference.html",
+      "primary_source_sha256": "cd1eb3bf4ccfd758e9e052e8312ecc5b0adef4570c399de37b5d425ef39e22f2",
+      "claim_boundary": "Identity and abstract-level positioning only; not reproduction, numerical comparison or exhaustive claim verification.",
+      "remaining": "Article-level statement review and final bibliography normalization remain open."
+    },
+    {
+      "number": 9,
+      "reference_at_intake": "[9] W. Cong, S. Zhang, J. Kang, B. Yuan, H. Wu, X. Zhou, H. Tong, and M. Mahdavi, \u201cDo we really need complicated model architectures for temporal networks?\u201d in Proc. Int. Conf. Learn. Represent. (ICLR), 2023.",
+      "review_status": "primary_title_author_identity_checked",
+      "primary_url": "https://arxiv.org/abs/2302.11636",
+      "primary_source_sha256": "d96370d80d3219d01e1319429dc61d0fc69df5c309921672ed720315e2d801ae",
+      "claim_boundary": "Identity and abstract-level positioning only; not reproduction, numerical comparison or exhaustive claim verification.",
+      "remaining": "Article-level statement review and final bibliography normalization remain open."
+    },
+    {
+      "number": 10,
+      "reference_at_intake": "[10] L. Yu, L. Sun, B. Du, and W. Lv, \u201cTowards better dynamic graph learning: New architecture and unified library,\u201d in Adv. Neural Inf. Process. Syst. (NeurIPS), vol. 36, 2023, pp. 67686\u201367700.",
+      "review_status": "primary_title_author_identity_checked",
+      "primary_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/d611019afba70d547bd595e8a4158f55-Abstract-Conference.html",
+      "primary_source_sha256": "63472381f105fa1e15547f6ae8568a1172ccb3982c9fb4e5c8587dbc9c78b75c",
+      "claim_boundary": "Identity and abstract-level positioning only; not reproduction, numerical comparison or exhaustive claim verification.",
+      "remaining": "Article-level statement review and final bibliography normalization remain open."
+    },
+    {
+      "number": 11,
+      "reference_at_intake": "[11] Y. Tian, G. Qi, and F. Li, \u201cFreeDyG: Frequency enhanced continuous-time dynamic graph model for link prediction,\u201d in Proc. Int. Conf. Learn. Represent. (ICLR), 2024.",
+      "review_status": "primary_title_author_identity_checked",
+      "primary_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/21f7b745f73ce0d1f9bcea7f40b1388e-Abstract-Conference.html",
+      "primary_source_sha256": "316ff495e9b89cf041b738a51114858e27ea4b39334e05def46727789f466cc6",
+      "claim_boundary": "Identity and abstract-level positioning only; not reproduction, numerical comparison or exhaustive claim verification.",
+      "remaining": "Article-level statement review and final bibliography normalization remain open.",
+      "correction": "G. Qi -> Y. Qi and F. Li -> F. Guo, supported by official ICLR and author code."
+    },
+    {
+      "number": 12,
+      "reference_at_intake": "[12] F. Poursafaei, S. Huang, K. Pelrine, and R. Rabbany, \u201cTowards better evaluation for dynamic link prediction,\u201d in Adv. Neural Inf. Process. Syst. (NeurIPS) Datasets and Benchmarks Track, vol. 35, 2022, pp. 32928\u201332941.",
+      "review_status": "primary_title_author_identity_checked",
+      "primary_url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/d49042a5d49818711c401d34172f9900-Abstract-Datasets_and_Benchmarks.html",
+      "primary_source_sha256": "80d0e8077ea1e73e4b081bd91371093f7dd4d012121955f2a039d2a63eec805c",
+      "claim_boundary": "Identity and abstract-level positioning only; not reproduction, numerical comparison or exhaustive claim verification.",
+      "remaining": "Article-level statement review and final bibliography normalization remain open."
+    },
+    {
+      "number": 13,
+      "reference_at_intake": "[13] S. Huang, F. Poursafaei, J. Danovitch, M. Fey, W. Hu, E. Rossi, J. Leskovec, M. Bronstein, G. Rabusseau, and R. Rabbany, \u201cTemporal graph benchmark for machine learning on temporal graphs,\u201d in Adv. Neural Inf. Process. Syst. (NeurIPS) Datasets and Benchmarks Track, vol. 36, 2023.",
+      "review_status": "primary_title_author_identity_checked",
+      "primary_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/066b98e63313162f6562b35962671288-Abstract.html",
+      "primary_source_sha256": "58ca9a2c6dc785ff8ebd87a45658650f156dfce4717af1751eb564592bc49fa7",
+      "claim_boundary": "Identity and abstract-level positioning only; not reproduction, numerical comparison or exhaustive claim verification.",
+      "remaining": "Article-level statement review and final bibliography normalization remain open."
+    },
+    {
+      "number": 14,
+      "reference_at_intake": "[14] L. Yi, J. Peng, Y. Zheng, F. Mo, Z. Wei, Y. Ye, Y. Zixuan, and Z. Huang, \u201cTGB-Seq benchmark: Challenging temporal GNNs with complex sequential dynamics,\u201d in Proc. Int. Conf. Learn. Represent. (ICLR), 2025, arXiv:2502.02975.",
+      "review_status": "primary_title_author_identity_checked",
+      "primary_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/db5ca61dbc08cf5143c05ad2d1b0b2ca-Abstract-Conference.html",
+      "primary_source_sha256": "bcbc91f678306c0b6359781ab2bd5206c806648c220415971a85a5dd1e3cbf22",
+      "claim_boundary": "Identity and abstract-level positioning only; not reproduction, numerical comparison or exhaustive claim verification.",
+      "remaining": "Article-level statement review and final bibliography normalization remain open.",
+      "correction": "Y. Zixuan -> Z. Yue using the printed paper and benchmark team. Landing metadata use the reversed name; retain this discrepancy."
+    },
+    {
+      "number": 15,
+      "reference_at_intake": "[15] R. Geirhos, J.-H. Jacobsen, C. Michaelis, R. Zemel, W. Brendel, M. Bethge, and F. A. Wichmann, \u201cShortcut learning in deep neural networks,\u201d Nature Mach. Intell., vol. 2, no. 11, pp. 665\u2013673, Nov. 2020, doi: 10.1038/s42256-020-00257-z.",
+      "review_status": "not_reviewed_in_this_pass"
+    },
+    {
+      "number": 16,
+      "reference_at_intake": "[16] A. G. Hawkes, \u201cSpectra of some self-exciting and mutually exciting point processes,\u201d Biometrika, vol. 58, no. 1, pp. 83\u201390, Apr. 1971, doi: 10.1093/biomet/58.1.83.",
+      "review_status": "not_reviewed_in_this_pass"
+    },
+    {
+      "number": 17,
+      "reference_at_intake": "[17] H. Mei and J. M. Eisner, \u201cThe neural Hawkes process: A neurally self-modulating multivariate point process,\u201d in Adv. Neural Inf. Process. Syst. (NeurIPS), vol. 30, 2017, pp. 6754\u20136764.",
+      "review_status": "not_reviewed_in_this_pass"
+    },
+    {
+      "number": 18,
+      "reference_at_intake": "[18] P. W. Koh, T. Nguyen, Y. S. Tang, S. Mussmann, E. Pierson, B. Kim, and P. Liang, \u201cConcept bottleneck models,\u201d in Proc. 37th Int. Conf. Mach. Learn. (ICML), vol. 119, 2020, pp. 5338\u20135348.",
+      "review_status": "primary_title_author_identity_checked",
+      "primary_url": "https://proceedings.mlr.press/v119/koh20a.html",
+      "primary_source_sha256": "747dc542079457890201cda39a654152d15fdadf30db27dc15a0dd850866d776",
+      "claim_boundary": "Identity and abstract-level positioning only; not reproduction, numerical comparison or exhaustive claim verification.",
+      "remaining": "Article-level statement review and final bibliography normalization remain open."
+    },
+    {
+      "number": 19,
+      "reference_at_intake": "[19] Z. Ying, D. Bourgeois, J. You, M. Zitnik, and J. Leskovec, \u201cGNNExplainer: Generating explanations for graph neural networks,\u201d in Adv. Neural Inf. Process. Syst. (NeurIPS), vol. 32, 2019, pp. 9240\u20139251.",
+      "review_status": "not_reviewed_in_this_pass"
+    },
+    {
+      "number": 20,
+      "reference_at_intake": "[20] D. Luo, W. Cheng, D. Xu, W. Yu, B. Zong, H. Chen, and X. Zhang, \u201cParameterized explainer for graph neural network,\u201d in Adv. Neural Inf. Process. Syst. (NeurIPS), vol. 33, 2020, pp. 19620\u201319631.",
+      "review_status": "not_reviewed_in_this_pass"
+    },
+    {
+      "number": 21,
+      "reference_at_intake": "[21] S. Miao, M. Liu, and P. Li, \u201cInterpretable and generalizable graph learning via stochastic attention mechanism,\u201d in Proc. 39th Int. Conf. Mach. Learn. (ICML), vol. 162, 2022, pp. 15524\u201315543.",
+      "review_status": "primary_title_author_identity_checked",
+      "primary_url": "https://proceedings.mlr.press/v162/miao22a.html",
+      "primary_source_sha256": "62d883f25cbacaa63d4c6e40b348370de2a08c52ec7af6aaf671839b23f3b309",
+      "claim_boundary": "Identity and abstract-level positioning only; not reproduction, numerical comparison or exhaustive claim verification.",
+      "remaining": "Article-level statement review and final bibliography normalization remain open."
+    },
+    {
+      "number": 22,
+      "reference_at_intake": "[22] H. Chen, X. Zheng, P. Jiao, H. Liu, Z. Zhao, H. Wu, F. Xia, and S. Pan, \u201cST-TGExplainer: Disentangling stability and transition patterns for temporal GNN interpretability,\u201d arXiv:2605.19822, 2026.",
+      "review_status": "primary_title_author_identity_checked",
+      "primary_url": "https://arxiv.org/abs/2605.19822v1",
+      "primary_source_sha256": "412a3387dab26d12b1888dca1d8855b0290d3392ba431e3fcbf63f7d30451452",
+      "claim_boundary": "Identity and abstract-level positioning only; not reproduction, numerical comparison or exhaustive claim verification.",
+      "remaining": "Article-level statement review and final bibliography normalization remain open."
+    },
+    {
+      "number": 23,
+      "reference_at_intake": "[23] S. M. Kazemi, R. Goel, K. Jain, I. Kobyzev, A. Sethi, P. Forsyth, and P. Poupart, \u201cRepresentation learning for dynamic graphs: A survey,\u201d J. Mach. Learn. Res. (JMLR), vol. 21, no. 70, pp. 1\u201373, 2020.",
+      "review_status": "not_reviewed_in_this_pass"
+    },
+    {
+      "number": 24,
+      "reference_at_intake": "[24] Y. Luo and P. Li, \u201cNeighborhood-aware scalable temporal network representation learning,\u201d in Proc. Learn. Graphs Conf. (LoG), PMLR, vol. 198, 2022, pp. 1:1\u20131:18.",
+      "review_status": "primary_title_author_identity_checked",
+      "primary_url": "https://proceedings.mlr.press/v198/luo22a.html",
+      "primary_source_sha256": "541b1fdb2ca49aae3976d63b59a5d880d81b736df333fb0f117e264bf86fa881",
+      "claim_boundary": "Identity and abstract-level positioning only; not reproduction, numerical comparison or exhaustive claim verification.",
+      "remaining": "Article-level statement review and final bibliography normalization remain open."
+    },
+    {
+      "number": 25,
+      "reference_at_intake": "[25] I. O. Tolstikhin, N. Houlsby, A. Kolesnikov, L. Beyer, X. Zhai, T. Unterthiner, J. Yung, A. Steiner, D. Keysers, J. Uszkoreit, M. Lucic, and A. Dosovitskiy, \u201cMLP-Mixer: An all-MLP architecture for vision,\u201d in Adv. Neural Inf. Process. Syst. (NeurIPS), vol. 34, 2021, pp. 24261\u201324272.",
+      "review_status": "not_reviewed_in_this_pass"
+    },
+    {
+      "number": 26,
+      "reference_at_intake": "[26] M. Arjovsky, L. Bottou, I. Gulrajani, and D. Lopez-Paz, \u201cInvariant risk minimization,\u201d 2019, arXiv:1907.02893.",
+      "review_status": "not_reviewed_in_this_pass"
+    },
+    {
+      "number": 27,
+      "reference_at_intake": "[27] D. J. Daley and D. Vere-Jones, An Introduction to the Theory of Point Processes: Volume I: Elementary Theory and Methods, 2nd ed. New York, NY, USA: Springer, 2003.",
+      "review_status": "not_reviewed_in_this_pass"
+    },
+    {
+      "number": 28,
+      "reference_at_intake": "[28] Y. Ogata, \u201cOn Lewis' simulation method for point processes,\u201d IEEE Trans. Inf. Theory, vol. 27, no. 1, pp. 23\u201331, Jan. 1981, doi: 10.1109/TIT.1981.1056305.",
+      "review_status": "not_reviewed_in_this_pass"
+    },
+    {
+      "number": 29,
+      "reference_at_intake": "[29] N. Du, H. Dai, R. Trivedi, U. Upadhyay, M. Gomez-Rodriguez, and L. Song, \u201cRecurrent marked temporal point processes: Embedding event history to vector,\u201d in Proc. 22nd ACM SIGKDD Int. Conf. Knowl. Discovery Data Mining (KDD), 2016, pp. 1555\u20131564.",
+      "review_status": "not_reviewed_in_this_pass"
+    },
+    {
+      "number": 30,
+      "reference_at_intake": "[30] S. Zuo, H. Jiang, Z. Li, T. Zhao, and H. Zha, \u201cTransformer Hawkes process,\u201d in Proc. 37th Int. Conf. Mach. Learn. (ICML), vol. 119, 2020, pp. 11692\u201311702.",
+      "review_status": "not_reviewed_in_this_pass"
+    },
+    {
+      "number": 31,
+      "reference_at_intake": "[31] R. T. Q. Chen, Y. Rubanova, J. Bettencourt, and D. K. Duvenaud, \u201cNeural ordinary differential equations,\u201d in Adv. Neural Inf. Process. Syst. (NeurIPS), vol. 31, 2018, pp. 6571\u20136583.",
+      "review_status": "primary_title_author_identity_checked",
+      "primary_url": "https://proceedings.neurips.cc/paper/2018/hash/69386f6bb1dfed68692a24c8686939b9-Abstract.html",
+      "primary_source_sha256": "ced46dfd66378620caec2b7cd967951820962b35af992e2abfb148c3e4cf70d5",
+      "claim_boundary": "Identity and abstract-level positioning only; not reproduction, numerical comparison or exhaustive claim verification.",
+      "remaining": "Legacy page-range field requires a separate proceedings export check."
+    },
+    {
+      "number": 32,
+      "reference_at_intake": "[32] Y. Rubanova, R. T. Q. Chen, and D. K. Duvenaud, \u201cLatent ordinary differential equations for irregularly-sampled time series,\u201d in Adv. Neural Inf. Process. Syst. (NeurIPS), vol. 32, 2019, pp. 5320\u20135330.",
+      "review_status": "primary_title_author_identity_checked",
+      "primary_url": "https://proceedings.neurips.cc/paper_files/paper/2019/hash/42a6845a557bef704ad8ac9cb4461d43-Abstract.html",
+      "primary_source_sha256": "75919147855119602d69677c2f397579836810f4e181d79a74dca37e6ff5419c",
+      "claim_boundary": "Identity and abstract-level positioning only; not reproduction, numerical comparison or exhaustive claim verification.",
+      "remaining": "Legacy page-range field requires a separate proceedings export check."
+    },
+    {
+      "number": 33,
+      "reference_at_intake": "[33] D. R. Cox, \u201cRegression models and life-tables,\u201d J. Roy. Statist. Soc. Ser. B (Methodol.), vol. 34, no. 2, pp. 187\u2013220, 1972.",
+      "review_status": "not_reviewed_in_this_pass"
+    },
+    {
+      "number": 34,
+      "reference_at_intake": "[34] J. L. Katzman, U. Shaham, A. Cloninger, J. Bates, T. Jiang, and Y. Kluger, \u201cDeepSurv: Personalized treatment recommender system using a Cox proportional hazards deep neural network,\u201d BMC Med. Res. Methodol., vol. 18, no. 1, p. 24, Feb. 2018, doi: 10.1186/s12874-018-0482-1.",
+      "review_status": "not_reviewed_in_this_pass"
+    },
+    {
+      "number": 35,
+      "reference_at_intake": "[35] C. Lee, W. R. Zame, J. Yoon, and M. van der Schaar, \u201cDeepHit: A deep learning approach to survival analysis with competing risks,\u201d in Proc. AAAI Conf. Artif. Intell., vol. 32, no. 1, 2018, pp. 2314\u20132321.",
+      "review_status": "not_reviewed_in_this_pass"
+    },
+    {
+      "number": 36,
+      "reference_at_intake": "[36] C. Rudin, \u201cStop explaining black box machine learning models for high stakes decisions and use interpretable models instead,\u201d Nature Mach. Intell., vol. 1, no. 5, pp. 206\u2013215, May 2019, doi: 10.1038/s42256-019-0048-x.",
+      "review_status": "not_reviewed_in_this_pass"
+    },
+    {
+      "number": 37,
+      "reference_at_intake": "[37] N. Tishby, F. C. Pereira, and W. Bialek, \u201cThe information bottleneck method,\u201d in Proc. 37th Annu. Allerton Conf. Commun., Control, Comput., 1999, pp. 368\u2013377, arXiv:physics/0004057.",
+      "review_status": "not_reviewed_in_this_pass"
+    },
+    {
+      "number": 38,
+      "reference_at_intake": "[38] A. A. Alemi, I. Fischer, J. V. Dillon, and K. Murphy, \u201cDeep variational information bottleneck,\u201d in Proc. Int. Conf. Learn. Represent. (ICLR), 2017.",
+      "review_status": "primary_title_author_identity_checked",
+      "primary_url": "https://arxiv.org/abs/1612.00410",
+      "primary_source_sha256": "9f62ea4b70fbf8e59a35373caed30c199639ff2edc80955997f0c2a5f60dd3df",
+      "claim_boundary": "Identity and abstract-level positioning only; not reproduction, numerical comparison or exhaustive claim verification.",
+      "remaining": "ArXiv identity checked; ICLR 2017 venue metadata not independently closed in this pass."
+    },
+    {
+      "number": 39,
+      "reference_at_intake": "[39] E. Jang, S. Gu, and B. Poole, \u201cCategorical reparameterization with Gumbel-Softmax,\u201d in Proc. Int. Conf. Learn. Represent. (ICLR), 2017.",
+      "review_status": "primary_title_author_identity_checked",
+      "primary_url": "https://arxiv.org/abs/1611.01144v5",
+      "primary_source_sha256": "0208f510b0be5598faa614aa7f3521ee3a494e53b320da948856e9d17591e5fc",
+      "claim_boundary": "Identity and abstract-level positioning only; not reproduction, numerical comparison or exhaustive claim verification.",
+      "remaining": "ArXiv identity checked; ICLR 2017 venue metadata not independently closed in this pass."
+    },
+    {
+      "number": 40,
+      "reference_at_intake": "[40] C. J. Maddison, A. Mnih, and Y. W. Teh, \u201cThe Concrete distribution: A continuous relaxation of discrete random variables,\u201d in Proc. Int. Conf. Learn. Represent. (ICLR), 2017.",
+      "review_status": "primary_title_author_identity_checked",
+      "primary_url": "https://arxiv.org/abs/1611.00712v3",
+      "primary_source_sha256": "0707bf09f8b0b7a4ee45a372bb6a9480e4aabd403281770f63c41db8201098b6",
+      "claim_boundary": "Identity and abstract-level positioning only; not reproduction, numerical comparison or exhaustive claim verification.",
+      "remaining": "ArXiv identity checked; ICLR 2017 venue metadata not independently closed in this pass."
+    },
+    {
+      "number": 41,
+      "reference_at_intake": "[41] J. Pearl, Causality: Models, Reasoning, and Inference, 2nd ed. Cambridge, U.K.: Cambridge Univ. Press, 2009.",
+      "review_status": "not_reviewed_in_this_pass",
+      "citation_hygiene": "No in-text citation found in the current narrative; assess removal when related work is finalized."
+    },
+    {
+      "number": 42,
+      "reference_at_intake": "[42] B. Sch\u00f6lkopf, F. Locatello, S. Bauer, N. R. Ke, N. Kalchbrenner, A. Goyal, and Y. Bengio, \u201cToward causal representation learning,\u201d Proc. IEEE, vol. 109, no. 5, pp. 612\u2013634, May 2021, doi: 10.1109/JPROC.2021.3058954.",
+      "review_status": "not_reviewed_in_this_pass",
+      "citation_hygiene": "No in-text citation found in the current narrative; assess removal when related work is finalized."
+    },
+    {
+      "number": 43,
+      "reference_at_intake": "[43] X. Song, Z. Li, G. Chen, Y. Zheng, Y. Fan, X. Dong, and K. Zhang, \u201cCausal temporal representation learning with nonstationary sparse transition,\u201d in Adv. Neural Inf. Process. Syst. (NeurIPS), vol. 37, 2024.",
+      "review_status": "primary_title_author_identity_checked",
+      "primary_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/8cef4e4bcb85f7d4a1005a9db018d6b6-Abstract-Conference.html",
+      "primary_source_sha256": "3219cb4a8438007995c5e4baac70771df0b8ce38e2aa01b8b2a78f66a2804cea",
+      "claim_boundary": "Identity and abstract-level positioning only; not reproduction, numerical comparison or exhaustive claim verification.",
+      "remaining": "Article-level statement review and final bibliography normalization remain open.",
+      "citation_hygiene": "No in-text citation found in the current narrative; assess removal when related work is finalized."
+    },
+    {
+      "number": 44,
+      "reference_at_intake": "[44] J. Sill, \u201cMonotonic networks,\u201d in Adv. Neural Inf. Process. Syst. (NeurIPS), vol. 10, 1997, pp. 661\u2013667.",
+      "review_status": "primary_title_author_identity_checked",
+      "primary_url": "https://proceedings.neurips.cc/paper/1997/hash/83adc9225e4deb67d7ce42d58fe5157c-Abstract.html",
+      "primary_source_sha256": "3bc29692070f9d00f678bc228e04c9a9dbf8cb037e1eb9cabc06ca5d895f7a59",
+      "claim_boundary": "Identity and abstract-level positioning only; not reproduction, numerical comparison or exhaustive claim verification.",
+      "remaining": "Legacy page-range field requires a separate proceedings export check."
+    },
+    {
+      "number": 45,
+      "reference_at_intake": "[45] S. You, D. Ding, K. Canini, J. Pfeifer, and M. Gupta, \u201cDeep lattice networks and partial monotonic functions,\u201d in Adv. Neural Inf. Process. Syst. (NeurIPS), vol. 30, 2017, pp. 2981\u20132989.",
+      "review_status": "primary_title_author_identity_checked",
+      "primary_url": "https://proceedings.neurips.cc/paper_files/paper/2017/hash/464d828b85b0bed98e80ade0a5c43b0f-Abstract.html",
+      "primary_source_sha256": "51c6f7fc44a274d6183744f4344304ef394e6a958b1457bc1587d9fb59446365",
+      "claim_boundary": "Identity and abstract-level positioning only; not reproduction, numerical comparison or exhaustive claim verification.",
+      "remaining": "Legacy page-range field requires a separate proceedings export check."
+    },
+    {
+      "number": 46,
+      "reference_at_intake": "[46] A. Wehenkel and G. Louppe, \u201cUnconstrained monotonic neural networks,\u201d in Adv. Neural Inf. Process. Syst. (NeurIPS), vol. 32, 2019, pp. 1545\u20131555.",
+      "review_status": "primary_title_author_identity_checked",
+      "primary_url": "https://proceedings.neurips.cc/paper_files/paper/2019/hash/2a084e55c87b1ebcdaad1f62fdbbac8e-Abstract.html",
+      "primary_source_sha256": "ae2fa8de4afdcc880672368488974730447aa043c1aafd69a7900628a674975a",
+      "claim_boundary": "Identity and abstract-level positioning only; not reproduction, numerical comparison or exhaustive claim verification.",
+      "remaining": "Legacy page-range field requires a separate proceedings export check."
+    }
+  ],
+  "publication_eligible": false,
+  "scientific_results_changed": false
+}

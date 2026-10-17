@@ -1,0 +1,144 @@
+schema_version = 1
+evidence_ids = ["LCR-E-FIXED-RATE-TILT-001"]
+local_only = true
+publication_eligible = false
+
+[[artifact]]
+path = "evidence/jobs/LCR-JOB-FIXED-RATE-TILT-001.toml"
+sha256 = "f674bada0298336ba0858e447e06b9530dbaea796e067419f70ba3c8f8cb9dea"
+
+[[artifact]]
+path = "protocols/fixed_rate_tilt_v1.toml"
+sha256 = "3194285e319139d17d27318b77b0d8a2bd2ce7027ff18b5553d41dc9ddb8d45a"
+
+[[artifact]]
+path = "results/audit/fixed_rate_tilt_v1/2003-BJ-FSS.pdf"
+sha256 = "4518f6f31b7a2c6464db29d4b88ccab95add2d78f0a726c1787800baada1891d"
+
+[[artifact]]
+path = "results/audit/fixed_rate_tilt_v1/2003-BJ-FSS.txt"
+sha256 = "46ec66ef43256936a51db2468c6457e05fc6c99938f1528d38d9841350e3dca8"
+
+[[artifact]]
+path = "results/audit/fixed_rate_tilt_v1/2003-doi-02.json"
+sha256 = "f9ae8d075bcbef200f6f1ee3757d8ac8d85ee79b46ad90cb30011ab15181284a"
+
+[[artifact]]
+path = "results/audit/fixed_rate_tilt_v1/additional_source_access.json"
+sha256 = "12ba9d6d2dcf51b1780c2f8b2223ccc6afc00f8a12463858678f6b035fb50a8c"
+
+[[artifact]]
+path = "results/audit/fixed_rate_tilt_v1/closure_checks.json"
+sha256 = "c1c2d5a2e338d77cd8b9459dcbbca8855a416129a7295ea33524837d29c79d80"
+
+[[artifact]]
+path = "results/audit/fixed_rate_tilt_v1/document_fixed_rate_tilt.py"
+sha256 = "605457bf3b8c8e4413fd4a20553d269c3f4b5cfef0e658af80c73a921e97b1e9"
+
+[[artifact]]
+path = "results/audit/fixed_rate_tilt_v1/evidence__jobs__LCR-JOB-FIXED-RATE-TILT-001.toml"
+sha256 = "f674bada0298336ba0858e447e06b9530dbaea796e067419f70ba3c8f8cb9dea"
+
+[[artifact]]
+path = "results/audit/fixed_rate_tilt_v1/index_fixed_rate_tilt.py"
+sha256 = "419189ac690a96444e94061829799467d296b2c8a2da27777ddea8008a7124a7"
+
+[[artifact]]
+path = "results/audit/fixed_rate_tilt_v1/initial_boundary_gradient_failure.txt"
+sha256 = "13f9c617e2f78e15cc81bc521ac697afb24823365d679871490d1c48f1d3f892"
+
+[[artifact]]
+path = "results/audit/fixed_rate_tilt_v1/initial_log_mask_prototype.py"
+sha256 = "7c9f9851f4da03f8f5cbddb38f010dbe259676ed3a742e4215f3e20da1db98ab"
+
+[[artifact]]
+path = "results/audit/fixed_rate_tilt_v1/kannike2013.pdf"
+sha256 = "eae44b5a1f42fd091a0e8fc857d0573b6eb42975797bb3bf1e2955e40e1307d8"
+
+[[artifact]]
+path = "results/audit/fixed_rate_tilt_v1/legacy_boundary_probe.json"
+sha256 = "b05e4ecfc67bcdc9b2a2a9b6393f1acfb017015c6f53c728acc2d229df1a96f5"
+
+[[artifact]]
+path = "results/audit/fixed_rate_tilt_v1/protocols__fixed_rate_tilt_v1.toml"
+sha256 = "3194285e319139d17d27318b77b0d8a2bd2ce7027ff18b5553d41dc9ddb8d45a"
+
+[[artifact]]
+path = "results/audit/fixed_rate_tilt_v1/resource_final.json"
+sha256 = "84805102e2bde911f66b5112d276899d4556c219329f106c932f86db92dd73a3"
+
+[[artifact]]
+path = "results/audit/fixed_rate_tilt_v1/review.json"
+sha256 = "0fbe2c78cb4924d9791d5f48a963757cd620b28b8e9dc0f9c1766c3d8f87556a"
+
+[[artifact]]
+path = "results/audit/fixed_rate_tilt_v1/source_access.json"
+sha256 = "522fcfb8a98e561a2d2c8b930a2135b06875b510cde1a2f18b0dd9ed6d62b35f"
+
+[[artifact]]
+path = "results/audit/fixed_rate_tilt_v1/src__lifecycle_readout__modeling__fixed_rate_tilt.py"
+sha256 = "4efe525dde714a7ddc6628ad1dbe7ec68b276d164287a5319de45ffe778532df"
+
+[[artifact]]
+path = "results/audit/fixed_rate_tilt_v1/tests__test_fixed_rate_tilt.py"
+sha256 = "dc22fe1e9df5e13dc8602c6f39d35741249238ec1561d07d551c34653b8bc635"
+
+[[artifact]]
+path = "results/audit/fixed_rate_tilt_v1/verification.json"
+sha256 = "ba494f7aabf6580cf102b78cf296c47c7c8e310d5545f1ee9dff6544cced2d50"
+
+[[artifact]]
+path = "results/audit/fixed_rate_tilt_v1/verify_fixed_rate_tilt.py"
+sha256 = "2e0eeca4ab00aba839b7e528493a38626ce8c848126078e6c611734f9988e80c"
+
+[[artifact]]
+path = "results/audit/fixed_rate_tilt_v1/weighted-means-2006.pdf"
+sha256 = "38e38bcd3908620a3a1bde45dbde50221db7588fbdc99604ab069f52152b02ea"
+
+[[artifact]]
+path = "results/audit/fixed_rate_tilt_v1/weighted-means-2006.txt"
+sha256 = "422d51000949772f67c6caf3f358cbfb7375d6f9375b262fbfaf132d4b0c0789"
+
+[[artifact]]
+path = "results/audit/fixed_rate_tilt_v1/wiki__INDEX.md"
+sha256 = "7020750486f10583e84149988ea1b581b0aa762fba95f99b80fde6c2dd3469ea"
+
+[[artifact]]
+path = "results/audit/fixed_rate_tilt_v1/wiki__START-HERE.md"
+sha256 = "32752ecb1fd918034f9e8bc13cdd508ca7efa72fc48aea7a0d025b2f553380a1"
+
+[[artifact]]
+path = "results/audit/fixed_rate_tilt_v1/wiki__claims__Current-Claim-Language.md"
+sha256 = "d66df1517d60a09ab796b62f252f9f01499db5ee7ef5d39d06de180e46269ff0"
+
+[[artifact]]
+path = "results/audit/fixed_rate_tilt_v1/wiki__evidence__Evidence-Ledger.md"
+sha256 = "f87bbdc4d5b5a2213098231a820dcba438558bd8d632ff9c7b18ae7513663833"
+
+[[artifact]]
+path = "results/audit/fixed_rate_tilt_v1/wiki__manuscript__Journal-Narrative.md"
+sha256 = "50af0fa35edec4c18c8dcbf55d4013f1b9d7b85bc64cb984addfc9b4f49d538f"
+
+[[artifact]]
+path = "results/audit/fixed_rate_tilt_v1/wiki__methods__Fixed-Rate-Readout-Certificate.md"
+sha256 = "a74bbcb68e6e423384a59b433195b496d770ddf448677882d0a0fd4f18b4a7af"
+
+[[artifact]]
+path = "results/audit/fixed_rate_tilt_v1/wiki__methods__Readout-Aware-Entropic-Preservation.md"
+sha256 = "02303ec07694a0877142ca7fa07342e448c97f537909a6b1470262990202bdd5"
+
+[[artifact]]
+path = "results/audit/fixed_rate_tilt_v1/wiki__questions__Contribution-Gap-Review.md"
+sha256 = "c9a19583f5879c113fb5a3db2f1011c19105d82caa63eb91e7b4b41b3192b975"
+
+[[artifact]]
+path = "results/audit/fixed_rate_tilt_v1/wiki__references__Technical-Source-Map.md"
+sha256 = "91b189c7147bc2d3813693f9933c90dfa588bdbc5037e9fbc8c3cd08981c67b5"
+
+[[artifact]]
+path = "results/audit/fixed_rate_tilt_v1/wiki__status__Live-Execution.md"
+sha256 = "ed5b12d68f43fd6a490f46a1539516167218c5e7f22469db0ddec844840e396e"
+
+[[artifact]]
+path = "results/audit/fixed_rate_tilt_v1/wiki__status__Project-Status.md"
+sha256 = "980e111826ff783bb09a466cd3d1eb41ef8ce364f3bd5d9caf82916331f18f4b"

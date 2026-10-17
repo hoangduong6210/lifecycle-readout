@@ -1,0 +1,64 @@
+schema_version = 1
+evidence_ids = ["LCR-E-LASTFM-PRIOR-001"]
+local_only = true
+publication_eligible = false
+
+[[artifact]]
+path = "evidence/jobs/LCR-JOB-LASTFM-PRIOR-001.toml"
+sha256 = "2fc12ceb46150c3507d230deaf52d0b084c36b22443cd7ddc7087afc2f23bf8a"
+
+[[artifact]]
+path = "results/audit/lastfm_prior_art_review_v1/anderson2014.pdf"
+sha256 = "fa90a8628ad651f340c98f6b7c89770babeca73307d3acebd384fb38271075ee"
+
+[[artifact]]
+path = "results/audit/lastfm_prior_art_review_v1/document_lastfm_prior_art.py"
+sha256 = "a99d3aaed8d87ba9105e989090f1d8d6059ea5dd8d53db34f5f338e923e4a4f8"
+
+[[artifact]]
+path = "results/audit/lastfm_prior_art_review_v1/evidence__jobs__LCR-JOB-LASTFM-PRIOR-001.toml"
+sha256 = "2fc12ceb46150c3507d230deaf52d0b084c36b22443cd7ddc7087afc2f23bf8a"
+
+[[artifact]]
+path = "results/audit/lastfm_prior_art_review_v1/fetch_lastfm_prior_art.py"
+sha256 = "eed12360f34c0190fd4a6a6877c2c767a9f97ea8c6631d16ed691363b82c77ef"
+
+[[artifact]]
+path = "results/audit/lastfm_prior_art_review_v1/recode2024.html"
+sha256 = "5263ad8393c5b4a288b66f642b898149033f070f8778ab494834d1555d498fff"
+
+[[artifact]]
+path = "results/audit/lastfm_prior_art_review_v1/repeatnet2019.pdf"
+sha256 = "db00ec37504e53bcea305a50bf22598b5c4bafc87e6281779e796759f5af22ec"
+
+[[artifact]]
+path = "results/audit/lastfm_prior_art_review_v1/review.json"
+sha256 = "8087c6bccd40987224f2025b4229c32c1e6a6e6ecb3e75d4af163316e3ca52f8"
+
+[[artifact]]
+path = "results/audit/lastfm_prior_art_review_v1/source_access.json"
+sha256 = "f5955bbfa5e0c9c5bec0f642e168972ca826c7e3876a4de7ae2bb0900a892fc7"
+
+[[artifact]]
+path = "results/audit/lastfm_prior_art_review_v1/tpne2024.html"
+sha256 = "14b05c6b3e43b55d07deec7fb793002673946320072c16147e6d3dafbfd0e4d0"
+
+[[artifact]]
+path = "results/audit/lastfm_prior_art_review_v1/verification.json"
+sha256 = "6f5ff7d5daccaa3db856ddd07c99be1ce4d3333c165e30c338b2e822c3d1f217"
+
+[[artifact]]
+path = "results/audit/lastfm_prior_art_review_v1/wiki__claims__Current-Claim-Language.md"
+sha256 = "4a67003b4789b916cd4370063501881189bc6bab217713ad4474c553adee265e"
+
+[[artifact]]
+path = "results/audit/lastfm_prior_art_review_v1/wiki__evidence__Evidence-Ledger.md"
+sha256 = "152acac5a211c6b982155333281a79682be88451606b1bba777db5291677cc40"
+
+[[artifact]]
+path = "results/audit/lastfm_prior_art_review_v1/wiki__questions__Contribution-Gap-Review.md"
+sha256 = "bdfa1dcaff5cd77b4cdd93f87117df694c75ad48726ab708e576046c4cbd0364"
+
+[[artifact]]
+path = "results/audit/lastfm_prior_art_review_v1/wiki__references__Technical-Source-Map.md"
+sha256 = "d01dc5d0256e360e391851a597ea08994991a3981463a7e35fd7c627aac38be1"

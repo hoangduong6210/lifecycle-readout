@@ -1,0 +1,29 @@
+\documentclass[pdflatex,sn-vancouver-num]{sn-jnl}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage[title]{appendix}
+\usepackage{booktabs}
+\usepackage{textcomp}
+\theoremstyle{thmstyleone}
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\raggedbottom
+\AddToHook{env/thebibliography/begin}{\interlinepenalty=10000\relax}
+\hypersetup{pdftitle={Monotonicity of Temporal Graph Readouts: Exact Certificates and Predictive Limits},pdfauthor={Duong Viet Hoang; Duong Viet Huy; Shih Lun-Min}}
+\begin{document}
+\title[Monotone Temporal Readouts]{Monotonicity of Temporal Graph Readouts: Exact Certificates and Predictive Limits}
+\author*[1]{Duong Viet Hoang}\email{Hoangduong4316@icloud.com}
+\author[2]{Duong Viet Huy}
+\author[1]{Shih Lun-Min}
+\affil*[1]{\orgdiv{Department of Computer Science and Information Engineering}, \orgname{Da-Yeh University}, \orgaddress{\city{Changhua}, \postcode{515}, \country{Taiwan}}}
+\affil[2]{\orgdiv{Department of Computer Science}, \orgname{Kent State University}, \orgaddress{\city{Kent}, \state{OH}, \postcode{44242}, \country{USA}}}
+\abstract{\textbf{Purpose:} Monotone latent dynamics need not make a temporal graph predictor decrease along its complete scoring path. We study preservation under normalized reweighting and distinguish structural guarantees from predictive utility.
+
+\textbf{Methods:} We derive an exact all-state certificate at specified decay rates and its halfspace geometry in inverse-tilt coordinates. We compare matched repairs, evaluate Wikipedia and Reddit scoring paths and history-matched prediction controls, and check an exploratory listening-history subgroup in the next month.
+
+\textbf{Results:} Among 66,138 retained model-candidate trajectories, pure-flow checks show no threshold crossings, whereas complete Reddit paths increase on approximately 99--100 percent of trajectories; Wikipedia paths show none. Rate-specific certification accepts every frozen-reference gradient comparator, while the stronger all-rate repair changes 46,619 Reddit configurations. Avoided deformation yields no mean ranking advantage. Predictive comparisons are mixed. The localized January listening-history gain is not confirmed in February: the mean average-precision (AP) difference is 0.000090, with a conditional interval spanning zero.
+
+\textbf{Conclusion:} The specialized certificate separates specified-rate preservation, universal-rate restrictions and active-coordinate decline. It supports precise structural diagnosis without establishing predictive superiority, causal lifecycle semantics or explanation of the complete learned model.}
+\keywords{Temporal link prediction, Monotonicity, Normalized reweighting, Convex projection, Historical negative sampling, Model interpretation}
+\maketitle
