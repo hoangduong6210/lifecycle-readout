@@ -10,6 +10,7 @@ import importlib.util
 import json
 import math
 import re
+import subprocess
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -29,6 +30,11 @@ def same(actual, expected):
 
 def verify():
     manifest = read("evidence/publication-manifest.json")
+    tracked = {p for p in subprocess.check_output(
+        ["git", "ls-files", "-z"], cwd=ROOT
+    ).decode().split("\0") if p}
+    missing_source = [entry["public"] for entry in manifest["source_file_map"] if entry["public"] not in tracked]
+    assert not missing_source, ("Source files absent from version control", missing_source)
     for entry in manifest["artifacts"]:
         p = ROOT / entry["path"]
         assert p.is_file(), entry["path"]
@@ -104,7 +110,14 @@ def verify():
             if '://' in link or link.startswith('#'): continue
             destination=(p.parent/link.split('#')[0]).resolve()
             count+=1
-            if not destination.is_relative_to(ROOT) or not destination.exists():broken.append((str(p.relative_to(ROOT)),link))
+            if not destination.is_relative_to(ROOT) or not destination.exists():
+                broken.append((str(p.relative_to(ROOT)),link))
+                continue
+            relative=destination.relative_to(ROOT).as_posix()
+            if destination.is_file() and relative not in tracked:
+                broken.append((str(p.relative_to(ROOT)),link,"not versioned"))
+            if destination.is_dir() and not any(name.startswith(relative+"/") for name in tracked):
+                broken.append((str(p.relative_to(ROOT)),link,"directory has no versioned contents"))
     assert not broken, broken
     assert not any(ord(c)<32 and c not in '\n\r\t' for c in (ROOT/'README.md').read_text())
     return {"distributed_evidence_records":len(manifest["artifacts"]), "markdown_links":count, "wiki_pages":len(list((ROOT/'wiki').rglob('*.md'))), "reported_candidate_trajectories":total, "status":"PASS"}
