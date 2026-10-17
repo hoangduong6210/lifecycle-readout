@@ -1,0 +1,52 @@
+schema_version = 1
+protocol = "protocols/scored_path_full_validation_v1.toml"
+entry_script = "scripts/run_scored_path_cohort.py"
+config_path = "configs/scored_path_full_reddit_v1.toml"
+datasets = ["reddit"]
+seeds = [1, 7, 42]
+parent_attempt = "results/audit/lcr-reddit-bf7053e7a2"
+backbone_batch_size = 128
+candidate_microbatch = 64
+
+[[input_files]]
+path = "results/audit/lcr-reddit-bf7053e7a2/source.zip"
+sha256 = "14641d9df9e4a99c70aaec1ff6d60d9509f085ed5e96eb074f4b0973fc138451"
+
+[[input_files]]
+path = "results/audit/lcr-reddit-bf7053e7a2/artifacts/results.json"
+sha256 = "86c8bc35393fe760b64153fcad4bfe6308c79def97988a0524ad39256562b114"
+
+[[input_files]]
+path = "scripts/diagnose_scored_silence.py"
+sha256 = "c17c5a3aa9c57f7c0de42c9232af6e6114a59f0ef5f1cf5ce03f74460cf3f929"
+
+[[input_files]]
+path = "results/audit/lcr-reddit-bf7053e7a2/artifacts/seed1/candidate_identity.npz"
+sha256 = "29f9540c2a126d6a4319d6ba9df1f79839b8ae2bec304a2b98634360b7319552"
+
+[[input_files]]
+path = "results/audit/lcr-reddit-bf7053e7a2/artifacts/seed1/ordered_gate_seed1.pt"
+sha256 = "3483b4dc32939a7c6c06128dd439f395d6026ac0660427802d44ea997baf4a0c"
+
+[[input_files]]
+path = "results/audit/lcr-reddit-bf7053e7a2/artifacts/seed7/candidate_identity.npz"
+sha256 = "714624ca4553b0ae2869d8a6fa3c34ee253a0df64cc63c90c922420ac0e0d4a2"
+
+[[input_files]]
+path = "results/audit/lcr-reddit-bf7053e7a2/artifacts/seed7/ordered_gate_seed7.pt"
+sha256 = "0075a04f8208050aa338436710aca51599e75214d46d998a247354b2963fdbaf"
+
+[[input_files]]
+path = "results/audit/lcr-reddit-bf7053e7a2/artifacts/seed42/candidate_identity.npz"
+sha256 = "ec3828461109380a53625cd091bafcad6a2ac701260e695d40bcb0a8593b109f"
+
+[[input_files]]
+path = "results/audit/lcr-reddit-bf7053e7a2/artifacts/seed42/ordered_gate_seed42.pt"
+sha256 = "24a6680901aeea5738fdd291ba89d80f5782db347d6f4cc60300ee6153aa9c1b"
+
+[compute]
+accelerator = "L4"
+timeout_seconds = 3600
+wall_timeout_seconds = 4200
+ephemeral = true
+require_cuda = true

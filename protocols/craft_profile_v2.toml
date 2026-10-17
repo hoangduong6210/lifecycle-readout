@@ -1,0 +1,21 @@
+protocol_id = "LCR-P-CRAFT-PROFILE-002"
+status = "prospective-feasibility-only"
+date = "2026-10-15"
+amends = "LCR-P-CRAFT-PROFILE-001"
+amendment_reason = "First runtime upload rejected 149MB source bundle before execution. Retain only the same declared 20 candidate anchors, without altering their candidates; no timing outcome was observed."
+scientific_use = "Technical interface, numerical finite-value, throughput and memory checks only. No model efficacy, hyperparameter selection or novelty claim."
+dataset_id = "LCR-D-TGBSEQ-ML20M-001"
+author_repository = "https://github.com/luyi256/CRAFT"
+author_commit = "81590a78dddf1f0f589bc710fec2effd83f6cd5a"
+author_changes = "Original files retained byte-identically with MIT license. AST changes only two import module names into a private namespace; author loader, evaluator and runner are not executed."
+history = "Provided train-validation stream only; every source history and global candidate update queried strictly before t. Recent past ties preserve supplied file order. Absolute timestamps remain float64 until subtraction."
+candidates = "Existing screen candidate cache, 100 negatives and positive for deterministic validation anchors. No regeneration. Training profiling draws one train-catalogue negative excluding all simultaneous positives of the same source."
+profile_training = "Separate fresh author initialization per batch size; two warmup plus eight measured Adam/BPR updates with random training rows. No epochs completed, no accuracy interpretation."
+profile_evaluation = "20 evenly spaced validation queries after final profile fit; finite scores and roundtrip saved, no MRR computed."
+configuration = "Two layers, two heads, 128 embedding, recent 20, author positional and output time features; profiling settings only, not verified ML-20M paper-optimal hyperparameters."
+performance_boundary = "End-to-end train step includes sampling/history/transfer/optimizer; epoch duration projected from short timing samples, not measured full epochs. GPU validation forward excludes input preparation."
+test_scoring_permitted = false
+publication_eligible = false
+compute = "One owned bounded Colab L4 attempt; source/input/artifact hashes, roundtrip state/tensors; finally teardown verified."
+
+anchor_identity = "results/audit/q1_preflight_v1/craft_profile/anchor_identity.json"

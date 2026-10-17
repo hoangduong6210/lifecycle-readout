@@ -1,0 +1,3 @@
+Dataset,Total_events,Train_queries,Validation_queries,Test_queries,Unsupported_events,Training_excluded_events
+Wikipedia,157474,2805,884,977,138000,14808
+Reddit,672447,37206,10139,11002,538695,75405

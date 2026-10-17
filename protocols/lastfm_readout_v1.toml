@@ -1,0 +1,15 @@
+protocol_id = "LCR-P-LASTFM-READOUT-001"
+status = "posthoc-mechanistic-decomposition-after-complete-primary-results"
+date = "2026-10-16"
+parent_protocol = "LCR-P-LASTFM-MODEL-001"
+question = "How much of the retained phase predictor is exposed by its exact additive branch, and how large can that branch affect a probability?"
+models = ["phase_competition"]
+seeds = [101,202,303]
+scope = "All retained January validation queries, both candidates. Same checkpoints/candidates; no fit, new labels, unseen test or remote allocation."
+formula = "r(t,E)=sum_j b_j*(exp(-k_j*t-h_j*E)-1), b_j=amplitude*softplus(raw_gap_j)/5, k_j=softplus(raw_clock_j)/time_unit, h_j=softplus(raw_event_j)/exposure_unit. Four active components, uniform five-phase reset."
+checks = "Native CPU full inference vs retained probabilities; exact logit base-plus-residual identity; sum of component terms vs native branch; nonpositive branch and uniform bound -sum(b)<=r<=0; sigmoid probability displacement <=sum(b)/4; simultaneous component permutation preserves residual."
+outputs = "Every per-query base logit, residual, final logit, probabilities and component terms; learned physical-time and dose half-lives; global logit/probability bounds; empirical absolute probability change mean/median/max; AP/AUC/pair accuracy before and after zeroing ONLY residual at the fixed trained base; fixed first/middle/last validation positive-query examples per seed."
+interpretation = "Fixed-base ablation is not retraining history_only and not a causal intervention on user behavior. Branch counterfactuals hold base/context fixed; they are not complete-predictor time changes. Component labels are permutation-nonidentifiable and not observed lifecycle stages. No human-interpretability or explanation-faithfulness study outside algebraic additive reconstruction."
+publication_eligible = false
+model_fit = false
+test_scored = false

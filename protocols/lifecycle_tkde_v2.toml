@@ -1,0 +1,47 @@
+protocol_id = "LCR-P-TKDE-002"
+status = "implementation-and-exploratory-audit"
+supersedes = "LCR-P-TKDE-001"
+amendment_date = "2026-10-14"
+amendment_reason = "Remove synthetic negative-history signals, future history, epoch contamination, and test-trained ablations; preserve prior audit outputs."
+datasets = ["wikipedia", "reddit", "mooc", "lastfm"]
+seeds = [1, 7, 42]
+split_chronological = [0.70, 0.15, 0.15]
+inductive_unseen_node_ratio = 0.10
+split_seed = 42
+negative_sampling = "bipartite-strictly-past-destinations-excluding-current-time-positives"
+empty_pool_policy = "skip-supervision-and-record-event-id; still-observe-real-event"
+simultaneous_events = "query-all-at-t-before-observing-any-event-at-t"
+input_features = "strictly-past-neighbor-edge-features-only"
+validation_selection = "maximum-validation-AP-with-earliest-epoch-tie-break"
+test_evaluation = "single-complete-chronological-test-stream; stratify-after-scoring"
+ablation_training = "independent-full-training-split; never-test-labels"
+causal_boundary = "model-interventions-only; monotonicity-is-an-imposed-architectural-property"
+
+[gates.latent_phase_diversity]
+metric = "batch_diversity_entropy"
+min_threshold = 1.0
+uncertainty_unit = "nats"
+
+[gates.continuous_transition_stability]
+metric = "min_decay_rate"
+min_threshold = 0.01
+max_transition_norm = 100.0
+transition_norm_definition = "maximum-Frobenius-norm-of-realized-T-on-scored-test-positive-candidates"
+
+[gates.shortcut_mitigation_gain]
+metric = "shortcut_gain_transductive_ap"
+min_threshold = 0.001
+
+[gates.counterfactual_decay_monotonicity]
+metric = "trajectory_monotonicity_rate"
+min_threshold = 0.95
+uncertainty_unit = "fraction"
+interpretation = "implementation-consistency; not-discovered-causality"
+
+[acceptance]
+rule = "ALL_GATES_PASS_AND_COMPLETE_COVERAGE_AND_PROVENANCE"
+aggregation = "sample_mean_and_ddof1_std_across_three_seeds"
+decision_authority = "formal_audit_before_release"
+required_models = ["base", "ordered_gate", "unordered_gate"]
+publication_eligibility = false
+remaining_requirements = ["matched-official-baselines", "shortcut-specific-strata", "phase-stability-and-semantics", "dataset-license-and-source-closure", "immutable-release-review"]

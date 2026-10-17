@@ -1,0 +1,174 @@
+schema_version = 1
+datasets = ["lastfm-february"]
+entry_script = "scripts/score_lastfm_february.py"
+config_path = "configs/lastfm_february_launch_v1.toml"
+protocol = "protocols/lastfm_february_v1.toml"
+prepared_directory = "results/audit/lastfm_february_preparation_v1/artifacts"
+checkpoint_directory = "results/audit/lcr-lastfm-original-8b520b4f5c/artifacts"
+seeds = [101, 202, 303]
+models = ["history_only", "dose_mlp", "scalar_clock", "phase_competition", "shuffled_phase", "activity_mlp"]
+test_start_ms = 1233446400000
+test_end_ms = 1235865600000
+
+[compute]
+accelerator = "L4"
+timeout_seconds = 1800
+wall_timeout_seconds = 2100
+ephemeral = true
+require_cuda = true
+
+[[input_files]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/data.npz"
+sha256 = "f6bb028c0fc6efe57c2a6cc654a0e970b690d493f940d1b854dedbe0feb193a2"
+
+[[input_files]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/results.json"
+sha256 = "aea8070a3985a90336807b0ac5bc0fd147c1202d601c9c4f94782c9d4ae1b992"
+
+[[input_files]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/preanalysis.json"
+sha256 = "7dbf954acecb86693e2105ca4ac8f46a9591c0122a5a362d9ce9fe8acfdb7321"
+
+[[input_files]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/artifact_manifest.json"
+sha256 = "a66091ab177f49e9544cabdeeaeec57c24639a3ea7952d9f25d8a53b968726de"
+
+[[input_files]]
+path = "results/audit/lastfm_february_plan_v1/specification.json"
+sha256 = "224b8be95f3c9695785b663ae5b826240435e27d47132e96a7cfa996e4f41ee6"
+
+[[input_files]]
+path = "configs/lastfm_february_evaluation_v1.toml"
+sha256 = "c2f3f09db0cb0bb3445a73ec3d2fe624ae1044a228eb6ea7b162b1ffa81a62a5"
+
+[[input_files]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/seed101/candidate_stream.npz"
+sha256 = "bdcc60428b001c0c73efa290908ce2ef56ec3caf9a4e0b14ef3abc63eb25da75"
+
+[[input_files]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/seed101/artist_features.npz"
+sha256 = "cadf25955277cb77cdf2ec8fa77859f93801d743480cba5aabdfe0e50a32aab3"
+
+[[input_files]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/seed101/test_rows.npz"
+sha256 = "b1cf0545e7f1c7ca2998496ebfa9785b871cf6bab64f95626008c7829bde769e"
+
+[[input_files]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/seed101/prefix_audit.json"
+sha256 = "e078faa6f61c2f516461b226a4b01b6928644bf7290fc55d2a80add6f3a9fd85"
+
+[[input_files]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/seed101/anchor_audit.json"
+sha256 = "a93624b5ac279ae8f9b7e7dba87f9c52b79f2e5201452859ea00295ac652aee5"
+
+[[input_files]]
+path = "results/audit/lcr-lastfm-original-8b520b4f5c/artifacts/seed101/history_only_seed101.pt"
+sha256 = "af9c47b5849ad9a5737042a423e96bc7074919e3bccb9e71465fc8da1964e93e"
+
+[[input_files]]
+path = "results/audit/lcr-lastfm-original-8b520b4f5c/artifacts/seed101/dose_mlp_seed101.pt"
+sha256 = "ce2fb64fb78c8b5a1eb65ab2c6a4a4814dd905a67a3296098f28dc319ee85efe"
+
+[[input_files]]
+path = "results/audit/lcr-lastfm-original-8b520b4f5c/artifacts/seed101/scalar_clock_seed101.pt"
+sha256 = "f1596cbf88a8a094dafc49049156d8f1bdf200500a560b36d5ae698c36ba0536"
+
+[[input_files]]
+path = "results/audit/lcr-lastfm-original-8b520b4f5c/artifacts/seed101/phase_competition_seed101.pt"
+sha256 = "c8fd688fd2a1e794c49a488d4925a127a84c1d8b06bd4918299be6d79904964d"
+
+[[input_files]]
+path = "results/audit/lcr-lastfm-original-8b520b4f5c/artifacts/seed101/shuffled_phase_seed101.pt"
+sha256 = "9b0500d805a31d3708408c07b46b9007c5da06259092aae17a0bdbb58049e1f2"
+
+[[input_files]]
+path = "results/audit/lcr-lastfm-original-8b520b4f5c/artifacts/seed101/activity_mlp_seed101.pt"
+sha256 = "6c6bf826e29b66d8ad50974ae5b76eb7e26758890039b5942c7e0090e16828fd"
+
+[[input_files]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/seed202/candidate_stream.npz"
+sha256 = "7f4e499b70658f54c8fa5fec99d0970ddb0bc933e20d5dbf35c4cc37177cacb9"
+
+[[input_files]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/seed202/artist_features.npz"
+sha256 = "a4519855d62daf77c507fe849cec65d4c5014fa12b65e5e1c5849927beca588e"
+
+[[input_files]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/seed202/test_rows.npz"
+sha256 = "b1cf0545e7f1c7ca2998496ebfa9785b871cf6bab64f95626008c7829bde769e"
+
+[[input_files]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/seed202/prefix_audit.json"
+sha256 = "e078faa6f61c2f516461b226a4b01b6928644bf7290fc55d2a80add6f3a9fd85"
+
+[[input_files]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/seed202/anchor_audit.json"
+sha256 = "eac6ba9ef7c8753ed3c67e557cd8c04d65947114bb6b11846a68b499865781b7"
+
+[[input_files]]
+path = "results/audit/lcr-lastfm-original-8b520b4f5c/artifacts/seed202/history_only_seed202.pt"
+sha256 = "67a03dafc460dccb44c1cd4a4c7473ca7392accbc78dc17d0f2fe984d3fd7f80"
+
+[[input_files]]
+path = "results/audit/lcr-lastfm-original-8b520b4f5c/artifacts/seed202/dose_mlp_seed202.pt"
+sha256 = "b4ea3797c6a8698861f95177172b60beb98ff20cd2b3004660e23d7a5bf86c6b"
+
+[[input_files]]
+path = "results/audit/lcr-lastfm-original-8b520b4f5c/artifacts/seed202/scalar_clock_seed202.pt"
+sha256 = "4a893e65d22cf779f59b36f88e89104164645e53d4c17cee0fccb99095da7008"
+
+[[input_files]]
+path = "results/audit/lcr-lastfm-original-8b520b4f5c/artifacts/seed202/phase_competition_seed202.pt"
+sha256 = "d39b2ef2a2876897dcd9b97c7fd345b7354abe9afbf78abe8276dc1a496b8eea"
+
+[[input_files]]
+path = "results/audit/lcr-lastfm-original-8b520b4f5c/artifacts/seed202/shuffled_phase_seed202.pt"
+sha256 = "bed8bd65079729f88df85817b2b36972c003e1d4d4ae63c2cdba0ddef536a296"
+
+[[input_files]]
+path = "results/audit/lcr-lastfm-original-8b520b4f5c/artifacts/seed202/activity_mlp_seed202.pt"
+sha256 = "43f9404e110c415691defe59e9e6a31f78f6091b1da8ef8745d0d512e2ed429c"
+
+[[input_files]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/seed303/candidate_stream.npz"
+sha256 = "6e5da7eae231ca6513c6dc3a6e2b9b24a348b15574b1cd2338ffff3272a6792a"
+
+[[input_files]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/seed303/artist_features.npz"
+sha256 = "030774bf670577134ec60b8e5c38d9a32e8b053ac821a3ee828028b2ac8febe4"
+
+[[input_files]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/seed303/test_rows.npz"
+sha256 = "b1cf0545e7f1c7ca2998496ebfa9785b871cf6bab64f95626008c7829bde769e"
+
+[[input_files]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/seed303/prefix_audit.json"
+sha256 = "e078faa6f61c2f516461b226a4b01b6928644bf7290fc55d2a80add6f3a9fd85"
+
+[[input_files]]
+path = "results/audit/lastfm_february_preparation_v1/artifacts/seed303/anchor_audit.json"
+sha256 = "fac2015b7ffe239b97d91702c91bd649a1b0296fe467db5d5f4b9e5455a5a3ae"
+
+[[input_files]]
+path = "results/audit/lcr-lastfm-original-8b520b4f5c/artifacts/seed303/history_only_seed303.pt"
+sha256 = "747044a82e7b9d15e9cb4c29925e617b43cb06e0f9d3dde2398c5404fa0749cc"
+
+[[input_files]]
+path = "results/audit/lcr-lastfm-original-8b520b4f5c/artifacts/seed303/dose_mlp_seed303.pt"
+sha256 = "79e8f30578e27c70c3dd7910b5e8605ce581a7265fe2362dcf5665ec4be23593"
+
+[[input_files]]
+path = "results/audit/lcr-lastfm-original-8b520b4f5c/artifacts/seed303/scalar_clock_seed303.pt"
+sha256 = "9e45645f35d93ad9880402ee5debd56457400dcbf6b71eaf473030ab208c074d"
+
+[[input_files]]
+path = "results/audit/lcr-lastfm-original-8b520b4f5c/artifacts/seed303/phase_competition_seed303.pt"
+sha256 = "caa6d9ba8450c1db624c3e3b7c36b4ee21cdff49bde7ef6ee7128c7acf9bdfba"
+
+[[input_files]]
+path = "results/audit/lcr-lastfm-original-8b520b4f5c/artifacts/seed303/shuffled_phase_seed303.pt"
+sha256 = "29a094d22d444fd5da18eddae69c6ac48602ad0690479c1e58b7ee82dc653424"
+
+[[input_files]]
+path = "results/audit/lcr-lastfm-original-8b520b4f5c/artifacts/seed303/activity_mlp_seed303.pt"
+sha256 = "7218cc287b6e93f457137d01d8ed4d9540e2a4c468db4c50af81db1ef2e42d9f"

@@ -1,0 +1,25 @@
+protocol_id = "LCR-P-EVENT-COUPLING-001"
+status = "prospective-exploratory-model-comparison"
+date = "2026-10-16"
+relationship = "New exact-state comparison after negative residual pilot and successful input audit; no earlier result or endpoint altered."
+datasets = ["wikipedia"]
+seeds = [101, 202, 303]
+split_chronological = [0.70, 0.15, 0.15]
+inductive_unseen_node_ratio = 0.10
+negative_sampling = "Existing matched_historical candidates, unchanged parent identities; no fallback."
+input_history = "Frozen own-event candidate reference and event-time competitor profiles from LCR-P-COMPETE-HISTORY-001, byte-pinned before allocation. Strict-past, tied-group queries before updates; test exposure never queried."
+state_reset = "After every allowed own-edge timestamp group reset to uniform five-phase simplex, independent of event multiplicity. No learned context reset, recurrent neural transition or latent semantic supervision."
+flow = "Four active masses exp(-d_j*time/time_unit - gamma_j*E/exposure_unit), lost mass to dormant. Constant global learned nonnegative rates. E is accumulated since last own timestamp."
+readout = "Residual a*(sum_j gap_j*z_j - sum_j gap_j/5), nonnegative amplitude and positive gaps. Exact zero residual at reset and amplitude initialized zero. No subsequent competitive softmax."
+training_units = "Median positive elapsed time and median positive exposure over training candidate slots only, separately recorded per arm. Exposure-empty masked control uses unit one."
+primary_endpoint = "Selected validation AP phase_competition minus dose_mlp, same full inputs, common backbone/history architecture and exactly equal branch parameter count."
+controls = "history_only has no residual; dose_mlp uses log1p(normalized time/exposure) through 2-to-3 GELU and bias-free 3-to-1 head plus signed amplitude (13 parameters); scalar_clock gamma_j=alpha*d_j (10 branch parameters); phase_competition independent rates/gaps/amplitude (13); shuffled_phase permutes only target reference coordinates, same count/availability; activity_mlp masks only exposure in base and dose head (13)."
+secondary_endpoints = ["phase_competition minus scalar_clock", "phase_competition minus shuffled_phase", "dose_mlp minus activity_mlp", "phase_competition minus history_only", "AUC", "sampled Brier", "paired accuracy", "selected epoch", "amplitude", "rates", "branch and total parameters"]
+initialization = "All arms seeded independently with the same seed before model construction; identical base/history tensors. All residual amplitudes zero. Phase/event rates start [0.1,0.3,1,3], gaps [0.5,1,1.5,2]; scalar alpha one."
+objective = "Identical pointwise BCE plus 0.5 affinity BCE, no lifecycle regularization or task reweighting."
+selection = "Ten epochs, earliest maximum validation AP, no new tuning, threshold changes, arm dropping or automatic dataset expansion after outcomes."
+audit = "All retained validation predictions/checkpoints replayed with exact launch source; metrics, earliest-maximum selection, training-only normalization/units, parent input equality, arm coverage and parameter counts checked. History validity inherits fixed prior raw-history anchors, not every-row independent reconstruction. Probability replay uses rtol 0.0002 and atol 0.00002; metric reconstruction uses rtol 0.000001 and atol 0.00000001. No optimizer replay."
+compute = "One owned Colab L4, timeout and artifact retrieval with finally teardown; no heavy local training."
+interpretation = "Previously inspected recurrent-support Wikipedia, validation-selected descriptive seed outcomes; no significance, causal death labels, calibrated survival, verified semantics or novelty clearance. Conditional residual direction is not a full-score guarantee because the shared history scorer sees time and exposure."
+test_scoring_permitted = false
+publication_eligible = false

@@ -1,0 +1,12 @@
+protocol_id = "LCR-P-FIXED-RATE-TILT-001"
+status = "working-mathematical-specification-after-derivation; not a preregistered model experiment"
+date = "2026-10-16"
+parent = "LCR-E-READOUT-TILT-001"
+family = "Fixed positive tilt on absorbing star flow; nonnegative readout gaps; nonnegative fixed rate vector or finite conic generators; every initial simplex state and all defined nonnegative flow times."
+result = "Exact pairwise fixed-rate condition, extension to nonnegative rate cones, universal-positive-rate recovery and tilt-uniform co-ordering corollary."
+prototype = "Untrained cumulative positive gaps and physical/event rates with free fixed active log tilts; no fitted model replacement or full-affinity certificate."
+verification = "Written arbitrary-dimension proof; symbolic quotient/edge identities dimensions1-4; exact rational safe/unsafe/zero-gap witnesses; separate fixed-moment LP checks; constructor derivative/boundary/gradient and random-state tests."
+limitations = "No proof-assistant formalization, human proof review, exhaustive priority, trained utility or data semantics. Float-margin boundary cases remain explicit; not machine-arithmetic certification."
+model_fit = false
+gpu_allocated = false
+publication_eligible = false

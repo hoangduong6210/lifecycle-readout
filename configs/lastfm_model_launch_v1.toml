@@ -1,0 +1,83 @@
+datasets = ["lastfm-original"]
+entry_script = "scripts/train_lastfm_model.py"
+config_path = "configs/lastfm_model_launch_v1.toml"
+prepared_directory = "results/audit/lastfm_model_preparation_v1/artifacts"
+schema_version = 1
+protocol = "protocols/lastfm_model_v1.toml"
+seeds = [101,202,303]
+models = ["history_only", "dose_mlp", "scalar_clock", "phase_competition", "shuffled_phase", "activity_mlp"]
+query_hash_seed = 17
+training_query_modulus = 16
+minimum_gap_seconds = 3600
+hard_time_unit_seconds = 3600
+max_neighbors = 20
+max_prepared_queries_per_seed = 500000
+epochs = 10
+batch_size = 512
+learning_rate = 0.001
+weight_decay = 0.00001
+hidden_dim = 128
+time_dim = 32
+artist_embedding_dim = 32
+pair_feature_dim = 11
+decay_time_unit = 3600
+affinity_auxiliary_weight = 0.5
+initial_phase_rates = [0.1,0.3,1.0,3.0]
+initial_readout_gaps = [0.5,1.0,1.5,2.0]
+evaluation_split = "validation"
+training_end_exclusive_utc = "2009-01-01T00:00:00Z"
+validation_end_exclusive_utc = "2009-02-01T00:00:00Z"
+[compute]
+accelerator = "L4"
+timeout_seconds = 7200
+wall_timeout_seconds = 7800
+ephemeral = true
+require_cuda = true
+
+[[input_files]]
+path = "results/audit/lastfm_model_preparation_v1/artifacts/data.npz"
+sha256 = "5d24c9afac98e0f2245a802e739f6144526e96d5b114c5ae4615cfbd1fca92ff"
+
+[[input_files]]
+path = "results/audit/lastfm_model_preparation_v1/artifacts/results.json"
+sha256 = "2ac4c1569503ebb760163b89612596209e7afbcb2498463f5dc790c67ba78560"
+
+[[input_files]]
+path = "results/audit/lastfm_model_preparation_v1/artifacts/preanalysis.json"
+sha256 = "4a91f9e1b8d0cb03a5fd039bc6680435c54cc6e395ac86eb36d45455d473e694"
+
+[[input_files]]
+path = "results/audit/lastfm_model_preparation_v1/artifacts/seed101/candidate_stream.npz"
+sha256 = "9ca021f02ed1d9ed07e8c494501ebcd7718f9e1e20d8e1efea1aa11ce214c2b4"
+
+[[input_files]]
+path = "results/audit/lastfm_model_preparation_v1/artifacts/seed101/artist_features.npz"
+sha256 = "1502aa2587607667741fcfbc1a8c0c2b23abbf45efedfd24b8a386e53734ee22"
+
+[[input_files]]
+path = "results/audit/lastfm_model_preparation_v1/artifacts/seed101/anchor_audit.json"
+sha256 = "24dd7f81534c2670dbbd7fd04bf29fcade4fffe7a8a5a37fc71e81bbd370e406"
+
+[[input_files]]
+path = "results/audit/lastfm_model_preparation_v1/artifacts/seed202/candidate_stream.npz"
+sha256 = "b7d609f5f832640d61322065cef714d3f16673fe7d655b03348a001afff0d23b"
+
+[[input_files]]
+path = "results/audit/lastfm_model_preparation_v1/artifacts/seed202/artist_features.npz"
+sha256 = "c3fe7505832e64ba760c83e1c88468cd91fb086f6ea568706ca3ae1ec3f9139b"
+
+[[input_files]]
+path = "results/audit/lastfm_model_preparation_v1/artifacts/seed202/anchor_audit.json"
+sha256 = "3cf1bb792743170eac71bbb78cbe3ca420b4825feb0b0ad7ab6828149757bfcd"
+
+[[input_files]]
+path = "results/audit/lastfm_model_preparation_v1/artifacts/seed303/candidate_stream.npz"
+sha256 = "c176314573fca12c2a80c33f2bb7a3230d775ee14b0195525e6d553e7534643a"
+
+[[input_files]]
+path = "results/audit/lastfm_model_preparation_v1/artifacts/seed303/artist_features.npz"
+sha256 = "d8d1d6b8b00d4e39aeb33bda7dcb07c7cd5e27f328bcc71a964a73acef312c2c"
+
+[[input_files]]
+path = "results/audit/lastfm_model_preparation_v1/artifacts/seed303/anchor_audit.json"
+sha256 = "1ed2e609abdf95387d2f93316483a5007ce89754b0293c0f7c138ee03691f1ff"

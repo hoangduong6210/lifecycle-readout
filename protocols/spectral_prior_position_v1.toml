@@ -1,0 +1,11 @@
+protocol_id = "LCR-P-SPECTRAL-POSITION-001"
+date = "2026-10-16"
+status = "targeted source comparison after discovery; not a preregistered efficacy experiment"
+purpose = "Relate the existing absorbing-readout certificate to positive-coefficient exponential/Laplace-ratio monotonicity priors and delimit the exact state-uniform specialization."
+sources = ["Yang-Tian arXiv1803.02513v1", "Mao-Tian arXiv2306.04659v1", "Karp-Vishnyakova-Zhang arXiv2408.01755v2"]
+verification = "Exact symbolic spectral/simplex identity and quotient derivative; rational all-state-safe examples failing the inspected coefficient-shape predicates; same coefficient-ratio ordering with safe and unsafe rates; explicit negative denominator coefficient despite a positive normalizer."
+scope = "Only the stated sufficient-predicate and representation comparison. No claim that every result of these papers is weaker, that no equivalent reformulation exists, or that a targeted search establishes priority."
+inputs = "Declared exact rational synthetic fixtures only; no model, dataset, selection or endpoint change."
+model_fit = false
+gpu_allocated = false
+publication_eligible = false

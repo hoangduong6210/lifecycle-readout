@@ -1,0 +1,48 @@
+schema_version = 1
+protocol = "protocols/readout_repair_validation_v1.toml"
+entry_script = "scripts/run_readout_repair.py"
+config_path = "configs/readout_repair_wikipedia_v1.toml"
+datasets = ["wikipedia"]
+seeds = [1, 7, 42]
+parent_attempt = "results/audit/lcr-wikipedia-256094e9e7"
+anchor_directory = "results/audit/readout_repair_inputs_v1/wikipedia"
+candidate_microbatch = 64
+
+[[input_files]]
+path = "results/audit/readout_repair_inputs_v1/wikipedia/parent_code.zip"
+sha256 = "a34bc3da7ef098d629ead2dfb1efaa86223f78fca1b2172ee1f9fe852451037c"
+
+[[input_files]]
+path = "results/audit/lcr-wikipedia-256094e9e7/artifacts/results.json"
+sha256 = "d3d91176345c3c7c7322c1c29d41897e68468ece2f782cf3a9a969e0833de10d"
+
+[[input_files]]
+path = "results/audit/readout_repair_inputs_v1/wikipedia/seed1_anchors.npz"
+sha256 = "8944b52ce49c1c572fe13d1b1bec7b74901a4f4a4088fa33ec785be06516b526"
+
+[[input_files]]
+path = "results/audit/lcr-wikipedia-256094e9e7/artifacts/seed1/ordered_gate_seed1.pt"
+sha256 = "55ff4d6f55c6fe8b146985ae6f51013744974eb100090cabb8f4497b692c465c"
+
+[[input_files]]
+path = "results/audit/readout_repair_inputs_v1/wikipedia/seed7_anchors.npz"
+sha256 = "21ab16091c1b2a82b4303eccf5e849b920cedaf97a095a0ec047378ba4fa2051"
+
+[[input_files]]
+path = "results/audit/lcr-wikipedia-256094e9e7/artifacts/seed7/ordered_gate_seed7.pt"
+sha256 = "f7c8ecc77146c75c3cd83db4d8ea66316ef3b372fbb889a5c5297115498801bd"
+
+[[input_files]]
+path = "results/audit/readout_repair_inputs_v1/wikipedia/seed42_anchors.npz"
+sha256 = "892f34f6aa417427b0a59e9140cf073566e9b27766e2de70faeb919f5c896ad7"
+
+[[input_files]]
+path = "results/audit/lcr-wikipedia-256094e9e7/artifacts/seed42/ordered_gate_seed42.pt"
+sha256 = "b576cc4ff823b9a1511c278f6dd352f35de9529fdcc14f3dedbf6f1b7eb9b9d5"
+
+[compute]
+accelerator = "L4"
+timeout_seconds = 3600
+wall_timeout_seconds = 4200
+ephemeral = true
+require_cuda = true

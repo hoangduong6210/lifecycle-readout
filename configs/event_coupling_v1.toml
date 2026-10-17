@@ -1,0 +1,75 @@
+schema_version = 1
+protocol = "protocols/event_coupling_v1.toml"
+entry_script = "scripts/train_event_coupling.py"
+config_path = "configs/event_coupling_v1.toml"
+datasets = ["wikipedia"]
+seeds = [101, 202, 303]
+models = ["history_only", "dose_mlp", "scalar_clock", "phase_competition", "shuffled_phase", "activity_mlp"]
+split_seed = 42
+epochs = 10
+batch_size = 256
+learning_rate = 0.001
+weight_decay = 0.00001
+hidden_dim = 128
+time_dim = 32
+max_neighbors = 20
+history_decay = 0.01
+hard_time_unit = 1000.0
+decay_time_unit = 1000.0
+pair_feature_dim = 10
+affinity_auxiliary_weight = 0.5
+profile_dimensions = 32
+profile_seed = 17
+cpu_smoke_event_limit = 1000
+initial_phase_rates = [0.1, 0.3, 1.0, 3.0]
+initial_readout_gaps = [0.5, 1.0, 1.5, 2.0]
+evaluation_split = "validation"
+audit_probability_rtol = 0.0002
+audit_probability_atol = 0.00002
+data_archive = "results/audit/lcr-wikipedia-256094e9e7/source.zip"
+prepared_data_sha256 = "64ad05c6114e592b594e0f0b48f842993d04996d860805821c18c190cbfb3f83"
+feature_directory = "results/audit/competitive_event_history_execution_v1"
+candidate_directory = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts"
+
+[[input_files]]
+path = "results/audit/lcr-wikipedia-256094e9e7/source.zip"
+sha256 = "571c882aaaeb7e2da7d0d621cab458c4c95b403179945963c5fa1a86cc7c0bde"
+
+[[input_files]]
+path = "results/audit/competitive_event_history_execution_v1/seed101_features.npz"
+sha256 = "116b42ffe12d781c72a13375990b2cd98bbb8055ac33dbfd51378e3fdc219dc5"
+
+[[input_files]]
+path = "results/audit/competitive_event_history_execution_v1/seed202_features.npz"
+sha256 = "c73fadb341da6f0c01166e707370ebac326b9a0cb7481edee9b7e8d4f6832a1f"
+
+[[input_files]]
+path = "results/audit/competitive_event_history_execution_v1/seed303_features.npz"
+sha256 = "35ea9d44d0dbc7f859fd72d3655435a80f2fad419aa5c96dd3f77c0eaef75ebc"
+
+[[input_files]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed101/candidate_identity.npz"
+sha256 = "2bf1ffcfd88e1a07fbb54a820f6d474c66cea5a876db50f21e240a1dd0e60fd0"
+
+[[input_files]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed202/candidate_identity.npz"
+sha256 = "6c8be63a3d3a70ae10adc1d67247338ef7801af33d694ff4d9ddf453e9494571"
+
+[[input_files]]
+path = "results/audit/lcr-wikipedia-f83b3eafa4/artifacts/seed303/candidate_identity.npz"
+sha256 = "9b4b1ed95663a8124aeabcfed09ef73785b2021cc733fe6f77da5b5f5770b6d8"
+
+[[input_files]]
+path = "results/audit/competitive_event_history_execution_v1/results.json"
+sha256 = "e3791a2e62bd0e9c15fe5621c659842bb3ea385baad5f7ab330172b55ee212a1"
+
+[[input_files]]
+path = "results/audit/competitive_event_history_execution_v1/preanalysis.json"
+sha256 = "9be6435e25f644dc86f51355384fafed8744c16a36bafe8383a9bd383001e01b"
+
+[compute]
+accelerator = "L4"
+timeout_seconds = 3600
+wall_timeout_seconds = 4200
+ephemeral = true
+require_cuda = true

@@ -1,0 +1,7 @@
+Dataset,Seed,Candidates,All_rate_changes,Specified_rate_changes,All_rate_squared_distance,Specified_rate_squared_distance
+wikipedia,1,1768,0,0,0.0,0.0
+wikipedia,7,1768,0,0,0.0,0.0
+wikipedia,42,1768,0,0,0.0,0.0
+reddit,1,20278,16474,0,0.004947618170639588,0.0
+reddit,7,20278,19193,0,0.004263657808056013,0.0
+reddit,42,20278,10952,0,0.0035214316689192457,0.0

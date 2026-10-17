@@ -1,0 +1,27 @@
+protocol_id = "LCR-P-LASTFM-MODEL-001"
+status = "prospective-development-comparison-before-january-preparation-and-fit"
+date = "2026-10-16"
+parent_protocols = ["LCR-P-LASTFM-INTAKE-001", "LCR-P-LASTFM-ARTIST-001"]
+question = "Does phase-specific exact event decay improve recurring user-track ranking beyond a same-input same-parameter flexible dose branch on recorded-artist histories?"
+users = "Same fixed 100 profile IDs as original intake; no replacement or resampling."
+training_end_exclusive_utc = "2009-01-01T00:00:00Z"
+validation_end_exclusive_utc = "2009-02-01T00:00:00Z"
+validation = "January 2009 development evaluation, no test set. Prior training-input anatomy was inspected; not an untouched confirmatory dataset or official benchmark reproduction. No February-or-later feedback parsed."
+histories = "Retain every selected-user source event, including missing-track rows, for source activity and source-neighbor history. Only valid tracks have target nodes and own-edge states; missing tracks do not share a fictitious item node. Query all globally tied timestamps before any group update."
+positive_support = "Valid prior user-track history and gap>=3600 seconds. Query only before chronological end. Include all eligible validation rows; train query selection SHA256 of lastfm-model-query:17:canonical_event_index modulo16==0. This thins scored training queries only, never source history."
+negative = "One uniform negative from same user's strictly prior tracks, excluding every current-positive track in the timestamp group, with same floor(log2(prior_count)) and floor(log2(1+gap/3600)) bins. Exact time-window sorted catalog; no fallback to unmatched negatives. Empty support counted and excluded. Candidate draws seeds101,202,303; candidates identical across arms per seed."
+artist_reference = "Latest strictly earlier own timestamp group; all records must agree on one valid artist. Missing/conflicting reference explicitly flagged. E counts intervening events with that recorded artist, N all intervening events, U unknown artists. Both boundary groups excluded. Current target metadata never supplies a reference."
+alignment_control = "At each valid own reset, choose one different artist uniformly from artists already observed by that source after the group, with deterministic seed17 hash of source,track,timestamp and its prefix artist list. Freeze this alternate reference and its post-group counter. No alternate when none exists. This changes reference/availability and dose distribution; it is a scoped alignment perturbation, not a causal or marginal-preserving randomization test."
+features = "Common own count, elapsed time, count/sqrt(global prefix position), time of day, N,E,U and reference/alternate availability. All source-history and target-history neighbors retained up to20, with their event artist and known-track/artist flags. No current event feature enters neighbors."
+backbone = "Same package temporal neighborhood encoder and history head, with shared learned32-dimensional artist lookup on training-known artist IDs only. Unknown validation artists map to padding/unknown embedding but retain recorded artist availability; exact prefix doses can still use their observed IDs. All arms share same embedding/base/history initial tensors per seed."
+models = ["history_only", "dose_mlp", "scalar_clock", "phase_competition", "shuffled_phase", "activity_mlp"]
+primary = "Validation AP(phase_competition)-AP(dose_mlp), paired across all three seeds. Both branches13 trainable parameters and identical inputs/base/embedding capacity, optimizer, budget and checkpoint selection."
+secondary = "Phase vs proportional clock; scoped reference perturbation; dose MLP vs dose-masked MLP; phase vs history-only. Paired accuracy/AUC descriptive, cannot replace AP primary. Activity control masks E only, not all artist information from common graph histories."
+state = "Uniform five-phase own reset. Positive global phase time/event rates, positive readout gaps and nonnegative amplitude initialized0. Residual conditionally decreases with elapsed time/E; complete affinity remains unconstrained. Proportional clock10 branch params, history-only0."
+training = "Adam lr0.001 weight_decay0.00001, batch512,10 epochs, auxiliary common-affinity BCE weight0.5. Earliest maximum validation AP checkpoint. No retuning, early favorable stop, metric replacement or unreported seed. Training-only mean/std and median positive time/E scales."
+seeds = [101,202,303]
+compute = "Prepare/audit on bounded local CPU; real optimizer runs only on one bounded owned Colab L4, finally retrieve/verify outputs and stop. No allocation before synthetic end-to-end and input audits pass."
+max_prepared_queries_per_seed = 500000
+publication_eligible = false
+
+interpretation = "Observed listening versus matched historical noncurrent candidate only. Negatives are not observed relationship-death labels. Development evidence cannot clear novelty, significance, whole-score monotonicity or official benchmark superiority."

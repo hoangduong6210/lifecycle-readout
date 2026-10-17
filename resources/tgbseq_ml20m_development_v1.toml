@@ -1,0 +1,11 @@
+schema_version = 1
+dataset_id = "LCR-D-TGBSEQ-ML20M-001"
+status = "TRAIN_VALIDATION_SCHEMA_AND_PAIR_SUPPORT_AUDITED"
+raw_intake_manifest = "resources/tgbseq_ml20m_v1.toml"
+schema_audit = "results/audit/q1_preflight_v1/ml20m_schema.json"
+schema_audit_sha256 = "7adce7e2552efa4a79ce3b63c8c29d32d0726935d8ddec48030d2a907d7ac1e1"
+prepared_path = "resources/corpora/tgbseq/ML-20M_development_v1_retry.npz"
+prepared_sha256 = "87babea3ce4508c9ed0f141dee285c083b213572573ab47cfaa13b739e9826b5"
+test_rows_in_prepared = false
+test_candidate_values_loaded = false
+scientific_admission = false

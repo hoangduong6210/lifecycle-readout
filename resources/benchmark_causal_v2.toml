@@ -1,0 +1,71 @@
+schema_version = 1
+status = "LOCAL_RAW_TO_DERIVED_ARRAY_IDENTITY_VERIFIED"
+scientific_admission = false
+local_raw_to_derived_all_rows_verified = true
+dataset_redistribution_permission_obtained = false
+preparation = "Preserve CSV row order and native timestamps; int64 source IDs; destination ID plus max(source)+1; float32 features from columns after state_label."
+state_label_is_model_input = false
+time_unit_conversion_applied = false
+source_review = "results/audit/benchmark_preparation_v1/source_review/review.json"
+local_preparation_audit = "results/audit/benchmark_preparation_v1/review.json"
+jodie_repository_commit = "177409bf8d173d4200547e2d5bf2dd0f701ebb77"
+code_license = "MIT; not treated as a dataset redistribution grant"
+dataset_terms_review = "Citation requested; dataset-specific redistribution grant not identified in inspected sources"
+original_collection_reconstruction_verified = false
+current_remote_raw_bytes_reverified = false
+
+[[dataset]]
+id = "LCR-D-WIKI-001"
+name = "wikipedia"
+source_url = "https://snap.stanford.edu/jodie/wikipedia.csv"
+raw_path = "resources/corpora/wikipedia.csv"
+raw_sha256 = "a6b73e09c0d1e5b9db11e7e7aa416f2e87838a745273e0446a79952cf4cfae09"
+raw_size_bytes = 559937473
+derived_path = "resources/corpora/wikipedia_causal_v2.npz"
+derived_sha256 = "64ad05c6114e592b594e0f0b48f842993d04996d860805821c18c190cbfb3f83"
+retained_identity_path = "resources/corpora/wikipedia_causal_v2.identity.json"
+retained_identity_sha256 = "97035892f131955bd9ac636bd55b1f142860d8bd8ea9c43aaaa76cbc4a89a1ac"
+feature_columns = 172
+feature_semantics = "LIWC text category features"
+
+[[dataset]]
+id = "LCR-D-REDDIT-001"
+name = "reddit"
+source_url = "https://snap.stanford.edu/jodie/reddit.csv"
+raw_path = "resources/corpora/reddit.csv"
+raw_sha256 = "6b86be2f57c826b36ad2393eb482dc155fb4c1bf62d1074371e6a9e95b42314c"
+raw_size_bytes = 2368348656
+derived_path = "resources/corpora/reddit_causal_v2.npz"
+derived_sha256 = "fb791dc7a20b16fbb9cc16fa43d55cded2fdeb9b7d4acc8e978d85a39e495f91"
+retained_identity_path = "resources/corpora/reddit_causal_v2.identity.json"
+retained_identity_sha256 = "5e1b52ae375360c97e66113dcbc72fe6ca95676ca8eeddbc50aa6451c61cb949"
+feature_columns = 172
+feature_semantics = "LIWC text category features"
+
+[[dataset]]
+id = "LCR-D-MOOC-001"
+name = "mooc"
+source_url = "https://snap.stanford.edu/jodie/mooc.csv"
+raw_path = "resources/corpora/mooc.csv"
+raw_sha256 = "5e29679063c6e416c2ae741d94a8f2b8e996f21e7cbf278488687fb6cb1df15a"
+raw_size_bytes = 41449822
+derived_path = "resources/corpora/mooc_causal_v2.npz"
+derived_sha256 = "f2b9fec80719ae0de1a6aa2759fd11810418b7d8c82a953b3fb70c2fedd2dce6"
+retained_identity_path = "resources/corpora/mooc_causal_v2.identity.json"
+retained_identity_sha256 = "75f4528857fae25e8ed316cc01016b9289f159cac42c92e6008f5b37713811c7"
+feature_columns = 4
+feature_semantics = "Course action attributes"
+
+[[dataset]]
+id = "LCR-D-LASTFM-001"
+name = "lastfm"
+source_url = "https://snap.stanford.edu/jodie/lastfm.csv"
+raw_path = "resources/corpora/lastfm.csv"
+raw_sha256 = "06a917ae03dbd66447616225452f7d610bb6cb2603ea7ee5ef44ddc55044be07"
+raw_size_bytes = 38770679
+derived_path = "resources/corpora/lastfm_causal_v2.npz"
+derived_sha256 = "c9e98be8d55d60eb602e0e706c428b7a8ca36f7da807afba0abd0a5a1e95acf5"
+retained_identity_path = "resources/corpora/lastfm_causal_v2.identity.json"
+retained_identity_sha256 = "48e379fe2967460b6b978bb9eac134b2c0dd86e0842633375a8349e9170176f5"
+feature_columns = 2
+feature_semantics = "All-zero placeholder columns; no informative interaction attributes"

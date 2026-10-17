@@ -1,6 +1,3 @@
-# Experiments
+# Earlier experiments
 
-`run_model.py` provides the pinned backbone/readout runner;
-`run_faithfulness_eval.py` and the intervention/probe scripts own lifecycle
-analysis. Install the package first and write mutable output only to
-`results/audit/`. Heavy runs are scheduler-only.
+These runners and probes preserve earlier lifecycle-readout experiments. Current certificate and projection implementations are in `src/lifecycle_readout/modeling/`, with newer study entry points in `scripts/`. Historical experiment names do not establish current causal or predictive claims.

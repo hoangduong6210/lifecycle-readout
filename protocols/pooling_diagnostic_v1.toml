@@ -1,0 +1,15 @@
+protocol_id = "LCR-P-POOL-DIAG-001"
+status = "authorized-posthoc-diagnostic"
+date = "2026-10-16"
+purpose = "Check pooled versus within-query/within-bin behavior using all existing HARD-001 predictions; test the proposed inevitable pooling explanation."
+parent = "LCR-P-HARD-001"
+datasets = ["wikipedia", "reddit"]
+seeds = [1, 7, 42]
+models = ["base", "base_stats", "scalar_decay", "mlp_gate", "ordered_gate"]
+inputs = "Unchanged retained test predictions and candidate histories from the two completed audited attempts. Reverify original archive and prediction hashes."
+diagnostics = ["original pooled AP/AUC/Brier", "strict paired wins and ties", "half-credit paired accuracy", "query-count-weighted within-bin AP", "within-bin Cartesian AUC", "cross-bin Cartesian AUC", "exact AUC decomposition", "probability saturation and class means"]
+bins = "Original count/silence bins reconstructed from stored log1p counts and elapsed arrays; require equality for each positive/negative pair and explicitly retain stored-precision limitation."
+interpretation = "Posthoc on already inspected test outputs, not a replacement primary endpoint, new confirmation, identified causal mechanism or novelty proof. Within-bin Cartesian AUC is not within-query accuracy."
+changes_to_parent = "None: no training, tuning, checkpoint selection, candidate changes, metric replacement or new test scoring."
+compute = "Small local CPU analysis; no Colab allocation."
+publication_eligible = false

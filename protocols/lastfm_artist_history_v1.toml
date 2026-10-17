@@ -1,0 +1,19 @@
+protocol_id = "LCR-P-LASTFM-ARTIST-001"
+status = "prospective-input-audit-before-dose-outcomes"
+date = "2026-10-16"
+parent_protocol = "LCR-P-LASTFM-INTAKE-001"
+question = "Does exact recorded same-artist event dose have historical availability and variation beyond total source activity in the fixed sampled training histories?"
+input = "Unchanged byte-pinned selected_training_events.npz from original Last.fm intake; earlier-than-2009-01-01 events only. No new sample or later events."
+target = "Valid UUID user-track targets. All source events, including missing-track rows, remain in counters. No artist-target substitution."
+reference = "Latest strictly earlier own-track timestamp group. Artist reference is available only if every row at that group carries the same valid artist ID. Distinct valid artists mean conflicting; otherwise missing. Current query artist and future metadata cannot set the reference."
+timing = "Query all rows before timestamp-group update; competitor interval strictly between last-own timestamp and current timestamp, excluding all rows at both boundaries. Preserve multiplicities."
+dose = "Total source-event count N, same-reference-artist count E, known-other-artist count O, unknown-artist count U. Where reference available: N=E+O+U. Missing/conflicting reference gives masked E=O=0 with explicit status flag, not known zero exposure."
+endpoints = ["history/reference status coverage", "E/O/U/N summaries on all recurrent and gap>=3600s rows", "same-artist zero/positive and mixed-artist variation", "log1p count correlation reported descriptively, no efficacy gate", "exact agreement with parent recurrence/gap denominators", "within-source fixed total-count groups with differing same-artist count; deterministic first lexicographic witness, no efficacy interpretation"]
+real_anchors = "First 16 SHA256-ranked rows per supported-one-hour, first-own, unavailable-reference stratum; no replacement for empty strata. Independently scan full prepared same-source history at each selected row. Parent raw-TSV lineage audit is inherited, not reasserted for every row."
+synthetic = "Every-row direct-history oracle, group ties, multiplicity, missing target events, missing/conflicting artist reference, future append, current artist perturbation, arbitrary input order, invalid domains."
+compute = "Local bounded CPU extraction and direct anchors only; no optimizer, prediction, test scoring or Colab/GPU allocation."
+interpretation = "Input availability/variation only. Same recorded artist is not genre semantics, substitution, displacement, event causality or architectural novelty. No positive model effect inferred."
+model_fit = false
+predictor_scored = false
+test_scored = false
+publication_eligible = false

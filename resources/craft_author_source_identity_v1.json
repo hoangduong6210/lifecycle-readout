@@ -1,0 +1,43 @@
+{
+  "repository": "https://github.com/luyi256/CRAFT",
+  "commit": "81590a78dddf1f0f589bc710fec2effd83f6cd5a",
+  "executed": false,
+  "files": {
+    "README.md": {
+      "url": "https://raw.githubusercontent.com/luyi256/CRAFT/81590a78dddf1f0f589bc710fec2effd83f6cd5a/README.md",
+      "sha256": "9832f9a53b2289d294d604aeb62e43713e7a65de4b9c7338a68936553ccd9968"
+    },
+    "LICENSE": {
+      "url": "https://raw.githubusercontent.com/luyi256/CRAFT/81590a78dddf1f0f589bc710fec2effd83f6cd5a/LICENSE",
+      "sha256": "24d69467ed699619c319a1de89377685ac519587c77b1d256734eb2f26b4d8d0"
+    },
+    "train_link_prediction.py": {
+      "url": "https://raw.githubusercontent.com/luyi256/CRAFT/81590a78dddf1f0f589bc710fec2effd83f6cd5a/train_link_prediction.py",
+      "sha256": "3df81dac6e48f59794baa79930fdc4bfbeebb94481e7f1b60725700f9a2f4ac7"
+    },
+    "evaluate_models_utils.py": {
+      "url": "https://raw.githubusercontent.com/luyi256/CRAFT/81590a78dddf1f0f589bc710fec2effd83f6cd5a/evaluate_models_utils.py",
+      "sha256": "9f6f802da1c760a5c9748116af616f3878fe33241ec9c3ef87548fa82378999c"
+    },
+    "models/CRAFT.py": {
+      "url": "https://raw.githubusercontent.com/luyi256/CRAFT/81590a78dddf1f0f589bc710fec2effd83f6cd5a/models/CRAFT.py",
+      "sha256": "fc26854a89ccbd58c2bef3699f58720c06e57b7df321d4a0d1691e0393b9e9d7"
+    },
+    "utils/DataLoader.py": {
+      "url": "https://raw.githubusercontent.com/luyi256/CRAFT/81590a78dddf1f0f589bc710fec2effd83f6cd5a/utils/DataLoader.py",
+      "sha256": "1f375e87b3c30174ca3689f220d5655ecf2ad4d0937e73fc0b9aa3fd07328eed"
+    },
+    "utils/utils.py": {
+      "url": "https://raw.githubusercontent.com/luyi256/CRAFT/81590a78dddf1f0f589bc710fec2effd83f6cd5a/utils/utils.py",
+      "sha256": "43145ad94bf84af3c920901558cf3ab2090ca13d07ff81929913bdfd4174ac88"
+    },
+    "models/modules.py": {
+      "url": "https://raw.githubusercontent.com/luyi256/CRAFT/81590a78dddf1f0f589bc710fec2effd83f6cd5a/models/modules.py",
+      "sha256": "e32885b8e923b65370756e762ae1c9e9962172634cad928ce304f0c0f82de0f0"
+    },
+    "utils/load_configs.py": {
+      "url": "https://raw.githubusercontent.com/luyi256/CRAFT/81590a78dddf1f0f589bc710fec2effd83f6cd5a/utils/load_configs.py",
+      "sha256": "b6ca64216909ea3467fc2443bee8a747d4ca41a8151c9d461e2d4b13b75b04bc"
+    }
+  }
+}

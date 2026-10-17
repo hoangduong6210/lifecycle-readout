@@ -1,6 +1,3 @@
 # Figures
 
-Local migration workspaces may retain imported figures in `generated/`, but
-they are excluded from this source repository. `source/` is reserved
-for project-scoped generators after the combined generator is safely
-decomposed. Figure values remain legacy until tied to frozen evidence.
+The [wiki figure-to-file map](../wiki/Figures.md) links all eight PNG previews, vector PDF/EPS files and numeric CSV inputs. Rebuild them with [the Matplotlib generator](source/sncs_all_figures.py).

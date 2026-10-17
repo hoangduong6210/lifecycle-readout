@@ -1,0 +1,11 @@
+protocol_id = "LCR-P-POOL-DIAG-002"
+status = "authorized-posthoc-checkpoint-diagnostic"
+date = "2026-10-16"
+parent = "LCR-P-POOL-DIAG-001"
+scope = "All original scalar_decay checkpoints for Wikipedia and Reddit, seeds 1,7,42; unchanged original test candidates, input histories and selected epochs."
+question = "Does comparing stable pre-clamp scalar log scores recover ordering lost at the existing probability floor?"
+calculation = "Use archived model base_logits and saved softplus rate: log_sigmoid(base_logits) - rate * elapsed / time_unit, evaluated in float64. Original archived float32 forward is separately replayed and checked against saved probabilities."
+diagnostics = ["original and replayed clipped pair accuracy", "stable pre-clamp pair accuracy and ties", "restored comparisons among original clipped ties", "pre-clamp pooled AP/AUC", "raw probability Brier", "original checkpoint/prediction/source hashes"]
+limits = "Posthoc previously inspected test outputs. Float64 diagnostic of learned logits, not a claim to reproduce unavailable original pre-clamp GPU floats. No fitting, model selection, new cohort, replacement primary endpoint or identified cause of training failure."
+compute = "Bounded local CPU replay only; no additional GPU."
+publication_eligible = false

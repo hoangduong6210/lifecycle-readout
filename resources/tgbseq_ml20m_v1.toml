@@ -1,0 +1,29 @@
+schema_version = 1
+dataset_id = "LCR-D-TGBSEQ-ML20M-001"
+status = "LOCAL_INTAKE_BYTES_VERIFIED_NOT_SCIENTIFICALLY_ADMITTED"
+benchmark_repository = "https://github.com/TGB-Seq/TGB-Seq"
+benchmark_commit = "c1ee801ea4301c2f944f5b3da10cbc5310fa4f68"
+dataset_repository = "https://huggingface.co/datasets/TGB-Seq/ML-20M"
+dataset_revision = "60e27d0ac9a13517d69b9940c34fd29e798d0c63"
+original_source = "https://grouplens.org/datasets/movielens/20m/"
+terms_url = "https://files.grouplens.org/datasets/movielens/ml-20m-README.html"
+local_research_only = true
+redistribution_permission_obtained = false
+benchmark_transformation_to_original_bytes_verified = false
+schema_reviewed = false
+test_scored = false
+scientific_admission = false
+
+[[files]]
+path = "resources/staging/tgbseq/ML-20M/ML-20M.csv"
+url = "https://huggingface.co/datasets/TGB-Seq/ML-20M/resolve/60e27d0ac9a13517d69b9940c34fd29e798d0c63/ML-20M.csv"
+sha256 = "f4bcc2f231dbc3bfd14417430ac760447ff930364ed6bc95d373b6a65edab455"
+size_bytes = 337248530
+local_only = true
+
+[[files]]
+path = "resources/staging/tgbseq/ML-20M/ML-20M_test_ns.npy"
+url = "https://huggingface.co/datasets/TGB-Seq/ML-20M/resolve/60e27d0ac9a13517d69b9940c34fd29e798d0c63/ML-20M_test_ns.npy"
+sha256 = "f1c5ea381bfdb415fa9e5948eb409fef3ed9076432b8de1c1a5d7f2603e2091f"
+size_bytes = 103432928
+local_only = true

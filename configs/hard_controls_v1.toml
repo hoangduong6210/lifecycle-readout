@@ -1,0 +1,25 @@
+schema_version = 1
+protocol = "protocols/hard_controls_v1.toml"
+entry_script = "scripts/train_hard_controls.py"
+config_path = "configs/hard_controls_v1.toml"
+datasets = ["wikipedia", "reddit"]
+seeds = [1, 7, 42]
+models = ["base", "base_stats", "scalar_decay", "mlp_gate", "ordered_gate"]
+split_seed = 42
+epochs = 10
+batch_size = 256
+learning_rate = 0.001
+weight_decay = 0.00001
+hidden_dim = 128
+time_dim = 32
+max_neighbors = 20
+history_decay = 0.01
+latent_phases = 5
+hard_time_unit = 1000.0
+decay_time_unit = 1000.0
+[compute]
+accelerator = "L4"
+timeout_seconds = 10800
+wall_timeout_seconds = 11400
+ephemeral = true
+require_cuda = true

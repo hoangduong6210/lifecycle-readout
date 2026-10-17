@@ -1,0 +1,21 @@
+protocol = "protocols/rate_repair_validation_v1.toml"
+seeds = [1,7,42]
+solver_tolerance = 1e-10
+solver_max_cycles = 10000
+probability_clip = 1e-6
+grid_increase_threshold = 1e-5
+derivative_threshold = 1e-8
+candidate_microbatch = 1024
+distance_tolerance = 1e-8
+parent_replay_rtol = 2e-4
+parent_replay_atol = 2e-5
+[[dataset]]
+name = "wikipedia"
+repair_attempt = "results/audit/lcr-wikipedia-52a921378f"
+parent_attempt = "results/audit/lcr-wikipedia-256094e9e7"
+anchors = "results/audit/readout_repair_inputs_v1/wikipedia"
+[[dataset]]
+name = "reddit"
+repair_attempt = "results/audit/lcr-reddit-22c09d48fe"
+parent_attempt = "results/audit/lcr-reddit-bf7053e7a2"
+anchors = "results/audit/readout_repair_inputs_v1/reddit"

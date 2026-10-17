@@ -1,0 +1,19 @@
+Dataset,Seed,Path,Violating_trajectories,Candidate_trajectories
+Wikipedia,1,Flow only,0,1768
+Wikipedia,7,Flow only,0,1768
+Wikipedia,42,Flow only,0,1768
+Wikipedia,1,Frozen map,0,1768
+Wikipedia,7,Frozen map,0,1768
+Wikipedia,42,Frozen map,0,1768
+Wikipedia,1,Dynamic map,0,1768
+Wikipedia,7,Dynamic map,0,1768
+Wikipedia,42,Dynamic map,0,1768
+Reddit,1,Flow only,0,20278
+Reddit,7,Flow only,0,20278
+Reddit,42,Flow only,0,20278
+Reddit,1,Frozen map,18037,20278
+Reddit,7,Frozen map,14102,20278
+Reddit,42,Frozen map,15042,20278
+Reddit,1,Dynamic map,20075,20278
+Reddit,7,Dynamic map,20270,20278
+Reddit,42,Dynamic map,20278,20278

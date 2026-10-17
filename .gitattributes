@@ -1,0 +1,4 @@
+# Keep publisher template bytes and standard CSV line endings unchanged.
+paper/working/sncs/sn-jnl.cls -text -whitespace
+paper/working/sncs/sn-vancouver-num.bst -text -whitespace
+paper/working/sncs/*.csv -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

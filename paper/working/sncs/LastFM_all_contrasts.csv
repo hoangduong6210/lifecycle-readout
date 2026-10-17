@@ -1,0 +1,481 @@
+Month,Seed,Cohort,Contrast,Queries,Users,AP_difference
+January,101,all,Phase minus flexible,40600,68,0.00028747711893362116
+January,101,all,Phase minus proportional clock,40600,68,3.095752391024664e-05
+January,101,all,Phase minus alternate reference,40600,68,0.0003428498014321768
+January,101,all,Flexible minus activity only,40600,68,0.0003494082831456691
+January,101,all,Phase minus history only,40600,68,-0.0004315885184116297
+January,101,gap_1h_to_1d,Phase minus flexible,6166,55,-0.00087779762011575
+January,101,gap_1h_to_1d,Phase minus proportional clock,6166,55,-0.0006004046627917647
+January,101,gap_1h_to_1d,Phase minus alternate reference,6166,55,-0.0023230216747691657
+January,101,gap_1h_to_1d,Flexible minus activity only,6166,55,0.0037648339490029548
+January,101,gap_1h_to_1d,Phase minus history only,6166,55,-0.00259797963040731
+January,101,gap_1d_to_7d,Phase minus flexible,10838,60,0.0017010055068359398
+January,101,gap_1d_to_7d,Phase minus proportional clock,10838,60,0.0004555278561243492
+January,101,gap_1d_to_7d,Phase minus alternate reference,10838,60,0.0047195054399994385
+January,101,gap_1d_to_7d,Flexible minus activity only,10838,60,0.00421156511047327
+January,101,gap_1d_to_7d,Phase minus history only,10838,60,0.0008606102118405845
+January,101,gap_ge_7d,Phase minus flexible,23596,68,-5.294069818184699e-05
+January,101,gap_ge_7d,Phase minus proportional clock,23596,68,-0.0005119060235087014
+January,101,gap_ge_7d,Phase minus alternate reference,23596,68,0.00020909829234272426
+January,101,gap_ge_7d,Flexible minus activity only,23596,68,0.0010446548450708804
+January,101,gap_ge_7d,Phase minus history only,23596,68,-0.0008938175640962331
+January,101,dose_zero,Phase minus flexible,7337,66,4.2771387979700926e-05
+January,101,dose_zero,Phase minus proportional clock,7337,66,-0.008219866078906068
+January,101,dose_zero,Phase minus alternate reference,7337,66,-0.012654926833259472
+January,101,dose_zero,Flexible minus activity only,7337,66,-0.007933173994939258
+January,101,dose_zero,Phase minus history only,7337,66,-0.007174021883478765
+January,101,dose_1_to_9,Phase minus flexible,13336,67,0.0006036358958065868
+January,101,dose_1_to_9,Phase minus proportional clock,13336,67,-0.001178248023880224
+January,101,dose_1_to_9,Phase minus alternate reference,13336,67,0.000590958107302253
+January,101,dose_1_to_9,Flexible minus activity only,13336,67,0.0019582153402762925
+January,101,dose_1_to_9,Phase minus history only,13336,67,-0.0012958594141418978
+January,101,dose_ge_10,Phase minus flexible,19927,64,0.00021349740052278854
+January,101,dose_ge_10,Phase minus proportional clock,19927,64,0.0015140740455523716
+January,101,dose_ge_10,Phase minus alternate reference,19927,64,0.002828036883357532
+January,101,dose_ge_10,Flexible minus activity only,19927,64,0.0016291642465928735
+January,101,dose_ge_10,Phase minus history only,19927,64,0.0006489395423573407
+January,101,gap_1h_to_1d__dose_zero,Phase minus flexible,1645,44,0.0027390829866710265
+January,101,gap_1h_to_1d__dose_zero,Phase minus proportional clock,1645,44,-0.0035796201105317005
+January,101,gap_1h_to_1d__dose_zero,Phase minus alternate reference,1645,44,0.00737918738762855
+January,101,gap_1h_to_1d__dose_zero,Flexible minus activity only,1645,44,0.010914300478225392
+January,101,gap_1h_to_1d__dose_zero,Phase minus history only,1645,44,-0.009730882828610343
+January,101,gap_1h_to_1d__dose_1_to_9,Phase minus flexible,2224,51,-0.0009596184003616282
+January,101,gap_1h_to_1d__dose_1_to_9,Phase minus proportional clock,2224,51,-0.008875676963950307
+January,101,gap_1h_to_1d__dose_1_to_9,Phase minus alternate reference,2224,51,-0.005577631255423654
+January,101,gap_1h_to_1d__dose_1_to_9,Flexible minus activity only,2224,51,0.0015871086930435707
+January,101,gap_1h_to_1d__dose_1_to_9,Phase minus history only,2224,51,-0.009842472129174551
+January,101,gap_1h_to_1d__dose_ge_10,Phase minus flexible,2297,42,-0.00363017975335278
+January,101,gap_1h_to_1d__dose_ge_10,Phase minus proportional clock,2297,42,0.00989080732014802
+January,101,gap_1h_to_1d__dose_ge_10,Phase minus alternate reference,2297,42,-0.0042205018801273475
+January,101,gap_1h_to_1d__dose_ge_10,Flexible minus activity only,2297,42,0.0036445288259895348
+January,101,gap_1h_to_1d__dose_ge_10,Phase minus history only,2297,42,0.007424102274272482
+January,101,gap_1d_to_7d__dose_zero,Phase minus flexible,2491,55,-0.0018171842203952293
+January,101,gap_1d_to_7d__dose_zero,Phase minus proportional clock,2491,55,-0.004066180519894824
+January,101,gap_1d_to_7d__dose_zero,Phase minus alternate reference,2491,55,0.002685024564654581
+January,101,gap_1d_to_7d__dose_zero,Flexible minus activity only,2491,55,0.008943522223942402
+January,101,gap_1d_to_7d__dose_zero,Phase minus history only,2491,55,-0.002665407255874608
+January,101,gap_1d_to_7d__dose_1_to_9,Phase minus flexible,4210,58,0.002501859253958738
+January,101,gap_1d_to_7d__dose_1_to_9,Phase minus proportional clock,4210,58,0.00022571626872069928
+January,101,gap_1d_to_7d__dose_1_to_9,Phase minus alternate reference,4210,58,0.010919157931789547
+January,101,gap_1d_to_7d__dose_1_to_9,Flexible minus activity only,4210,58,0.010443440404458881
+January,101,gap_1d_to_7d__dose_1_to_9,Phase minus history only,4210,58,0.0017331531489248597
+January,101,gap_1d_to_7d__dose_ge_10,Phase minus flexible,4137,45,0.0020990815802769403
+January,101,gap_1d_to_7d__dose_ge_10,Phase minus proportional clock,4137,45,0.002697531849497614
+January,101,gap_1d_to_7d__dose_ge_10,Phase minus alternate reference,4137,45,0.00015254735104663908
+January,101,gap_1d_to_7d__dose_ge_10,Flexible minus activity only,4137,45,-0.0017296584542377813
+January,101,gap_1d_to_7d__dose_ge_10,Phase minus history only,4137,45,0.002758489965070221
+January,101,gap_ge_7d__dose_zero,Phase minus flexible,3201,65,-0.0005662740839051938
+January,101,gap_ge_7d__dose_zero,Phase minus proportional clock,3201,65,-0.013638426161252826
+January,101,gap_ge_7d__dose_zero,Phase minus alternate reference,3201,65,-0.033113106169458506
+January,101,gap_ge_7d__dose_zero,Flexible minus activity only,3201,65,-0.031266954326664154
+January,101,gap_ge_7d__dose_zero,Phase minus history only,3201,65,-0.007786356907291125
+January,101,gap_ge_7d__dose_1_to_9,Phase minus flexible,6902,67,-5.0079464854135836e-05
+January,101,gap_ge_7d__dose_1_to_9,Phase minus proportional clock,6902,67,-0.0018413081666215358
+January,101,gap_ge_7d__dose_1_to_9,Phase minus alternate reference,6902,67,-0.0036344691320265854
+January,101,gap_ge_7d__dose_1_to_9,Flexible minus activity only,6902,67,0.000664043575066442
+January,101,gap_ge_7d__dose_1_to_9,Phase minus history only,6902,67,-0.002419201577473773
+January,101,gap_ge_7d__dose_ge_10,Phase minus flexible,13493,64,5.79030466989483e-05
+January,101,gap_ge_7d__dose_ge_10,Phase minus proportional clock,13493,64,0.0013195695205393543
+January,101,gap_ge_7d__dose_ge_10,Phase minus alternate reference,13493,64,0.006305535075351698
+January,101,gap_ge_7d__dose_ge_10,Flexible minus activity only,13493,64,0.005767656737561633
+January,101,gap_ge_7d__dose_ge_10,Phase minus history only,13493,64,0.00012345047291939526
+January,202,all,Phase minus flexible,40600,68,-0.0006886638079394158
+January,202,all,Phase minus proportional clock,40600,68,-0.00010442363488005757
+January,202,all,Phase minus alternate reference,40600,68,0.0003875992990508559
+January,202,all,Flexible minus activity only,40600,68,0.0008049131391705266
+January,202,all,Phase minus history only,40600,68,-0.000596538726706064
+January,202,gap_1h_to_1d,Phase minus flexible,6166,55,-0.002361139851112637
+January,202,gap_1h_to_1d,Phase minus proportional clock,6166,55,0.00039302812690822364
+January,202,gap_1h_to_1d,Phase minus alternate reference,6166,55,0.0009027491547054511
+January,202,gap_1h_to_1d,Flexible minus activity only,6166,55,0.0026604296443728526
+January,202,gap_1h_to_1d,Phase minus history only,6166,55,-0.002596219222467555
+January,202,gap_1d_to_7d,Phase minus flexible,10838,60,-0.0008806452741000337
+January,202,gap_1d_to_7d,Phase minus proportional clock,10838,60,0.0001886004274725961
+January,202,gap_1d_to_7d,Phase minus alternate reference,10838,60,0.0007210990312074284
+January,202,gap_1d_to_7d,Flexible minus activity only,10838,60,0.0023552513994906654
+January,202,gap_1d_to_7d,Phase minus history only,10838,60,-0.0008276552410384497
+January,202,gap_ge_7d,Phase minus flexible,23596,68,-0.000387553938122287
+January,202,gap_ge_7d,Phase minus proportional clock,23596,68,3.2368235629021136e-05
+January,202,gap_ge_7d,Phase minus alternate reference,23596,68,0.0005533194183230394
+January,202,gap_ge_7d,Flexible minus activity only,23596,68,0.0006514616818125152
+January,202,gap_ge_7d,Phase minus history only,23596,68,-0.00036409715916041474
+January,202,dose_zero,Phase minus flexible,7337,66,-0.001788966707201578
+January,202,dose_zero,Phase minus proportional clock,7337,66,0.0014497087024417654
+January,202,dose_zero,Phase minus alternate reference,7337,66,-0.007088956971778915
+January,202,dose_zero,Flexible minus activity only,7337,66,-0.004810104621751965
+January,202,dose_zero,Phase minus history only,7337,66,-0.003342421279686425
+January,202,dose_1_to_9,Phase minus flexible,13336,67,-0.0007432164081669912
+January,202,dose_1_to_9,Phase minus proportional clock,13336,67,0.0002557656456433355
+January,202,dose_1_to_9,Phase minus alternate reference,13336,67,-0.001132867152515149
+January,202,dose_1_to_9,Flexible minus activity only,13336,67,-0.0006325107929376905
+January,202,dose_1_to_9,Phase minus history only,13336,67,-0.0008602710813961911
+January,202,dose_ge_10,Phase minus flexible,19927,64,-0.00045322104180445244
+January,202,dose_ge_10,Phase minus proportional clock,19927,64,-0.00034986874271414337
+January,202,dose_ge_10,Phase minus alternate reference,19927,64,0.002104635151226497
+January,202,dose_ge_10,Flexible minus activity only,19927,64,0.002032074984035015
+January,202,dose_ge_10,Phase minus history only,19927,64,-6.20902682603175e-05
+January,202,gap_1h_to_1d__dose_zero,Phase minus flexible,1645,44,-0.0015853336374796467
+January,202,gap_1h_to_1d__dose_zero,Phase minus proportional clock,1645,44,0.0028333633663203406
+January,202,gap_1h_to_1d__dose_zero,Phase minus alternate reference,1645,44,0.010617204979147865
+January,202,gap_1h_to_1d__dose_zero,Flexible minus activity only,1645,44,0.013456244260287464
+January,202,gap_1h_to_1d__dose_zero,Phase minus history only,1645,44,-0.0004355360776345796
+January,202,gap_1h_to_1d__dose_1_to_9,Phase minus flexible,2224,51,-0.004265879376758486
+January,202,gap_1h_to_1d__dose_1_to_9,Phase minus proportional clock,2224,51,-0.0007367440584096219
+January,202,gap_1h_to_1d__dose_1_to_9,Phase minus alternate reference,2224,51,0.0007483364209244225
+January,202,gap_1h_to_1d__dose_1_to_9,Flexible minus activity only,2224,51,0.0019099974807220699
+January,202,gap_1h_to_1d__dose_1_to_9,Phase minus history only,2224,51,-0.0035549726222332545
+January,202,gap_1h_to_1d__dose_ge_10,Phase minus flexible,2297,42,-0.001511303448145318
+January,202,gap_1h_to_1d__dose_ge_10,Phase minus proportional clock,2297,42,0.0011238102925651416
+January,202,gap_1h_to_1d__dose_ge_10,Phase minus alternate reference,2297,42,-0.004580083961781445
+January,202,gap_1h_to_1d__dose_ge_10,Flexible minus activity only,2297,42,-0.0026847835107600693
+January,202,gap_1h_to_1d__dose_ge_10,Phase minus history only,2297,42,-0.0027522079825971213
+January,202,gap_1d_to_7d__dose_zero,Phase minus flexible,2491,55,-0.0035998381011792535
+January,202,gap_1d_to_7d__dose_zero,Phase minus proportional clock,2491,55,0.004143544253634779
+January,202,gap_1d_to_7d__dose_zero,Phase minus alternate reference,2491,55,-0.0013754244636021706
+January,202,gap_1d_to_7d__dose_zero,Flexible minus activity only,2491,55,0.002968601792524783
+January,202,gap_1d_to_7d__dose_zero,Phase minus history only,2491,55,-0.0037335548088424098
+January,202,gap_1d_to_7d__dose_1_to_9,Phase minus flexible,4210,58,0.00038889498902172637
+January,202,gap_1d_to_7d__dose_1_to_9,Phase minus proportional clock,4210,58,0.0008892129895835543
+January,202,gap_1d_to_7d__dose_1_to_9,Phase minus alternate reference,4210,58,0.0018635206316311992
+January,202,gap_1d_to_7d__dose_1_to_9,Flexible minus activity only,4210,58,0.001404700811824422
+January,202,gap_1d_to_7d__dose_1_to_9,Phase minus history only,4210,58,-0.00023456351988193624
+January,202,gap_1d_to_7d__dose_ge_10,Phase minus flexible,4137,45,-4.4813351580019756e-05
+January,202,gap_1d_to_7d__dose_ge_10,Phase minus proportional clock,4137,45,-0.000634897678995161
+January,202,gap_1d_to_7d__dose_ge_10,Phase minus alternate reference,4137,45,0.0003671954773027952
+January,202,gap_1d_to_7d__dose_ge_10,Flexible minus activity only,4137,45,0.0019820472316546267
+January,202,gap_1d_to_7d__dose_ge_10,Phase minus history only,4137,45,0.00021987142876833676
+January,202,gap_ge_7d__dose_zero,Phase minus flexible,3201,65,0.0003109776681969878
+January,202,gap_ge_7d__dose_zero,Phase minus proportional clock,3201,65,-0.0010073465171527851
+January,202,gap_ge_7d__dose_zero,Phase minus alternate reference,3201,65,-0.021546533129291223
+January,202,gap_ge_7d__dose_zero,Flexible minus activity only,3201,65,-0.021808511575994727
+January,202,gap_ge_7d__dose_zero,Phase minus history only,3201,65,-0.004144692386271243
+January,202,gap_ge_7d__dose_1_to_9,Phase minus flexible,6902,67,-0.0003640945859484379
+January,202,gap_ge_7d__dose_1_to_9,Phase minus proportional clock,6902,67,0.0006616709567834889
+January,202,gap_ge_7d__dose_1_to_9,Phase minus alternate reference,6902,67,-0.003168236834968141
+January,202,gap_ge_7d__dose_1_to_9,Flexible minus activity only,6902,67,-0.0023930028415539706
+January,202,gap_ge_7d__dose_1_to_9,Phase minus history only,6902,67,-0.0009541301274971214
+January,202,gap_ge_7d__dose_ge_10,Phase minus flexible,13493,64,-0.0005328035529247321
+January,202,gap_ge_7d__dose_ge_10,Phase minus proportional clock,13493,64,-6.72233737512018e-05
+January,202,gap_ge_7d__dose_ge_10,Phase minus alternate reference,13493,64,0.004097415721414199
+January,202,gap_ge_7d__dose_ge_10,Flexible minus activity only,13493,64,0.0040526820739852365
+January,202,gap_ge_7d__dose_ge_10,Phase minus history only,13493,64,0.00013997808693511082
+January,303,all,Phase minus flexible,40600,68,0.0001650492580869134
+January,303,all,Phase minus proportional clock,40600,68,-0.0002771875281277758
+January,303,all,Phase minus alternate reference,40600,68,-0.0008922850413324301
+January,303,all,Flexible minus activity only,40600,68,-0.0006696830798944564
+January,303,all,Phase minus history only,40600,68,-6.558286887048403e-05
+January,303,gap_1h_to_1d,Phase minus flexible,6166,55,-0.00030633383552425286
+January,303,gap_1h_to_1d,Phase minus proportional clock,6166,55,-4.175395655159342e-05
+January,303,gap_1h_to_1d,Phase minus alternate reference,6166,55,0.005663594877479916
+January,303,gap_1h_to_1d,Flexible minus activity only,6166,55,0.004788947681582112
+January,303,gap_1h_to_1d,Phase minus history only,6166,55,-0.00010375291418651678
+January,303,gap_1d_to_7d,Phase minus flexible,10838,60,0.0011533206207018365
+January,303,gap_1d_to_7d,Phase minus proportional clock,10838,60,0.00015123737776578938
+January,303,gap_1d_to_7d,Phase minus alternate reference,10838,60,-0.00023638351832655502
+January,303,gap_1d_to_7d,Flexible minus activity only,10838,60,-0.0001263060894260981
+January,303,gap_1d_to_7d,Phase minus history only,10838,60,0.000599307570012253
+January,303,gap_ge_7d,Phase minus flexible,23596,68,-0.0004941078062066229
+January,303,gap_ge_7d,Phase minus proportional clock,23596,68,-0.0005784770055600186
+January,303,gap_ge_7d,Phase minus alternate reference,23596,68,-0.0009743048653606534
+January,303,gap_ge_7d,Flexible minus activity only,23596,68,-0.0004772820757620311
+January,303,gap_ge_7d,Phase minus history only,23596,68,-0.0004485041968257386
+January,303,dose_zero,Phase minus flexible,7337,66,-0.00023975604206877277
+January,303,dose_zero,Phase minus proportional clock,7337,66,-0.0002869585120667262
+January,303,dose_zero,Phase minus alternate reference,7337,66,0.003288385914790859
+January,303,dose_zero,Flexible minus activity only,7337,66,0.0022005095179889467
+January,303,dose_zero,Phase minus history only,7337,66,-0.0011041292983138273
+January,303,dose_1_to_9,Phase minus flexible,13336,67,0.0004546055715324293
+January,303,dose_1_to_9,Phase minus proportional clock,13336,67,-0.0007514482440063031
+January,303,dose_1_to_9,Phase minus alternate reference,13336,67,-0.0011177879755066567
+January,303,dose_1_to_9,Flexible minus activity only,13336,67,-0.0005764746183491987
+January,303,dose_1_to_9,Phase minus history only,13336,67,3.1094249058671863e-05
+January,303,dose_ge_10,Phase minus flexible,19927,64,0.00012120577929808363
+January,303,dose_ge_10,Phase minus proportional clock,19927,64,-6.877237455926721e-05
+January,303,dose_ge_10,Phase minus alternate reference,19927,64,-0.0008124762726833268
+January,303,dose_ge_10,Flexible minus activity only,19927,64,-0.0007172863651097039
+January,303,dose_ge_10,Phase minus history only,19927,64,-2.276277533663773e-05
+January,303,gap_1h_to_1d__dose_zero,Phase minus flexible,1645,44,0.00025348635993072133
+January,303,gap_1h_to_1d__dose_zero,Phase minus proportional clock,1645,44,-1.2293759522608028e-05
+January,303,gap_1h_to_1d__dose_zero,Phase minus alternate reference,1645,44,0.008958147074578315
+January,303,gap_1h_to_1d__dose_zero,Flexible minus activity only,1645,44,0.0104419770419385
+January,303,gap_1h_to_1d__dose_zero,Phase minus history only,1645,44,-0.002746714035662623
+January,303,gap_1h_to_1d__dose_1_to_9,Phase minus flexible,2224,51,0.0016248328576078386
+January,303,gap_1h_to_1d__dose_1_to_9,Phase minus proportional clock,2224,51,0.0005579941454469939
+January,303,gap_1h_to_1d__dose_1_to_9,Phase minus alternate reference,2224,51,0.0050049408899157655
+January,303,gap_1h_to_1d__dose_1_to_9,Flexible minus activity only,2224,51,-0.0010846317531303384
+January,303,gap_1h_to_1d__dose_1_to_9,Phase minus history only,2224,51,0.0022587756194041297
+January,303,gap_1h_to_1d__dose_ge_10,Phase minus flexible,2297,42,-0.0023783915956465673
+January,303,gap_1h_to_1d__dose_ge_10,Phase minus proportional clock,2297,42,-0.0013987719883650218
+January,303,gap_1h_to_1d__dose_ge_10,Phase minus alternate reference,2297,42,-0.0005296897370838938
+January,303,gap_1h_to_1d__dose_ge_10,Flexible minus activity only,2297,42,0.0010911688929181595
+January,303,gap_1h_to_1d__dose_ge_10,Phase minus history only,2297,42,-0.0007456319030428871
+January,303,gap_1d_to_7d__dose_zero,Phase minus flexible,2491,55,0.0011529479771859585
+January,303,gap_1d_to_7d__dose_zero,Phase minus proportional clock,2491,55,-0.0007421209714822963
+January,303,gap_1d_to_7d__dose_zero,Phase minus alternate reference,2491,55,0.010883168878239147
+January,303,gap_1d_to_7d__dose_zero,Flexible minus activity only,2491,55,0.00745660445835028
+January,303,gap_1d_to_7d__dose_zero,Phase minus history only,2491,55,0.000180103029512102
+January,303,gap_1d_to_7d__dose_1_to_9,Phase minus flexible,4210,58,0.00019944486892820024
+January,303,gap_1d_to_7d__dose_1_to_9,Phase minus proportional clock,4210,58,-0.0005092608326988657
+January,303,gap_1d_to_7d__dose_1_to_9,Phase minus alternate reference,4210,58,0.0030364857648526034
+January,303,gap_1d_to_7d__dose_1_to_9,Flexible minus activity only,4210,58,0.0032864134245745857
+January,303,gap_1d_to_7d__dose_1_to_9,Phase minus history only,4210,58,0.0006632526769905223
+January,303,gap_1d_to_7d__dose_ge_10,Phase minus flexible,4137,45,0.0016397383687276612
+January,303,gap_1d_to_7d__dose_ge_10,Phase minus proportional clock,4137,45,0.0007037675207094418
+January,303,gap_1d_to_7d__dose_ge_10,Phase minus alternate reference,4137,45,-0.005348462908532636
+January,303,gap_1d_to_7d__dose_ge_10,Flexible minus activity only,4137,45,-0.00602303686813932
+January,303,gap_1d_to_7d__dose_ge_10,Phase minus history only,4137,45,0.0004577832203195298
+January,303,gap_ge_7d__dose_zero,Phase minus flexible,3201,65,-0.0019088632461728983
+January,303,gap_ge_7d__dose_zero,Phase minus proportional clock,3201,65,-0.0008967874614547178
+January,303,gap_ge_7d__dose_zero,Phase minus alternate reference,3201,65,-0.008929666371790601
+January,303,gap_ge_7d__dose_zero,Flexible minus activity only,3201,65,-0.008872002923813849
+January,303,gap_ge_7d__dose_zero,Phase minus history only,3201,65,-0.0016536836945622024
+January,303,gap_ge_7d__dose_1_to_9,Phase minus flexible,6902,67,-2.786024837619916e-05
+January,303,gap_ge_7d__dose_1_to_9,Phase minus proportional clock,6902,67,-0.000797544925991378
+January,303,gap_ge_7d__dose_1_to_9,Phase minus alternate reference,6902,67,-0.00179297278304702
+January,303,gap_ge_7d__dose_1_to_9,Flexible minus activity only,6902,67,-0.00013434311306659286
+January,303,gap_ge_7d__dose_1_to_9,Phase minus history only,6902,67,-0.0008274627293278769
+January,303,gap_ge_7d__dose_ge_10,Phase minus flexible,13493,64,-0.00038033033899220747
+January,303,gap_ge_7d__dose_ge_10,Phase minus proportional clock,13493,64,-0.00035034192440785983
+January,303,gap_ge_7d__dose_ge_10,Phase minus alternate reference,13493,64,0.000959954850737077
+January,303,gap_ge_7d__dose_ge_10,Flexible minus activity only,13493,64,0.0011063335550853814
+January,303,gap_ge_7d__dose_ge_10,Phase minus history only,13493,64,-0.00014566922316971986
+February,101,all,Phase minus flexible,41219,69,-3.8868319782725536e-05
+February,101,all,Phase minus proportional clock,41219,69,-0.0014074799316796671
+February,101,all,Phase minus alternate reference,41219,69,-0.0006848387514546417
+February,101,all,Flexible minus activity only,41219,69,0.00024401239382609852
+February,101,all,Phase minus history only,41219,69,-0.0014017010590636758
+February,101,gap_1h_to_1d,Phase minus flexible,7726,58,-0.00013423942841117587
+February,101,gap_1h_to_1d,Phase minus proportional clock,7726,58,-0.0045397752226811194
+February,101,gap_1h_to_1d,Phase minus alternate reference,7726,58,-0.003900044663046054
+February,101,gap_1h_to_1d,Flexible minus activity only,7726,58,0.0050720438419137315
+February,101,gap_1h_to_1d,Phase minus history only,7726,58,-0.0036567265413517402
+February,101,gap_1d_to_7d,Phase minus flexible,10340,60,-0.0003926459557842543
+February,101,gap_1d_to_7d,Phase minus proportional clock,10340,60,-0.000640046520018478
+February,101,gap_1d_to_7d,Phase minus alternate reference,10340,60,0.003603685571922033
+February,101,gap_1d_to_7d,Flexible minus activity only,10340,60,0.00544071563248083
+February,101,gap_1d_to_7d,Phase minus history only,10340,60,0.00053571462065094
+February,101,gap_ge_7d,Phase minus flexible,23153,68,0.00030267547683415774
+February,101,gap_ge_7d,Phase minus proportional clock,23153,68,-0.0015263160544314314
+February,101,gap_ge_7d,Phase minus alternate reference,23153,68,0.0004743526031737444
+February,101,gap_ge_7d,Flexible minus activity only,23153,68,0.0014871732934857995
+February,101,gap_ge_7d,Phase minus history only,23153,68,-0.0020899156988596346
+February,101,dose_zero,Phase minus flexible,6404,68,-0.0013575494737544935
+February,101,dose_zero,Phase minus proportional clock,6404,68,-0.0035533796019320274
+February,101,dose_zero,Phase minus alternate reference,6404,68,-0.009371875395143003
+February,101,dose_zero,Flexible minus activity only,6404,68,0.001229737782698137
+February,101,dose_zero,Phase minus history only,6404,68,-0.0014852283372542296
+February,101,dose_1_to_9,Phase minus flexible,13015,69,0.0007205945827135629
+February,101,dose_1_to_9,Phase minus proportional clock,13015,69,-0.004432542749542412
+February,101,dose_1_to_9,Phase minus alternate reference,13015,69,-0.0015539242879714088
+February,101,dose_1_to_9,Flexible minus activity only,13015,69,-0.0011672457308495865
+February,101,dose_1_to_9,Phase minus history only,13015,69,-0.0036918481595517028
+February,101,dose_ge_10,Phase minus flexible,21800,67,-0.0002674059708722698
+February,101,dose_ge_10,Phase minus proportional clock,21800,67,-0.00010400853232417351
+February,101,dose_ge_10,Phase minus alternate reference,21800,67,0.0008135123035926117
+February,101,dose_ge_10,Flexible minus activity only,21800,67,0.0008338223770235631
+February,101,dose_ge_10,Phase minus history only,21800,67,-0.0008499966165846917
+February,101,gap_1h_to_1d__dose_zero,Phase minus flexible,1513,51,-0.002724447225862847
+February,101,gap_1h_to_1d__dose_zero,Phase minus proportional clock,1513,51,0.007122653958030578
+February,101,gap_1h_to_1d__dose_zero,Phase minus alternate reference,1513,51,0.017818832604786616
+February,101,gap_1h_to_1d__dose_zero,Flexible minus activity only,1513,51,0.03647930399998234
+February,101,gap_1h_to_1d__dose_zero,Phase minus history only,1513,51,0.00390047184247011
+February,101,gap_1h_to_1d__dose_1_to_9,Phase minus flexible,2105,50,-0.0005642658024666014
+February,101,gap_1h_to_1d__dose_1_to_9,Phase minus proportional clock,2105,50,-0.012073583880361616
+February,101,gap_1h_to_1d__dose_1_to_9,Phase minus alternate reference,2105,50,-0.007853438682994152
+February,101,gap_1h_to_1d__dose_1_to_9,Flexible minus activity only,2105,50,-0.003225835673215327
+February,101,gap_1h_to_1d__dose_1_to_9,Phase minus history only,2105,50,-0.009472105583470447
+February,101,gap_1h_to_1d__dose_ge_10,Phase minus flexible,4108,39,0.0008156043016105397
+February,101,gap_1h_to_1d__dose_ge_10,Phase minus proportional clock,4108,39,0.00013767084117322081
+February,101,gap_1h_to_1d__dose_ge_10,Phase minus alternate reference,4108,39,-0.0064401197148155065
+February,101,gap_1h_to_1d__dose_ge_10,Flexible minus activity only,4108,39,0.0007364788263672928
+February,101,gap_1h_to_1d__dose_ge_10,Phase minus history only,4108,39,0.0012825611048967733
+February,101,gap_1d_to_7d__dose_zero,Phase minus flexible,2212,56,-0.004559749831586024
+February,101,gap_1d_to_7d__dose_zero,Phase minus proportional clock,2212,56,0.0035261870439932674
+February,101,gap_1d_to_7d__dose_zero,Phase minus alternate reference,2212,56,0.007479990337272979
+February,101,gap_1d_to_7d__dose_zero,Flexible minus activity only,2212,56,0.0155556633026665
+February,101,gap_1d_to_7d__dose_zero,Phase minus history only,2212,56,0.004196146826633329
+February,101,gap_1d_to_7d__dose_1_to_9,Phase minus flexible,4328,57,-0.00030378772115480235
+February,101,gap_1d_to_7d__dose_1_to_9,Phase minus proportional clock,4328,57,-0.0034817206232096165
+February,101,gap_1d_to_7d__dose_1_to_9,Phase minus alternate reference,4328,57,0.006761788441172256
+February,101,gap_1d_to_7d__dose_1_to_9,Flexible minus activity only,4328,57,0.008119710099671495
+February,101,gap_1d_to_7d__dose_1_to_9,Phase minus history only,4328,57,-0.0021445563953904623
+February,101,gap_1d_to_7d__dose_ge_10,Phase minus flexible,3800,47,4.898759185145707e-05
+February,101,gap_1d_to_7d__dose_ge_10,Phase minus proportional clock,3800,47,0.001235826463026446
+February,101,gap_1d_to_7d__dose_ge_10,Phase minus alternate reference,3800,47,-0.0010872644536302767
+February,101,gap_1d_to_7d__dose_ge_10,Flexible minus activity only,3800,47,0.00014501056083815467
+February,101,gap_1d_to_7d__dose_ge_10,Phase minus history only,3800,47,0.0020268990619108918
+February,101,gap_ge_7d__dose_zero,Phase minus flexible,2679,68,-0.00041741724918487044
+February,101,gap_ge_7d__dose_zero,Phase minus proportional clock,2679,68,-0.01397060193851779
+February,101,gap_ge_7d__dose_zero,Phase minus alternate reference,2679,68,-0.034670684146913544
+February,101,gap_ge_7d__dose_zero,Flexible minus activity only,2679,68,-0.02612859446630378
+February,101,gap_ge_7d__dose_zero,Phase minus history only,2679,68,-0.006353690024588743
+February,101,gap_ge_7d__dose_1_to_9,Phase minus flexible,6582,68,0.0010968340721434489
+February,101,gap_ge_7d__dose_1_to_9,Phase minus proportional clock,6582,68,-0.004806105949915707
+February,101,gap_ge_7d__dose_1_to_9,Phase minus alternate reference,6582,68,-0.004874494300412868
+February,101,gap_ge_7d__dose_1_to_9,Flexible minus activity only,6582,68,-0.0031780267432670595
+February,101,gap_ge_7d__dose_1_to_9,Phase minus history only,6582,68,-0.004887835685778663
+February,101,gap_ge_7d__dose_ge_10,Phase minus flexible,13892,67,7.071959325588573e-05
+February,101,gap_ge_7d__dose_ge_10,Phase minus proportional clock,13892,67,0.00080111145212447
+February,101,gap_ge_7d__dose_ge_10,Phase minus alternate reference,13892,67,0.006158061066670828
+February,101,gap_ge_7d__dose_ge_10,Flexible minus activity only,13892,67,0.006227975499294547
+February,101,gap_ge_7d__dose_ge_10,Phase minus history only,13892,67,-0.0008670131083314825
+February,202,all,Phase minus flexible,41219,69,-0.0005828864030698044
+February,202,all,Phase minus proportional clock,41219,69,-0.00017259608950059846
+February,202,all,Phase minus alternate reference,41219,69,0.0009450991170248946
+February,202,all,Flexible minus activity only,41219,69,0.0012513947243505408
+February,202,all,Phase minus history only,41219,69,-0.00034722401155951044
+February,202,gap_1h_to_1d,Phase minus flexible,7726,58,-0.0008363296820231847
+February,202,gap_1h_to_1d,Phase minus proportional clock,7726,58,0.0008111425713054343
+February,202,gap_1h_to_1d,Phase minus alternate reference,7726,58,-0.0002118814227737298
+February,202,gap_1h_to_1d,Flexible minus activity only,7726,58,0.0023802134509572914
+February,202,gap_1h_to_1d,Phase minus history only,7726,58,-0.0017395322969512295
+February,202,gap_1d_to_7d,Phase minus flexible,10340,60,8.596085639644979e-05
+February,202,gap_1d_to_7d,Phase minus proportional clock,10340,60,-0.00037831174740832196
+February,202,gap_1d_to_7d,Phase minus alternate reference,10340,60,0.0021216209698869948
+February,202,gap_1d_to_7d,Flexible minus activity only,10340,60,0.0020963851837492165
+February,202,gap_1d_to_7d,Phase minus history only,10340,60,0.0002818883730543176
+February,202,gap_ge_7d,Phase minus flexible,23153,68,-0.00045162746180993363
+February,202,gap_ge_7d,Phase minus proportional clock,23153,68,0.0001285475185051066
+February,202,gap_ge_7d,Phase minus alternate reference,23153,68,0.0017323703236663546
+February,202,gap_ge_7d,Flexible minus activity only,23153,68,0.0011958914119627462
+February,202,gap_ge_7d,Phase minus history only,23153,68,-2.5140286235791898e-05
+February,202,dose_zero,Phase minus flexible,6404,68,-0.0017842719786991257
+February,202,dose_zero,Phase minus proportional clock,6404,68,0.00012494605631729883
+February,202,dose_zero,Phase minus alternate reference,6404,68,-0.005092481236175006
+February,202,dose_zero,Flexible minus activity only,6404,68,-0.002678286860932244
+February,202,dose_zero,Phase minus history only,6404,68,-0.002862862545603584
+February,202,dose_1_to_9,Phase minus flexible,13015,69,-0.0003531500049701597
+February,202,dose_1_to_9,Phase minus proportional clock,13015,69,-7.701058187759013e-05
+February,202,dose_1_to_9,Phase minus alternate reference,13015,69,0.0002510704506430983
+February,202,dose_1_to_9,Flexible minus activity only,13015,69,-2.097962682423571e-05
+February,202,dose_1_to_9,Phase minus history only,13015,69,-0.0007072540554166062
+February,202,dose_ge_10,Phase minus flexible,21800,67,-0.0003971216493904306
+February,202,dose_ge_10,Phase minus proportional clock,21800,67,-0.00020269610951151318
+February,202,dose_ge_10,Phase minus alternate reference,21800,67,0.001999302237369105
+February,202,dose_ge_10,Flexible minus activity only,21800,67,0.001966946816839066
+February,202,dose_ge_10,Phase minus history only,21800,67,7.667019395363184e-05
+February,202,gap_1h_to_1d__dose_zero,Phase minus flexible,1513,51,-0.001898619393121026
+February,202,gap_1h_to_1d__dose_zero,Phase minus proportional clock,1513,51,0.000500364850362367
+February,202,gap_1h_to_1d__dose_zero,Phase minus alternate reference,1513,51,0.009350682833070445
+February,202,gap_1h_to_1d__dose_zero,Flexible minus activity only,1513,51,0.013409116748823724
+February,202,gap_1h_to_1d__dose_zero,Phase minus history only,1513,51,-0.0009214269726364188
+February,202,gap_1h_to_1d__dose_1_to_9,Phase minus flexible,2105,50,-0.0007570575201338858
+February,202,gap_1h_to_1d__dose_1_to_9,Phase minus proportional clock,2105,50,3.8811575546748855e-05
+February,202,gap_1h_to_1d__dose_1_to_9,Phase minus alternate reference,2105,50,0.0023957862368471083
+February,202,gap_1h_to_1d__dose_1_to_9,Flexible minus activity only,2105,50,0.0030603828147653944
+February,202,gap_1h_to_1d__dose_1_to_9,Phase minus history only,2105,50,-0.0014099674837613208
+February,202,gap_1h_to_1d__dose_ge_10,Phase minus flexible,4108,39,-0.0005494993399948189
+February,202,gap_1h_to_1d__dose_ge_10,Phase minus proportional clock,4108,39,0.0008793723536725251
+February,202,gap_1h_to_1d__dose_ge_10,Phase minus alternate reference,4108,39,-0.0036164846729281885
+February,202,gap_1h_to_1d__dose_ge_10,Flexible minus activity only,4108,39,-0.0012766415475409243
+February,202,gap_1h_to_1d__dose_ge_10,Phase minus history only,4108,39,-0.00262601637960036
+February,202,gap_1d_to_7d__dose_zero,Phase minus flexible,2212,56,0.000930806186080102
+February,202,gap_1d_to_7d__dose_zero,Phase minus proportional clock,2212,56,0.00239672451452011
+February,202,gap_1d_to_7d__dose_zero,Phase minus alternate reference,2212,56,0.004508180495428782
+February,202,gap_1d_to_7d__dose_zero,Flexible minus activity only,2212,56,0.003566290566958452
+February,202,gap_1d_to_7d__dose_zero,Phase minus history only,2212,56,-0.0011964387792693376
+February,202,gap_1d_to_7d__dose_1_to_9,Phase minus flexible,4328,57,0.00048755145095091823
+February,202,gap_1d_to_7d__dose_1_to_9,Phase minus proportional clock,4328,57,-0.0003271211436962629
+February,202,gap_1d_to_7d__dose_1_to_9,Phase minus alternate reference,4328,57,0.0024640055962102947
+February,202,gap_1d_to_7d__dose_1_to_9,Flexible minus activity only,4328,57,0.0026798610979135162
+February,202,gap_1d_to_7d__dose_1_to_9,Phase minus history only,4328,57,0.0003602178807791123
+February,202,gap_1d_to_7d__dose_ge_10,Phase minus flexible,3800,47,0.00044768895244140516
+February,202,gap_1d_to_7d__dose_ge_10,Phase minus proportional clock,3800,47,-0.0006447284657278285
+February,202,gap_1d_to_7d__dose_ge_10,Phase minus alternate reference,3800,47,0.0006480663921747398
+February,202,gap_1d_to_7d__dose_ge_10,Flexible minus activity only,3800,47,-0.00036232719895645804
+February,202,gap_1d_to_7d__dose_ge_10,Phase minus history only,3800,47,0.0011943922100157156
+February,202,gap_ge_7d__dose_zero,Phase minus flexible,2679,68,-0.0025999698587482745
+February,202,gap_ge_7d__dose_zero,Phase minus proportional clock,2679,68,-0.0014540527466288533
+February,202,gap_ge_7d__dose_zero,Phase minus alternate reference,2679,68,-0.020964257565114497
+February,202,gap_ge_7d__dose_zero,Flexible minus activity only,2679,68,-0.018491891482956768
+February,202,gap_ge_7d__dose_zero,Phase minus history only,2679,68,-0.00450867853092024
+February,202,gap_ge_7d__dose_1_to_9,Phase minus flexible,6582,68,-0.00020088952548691363
+February,202,gap_ge_7d__dose_1_to_9,Phase minus proportional clock,6582,68,0.0005784207810131115
+February,202,gap_ge_7d__dose_1_to_9,Phase minus alternate reference,6582,68,-0.0004076829778197899
+February,202,gap_ge_7d__dose_1_to_9,Flexible minus activity only,6582,68,-0.001908479036581423
+February,202,gap_ge_7d__dose_1_to_9,Phase minus history only,6582,68,-0.0008443688103491054
+February,202,gap_ge_7d__dose_ge_10,Phase minus flexible,13892,67,-0.000278884089926712
+February,202,gap_ge_7d__dose_ge_10,Phase minus proportional clock,13892,67,0.00012900337814181206
+February,202,gap_ge_7d__dose_ge_10,Phase minus alternate reference,13892,67,0.004851764672885395
+February,202,gap_ge_7d__dose_ge_10,Flexible minus activity only,13892,67,0.004338753818737828
+February,202,gap_ge_7d__dose_ge_10,Phase minus history only,13892,67,0.0006196997813863181
+February,303,all,Phase minus flexible,41219,69,0.00043961949747450824
+February,303,all,Phase minus proportional clock,41219,69,-0.00018959851297439823
+February,303,all,Phase minus alternate reference,41219,69,-0.0005037502919225112
+February,303,all,Flexible minus activity only,41219,69,-0.0004558601468267476
+February,303,all,Phase minus history only,41219,69,8.96008217018407e-05
+February,303,gap_1h_to_1d,Phase minus flexible,7726,58,0.0001285593957479625
+February,303,gap_1h_to_1d,Phase minus proportional clock,7726,58,-0.0004575836585316573
+February,303,gap_1h_to_1d,Phase minus alternate reference,7726,58,-7.116838841580986e-07
+February,303,gap_1h_to_1d,Flexible minus activity only,7726,58,0.004183794670198804
+February,303,gap_1h_to_1d,Phase minus history only,7726,58,-0.0009389304317386493
+February,303,gap_1d_to_7d,Phase minus flexible,10340,60,-0.0003794603023841159
+February,303,gap_1d_to_7d,Phase minus proportional clock,10340,60,-0.0007110332756760096
+February,303,gap_1d_to_7d,Phase minus alternate reference,10340,60,0.0005761848655659874
+February,303,gap_1d_to_7d,Flexible minus activity only,10340,60,0.002134263128245939
+February,303,gap_1d_to_7d,Phase minus history only,10340,60,-0.000884707898496484
+February,303,gap_ge_7d,Phase minus flexible,23153,68,0.0006892552961283993
+February,303,gap_ge_7d,Phase minus proportional clock,23153,68,-0.00010874056849419222
+February,303,gap_ge_7d,Phase minus alternate reference,23153,68,0.00019598002284726412
+February,303,gap_ge_7d,Flexible minus activity only,23153,68,-0.0007419004857021072
+February,303,gap_ge_7d,Phase minus history only,23153,68,0.0002749415616051243
+February,303,dose_zero,Phase minus flexible,6404,68,-0.0012288207380319882
+February,303,dose_zero,Phase minus proportional clock,6404,68,-0.0011633800261501293
+February,303,dose_zero,Phase minus alternate reference,6404,68,0.0058289939598283325
+February,303,dose_zero,Flexible minus activity only,6404,68,0.005207228921776663
+February,303,dose_zero,Phase minus history only,6404,68,-0.0021304146621107245
+February,303,dose_1_to_9,Phase minus flexible,13015,69,0.0008312315038381257
+February,303,dose_1_to_9,Phase minus proportional clock,13015,69,3.3829561556397714e-05
+February,303,dose_1_to_9,Phase minus alternate reference,13015,69,-0.0016435288509115686
+February,303,dose_1_to_9,Flexible minus activity only,13015,69,-0.0008411625758516506
+February,303,dose_1_to_9,Phase minus history only,13015,69,0.0006007470429334472
+February,303,dose_ge_10,Phase minus flexible,21800,67,0.0005132796367203207
+February,303,dose_ge_10,Phase minus proportional clock,21800,67,-0.00013493603490000172
+February,303,dose_ge_10,Phase minus alternate reference,21800,67,-0.0006160704345278267
+February,303,dose_ge_10,Flexible minus activity only,21800,67,-0.0008889838564437591
+February,303,dose_ge_10,Phase minus history only,21800,67,9.254410315584494e-05
+February,303,gap_1h_to_1d__dose_zero,Phase minus flexible,1513,51,-0.0033429102996227478
+February,303,gap_1h_to_1d__dose_zero,Phase minus proportional clock,1513,51,-0.002110472959969134
+February,303,gap_1h_to_1d__dose_zero,Phase minus alternate reference,1513,51,0.0121140089489854
+February,303,gap_1h_to_1d__dose_zero,Flexible minus activity only,1513,51,0.016839469919932792
+February,303,gap_1h_to_1d__dose_zero,Phase minus history only,1513,51,-0.003296377219532576
+February,303,gap_1h_to_1d__dose_1_to_9,Phase minus flexible,2105,50,0.00023979104570981402
+February,303,gap_1h_to_1d__dose_1_to_9,Phase minus proportional clock,2105,50,0.00046545246325746525
+February,303,gap_1h_to_1d__dose_1_to_9,Phase minus alternate reference,2105,50,-0.001855449493083805
+February,303,gap_1h_to_1d__dose_1_to_9,Flexible minus activity only,2105,50,-0.00028496217290452375
+February,303,gap_1h_to_1d__dose_1_to_9,Phase minus history only,2105,50,-0.000696163230697433
+February,303,gap_1h_to_1d__dose_ge_10,Phase minus flexible,4108,39,0.0004927603638285039
+February,303,gap_1h_to_1d__dose_ge_10,Phase minus proportional clock,4108,39,-0.00047501040531328087
+February,303,gap_1h_to_1d__dose_ge_10,Phase minus alternate reference,4108,39,-0.00293502057927042
+February,303,gap_1h_to_1d__dose_ge_10,Flexible minus activity only,4108,39,0.002215052748482882
+February,303,gap_1h_to_1d__dose_ge_10,Phase minus history only,4108,39,-0.0009074188835996866
+February,303,gap_1d_to_7d__dose_zero,Phase minus flexible,2212,56,-0.0014921763891027062
+February,303,gap_1d_to_7d__dose_zero,Phase minus proportional clock,2212,56,0.0002663548559025397
+February,303,gap_1d_to_7d__dose_zero,Phase minus alternate reference,2212,56,0.017636850397710402
+February,303,gap_1d_to_7d__dose_zero,Flexible minus activity only,2212,56,0.015311074348925702
+February,303,gap_1d_to_7d__dose_zero,Phase minus history only,2212,56,-0.002471734590877128
+February,303,gap_1d_to_7d__dose_1_to_9,Phase minus flexible,4328,57,8.579444969847305e-05
+February,303,gap_1d_to_7d__dose_1_to_9,Phase minus proportional clock,4328,57,1.1812280292233801e-05
+February,303,gap_1d_to_7d__dose_1_to_9,Phase minus alternate reference,4328,57,0.003072015832492503
+February,303,gap_1d_to_7d__dose_1_to_9,Flexible minus activity only,4328,57,0.0028821472404140236
+February,303,gap_1d_to_7d__dose_1_to_9,Phase minus history only,4328,57,-9.971557307464352e-05
+February,303,gap_1d_to_7d__dose_ge_10,Phase minus flexible,3800,47,8.362413558471449e-05
+February,303,gap_1d_to_7d__dose_ge_10,Phase minus proportional clock,3800,47,-0.0015449077438561831
+February,303,gap_1d_to_7d__dose_ge_10,Phase minus alternate reference,3800,47,-0.006277841856466515
+February,303,gap_1d_to_7d__dose_ge_10,Flexible minus activity only,3800,47,-0.0028241932784369705
+February,303,gap_1d_to_7d__dose_ge_10,Phase minus history only,3800,47,-0.0011926706006880616
+February,303,gap_ge_7d__dose_zero,Phase minus flexible,2679,68,-0.0001227213423838358
+February,303,gap_ge_7d__dose_zero,Phase minus proportional clock,2679,68,-0.002376581649592757
+February,303,gap_ge_7d__dose_zero,Phase minus alternate reference,2679,68,-0.00862661676624027
+February,303,gap_ge_7d__dose_zero,Flexible minus activity only,2679,68,-0.010708406892967037
+February,303,gap_ge_7d__dose_zero,Phase minus history only,2679,68,-0.0013578818427122386
+February,303,gap_ge_7d__dose_1_to_9,Phase minus flexible,6582,68,0.0011716002027775119
+February,303,gap_ge_7d__dose_1_to_9,Phase minus proportional clock,6582,68,-9.0183471076144e-05
+February,303,gap_ge_7d__dose_1_to_9,Phase minus alternate reference,6582,68,-0.0015180507934098308
+February,303,gap_ge_7d__dose_1_to_9,Flexible minus activity only,6582,68,-0.0011943580724388392
+February,303,gap_ge_7d__dose_1_to_9,Phase minus history only,6582,68,0.0006430570075964814
+February,303,gap_ge_7d__dose_ge_10,Phase minus flexible,13892,67,0.0005514708916346533
+February,303,gap_ge_7d__dose_ge_10,Phase minus proportional clock,13892,67,6.925065755258863e-05
+February,303,gap_ge_7d__dose_ge_10,Phase minus alternate reference,13892,67,0.0019551996204382194
+February,303,gap_ge_7d__dose_ge_10,Flexible minus activity only,13892,67,0.0008296862640981839
+February,303,gap_ge_7d__dose_ge_10,Phase minus history only,13892,67,0.0003116610768368888

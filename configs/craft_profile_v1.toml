@@ -1,0 +1,52 @@
+schema_version = 1
+protocol = "protocols/craft_profile_v1.toml"
+entry_script = "scripts/profile_craft.py"
+config_path = "configs/craft_profile_v1.toml"
+datasets = ["ML-20M"]
+seeds = [42]
+models = ["CRAFT"]
+prepared_path = "resources/corpora/tgbseq/ML-20M_development_v1_retry.npz"
+candidates_path = "results/audit/lcr-ML-20M-ba89635570/artifacts/validation_candidates.npz"
+author_path = "results/audit/q1_preflight_v1/baseline_review/craft"
+layers = 2
+heads = 2
+embedding_size = 128
+history_length = 20
+hidden_dropout = 0.1
+attention_dropout = 0.1
+embedding_dropout = 0.1
+learning_rate = 0.0001
+train_batch_sizes = [200, 1024]
+warmup_steps = 2
+measured_steps = 8
+validation_query_count = 20
+[compute]
+accelerator = "L4"
+timeout_seconds = 1200
+wall_timeout_seconds = 1500
+ephemeral = true
+require_cuda = true
+
+[[input_files]]
+path = "resources/corpora/tgbseq/ML-20M_development_v1_retry.npz"
+sha256 = "87babea3ce4508c9ed0f141dee285c083b213572573ab47cfaa13b739e9826b5"
+
+[[input_files]]
+path = "results/audit/lcr-ML-20M-ba89635570/artifacts/validation_candidates.npz"
+sha256 = "74daa5b8af80e90e6aa98167c41d689bfcb0c4ac6fe8c1e023ef00f2376cbb25"
+
+[[input_files]]
+path = "results/audit/q1_preflight_v1/baseline_review/craft/source_identity.json"
+sha256 = "f7a224b5aa3140a9c3546d430434d9c72fea76a71564adcdd0c183f1c906c0bd"
+
+[[input_files]]
+path = "results/audit/q1_preflight_v1/baseline_review/craft/models/CRAFT.py"
+sha256 = "fc26854a89ccbd58c2bef3699f58720c06e57b7df321d4a0d1691e0393b9e9d7"
+
+[[input_files]]
+path = "results/audit/q1_preflight_v1/baseline_review/craft/models/modules.py"
+sha256 = "e32885b8e923b65370756e762ae1c9e9962172634cad928ce304f0c0f82de0f0"
+
+[[input_files]]
+path = "results/audit/q1_preflight_v1/baseline_review/craft/LICENSE"
+sha256 = "24d69467ed699619c319a1de89377685ac519587c77b1d256734eb2f26b4d8d0"

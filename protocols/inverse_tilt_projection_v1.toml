@@ -1,0 +1,13 @@
+protocol_id = "LCR-P-INVERSE-TILT-001"
+status = "working mathematical and synthetic verification contract; not a model experiment"
+date = "2026-10-16"
+parent = "LCR-E-FIXED-RATE-TILT-001"
+coordinates = "x_i=sqrt(c0/ci)>0, with fixed positive dormant tilt gauge."
+result = "Exact pair factorization yields nonnegative linear lower halfspaces for each oppositely ordered readout/rate pair. Projection is unique Euclidean QP in x. Its solution never decreases an x coordinate; no positivity floor needed."
+algorithm = "Batch cyclic exact dual-coordinate ascent with unit-normal rows, explicit primal/dual/complementarity/stationarity checks, fixed tolerance and maximum cycle budget. Standard convex projection algorithm; no generic optimizer novelty."
+comparison = "Same x-distance all-rate coordinate-floor projection, not earlier Frobenius matrix projection. Fixed-rate feasible set contains all-rate set, so squared x-distance cannot exceed matched all-rate optimum."
+verification = "Exact symbolic factorization and strict witness; independent exhaustive active-set QPs on fixed synthetic cases, rate-cone signs, zero gaps/orthant recovery and invalid-domain rejection."
+limitations = "Fixed gaps/rates/tilt/context only; coordinate metric, not prediction-error/AP/Frobenius optimum. No empirical superiority or exhaustive priority inferred."
+model_fit = false
+gpu_allocated = false
+publication_eligible = false

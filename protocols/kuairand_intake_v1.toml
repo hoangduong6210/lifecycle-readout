@@ -1,0 +1,19 @@
+protocol_id = "LCR-P-KUAIRAND-INTAKE-001"
+status = "prospective-dataset-intake-preflight"
+date = "2026-10-16"
+source_commit = "f8dbf6678b3c9594050e3e813aeff0c942260ec4"
+archive_url = "https://zenodo.org/records/10439422/files/KuaiRand-1K.tar.gz?download=1"
+expected_archive_md5 = "6b0b9c8222d67fcd4c676218edca3f1f"
+max_archive_bytes = 1500000000
+sample_users = 100
+sample_seed = 17
+sampling = "First 100 user IDs ordered by SHA256 of kuairand-intake:17:user_id; retain all their events in the fixed training file. No individual-event thinning."
+training_window = "Only log_standard_4_08_to_4_21_1k.csv is parsed for recurrence; later standard/random logs are not queried."
+metadata = "Only user_features_1k.csv and video_features_basic_1k.csv; monthly aggregate statistic features excluded. Count basic tag availability, do not assume timestamp availability or verified semantics."
+endpoints = ["impression recurrence and positive-click recurrence", "strictly-earlier counts with tied timestamps queried together", "returns after 60, 3600, 86400 seconds", "intervening same-source events and no-competitor returns", "metadata and numeric nonnegative tag coverage"]
+feasibility_gate = "For the fixed 100-user training sample: at least 500 recurrent clicked rows with gap >=3600 seconds across at least 25 users, and >=80 percent clicked-event valid-tag coverage. Engineering planning gate, not a significance or efficacy test."
+compute = "One bounded CPU-only Colab runtime as network fallback, no GPU; source upload, archive checksum, bounded intake, report/prepared sample retrieval, finally stop and backend absence verification."
+interpretation = "Preflight on fixed training inputs only, not model performance, official benchmark reproduction, full corpus validation, causal death labels or novel architecture."
+model_fit = false
+test_scoring_permitted = false
+publication_eligible = false

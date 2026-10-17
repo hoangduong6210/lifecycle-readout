@@ -1,0 +1,37 @@
+protocol_id = "LCR-P-TKDE-001"
+status = "active-tkde-protocol"
+datasets = ["wikipedia", "reddit", "mooc", "lastfm"]
+seeds = [1, 7, 42]
+latent_phases = 5
+split_chronological = [0.70, 0.15, 0.15]
+inductive_unseen_node_ratio = 0.10
+negative_sampling = "bipartite-destination-past-only"
+
+[gates.latent_phase_diversity]
+description = "Ensures no phase collapse; batch entropy must remain high while individual assignments remain sharp."
+metric = "batch_diversity_entropy"
+min_threshold = 1.0
+uncertainty_unit = "nats"
+
+[gates.continuous_transition_stability]
+description = "Verifies ODE decay rates D > 0 and bounded dynamic transition norms."
+metric = "min_decay_rate"
+min_threshold = 0.01
+max_transition_norm = 10.0
+
+[gates.shortcut_mitigation_gain]
+description = "L3-GNN transductive test AP must exceed independent Base TGNN."
+metric = "shortcut_gain_transductive_ap"
+min_threshold = 0.001
+pass_condition = "mean_l3_transductive_ap > mean_base_transductive_ap"
+
+[gates.counterfactual_decay_monotonicity]
+description = "Unforced trajectory monotonicity rate under silence grid [0, 1e1, 1e2, 1e3, 1e4, 1e5, 1e6]."
+metric = "trajectory_monotonicity_rate"
+min_threshold = 0.95
+uncertainty_unit = "percentage"
+
+[acceptance]
+rule = "ALL_GATES_PASS"
+aggregation = "sample_mean_and_ddof1_std_across_three_seeds"
+decision_authority = "formal_audit_before_release"

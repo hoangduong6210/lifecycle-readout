@@ -1,0 +1,15 @@
+schema_version = 1
+protocol = "protocols/lastfm_february_v1.toml"
+primary_cohort = "gap_1d_to_7d__dose_1_to_9"
+bootstrap_replicates = 2000
+bootstrap_rng_seed = 20261016
+bootstrap_rng = "numpy.default_rng.PCG64"
+bootstrap_percentiles = [0.025,0.975]
+bootstrap_quantile_method = "linear"
+support_min_queries = 100
+support_min_users = 10
+cpu_replay_absolute_tolerance = 0.000002
+cpu_threads = 4
+independent_bootstrap_sklearn_replicates = 2000
+secondary_bootstrap = false
+model_fit = false

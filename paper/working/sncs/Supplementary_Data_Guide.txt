@@ -1,0 +1,22 @@
+Supplementary aggregate data
+
+Article: Monotonicity of Temporal Graph Readouts: Exact Certificates and Predictive Limits
+
+These files contain aggregate mathematical examples and model-evaluation summaries. They contain no user-level interaction records, model checkpoints or source datasets. AP and AUC use the unit interval unless explicitly labelled as percentage points (pp). Across-seed SD uses the sample definition. Seeds index trained model/candidate realizations, not independent populations.
+
+Figure3_data.csv: safe/unsafe readout curves and the separate redistribution-coordinate example. The final column is the readout for the first two configurations and coordinate q1 for the redistribution configuration.
+Figure4_data.csv: raw and projected coordinates for the exact synthetic halfspace example. The specified-rate boundary is x1 + 2*x2 = 1; the all-rate lower bound is x2 >= sqrt(1/2).
+Figure6_data.csv: threshold-crossing counts and candidate denominators for every dataset, seed and displayed path.
+Figure7_data.csv: changed-tilt counts and same-coordinate squared distances.
+Figure8_data.csv: January exploratory and February fixed-follow-up seed differences, in AP units.
+Figure8_interval.csv: seed means, conditional February interval, query counts and active-user counts. January has no reported confidence interval.
+Table1_coverage.csv: event and query support counts.
+Table2_paths.csv: the complete displayed path comparison.
+Table3_repairs.csv: AP for original dynamic, raw gradient and both same-metric repairs, plus their deformation.
+Table4_prediction.csv: all seed-level pooled test AP/AUC results, selection epochs and parameter counts.
+LastFM_all_cohorts.csv: all 16 fixed cohorts, six arms, three seeds and both months, including AP, AUC and pair accuracy.
+LastFM_all_contrasts.csv: all five paired AP contrasts in every fixed cohort, seed and month. Cohort names encode the manuscript's gap/dose bins; 'dose_1_to_9' means [1,10), and 'all' means the complete supported population. Cohorts overlap and must not be summed.
+
+January was used for model selection and exploratory subgroup discovery. February used the fixed selected models and prespecified follow-up cohort; its local confirmation screen was not met. The February percentile interval conditions on the frozen models and observed active-user population and does not include optimizer uncertainty or cross-user graph dependence.
+
+Figures 1, 2 and 5 are pipeline/certificate schematics; Figure 4 is analytic geometry; their labels and mathematical definitions are given in the article. Original interaction datasets are governed by their providers' terms and are not redistributed in this package.

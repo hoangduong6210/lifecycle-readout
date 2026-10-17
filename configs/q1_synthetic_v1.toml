@@ -1,0 +1,15 @@
+schema_version = 1
+protocol = "protocols/q1_synthetic_v1.toml"
+seeds = [11, 29, 47]
+scenarios = ["null", "homogeneous_decay", "contextual_decay", "increasing"]
+models = ["scalar", "mixture", "flexible"]
+train_count = 512
+validation_count = 256
+evaluation_count = 2048
+train_time_max = 5.0
+tail_time_max = 12.0
+steps = 300
+learning_rate = 0.02
+hidden_dim = 16
+components = 4
+rate_init = 1.0

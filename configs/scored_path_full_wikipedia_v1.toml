@@ -1,0 +1,52 @@
+schema_version = 1
+protocol = "protocols/scored_path_full_validation_v1.toml"
+entry_script = "scripts/run_scored_path_cohort.py"
+config_path = "configs/scored_path_full_wikipedia_v1.toml"
+datasets = ["wikipedia"]
+seeds = [1, 7, 42]
+parent_attempt = "results/audit/lcr-wikipedia-256094e9e7"
+backbone_batch_size = 128
+candidate_microbatch = 64
+
+[[input_files]]
+path = "results/audit/lcr-wikipedia-256094e9e7/source.zip"
+sha256 = "571c882aaaeb7e2da7d0d621cab458c4c95b403179945963c5fa1a86cc7c0bde"
+
+[[input_files]]
+path = "results/audit/lcr-wikipedia-256094e9e7/artifacts/results.json"
+sha256 = "d3d91176345c3c7c7322c1c29d41897e68468ece2f782cf3a9a969e0833de10d"
+
+[[input_files]]
+path = "scripts/diagnose_scored_silence.py"
+sha256 = "c17c5a3aa9c57f7c0de42c9232af6e6114a59f0ef5f1cf5ce03f74460cf3f929"
+
+[[input_files]]
+path = "results/audit/lcr-wikipedia-256094e9e7/artifacts/seed1/candidate_identity.npz"
+sha256 = "5c68df561ecb117dff39b481a16907f583da823256b562ef878f6e2e008243ef"
+
+[[input_files]]
+path = "results/audit/lcr-wikipedia-256094e9e7/artifacts/seed1/ordered_gate_seed1.pt"
+sha256 = "55ff4d6f55c6fe8b146985ae6f51013744974eb100090cabb8f4497b692c465c"
+
+[[input_files]]
+path = "results/audit/lcr-wikipedia-256094e9e7/artifacts/seed7/candidate_identity.npz"
+sha256 = "4d1750790f06541afe4045f826fb1f3dc1868ba388b83c6fd578973b2d648caa"
+
+[[input_files]]
+path = "results/audit/lcr-wikipedia-256094e9e7/artifacts/seed7/ordered_gate_seed7.pt"
+sha256 = "f7c8ecc77146c75c3cd83db4d8ea66316ef3b372fbb889a5c5297115498801bd"
+
+[[input_files]]
+path = "results/audit/lcr-wikipedia-256094e9e7/artifacts/seed42/candidate_identity.npz"
+sha256 = "94db1307f6c80eb5b9c2f943bd00e3d5f98d6f1f90650eb9723f30f3a442dad9"
+
+[[input_files]]
+path = "results/audit/lcr-wikipedia-256094e9e7/artifacts/seed42/ordered_gate_seed42.pt"
+sha256 = "b576cc4ff823b9a1511c278f6dd352f35de9529fdcc14f3dedbf6f1b7eb9b9d5"
+
+[compute]
+accelerator = "L4"
+timeout_seconds = 3600
+wall_timeout_seconds = 4200
+ephemeral = true
+require_cuda = true

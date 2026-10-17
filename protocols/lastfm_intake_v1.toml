@@ -1,0 +1,27 @@
+protocol_id = "LCR-P-LASTFM-INTAKE-001"
+status = "prospective-fixed-training-intake-no-fit"
+date = "2026-10-16"
+institutional_archive = "https://mtg.upf.edu/static/datasets/last.fm/lastfm-dataset-1K.tar.gz"
+primary_record = "https://zenodo.org/records/6090214"
+archive_md5 = "a79a6808f54f73354789a9fb02cb1e41"
+event_member = "userid-timestamp-artid-artname-traid-traname.tsv"
+event_md5 = "64747b21563e3d2aa95751e0ddc46b68"
+profile_member = "userid-profile.tsv"
+profile_md5 = "c53608b6b445db201098c1489ea497df"
+acquisition = "Primary archive preferred; alternatively original unprocessed TSV ZIPs from public eifuentes GitHub release, accepted ONLY if both uncompressed TSV MD5 values match primary record. No processed parquet or cleaned subset. Failed access retained."
+max_download_bytes = 750000000
+max_event_bytes = 4000000000
+sample_users = 100
+sample_seed = 17
+sampling = "First 100 profile user IDs ordered by SHA256 of lastfm-intake:17:user_id, ID tie-break; inactive IDs are retained, no replacement."
+training_cutoff_exclusive_utc = "2009-01-01T00:00:00Z"
+history = "Keep every sampled-user row before cutoff, including missing/invalid track IDs as competitor events. Only valid UUID track IDs are target dyads. No title-based merging, user-artist substitution or event thinning."
+metadata = "Artist UUID recorded on each training event is an identity proxy, not genre similarity or causal competition. No externally joined future metadata. Missing/invalid UUIDs counted explicitly."
+malformed_rows = "Fail on selected-user pre-cutoff rows lacking six fields or invalid timestamp; retain failure. Track/artist invalid UUIDs are unsupported identities, not silently repaired. Titles may contain tabs after fifth delimiter and are unused."
+endpoints = ["all retained event and valid track/artist coverage", "strictly prior user-track recurrence", "returns after 60, 3600, 86400 seconds", "intervening all-source events including missing-track events; ties excluded at both boundaries"]
+feasibility_gate = "At least 500 recurrent valid-track rows after gap >=3600s across >=25 sampled users; >=80 percent of valid-track training events have valid recorded artist UUID. Planning gate only, not efficacy, significance or fit authorization."
+compute = "Local CPU bounded streaming preparation, no Colab/GPU allocation."
+model_fit = false
+predictor_scored = false
+test_scored = false
+publication_eligible = false

@@ -1,0 +1,27 @@
+schema_version = 1
+protocol = "protocols/tgbseq_baseline_screen_v1.toml"
+entry_script = "scripts/evaluate_stream_baselines.py"
+config_path = "configs/tgbseq_baseline_screen_v1.toml"
+datasets = ["ML-20M"]
+seeds = [42]
+candidate_seed = 42
+models = ["edge_memory", "popularity", "pooled_transition"]
+negative_count = 100
+popularity_pseudocount = 1.0
+transition_prior_mass = 1.0
+max_state_bytes = 2000000000
+prepared_path = "resources/corpora/tgbseq/ML-20M_development_v1_retry.npz"
+[compute]
+accelerator = "L4"
+timeout_seconds = 1800
+wall_timeout_seconds = 2100
+ephemeral = true
+require_cuda = true
+
+[[input_files]]
+path = "resources/corpora/tgbseq/ML-20M_development_v1_retry.npz"
+sha256 = "87babea3ce4508c9ed0f141dee285c083b213572573ab47cfaa13b739e9826b5"
+
+[[input_files]]
+path = "resources/tgbseq_ml20m_development_v1.toml"
+sha256 = "f13a4431967a4a56e9559162cd7d7ab47bdff7357e8ba6b193512338a128ce8d"

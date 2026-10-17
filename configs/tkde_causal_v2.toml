@@ -1,0 +1,26 @@
+schema_version = 2
+protocol = "protocols/lifecycle_tkde_v2.toml"
+datasets = ["wikipedia", "reddit", "mooc", "lastfm"]
+seeds = [1, 7, 42]
+split_seed = 42
+epochs = 10
+batch_size = 256
+learning_rate = 0.001
+weight_decay = 0.00001
+hidden_dim = 128
+time_dim = 32
+max_neighbors = 20
+history_decay = 0.01
+latent_phases = 5
+counterfactual_pairs = 2000
+silence_grid = [0.0, 10.0, 100.0, 1000.0, 10000.0, 100000.0, 1000000.0]
+models = ["base", "ordered_gate", "unordered_gate"]
+
+[compute]
+cli_repository = "https://github.com/googlecolab/google-colab-cli.git"
+cli_commit = "d4f855d885cf39f47af5bcae9cd7f7963c18ef09"
+accelerator = "L4"
+timeout_seconds = 7200
+wall_timeout_seconds = 9000
+ephemeral = true
+require_cuda = true

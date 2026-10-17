@@ -1,0 +1,23 @@
+protocol_id = "LCR-P-REPAIR-VAL-001"
+status = "prospective-posthoc-no-refit-repair-evaluation"
+date = "2026-10-16"
+parents = ["LCR-P-SCORED-FULL-001", "LCR-P-HARD-001"]
+known_results = "Full original scored-path outcomes have been seen. No repair AP or path outcomes inspected before this protocol. Exploratory validation analysis, not independent confirmation."
+datasets = ["wikipedia", "reddit"]
+seeds = [1, 7, 42]
+variants = ["original_dynamic", "legacy_reference", "safe_reference", "gradient_unconstrained", "readout_projected", "coordinate_projected", "zero_safe"]
+reference_clock = 0.0
+reference = "Evaluate learned T(context,0), so the repaired potential has no explicit dependence on the varying clock at fixed context."
+projection = "Frobenius-nearest zero-diagonal gradient-form matrix T_ij=b_j-b_i, gauge b0=0. Unconstrained centered solution is (column sums-row sums)/(2K), shifted by b0. Constrained solution minimizes the same full-matrix norm under active upper bounds via exact finite active-set KKT equations."
+readout_bounds = "b_j<=log(delta_max)-log(delta_max-delta_j) when delta_j<delta_max, otherwise unbounded; delta_j=w_j-w0 from each precision's actual readout."
+coordinate_bounds = "All active b_j<=0; stronger certificate for every nonnegative-gap readout. Same nearest-matrix objective."
+flow_control = "original_dynamic and legacy_reference retain original kernel/clamps. safe_reference, both projections, gradient_unconstrained and zero_safe use identical mass-conserving boundary-safe flow with no artificial log floor. safe-versus-legacy reference isolates this numerical change."
+cohort = "Every supported validation query and both candidates from the verified frozen native anchors; no new sampler, exclusion, fit, parameter update or checkpoint selection."
+primary_ranking_endpoint = "Paired per-seed validation AP: readout_projected minus original_dynamic. Primary AP uses outer-clipped native float32 scores as in parent controls."
+primary_structural_endpoint = "readout_projected trajectory fraction with an adjacent native float32 unclipped probability increase above 1e-5 on the unchanged 25-point normalized grid from 1e-3 to 1e3."
+secondary_endpoints = ["all variant AP/AUC/sampled Brier/pair accuracy", "raw-score AP", "readout versus unconstrained/coordinate/zero controls", "mean absolute probability shift from original", "paired ordering flips", "gradient projection bound-active coverage", "all path violation counts", "float64 positive derivatives above 1e-8", "native-double flags and precision disagreement"]
+interpretation = "A structural repair satisfies its mathematical restriction by design; grid success is an implementation check, not learned semantics. Ranking differences measure posthoc distortion of existing checkpoints, not independently trained superiority, causal effects or full chronological monotonicity."
+compute = "Two sequential bounded owned Colab runtimes with artifact retrieval and backend release verification; inputs are compact hash-bound frozen anchors, parent source code and checkpoints."
+model_fit = false
+test_scoring_permitted = false
+publication_eligible = false

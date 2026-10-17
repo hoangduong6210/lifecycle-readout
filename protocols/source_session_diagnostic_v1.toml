@@ -1,0 +1,12 @@
+protocol_id = "LCR-P-SESSION-DIAG-001"
+status = "posthoc-descriptive-plan-before-session-stratification"
+date = "2026-10-16"
+parent_protocol = "LCR-P-TGBSEQ-SCREEN-001"
+inputs = "Previously audited ML-20M train/validation input and all three retained count-screen reciprocal-rank vectors, bound to the original retrieval index."
+clock = "Current timestamp minus latest strictly earlier timestamp for the same source; simultaneous events cannot update one another. First source timestamp group is unavailable."
+strata = "Four intervals from the 0.25, 0.50 and 0.75 linear quantiles of available TRAIN source gaps only. Equality goes to the higher interval. Missing history is separate; duplicate cuts and empty bins are retained."
+endpoint = "Descriptive validation pooled-transition-minus-popularity MRR within each fixed interval, with counts, fractions, mean/median gap and all original three-model MRRs. Original overall MRR remains primary."
+checks = "Reverify pinned input, candidate identities and prediction-vector hashes; reconstruct gap anchors by independent strict-past lookup; reconstruct aggregate MRRs from retained reciprocal ranks."
+interpretation = "Posthoc observational heterogeneity, not a causal decay effect or evidence for a trained gate. Gap strata may differ in users, destinations, history and calendar time. One candidate draw; no significance or uncertainty across seeds."
+compute = "Local CPU, no training, new scores, candidate sampling, test read or GPU allocation. Stop on identity or schema failure."
+publication_eligible = false
